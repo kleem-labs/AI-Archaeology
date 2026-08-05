@@ -62,6 +62,16 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 043 | [Sampling — Choosing Without Always Taking the Maximum](excavations/043-sampling/README.md) | How should generation choose? |
 | 044 | [Context Windows — How Much Past Can the Model Carry?](excavations/044-context-window/README.md) | How much past can the model carry? |
 | 045 | [A Tiny GPT — Close the Prediction Loop](excavations/045-tiny-gpt/README.md) | How do all parts form a tiny GPT? |
+| 046 | [Perplexity — How Surprised Is the Model?](excavations/046-perplexity/README.md) | How surprised is the model by real held-out text? |
+| 047 | [Evaluation — What Does “Better” Actually Mean?](excavations/047-evaluation/README.md) | What does better mean for the intended job? |
+| 048 | [Hallucination — When Fluent Prediction Outruns Evidence](excavations/048-hallucination/README.md) | When does fluent prediction outrun evidence? |
+| 049 | [Calibration — Does 80% Confidence Mean Eight Out of Ten?](excavations/049-calibration/README.md) | Does stated confidence match observed reliability? |
+| 050 | [Data Quality — What Lessons Did the Model Actually Receive?](excavations/050-data-quality/README.md) | What lessons did the training data actually repeat? |
+| 051 | [Scaling Laws — What Improves When We Add More?](excavations/051-scaling-laws/README.md) | Should resources buy model size, data, or computation? |
+| 052 | [Instruction Tuning — From Continuation to Cooperation](excavations/052-instruction-tuning/README.md) | How does continuation become cooperation? |
+| 053 | [Preference Learning — When Several Answers Are Correct but Not Equally Helpful](excavations/053-preference-learning/README.md) | How can several valid answers still differ in helpfulness? |
+| 054 | [Retrieval-Augmented Generation — Let the Model Look Before It Speaks](excavations/054-retrieval-augmented-generation/README.md) | How can the model consult current evidence before answering? |
+| 055 | [Tool-Using Agents — When Words Must Cause Verified Actions](excavations/055-tool-using-agents/README.md) | When should words invoke a real, permissioned action? |
 
 ## A note on style
 

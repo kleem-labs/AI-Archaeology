@@ -84,3 +84,5 @@ Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 ## Next Need
 
 The mechanism now runs. The next excavations must test what it learned, where it fails, and how modern systems extend it.
+
+[Next: Perplexity](../046-perplexity/README.md)

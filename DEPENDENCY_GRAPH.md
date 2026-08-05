@@ -13,7 +13,10 @@ flowchart TD
  OV --> RE[Regularization] --> VA[Validation] --> GE[Generalization]
  GE --> TN[Tiny Neural Network] --> TO[Tokenization] --> IE[Input Embeddings] --> PI[Positional Information]
  PI --> CM[Causal Masking] --> NT[Next Token Examples] --> LO[Logits]
- LO --> VP[Vocabulary Probabilities] --> SA[Sampling] --> CW[Context Window] --> GPT[Tiny GPT]
+ LO --> VP[Vocabulary Probabilities] --> SA[Sampling] --> CW[Context Window] --> GPT[Tiny GPT] --> PE[Perplexity]
+ PE --> EV[Evaluation] --> HA[Hallucination] --> CA[Calibration]
+ CA --> DQ[Data Quality] --> SL[Scaling Laws] --> IT[Instruction Tuning]
+ IT --> PL[Preference Learning] --> RAG[Retrieval] --> AG[Tool Using Agents]
 ~~~
 
 Every arrow means the earlier idea creates or exposes the problem that forces the later one.
