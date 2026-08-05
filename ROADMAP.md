@@ -1,15 +1,16 @@
 # Roadmap
 
 ## Part I — Seeing the World
-- Features
-- Vectors
-- Distance
-- Geometry
-- Matrices
+- [x] 000 — Before Mathematics Existed
+- [x] 001 — Why Features Exist
+- [x] 002 — Vectors
+- [x] 003 — Distance
+- [x] 004 — Vectors as Change
+- [x] 005 — Matrices
 
 ## Part II — Language
-- Meaning
-- Embeddings
+- [ ] 006 — Meaning
+- [ ] 007 — Embeddings
 
 ## Part III — Transformers
 - Attention

@@ -1,11 +1,10 @@
-# Diagrams
+# Diagrams — Before Mathematics Existed
 
-Reality
-|
-v
-Observations
-|
-v
-???
+```mermaid
+flowchart LR
+    A[Reality] --> B[Observations]
+    B --> C[What should we remember?]
+    C --> D[Features]
+```
 
-The rest of AI is about discovering what belongs in the question marks.
+The rest of AI begins by discovering what deserves to be remembered.

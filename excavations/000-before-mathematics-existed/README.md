@@ -54,3 +54,7 @@ Which features are essential, and which are not?
 
 This question leads naturally to the next excavation:
 **Why Features Exist.**
+
+---
+
+Next: [Excavation 001 — Why Features Exist](../001-why-features-exist/README.md)

@@ -24,3 +24,21 @@ For every concept we answer:
 5. What new problem does this invention create?
 
 The equation always comes last.
+
+## Start Reading
+
+Begin with [Excavation 000](excavations/000-before-mathematics-existed/README.md), or use the [table of contents](SUMMARY.md).
+
+## Run the Experiments
+
+Every excavation contains a small standard-library Python program. From the repository root:
+
+```bash
+python3 excavations/001-why-features-exist/implementation.py
+```
+
+No installation is required for Part I.
+
+## Repository Structure
+
+Each excavation contains a chapter, diagrams, exercises, an executable implementation, and references. See the [roadmap](ROADMAP.md) for what comes next.
