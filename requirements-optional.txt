@@ -1,0 +1,4 @@
+# The plain-Python excavation and its tests require no third-party packages.
+# Install these only after working through the visible operations.
+numpy
+torch

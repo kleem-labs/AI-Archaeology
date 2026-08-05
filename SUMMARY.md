@@ -1,5 +1,7 @@
 # Reading Order
 
+Read the narrative in order. After each chapter, use the matching numbered section in the [visual field guide](diagrams/README.md), [invention exercises](exercises/README.md), and [implementation path](implementations/README.md).
+
 1. [000 — Before Mathematics Existed](excavations/000-before-mathematics-existed/README.md)
 2. [001 — Why Features Exist](excavations/001-why-features-exist/README.md)
 3. [002 — Vectors](excavations/002-vectors/README.md)

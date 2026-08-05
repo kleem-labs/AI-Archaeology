@@ -1,6 +1,6 @@
 # Roadmap
 
-The first narrative arc—Excavations 000 through 016—is now present as a continuous archaeological reconstruction.
+The first narrative arc—Excavations 000 through 016—is present as a continuous archaeological reconstruction, with runnable implementations, visual arguments, and invention exercises.
 
 Future work should preserve three constraints:
 
@@ -8,4 +8,11 @@ Future work should preserve three constraints:
 2. Preserve the learner's reasoning when it creates the discovery.
 3. Introduce no equation until every operation in it has earned a purpose.
 
-Code, larger diagrams, notebooks, and references may be added later only when they strengthen a finished chapter. They should not split the main argument into boilerplate files or turn the repository into generic course notes.
+Code, larger diagrams, notebooks, and references belong in the project when they strengthen a finished chapter. They must not split the main argument into boilerplate files or turn the repository into generic course notes.
+
+## Milestones
+
+- **0.1 — First excavation arc:** book chapters 000–016, diagrams, exercises, plain-Python implementations, NumPy implementations, a PyTorch Transformer block, and automated tests.
+- **0.2 — Interactive field lab:** notebooks that vary inputs and expose intermediate states rather than merely replaying finished formulas.
+- **0.3 — Tiny language model:** tokenizer, training loop, data pipeline, generation, and a fully traced tiny GPT.
+- **1.0 — First complete book:** the wider mathematical path through probability, calculus, optimization, vision, generative models, and modern AI, always derived from concrete failures.

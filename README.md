@@ -39,3 +39,18 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 The questions and discoveries that shaped the original conversation are part of the argument, not side anecdotes: “How many tigers?”, “Where are they?”, comparing like attributes, squaring and rooting differences, distinguishing relevance from similarity, multiplying aligned features, and letting each expert contribute knowledge from its domain.
 
 Each excavation is one coherent Markdown chapter. Diagrams and challenges appear only when they advance the reasoning.
+
+## Build what you discover
+
+The narrative is the spine, but this is not a notes-only project. Each idea can be examined in four ways:
+
+- [read the book](SUMMARY.md);
+- [trace the visual argument](diagrams/README.md);
+- [solve the invention problems](exercises/README.md);
+- [run the ideas from plain Python to PyTorch](implementations/README.md).
+
+Start with the chapter. Run code only after the problem has made the operation meaningful.
+
+## Project standard
+
+The repository is periodically checked against the original teaching agreement in [AUDIT.md](AUDIT.md). Contributions must preserve the observation → failure → discovery sequence; see [CONTRIBUTING.md](CONTRIBUTING.md).
