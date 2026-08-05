@@ -1,0 +1,53 @@
+# Excavation 043 — Sampling — Choosing Without Always Taking the Maximum
+
+[Previous: Excavation 042](../042-vocabulary-probabilities/README.md)
+
+## Problem
+
+The model predicts several plausible next tokens. Taking only the highest probability makes generation repetitive and brittle.
+
+## Naive Attempt
+
+Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
+
+## Why It Fails
+
+The attempt either gives the model forbidden information, discards useful structure, or performs repeated work without solving the actual representation problem.
+
+## Better Attempt
+
+Control the distribution with temperature and optionally restrict it to a credible top set before sampling.
+
+## Why It Still Fails
+
+Sampling changes expression, not knowledge. No decoding rule can repair a model that assigned poor probabilities.
+
+## Key Insight
+
+**Control the distribution with temperature and optionally restrict it to a credible top set before sampling.**
+
+## Mathematics Emerges
+
+$$
+p_i(T)=\frac{e^{\ell_i/T}}{\sum_j e^{\ell_j/T}}
+$$
+
+The equation arrives after every operation has a job.
+
+## Real-World Analogy
+
+A musician follows likely notes but sometimes chooses another harmonious option; neither rigid repetition nor random keys make music.
+
+## Implementation
+
+Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
+
+## Exercises and Connections
+
+- [Invention challenges](exercises.md)
+- [Mistakes](mistakes.md)
+- [Diagram](diagram.md)
+- [References](references.md)
+- [Visual brief](images/README.md)
+
+[Next: Excavation 044](../044-context-window/README.md)

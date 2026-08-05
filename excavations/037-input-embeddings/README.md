@@ -105,3 +105,5 @@ Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 ## Next Need
 
 Tokens now have learnable coordinates, but no position. Excavation 038 must make order visible without confusing position with meaning.
+
+[Next: Position](../038-position/README.md)

@@ -11,7 +11,9 @@ flowchart TD
  GD --> MB[Mini Batches] --> LR[Learning Rate] --> MO[Momentum]
  MO --> IN[Initialization] --> AF[Activation Functions] --> OV[Overfitting]
  OV --> RE[Regularization] --> VA[Validation] --> GE[Generalization]
- GE --> TN[Tiny Neural Network] --> TO[Tokenization] --> IE[Input Embeddings]
+ GE --> TN[Tiny Neural Network] --> TO[Tokenization] --> IE[Input Embeddings] --> PI[Positional Information]
+ PI --> CM[Causal Masking] --> NT[Next Token Examples] --> LO[Logits]
+ LO --> VP[Vocabulary Probabilities] --> SA[Sampling] --> CW[Context Window] --> GPT[Tiny GPT]
 ~~~
 
 Every arrow means the earlier idea creates or exposes the problem that forces the later one.

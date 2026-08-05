@@ -55,6 +55,14 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 036 | [Tokenization](excavations/036-tokenization/README.md) | What pieces can a language model actually see? |
 
 | 037 | [Input Embeddings](excavations/037-input-embeddings/README.md) | How can arbitrary token IDs become learnable coordinates? |
+| 038 | [Position — Why Order Must Enter the Model](excavations/038-position/README.md) | How can the model see order? |
+| 039 | [Causal Masking — Preventing the Future from Leaking Backward](excavations/039-causal-mask/README.md) | How can future answers remain hidden? |
+| 040 | [Next-Token Examples — One Sentence Becomes Many Lessons](excavations/040-next-token-examples/README.md) | How can one sentence create many lessons? |
+| 041 | [Logits — Let Every Vocabulary Token Compete](excavations/041-logits/README.md) | How does context score every token? |
+| 042 | [Vocabulary Probabilities — Turning Scores into a Prediction](excavations/042-vocabulary-probabilities/README.md) | How do scores become probabilities? |
+| 043 | [Sampling — Choosing Without Always Taking the Maximum](excavations/043-sampling/README.md) | How should generation choose? |
+| 044 | [Context Windows — How Much Past Can the Model Carry?](excavations/044-context-window/README.md) | How much past can the model carry? |
+| 045 | [A Tiny GPT — Close the Prediction Loop](excavations/045-tiny-gpt/README.md) | How do all parts form a tiny GPT? |
 
 ## A note on style
 
