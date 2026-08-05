@@ -1,7 +1,10 @@
 import math
 import unittest
 
-from implementations.from_scratch import (
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parents[1] / "excavations/010-query-key-value"))
+from implementation import (
     add, attend_one, dot, euclidean_distance, feed_forward, gradient_descent,
     layer_norm, matrix_vector, residual, stable_softmax, subtract,
 )

@@ -1,6 +1,6 @@
 # Reading Order
 
-Read the narrative in order. After each chapter, use the matching numbered section in the [visual field guide](diagrams/README.md), [invention exercises](exercises/README.md), and [implementation path](implementations/README.md).
+Read the narrative in order. Each excavation folder also contains its own diagram and invention exercises; implementations live beside the chapters that derive them.
 
 1. [000 — Before Mathematics Existed](excavations/000-before-mathematics-existed/README.md)
 2. [001 — Why Features Exist](excavations/001-why-features-exist/README.md)

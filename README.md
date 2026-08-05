@@ -42,14 +42,7 @@ Each excavation is one coherent Markdown chapter. Diagrams and challenges appear
 
 ## Build what you discover
 
-The narrative is the spine, but this is not a notes-only project. Each idea can be examined in four ways:
-
-- [read the book](SUMMARY.md);
-- [trace the visual argument](diagrams/README.md);
-- [solve the invention problems](exercises/README.md);
-- [run the ideas from plain Python to PyTorch](implementations/README.md).
-
-Start with the chapter. Run code only after the problem has made the operation meaningful.
+The narrative is the spine, but this is not a notes-only project. Every excavation directory keeps its chapter, diagram, exercises, and relevant implementation together. Start with the chapter; open its companions only after the problem has made them meaningful.
 
 ## Project standard
 
