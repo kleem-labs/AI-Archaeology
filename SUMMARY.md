@@ -39,3 +39,4 @@ Read the narrative in order. Each excavation folder also contains its own diagra
 35. [034 — Generalization — What Should Survive Beyond the Dataset?](excavations/034-generalization/README.md)
 36. [035 — A Tiny Neural Network — Assemble the Entire Learning Loop](excavations/035-tiny-neural-network/README.md)
 37. [036 — Tokenization](excavations/036-tokenization/README.md)
+38. [037 — Input Embeddings](excavations/037-input-embeddings/README.md)

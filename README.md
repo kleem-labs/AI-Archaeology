@@ -54,6 +54,8 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 035 | [A Tiny Neural Network — Assemble the Entire Learning Loop](excavations/035-tiny-neural-network/README.md) | How do all the learning pieces become one working machine? |
 | 036 | [Tokenization](excavations/036-tokenization/README.md) | What pieces can a language model actually see? |
 
+| 037 | [Input Embeddings](excavations/037-input-embeddings/README.md) | How can arbitrary token IDs become learnable coordinates? |
+
 ## A note on style
 
 The questions and discoveries that shaped the original conversation are part of the argument, not side anecdotes: “How many tigers?”, “Where are they?”, comparing like attributes, squaring and rooting differences, distinguishing relevance from similarity, multiplying aligned features, and letting each expert contribute knowledge from its domain.

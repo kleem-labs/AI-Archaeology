@@ -65,3 +65,5 @@ Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 ## Next Need
 
 Token IDs still contain no relationships. The next excavation must give tokens learnable coordinates and preserve their order.
+
+[Next: Input Embeddings](../037-input-embeddings/README.md)
