@@ -9,19 +9,19 @@
 - [x] 005 — Matrices
 
 ## Part II — Language
-- [ ] 006 — Meaning
-- [ ] 007 — Embeddings
+- [x] 006 — Meaning
+- [x] 007 — Embeddings
 
 ## Part III — Transformers
-- Attention
-- Softmax
-- Query / Key / Value
-- Multi-Head Attention
-- Feed Forward Networks
-- Residual Connections
-- LayerNorm
-- Learning
-- Emergence
+- [x] 008 — Attention
+- [x] 009 — Softmax
+- [x] 010 — Query / Key / Value
+- [ ] 011 — Multi-Head Attention
+- [ ] 012 — Feed-Forward Networks
+- [ ] 013 — Residual Connections
+- [ ] 014 — Layer Normalization
+- [ ] 015 — Learning
+- [ ] 016 — Emergence
 
 ## Part IV — Learning
 - Calculus

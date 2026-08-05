@@ -9,9 +9,21 @@
 5. [004 — Vectors as Change](excavations/004-vectors-as-change/README.md)
 6. [005 — Matrices](excavations/005-matrices/README.md)
 
+## Part II — Language
+
+7. [006 — Meaning](excavations/006-meaning/README.md)
+8. [007 — Embeddings](excavations/007-embeddings/README.md)
+
+## Part III — Transformers
+
+9. [008 — Attention](excavations/008-attention/README.md)
+10. [009 — Softmax](excavations/009-softmax/README.md)
+11. [010 — Query, Key, Value](excavations/010-query-key-value/README.md)
+
 ## Coming Next
 
-- Part II — Meaning and Embeddings
-- Part III — Transformers
+- Multi-Head Attention
+- Feed-Forward Networks
+- Residual Connections and Layer Normalization
 - Part IV — Learning
 - Part V — Modern AI

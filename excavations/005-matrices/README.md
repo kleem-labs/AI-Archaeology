@@ -54,4 +54,4 @@ We can now represent and transform the world. Next we ask how a vector can repre
 
 ---
 
-Previous: [004 — Vectors as Change](../004-vectors-as-change/README.md) · Next: Excavation 006 — Meaning *(coming next)*
+Previous: [004 — Vectors as Change](../004-vectors-as-change/README.md) · Next: [006 — Meaning](../006-meaning/README.md)
