@@ -8,6 +8,10 @@ flowchart TD
  Q --> H[Multi Head Attention] --> N[Feed Forward Networks]
  N --> R[Residual Connections] --> L[Layer Normalization]
  L --> T[Learning] --> EM[Emergence]
+ GD --> MB[Mini Batches] --> LR[Learning Rate] --> MO[Momentum]
+ MO --> IN[Initialization] --> AF[Activation Functions] --> OV[Overfitting]
+ OV --> RE[Regularization] --> VA[Validation] --> GE[Generalization]
+ GE --> TN[Tiny Neural Network]
 ~~~
 
 Every arrow means the earlier idea creates or exposes the problem that forces the later one.

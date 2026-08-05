@@ -1,0 +1,56 @@
+# Excavation 029 — Initialization — Where Should Learning Begin?
+
+[Previous: Excavation 028](../028-momentum/README.md)
+
+## Problem
+
+Before training, every weight needs a value. The starting point decides what signals and gradients the first examples can produce.
+
+## Naive Attempt
+
+Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
+
+## Why It Fails
+
+Useful learners must begin different from one another without making signals vanish or explode.
+
+## Better Attempt
+
+Draw small random weights whose scale depends on how many inputs feed the neuron.
+
+## Why It Still Fails
+
+The repair solves the immediate failure, but good initialization creates workable conditions; it does not encode the solution or guarantee stable training at every depth.
+
+## Key Insight
+
+**Draw small random weights whose scale depends on how many inputs feed the neuron.**
+
+## Mathematics Emerges
+
+$$
+\operatorname{Var}(w)\approx\frac{1}{n_{\text{in}}}
+$$
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+## Real-World Analogy
+
+A team needs different starting hypotheses, but none should begin shouting so loudly that every later observation is ignored.
+
+## Implementation
+
+Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair.
+
+## Exercises
+
+Use the [invention challenges](exercises.md).
+
+## Connections
+
+- [Mistakes](mistakes.md)
+- [Diagram](diagram.md)
+- [References](references.md)
+- [Visual brief](images/README.md)
+
+[Next: Excavation 030](../030-activation-functions/README.md)

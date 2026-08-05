@@ -34,6 +34,25 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 015 | [Learning](excavations/015-learning/README.md) | How does a random machine turn mistakes into improvement? |
 | 016 | [Emergence](excavations/016-emergence/README.md) | What hidden world must be inferred to predict its linguistic traces? |
 
+| 017 | [Probability — Counting What We Do Not Know](excavations/017-probability/README.md) | What failure forces this discovery? |
+| 018 | [Likelihood — Which Hidden Story Produced This Evidence?](excavations/018-likelihood/README.md) | What failure forces this discovery? |
+| 019 | [Information — Why Surprise Needs a Number](excavations/019-information/README.md) | What failure forces this discovery? |
+| 020 | [Entropy — Measuring the Uncertainty of a Whole Situation](excavations/020-entropy/README.md) | What failure forces this discovery? |
+| 021 | [Cross-Entropy — Paying for Confidently Wrong Predictions](excavations/021-cross-entropy/README.md) | What failure forces this discovery? |
+| 022 | [Derivatives — Asking One Weight What It Changed](excavations/022-derivatives/README.md) | What failure forces this discovery? |
+| 023 | [The Chain Rule — Following One Change Through Many Machines](excavations/023-chain-rule/README.md) | What failure forces this discovery? |
+| 024 | [Backpropagation — Reusing Blame Instead of Recomputing It](excavations/024-backpropagation/README.md) | What failure forces this discovery? |
+| 025 | [Gradient Descent — Teaching a Tiny Network](excavations/025-gradient-descent/README.md) | What failure forces this discovery? |
+| 026 | [Mini-Batches — Learning from More Than One Example](excavations/026-mini-batches/README.md) | What failure forces this discovery? |
+| 027 | [Learning Rate — How Large Should the Next Step Be?](excavations/027-learning-rate/README.md) | What failure forces this discovery? |
+| 028 | [Momentum — Remembering Which Way Downhill Persists](excavations/028-momentum/README.md) | What failure forces this discovery? |
+| 029 | [Initialization — Where Should Learning Begin?](excavations/029-initialization/README.md) | What failure forces this discovery? |
+| 030 | [Activation Functions — Why a Network Must Bend](excavations/030-activation-functions/README.md) | What failure forces this discovery? |
+| 031 | [Overfitting — When Perfect Memory Pretends to Be Intelligence](excavations/031-overfitting/README.md) | What failure forces this discovery? |
+| 032 | [Regularization — Making Memorization More Expensive](excavations/032-regularization/README.md) | What failure forces this discovery? |
+| 033 | [Validation — Testing Without Peeking at the Final Exam](excavations/033-validation/README.md) | What failure forces this discovery? |
+| 034 | [Generalization — What Should Survive Beyond the Dataset?](excavations/034-generalization/README.md) | What failure forces this discovery? |
+| 035 | [A Tiny Neural Network — Assemble the Entire Learning Loop](excavations/035-tiny-neural-network/README.md) | What failure forces this discovery? |
 ## A note on style
 
 The questions and discoveries that shaped the original conversation are part of the argument, not side anecdotes: “How many tigers?”, “Where are they?”, comparing like attributes, squaring and rooting differences, distinguishing relevance from similarity, multiplying aligned features, and letting each expert contribute knowledge from its domain.
