@@ -82,6 +82,41 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 063 | [Multi-Agent Coordination — When Should Work Be Divided?](excavations/063-multi-agent-coordination/README.md) | When does delegation help instead of adding coordination failure? |
 | 064 | [Observability — Seeing Why an Agent Failed](excavations/064-observability/README.md) | Which trace reveals where an agent failed? |
 | 065 | [Bounded Autonomy — Building an Agent That Can Be Trusted](excavations/065-bounded-autonomy/README.md) | How can autonomy remain inside an explicit safety envelope? |
+| 066 | [Feedback Loops](excavations/066-feedback-loops/README.md) | Recommendations change what users see, and those changed choices become tomorrow’s training data. |
+| 067 | [Online Learning](excavations/067-online-learning/README.md) | A fraud pattern changes today, but the deployed model learned only from last year. |
+| 068 | [Distribution Drift](excavations/068-distribution-drift/README.md) | The world producing inputs changes after deployment. |
+| 069 | [Controlled Experiments](excavations/069-controlled-experiments/README.md) | A new model performs better after launch, but traffic and season also changed. |
+| 070 | [Bandits — Learning While Choosing](excavations/070-bandits/README.md) | An agent must choose recommendations while still learning which are useful. |
+| 071 | [Features Inside Networks](excavations/071-features-inside-networks/README.md) | A trained network works, but where is “striped animal” represented? |
+| 072 | [Linear Probes](excavations/072-linear-probes/README.md) | Can a hidden layer already separate animal species? |
+| 073 | [Attribution](excavations/073-attribution/README.md) | Which input words influenced one prediction? |
+| 074 | [Superposition](excavations/074-superposition/README.md) | A network stores more useful features than it has individual neurons. |
+| 075 | [Causal Interventions](excavations/075-causal-interventions/README.md) | A probe finds a “tiger” direction. Does the model actually use it? |
+| 076 | [Pixels — Turning Light into Numbers](excavations/076-pixels/README.md) | A camera gives a grid of colored light, not objects. |
+| 077 | [Convolution — Reusing the Same Local Detector](excavations/077-convolution/README.md) | An edge can appear anywhere in an image. |
+| 078 | [Pooling — Keeping Evidence While Shrinking the Map](excavations/078-pooling/README.md) | Local detectors create large activation maps. |
+| 079 | [CNN Hierarchies](excavations/079-cnn-hierarchy/README.md) | Edges are not yet eyes, stripes, or tigers. |
+| 080 | [Vision Transformers](excavations/080-vision-transformers/README.md) | Convolutions bake in locality, but distant image regions may need direct comparison. |
+| 081 | [Autoencoders — Compressing and Rebuilding](excavations/081-autoencoders/README.md) | Can a model preserve what matters using fewer numbers? |
+| 082 | [Latent Space — Coordinates for Hidden Causes](excavations/082-latent-space/README.md) | The bottleneck contains numbers, but do nearby codes vary meaningfully? |
+| 083 | [Autoregressive Generation Beyond Text](excavations/083-autoregressive-generation/README.md) | How can a model generate an image one piece at a time? |
+| 084 | [Diffusion — Learning by Destroying](excavations/084-diffusion/README.md) | How can generation begin without choosing a first meaningful pixel? |
+| 085 | [Denoising — Predicting What the Noise Hid](excavations/085-denoising/README.md) | At one diffusion step, what should the network predict? |
+| 086 | [Rewards — Learning Without Correct Answers](excavations/086-rewards/README.md) | An agent acts over time and receives only eventual success or failure. |
+| 087 | [States, Actions, and Transitions](excavations/087-states-actions-transitions/README.md) | To learn from reward, what must one experience record? |
+| 088 | [Value — Estimating Future Consequences](excavations/088-value-functions/README.md) | Immediate reward cannot distinguish a step toward a distant goal from a dead end. |
+| 089 | [Q-Learning — Improving Values from Experience](excavations/089-q-learning/README.md) | How should one experience update the value of an action? |
+| 090 | [Policy Gradients — Improving the Choices Directly](excavations/090-policy-gradients/README.md) | Value learning still needs a rule converting estimates into action probabilities. |
+| 091 | [Multimodal Alignment](excavations/091-multimodal-alignment/README.md) | How can an image and its caption meet in one representation? |
+| 092 | [Contrastive Learning](excavations/092-contrastive-learning/README.md) | Paired examples should be close, but close relative to what? |
+| 093 | [Speech and Audio](excavations/093-speech-audio/README.md) | Audio is a long pressure waveform whose meaning survives small time shifts. |
+| 094 | [Low-Rank Adaptation](excavations/094-lora/README.md) | How can a huge pretrained model learn a new task without changing every weight? |
+| 095 | [Quantization](excavations/095-quantization/README.md) | How can a model use less memory and faster arithmetic at inference? |
+| 096 | [Distributed Training](excavations/096-distributed-training/README.md) | One machine cannot hold the model, data, and optimizer state. |
+| 097 | [Inference Serving](excavations/097-inference-serving/README.md) | A trained model must answer many users with low latency and bounded cost. |
+| 098 | [Red Teaming](excavations/098-red-teaming/README.md) | Ordinary tests miss adversarial and unusual failures. |
+| 099 | [Governance — Who Decides and Who Is Accountable?](excavations/099-governance/README.md) | A technically safe model still affects people through deployment choices. |
+| 100 | [The Complete AI System — From Observation to Responsible Action](excavations/100-complete-ai-system/README.md) | We have excavated models, data, learning, tools, and controls. How do they become one coherent system? |
 
 ## A note on style
 

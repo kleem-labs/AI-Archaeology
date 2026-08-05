@@ -19,7 +19,14 @@ flowchart TD
  IT --> PL[Preference Learning] --> RAG[Retrieval] --> AG[Tool Using Agents] --> AU[Authority]
  AU --> PI[Prompt Injection] --> PN[Planning] --> ME[Memory]
  ME --> ST[State Machines] --> VE[Verification] --> RI[Retries and Idempotency]
- RI --> MA[Multi Agent Coordination] --> OB[Observability] --> BA[Bounded Autonomy]
+ RI --> MA[Multi Agent Coordination] --> OB[Observability] --> BA[Bounded Autonomy] --> FL[Feedback Loops]
+ FL --> OL[Online Learning] --> DD[Distribution Drift] --> CE[Controlled Experiments] --> BD[Bandits]
+ BD --> FI[Internal Features] --> LP[Linear Probes] --> AT[Attribution] --> SP[Superposition] --> CI[Causal Interventions]
+ CI --> PX[Pixels] --> CO[Convolution] --> PO[Pooling] --> CNN[CNN Hierarchy] --> VT[Vision Transformers]
+ VT --> AE[Autoencoders] --> LS[Latent Space] --> AR[Autoregressive Images] --> DI[Diffusion] --> DN[Denoising]
+ DN --> RW[Rewards] --> SA[States and Actions] --> VA[Value] --> QL[Q Learning] --> PG[Policy Gradients]
+ PG --> MM[Multimodal Alignment] --> CL[Contrastive Learning] --> AU[Audio] --> LR[LoRA] --> QU[Quantization]
+ QU --> DT[Distributed Training] --> IS[Inference Serving] --> RT[Red Teaming] --> GO[Governance] --> CS[Complete AI System]
 ~~~
 
 Every arrow means the earlier idea creates or exposes the problem that forces the later one.

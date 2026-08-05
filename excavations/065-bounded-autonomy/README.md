@@ -59,3 +59,5 @@ Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 ## Next Need
 
 The bounded agent can operate safely within one designed environment. The next arc must excavate learning from feedback, adaptation, and continuous improvement without silently changing its authority.
+
+[Next: Feedback Loops](../066-feedback-loops/README.md)
