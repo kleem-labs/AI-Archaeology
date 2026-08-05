@@ -153,4 +153,4 @@ One attention mechanism creates one geometry of matching. Language may simultane
 
 ---
 
-Previous: [009 — Softmax](../009-softmax/README.md) · Next: Excavation 011 — Multi-Head Attention *(coming next)*
+Previous: [009 — Softmax](../009-softmax/README.md) · Next: [011 — Multi-Head Attention](../011-multi-head-attention/README.md)

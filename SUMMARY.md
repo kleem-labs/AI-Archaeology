@@ -19,11 +19,14 @@
 9. [008 — Attention](excavations/008-attention/README.md)
 10. [009 — Softmax](excavations/009-softmax/README.md)
 11. [010 — Query, Key, Value](excavations/010-query-key-value/README.md)
+12. [011 — Multi-Head Attention](excavations/011-multi-head-attention/README.md)
+13. [012 — Feed-Forward Networks](excavations/012-feed-forward-networks/README.md)
+14. [013 — Residual Connections](excavations/013-residual-connections/README.md)
+15. [014 — Layer Normalization](excavations/014-layer-normalization/README.md)
+16. [015 — Learning](excavations/015-learning/README.md)
 
 ## Coming Next
 
-- Multi-Head Attention
-- Feed-Forward Networks
-- Residual Connections and Layer Normalization
+- Emergence
 - Part IV — Learning
 - Part V — Modern AI

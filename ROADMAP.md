@@ -16,11 +16,11 @@
 - [x] 008 — Attention
 - [x] 009 — Softmax
 - [x] 010 — Query / Key / Value
-- [ ] 011 — Multi-Head Attention
-- [ ] 012 — Feed-Forward Networks
-- [ ] 013 — Residual Connections
-- [ ] 014 — Layer Normalization
-- [ ] 015 — Learning
+- [x] 011 — Multi-Head Attention
+- [x] 012 — Feed-Forward Networks
+- [x] 013 — Residual Connections
+- [x] 014 — Layer Normalization
+- [x] 015 — Learning
 - [ ] 016 — Emergence
 
 ## Part IV — Learning
