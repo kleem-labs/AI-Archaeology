@@ -35,13 +35,24 @@ Each question needs a row of weights:
 
 Stacking the questions creates a **matrix**. Only after that idea is clear do we calculate:
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
-For input [4,5], let the first output use two copies of 4 and three copies of 5: 8+15=23. Let the second use zero copies of 4 and four copies of 5: 0+20=20. The two recipes become the two matrix rows.
+Our animal report has normalized weight signal 4 and speed signal 5.
 
-## Why Every Term Must Exist Before the Equation
+The first output is a threat score: two copies of weight plus three copies of speed, giving 2×4 + 3×5 = 23.
 
-- The right-hand vector **[4,5]** is the input with two features.
+The second is a chase score: ignore weight and take four copies of speed, giving 0×4 + 4×5 = 20.
+
+~~~text
+threat = 2×weight + 3×speed = 2×4 + 3×5 = 23
+chase  = 0×weight + 4×speed = 0×4 + 4×5 = 20
+~~~
+
+Only after these named recipes do they become two matrix rows.
+
+### Give Short Names Only After We Know the Pieces
+
+- The right-hand vector **[4,5]** is shorthand for weight signal 4 and speed signal 5.
 - Each matrix row describes one output; each row needs one weight per input.
 - Multiplication measures one input's contribution to one output.
 - Addition combines all contributions reaching that output.
@@ -53,12 +64,11 @@ Row-by-column multiplication is not a ritual. Each row is one output asking how 
 Only now can we compress that reasoning:
 
 $$
-\begin{bmatrix}2&3\\0&4\end{bmatrix}
-\begin{bmatrix}4\\5\end{bmatrix}
-=
-\begin{bmatrix}2(4)+3(5)\\0(4)+4(5)\end{bmatrix}
-=
-\begin{bmatrix}23\\20\end{bmatrix}
+\text{threat score}=2(4)+3(5)=23
+$$
+
+$$
+\text{chase score}=0(4)+4(5)=20
 $$
 
 

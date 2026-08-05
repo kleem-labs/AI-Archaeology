@@ -28,11 +28,11 @@ A probability distribution expresses model confidence, not truth. Poor calibrati
 
 ## Mathematics Emerges
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 For logits [1,2], softmax gives about [0.27,0.73]. If the observed token is the second, loss is -log(0.73), about 0.31. Assigning it 0.01 would cost about 4.61.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **ℓ_i** is candidate i's raw score.
 - Dividing exponentiated evidence by the sum over all j creates positive probabilities p_i that total one.

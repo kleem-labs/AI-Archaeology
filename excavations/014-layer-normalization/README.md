@@ -23,11 +23,11 @@ The transformation `[1, 2, 3]` and `[10, 20, 30]` then produces the same normali
 
 Only after this procedure feels natural do we compress it:
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 For [1,2,3], the mean is 2. Centering gives [-1,0,1]; their squared average is 2/3. Dividing by its square root gives a zero-centered, predictable-scale pattern. Epsilon matters for [4,4,4], whose spread is zero.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **xᵢ** is one feature of a token and **d** is its number of features.
 - Summing and dividing by d creates μ, the token's average level.

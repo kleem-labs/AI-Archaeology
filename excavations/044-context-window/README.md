@@ -28,11 +28,11 @@ A larger window is not perfect memory. Retrieval, compression, recurrence, and c
 
 ## Mathematics Emerges
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 With 4 tokens, attention forms 4×4=16 query-key comparisons. With 8 tokens it forms 8×8=64—not merely twice as many. This repeated pairing creates square growth.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **n** is the number of tokens inside the active context.
 - Each of n queries can compare with n keys, creating roughly n×n score pairs.

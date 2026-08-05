@@ -28,7 +28,7 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
-## Build the Update from One Real Number
+## Build Every Piece from the Concrete Example
 
 Forget θ for a moment. Our tiny model has one adjustable weight, currently **8**. We want it to become **3**, so its mistake is (weight − 3)². At weight 8, the mistake is 25.
 
@@ -61,7 +61,7 @@ The mistake fell from 25 to 16. That one tenth is the **learning rate**, later w
 
 Too large can jump over the valley. Too small moves safely but slowly.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **θ_t** packages the current weights; our tiny example has only 8.
 - **L** is the mistake measure; here it is (weight − 3)².

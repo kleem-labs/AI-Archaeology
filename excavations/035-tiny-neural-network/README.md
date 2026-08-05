@@ -28,11 +28,11 @@ The repair solves the immediate failure, but a tiny network exposes mechanics bu
 
 ## Mathematics Emerges
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 Input 2 is mixed into a hidden signal, gated, and produces prediction 0.7. If the target is 1, loss sends correction backward through the same steps, changes weights, and the next forward pass may produce 0.8. The arrows are one loop.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **x** is observed input.
 - **Wx+b** mixes features and supplies offsets.

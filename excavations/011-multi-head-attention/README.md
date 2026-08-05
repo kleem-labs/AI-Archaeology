@@ -40,11 +40,11 @@ Averaging would erase which expert supplied which coordinates before the model c
 
 Only now does the compact expression earn its place:
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 Suppose one head returns [grammar=8,topic=1] and another [reference=7,distance=2]. Averaging would mix their coordinate roles. Concatenating keeps [8,1,7,2], after which the output matrix can learn the useful mixture.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **X** is the shared sequence of token representations.
 - Each **headₕ** is an independent Q/K/V retrieval space, needed because relationships should not compete in one distribution.

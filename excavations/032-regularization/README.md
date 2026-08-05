@@ -28,11 +28,11 @@ The repair solves the immediate failure, but regularization expresses a preferen
 
 ## Mathematics Emerges
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 Two models have data loss 2. Model A has squared-weight sum 100; B has 4. With lambda 0.1, totals are 12 and 2.4. The penalty makes the equally fitting but less extreme model preferable.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **L_data** rewards fitting observations.
 - **θ** contains the weights; squaring and summing them creates ||θ||² without signed cancellation.

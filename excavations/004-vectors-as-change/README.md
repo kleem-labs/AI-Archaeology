@@ -20,11 +20,11 @@ Suppose a traveler starts at `[2, 3]` and ends at `[7, 1]`. We can discover the 
 
 Only now is an equation useful:
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 A traveler starts at [2,3] and ends at [7,1]. Removing the start coordinate by coordinate gives [5,-2]. Adding that change to a different start [10,10] produces [15,8], proving the instruction can travel.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **a** is the starting state and **b** the observed destination.
 - Subtraction is forced because we need the change that remains after removing the start.

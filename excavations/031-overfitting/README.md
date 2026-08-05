@@ -28,11 +28,11 @@ The repair solves the immediate failure, but a gap diagnoses overfitting but doe
 
 ## Mathematics Emerges
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 A model has training loss 0.02 and unseen loss 0.17. Subtracting gives a gap of 0.15. The low training number shows memory; the gap measures how much success disappeared outside it.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **L_train** measures error on examples allowed to shape the model.
 - **L_unseen** measures error on held-out observations.

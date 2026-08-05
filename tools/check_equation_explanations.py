@@ -3,11 +3,8 @@
 from pathlib import Path
 
 root = Path(__file__).parents[1]
-heading = "## Why Every Term Must Exist Before the Equation"
-example_headings = (
-    "## Walk It Once with Concrete Values",
-    "## Build the Update from One Real Number",
-)
+heading = "## Build Every Piece from the Concrete Example"
+example_headings = (heading,)
 failures = []
 checked = 0
 

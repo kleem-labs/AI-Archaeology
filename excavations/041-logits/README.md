@@ -28,11 +28,11 @@ Logits have no standalone probability meaning and can shift together without cha
 
 ## Mathematics Emerges
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 Let hidden state be [2,1]. One candidate column [3,0] scores 6; another [0,4] scores 4. Adding each candidate bias adjusts its baseline. These raw comparisons are logits.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **h** is one contextual token vector containing what the Transformer currently knows.
 - **W_vocab** has one scoring direction per vocabulary candidate; multiplication compares h with all candidates at once.

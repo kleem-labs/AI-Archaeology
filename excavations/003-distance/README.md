@@ -44,18 +44,41 @@ Why take the root? The direct line across a space is not the sum of its side len
 
 Only after the reasoning is complete does the notation help:
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
-From [0,0] to [3,4], the feature differences are 3 and 4. Adding gives 7, which is a route along two sides. Squaring gives 9 and 16; adding gives 25; the root gives the direct distance 5.
+Tiger A has weight 220 kg, speed 65 km/h, and age 6 years.
 
-## Why Every Term Must Exist Before the Equation
+Tiger B has weight 225 kg, speed 66 km/h, and age 5 years.
 
-- **x and y** are the two objects being compared; **xᵢ and yᵢ** are the same feature in each.
-- **xᵢ−yᵢ** records disagreement feature by feature.
-- Squaring prevents opposite disagreements from cancelling and makes large mismatches matter more.
-- Summing lets every retained feature contribute one answer.
-- The square root returns squared separation to the original distance scale.
-- **d(x,y)** names the single separation the king asked for.
+Compare the same property with the same property:
+
+~~~text
+weight difference = 225 - 220 =  5
+speed difference  =  66 -  65 =  1
+age difference    =   5 -   6 = -1
+~~~
+
+Adding gives 5 + 1 - 1 = 5. That is wrong: being one year younger cancelled part of the other disagreement.
+
+~~~text
+weight disagreement squared = 5 squared    = 25
+speed disagreement squared  = 1 squared    =  1
+age disagreement squared    = (-1) squared =  1
+total                                      = 27
+~~~
+
+The total is in squared differences. Its square root gives one ordinary separation: about 5.20.
+
+### Give Short Names Only After We Know the Pieces
+
+- **x** is only a nickname for Tiger A's ordered measurements.
+- **y** is only a nickname for Tiger B's ordered measurements.
+- **x1 and y1** are their weights; index 2 means speed; index 3 means age.
+- **xi−yi** abbreviates “compare the same named property,” exactly as above.
+- Squaring repairs the cancellation we just witnessed.
+- Summing combines weight, speed, and age into one answer.
+- The root changes total 27 into distance 5.20.
+- **d(x,y)** merely names “the one separation between these two tigers.”
 
 Only now can we compress that reasoning:
 

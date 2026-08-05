@@ -28,11 +28,11 @@ The repair solves the immediate failure, but random splits fail when future, use
 
 ## Mathematics Emerges
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 With 100 examples, use 60 to change weights, 20 to choose learning rate, and keep 20 sealed. If the sealed 20 guide choices, they stop being an honest final test.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **D** is all available data.
 - The three named subsets exist because weight learning, design choices, and final measurement must not share feedback.

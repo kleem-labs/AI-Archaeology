@@ -58,11 +58,11 @@ Nearby locations can represent similar objects. A movie can be located by humor,
 
 We already understand the object, so notation can compress it:
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 A tiger recorded as weight 220, speed 65, and age 6 becomes [220, 65, 6]. The first slot must always mean weight; otherwise [220, 65, 6] could describe nonsense.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **x** is the object we needed to carry as one package.
 - **x₁ through xₙ** are its agreed measurements; subscripts preserve which feature is which.

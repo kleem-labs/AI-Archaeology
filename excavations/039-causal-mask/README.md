@@ -28,11 +28,11 @@ A mask prevents direct attention leakage; shifted targets and data pipelines mus
 
 ## Mathematics Emerges
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 For position i=2, sources j=0,1,2 receive mask value 0 and remain visible. Sources j=3,4 receive negative infinity; exponentiation turns those scores into zero weight.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **i** is the receiving position and **j** a possible source position.
 - When j≤i, the source is present or past, so adding zero leaves its attention score unchanged.

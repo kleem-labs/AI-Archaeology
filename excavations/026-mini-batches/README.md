@@ -28,11 +28,11 @@ The repair solves the immediate failure, but batch gradients are still estimates
 
 ## Mathematics Emerges
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 Three examples propose gradients [2,4], [4,2], and [3,3]. Adding gives [9,9]; dividing by three gives [3,3]. Without division, merely enlarging the batch would triple the update.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **B** is the selected mini-batch and **|B|** its number of examples.
 - **Lᵢ** is loss for example i; **∇_θLᵢ** is that example's proposed parameter direction.

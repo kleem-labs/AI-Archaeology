@@ -28,11 +28,11 @@ A simple gate such as ReLU turns negative signals off and leaves positive ones a
 
 Only now does the familiar expression describe an understood machine:
 
-## Walk It Once with Concrete Values
+## Build Every Piece from the Concrete Example
 
 Let the first map turn [2,-1] into candidates [3,-4,1]. ReLU closes the -4 path, leaving [3,0,1]. The second map can now recombine different active paths; without the gate both maps reduce to one fixed linear recipe.
 
-## Why Every Term Must Exist Before the Equation
+### Give Short Names Only After We Know the Pieces
 
 - **x** is one token after communication.
 - **W₁x+b₁** expands it into candidate features; b₁ lets a feature activate without forcing the boundary through zero.
