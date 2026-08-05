@@ -52,3 +52,5 @@ Use the [invention challenges](exercises.md).
 - [Diagram](diagram.md)
 - [References](references.md)
 - [Visual brief](images/README.md)
+
+[Next: Tokenization](../036-tokenization/README.md)
