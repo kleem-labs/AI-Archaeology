@@ -28,6 +28,10 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+Story A says a deep print occurs 80% of the time; Story B says 20%. After observing a deep print, the same evidence has likelihood 0.8 under A and 0.2 under B, so A explains this clue four times as well.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **θ** is one proposed hidden explanation.

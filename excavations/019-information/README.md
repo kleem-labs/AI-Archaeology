@@ -28,6 +28,10 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+An event with probability 1/2 carries 1 bit because -log₂(1/2)=1. An event with probability 1/8 carries 3 bits. The rarer observation eliminates more alternatives, so it teaches more.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **P(x)** measures how expected observation x was.

@@ -28,6 +28,10 @@ A fixed learned table cannot extend beyond trained positions, and absolute locat
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+Tiger at position 0 retrieves content [0.8,0.2] and position [0.1,-0.1], producing [0.9,0.1]. The same tiger at position 2 adds a different position vector, so content stays recognizable while order changes.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **token_i** is the vocabulary address appearing at sequence location i.

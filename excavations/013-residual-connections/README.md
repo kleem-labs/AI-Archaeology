@@ -25,6 +25,10 @@ This reconnects directly with Excavation 004: a vector can describe a state, and
 
 Only now do we need the compact rule:
 
+## Walk It Once with Concrete Values
+
+A layer receives [5,2]. If it discovers only a correction [0.5,-1], addition gives [5.5,1]. If no correction is needed, [0,0] preserves [5,2] exactly instead of relearning how to copy it.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **x** is the representation worth preserving.

@@ -28,6 +28,10 @@ The repair solves the immediate failure, but random splits fail when future, use
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+With 100 examples, use 60 to change weights, 20 to choose learning rate, and keep 20 sealed. If the sealed 20 guide choices, they stop being an honest final test.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **D** is all available data.

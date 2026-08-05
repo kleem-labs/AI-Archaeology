@@ -28,6 +28,10 @@ The repair solves the immediate failure, but momentum can overshoot, and its ext
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+Successive gradients are [3,1], [3,-1], [3,1]. The sideways coordinate flips, while the first persists. A fading sum reinforces the repeated 3 direction and partly cancels the wobble.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **g_t** is the newest noisy gradient.

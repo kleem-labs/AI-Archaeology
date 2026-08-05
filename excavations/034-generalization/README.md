@@ -28,6 +28,10 @@ The repair solves the immediate failure, but no benchmark proves universal intel
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+Suppose future cases have losses 1,0,2,1. Their average is 1, our estimate of future risk. Averaging training losses instead would answer how well we remember the past, not deployment.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **θ** is one trained model and **f_θ(x)** its prediction for input x.

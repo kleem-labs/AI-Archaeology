@@ -28,6 +28,10 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+A weight change is doubled by the first machine, tripled by the second, and quadrupled by the loss. One unit at the start becomes 2, then 6, then 24. Multiplying 2×3×4 captures the complete path.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **w→x→y→L** is the causal path through successive machines.

@@ -38,6 +38,10 @@ That question—not a symbol—is the derivative. It measures sensitivity. All t
 
 Only now does the update rule earn its place:
 
+## Walk It Once with Concrete Values
+
+One weight is 8, its target is 3, and its local uphill sensitivity is 10. Taking one tenth of the reversed suggestion moves it to 7 and lowers squared error from 25 to 16.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **θ** is the current collection of learnable weights.

@@ -28,6 +28,10 @@ Padding and document boundaries can create false targets unless their losses are
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+Tokens [the,cat,slept] become inputs [the,cat] and targets [cat,slept]. One forward pass therefore asks “after the?” and “after the cat?” at separate positions.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **t₀…t_n** are consecutive tokens from one observed sequence.

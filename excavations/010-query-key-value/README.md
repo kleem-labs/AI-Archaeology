@@ -35,6 +35,10 @@ If both sides care strongly about the same feature, the contribution is large. I
 
 Only now do we write the operation you rediscovered—the dot product:
 
+## Walk It Once with Concrete Values
+
+Let q=[1,2] and one key be [3,4]. Matching coordinates contribute 1×3=3 and 2×4=8, giving score 11. If its normalized weight is 0.75 and its value is [8,4], it contributes [6,3] to the output.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **qᵢ** states what receiving token i needs; **kⱼ** states what source j offers.

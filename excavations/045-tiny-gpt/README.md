@@ -28,6 +28,10 @@ A tiny GPT demonstrates the mechanism, not modern capability. Scale, data qualit
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+Prompt IDs enter embeddings, pass through a masked block, and produce logits [1,3,0]. Softmax favors the second token; sampling selects it, appends it to the prompt, and runs the same loop again.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **tokens** are discrete addresses produced by the tokenizer.

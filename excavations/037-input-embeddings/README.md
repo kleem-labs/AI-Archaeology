@@ -56,6 +56,10 @@ The ID remains an address. The selected row becomes the representation.
 
 Let the embedding table contain one row for each vocabulary item:
 
+## Walk It Once with Concrete Values
+
+With four tokens and width two, the table might have rows [0.1,0.8], [-0.2,0.4], [0.7,-0.1], [0.3,0.2]. Token ID 2 selects [0.7,-0.1]; the number 2 is only the shelf address.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **V** is the vocabulary and **|V|** its number of token addresses.

@@ -35,6 +35,10 @@ Each question needs a row of weights:
 
 Stacking the questions creates a **matrix**. Only after that idea is clear do we calculate:
 
+## Walk It Once with Concrete Values
+
+For input [4,5], let the first output use two copies of 4 and three copies of 5: 8+15=23. Let the second use zero copies of 4 and four copies of 5: 0+20=20. The two recipes become the two matrix rows.
+
 ## Why Every Term Must Exist Before the Equation
 
 - The right-hand vector **[4,5]** is the input with two features.

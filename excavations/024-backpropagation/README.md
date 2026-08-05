@@ -28,6 +28,10 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+Suppose x feeds two children. The first returns blame 3 through a local sensitivity 2, contributing 6. The second returns blame 4 through sensitivity 5, contributing 20. Total blame reaching x is 26, so both paths must be added.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **x̄** means accumulated sensitivity of final loss to intermediate x.

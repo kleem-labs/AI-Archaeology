@@ -28,6 +28,10 @@ The repair solves the immediate failure, but good initialization creates workabl
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+If 100 independent inputs each arrive near unit scale, weights near unit scale make their sum huge. Scaling typical weight spread by 1/sqrt(100)=0.1 keeps their combined signal near a workable scale.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **w** is one newly initialized weight.

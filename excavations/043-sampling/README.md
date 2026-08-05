@@ -28,6 +28,10 @@ Sampling changes expression, not knowledge. No decoding rule can repair a model 
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+For logits [1,2], T=1 keeps the original gap. T=0.5 turns them into [2,4], making the winner much sharper. T=2 turns them into [0.5,1], making alternatives more plausible.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **ℓ_i** is candidate i's raw logit.

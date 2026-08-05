@@ -28,6 +28,10 @@ Begin with universally representable pieces. Count adjacent pairs and repeatedly
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+In low, lower, lowest, pair l-o appears three times, more than e-r once. Counting selects l-o; merging creates lo. Recounting can then select lo-w and create reusable low.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **a and b** are neighboring current tokens; c(a,b) counts their repeated adjacency because repetition is the evidence for reuse.

@@ -41,6 +41,10 @@ Squares also amplify large scores, but they turn `-5` into `25`, converting stro
 
 After exponentiating, divide each result by their total. Now the values are positive and sum to one. Only after deriving those requirements do we name the result **softmax**:
 
+## Walk It Once with Concrete Values
+
+For scores [1,2], exponentiation gives about [2.72,7.39]. Their total is 10.11. Dividing produces [0.27,0.73]: both remain possible, the larger score gets more weight, and the weights total one.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **sᵢ** is the raw relevance score for candidate i.

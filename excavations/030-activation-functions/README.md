@@ -28,6 +28,10 @@ The repair solves the immediate failure, but every activation has tradeoffs: dea
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+Without a gate, multiplying by 2 and then 3 always equals multiplying once by 6. With ReLU between them, input -1 becomes -2, then 0, then 0—behavior no single multiply-by-6 rule reproduces for both signs.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **x** is the incoming representation.

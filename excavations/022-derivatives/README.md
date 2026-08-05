@@ -28,6 +28,10 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+Use L(w)=w² at w=3. Nudge to 3.001: loss changes from 9 to about 9.006001. Dividing the loss change by 0.001 gives about 6; smaller nudges approach the local sensitivity 6.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **w** is the one weight whose responsibility we are probing.

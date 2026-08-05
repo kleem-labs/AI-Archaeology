@@ -38,6 +38,10 @@ Eventually the geometry becomes a compact compromise among countless relationshi
 
 Only now is notation helpful:
 
+## Walk It Once with Concrete Values
+
+Choose width three. Tiger might currently be [0.8,0.2,-0.4]. The three coordinates do not arrive with names; training moves them until useful relationships fit into this three-number space.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **token** is the discrete symbol whose relationships IDs could not express.

@@ -44,6 +44,10 @@ Why take the root? The direct line across a space is not the sum of its side len
 
 Only after the reasoning is complete does the notation help:
 
+## Walk It Once with Concrete Values
+
+From [0,0] to [3,4], the feature differences are 3 and 4. Adding gives 7, which is a route along two sides. Squaring gives 9 and 16; adding gives 25; the root gives the direct distance 5.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **x and y** are the two objects being compared; **xᵢ and yᵢ** are the same feature in each.

@@ -40,6 +40,10 @@ Averaging would erase which expert supplied which coordinates before the model c
 
 Only now does the compact expression earn its place:
 
+## Walk It Once with Concrete Values
+
+Suppose one head returns [grammar=8,topic=1] and another [reference=7,distance=2]. Averaging would mix their coordinate roles. Concatenating keeps [8,1,7,2], after which the output matrix can learn the useful mixture.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **X** is the shared sequence of token representations.

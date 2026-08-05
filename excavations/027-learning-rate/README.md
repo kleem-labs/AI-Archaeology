@@ -28,6 +28,10 @@ The repair solves the immediate failure, but no single learning rate is best thr
 
 ## Mathematics Emerges
 
+## Walk It Once with Concrete Values
+
+At weight 8 the gradient is 10. Rate 1 moves to -2 and overshoots; rate 0.1 moves to 7; rate 0.01 moves to 7.9. The rate controls travel distance, not downhill direction.
+
 ## Why Every Term Must Exist Before the Equation
 
 - **g_t** is the downhill evidence measured at step t.
