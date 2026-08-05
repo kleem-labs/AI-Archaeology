@@ -28,11 +28,23 @@ The repair solves the immediate failure, but good initialization creates workabl
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **w** is one newly initialized weight.
+- **Var(w)** measures the typical squared spread of starting weights, not their meaning.
+- **n_in** counts signals entering the neuron.
+- Dividing by n_in compensates for adding more independent inputs, preventing their combined signal scale from growing with width.
+- “Approximately” leaves room for activation-specific constants such as Xavier or He scaling.
+
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+Only now can we compress that reasoning:
+
 $$
 \operatorname{Var}(w)\approx\frac{1}{n_{\text{in}}}
 $$
 
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 ## Real-World Analogy
 

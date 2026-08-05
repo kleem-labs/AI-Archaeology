@@ -28,11 +28,23 @@ The repair solves the immediate failure, but no benchmark proves universal intel
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **θ** is one trained model and **f_θ(x)** its prediction for input x.
+- **L(f_θ(x),y)** measures failure against outcome y.
+- **P_future** names the deployment world we actually care about.
+- Sampling (x,y) from that world prevents training data from silently defining success.
+- The expectation averages loss over future cases; **R(θ)** names that future risk.
+
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+Only now can we compress that reasoning:
+
 $$
 R(\theta)=\mathbb{E}_{(x,y)\sim P_{\text{future}}}[L(f_\theta(x),y)]
 $$
 
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 ## Real-World Analogy
 

@@ -38,11 +38,22 @@ Eventually the geometry becomes a compact compromise among countless relationshi
 
 Only now is notation helpful:
 
+## Why Every Term Must Exist Before the Equation
+
+- **token** is the discrete symbol whose relationships IDs could not express.
+- The arrow means “represent as,” not numerical equality.
+- **e** is its dense embedding vector.
+- **Rᵈ** says the vector has d real-valued coordinates; d is chosen capacity, not discovered meaning.
+
+
+This does not claim that coordinate 1 has a simple dictionary name. Meaning may be distributed across many coordinates. What matters is that useful relationships become available to later computations.
+
+Only now can we compress that reasoning:
+
 $$
 \text{token}\longrightarrow \mathbf{e}\in\mathbb{R}^d
 $$
 
-This does not claim that coordinate 1 has a simple dictionary name. Meaning may be distributed across many coordinates. What matters is that useful relationships become available to later computations.
 
 ## A static embedding still fails
 

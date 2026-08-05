@@ -35,6 +35,20 @@ If both sides care strongly about the same feature, the contribution is large. I
 
 Only now do we write the operation you rediscovered—the dot product:
 
+## Why Every Term Must Exist Before the Equation
+
+- **qᵢ** states what receiving token i needs; **kⱼ** states what source j offers.
+- Multiplying matching coordinates rewards aligned needs and offers; opposite signs become negative evidence.
+- Summing over feature r turns many alignments into one score sᵢⱼ.
+- **αᵢⱼ** is that score after normalization: how much i listens to j.
+- **vⱼ** is the content source j contributes; multiplying by α scales its voice.
+- Summing over j combines every permitted source into output oᵢ.
+
+
+Learned matrices create query, key, and value views from each current representation. Their formulas record three roles we already needed; they are not arbitrary symmetry.
+
+Only now can we compress that reasoning:
+
 $$
 s_{ij}=\mathbf{q}_i\cdot\mathbf{k}_j
 =\sum_r q_{ir}k_{jr}
@@ -63,7 +77,6 @@ $$
 \mathbf{o}_i=\sum_j \alpha_{ij}\mathbf{v}_j
 $$
 
-Learned matrices create query, key, and value views from each current representation. Their formulas record three roles we already needed; they are not arbitrary symmetry.
 
 ## Challenge
 

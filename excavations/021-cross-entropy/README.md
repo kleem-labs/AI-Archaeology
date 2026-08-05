@@ -28,9 +28,19 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **P** is the distribution reality supplies; pᵢ weights which outcomes actually occur.
+- **Q** is the model's proposed distribution; qᵢ is the probability it assigned outcome i.
+- **−log qᵢ** makes confident neglect extremely costly.
+- Summing the reality-weighted costs gives one expected prediction penalty H(P,Q).
+
+Only now can we compress that reasoning:
+
 $$
 H(P,Q)=-\sum_i p_i\log q_i
 $$
+
 
 The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 

@@ -28,9 +28,20 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **pᵢ** is the probability of possible outcome i.
+- **−log pᵢ** is the information received if i occurs.
+- Multiplying by pᵢ weights that surprise by how often it is expected to occur.
+- Summing over every i computes average surprise before the outcome is known.
+- **H(P)** names uncertainty of the whole distribution P.
+
+Only now can we compress that reasoning:
+
 $$
 H(P)=-\sum_i p_i\log p_i
 $$
+
 
 The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 

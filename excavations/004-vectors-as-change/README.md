@@ -20,6 +20,15 @@ Suppose a traveler starts at `[2, 3]` and ends at `[7, 1]`. We can discover the 
 
 Only now is an equation useful:
 
+## Why Every Term Must Exist Before the Equation
+
+- **a** is the starting state and **b** the observed destination.
+- Subtraction is forced because we need the change that remains after removing the start.
+- **Δ** names that reusable change, including its signs and directions.
+- Adding Δ back to a must recover b; this second equation checks the meaning of the first.
+
+Only now can we compress that reasoning:
+
 $$
 \Delta=\mathbf{b}-\mathbf{a}=[7-2,1-3]=[5,-2]
 $$
@@ -29,6 +38,7 @@ Add it back and the meaning becomes visible:
 $$
 \mathbf{a}+\Delta=\mathbf{b}
 $$
+
 
 ## Why changes add
 

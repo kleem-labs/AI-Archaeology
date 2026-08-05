@@ -28,9 +28,19 @@ Logits have no standalone probability meaning and can shift together without cha
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **h** is one contextual token vector containing what the Transformer currently knows.
+- **W_vocab** has one scoring direction per vocabulary candidate; multiplication compares h with all candidates at once.
+- **b** allows each token a learned baseline tendency.
+- **ℓ_i** is the resulting unconstrained logit for candidate i—not yet a probability.
+
+Only now can we compress that reasoning:
+
 $$
 \ell_i=hW_{\text{vocab}}+b
 $$
+
 
 The equation arrives after every operation has a job.
 

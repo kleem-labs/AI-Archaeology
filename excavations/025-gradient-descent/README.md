@@ -28,9 +28,20 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **θ_t** is the parameter state before update t; θ_{t+1} is the next state.
+- **L** is the loss and **∇_θL** contains its sensitivity to every parameter.
+- The minus sign moves opposite increasing loss.
+- **η** supplies the missing step size.
+- Repeating the indexed update turns one local correction into training.
+
+Only now can we compress that reasoning:
+
 $$
 \theta_{t+1}=\theta_t-\eta\nabla_\theta L
 $$
+
 
 The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 

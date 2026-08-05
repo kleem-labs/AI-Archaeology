@@ -28,9 +28,21 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **w** is the one weight whose responsibility we are probing.
+- **ε** is a small experimental nudge.
+- **L(w+ε)−L(w)** measures the loss change caused by that nudge.
+- Dividing by ε turns total change into change per unit of weight.
+- The limit shrinks the nudge so the answer becomes local rather than dependent on an arbitrary test step.
+- **dL/dw** names that local sensitivity.
+
+Only now can we compress that reasoning:
+
 $$
 \frac{dL}{dw}=\lim_{\epsilon\to0}\frac{L(w+\epsilon)-L(w)}{\epsilon}
 $$
+
 
 The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 

@@ -28,11 +28,22 @@ The repair solves the immediate failure, but regularization expresses a preferen
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **L_data** rewards fitting observations.
+- **θ** contains the weights; squaring and summing them creates ||θ||² without signed cancellation.
+- **λ** expresses how strongly we prefer smaller machinery relative to data fit.
+- Addition forces training to negotiate prediction accuracy and complexity in one objective.
+
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+Only now can we compress that reasoning:
+
 $$
 L_{\text{total}}=L_{\text{data}}+\lambda\lVert\theta\rVert^2
 $$
 
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 ## Real-World Analogy
 

@@ -40,14 +40,26 @@ Averaging would erase which expert supplied which coordinates before the model c
 
 Only now does the compact expression earn its place:
 
+## Why Every Term Must Exist Before the Equation
+
+- **X** is the shared sequence of token representations.
+- Each **headₕ** is an independent Q/K/V retrieval space, needed because relationships should not compete in one distribution.
+- Concatenation preserves each report instead of averaging distinctions away.
+- **H** counts the parallel heads.
+- **W_O** is learned because the model must decide how the preserved reports should interact and return to the shared width.
+
+
+Each head is the query–key–value mechanism from the previous excavation with independent learned projections.
+
+The analogy has limits. Heads do not always become clean, human-readable professions. Some overlap; some are difficult to interpret. The architectural point is parallel relationship spaces, not a promise of tidy labels.
+
+Only now can we compress that reasoning:
+
 $$
 \operatorname{MultiHead}(X)
 =\operatorname{Concat}(\text{head}_1,\ldots,\text{head}_H)W_O
 $$
 
-Each head is the query–key–value mechanism from the previous excavation with independent learned projections.
-
-The analogy has limits. Heads do not always become clean, human-readable professions. Some overlap; some are difficult to interpret. The architectural point is parallel relationship spaces, not a promise of tidy labels.
 
 ## Challenge
 

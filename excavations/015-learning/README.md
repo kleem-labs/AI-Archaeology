@@ -38,11 +38,24 @@ That question—not a symbol—is the derivative. It measures sensitivity. All t
 
 Only now does the update rule earn its place:
 
+## Why Every Term Must Exist Before the Equation
+
+- **θ** is the current collection of learnable weights.
+- **L** is the measured prediction failure.
+- **∇L** collects how increasing each weight would increase loss.
+- The minus sign reverses that uphill direction.
+- **η** controls step size because direction alone does not say how far to move.
+- The arrow means replace the old weights with the improved ones.
+
+
+$\theta$ is the current state of the weights, $\nabla L$ is a vector of advised change, and $\eta$ controls how large a step to take.
+
+Only now can we compress that reasoning:
+
 $$
 \theta\leftarrow\theta-\eta\nabla L
 $$
 
-$\theta$ is the current state of the weights, $\nabla L$ is a vector of advised change, and $\eta$ controls how large a step to take.
 
 ## How does blame reach billions of weights?
 

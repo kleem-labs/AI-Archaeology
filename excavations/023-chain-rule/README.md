@@ -28,9 +28,19 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **w→x→y→L** is the causal path through successive machines.
+- Each fraction is one local sensitivity: how its output changes when its input changes.
+- Multiplication is forced because a change is scaled at every link it traverses.
+- The product gives the effect of w on L without pretending they touch directly.
+
+Only now can we compress that reasoning:
+
 $$
 \frac{dL}{dw}=\frac{dL}{dy}\frac{dy}{dx}\frac{dx}{dw}
 $$
+
 
 The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 

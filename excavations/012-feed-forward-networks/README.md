@@ -28,10 +28,14 @@ A simple gate such as ReLU turns negative signals off and leaves positive ones a
 
 Only now does the familiar expression describe an understood machine:
 
-$$
-\operatorname{FFN}(\mathbf{x})
-=W_2\,\sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2
-$$
+## Why Every Term Must Exist Before the Equation
+
+- **x** is one token after communication.
+- **W₁x+b₁** expands it into candidate features; b₁ lets a feature activate without forcing the boundary through zero.
+- **σ** is the nonlinear gate that prevents two linear maps collapsing into one.
+- **W₂** recombines active candidates into the model width.
+- **b₂** permits an output offset after recombination.
+
 
 The same workshop is applied separately to every token. It does not communicate across positions; attention already handled that.
 
@@ -41,6 +45,14 @@ feed-forward: what do I make of what I heard?
 ```
 
 The phrase “feed-forward” can sound like the entire model. Here it means the position-wise transformation inside each Transformer block.
+
+Only now can we compress that reasoning:
+
+$$
+\operatorname{FFN}(\mathbf{x})
+=W_2\,\sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2
+$$
+
 
 ## Challenge
 

@@ -28,11 +28,23 @@ The repair solves the immediate failure, but momentum can overshoot, and its ext
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **g_t** is the newest noisy gradient.
+- **v_{t−1}** stores direction accumulated previously.
+- **β** between zero and one controls how much old motion survives; repeated multiplication makes old advice fade.
+- Addition combines memory with new evidence into velocity v_t.
+- **η** scales that velocity before it changes θ.
+
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+Only now can we compress that reasoning:
+
 $$
 v_t=\beta v_{t-1}+g_t,\qquad\theta_{t+1}=\theta_t-\eta v_t
 $$
 
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 ## Real-World Analogy
 

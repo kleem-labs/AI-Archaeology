@@ -58,11 +58,22 @@ Nearby locations can represent similar objects. A movie can be located by humor,
 
 We already understand the object, so notation can compress it:
 
+## Why Every Term Must Exist Before the Equation
+
+- **x** is the object we needed to carry as one package.
+- **x₁ through xₙ** are its agreed measurements; subscripts preserve which feature is which.
+- **n** exists because different problems keep different numbers of features.
+- The brackets bind the measurements without adding or comparing them yet.
+
+
+This says only: one object carries an ordered measurement for each of $n$ agreed features.
+
+Only now can we compress that reasoning:
+
 $$
 \mathbf{x}=[x_1,x_2,\ldots,x_n]
 $$
 
-This says only: one object carries an ordered measurement for each of $n$ agreed features.
 
 ## Challenge
 

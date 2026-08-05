@@ -28,11 +28,22 @@ The repair solves the immediate failure, but every activation has tradeoffs: dea
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **x** is the incoming representation.
+- **W** mixes its features; **b** permits learned thresholds and offsets.
+- **φ** is the necessary nonlinear gate; without it, stacked layers collapse into one linear map.
+- **h** is the hidden representation after both mixing and gating.
+
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+Only now can we compress that reasoning:
+
 $$
 h=\phi(Wx+b)
 $$
 
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 ## Real-World Analogy
 

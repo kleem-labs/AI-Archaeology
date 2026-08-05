@@ -28,9 +28,20 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **x̄** means accumulated sensitivity of final loss to intermediate x.
+- A node can influence several child results y, so every downstream path must contribute.
+- **ȳ** is blame already accumulated at child y.
+- **∂y/∂x** says how strongly x affected that child locally.
+- Multiplication passes blame through one edge; summation combines all outgoing paths.
+
+Only now can we compress that reasoning:
+
 $$
 \bar{x}=\sum_{y\in children(x)}\bar{y}\frac{\partial y}{\partial x}
 $$
+
 
 The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 

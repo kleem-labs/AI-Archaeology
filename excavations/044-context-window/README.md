@@ -28,9 +28,19 @@ A larger window is not perfect memory. Retrieval, compression, recurrence, and c
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **n** is the number of tokens inside the active context.
+- Each of n queries can compare with n keys, creating roughly n×n score pairs.
+- That repeated pairwise work is why cost grows proportionally to n² rather than n.
+- The proportional sign is used because heads, width, batching, and implementation add constants omitted from this scaling argument.
+
+Only now can we compress that reasoning:
+
 $$
 \text{attention cost}\propto n^2
 $$
+
 
 The equation arrives after every operation has a job.
 

@@ -28,9 +28,20 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **θ** is one proposed hidden explanation.
+- **x** is the evidence already observed.
+- The vertical bar means “under the assumption that.”
+- **P(x|θ)** asks how expected this evidence would be if θ were true—the reversal forced by comparing stories.
+- **L(θ|x)** names that same quantity when x is held fixed and explanations vary; it is not automatically a probability over θ.
+
+Only now can we compress that reasoning:
+
 $$
 \mathcal{L}(\theta\mid x)=P(x\mid\theta)
 $$
+
 
 The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 

@@ -28,11 +28,23 @@ The repair solves the immediate failure, but batch gradients are still estimates
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **B** is the selected mini-batch and **|B|** its number of examples.
+- **Lᵢ** is loss for example i; **∇_θLᵢ** is that example's proposed parameter direction.
+- Summing combines the witnesses.
+- Dividing by batch size prevents merely using more examples from making the step proportionally larger.
+- **g_B** is the batch's less noisy gradient estimate.
+
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+Only now can we compress that reasoning:
+
 $$
 g_B=\frac{1}{|B|}\sum_{i\in B}\nabla_\theta L_i
 $$
 
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 ## Real-World Analogy
 

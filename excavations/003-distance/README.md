@@ -44,10 +44,22 @@ Why take the root? The direct line across a space is not the sum of its side len
 
 Only after the reasoning is complete does the notation help:
 
+## Why Every Term Must Exist Before the Equation
+
+- **x and y** are the two objects being compared; **xᵢ and yᵢ** are the same feature in each.
+- **xᵢ−yᵢ** records disagreement feature by feature.
+- Squaring prevents opposite disagreements from cancelling and makes large mismatches matter more.
+- Summing lets every retained feature contribute one answer.
+- The square root returns squared separation to the original distance scale.
+- **d(x,y)** names the single separation the king asked for.
+
+Only now can we compress that reasoning:
+
 $$
 d(\mathbf{x},\mathbf{y})
 =\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots+(x_n-y_n)^2}
 $$
+
 
 The formula is your procedure written compactly.
 

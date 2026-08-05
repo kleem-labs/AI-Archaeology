@@ -28,6 +28,18 @@ Begin with universally representable pieces. Count adjacent pairs and repeatedly
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **a and b** are neighboring current tokens; c(a,b) counts their repeated adjacency because repetition is the evidence for reuse.
+- The star marks the pair selected for merging.
+- **arg max** returns the pair itself, not its count, because that pair must be replaced.
+- Maximizing over every candidate pair makes the merge arise from the corpus rather than a hand-written linguistic rule.
+
+
+Count, choose, merge, and repeat. The symbols only compress the procedure already needed.
+
+Only now can we compress that reasoning:
+
 $$
 c(a,b)=\text{number of adjacent occurrences of }(a,b)
 $$
@@ -36,7 +48,6 @@ $$
 (a^*,b^*)=\operatorname*{arg\,max}_{(a,b)}c(a,b)
 $$
 
-Count, choose, merge, and repeat. The symbols only compress the procedure already needed.
 
 ## Real-World Analogy
 

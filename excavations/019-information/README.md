@@ -28,9 +28,19 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **P(x)** measures how expected observation x was.
+- The logarithm is needed because independent probabilities multiply while information from independent messages should add.
+- Probabilities below one have negative logs, so the minus sign makes information nonnegative.
+- A certain event has P=1 and therefore zero information; rarer events receive more.
+
+Only now can we compress that reasoning:
+
 $$
 I(x)=-\log P(x)
 $$
+
 
 The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 

@@ -28,9 +28,21 @@ A tiny GPT demonstrates the mechanism, not modern capability. Scale, data qualit
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **tokens** are discrete addresses produced by the tokenizer.
+- **embeddings** turn addresses into vectors; Transformer **blocks** contextualize them under causal masking.
+- **logits** score every next-token candidate; **loss** compares those scores with the observed answer.
+- **update** changes parameters using backpropagated error.
+- **sample** chooses a continuation and feeds it back as the next token.
+- The arrows encode one closed causal loop, not an unexplained algebraic equality.
+
+Only now can we compress that reasoning:
+
 $$
 tokens\to embeddings\to blocks\to logits\to loss\to update\to sample
 $$
+
 
 The equation arrives after every operation has a job.
 

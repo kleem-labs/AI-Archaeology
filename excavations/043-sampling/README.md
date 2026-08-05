@@ -28,9 +28,20 @@ Sampling changes expression, not knowledge. No decoding rule can repair a model 
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **ℓ_i** is candidate i's raw logit.
+- **T** is temperature: dividing by T changes score gaps before exponentiation.
+- T<1 enlarges gaps and sharpens choices; T>1 shrinks gaps and spreads probability.
+- Exponentiation preserves ranking while making evidence positive.
+- Summing over every j and dividing normalizes the adjusted evidence into p_i(T).
+
+Only now can we compress that reasoning:
+
 $$
 p_i(T)=\frac{e^{\ell_i/T}}{\sum_j e^{\ell_j/T}}
 $$
+
 
 The equation arrives after every operation has a job.
 

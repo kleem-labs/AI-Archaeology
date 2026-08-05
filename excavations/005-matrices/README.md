@@ -35,6 +35,19 @@ Each question needs a row of weights:
 
 Stacking the questions creates a **matrix**. Only after that idea is clear do we calculate:
 
+## Why Every Term Must Exist Before the Equation
+
+- The right-hand vector **[4,5]** is the input with two features.
+- Each matrix row describes one output; each row needs one weight per input.
+- Multiplication measures one input's contribution to one output.
+- Addition combines all contributions reaching that output.
+- The result **[23,20]** contains one value per matrix row.
+
+
+Row-by-column multiplication is not a ritual. Each row is one output asking how much every input should contribute.
+
+Only now can we compress that reasoning:
+
 $$
 \begin{bmatrix}2&3\\0&4\end{bmatrix}
 \begin{bmatrix}4\\5\end{bmatrix}
@@ -44,7 +57,6 @@ $$
 \begin{bmatrix}23\\20\end{bmatrix}
 $$
 
-Row-by-column multiplication is not a ritual. Each row is one output asking how much every input should contribute.
 
 ## Why order and shape matter
 

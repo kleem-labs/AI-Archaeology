@@ -28,9 +28,19 @@ Padding and document boundaries can create false targets unless their losses are
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **t₀…t_n** are consecutive tokens from one observed sequence.
+- Input x stops one token early because each position needs an answer to its right.
+- Target y starts one token later so y_i is exactly the next token after x_i.
+- The shared length lets one forward pass create a supervised lesson at every position.
+
+Only now can we compress that reasoning:
+
 $$
 x=(t_0,\ldots,t_{n-1}),\qquad y=(t_1,\ldots,t_n)
 $$
+
 
 The equation arrives after every operation has a job.
 

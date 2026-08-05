@@ -28,11 +28,22 @@ The repair solves the immediate failure, but no single learning rate is best thr
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **g_t** is the downhill evidence measured at step t.
+- **η_t** converts direction into a chosen travel distance and may change with time.
+- The minus sign moves against increasing loss.
+- **θ_t** and **θ_{t+1}** distinguish the old and updated parameter states.
+
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+Only now can we compress that reasoning:
+
 $$
 \theta_{t+1}=\theta_t-\eta_t g_t
 $$
 
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 ## Real-World Analogy
 

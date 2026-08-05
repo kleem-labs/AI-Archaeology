@@ -23,6 +23,25 @@ The transformation `[1, 2, 3]` and `[10, 20, 30]` then produces the same normali
 
 Only after this procedure feels natural do we compress it:
 
+## Why Every Term Must Exist Before the Equation
+
+- **xᵢ** is one feature of a token and **d** is its number of features.
+- Summing and dividing by d creates μ, the token's average level.
+- Subtracting μ recenters every feature.
+- Squaring centered values prevents cancellation; averaging them creates variance σ².
+- The square root converts variance to ordinary scale.
+- Dividing produces comparable spread; ε prevents division by zero when no spread exists.
+- **x̂ᵢ** is the normalized feature.
+
+
+The small $\epsilon$ prevents division by zero when every feature is equal.
+
+Forcing every representation to remain permanently standardized would itself be restrictive. Learned scale and shift parameters therefore let the model restore useful volumes and offsets after normalization.
+
+Layer normalization is not intelligence and does not create meaning. It creates stable numerical conditions in which learned transformations can operate.
+
+Only now can we compress that reasoning:
+
 $$
 \mu=\frac1d\sum_i x_i,
 \qquad
@@ -33,11 +52,6 @@ $$
 \widehat{x}_i=\frac{x_i-\mu}{\sqrt{\sigma^2+\epsilon}}
 $$
 
-The small $\epsilon$ prevents division by zero when every feature is equal.
-
-Forcing every representation to remain permanently standardized would itself be restrictive. Learned scale and shift parameters therefore let the model restore useful volumes and offsets after normalization.
-
-Layer normalization is not intelligence and does not create meaning. It creates stable numerical conditions in which learned transformations can operate.
 
 ## Challenge
 

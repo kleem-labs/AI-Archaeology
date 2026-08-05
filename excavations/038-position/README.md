@@ -28,9 +28,20 @@ A fixed learned table cannot extend beyond trained positions, and absolute locat
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **token_i** is the vocabulary address appearing at sequence location i.
+- **E[token_i]** retrieves what that token currently represents.
+- **P_i** represents where the occurrence sits.
+- Addition is possible because both vectors share width and is necessary so every later operation receives content and position together.
+- **z_i** is the combined input at position i.
+
+Only now can we compress that reasoning:
+
 $$
 z_i=E[token_i]+P_i
 $$
+
 
 The equation arrives after every operation has a job.
 

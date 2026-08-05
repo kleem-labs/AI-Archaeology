@@ -28,11 +28,24 @@ The repair solves the immediate failure, but a tiny network exposes mechanics bu
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **x** is observed input.
+- **Wx+b** mixes features and supplies offsets.
+- **φ** bends the mapping so depth adds new behavior.
+- **ŷ** is the prediction and **L** measures its failure.
+- **∇_θL** assigns local correction directions to all parameters θ.
+- **θ′** is the updated state; the arrows show the forward path continuing into feedback rather than separate facts.
+
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+Only now can we compress that reasoning:
+
 $$
 x\to Wx+b\to\phi(\cdot)\to\hat y\to L\to\nabla_\theta L\to\theta^\prime
 $$
 
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 ## Real-World Analogy
 

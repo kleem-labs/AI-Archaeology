@@ -28,11 +28,22 @@ The repair solves the immediate failure, but random splits fail when future, use
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **D** is all available data.
+- The three named subsets exist because weight learning, design choices, and final measurement must not share feedback.
+- Union means they reconstruct the available collection.
+- The intended split also requires no example to leak between sets, even though the compact union symbol alone does not state disjointness.
+
+
+Every operation records a need established above; the equation is the fossil, not the living discovery.
+
+Only now can we compress that reasoning:
+
 $$
 D=D_{\text{train}}\cup D_{\text{validation}}\cup D_{\text{test}}
 $$
 
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 ## Real-World Analogy
 

@@ -28,9 +28,20 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **A** is the uncertain event we need to discuss.
+- The numerator counts observations where A occurred.
+- The denominator counts all comparable opportunities, because an isolated count has no scale.
+- Division turns the count into a share between zero and one.
+- **P(A)** names that evidence-dependent share, not a guarantee.
+
+Only now can we compress that reasoning:
+
 $$
 P(A)=\frac{\text{times }A\text{ occurred}}{\text{comparable observations}}
 $$
+
 
 The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 

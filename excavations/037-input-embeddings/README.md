@@ -56,6 +56,19 @@ The ID remains an address. The selected row becomes the representation.
 
 Let the embedding table contain one row for each vocabulary item:
 
+## Why Every Term Must Exist Before the Equation
+
+- **V** is the vocabulary and **|V|** its number of token addresses.
+- **d** is the compact representation width chosen for the model.
+- **E** therefore needs one row per token and d learnable coordinates per row.
+- **i** is a token ID used only to select row E[i]; **x_i** is the retrieved meaning-bearing vector.
+- **e_i** is the one-hot selector. Multiplying e_i by E produces the same row, explaining why direct lookup is valid and cheaper.
+
+
+Multiplying by a one-hot vector merely selects one row, so an implementation can perform the lookup directly.
+
+Only now can we compress that reasoning:
+
 $$
 E\in\mathbb{R}^{|V|\times d}
 $$
@@ -72,7 +85,6 @@ $$
 \mathbf{x}_i=\mathbf{e}_iE
 $$
 
-Multiplying by a one-hot vector merely selects one row, so an implementation can perform the lookup directly.
 
 ## Real-World Analogy
 

@@ -41,13 +41,24 @@ Squares also amplify large scores, but they turn `-5` into `25`, converting stro
 
 After exponentiating, divide each result by their total. Now the values are positive and sum to one. Only after deriving those requirements do we name the result **softmax**:
 
-$$
-\operatorname{softmax}(s_i)=\frac{e^{s_i}}{\sum_j e^{s_j}}
-$$
+## Why Every Term Must Exist Before the Equation
+
+- **sᵢ** is the raw relevance score for candidate i.
+- Exponentiation makes every weight positive, preserves ordering, suppresses negative evidence, and amplifies strong evidence.
+- The denominator sums evidence from every candidate j because a weight is meaningful only relative to its competitors.
+- Division makes all resulting weights sum to one.
+
 
 For scores `[2, 4, 8]`, the largest score receives almost all the weight, but the others are not forbidden from contributing.
 
 Softmax does not discover relevance. It converts already-computed relevance scores into a smooth distribution of attention.
+
+Only now can we compress that reasoning:
+
+$$
+\operatorname{softmax}(s_i)=\frac{e^{s_i}}{\sum_j e^{s_j}}
+$$
+
 
 ## The missing question
 

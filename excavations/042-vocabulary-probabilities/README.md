@@ -28,9 +28,19 @@ A probability distribution expresses model confidence, not truth. Poor calibrati
 
 ## Mathematics Emerges
 
+## Why Every Term Must Exist Before the Equation
+
+- **ℓ_i** is candidate i's raw score.
+- Dividing exponentiated evidence by the sum over all j creates positive probabilities p_i that total one.
+- **y** is the observed next-token index, so p_y is the probability assigned to what happened.
+- The logarithm converts products across examples into sums and the minus sign makes low assigned probability a large positive loss L.
+
+Only now can we compress that reasoning:
+
 $$
 p_i=\frac{e^{\ell_i}}{\sum_j e^{\ell_j}},\qquad L=-\log p_y
 $$
+
 
 The equation arrives after every operation has a job.
 
