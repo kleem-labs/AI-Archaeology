@@ -22,17 +22,17 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 003 | [Distance](excavations/003-distance/README.md) | How can many differences become one comparison? |
 | 004 | [Vectors as Change](excavations/004-vectors-as-change/README.md) | How do we describe direction as well as amount? |
 | 005 | [Matrices](excavations/005-matrices/README.md) | How can one machine transform any input vector? |
-| 006 | [Meaning](excavations/006-meaning/README.md) | How can symbols constrain one another without a dictionary? |
+| 006 | [Meaning Without a Dictionary](excavations/006-meaning/README.md) | How can symbols constrain one another without a dictionary? |
 | 007 | [Embeddings](excavations/007-embeddings/README.md) | How can those constraints become geometry? |
-| 008 | [Attention](excavations/008-attention/README.md) | How can a token retrieve what matters now? |
-| 009 | [Softmax](excavations/009-softmax/README.md) | How do unstable scores become usable weights? |
+| 008 | [Why Attention Had to Exist](excavations/008-attention/README.md) | How can a token retrieve what matters now? |
+| 009 | [From Scores to Attention](excavations/009-softmax/README.md) | How do unstable scores become usable weights? |
 | 010 | [Query, Key, and Value](excavations/010-query-key-value/README.md) | Who is relevant, and what should they contribute? |
 | 011 | [Multi-Head Attention](excavations/011-multi-head-attention/README.md) | How can several relationships be followed at once? |
 | 012 | [Feed-Forward Networks](excavations/012-feed-forward-networks/README.md) | After communication, how does each token process what it heard? |
 | 013 | [Residual Connections](excavations/013-residual-connections/README.md) | How can depth improve a message without repeatedly erasing it? |
 | 014 | [Layer Normalization](excavations/014-layer-normalization/README.md) | How can representations work at a stable numerical volume? |
-| 015 | [Learning](excavations/015-learning/README.md) | How does a random machine turn mistakes into improvement? |
-| 016 | [Emergence](excavations/016-emergence/README.md) | What hidden world must be inferred to predict its linguistic traces? |
+| 015 | [How a Dead Brain Learns](excavations/015-learning/README.md) | How does a random machine turn mistakes into improvement? |
+| 016 | [The Hidden World Behind Words](excavations/016-emergence/README.md) | What hidden world must be inferred to predict its linguistic traces? |
 | 017 | [Probability — Counting What We Do Not Know](excavations/017-probability/README.md) | How can we act without pretending to be certain? |
 | 018 | [Likelihood — Which Hidden Story Produced This Evidence?](excavations/018-likelihood/README.md) | Which hidden story best explains the evidence? |
 | 019 | [Information — Why Surprise Needs a Number](excavations/019-information/README.md) | Why does a rare message teach us more? |
@@ -52,9 +52,8 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 033 | [Validation — Testing Without Peeking at the Final Exam](excavations/033-validation/README.md) | How can we test without leaking the answers? |
 | 034 | [Generalization — What Should Survive Beyond the Dataset?](excavations/034-generalization/README.md) | What should survive beyond the dataset? |
 | 035 | [A Tiny Neural Network — Assemble the Entire Learning Loop](excavations/035-tiny-neural-network/README.md) | How do all the learning pieces become one working machine? |
-| 036 | [Tokenization](excavations/036-tokenization/README.md) | What pieces can a language model actually see? |
-
-| 037 | [Input Embeddings](excavations/037-input-embeddings/README.md) | How can arbitrary token IDs become learnable coordinates? |
+| 036 | [Tokenization: What Can a Language Model See?](excavations/036-tokenization/README.md) | What pieces can a language model actually see? |
+| 037 | [Input Embeddings: Giving Tokens Learnable Coordinates](excavations/037-input-embeddings/README.md) | How can arbitrary token IDs become learnable coordinates? |
 | 038 | [Position — Why Order Must Enter the Model](excavations/038-position/README.md) | How can the model see order? |
 | 039 | [Causal Masking — Preventing the Future from Leaking Backward](excavations/039-causal-mask/README.md) | How can future answers remain hidden? |
 | 040 | [Next-Token Examples — One Sentence Becomes Many Lessons](excavations/040-next-token-examples/README.md) | How can one sentence create many lessons? |
