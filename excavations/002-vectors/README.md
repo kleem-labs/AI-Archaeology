@@ -1,104 +1,75 @@
 # Excavation 002 — Vectors
 
-## The Problem: A Bag of Measurements Is Not Yet Geometry
+[Previous: Why Features Exist](../001-why-features-exist/README.md)
 
-Our tiger has four measurements: 4 legs, 180 kilograms, a stripe flag of 1, and 7-centimeter teeth. Keeping them as separate variables works for one animal. For a million animals, every comparison becomes a tangle of special cases.
-
-We want one object that can be stored, compared, moved, and transformed by general rules.
-
-## The Invention: An Ordered List
-
-Choose a feature order:
+Civilization has grown. Reports arrive all day:
 
 ```text
-[legs, mass_kg, has_stripes, tooth_cm]
+tiger near river
+three deer north
+hunter injured
+water low
 ```
 
-Now write the tiger as:
+The crisis is no longer noticing. It is organizing.
 
-$$
-\mathbf{x}=[4,180,1,7]
-$$
+A table helps: one row per animal, one column per property. But to compare, copy, or transform one animal, we want to lift its row out as a single object.
 
-This is a **vector**. The brackets are not the important part. The agreement about position is.
+## The package
 
-## Failed Attempt: Ignore Order
+First agree on an order:
 
-Suppose one program writes `[4, 180, 1, 7]`, while another expects `[mass, legs, tooth, stripes]`. The second program reads the same numbers as 4 kilograms, 180 legs, 1-centimeter teeth, and 7 stripe flags.
-
-The computer performs the calculation flawlessly on a meaningless representation.
-
-Vector dimensions do not carry names inside the arithmetic. Meaning comes from the schema surrounding them.
-
-## The Geometric Leap
-
-For two features, a vector is a point on a plane. Imagine describing fruit by sweetness and acidity:
-
-| Fruit | Sweetness | Acidity | Vector |
-|---|---:|---:|---|
-| lemon | 1 | 9 | `[1, 9]` |
-| orange | 6 | 6 | `[6, 6]` |
-| banana | 9 | 2 | `[9, 2]` |
-
-Plotting these points turns a table into a map. Nearby regions may correspond to similar tastes. With 300 features, we cannot draw the space, but the arithmetic works exactly the same way.
-
-This gives a vector two interpretations:
-
-- A **record** containing features about one object.
-- A **position** in a feature space shared by all objects.
-
-## Worked Example: Adding Vectors
-
-If `[2, 3]` represents two resource quantities and `[4, 1]` represents more resources, then:
-
-$$
-[2,3]+[4,1]=[6,4]
-$$
-
-Addition operates coordinate by coordinate. It is meaningful only when corresponding coordinates describe compatible things. Adding `[height, weight]` to `[temperature, price]` is legal arithmetic but nonsense modeling.
-
-## The Scale Trap
-
-Return to the animal vectors. Mass ranges from 90 to 350; the stripe flag ranges only from 0 to 1. In many calculations, a 100-kilogram difference overwhelms every other feature.
-
-Min-max normalization maps each observed feature into the range 0 to 1:
-
-$$
-x'=\frac{x-x_{\min}}{x_{\max}-x_{\min}}
-$$
-
-For masses 90, 180, and 350 kilograms, the normalized values are approximately 0, 0.346, and 1. Normalization does not discover importance; it merely prevents numeric units from deciding importance accidentally.
-
-## Code Walkthrough
-
-`implementation.py` builds three operations from plain Python:
-
-- `add` combines matching dimensions.
-- `scale` multiplies every coordinate by one number.
-- `min_max_normalize` finds each column's range, then rescales its values.
-
-Notice the dimension check in `add`. Try `add([1, 2], [3])`. Refusing mismatched vectors is better than returning a plausible-looking wrong answer.
-
-Run:
-
-```bash
-python3 excavations/002-vectors/implementation.py
+```text
+[weight, speed, age]
 ```
 
-The leg dimension becomes zero for every animal because all observed animals have four legs. Within this tiny dataset, that feature provides no information for distinguishing them.
+Then an animal can be carried as:
 
-## Common Misconceptions
+```text
+tiger = [220, 65, 6]
+rabbit = [2, 45, 1]
+```
 
-**“A vector is an arrow.”** An arrow is a useful geometric picture. In AI, a vector is usually an ordered array whose dimensions encode a representation.
+The brackets are not the discovery. The discovery is that many related measurements can travel together without losing which feature each position represents. Only now do we call that ordered package a **vector**.
 
-**“More dimensions always mean more knowledge.”** Extra dimensions can be redundant or noisy.
+## What fails if order is ignored
 
-**“Normalization makes features equally important.”** It makes scales comparable. The model can still weight them differently.
+If one person writes `[weight, speed, age]` and another reads `[age, weight, speed]`, the numbers survive but the meaning does not. A vector is never “just numbers.” It is numbers plus an agreement about what each coordinate means.
 
-## What We Unearthed
+## From a package to a place
 
-Vectors give observations positions in a shared space. The next unavoidable question is: how do we decide whether two positions are close?
+Imagine using only weight and speed. Every animal now has a location—not in the jungle, but in a space whose directions mean properties.
 
----
+```text
+speed
+  ↑       rabbit •
+  |
+  |                         • tiger
+  +--------------------------------→ weight
+```
 
-Previous: [001 — Why Features Exist](../001-why-features-exist/README.md) · Next: [003 — Distance](../003-distance/README.md)
+The tiger's properties locate it. With three features it lies in three-dimensional feature space. With ten thousand features the same idea continues, even though we cannot picture it.
+
+This was the great leap in your original excavation: geometry stopped meaning only “Where is the tiger?” It could now help answer “What is the tiger like?”
+
+Nearby locations can represent similar objects. A movie can be located by humor, romance, and violence. A song can be located by tempo, instrumentation, and mood. Modern AI uses the same move: turn something difficult to compare into a point whose coordinates can be compared.
+
+## The first equation earns its place
+
+We already understand the object, so notation can compress it:
+
+$$
+\mathbf{x}=[x_1,x_2,\ldots,x_n]
+$$
+
+This says only: one object carries an ordered measurement for each of $n$ agreed features.
+
+## Challenge
+
+Two vectors contain the same numbers in different orders. Are they the same representation? State the missing agreement needed to answer.
+
+## What the next excavation needs
+
+A thousand feature differences still give a thousand answers. To say which animal is closest, we need those differences to become one number.
+
+[Next: Distance](../003-distance/README.md)

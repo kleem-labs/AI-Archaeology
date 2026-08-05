@@ -1,44 +1,41 @@
 # AI Archaeology
 
-## Rediscovering Every Mathematical Idea Behind Modern AI
+**Rediscover the ideas behind modern AI from the problems that forced them to exist.**
 
-This repository is not about memorizing equations.
+This book does not begin with formulas. It begins with a person facing reality without inherited mathematics.
 
-It is about rediscovering them.
+Every excavation follows the same discipline:
 
-The central question is:
-
-> If all mathematical knowledge about AI disappeared tomorrow, how would humanity rediscover it from first principles?
-
-Every chapter starts with a real engineering problem.
-Only after the problem becomes unavoidable do we invent the mathematics.
-
-## Learning Philosophy
-
-For every concept we answer:
-
-1. What problem exists?
-2. Why do obvious solutions fail?
-3. What information do we actually have?
-4. What mathematical object naturally solves it?
-5. What new problem does this invention create?
-
-The equation always comes last.
-
-## Start Reading
-
-Begin with [Excavation 000](excavations/000-before-mathematics-existed/README.md), or use the [table of contents](SUMMARY.md).
-
-## Run the Experiments
-
-Every excavation contains a small standard-library Python program. From the repository root:
-
-```bash
-python3 excavations/001-why-features-exist/implementation.py
+```text
+reality → question → naive attempt → failure → discovery → equation
 ```
 
-No installation is required for Part I.
+The reader should want the mathematics before seeing it. Symbols are compressed records of reasoning, not substitutes for reasoning.
 
-## Repository Structure
+## Excavations
 
-Each excavation contains a chapter, diagrams, exercises, an executable implementation, and references. See the [roadmap](ROADMAP.md) for what comes next.
+| # | Excavation | The question that opens it |
+|---:|---|---|
+| 000 | [Before Mathematics Existed](excavations/000-before-mathematics-existed/README.md) | Why can experience teach us anything? |
+| 001 | [Why Features Exist](excavations/001-why-features-exist/README.md) | Which details should survive compression? |
+| 002 | [Vectors](excavations/002-vectors/README.md) | How can related measurements travel as one object? |
+| 003 | [Distance](excavations/003-distance/README.md) | How can many differences become one comparison? |
+| 004 | [Vectors as Change](excavations/004-vectors-as-change/README.md) | How do we describe direction as well as amount? |
+| 005 | [Matrices](excavations/005-matrices/README.md) | How can one machine transform any input vector? |
+| 006 | [Meaning](excavations/006-meaning/README.md) | How can symbols constrain one another without a dictionary? |
+| 007 | [Embeddings](excavations/007-embeddings/README.md) | How can those constraints become geometry? |
+| 008 | [Attention](excavations/008-attention/README.md) | How can a token retrieve what matters now? |
+| 009 | [Softmax](excavations/009-softmax/README.md) | How do unstable scores become usable weights? |
+| 010 | [Query, Key, and Value](excavations/010-query-key-value/README.md) | Who is relevant, and what should they contribute? |
+| 011 | [Multi-Head Attention](excavations/011-multi-head-attention/README.md) | How can several relationships be followed at once? |
+| 012 | [Feed-Forward Networks](excavations/012-feed-forward-networks/README.md) | After communication, how does each token process what it heard? |
+| 013 | [Residual Connections](excavations/013-residual-connections/README.md) | How can depth improve a message without repeatedly erasing it? |
+| 014 | [Layer Normalization](excavations/014-layer-normalization/README.md) | How can representations work at a stable numerical volume? |
+| 015 | [Learning](excavations/015-learning/README.md) | How does a random machine turn mistakes into improvement? |
+| 016 | [Emergence](excavations/016-emergence/README.md) | What hidden world must be inferred to predict its linguistic traces? |
+
+## A note on style
+
+The questions and discoveries that shaped the original conversation are part of the argument, not side anecdotes: “How many tigers?”, “Where are they?”, comparing like attributes, squaring and rooting differences, distinguishing relevance from similarity, multiplying aligned features, and letting each expert contribute knowledge from its domain.
+
+Each excavation is one coherent Markdown chapter. Diagrams and challenges appear only when they advance the reasoning.

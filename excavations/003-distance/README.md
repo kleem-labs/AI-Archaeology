@@ -1,112 +1,68 @@
 # Excavation 003 — Distance
 
-## The Problem: What Does “Similar” Mean?
+[Previous: Vectors](../002-vectors/README.md)
 
-Vectors place objects in a shared space. Suppose a new animal has vector `[4, 200, 1, 6]`. Is it more like our tiger `[4, 180, 1, 7]`, zebra `[4, 350, 1, 2.5]`, or deer `[4, 90, 0, 1.5]`?
+The king asks for the animal most similar to Tiger A.
 
-Looking at four columns is manageable. Looking at four thousand is not. We need one number summarizing separation.
-
-## Failed Attempt 1: Count Unequal Coordinates
-
-The new animal differs from the tiger in mass and tooth length: two coordinates. It also differs from the zebra in mass and tooth length: two coordinates. This method calls them equally distant.
-
-But 20 kilograms is not the same change as 150 kilograms. Counting differences throws away magnitude.
-
-## Failed Attempt 2: Add Signed Differences
-
-Try summing coordinate differences. Between `[0, 10]` and `[10, 0]`, the differences are `-10` and `10`; their sum is zero. Two large changes cancel and falsely imply no distance.
-
-A distance needs every changed dimension to contribute positively.
-
-## Rediscovering Euclidean Distance
-
-Start in two dimensions. From point `[1, 2]` to `[4, 6]`, we move 3 units horizontally and 4 vertically. Those movements form the sides of a right triangle. The direct path is its hypotenuse:
-
-$$
-d=\sqrt{3^2+4^2}=5
-$$
-
-For any number of dimensions:
-
-$$
-d(\mathbf{x},\mathbf{y})=\sqrt{\sum_i(x_i-y_i)^2}
-$$
-
-The formula follows four deliberate steps:
-
-1. Subtract corresponding coordinates.
-2. Square each difference so signs cannot cancel.
-3. Add every dimension's contribution.
-4. Take the square root to undo the squared units.
-
-## Worked Animal Example
-
-Using only normalized mass and tooth length, suppose:
-
-- query: `[0.42, 0.82]`
-- tiger: `[0.35, 1.00]`
-- zebra: `[1.00, 0.18]`
-
-Then:
-
-$$
-d(\text{query},\text{tiger})
-=\sqrt{(0.42-0.35)^2+(0.82-1)^2}
-\approx0.193
-$$
-
-$$
-d(\text{query},\text{zebra})
-=\sqrt{(0.42-1)^2+(0.82-0.18)^2}
-\approx0.864
-$$
-
-The query is much closer to the tiger under this representation and metric.
-
-## Different Distances Ask Different Questions
-
-**Manhattan distance** adds absolute changes:
-
-$$d_1(\mathbf{x},\mathbf{y})=\sum_i|x_i-y_i|$$
-
-It imagines movement along grid lines. **Euclidean distance** measures the straight path. **Cosine similarity**, introduced later, asks whether vectors point in similar directions and largely ignores their lengths.
-
-No metric is simply “the truth.” A metric encodes which differences matter and how they combine.
-
-## Weighted Distance
-
-If tooth length is twice as important as mass for danger, we can use:
-
-$$
-d=\sqrt{1(x_{mass}-y_{mass})^2+2(x_{tooth}-y_{tooth})^2}
-$$
-
-Choosing weights is choosing a geometry. The same points acquire different neighbors when the geometry changes.
-
-## Code Walkthrough
-
-`implementation.py` defines Euclidean and Manhattan distance directly. Both call `_check` because comparing vectors with different schemas is undefined.
-
-Run:
-
-```bash
-python3 excavations/003-distance/implementation.py
+```text
+Tiger A = [220, 65, 6]
+Tiger B = [225, 66, 5]
+Rabbit  = [  2, 45, 1]
 ```
 
-The raw calculation is dominated by mass. Modify the data to normalized values and observe how the ranking can change. That is not a bug; it reveals that preprocessing participates in the definition of similarity.
+The answer feels obvious. A computer still needs a procedure.
 
-## Common Misconceptions
+## First attempt: compare one feature
 
-**“The nearest item is objectively the most similar.”** It is nearest under a particular representation, scaling, and metric.
+Weight alone can find a crocodile that weighs the same as a tiger. Add speed and another unrelated animal may still match. Every omitted property is a place for a false conclusion to hide.
 
-**“Distance works naturally in any number of dimensions.”** In very high dimensions, distances can concentrate and intuitive notions of neighborhood become less reliable.
+## Second attempt: keep every difference
 
-**“Units do not matter.”** Mixing centimeters, kilograms, and binary flags without scaling lets units dominate.
+Comparing Tiger A with Tiger B gives:
 
-## What We Unearthed
+```text
+weight:  5
+speed:   1
+age:    -1
+```
 
-Distance began with subtraction. But the difference vector contains more information than its length: it tells us exactly how one point would need to change to reach another.
+This is accurate, but it is not a decision. With a thousand attributes we receive a thousand answers. We need one measure of separation.
 
----
+## Your derivation
 
-Previous: [002 — Vectors](../002-vectors/README.md) · Next: [004 — Vectors as Change](../004-vectors-as-change/README.md)
+You proposed the entire path yourself:
+
+> Find the difference of similar features. If it is negative, that is wrong for distance, so square the differences, add them, and take the root.
+
+Why not simply add? Because opposite differences cancel. A change of `100` and `-100` would produce zero, falsely declaring two objects identical.
+
+Why square? Every changed coordinate becomes positive, and a large disagreement contributes more strongly than a small one.
+
+Why add? We need every feature to contribute to one answer.
+
+Why take the root? The direct line across a space is not the sum of its side lengths. A move of 3 in one direction and 4 in another forms a right triangle whose direct separation is 5. The root returns us from squared separation to ordinary distance.
+
+Only after the reasoning is complete does the notation help:
+
+$$
+d(\mathbf{x},\mathbf{y})
+=\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots+(x_n-y_n)^2}
+$$
+
+The formula is your procedure written compactly.
+
+## A limit we must remember
+
+If weight is measured in kilograms and a stripe flag is only zero or one, weight can dominate. Distance treats coordinate scales as meaningful. Representation and normalization therefore matter as much as arithmetic.
+
+Distance also answers **similarity**, not every kind of relationship. That distinction will become decisive when we reach attention.
+
+## Challenge
+
+Construct two pairs of two-dimensional points whose signed differences add to zero even though neither pair is identical. Then explain why squaring prevents the mistake.
+
+## What the next excavation needs
+
+So far a vector has described where an object is in feature space. But an arrow can also describe how something changes. That second meaning will lead us toward transformations.
+
+[Next: Vectors as Change](../004-vectors-as-change/README.md)

@@ -1,98 +1,62 @@
 # Excavation 001 — Why Features Exist
 
-## The Problem: Experience Is Too Large
+[Previous: Before Mathematics Existed](../000-before-mathematics-existed/README.md)
 
-Imagine building a machine that must warn a village when a dangerous animal approaches. Its camera sees one million pixel values per image. You have only six labeled examples: three harmless animals and three dangerous ones.
+Your tribe now recognizes tigers. That is not enough. Ten animals are moving through the valley, and you must decide which ones threaten the camp.
 
-What should the machine compare?
+For each animal you could remember the whole encounter: the exact light, every hair, every sound. But those details change even when the danger does not. Perfect memory gives you more information and less ability to compare.
 
-Raw pixels are fragile. Move an animal one step to the left and nearly every pixel changes, although the danger has not. We need measurements that remain useful when irrelevant details change.
+## First attempt: use the name
 
-## Failed Attempt 1: Compare Every Pixel
+“Tiger” is useful to a person who already understands the word. It gives a machine nothing it can measure. A name distinguishes one category from another; it does not explain what evidence created the category.
 
-Exact pixel matching memorizes backgrounds, lighting, and camera position. It may conclude that a tiger in rain is unrelated to the same tiger in sunlight.
+## Second attempt: choose one property
 
-The failure is not insufficient computation. We asked the machine to treat every recorded difference as equally meaningful.
+Perhaps stripes mean danger. Then a zebra becomes a tiger. Perhaps four legs are enough. Then deer, dogs, and tigers collapse together. A three-legged tiger exposes the opposite failure: one missing property should not erase all the other evidence.
 
-## Failed Attempt 2: Use One Obvious Property
+We need several observations, chosen because each can help with the decision:
 
-Perhaps “has stripes” is enough. Then a zebra becomes dangerous. Perhaps “has four legs” is enough. Then deer, dogs, and tigers collapse into one category.
-
-One feature is easy to understand but rarely captures the whole problem.
-
-## The Invention: Features
-
-A **feature** is a measurable property chosen because it may help with a task. For an animal-warning system, we might record:
-
-| Feature | Tiger | Zebra | Deer |
-|---|---:|---:|---:|
-| legs | 4 | 4 | 4 |
-| mass (kg) | 180 | 350 | 90 |
-| stripes | 1 | 1 | 0 |
-| tooth length (cm) | 7.0 | 2.5 | 1.5 |
-| stalks prey | 1 | 0 | 0 |
-
-No single column solves the problem. Together they create a more useful description.
-
-## Worked Example: The Three-Legged Tiger
-
-A tiger injured in a trap now has three legs. If “four legs” were a rigid rule, the system would call it something else. A feature is not necessarily a requirement; it is evidence.
-
-Compare two informal rules:
-
-- **Rigid rule:** dangerous only if all expected properties match.
-- **Evidence rule:** danger increases with long teeth, predatory movement, body shape, and known patterns; missing one usual property does not erase the others.
-
-This distinction—between features and hard definitions—will later let models tolerate noise and exceptions.
-
-## Features Depend on the Task
-
-Suppose the same dataset is used for three goals:
-
-- Predict danger: tooth length and stalking behavior matter.
-- Predict food needed per day: mass may dominate.
-- Identify individual animals: scar patterns may matter.
-
-There is no universally “best” feature set. A property is useful relative to a question.
-
-## Invariance: Ignoring the Right Changes
-
-A good danger feature should ideally remain stable when lighting, camera angle, or background changes. We call this **invariance**: the representation ignores transformations irrelevant to the task.
-
-But invariance has a cost. A feature invariant to color cannot help distinguish ripe from unripe fruit. Every discarded variation closes some future possibility.
-
-## Code Walkthrough
-
-Open `implementation.py`. The constant `FEATURES` fixes a shared order:
-
-```python
-FEATURES = ("legs", "mass_kg", "has_stripes", "tooth_cm")
+```text
+animal
+├── weight
+├── speed
+├── teeth
+├── stripes
+└── movement toward camp
 ```
 
-`extract_features` reads those names from an observation and returns their numeric values in that exact order. Try deleting `tooth_cm` from one animal: the program raises an error rather than silently inventing data. This is useful—the representation contract has been broken.
+Only now do we name these observations **features**.
 
-Run it from the repository root:
+A feature is not a decorative fact and not an eternal truth about an object. It is a measurable property retained because it may help answer a question. Location matters when deciding who is in danger. Tooth length matters when judging threat. Fur color may matter much less at night.
 
-```bash
-python3 excavations/001-why-features-exist/implementation.py
-```
+That explains why choosing features is part of reasoning. The world offers unlimited detail; intelligence has to decide what deserves a place in the representation.
 
-The output is compact, but the important act happened before execution: someone decided which properties deserved a column.
+## The user's discovery
 
-## Common Misconceptions
+You did not say, “put every attribute together.” You said:
 
-**“More features are always better.”** Irrelevant features add noise, cost, and opportunities to memorize accidents.
+> Put similar attributes together and calculate their difference.
 
-**“Features are objective facts.”** Measurements may be objective, but choosing them is a modeling decision.
+That word—*similar*—is essential. Weight must be compared with weight, speed with speed, and age with age. If the positions change meaning from one animal to the next, the arithmetic can be correct while the thought is nonsense.
 
-**“Modern deep learning eliminates features.”** Deep networks learn many internal features automatically, but input representation and training objective still determine what can be learned.
+| feature | tiger A | tiger B |
+|---|---:|---:|
+| weight | 220 | 225 |
+| speed | 65 | 66 |
+| age | 6 | 5 |
 
-## What We Unearthed
+We have turned an animal into an organized set of comparable measurements. No formula was needed. The structure came first.
 
-Features turn unmanageable experience into comparable measurements. But separate named values are awkward to calculate with. We need to bind them into one ordered mathematical object.
+## A serious limitation
 
-That object is a vector.
+Features do not arrive objectively. Kilograms can overwhelm a binary stripe value simply because the numeric scales differ. A useful representation may omit an important clue or preserve a misleading one. Mathematics can only operate on what we decide to record.
 
----
+## Challenge
 
-Previous: [000 — Before Mathematics Existed](../000-before-mathematics-existed/README.md) · Next: [002 — Vectors](../002-vectors/README.md)
+For deciding whether an animal will reach camp soon, choose three useful features and one tempting but irrelevant detail. Explain the decision, not merely the list.
+
+## What the next excavation needs
+
+With thousands of animals and many features, separate facts become difficult to store and manipulate. We need one object that keeps their meaning through an agreed order.
+
+[Next: Vectors](../002-vectors/README.md)

@@ -1,115 +1,73 @@
 # Excavation 007 — Embeddings
 
-## The Problem: A Million Empty Dimensions
+[Previous: Meaning](../006-meaning/README.md)
 
-Suppose our vocabulary contains 100,000 words. A context-count representation needs roughly 100,000 coordinates per word. Most are zero. Two words can be related even when they never appear in exactly the same local context.
+We have a web of constraints but no convenient way to store its geometry.
 
-We want a smaller space that captures recurring patterns behind the counts.
-
-## Failed Attempt: Use One-Hot Vectors as Meaning
-
-Give each word one private coordinate:
+## First attempt: give every word an ID
 
 ```text
-cat = [1, 0, 0, 0]
-dog = [0, 1, 0, 0]
-car = [0, 0, 1, 0]
+cat = 17
+dog = 42
+car = 91
 ```
 
-This represents identity perfectly. But every pair is equally distant and has dot product zero. Cat is no closer to dog than to car.
+The IDs distinguish tokens, but their numeric gaps are accidents. Changing the numbering changes the apparent relationships without changing the language.
 
-One-hot vectors say “different.” They cannot say “different in related ways.”
-
-## The Invention: Dense Embeddings
-
-Assign each word a short learned vector:
-
-$$
-\text{word}\longrightarrow\mathbf{e}\in\mathbb{R}^d
-$$
-
-For illustration, imagine:
+## Second attempt: one private coordinate per word
 
 ```text
-cat = [0.9, 0.8, 0.1]
-dog = [0.8, 0.9, 0.1]
-car = [0.1, 0.0, 0.9]
+cat = [1, 0, 0]
+dog = [0, 1, 0]
+car = [0, 0, 1]
 ```
 
-The coordinates need not literally mean “animalness” or “machineness.” The pattern across coordinates is what matters. Cat and dog point in similar directions; car points elsewhere.
+Identity is perfect, but every word is equally unrelated to every other. The representation says only “different.” It cannot say “different, but used in related ways.”
 
-## How Can the Vectors Be Learned?
+## Let the constraints shape a space
 
-Begin with random vectors. Repeatedly present a prediction task such as:
+Start each word at an arbitrary point. Ask the system to use surrounding text to predict missing or nearby words. When it predicts badly, move the relevant points slightly. Repeat across billions of contexts.
 
-> Given “the cat drinks ___,” predict *milk*.
+No teacher declares an axis called *animalness*. The pressure comes from the whole web:
 
-If the model predicts poorly, adjust the participating vectors slightly. Words that help make similar predictions receive similar pressures over millions of examples. Geometry emerges as a side effect of becoming useful at the task.
+- *cat* and *dog* repeatedly face similar contextual demands;
+- *bank* is pulled differently by financial and river contexts;
+- *eat* is constrained by the kinds of words that appear around it and their order.
 
-This is crucial: an embedding is not a hand-written definition. It is a set of parameters optimized through experience.
+Eventually the geometry becomes a compact compromise among countless relationships. The learned vector for a token is an **embedding**.
 
-## Measuring Direction with Cosine Similarity
-
-The dot product grows when vectors align, but it also grows with vector length. Cosine similarity divides out the lengths:
-
-$$
-\cos(\theta)=\frac{\mathbf{x}\cdot\mathbf{y}}
-{\|\mathbf{x}\|\|\mathbf{y}\|}
-$$
-
-For `[1, 0]` and `[1, 1]`:
+Only now is notation helpful:
 
 $$
-\frac{1(1)+0(1)}{\sqrt{1^2+0^2}\sqrt{1^2+1^2}}
-=\frac{1}{\sqrt2}\approx0.707
+\text{token}\longrightarrow \mathbf{e}\in\mathbb{R}^d
 $$
 
-Identical directions score 1, perpendicular directions score 0, and opposite directions score -1.
+This does not claim that coordinate 1 has a simple dictionary name. Meaning may be distributed across many coordinates. What matters is that useful relationships become available to later computations.
 
-## The Embedding Matrix
+## A static embedding still fails
 
-Stack every word vector as a row of matrix $E$. Looking up word ID 2 selects row 2. Equivalently, multiply a one-hot vector by $E$:
+One token can carry different meanings:
 
-$$
-[0,0,1,0]E=E_2
-$$
-
-The one-hot vector identifies a row; the embedding matrix supplies its learned continuous representation.
-
-## Worked Analogy—and Its Limit
-
-Embeddings sometimes support directions such as:
-
-$$
-\mathbf{king}-\mathbf{man}+\mathbf{woman}\approx\mathbf{queen}
-$$
-
-This suggests that some relationships become approximately linear. It does not mean the model has isolated a perfect “gender coordinate,” nor that every analogy works. Geometry is distributed and shaped by training data.
-
-## Code Walkthrough
-
-`implementation.py` builds `dot`, `cosine`, and `nearest`. Run:
-
-```bash
-python3 excavations/007-embeddings/implementation.py
+```text
+deposit money at the bank
+sit on the river bank
 ```
 
-Dog should be the nearest listed word to cat. Multiply the cat vector by 10: Euclidean distance changes dramatically, while cosine similarity stays the same because direction is unchanged.
+A single stored vector cannot by itself decide which meaning is active. Even worse, a long sentence can connect words separated by many positions. The representation must change with context.
 
-## Common Misconceptions
+That gives us a crucial distinction:
 
-**“Each dimension has one clean human meaning.”** Meaning is usually distributed across many dimensions.
+```text
+embedding: where a token begins
+contextual representation: what this occurrence becomes here
+```
 
-**“Nearby means synonymous.”** Neighbors may be related by topic, grammar, association, or contrast.
+## Challenge
 
-**“Embeddings are universal facts.”** Their geometry depends on corpus, objective, preprocessing, and model.
+Explain why one-hot vectors are excellent identifiers but poor representations of related meaning. Then explain why a dense embedding still cannot resolve *bank* without context.
 
-**“A word has one embedding forever.”** Static lookup provides a starting vector. Contextual models transform it for each occurrence.
+## What the next excavation needs
 
-## The New Problem
+Each word must be able to retrieve the parts of the sentence that matter for understanding this occurrence, rather than accepting one fixed summary of everything.
 
-The lookup for *bank* is identical in “river bank” and “bank loan.” We need each token to gather relevant information from its present context. That operation is attention.
-
----
-
-Previous: [006 — Meaning](../006-meaning/README.md) · Next: [008 — Attention](../008-attention/README.md)
+[Next: Attention](../008-attention/README.md)

@@ -1,87 +1,61 @@
 # Excavation 004 — Vectors as Change
 
-## A Second Meaning for Vectors
+[Previous: Distance](../003-distance/README.md)
 
-So far, `[2, 3]` has meant a location. But the same pair of numbers can mean an instruction: move 2 units right and 3 units up.
+You are standing in the jungle. Someone tells you, “Walk five meters.” You cannot obey.
 
-This distinction is subtle and powerful. A point answers **where?** A displacement answers **how must it change?**
+Five tells you how much, but movement also needs a direction. “Five meters north” is complete. It does not describe where you are; it describes what must change.
 
-## Deriving Change from Two States
+## Location and instruction are different
 
-Suppose a traveler begins at:
+Yesterday you began at the river. Today you begin at the camp. The instruction “five meters north” remains the same, although the destination changes.
 
-$$\mathbf{a}=[2,3]$$
+That is the second life of a vector: not a state, but a reusable description of change.
 
-and reaches:
+```text
+state + change = new state
+```
 
-$$\mathbf{b}=[7,1]$$
+Suppose a traveler starts at `[2, 3]` and ends at `[7, 1]`. We can discover the change coordinate by coordinate: `+5` in the first direction and `-2` in the second. The change vector is `[5, -2]`.
 
-We seek a vector $\Delta$ satisfying:
-
-$$\mathbf{a}+\Delta=\mathbf{b}$$
-
-Subtract $\mathbf{a}$ from both sides:
+Only now is an equation useful:
 
 $$
 \Delta=\mathbf{b}-\mathbf{a}=[7-2,1-3]=[5,-2]
 $$
 
-The traveler moved 5 units right and 2 down. Add the displacement back to verify it:
-
-$$[2,3]+[5,-2]=[7,1]$$
-
-## Failed Attempt: Store Only the Distance
-
-The Euclidean distance is $\sqrt{29}$. That tells us how much movement occurred but not where it led. Infinitely many destinations lie $\sqrt{29}$ units away.
-
-Distance is magnitude without direction. The difference vector preserves both.
-
-## Composing Changes
-
-The traveler next moves from `[7, 1]` to `[8, 5]`, a displacement of `[1, 4]`. The full journey is:
+Add it back and the meaning becomes visible:
 
 $$
-[5,-2]+[1,4]=[6,2]
+\mathbf{a}+\Delta=\mathbf{b}
 $$
 
-Starting at `[2, 3]` and applying `[6, 2]` reaches `[8, 5]`. Vector addition composes changes without needing the intermediate stop.
+## Why changes add
 
-## Scaling Change
+Walk three steps east, then two north. Could one instruction replace both? Yes: the diagonal change that produces the same destination.
 
-Multiplying `[5, -2]` by `0.5` gives `[2.5, -1]`: half the displacement in the same direction. Multiplying by `-1` gives `[-5, 2]`: the reverse direction.
+Vector addition was not chosen because brackets look convenient. Independent changes accumulate. Two pushes on a box, two deposits into an account, and two corrections to a model all demand one equivalent net change.
 
-This is why vector arithmetic is useful for velocities, forces, gradients, and learned representation changes. It gives us a language for direction and amount.
+You supplied three memorable cancellation examples:
 
-## Change Outside Physical Space
+- sending and receiving the same amount;
+- eating and burning 100 calories;
+- throwing a ball up and catching it at the starting height.
 
-Imagine a house represented as `[bedrooms, area_m², price_units]`. The difference between a small and renovated version might be `[1, 30, 2]`. This vector is not a physical arrow. It is a coordinated change across features.
+Opposite changes cancel because the final state contains no net displacement along that feature.
 
-Later, neural networks will repeatedly transform representation vectors. Their internal “directions” may encode changes such as becoming more plural, more formal, or more relevant to the current context—although such interpretations are rarely perfect or isolated in one coordinate.
+## Why distance was not enough
 
-## Code Walkthrough
+Distance says how much separation exists but discards direction. Many destinations are five units from the same start. A change vector preserves both magnitude and direction.
 
-`implementation.py` builds `subtract` from two simpler ideas: negate the second vector, then add. It computes two legs of a journey, adds them, and reconstructs the final point.
+This distinction matters in learning. A model's current parameters are a state. Training must say which weights to increase, which to decrease, and by how much. That instruction is a vector of change.
 
-Run:
+## Challenge
 
-```bash
-python3 excavations/004-vectors-as-change/implementation.py
-```
+Explain why `[5, 0]` can represent the same change from many starting points but cannot represent one absolute destination without more information.
 
-Then change the waypoint while keeping the start and finish fixed. The individual displacements change, but their sum remains the same. Net displacement ignores the path.
+## What the next excavation needs
 
-## Common Misconceptions
+One fixed change is useful. We now want a machine that receives any vector and produces an appropriate new vector consistently.
 
-**“Points and displacements are identical.”** They may use the same array representation, but their interpretation and valid operations differ.
-
-**“A larger vector means a better representation.”** Magnitude only has meaning relative to the representation and task.
-
-**“Vector analogies prove concepts are perfectly encoded.”** A direction can reveal a pattern without capturing every nuance of the concept.
-
-## The New Problem
-
-Adding one chosen change is useful. We now want a reusable machine that can mix every input dimension into several coordinated output dimensions. That machine is a matrix.
-
----
-
-Previous: [003 — Distance](../003-distance/README.md) · Next: [005 — Matrices](../005-matrices/README.md)
+[Next: Matrices](../005-matrices/README.md)

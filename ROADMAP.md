@@ -1,37 +1,11 @@
 # Roadmap
 
-## Part I — Seeing the World
-- [x] 000 — Before Mathematics Existed
-- [x] 001 — Why Features Exist
-- [x] 002 — Vectors
-- [x] 003 — Distance
-- [x] 004 — Vectors as Change
-- [x] 005 — Matrices
+The first narrative arc—Excavations 000 through 016—is now present as a continuous archaeological reconstruction.
 
-## Part II — Language
-- [x] 006 — Meaning
-- [x] 007 — Embeddings
+Future work should preserve three constraints:
 
-## Part III — Transformers
-- [x] 008 — Attention
-- [x] 009 — Softmax
-- [x] 010 — Query / Key / Value
-- [x] 011 — Multi-Head Attention
-- [x] 012 — Feed-Forward Networks
-- [x] 013 — Residual Connections
-- [x] 014 — Layer Normalization
-- [x] 015 — Learning
-- [ ] 016 — Emergence
+1. Begin with a real problem and allow plausible ideas to fail.
+2. Preserve the learner's reasoning when it creates the discovery.
+3. Introduce no equation until every operation in it has earned a purpose.
 
-## Part IV — Learning
-- Calculus
-- Gradients
-- Backpropagation
-- Optimization
-
-## Part V — Modern AI
-- CNNs
-- Diffusion
-- Reinforcement Learning
-- RAG
-- Agents
+Code, larger diagrams, notebooks, and references may be added later only when they strengthen a finished chapter. They should not split the main argument into boilerplate files or turn the repository into generic course notes.

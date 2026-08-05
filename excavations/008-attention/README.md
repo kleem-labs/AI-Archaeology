@@ -1,108 +1,58 @@
-# Excavation 008 — Attention
+# Excavation 008 — Why Attention Had to Exist
 
-## The Problem: The Same Word Needs Different Information
+[Previous: Embeddings](../007-embeddings/README.md)
 
-Compare:
+Imagine a messenger reading one word at a time. The messenger may carry one summary forward but may never look back.
 
-1. “The animal did not cross the street because **it** was tired.”
-2. “The animal did not cross the street because **it** was flooded.”
+After a few words this seems fine. After five hundred, one compressed state must preserve every name, place, relationship, and detail that might become important later.
 
-In the first sentence, *it* depends strongly on *animal*. In the second, it depends on *street*. The token is identical, but the useful context differs.
+## Two bad choices
 
-A fixed embedding cannot decide this alone. We need a new representation for each token in each sentence.
+Store every word equally, and memory and computation grow without discrimination. Compress everything into one summary, and the detail needed by a future question may disappear.
 
-## Failed Attempt 1: Average Every Word
+Consider:
 
-Give each token the average of the whole sentence. This includes context, but every token receives the same mixture. Important clues and irrelevant words contribute equally. The animal and street lose their distinct roles.
+> John gave Mary the keys because she had forgotten hers.
 
-## Failed Attempt 2: Use Only Nearby Words
+A summary such as “people, keys, forgotten” loses who *she* refers to. The important information depends on the question being asked now.
 
-A fixed window works for “red car,” but language can connect distant positions:
-
-> The keys to the old cabinet near the stairs **are** missing.
-
-The verb agrees with *keys*, not the closer nouns *cabinet* or *stairs*. Relevant information is not always adjacent.
-
-## Failed Attempt 3: Compress the Past into One State
-
-Recurrent models pass a running state from token to token. This is powerful, but every past detail must travel through one evolving bottleneck. Long-range information can become difficult to preserve and retrieve.
-
-## The Invention: Let Each Token Choose
-
-For a receiving token $i$, assign every available token $j$ a relevance weight $\alpha_{ij}$, then mix their information vectors $\mathbf{v}_j$:
-
-$$
-\text{output}_i=\sum_j\alpha_{ij}\mathbf{v}_j
-$$
-
-This is **attention**. Each receiving token gets its own weighted view of the sequence.
-
-## Worked Example
-
-Suppose the possible sources are:
+Humans do something different. Asked where John was born, we do not replay every memory equally. The question guides retrieval.
 
 ```text
-animal value = [1.0, 0.2]
-street value = [0.1, 1.0]
-tired  value = [0.8, 0.3]
+current need
+     ↓
+search the available context
+     ↓
+retrieve what matters now
 ```
 
-For interpreting *it* in the tired sentence, imagine weights:
+This is the birth of **attention**: preserve access to the context and let each current token decide which earlier information matters to it.
 
-```text
-animal: 0.65
-street: 0.05
-tired:  0.30
-```
+## The trophy and the suitcase
 
-The output is:
+> The trophy does not fit in the suitcase because it is too big.
 
-$$
-0.65[1,0.2]+0.05[0.1,1]+0.30[0.8,0.3]
-=[0.895,0.27]
-$$
+When you reached *it*, you did not choose the nearest noun blindly. You reasoned that *it* should look toward things—especially *trophy* and *suitcase*—and that “fit inside” creates a relative size relationship between an object and a container. Your world model made *trophy* the stronger explanation.
 
-It resembles the animal information while incorporating the clue *tired*. In the flooded sentence, higher weight on street would produce a different representation.
+That is already selective attention. It is not a hardcoded grammar rule. It is a learned judgment about relationships.
 
-## Attention as Information Routing
+## What attention has not solved yet
 
-Attention answers two separate questions:
+Saying “look back” is not enough. Every previous token needs a relevance score for the current need. Those scores should not be fixed, because *she*, *born*, and *big* seek different information.
 
-1. **Where should information come from?** The weights.
-2. **What should be transported?** The value vectors.
+At this stage we deliberately avoid the famous attention equation. We have not earned it. We know only the required behavior:
 
-This makes attention more than similarity visualization. It is a computational route through which one representation changes another.
+1. each token can seek information;
+2. each possible source can advertise what it offers;
+3. relevance depends on the pair;
+4. selected sources must contribute information to a new representation.
 
-## Self-Attention
+## Challenge
 
-When queries, candidate sources, and values all come from the same sequence, the operation is **self-attention**. Every token can construct a context-sensitive version of itself by consulting the others.
+In “The animal did not cross the street because it was flooded,” identify what *it* should retrieve. Then change only the final word to *tired* and explain why the retrieval should change.
 
-In other settings, a decoder may attend to representations produced by an encoder. The central idea remains weighted retrieval.
+## What the next excavation needs
 
-## Code Walkthrough
+The relevance scores may be negative, huge, or expressed on unstable scales. Before they can mix information, they must become usable weights.
 
-`implementation.py` isolates the final step: `weighted_sum`. It checks that there is one weight per vector, that weights sum to one, and that all vectors share a width.
-
-Run:
-
-```bash
-python3 excavations/008-attention/implementation.py
-```
-
-Then change the weights to `[0.05, 0.80, 0.15]`. The available value vectors stay fixed, but the output moves toward street. Attention changes representation by changing routing.
-
-## Common Misconceptions
-
-**“Attention weights are guaranteed explanations.”** They show part of a model's information flow, but behavior may be distributed across heads, layers, value transformations, and later computation.
-
-**“Attention stores knowledge.”** Model parameters store learned transformations; attention dynamically combines representations for the current input.
-
-**“The highest weight is all that matters.”** Several moderate contributions can jointly determine the output.
-
-## The New Problem
-
-We have assumed valid weights. Real relevance scores may be negative, unbounded, and fail to sum to one. We need a smooth conversion from arbitrary scores to a usable distribution.
-
----
-
-Previous: [007 — Embeddings](../007-embeddings/README.md) · Next: [009 — Softmax](../009-softmax/README.md)
+[Next: Softmax](../009-softmax/README.md)

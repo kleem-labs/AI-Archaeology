@@ -1,63 +1,50 @@
 # Excavation 014 — Layer Normalization
 
-## The Problem: Representations Drift in Scale
+[Previous: Residual Connections](../013-residual-connections/README.md)
 
-After many transformations and residual additions, one token might contain `[0.01, 0.02, 0.03]` while another contains `[100, 200, 300]`. Later dot products and nonlinearities respond very differently to those scales. Training must constantly compensate for shifting numerical conditions.
+Several experts are speaking into a shared system. One whispers; another shouts. Even if both carry useful patterns, the next operation may respond mostly to volume.
 
-## Failed Attempt: Use One Global Scale
+Representations drift similarly. After many transformations and residual additions, one token may contain values around `0.01`, another around `100`. Dot products and gates react very differently to those scales.
 
-A global dataset mean cannot adapt to each token's current representation. Batch normalization uses statistics across examples, but language batches may have different lengths, padding patterns, and inference conditions. We want normalization that works for one token independently.
+## Failed attempt: one global volume knob
 
-## The Invention: Normalize Across Features
+A single dataset-wide adjustment cannot respond to the current feature pattern of each token. We want every token to arrive at the next workshop on a predictable scale while preserving the relative pattern inside it.
 
-For one token vector $\mathbf{x}$ with $d$ features, compute:
+## Recenter, then rescale
+
+For one token's feature vector:
+
+1. find its average level;
+2. subtract that level from every feature;
+3. measure how spread out the centered features are;
+4. divide by that spread.
+
+The transformation `[1, 2, 3]` and `[10, 20, 30]` then produces the same normalized pattern. Absolute volume disappears; relative shape remains.
+
+Only after this procedure feels natural do we compress it:
 
 $$
-\mu=\frac{1}{d}\sum_i x_i,
+\mu=\frac1d\sum_i x_i,
 \qquad
-\sigma^2=\frac{1}{d}\sum_i(x_i-\mu)^2
+\sigma^2=\frac1d\sum_i(x_i-\mu)^2
 $$
 
-Then normalize and apply learned scale and shift:
-
 $$
-\operatorname{LN}(x_i)=\gamma_i\frac{x_i-\mu}{\sqrt{\sigma^2+\epsilon}}+\beta_i
+\widehat{x}_i=\frac{x_i-\mu}{\sqrt{\sigma^2+\epsilon}}
 $$
 
-$\epsilon$ prevents division by zero. Learned $\gamma$ and $\beta$ let the model restore useful scales and offsets rather than forcing every feature to remain standardized forever.
+The small $\epsilon$ prevents division by zero when every feature is equal.
 
-## Worked Example
+Forcing every representation to remain permanently standardized would itself be restrictive. Learned scale and shift parameters therefore let the model restore useful volumes and offsets after normalization.
 
-For `[1, 2, 3]`, the mean is 2 and variance is $2/3$. Before learned scale and shift, normalization produces approximately `[-1.225, 0, 1.225]`. For `[10, 20, 30]`, it produces the same pattern. Absolute scale is removed; relative structure remains.
+Layer normalization is not intelligence and does not create meaning. It creates stable numerical conditions in which learned transformations can operate.
 
-## Pre-Norm and Post-Norm
+## Challenge
 
-Two common layouts are:
+Without calculating exact decimals, predict why `[1, 2, 3]` and `[100, 200, 300]` have the same normalized pattern.
 
-$$x+F(\operatorname{LN}(x))\quad\text{(pre-norm)}$$
+## What the next excavation needs
 
-and
+We now have the parts of a Transformer, but every matrix begins random. Architecture provides a brain-shaped machine, not knowledge.
 
-$$\operatorname{LN}(x+F(x))\quad\text{(post-norm)}$$
-
-They contain the same ingredients but create different optimization behavior. Many modern large transformers use pre-norm because the residual stream retains a particularly direct path.
-
-## Code Walkthrough
-
-`implementation.py` calculates mean, variance, normalization, and optional learned scale and shift. Run it on `[1,2,3]` and `[10,20,30]`. Then try `[5,5,5]` to see why epsilon is necessary.
-
-## Common Misconceptions
-
-**“Normalization deletes magnitude information permanently.”** Learned scale and surrounding transformations can encode magnitude; normalization controls one unstable degree of freedom.
-
-**“Layer normalization mixes examples.”** It normally computes statistics across features within each token independently.
-
-**“Normalized means every output lies between 0 and 1.”** Layer normalization targets zero mean and unit variance before learned affine parameters.
-
-## The New Problem
-
-We now possess the major parts of a transformer block, but every matrix still contains arbitrary numbers. How does experience alter millions or billions of parameters so predictions improve? We must invent learning.
-
----
-
-Previous: [013 — Residual Connections](../013-residual-connections/README.md) · Next: [015 — Learning](../015-learning/README.md)
+[Next: Learning](../015-learning/README.md)

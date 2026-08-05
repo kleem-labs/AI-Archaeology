@@ -1,140 +1,73 @@
 # Excavation 005 — Matrices
 
-## The Problem: One Output Needs Many Inputs
+[Previous: Vectors as Change](../004-vectors-as-change/README.md)
 
-Suppose a house vector is `[area, bedrooms, age]`. We want two new measurements:
+Imagine two arrows starting at the same point. A machine stretches both, but sends them toward different final places depending on their original directions.
 
-- a size score combining area and bedrooms;
-- a renovation score that increases with age but also depends on size.
+Does that matter? You answered simply:
 
-Writing a special formula for every output works briefly, but a learning system may need thousands of inputs and outputs. We need a compact object containing many reusable recipes.
+> Yes. They end up in different places.
 
-## One Row, One Question
+That answer exposes the need. A transformation cannot be one fixed movement added to everything. It must respond to the input vector.
 
-Take an input:
+## First attempt: store a separate answer
 
-$$\mathbf{x}=[4,5]$$
+We could write a transformed result for every possible vector. But there are infinitely many vectors. A lookup table can memorize examples; it cannot describe a general rule.
 
-and a row of weights:
+## Second attempt: transform each coordinate alone
 
-$$\mathbf{w}=[2,3]$$
+Suppose output one depends only on input one and output two only on input two. That can stretch or shrink axes, but it cannot let weight influence danger while speed also influences danger. Real representations interact.
 
-Their dot product is:
+We need a compact machine in which every output may receive a chosen contribution from every input.
 
-$$
-\mathbf{w}\cdot\mathbf{x}=2(4)+3(5)=23
-$$
+```text
+input features → weighted contributions → output features
+```
 
-The row asks a weighted question: “What is twice the first feature plus three times the second?”
+Take an input `[4, 5]`. One output question might say: take twice the first feature and three times the second. Another might ignore the first and take four times the second.
 
-## The Invention: Stack the Questions
+Each question needs a row of weights:
 
-Place several rows together:
+```text
+[2, 3]
+[0, 4]
+```
 
-$$
-A=\begin{bmatrix}2&0\\0&3\\1&1\end{bmatrix},
-\quad
-\mathbf{x}=\begin{bmatrix}4\\5\end{bmatrix}
-$$
-
-Each row produces one output:
+Stacking the questions creates a **matrix**. Only after that idea is clear do we calculate:
 
 $$
-A\mathbf{x}=
-\begin{bmatrix}
-2(4)+0(5)\\
-0(4)+3(5)\\
-1(4)+1(5)
-\end{bmatrix}
+\begin{bmatrix}2&3\\0&4\end{bmatrix}
+\begin{bmatrix}4\\5\end{bmatrix}
 =
-\begin{bmatrix}8\\15\\9\end{bmatrix}
+\begin{bmatrix}2(4)+3(5)\\0(4)+4(5)\end{bmatrix}
+=
+\begin{bmatrix}23\\20\end{bmatrix}
 $$
 
-A **matrix** is a stack of feature-making recipes. Two inputs became three outputs.
+Row-by-column multiplication is not a ritual. Each row is one output asking how much every input should contribute.
 
-## Why the Shapes Must Match
+## Why order and shape matter
 
-An $m\times n$ matrix consumes an $n$-dimensional vector and produces an $m$-dimensional vector:
+If the input has three features, every output question needs three weights. A matrix with four rows asks four questions and therefore creates four output features.
 
-$$
-(m\times n)(n\times1)=(m\times1)
-$$
-
-The inner dimensions match because every row needs one weight per input feature. Shape errors are not arbitrary programming restrictions; they reveal an incomplete mathematical question.
-
-## Columns Reveal the Transformation
-
-There is another view. The first column tells where the basis vector `[1, 0]` goes; the second tells where `[0, 1]` goes. Since every input is a combination of basis vectors, the columns determine what happens to every input.
-
-For example:
-
-$$
-R=\begin{bmatrix}0&-1\\1&0\end{bmatrix}
-$$
-
-sends `[1, 0]` to `[0, 1]` and `[0, 1]` to `[-1, 0]`: a 90-degree rotation.
-
-## Failed Attempt: Transform Each Example by Hand
-
-We could memorize a desired output for every input. That fails on unseen vectors. A matrix instead defines one rule that generalizes to infinitely many inputs and preserves linear structure:
-
-$$A(\mathbf{x}+\mathbf{y})=A\mathbf{x}+A\mathbf{y}$$
-
-The rule is limited—pure matrices cannot create curves or thresholds—but its consistency makes it composable and learnable.
-
-## Composition and Order
-
-Scale a point and then rotate it. If $S$ scales and $R$ rotates, the combined operation is:
-
-$$R(S\mathbf{x})=(RS)\mathbf{x}$$
-
-The rightmost transformation acts first. Usually $RS\neq SR$: stretching horizontally and then rotating is not the same as rotating first and then stretching horizontally.
-
-## Why Neural Networks Depend on Matrices
-
-A neural layer begins with a transformation such as:
-
-$$\mathbf{y}=W\mathbf{x}+\mathbf{b}$$
-
-Each row of $W$ learns a different weighted combination of input features. The bias $\mathbf{b}$ shifts the result. A nonlinearity, introduced later, lets stacked layers escape the limitations of purely linear transformations.
-
-Training does not invent a new kind of arithmetic. It searches for useful entries of $W$ and $\mathbf{b}$.
-
-## Code Walkthrough
-
-`implementation.py` implements matrix-vector multiplication as one dot product per row. `transpose` turns the second matrix's columns into iterable rows. `matrix_matrix` then computes every row-column dot product.
-
-Run:
-
-```bash
-python3 excavations/005-matrices/implementation.py
+```text
+4 questions × 3 input features
+          ↓
+3 input numbers → 4 output numbers
 ```
 
-The program scales `[2, 1]` to `[4, 3]`, rotates it to `[-3, 4]`, and constructs the one matrix that performs both actions. Verify the composed matrix by hand.
+Shape is the contract between what the machine expects and what it produces.
 
-## Common Misconceptions
+## The AI connection
 
-**“A matrix is just a spreadsheet of numbers.”** Its arrangement encodes a mapping between spaces; rows and columns have distinct roles.
+A neural network layer repeatedly does this: receive one representation, mix its features according to learned weights, and produce another representation. The matrix is a transformation machine. Training will eventually decide the weights; for now we only needed a coherent way to express all interactions together.
 
-**“Matrix multiplication should be coordinate-wise.”** Coordinate-wise multiplication cannot compose linear transformations.
+## Challenge
 
-**“More layers of matrices automatically create complexity.”** Without nonlinear operations, many matrix layers collapse into one matrix.
+Design a two-row matrix for an animal vector `[weight, speed]`. Let the first output depend only on weight and the second depend on both. Explain each row in words before multiplying.
 
-## What We Unearthed
+## What the next excavation needs
 
-Part I began with raw experience and discovered a chain of necessity:
+We can transform measurable properties. Language gives us a harder object: a word whose meaning is not available from any physical measuring instrument.
 
-```mermaid
-flowchart LR
-    A[Observations] --> B[Features]
-    B --> C[Vectors]
-    C --> D[Distance]
-    C --> E[Change]
-    E --> F[Matrices]
-```
-
-We can represent and transform measurable things. Next we try something less tangible: meaning.
-
----
-
-Previous: [004 — Vectors as Change](../004-vectors-as-change/README.md) · Next: [006 — Meaning](../006-meaning/README.md)
+[Next: Meaning](../006-meaning/README.md)

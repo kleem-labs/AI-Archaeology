@@ -1,96 +1,69 @@
-# Excavation 006 — Meaning
+# Excavation 006 — Meaning Without a Dictionary
 
-## The Hardest Measurement So Far
+[Previous: Matrices](../005-matrices/README.md)
 
-We know how to represent legs, mass, sweetness, and position. They can be measured against the physical world. Now consider *promise*, *justice*, *bank*, or *almost*.
-
-What instrument measures the meaning of a word?
-
-A child rarely learns *dog* from a formal definition. The word appears while dogs bark, run, play, and appear in stories. Meaning emerges from repeated situations and relationships.
-
-## Failed Attempt 1: Give the Machine a Dictionary
-
-A dictionary defines *cat* using words such as *small*, *domesticated*, *carnivorous*, and *mammal*. To understand the definition, the machine must already understand those words. Their definitions use still more words.
-
-The circle eventually reaches shared experience. A dictionary organizes meaning; it does not create meaning from nothing.
-
-## Failed Attempt 2: Assign Every Word an Arbitrary ID
-
-We could map `cat → 17`, `dog → 42`, and `car → 91`. IDs solve storage, but the numbers falsely suggest that dog is “25 units” from cat. Changing the IDs changes every apparent relationship while the language remains the same.
-
-Identifiers distinguish words. They do not represent similarity.
-
-## A Clue Hidden in Missing Words
-
-Complete these sentences:
-
-1. “The cat drank the ___.”
-2. “She deposited cash at the ___.”
-3. “They sat on the river ___.”
-
-For the first, *milk* and *water* fit. For the second and third, the same word—*bank*—fits for different reasons. The surrounding words constrain which meanings are plausible.
-
-Now compare *cat* and *dog*. Both appear near *pet*, *fur*, *food*, *vet*, *runs*, and *sleeps*. *Car* appears near *road*, *engine*, *drive*, and *fuel*. Context reveals relationships without requiring us to write a definition first.
-
-This is the **distributional hypothesis**: words used in similar linguistic environments tend to have related meanings.
-
-## Turning Context into Measurements
-
-Take a tiny corpus:
+Suppose you arrive with no language and read:
 
 ```text
-the cat drinks milk
-the dog drinks water
-the cat is a pet
-the dog is a loyal pet
+blar eats miku
 ```
 
-Using a window of two words, count neighbors:
+What does *blar* mean? What does *eats* mean?
 
-| Target | Nearby evidence |
-|---|---|
-| cat | the, drinks, is, a |
-| dog | the, drinks, is, a, loyal |
-| milk | cat, drinks |
+The tempting explanation says that *blar* must be alive because living things eat. You caught the hidden assumption immediately:
 
-Cat and dog receive similar contextual profiles. We have converted an elusive idea into observable statistics.
+> If I do not know what “eat” means, how can I infer what “blar” means?
 
-## The Window Changes the Question
+You cannot. One sentence, from absolute zero, gives almost no meaning. At most it reveals that three symbols occur in a recurring arrangement.
 
-A one-word window emphasizes local grammar. A wide window captures broader topic. In “the curious cat quietly watched the bird,” a narrow window connects *cat* to *curious* and *quietly*; a wider one also connects it to *bird*.
+## The dictionary fails first
 
-There is no neutral context size. It determines what kind of relationship becomes visible.
+A dictionary defines words with other words. If none of them are grounded yet, definitions only move the mystery around. Arbitrary IDs solve storage but add no relationships.
 
-## Ambiguity: One Word, Several Regions of Meaning
+## Structure appears before meaning
 
-All occurrences of *bank* get mixed together. River contexts and financial contexts enter one profile. A single global record may become an average of unrelated meanings.
+Now read more:
 
-Later, attention will build a representation for each occurrence using its current sentence. For now, ambiguity exposes the limitation of static meaning.
-
-## Code Walkthrough
-
-`implementation.py` first tokenizes each sentence. `context_counts` walks across every word, slices out a neighborhood, and updates a `Counter`.
-
-Run:
-
-```bash
-python3 excavations/006-meaning/implementation.py
+```text
+blar eats miku
+zon eats miku
+blar drinks wug
+zon sleeps
 ```
 
-Change `window=2` to `window=1`. Add “the dog chased the cat.” Observe that meaning statistics are not fixed facts; they change with evidence and collection choices.
+We still cannot translate the symbols. But *blar* and *zon* behave similarly. They appear in some of the same positions and relationships. Structure has emerged before definition.
 
-## Common Misconceptions
+With millions of sentences, each occurrence supplies a constraint. No sentence declares what *blar* is. Together they narrow what it can plausibly be.
 
-**“Words appearing together must mean the same thing.”** Opposites such as *hot* and *cold* can share contexts. Distribution captures relationships, not only synonymy.
+```text
+clue 1 ─┐
+clue 2 ─┼─→ a smaller region of possible meaning
+clue 3 ─┘
+```
 
-**“More text guarantees true meaning.”** Text contains errors, stereotypes, omissions, and unequal representation.
+The same process happens to *eats*. It repeatedly connects one family of symbols with another. No word must be learned first. All the representations adjust together, like a spider web in which pulling one node shifts the rest.
 
-**“Co-occurrence means genuine understanding.”** It supplies powerful evidence about use. Whether that constitutes understanding is a deeper philosophical and empirical question.
+## What nearby words cannot tell us
 
-## The New Problem
+You raised a second objection: without grammar, how can a system know whether nearby words should be close or far?
 
-A context-count vector has one dimension for every vocabulary word. For a million-word vocabulary, it is huge and mostly zero. We need a compact space that preserves useful relationships.
+It cannot solve this by proximity alone.
 
----
+```text
+dog bites man
+man bites dog
+```
 
-Previous: [005 — Matrices](../005-matrices/README.md) · Next: [007 — Embeddings](../007-embeddings/README.md)
+The words are identical; the relationships differ. Order and wider context must constrain the representation too. Likewise, *bank* in “deposit money at the bank” and “sit on the river bank” cannot receive one fixed meaning from the token alone.
+
+Meaning is therefore not a secret definition stored inside a word. It emerges from a network of usage, order, and relationships. Text alone reveals linguistic structure; grounding it fully in lived reality is a deeper problem we should not pretend has vanished.
+
+## Challenge
+
+With no dictionary, what can one sentence teach you, and what requires repeated sentences? Keep “similar behavior” separate from “known real-world meaning.”
+
+## What the next excavation needs
+
+We need a geometry that can move symbols toward representations satisfying many contextual constraints at once.
+
+[Next: Embeddings](../007-embeddings/README.md)

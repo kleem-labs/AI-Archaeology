@@ -1,118 +1,64 @@
-# Excavation 009 — Softmax
+# Excavation 009 — From Scores to Attention
 
-## The Problem: Scores Are Not Weights
+[Previous: Attention](../008-attention/README.md)
 
-Suppose attention produces relevance scores:
+Suppose *she* compares itself with earlier words and receives:
 
 ```text
-animal:  2.0
-street:  1.0
-tired:  -1.0
+John   2
+Mary   8
+book   4
 ```
 
-These scores express ranking, but cannot directly form a weighted average. One is negative, and together they sum to 2 rather than 1.
+The ranking is useful, but these are not yet mixing weights. Another sentence may produce `200, 800, 400`, or include negatives. We need a stable answer to: how much should each source contribute?
 
-We need positive weights that sum to one while preserving the preference ordering.
+## Failed ideas
 
-## Failed Attempt 1: Divide by the Sum
+Choose only the maximum, and uncertainty disappears. Mary may matter most while *book* still supplies useful context.
 
-Dividing `[2, 1, -1]` by its sum gives `[1, 0.5, -0.5]`. The values sum to one, but a negative attention weight subtracts information.
+Divide by the sum, and negative scores can create negative shares or the total can be zero.
 
-Worse, scores `[2, -2]` sum to zero, causing division by zero.
+Clip negatives, and a tiny movement across zero abruptly switches a path on or off. We want smooth corrections during learning.
 
-## Failed Attempt 2: Clip Negatives
+The desired transformation should:
 
-Replace negative values with zero, then normalize: `[2, 1, 0] → [0.667, 0.333, 0]`.
+- make every share positive;
+- preserve which score is larger;
+- make strong evidence more decisive;
+- let bad negative matches fade toward zero;
+- normalize the shares to a total of one.
 
-This produces valid weights, but introduces a hard boundary. A tiny score change from `-0.001` to `0.001` abruptly changes whether a path exists. Smooth learning benefits from smooth transformations.
+## Let the requirements choose the operation
 
-## Failed Attempt 3: Select Only the Maximum
+An exponential does something useful: positive evidence grows quickly, while negative evidence becomes a small positive number.
 
-Winner-take-all maps the scores to `[1, 0, 0]`. It loses uncertainty and blocks information from every secondary source. It is also difficult to learn through because tiny score changes usually do nothing, until the winner suddenly changes.
-
-## The Invention: Exponentiate, Then Normalize
-
-The exponential function turns every finite score positive and preserves order:
-
-$$e^2\approx7.389,\quad e^1\approx2.718,\quad e^{-1}\approx0.368$$
-
-Their sum is about 10.475. Divide each by that total:
-
-$$
-\operatorname{softmax}([2,1,-1])
-\approx[0.705,0.259,0.035]
-$$
-
-In general:
-
-$$
-\operatorname{softmax}(z_i)=\frac{e^{z_i}}{\sum_j e^{z_j}}
-$$
-
-Every output is positive, all outputs sum to one, and larger scores receive disproportionately larger weights.
-
-## Why Differences Matter More Than Absolute Scores
-
-Add 100 to every score. The probabilities remain identical:
-
-$$
-\frac{e^{z_i+100}}{\sum_j e^{z_j+100}}
-=\frac{e^{100}e^{z_i}}{e^{100}\sum_j e^{z_j}}
-=\frac{e^{z_i}}{\sum_j e^{z_j}}
-$$
-
-Softmax responds to score differences, not a shared offset.
-
-## Numerical Stability
-
-Computers cannot safely calculate $e^{1000}$. Since adding or subtracting a shared constant changes nothing, subtract the maximum score $m$ first:
-
-$$
-\operatorname{softmax}(z_i)=
-\frac{e^{z_i-m}}{\sum_j e^{z_j-m}}
-$$
-
-The largest exponent is now $e^0=1$; every other exponent is at most 1. This is mathematically equivalent and computationally safe.
-
-## Temperature: Controlling Certainty
-
-Use a positive temperature $T$:
-
-$$
-\operatorname{softmax}(z_i/T)
-$$
-
-- Low $T$ magnifies score differences and makes the distribution sharp.
-- High $T$ shrinks differences and makes it flatter.
-
-For scores `[2, 1]`, low temperature behaves more like a decisive winner; high temperature behaves more like uncertainty. Temperature changes confidence without changing ranking.
-
-## Code Walkthrough
-
-`implementation.py` rejects empty scores and nonpositive temperatures. It divides by temperature, subtracts the maximum, exponentiates, and normalizes.
-
-Run:
-
-```bash
-python3 excavations/009-softmax/implementation.py
+```text
+score:          2      4       8
+exponential:   ~7     ~55    ~2981
 ```
 
-Observe the same scores at temperatures `0.5`, `1`, and `2`. Then try `[1000, 1001, 1002]`. A naive implementation would overflow; the stable version succeeds.
+Squares also amplify large scores, but they turn `-5` into `25`, converting strong negative evidence into a strong positive match. Exponentials preserve order instead.
 
-## Common Misconceptions
+After exponentiating, divide each result by their total. Now the values are positive and sum to one. Only after deriving those requirements do we name the result **softmax**:
 
-**“Softmax finds probabilities that are objectively true.”** It normalizes model scores. Calibration depends on training and data.
+$$
+\operatorname{softmax}(s_i)=\frac{e^{s_i}}{\sum_j e^{s_j}}
+$$
 
-**“A tiny softmax weight means no influence.”** Small contributions can accumulate, and later transformations may amplify them.
+For scores `[2, 4, 8]`, the largest score receives almost all the weight, but the others are not forbidden from contributing.
 
-**“Softmax changes the ranking.”** For a fixed temperature, it preserves score order.
+Softmax does not discover relevance. It converts already-computed relevance scores into a smooth distribution of attention.
 
-**“The outputs are independent.”** Increasing one score changes the normalization and therefore every output.
+## The missing question
 
-## The New Problem
+We now know **who matters**, but weights are not knowledge. If a historian receives weight `0.90`, what does the historian actually say? That distinction leads to values.
 
-Softmax converts relevance scores to weights, but we still need a flexible way to create the scores and separate matching from transported information. This produces queries, keys, and values.
+## Challenge
 
----
+Explain why squaring `[-5, 1]` violates the meaning of a negative relevance score, and why exponentiation does not.
 
-Previous: [008 — Attention](../008-attention/README.md) · Next: [010 — Query, Key, Value](../010-query-key-value/README.md)
+## What the next excavation needs
+
+We must derive both the relevance scores and the information being mixed. Those are different jobs.
+
+[Next: Query, Key, and Value](../010-query-key-value/README.md)

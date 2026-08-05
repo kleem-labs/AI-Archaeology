@@ -1,87 +1,67 @@
-# Excavation 015 — Learning
+# Excavation 015 — How a Dead Brain Learns
 
-## The Problem: Architecture Without Knowledge
+[Previous: Layer Normalization](../014-layer-normalization/README.md)
 
-Embeddings, attention heads, FFNs, residual paths, and normalization describe how information can flow. With random parameter values, the system still produces nonsense. We need a repeatable process that turns mistakes into parameter changes.
+Build a complete Transformer with embeddings, attention, feed-forward networks, residual paths, and normalization. Ask it a question.
 
-## Step 1: Define a Task
+It answers nonsense.
 
-For language modeling, hide the future and ask the model to predict the next token:
+The instrument exists; the skill does not. Every learned weight began as an arbitrary number.
 
-> “The cat drank the ___”
+## Memorization fails
 
-The training example says the observed next token is *milk*. The model produces scores for every vocabulary item, then softmax probabilities.
+Show it:
 
-## Step 2: Measure Error
+```text
+cat eats fish
+```
 
-If the model assigns the correct token probability $p$, cross-entropy loss is:
+It can store that sequence, but “dog eats ___” exposes the limitation. We need a process that improves on examples and generalizes beyond exact memories.
 
-$$L=-\log p$$
+Prediction provides a relentless exercise. Pause after “The cat sat on the ___.” To succeed consistently, the model must use grammar, context, relationships, and facts. Prediction is not proof of complete understanding, but it puts pressure on useful internal structure.
 
-Predicting *milk* with probability 0.8 yields about 0.223 loss. Probability 0.01 yields about 4.605. Confident mistakes are punished strongly.
+## “Wrong” is not precise enough
 
-## Failed Attempt: Randomly Wiggle Parameters
+An arrow landing ten centimeters from a target is different from one landing ten meters away. Learning needs a number saying how bad the current prediction is. We call that number **loss**.
 
-Change a weight, run the entire dataset, and keep the change if loss improves. This can work for a handful of parameters but becomes hopeless in billions of dimensions. We need to know which direction changes loss most efficiently.
+Now imagine loss as height in an enormous landscape. Every model weight is one direction in that landscape. Training wants to move downhill.
 
-## The Invention: Gradients
+## Random wiggling fails
 
-For each parameter $\theta$, the derivative
+Change one weight, run the model again, and keep the change if loss improves. With billions of weights, trying directions one at a time is hopeless.
 
-$$
-\frac{\partial L}{\partial\theta}
-$$
+Instead ask, for each weight:
 
-measures how a tiny increase in that parameter changes loss. Collect all derivatives into the gradient $\nabla L$. Move a small step in the opposite direction:
+> If I move this number a tiny amount, how does the loss change?
+
+That question—not a symbol—is the derivative. It measures sensitivity. All those sensitivities together form the gradient, a local direction of steepest increase. To reduce loss, move a small step the other way.
+
+Only now does the update rule earn its place:
 
 $$
 \theta\leftarrow\theta-\eta\nabla L
 $$
 
-where $\eta$ is the learning rate.
+$\theta$ is the current state of the weights, $\nabla L$ is a vector of advised change, and $\eta$ controls how large a step to take.
 
-## Worked One-Parameter Example
+## How does blame reach billions of weights?
 
-Suppose $L(w)=(w-3)^2$. Then:
+Trace the prediction backward through the operations. Ask how much each intermediate result contributed to the error, then how much each earlier result contributed to that. Backpropagation is organized blame assignment through the chain of computations.
 
-$$\frac{dL}{dw}=2(w-3)$$
+Each training step is therefore:
 
-At $w=0$, the gradient is `-6`. With learning rate 0.1:
+```text
+predict → measure loss → trace responsibility backward → nudge weights
+```
 
-$$w\leftarrow0-0.1(-6)=0.6$$
+Repeated over enormous amounts of text, small corrections reshape the entire web.
 
-Loss falls from 9 to 5.76. Repeated steps approach 3.
+## Challenge
 
-## Backpropagation: Reusing the Chain Rule
+Explain derivative, gradient, and backpropagation without using their formulas: sensitivity, direction, and blame assignment should remain distinct.
 
-The loss depends on probabilities, which depend on logits, which depend on layer outputs, which depend on many earlier parameters. Backpropagation applies the chain rule from the loss backward through this computation graph, reusing intermediate derivatives efficiently.
+## What the next excavation needs
 
-It does not “send the correct answer backward.” It computes responsibility: how sensitive the loss was to each intermediate value and parameter.
+Why should next-token prediction produce grammar, facts, abstraction, or reasoning at all? The answer lies behind the visible words.
 
-## Batches and Generalization
-
-Updating from one sentence may improve that example while harming others. A mini-batch averages evidence across several examples. Across many batches, useful patterns recur while accidents compete and often cancel.
-
-Low training loss alone is not the goal. A model must perform well on examples it did not train on. That is generalization.
-
-## Code Walkthrough
-
-`implementation.py` learns the minimum of $(w-3)^2$ with gradient descent. It prints parameter, loss, and gradient at each step. Change the learning rate to `1.1`: updates overshoot and diverge. Change it to `0.001`: learning becomes safe but slow.
-
-## Common Misconceptions
-
-**“The gradient tells us the best final parameter.”** It gives local slope, not a complete map of the landscape.
-
-**“Training stores every example verbatim.”** Models can memorize, but gradient training also discovers reusable statistical patterns.
-
-**“Lower training loss always means a better model.”** Overfitting can improve training loss while hurting unseen data.
-
-**“Learning means human-like comprehension.”** Optimization improves an objective. What capabilities emerge must be tested, not assumed.
-
-## The New Problem
-
-Local updates optimize next-token prediction, yet sufficiently large models develop abilities not explicitly programmed: translation, analogy, coding, planning, and more. How can simple training produce qualitatively surprising behavior? Our next excavation studies emergence.
-
----
-
-Previous: [014 — Layer Normalization](../014-layer-normalization/README.md) · Next: Excavation 016 — Emergence *(coming next)*
+[Next: Emergence](../016-emergence/README.md)

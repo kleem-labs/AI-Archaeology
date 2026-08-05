@@ -1,61 +1,46 @@
 # Excavation 013 — Residual Connections
 
-## The Problem: Depth Can Destroy the Message
+[Previous: Feed-Forward Networks](../012-feed-forward-networks/README.md)
 
-Suppose a useful representation must pass through 50 transformation blocks. If every block replaces it entirely, even a mediocre early transformation can erase information that later blocks need. Learning an identity mapping—“leave this alone”—should be easy, yet a complicated block may struggle to reproduce its input exactly.
+Imagine rewriting an important message fifty times. If every editor replaces the entire document, one poor edit can erase something later editors need.
 
-## Failed Attempt: Trust Every Layer to Preserve Everything
+A deep network faces the same danger. Attention and feed-forward blocks transform a representation repeatedly. Requiring each block to reproduce everything worth keeping while also improving it is an unnecessarily hard job.
 
-We could demand that each transformation $F$ learn both what to preserve and what to change. This burdens every layer with copying the entire representation while making a small improvement. During backpropagation, gradients must also pass through every transformation, where repeated multiplication can shrink or explode them.
+## Failed attempt: trust replacement
 
-## The Invention: Learn the Change
+Let each layer output a completely new representation. To do nothing useful, the layer must learn a perfect copy operation. Errors compound, and the learning signal must pass through every transformation on its way backward.
 
-Keep the input and add the block's proposal:
+## Let each layer propose a correction
+
+Keep the original stream and ask the block only for a change:
+
+```text
+original representation ─────────────┐
+        └→ transformation → proposal ├→ add → new representation
+```
+
+If the proposal is useful, add it. If no change is needed, a proposal near zero leaves the original intact.
+
+This reconnects directly with Excavation 004: a vector can describe a state, and another vector can describe how that state should change.
+
+Only now do we need the compact rule:
 
 $$
 \mathbf{y}=\mathbf{x}+F(\mathbf{x})
 $$
 
-The direct path is the **residual connection** or skip connection. $F$ no longer needs to recreate the whole output. It learns the residual—the change from input to desired output.
+The block learns the **residual**—the difference between what exists and what should be added.
 
-## Worked Example
+This direct route also gives learning signals a path that does not depend entirely on every learned transformation. Residual connections do not guarantee that a very deep model will train, but they make preservation and correction far easier.
 
-Let `x = [10, 5, -2]` and let a block propose `F(x) = [0.5, -1, 0]`. Then:
+Addition requires the input and proposal to have the same shape. That is why attention and feed-forward sublayers return to the model's shared width before joining the residual stream.
 
-$$y=[10.5,4,-2]$$
+## Challenge
 
-Most information survives while the block edits selected features. If the best action is no change, setting $F(x)=0$ immediately gives the identity.
+If the best transformation for one layer is “leave this representation alone,” compare what a replacement block must learn with what a residual block must output.
 
-## Why Gradients Benefit
+## What the next excavation needs
 
-For scalar intuition:
+Repeated transformations and additions can make some representations numerically huge and others tiny. The next block needs a more stable working scale.
 
-$$
-\frac{dy}{dx}=1+\frac{dF}{dx}
-$$
-
-The derivative contains a direct `1` path. Even if the learned branch has a small derivative, a gradient can still flow backward through the skip route. This does not guarantee perfect training, but it greatly improves deep optimization.
-
-## Shape Is a Contract
-
-Addition requires $F(x)$ and $x$ to have the same shape. Transformer attention and FFN sublayers therefore return to the model width before residual addition. If widths differ, a projection must align them.
-
-## Code Walkthrough
-
-`implementation.py` applies a small transformation and adds its output back to the input. It also stacks several residual updates. Compare this with repeatedly replacing the state using only `F(x)`.
-
-## Common Misconceptions
-
-**“A residual connection skips computation.”** The learned branch still runs; the skip preserves an alternate information and gradient route.
-
-**“Residual means the change must be small.”** It can be large, though training often benefits from learning refinements.
-
-**“Skip connections solve every depth problem.”** Initialization, normalization, optimization, and architecture still matter.
-
-## The New Problem
-
-Residual streams repeatedly accumulate contributions. Their scales can drift, and different examples can produce wildly different activation magnitudes. We need controlled numerical conditions without erasing learned structure.
-
----
-
-Previous: [012 — Feed-Forward Networks](../012-feed-forward-networks/README.md) · Next: [014 — Layer Normalization](../014-layer-normalization/README.md)
+[Next: Layer Normalization](../014-layer-normalization/README.md)

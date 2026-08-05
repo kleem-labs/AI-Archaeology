@@ -1,64 +1,53 @@
 # Excavation 012 — Feed-Forward Networks
 
-## The Problem: Communication Is Not Thought
+[Previous: Multi-Head Attention](../011-multi-head-attention/README.md)
 
-Attention answers, “Which other tokens should this token consult?” After gathering information, every token still needs to process what it received.
+Attention lets tokens communicate. Communication is not the same as thinking.
 
-Imagine a token has collected evidence for *not*, *very*, and *hot*. Routing brings those signals together. The model must now build a useful transformation—perhaps a feature closer to “mild.” A weighted average alone is limited.
+Imagine several experts place evidence on your desk. You still need to interpret it, combine patterns, and form a new conclusion. In a Transformer, each token needs a private processing step after it gathers information.
 
-## Failed Attempt: Add Another Matrix
+## Failed attempt: stack transformation matrices
 
-Apply matrix $A$, then matrix $B$:
+Apply one matrix, then another, then another. This looks deep, but if every step is purely linear, the whole chain can be replaced by one matrix. More layers have added notation without adding a new kind of behavior.
 
-$$B(A\mathbf{x})=(BA)\mathbf{x}$$
+The missing ability is to respond differently depending on which patterns are present—to open some paths and close others.
 
-No matter how many purely linear layers we stack, they collapse into one matrix. They can rotate, scale, and mix dimensions, but cannot create a bend, threshold, or conditional response.
+## A small internal workshop
 
-## The Invention: Linear, Nonlinear, Linear
+For each token independently:
 
-A transformer feed-forward network applies the same small neural network independently to every token:
+1. expand its representation into a wider workspace;
+2. allow only some intermediate signals through;
+3. recombine the surviving signals back into the shared width.
+
+```text
+token → many candidate features → gate → recombined token
+```
+
+A simple gate such as ReLU turns negative signals off and leaves positive ones available. Because different inputs activate different intermediate features, the surrounding matrices no longer collapse into one fixed transformation.
+
+Only now does the familiar expression describe an understood machine:
 
 $$
-\operatorname{FFN}(\mathbf{x})=W_2\,\sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2
+\operatorname{FFN}(\mathbf{x})
+=W_2\,\sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2
 $$
 
-$W_1$ usually expands the width, the activation $\sigma$ introduces nonlinearity, and $W_2$ projects back to model width.
+The same workshop is applied separately to every token. It does not communicate across positions; attention already handled that.
 
-## Worked ReLU Example
+```text
+attention: who should I hear?
+feed-forward: what do I make of what I heard?
+```
 
-Let an intermediate result be `[-2, 0.5, 3]`. ReLU computes:
+The phrase “feed-forward” can sound like the entire model. Here it means the position-wise transformation inside each Transformer block.
 
-$$\operatorname{ReLU}(z)=\max(0,z)$$
+## Challenge
 
-so the result is `[0, 0.5, 3]`. This simple gate makes the transformation input-dependent. Different inputs activate different intermediate features; the two surrounding matrices can no longer collapse into one fixed matrix.
+Explain why two linear transformations in succession can still act like one linear transformation, and identify what the gate changes.
 
-## Why Expand the Hidden Width?
+## What the next excavation needs
 
-The wider internal space gives the layer room to detect many candidate patterns. The projection back compresses those activated patterns into the shared model representation. It resembles asking many learned questions, gating their responses, then recombining them.
+If every workshop completely replaces its input, useful information can be damaged as it passes through many layers. We need a safer way to build depth.
 
-## Position-Wise Means Shared, Not Connected
-
-The FFN is applied separately to every token with the same parameters. It does not mix token positions; attention already performed communication. This creates a clean rhythm:
-
-1. Attention: exchange information across tokens.
-2. FFN: transform information within each token.
-
-## Code Walkthrough
-
-`implementation.py` implements affine transformations, ReLU, and a two-layer FFN. Run it, inspect the hidden pre-activations, and note which coordinates ReLU turns off. Change the input slightly and watch the active pattern change.
-
-## Common Misconceptions
-
-**“Feed-forward means information moves through the sentence.”** Here it moves through layers inside one token position.
-
-**“ReLU merely deletes negative numbers.”** Its importance is that it makes the overall mapping nonlinear and input-dependent.
-
-**“Attention does all transformer computation.”** FFNs contain a large fraction of parameters and perform much of the feature transformation.
-
-## The New Problem
-
-We can now stack attention and FFNs. But deep stacks can damage information and make optimization fragile. We need a path that lets each block refine a representation without replacing it completely.
-
----
-
-Previous: [011 — Multi-Head Attention](../011-multi-head-attention/README.md) · Next: [013 — Residual Connections](../013-residual-connections/README.md)
+[Next: Residual Connections](../013-residual-connections/README.md)

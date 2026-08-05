@@ -1,156 +1,76 @@
-# Excavation 010 — Query, Key, Value
+# Excavation 010 — Query, Key, and Value
 
-## The Final Missing Piece
+[Previous: Softmax](../009-softmax/README.md)
 
-Attention needs scores and information vectors. Why not compare the token embeddings directly and then average those same embeddings?
+Return to the trophy sentence. The word *it* is looking for something like “a previously mentioned physical object that can participate in this size relationship.” Each earlier word offers different clues.
 
-Because matching and contributing are different jobs.
+This suggests two cards:
 
-In a library, a search request might ask for “introductory books about astronomy.” Catalog fields determine which books match. The content retrieved from a selected book is not merely its catalog entry. Search description and delivered information are related but distinct.
+```text
+Query: what information am I looking for?
+Key:   what kind of match can I offer?
+```
 
-## Failed Attempt: One Vector Does Everything
+## Similarity is the wrong question
 
-Suppose a token vector contains grammatical role, topic, position, and many other properties. The dimensions useful for deciding relevance may not be the dimensions we want to send onward.
+At first we might reuse Euclidean distance. You rejected that for the right reason:
 
-If one vector must serve both purposes, every improvement to matching may disturb content, and every improvement to content may disturb matching.
+> Distance says similar. Here we are looking for relevant.
 
-## The Invention: Three Learned Views
+A doctor and a hospital are not similar objects, yet they can be strongly related. Attention asks a directional question: “How useful are you to me right now?”
 
-From each token representation $\mathbf{x}$, create three projections:
+## Your scoring operation
 
-$$
-\mathbf{q}=W_Q\mathbf{x},\qquad
-\mathbf{k}=W_K\mathbf{x},\qquad
-\mathbf{v}=W_V\mathbf{x}
-$$
+You proposed comparing corresponding features, multiplying them, and adding everything to get one score.
 
-- **Query:** What kind of information is this receiving position seeking?
-- **Key:** What kind of match does this source position offer?
-- **Value:** What information will this source contribute if selected?
+Suppose a query is `[1, 2, 3]` and a key is `[2, 1, 4]`. Feature by feature:
 
-These are learned roles, not fixed human-readable labels.
+```text
+1×2 contributes 2
+2×1 contributes 2
+3×4 contributes 12
+```
 
-## Step 1: Compare Queries with Keys
+If both sides care strongly about the same feature, the contribution is large. If one side has zero interest, the contribution vanishes. Opposing signs create negative evidence rather than being discarded. Adding the contributions gives one relevance score.
 
-For receiving token $i$ and possible source $j$:
+Only now do we write the operation you rediscovered—the dot product:
 
 $$
 s_{ij}=\mathbf{q}_i\cdot\mathbf{k}_j
+=\sum_r q_{ir}k_{jr}
 $$
 
-Worked example:
+For each receiving word, its whole query is compared with the whole key of every available source word. The feature-wise products happen inside each comparison; the sum creates one score per source.
+
+## Why a third vector exists
+
+Query and key decide who matters. They do not say what information should travel.
+
+When asked how three experts should contribute, you answered:
+
+> Each expert contributes what they do—the knowledge related to their profession and domain.
+
+Exactly. A historian's matching description is not the historical knowledge we want to retrieve. Each source therefore needs a **Value**: the content it contributes if selected.
 
 ```text
-query = [1, 0]
-key A = [0.9, 0.1]
-key B = [0.1, 0.9]
+Query ↔ Key → score → softmax weight
+Value × weight → contributed information
 ```
 
-The scores are 0.9 and 0.1. The query aligns much more strongly with key A.
-
-For all tokens at once, stack queries and keys into matrices:
+The output for one token is finally the weighted sum of source values:
 
 $$
-S=QK^T
+\mathbf{o}_i=\sum_j \alpha_{ij}\mathbf{v}_j
 $$
 
-Entry $S_{ij}$ contains the score from query $i$ to key $j$.
+Learned matrices create query, key, and value views from each current representation. Their formulas record three roles we already needed; they are not arbitrary symmetry.
 
-## Step 2: Why Divide by $\sqrt{d_k}$?
+## Challenge
 
-If query and key coordinates have roughly unit variance, adding $d_k$ coordinate products makes dot products grow in typical magnitude as the dimension grows. Large scores push softmax into a nearly one-hot region where gradients can become very small.
+For a library search, identify the query, the key-like catalog information, and the value-like content returned. Explain why catalog fields and book contents should not be the same object.
 
-Scaling stabilizes them:
+## What the next excavation needs
 
-$$
-S=\frac{QK^T}{\sqrt{d_k}}
-$$
+One relevance system can pursue one mixture of relationships. Language needs several kinds of relevance at the same time.
 
-The square root is not decorative. It compensates for how the variance of a sum grows with dimension.
-
-## Step 3: Normalize Each Query's Scores
-
-Apply softmax across each row:
-
-$$
-A=\operatorname{softmax}(S)
-$$
-
-Every row now describes where one receiving token gathers information. Row $i$ sums to one independently of all other rows.
-
-## Step 4: Mix Values
-
-Use those weights to combine the value vectors:
-
-$$
-O=AV
-$$
-
-Putting the steps together:
-
-$$
-\operatorname{Attention}(Q,K,V)=
-\operatorname{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
-$$
-
-This single expression is no longer mysterious. It says: match requests to offers, normalize the match strengths, and retrieve a weighted mixture of content.
-
-## Worked Miniature Example
-
-Let one query produce softmax weights `[0.75, 0.25]`, with values:
-
-```text
-value A = [1, 0]
-value B = [0, 2]
-```
-
-The output is:
-
-$$
-0.75[1,0]+0.25[0,2]=[0.75,0.5]
-$$
-
-Notice that keys have disappeared after determining the weights. Values supply the output content.
-
-## Causal Masking
-
-When predicting the next token, position 3 must not inspect position 4. Otherwise training would leak the answer. Before softmax, forbidden scores are replaced with $-\infty$:
-
-$$e^{-\infty}=0$$
-
-Their attention weights become exactly zero. The mask changes which information routes are allowed, not the learned query/key matching rule itself.
-
-## Code Walkthrough
-
-`implementation.py` implements the complete algorithm without NumPy:
-
-1. `dot` compares one query and key.
-2. `softmax` normalizes one row of scores.
-3. `weighted_sum` mixes values.
-4. `scaled_dot_product_attention` repeats these steps for every query.
-
-Run:
-
-```bash
-python3 excavations/010-query-key-value/implementation.py
-```
-
-Each printed row shows one token's attention distribution and resulting contextual vector. Change `causal=False` to `causal=True` in the call and print again. Earlier positions will lose access to future values.
-
-## Common Misconceptions
-
-**“Q, K, and V are copies of the same vector.”** They begin from the same token representation but use different learned matrices.
-
-**“Keys contain the returned information.”** Keys support matching; values supply the mixture.
-
-**“Attention always attends to words.”** It operates on representations. Depending on the model, these may correspond to subword tokens, image patches, audio frames, or other elements.
-
-**“The largest attention weight explains the whole output.”** The value vectors and subsequent layers matter just as much as the routing weights.
-
-## The New Problem
-
-One attention mechanism creates one geometry of matching. Language may simultaneously require grammatical, positional, referential, and semantic relationships. Next we let several attention mechanisms work in parallel: multi-head attention.
-
----
-
-Previous: [009 — Softmax](../009-softmax/README.md) · Next: [011 — Multi-Head Attention](../011-multi-head-attention/README.md)
+[Next: Multi-Head Attention](../011-multi-head-attention/README.md)
