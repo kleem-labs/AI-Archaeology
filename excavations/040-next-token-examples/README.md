@@ -2,19 +2,34 @@
 
 [Previous: Excavation 039](../039-causal-mask/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** We have tokens, positions, and a causal boundary. The model still needs explicit questions and answers.
+
+> **Try your first idea:** Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 We have tokens, positions, and a causal boundary. The model still needs explicit questions and answers.
 
-## Naive Attempt
+## Your First Attempt
 
 Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either gives the model forbidden information, discards useful structure, or performs repeated work without solving the actual representation problem.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Shift the sequence by one position so every visible prefix predicts the token immediately following it.
 
@@ -22,11 +37,11 @@ Shift the sequence by one position so every visible prefix predicts the token im
 
 Padding and document boundaries can create false targets unless their losses are masked.
 
-## Key Insight
+## What You Have Just Invented
 
 **Shift the sequence by one position so every visible prefix predicts the token immediately following it.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

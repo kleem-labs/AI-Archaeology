@@ -2,19 +2,34 @@
 
 [Previous excavation](../020-entropy/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** A model predicts tiger 90% and deer 10%, but a deer appears. We need a loss that distinguishes this dangerous confidence from a cautious 55–45 mistake.
+
+> **Try your first idea:** Use zero for correct and one for wrong. It treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 A model predicts tiger 90% and deer 10%, but a deer appears. We need a loss that distinguishes this dangerous confidence from a cautious 55–45 mistake.
 
-## Naive Attempt
+## Your First Attempt
 
 Use zero for correct and one for wrong. It treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either throws away uncertainty, measures the wrong thing, or repeats work that the next step must preserve. We need a procedure whose parts answer the failure directly.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Use zero for correct and one for wrong. It treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Charge the information cost assigned by the predicted distribution to the outcome that actually occurred.
 
@@ -22,11 +37,11 @@ Charge the information cost assigned by the predicted distribution to the outcom
 
 The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
 
-## Key Insight
+## What You Have Just Invented
 
 **Charge the information cost assigned by the predicted distribution to the outcome that actually occurred.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

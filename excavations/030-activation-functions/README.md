@@ -2,19 +2,34 @@
 
 [Previous: Excavation 029](../029-initialization/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** We stack many learned transformations, expecting deeper reasoning. If every layer is linear, the entire tower is equivalent to one matrix.
+
+> **Try your first idea:** Add more linear layers. Depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 We stack many learned transformations, expecting deeper reasoning. If every layer is linear, the entire tower is equivalent to one matrix.
 
-## Naive Attempt
+## Your First Attempt
 
 Add more linear layers. Depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
 
-## Why It Fails
+## Break Your First Attempt
 
-A deep learner needs a simple nonlinearity that changes which paths respond while remaining trainable.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Add more linear layers. Depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.
 
@@ -22,11 +37,11 @@ Place an activation after a linear transformation. ReLU opens positive paths; sm
 
 The repair solves the immediate failure, but every activation has tradeoffs: dead ReLUs, saturation, computational cost, or assumptions about input scale.
 
-## Key Insight
+## What You Have Just Invented
 
 **Place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

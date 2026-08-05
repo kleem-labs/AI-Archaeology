@@ -2,19 +2,34 @@
 
 [Previous: A Tiny Neural Network](../035-tiny-neural-network/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** Our network accepts numbers, but people produce an open stream of words, punctuation, names, code, and writing systems. Before learning language, the machine needs repeatable input pieces.
+
+> **Try your first idea:** Give every complete word one ID. Spaces appear to provide the boundaries.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 Our network accepts numbers, but people produce an open stream of words, punctuation, names, code, and writing systems. Before learning language, the machine needs repeatable input pieces.
 
-## Naive Attempt
+## Your First Attempt
 
 Give every complete word one ID. Spaces appear to provide the boundaries.
 
-## Why It Fails
+## Break Your First Attempt
 
-Tiger, tiger!, tigers, and an unseen name become unrelated entries. The vocabulary can grow forever, unknown words disappear into one bucket, and many languages do not use English-style spaces.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Give every complete word one ID. Spaces appear to provide the boundaries.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Use characters. Any new spelling can now be represented.
 
@@ -22,11 +37,11 @@ Use characters. Any new spelling can now be represented.
 
 Common words become long sequences and the model must reconstruct recurring fragments such as ing repeatedly. Words are too large; characters are often too small.
 
-## Key Insight
+## What You Have Just Invented
 
 Begin with universally representable pieces. Count adjacent pairs and repeatedly merge the pair that occurs most often. Frequent structure earns a reusable subword token; rare forms remain constructible from smaller pieces.
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

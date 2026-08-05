@@ -2,6 +2,17 @@
 
 [Previous: Softmax](../009-softmax/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** How can doctor be relevant to hospital without pretending they are similar objects?
+
+> **Try your first idea:** Use Euclidean distance and say exactly which different question it answered.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 Return to the trophy sentence. The word *it* is looking for something like “a previously mentioned physical object that can participate in this size relationship.” Each earlier word offers different clues.
 
 This suggests two cards:

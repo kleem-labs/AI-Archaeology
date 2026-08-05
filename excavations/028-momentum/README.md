@@ -2,19 +2,34 @@
 
 [Previous: Excavation 027](../027-learning-rate/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** Mini-batch gradients wobble. One batch points left-down, the next right-down, although both share a persistent downward direction.
+
+> **Try your first idea:** Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 Mini-batch gradients wobble. One batch points left-down, the next right-down, although both share a persistent downward direction.
 
-## Naive Attempt
+## Your First Attempt
 
 Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
 
-## Why It Fails
+## Break Your First Attempt
 
-Useful direction persists across batches while much of the noise changes sign.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Keep a fading memory of past gradients and combine it with the new one.
 
@@ -22,11 +37,11 @@ Keep a fading memory of past gradients and combine it with the new one.
 
 The repair solves the immediate failure, but momentum can overshoot, and its extra memory introduces another setting. It does not repair a fundamentally bad loss or dataset.
 
-## Key Insight
+## What You Have Just Invented
 
 **Keep a fading memory of past gradients and combine it with the new one.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

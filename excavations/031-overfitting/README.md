@@ -2,19 +2,34 @@
 
 [Previous: Excavation 030](../030-activation-functions/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** A model scores perfectly on every training example, then fails on a new animal seen from a different angle.
+
+> **Try your first idea:** Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 A model scores perfectly on every training example, then fails on a new animal seen from a different angle.
 
-## Naive Attempt
+## Your First Attempt
 
 Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
 
-## Why It Fails
+## Break Your First Attempt
 
-Performance on remembered observations does not measure performance on unseen reality.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Reserve unseen cases and compare training success with performance outside the training memory.
 
@@ -22,11 +37,11 @@ Reserve unseen cases and compare training success with performance outside the t
 
 The repair solves the immediate failure, but a gap diagnoses overfitting but does not identify its cause. Leakage, distribution shift, and noisy evaluation can mislead us.
 
-## Key Insight
+## What You Have Just Invented
 
 **Reserve unseen cases and compare training success with performance outside the training memory.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

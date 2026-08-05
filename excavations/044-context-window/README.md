@@ -2,19 +2,34 @@
 
 [Previous: Excavation 043](../043-sampling/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** Generation repeats one token at a time, and every new token may attend to the past. The stored conversation keeps growing.
+
+> **Try your first idea:** Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 Generation repeats one token at a time, and every new token may attend to the past. The stored conversation keeps growing.
 
-## Naive Attempt
+## Your First Attempt
 
 Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either gives the model forbidden information, discards useful structure, or performs repeated work without solving the actual representation problem.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
 
@@ -22,11 +37,11 @@ Choose a maximum context, train within it, and reuse cached keys and values duri
 
 A larger window is not perfect memory. Retrieval, compression, recurrence, and careful data are separate inventions.
 
-## Key Insight
+## What You Have Just Invented
 
 **Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

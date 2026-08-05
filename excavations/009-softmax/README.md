@@ -2,6 +2,17 @@
 
 [Previous: Attention](../008-attention/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** Scores are 15, 14.9, and 1. How should all three influence the result?
+
+> **Try your first idea:** Pick only the winner, then divide raw scores containing a negative value.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 Suppose *she* compares itself with earlier words and receives:
 
 ```text

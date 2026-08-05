@@ -2,19 +2,34 @@
 
 [Previous: Excavation 032](../032-regularization/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** We need to choose model size, learning rate, and stopping time. Choosing them using the final test set quietly trains us on the test.
+
+> **Try your first idea:** Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 We need to choose model size, learning rate, and stopping time. Choosing them using the final test set quietly trains us on the test.
 
-## Naive Attempt
+## Your First Attempt
 
 Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
 
-## Why It Fails
+## Break Your First Attempt
 
-One unseen set must guide choices, while another remains untouched for the final estimate.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
 
@@ -22,11 +37,11 @@ Split data by role: training changes weights, validation changes design decision
 
 The repair solves the immediate failure, but random splits fail when future, users, families, or duplicated records leak across boundaries. The split must match the real deployment question.
 
-## Key Insight
+## What You Have Just Invented
 
 **Split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

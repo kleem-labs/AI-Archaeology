@@ -2,6 +2,17 @@
 
 [Previous: Tokenization](../036-tokenization/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** The tokenizer returns IDs:
+
+> **Try your first idea:** Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 The tokenizer returns IDs:
@@ -16,15 +27,19 @@ A neural network needs numbers, so perhaps the problem appears solved. But what 
 
 Nothing except “look in slot 417.”
 
-## Naive Attempt
+## Your First Attempt
 
 Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
 
-## Why It Fails
+## Break Your First Attempt
 
-Tokenizer IDs are addresses, not measurements. Their order is accidental. Renumbering the vocabulary must not change language, yet direct arithmetic changes every relationship.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Give every vocabulary item a one-hot vector: one coordinate is one and all others are zero.
 
@@ -42,7 +57,7 @@ A vocabulary of 50,000 tokens produces 50,000-dimensional vectors containing 49,
 
 The network needs a compact set of coordinates whose positions can change when prediction errors reveal useful relationships.
 
-## Key Insight
+## What You Have Just Invented
 
 Create a table with one learnable vector per token. A token ID selects a row. Training moves that row whenever changing the token's representation would reduce prediction loss.
 
@@ -52,7 +67,7 @@ token ID → choose one row → dense vector
 
 The ID remains an address. The selected row becomes the representation.
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 Let the embedding table contain one row for each vocabulary item:
 

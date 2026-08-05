@@ -2,19 +2,34 @@
 
 [Previous: Excavation 026](../026-mini-batches/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** The gradient points downhill, but it does not say how far to walk. A correct direction can still produce a disastrous step.
+
+> **Try your first idea:** Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 The gradient points downhill, but it does not say how far to walk. A correct direction can still produce a disastrous step.
 
-## Naive Attempt
+## Your First Attempt
 
 Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
 
-## Why It Fails
+## Break Your First Attempt
 
-Direction without step size is not an update.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
 
@@ -22,11 +37,11 @@ Multiply the gradient by a learning rate, observe whether loss descends, and adj
 
 The repair solves the immediate failure, but no single learning rate is best throughout training. Scale, curvature, batch noise, and parameter units all matter.
 
-## Key Insight
+## What You Have Just Invented
 
 **Multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

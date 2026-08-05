@@ -2,6 +2,17 @@
 
 [Previous: Before Mathematics Existed](../000-before-mathematics-existed/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** Which observations would you keep if the camp must identify dangerous animals?
+
+> **Try your first idea:** Try stripes alone, then four legs alone. Test the rules on a zebra and an injured tiger.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 Your tribe now recognizes tigers. That is not enough. Ten animals are moving through the valley, and you must decide which ones threaten the camp.
 
 For each animal you could remember the whole encounter: the exact light, every hair, every sound. But those details change even when the danger does not. Perfect memory gives you more information and less ability to compare.

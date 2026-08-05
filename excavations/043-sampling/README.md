@@ -2,19 +2,34 @@
 
 [Previous: Excavation 042](../042-vocabulary-probabilities/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** The model predicts several plausible next tokens. Taking only the highest probability makes generation repetitive and brittle.
+
+> **Try your first idea:** Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 The model predicts several plausible next tokens. Taking only the highest probability makes generation repetitive and brittle.
 
-## Naive Attempt
+## Your First Attempt
 
 Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either gives the model forbidden information, discards useful structure, or performs repeated work without solving the actual representation problem.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Control the distribution with temperature and optionally restrict it to a credible top set before sampling.
 
@@ -22,11 +37,11 @@ Control the distribution with temperature and optionally restrict it to a credib
 
 Sampling changes expression, not knowledge. No decoding rule can repair a model that assigned poor probabilities.
 
-## Key Insight
+## What You Have Just Invented
 
 **Control the distribution with temperature and optionally restrict it to a credible top set before sampling.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

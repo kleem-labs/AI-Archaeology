@@ -2,6 +2,17 @@
 
 [Previous: Distance](../003-distance/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** Five metres gives an amount. What else turns it into a usable instruction?
+
+> **Try your first idea:** Apply “five metres” from two starting places and in two directions.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 You are standing in the jungle. Someone tells you, “Walk five meters.” You cannot obey.
 
 Five tells you how much, but movement also needs a direction. “Five meters north” is complete. It does not describe where you are; it describes what must change.

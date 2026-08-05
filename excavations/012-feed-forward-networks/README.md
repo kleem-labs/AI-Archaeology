@@ -2,6 +2,17 @@
 
 [Previous: Multi-Head Attention](../011-multi-head-attention/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** After tokens communicate, how can each token form a private conclusion?
+
+> **Try your first idea:** Stack linear transformations and collapse them algebraically into one.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 Attention lets tokens communicate. Communication is not the same as thinking.
 
 Imagine several experts place evidence on your desk. You still need to interpret it, combine patterns, and form a new conclusion. In a Transformer, each token needs a private processing step after it gathers information.

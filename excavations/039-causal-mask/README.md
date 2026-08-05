@@ -2,19 +2,34 @@
 
 [Previous: Excavation 038](../038-position/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** During next-token training the whole sentence is available. Without a barrier, the representation at cat can inspect the answer sitting to its right.
+
+> **Try your first idea:** Train each prefix in a separate forward pass. It prevents cheating but repeats nearly identical work.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 During next-token training the whole sentence is available. Without a barrier, the representation at cat can inspect the answer sitting to its right.
 
-## Naive Attempt
+## Your First Attempt
 
 Train each prefix in a separate forward pass. It prevents cheating but repeats nearly identical work.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either gives the model forbidden information, discards useful structure, or performs repeated work without solving the actual representation problem.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Train each prefix in a separate forward pass. It prevents cheating but repeats nearly identical work.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Process all positions together while blocking attention from position i to every later position j.
 
@@ -22,11 +37,11 @@ Process all positions together while blocking attention from position i to every
 
 A mask prevents direct attention leakage; shifted targets and data pipelines must also align correctly.
 
-## Key Insight
+## What You Have Just Invented
 
 **Process all positions together while blocking attention from position i to every later position j.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

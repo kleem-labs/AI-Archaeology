@@ -2,19 +2,34 @@
 
 [Previous: Excavation 041](../041-logits/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** The output head gives arbitrary positive and negative logits. We need comparable probabilities and a training loss.
+
+> **Try your first idea:** Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 The output head gives arbitrary positive and negative logits. We need comparable probabilities and a training loss.
 
-## Naive Attempt
+## Your First Attempt
 
 Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either gives the model forbidden information, discards useful structure, or performs repeated work without solving the actual representation problem.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
 
@@ -22,11 +37,11 @@ Exponentiate relative scores, normalize them, then charge the negative log proba
 
 A probability distribution expresses model confidence, not truth. Poor calibration and biased data remain possible.
 
-## Key Insight
+## What You Have Just Invented
 
 **Exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

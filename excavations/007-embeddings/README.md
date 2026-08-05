@@ -2,6 +2,17 @@
 
 [Previous: Meaning](../006-meaning/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** How can repeated contexts become locations a machine can compare?
+
+> **Try your first idea:** Give words arbitrary IDs and ask whether nearby numbers mean nearby meanings.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 We have a web of constraints but no convenient way to store its geometry.
 
 ## First attempt: give every word an ID

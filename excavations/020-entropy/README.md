@@ -2,19 +2,34 @@
 
 [Previous excavation](../019-information/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** One bag contains ten red stones. Another contains five red and five blue. Before drawing, which bag leaves us more uncertain?
+
+> **Try your first idea:** Count the number of outcomes. Both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 One bag contains ten red stones. Another contains five red and five blue. Before drawing, which bag leaves us more uncertain?
 
-## Naive Attempt
+## Your First Attempt
 
 Count the number of outcomes. Both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either throws away uncertainty, measures the wrong thing, or repeats work that the next step must preserve. We need a procedure whose parts answer the failure directly.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Count the number of outcomes. Both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Average the information of every possible outcome, weighted by how often that outcome occurs.
 
@@ -22,11 +37,11 @@ Average the information of every possible outcome, weighted by how often that ou
 
 The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
 
-## Key Insight
+## What You Have Just Invented
 
 **Average the information of every possible outcome, weighted by how often that outcome occurs.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

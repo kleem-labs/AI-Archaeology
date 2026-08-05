@@ -2,19 +2,34 @@
 
 [Previous: Excavation 033](../033-validation/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** Even a carefully validated model may meet a new hospital, dialect, season, or camera unlike anything in its files.
+
+> **Try your first idea:** Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 Even a carefully validated model may meet a new hospital, dialect, season, or camera unlike anything in its files.
 
-## Naive Attempt
+## Your First Attempt
 
 Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
 
-## Why It Fails
+## Break Your First Attempt
 
-Generalization is always relative to a family of future situations and the invariances we expect to remain true.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
 
@@ -22,11 +37,11 @@ State the deployment world, test meaningful shifts, and build representations ar
 
 The repair solves the immediate failure, but no benchmark proves universal intelligence. Future distributions can change in ways neither data nor designers anticipated.
 
-## Key Insight
+## What You Have Just Invented
 
 **State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

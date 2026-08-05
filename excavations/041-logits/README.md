@@ -2,19 +2,34 @@
 
 [Previous: Excavation 040](../040-next-token-examples/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** The Transformer produces one contextual vector per position. A vector is not yet a prediction such as tiger, river, or runs.
+
+> **Try your first idea:** Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 The Transformer produces one contextual vector per position. A vector is not yet a prediction such as tiger, river, or runs.
 
-## Naive Attempt
+## Your First Attempt
 
 Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either gives the model forbidden information, discards useful structure, or performs repeated work without solving the actual representation problem.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Use a learned linear map to produce one raw score for every vocabulary item.
 
@@ -22,11 +37,11 @@ Use a learned linear map to produce one raw score for every vocabulary item.
 
 Logits have no standalone probability meaning and can shift together without changing the final distribution.
 
-## Key Insight
+## What You Have Just Invented
 
 **Use a learned linear map to produce one raw score for every vocabulary item.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

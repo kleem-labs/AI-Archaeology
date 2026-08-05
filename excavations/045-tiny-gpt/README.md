@@ -2,19 +2,34 @@
 
 [Previous: Excavation 044](../044-context-window/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** We have excavated every component of an autoregressive language model, but isolated demonstrations do not prove the parts cooperate.
+
+> **Try your first idea:** Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 We have excavated every component of an autoregressive language model, but isolated demonstrations do not prove the parts cooperate.
 
-## Naive Attempt
+## Your First Attempt
 
 Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either gives the model forbidden information, discards useful structure, or performs repeated work without solving the actual representation problem.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
 
@@ -22,11 +37,11 @@ Assemble token and position embeddings, masked Transformer blocks, vocabulary lo
 
 A tiny GPT demonstrates the mechanism, not modern capability. Scale, data quality, optimization, evaluation, and safety now become the next landscape.
 
-## Key Insight
+## What You Have Just Invented
 
 **Assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

@@ -2,19 +2,34 @@
 
 [Previous: Excavation 034](../034-generalization/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** We have excavated features, transformations, nonlinear gates, loss, gradients, batches, and validation separately. A pile of correct parts still does not learn.
+
+> **Try your first idea:** Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 We have excavated features, transformations, nonlinear gates, loss, gradients, batches, and validation separately. A pile of correct parts still does not learn.
 
-## Naive Attempt
+## Your First Attempt
 
 Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
 
-## Why It Fails
+## Break Your First Attempt
 
-Understanding becomes operational only when one example can travel forward, create loss, send blame backward, and update the same weights.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
 
@@ -22,11 +37,11 @@ Build a two-layer network, cache its intermediate values, backpropagate every de
 
 The repair solves the immediate failure, but a tiny network exposes mechanics but is not yet a language model. The next arc must turn sequences into a trained generative system.
 
-## Key Insight
+## What You Have Just Invented
 
 **Build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

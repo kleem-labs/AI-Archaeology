@@ -2,19 +2,34 @@
 
 [Previous: Excavation 028](../028-momentum/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** Before training, every weight needs a value. The starting point decides what signals and gradients the first examples can produce.
+
+> **Try your first idea:** Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 Before training, every weight needs a value. The starting point decides what signals and gradients the first examples can produce.
 
-## Naive Attempt
+## Your First Attempt
 
 Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
 
-## Why It Fails
+## Break Your First Attempt
 
-Useful learners must begin different from one another without making signals vanish or explode.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Draw small random weights whose scale depends on how many inputs feed the neuron.
 
@@ -22,11 +37,11 @@ Draw small random weights whose scale depends on how many inputs feed the neuron
 
 The repair solves the immediate failure, but good initialization creates workable conditions; it does not encode the solution or guarantee stable training at every depth.
 
-## Key Insight
+## What You Have Just Invented
 
 **Draw small random weights whose scale depends on how many inputs feed the neuron.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

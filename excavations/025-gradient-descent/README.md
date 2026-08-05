@@ -2,19 +2,34 @@
 
 [Previous excavation](../024-backpropagation/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** We can now assign blame to every weight. The network still needs a disciplined way to turn those sensitivities into repeated improvement.
+
+> **Try your first idea:** Jump directly opposite the gradient with no step control; the model may overshoot and diverge. Take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 ## Problem
 
 We can now assign blame to every weight. The network still needs a disciplined way to turn those sensitivities into repeated improvement.
 
-## Naive Attempt
+## Your First Attempt
 
 Jump directly opposite the gradient with no step control; the model may overshoot and diverge. Take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
 
-## Why It Fails
+## Break Your First Attempt
 
-The attempt either throws away uncertainty, measures the wrong thing, or repeats work that the next step must preserve. We need a procedure whose parts answer the failure directly.
+Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
-## Better Attempt
+> Jump directly opposite the gradient with no step control; the model may overshoot and diverge. Take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
+
+Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
+
+## Repair Your Attempt
 
 Move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress.
 
@@ -22,11 +37,11 @@ Move every parameter a controlled distance opposite its gradient, repeat on batc
 
 The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
 
-## Key Insight
+## What You Have Just Invented
 
 **Move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress.**
 
-## Mathematics Emerges
+## Only Now Give the Discovery a Mathematical Name
 
 ## Build Every Piece from the Concrete Example
 

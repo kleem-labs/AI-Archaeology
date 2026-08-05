@@ -2,6 +2,17 @@
 
 [Previous: Embeddings](../007-embeddings/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** When “it” appears, should every earlier word contribute equally?
+
+> **Try your first idea:** Try the nearest noun, then equal averaging, on the trophy-and-suitcase sentence.
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 Imagine a messenger reading one word at a time. The messenger may carry one summary forward but may never look back.
 
 After a few words this seems fine. After five hundred, one compressed state must preserve every name, place, relationship, and detail that might become important later.

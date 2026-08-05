@@ -2,6 +2,17 @@
 
 [Previous: Vectors](../002-vectors/README.md)
 
+
+## Take the First Step Yourself
+
+> **Your problem:** How can weight, speed, and age disagreements become one similarity answer?
+
+> **Try your first idea:** Add +5, +1, and −1. Then test +100 and −100. Did real disagreement disappear?
+
+> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
+
+> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
+
 The king asks for the animal most similar to Tiger A.
 
 ```text
