@@ -72,6 +72,16 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 053 | [Preference Learning — When Several Answers Are Correct but Not Equally Helpful](excavations/053-preference-learning/README.md) | How can several valid answers still differ in helpfulness? |
 | 054 | [Retrieval-Augmented Generation — Let the Model Look Before It Speaks](excavations/054-retrieval-augmented-generation/README.md) | How can the model consult current evidence before answering? |
 | 055 | [Tool-Using Agents — When Words Must Cause Verified Actions](excavations/055-tool-using-agents/README.md) | When should words invoke a real, permissioned action? |
+| 056 | [Authority — What Is the Agent Allowed to Do?](excavations/056-authority/README.md) | What may the agent do without new approval? |
+| 057 | [Prompt Injection — When Evidence Tries to Become an Instruction](excavations/057-prompt-injection/README.md) | When is retrieved text evidence rather than authority? |
+| 058 | [Planning — Turning a Goal into Checkable Steps](excavations/058-planning/README.md) | How can a goal become ordered, checkable steps? |
+| 059 | [Memory — What Should Survive After the Context Ends?](excavations/059-memory/README.md) | What deserves to survive beyond the current context? |
+| 060 | [State Machines — Knowing What Has Actually Happened](excavations/060-state-machines/README.md) | Which events may change real workflow state? |
+| 061 | [Verification — How Does the Agent Know It Succeeded?](excavations/061-verification/README.md) | What evidence proves the requested outcome occurred? |
+| 062 | [Retries and Idempotency — Trying Again Without Doing It Twice](excavations/062-retries-idempotency/README.md) | How can a retry avoid repeating the effect? |
+| 063 | [Multi-Agent Coordination — When Should Work Be Divided?](excavations/063-multi-agent-coordination/README.md) | When does delegation help instead of adding coordination failure? |
+| 064 | [Observability — Seeing Why an Agent Failed](excavations/064-observability/README.md) | Which trace reveals where an agent failed? |
+| 065 | [Bounded Autonomy — Building an Agent That Can Be Trusted](excavations/065-bounded-autonomy/README.md) | How can autonomy remain inside an explicit safety envelope? |
 
 ## A note on style
 

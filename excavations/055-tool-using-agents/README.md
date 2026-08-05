@@ -59,3 +59,5 @@ Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 ## Next Need
 
 A tool-using agent can affect the world. The next arc must excavate authority, memory, planning, verification, and safety before adding more autonomy.
+
+[Next: Authority](../056-authority/README.md)

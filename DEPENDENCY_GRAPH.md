@@ -16,7 +16,10 @@ flowchart TD
  LO --> VP[Vocabulary Probabilities] --> SA[Sampling] --> CW[Context Window] --> GPT[Tiny GPT] --> PE[Perplexity]
  PE --> EV[Evaluation] --> HA[Hallucination] --> CA[Calibration]
  CA --> DQ[Data Quality] --> SL[Scaling Laws] --> IT[Instruction Tuning]
- IT --> PL[Preference Learning] --> RAG[Retrieval] --> AG[Tool Using Agents]
+ IT --> PL[Preference Learning] --> RAG[Retrieval] --> AG[Tool Using Agents] --> AU[Authority]
+ AU --> PI[Prompt Injection] --> PN[Planning] --> ME[Memory]
+ ME --> ST[State Machines] --> VE[Verification] --> RI[Retries and Idempotency]
+ RI --> MA[Multi Agent Coordination] --> OB[Observability] --> BA[Bounded Autonomy]
 ~~~
 
 Every arrow means the earlier idea creates or exposes the problem that forces the later one.
