@@ -28,15 +28,57 @@ The verbal procedure is now useful, but it is too long to repeat consistently an
 
 ## Mathematics Emerges
 
+## Build the Update from One Real Number
+
+Forget θ for a moment. Our tiny model has one adjustable weight, currently **8**. We want it to become **3**, so its mistake is (weight − 3)². At weight 8, the mistake is 25.
+
+A tiny upward nudge shows a local sensitivity of 10. In ordinary language: increasing the weight a little makes the mistake rise about ten times as much. Ten therefore points uphill. To reduce the mistake, we move the other way. That creates the minus sign.
+
+Should we move the entire ten units?
+
+~~~text
+8 - 10 = -2
+mistake at -2 = (-2 - 3)² = 25
+~~~
+
+We jumped across the valley and learned nothing. So direction is not enough. We need a knob controlling how much of the proposed movement we trust.
+
+Try taking one tenth:
+
+~~~text
+suggested uphill direction = 10
+reverse it                 = -10
+take one tenth             = -1
+new weight                 = 8 - 1 = 7
+new mistake                = (7 - 3)² = 16
+~~~
+
+The mistake fell from 25 to 16. That one tenth is the **learning rate**, later written η. It is simply a caution knob:
+
+- η = 1 takes the entire proposed movement;
+- η = 0.1 takes one tenth;
+- η = 0.01 takes one hundredth.
+
+Too large can jump over the valley. Too small moves safely but slowly.
+
 ## Why Every Term Must Exist Before the Equation
 
-- **θ_t** is the parameter state before update t; θ_{t+1} is the next state.
-- **L** is the loss and **∇_θL** contains its sensitivity to every parameter.
-- The minus sign moves opposite increasing loss.
-- **η** supplies the missing step size.
-- Repeating the indexed update turns one local correction into training.
+- **θ_t** packages the current weights; our tiny example has only 8.
+- **L** is the mistake measure; here it is (weight − 3)².
+- **∇_θL** packages local sensitivities; our example has only 10.
+- The minus sign reverses the uphill direction.
+- **η** is the chosen fraction of the correction; here it is 0.1.
+- **t** means before this correction; **t+1** means after it.
 
-Only now can we compress that reasoning:
+Substitute real values before compact symbols:
+
+~~~text
+next weight = current weight - learning rate × uphill sensitivity
+            = 8              - 0.1           × 10
+            = 7
+~~~
+
+Only now can we compress the same procedure:
 
 $$
 \theta_{t+1}=\theta_t-\eta\nabla_\theta L
