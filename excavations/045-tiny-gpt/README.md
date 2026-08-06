@@ -73,6 +73,8 @@ An archaeological reconstruction succeeds when the rebuilt machine moves, not wh
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
+Close the loop yourself in the [Transparent Generation Field Lab](../../labs/05_generation_lab.py). Every generated token prints the scores, probabilities, choice, and updated context.
+
 ## Exercises and Connections
 
 - [Invention challenges](exercises.md)

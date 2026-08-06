@@ -111,6 +111,8 @@ Distance also answers **similarity**, not every kind of relationship. That disti
 
 Construct two pairs of two-dimensional points whose signed differences add to zero even though neither pair is identical. Then explain why squaring prevents the mistake.
 
+Then test your prediction in the [Tiger Distance Field Lab](../../labs/01_distance_lab.py). Read the file from the top: it builds the tempting wrong rule before repairing it.
+
 ## What the next excavation needs
 
 So far a vector has described where an object is in feature space. But an arrow can also describe how something changes. That second meaning will lead us toward transformations.

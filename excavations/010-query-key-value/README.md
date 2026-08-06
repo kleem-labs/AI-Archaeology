@@ -97,6 +97,8 @@ $$
 
 For a library search, identify the query, the key-like catalog information, and the value-like content returned. Explain why catalog fields and book contents should not be the same object.
 
+Make those three jobs visible in the [Attention Field Lab](../../labs/03_attention_lab.py): change a key without changing its value, then reverse the experiment.
+
 ## What the next excavation needs
 
 One relevance system can pursue one mixture of relationships. Language needs several kinds of relevance at the same time.

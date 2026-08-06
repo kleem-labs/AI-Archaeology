@@ -2,6 +2,16 @@
 
 **Rediscover the ideas behind modern AI from the problems that forced them to exist.**
 
+This repository is both a book and a laboratory. Read the excavation first,
+then break and rebuild the idea in the [Laboratory](LABORATORY.md). The
+[completion standard](BOOK_AND_LAB_STANDARD.md) defines what “finished” means;
+file presence alone is not completion.
+
+Read it as a book through the [ten-part reading path](PARTS.md). Work with it
+as a laboratory through the [field-lab protocol](labs/README.md). The
+[completion status](COMPLETION_STATUS.md) distinguishes finished depth from
+scaffolding still waiting to be excavated.
+
 This book does not begin with formulas. It begins with a person facing reality without inherited mathematics.
 
 Every excavation follows the same discipline:

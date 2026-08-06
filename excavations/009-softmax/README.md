@@ -83,6 +83,8 @@ We now know **who matters**, but weights are not knowledge. If a historian recei
 
 Explain why squaring `[-5, 1]` violates the meaning of a negative relevance score, and why exponentiation does not.
 
+Before changing any code, predict what colder and hotter temperatures will do. Then run the [Softmax Temperature Field Lab](../../labs/02_softmax_lab.py).
+
 ## What the next excavation needs
 
 We must derive both the relevance scores and the information being mixed. Those are different jobs.

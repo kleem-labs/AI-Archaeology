@@ -114,6 +114,8 @@ Gradient descent finds a reachable low region, not necessarily the unique best e
 
 Build the wrong idea first, break it, then use [Pure Python → NumPy → PyTorch](implementation/README.md).
 
+The [Gradient Step-Size Field Lab](../../labs/04_gradient_lab.py) lets you watch a cautious step learn, a useful step learn faster, and an oversized step bounce forever.
+
 ## Exercises
 
 Use the [invention exercises](exercises.md), not as a quiz but as a request to rediscover the idea.
