@@ -26,7 +26,12 @@ flowchart TD
  VT --> AE[Autoencoders] --> LS[Latent Space] --> AR[Autoregressive Images] --> DI[Diffusion] --> DN[Denoising]
  DN --> RW[Rewards] --> SA[States and Actions] --> VA[Value] --> QL[Q Learning] --> PG[Policy Gradients]
  PG --> MM[Multimodal Alignment] --> CL[Contrastive Learning] --> AU[Audio] --> LR[LoRA] --> QU[Quantization]
- QU --> DT[Distributed Training] --> IS[Inference Serving] --> RT[Red Teaming] --> GO[Governance] --> CS[Complete AI System]
+ QU --> DT[Distributed Training] --> IS[Inference Serving] --> RT[Red Teaming] --> GO[Governance] --> CS[Complete AI System] --> UK[Two Kinds of Uncertainty]
+ UK --> BY[Bayesian Updating] --> EN[Ensembles] --> AL[Active Learning] --> SE[Selective Prediction]
+ SE --> CF[Catastrophic Forgetting] --> CT[Continual Learning] --> ML[Meta Learning] --> CU[Curriculum] --> SS[Self Supervision]
+ SS --> WM[World Models] --> CA[Causality] --> CO[Counterfactuals] --> MP[Model Based Planning] --> TS[Tree Search]
+ TS --> RV[Reasoning Verification] --> NS[Neuro Symbolic] --> KG[Knowledge Graphs] --> GN[Graph Networks] --> PS[Program Synthesis]
+ PS --> FV[Formal Verification] --> DP[Differential Privacy] --> FE[Federated Learning] --> AR[Adversarial Robustness] --> OR[Open Ended Research]
 ~~~
 
 Every arrow means the earlier idea creates or exposes the problem that forces the later one.

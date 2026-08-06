@@ -117,6 +117,31 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 098 | [Red Teaming](excavations/098-red-teaming/README.md) | Ordinary tests miss adversarial and unusual failures. |
 | 099 | [Governance — Who Decides and Who Is Accountable?](excavations/099-governance/README.md) | A technically safe model still affects people through deployment choices. |
 | 100 | [The Complete AI System — From Observation to Responsible Action](excavations/100-complete-ai-system/README.md) | We have excavated models, data, learning, tools, and controls. How do they become one coherent system? |
+| 101 | [Two Kinds of Uncertainty](excavations/101-two-kinds-uncertainty/README.md) | The model is unsure whether a blurry animal is a tiger. Is the image ambiguous, or has the model never seen this species? |
+| 102 | [Bayesian Updating](excavations/102-bayesian-updating/README.md) | A tracker begins with prior beliefs about tiger, deer, and wind, then observes a deep paw print. |
+| 103 | [Ensembles](excavations/103-ensembles/README.md) | One trained model gives a confident answer. Would another equally trained model agree? |
+| 104 | [Active Learning](excavations/104-active-learning/README.md) | Labeling one example is expensive. Which unlabeled case should a human inspect next? |
+| 105 | [Selective Prediction](excavations/105-selective-prediction/README.md) | Must the model answer every question, even when evidence is weak? |
+| 106 | [Catastrophic Forgetting](excavations/106-catastrophic-forgetting/README.md) | After learning task B, the model suddenly fails task A. |
+| 107 | [Continual Learning](excavations/107-continual-learning/README.md) | A deployed learner faces a stream of changing tasks without clear boundaries. |
+| 108 | [Meta-Learning](excavations/108-meta-learning/README.md) | Can experience across many tasks teach the model how to learn a new task quickly? |
+| 109 | [Curriculum Learning](excavations/109-curriculum-learning/README.md) | Should a learner face the hardest examples first? |
+| 110 | [Self-Supervised Learning](excavations/110-self-supervised-learning/README.md) | How can enormous unlabeled data teach useful representations? |
+| 111 | [World Models](excavations/111-world-models/README.md) | An agent needs to predict consequences before acting. |
+| 112 | [Causal Inference](excavations/112-causal-inference/README.md) | Ice-cream sales and drownings rise together. Would banning ice cream reduce drownings? |
+| 113 | [Counterfactuals](excavations/113-counterfactuals/README.md) | What would have happened to this same patient under a treatment they did not receive? |
+| 114 | [Model-Based Planning](excavations/114-model-based-planning/README.md) | A world model can predict one step. How should the agent choose a long action sequence? |
+| 115 | [Tree Search](excavations/115-tree-search/README.md) | Exploring every future action sequence becomes impossible. |
+| 116 | [Reasoning and Verification](excavations/116-reasoning-and-verification/README.md) | A model produces a plausible multi-step answer. Which step failed? |
+| 117 | [Neuro-Symbolic Systems](excavations/117-neuro-symbolic-systems/README.md) | Neural models handle perception; symbolic rules handle exact constraints. Must one system do both? |
+| 118 | [Knowledge Graphs](excavations/118-knowledge-graphs/README.md) | How can facts preserve who relates to whom instead of becoming one text paragraph? |
+| 119 | [Graph Neural Networks](excavations/119-graph-neural-networks/README.md) | How can each node learn from a variable number of neighbors? |
+| 120 | [Program Synthesis](excavations/120-program-synthesis/README.md) | Can examples specify a reusable procedure rather than one output? |
+| 121 | [Formal Verification](excavations/121-formal-verification/README.md) | Tests sample cases. How can we guarantee a property for all allowed inputs? |
+| 122 | [Differential Privacy](excavations/122-differential-privacy/README.md) | Can aggregate learning reveal whether one person’s record was included? |
+| 123 | [Federated Learning](excavations/123-federated-learning/README.md) | Can many devices train together without centralizing raw data? |
+| 124 | [Adversarial Robustness](excavations/124-adversarial-robustness/README.md) | A tiny input change invisible to a person flips the model’s decision. |
+| 125 | [An Open-Ended Research System](excavations/125-open-ended-research-system/README.md) | How can a system keep discovering without silently rewriting its goals or safety boundaries? |
 
 ## A note on style
 

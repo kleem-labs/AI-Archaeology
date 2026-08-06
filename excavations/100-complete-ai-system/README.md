@@ -57,3 +57,5 @@ Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 ## The Expedition Continues
 
 Excavation 100 closes this map, not discovery. New observations must be allowed to break the system and force the next invention.
+
+[Next: Two Kinds of Uncertainty](../101-two-kinds-uncertainty/README.md)
