@@ -4,18 +4,6 @@
 >
 > You begin with no mathematics—only tracks, weather, animals, memory, and a world that refuses to repeat itself exactly.
 
-
-
-## Take the First Step Yourself
-
-> **Your problem:** What can yesterday teach you if every tiger encounter looks different?
-
-> **Try your first idea:** Try remembering every hair, shadow, and viewing angle. Test that memory on a muddy tiger in different light.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
 Forget school. Forget equations. Imagine that you are the first person trying to understand the world.
 
 You have no numbers, no names, and no inherited explanations. You have only what reaches your senses: a rustle in the grass, a striped animal at the river, heat from a fire, clouds before rain.

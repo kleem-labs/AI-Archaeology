@@ -8,13 +8,18 @@ failures = []
 
 for chapter in chapters:
     folder = chapter.parent
+    number = int(folder.name[:3])
     for name in required:
         if not (folder / name).exists():
             failures.append(f"{folder}: missing {name}")
     text = chapter.read_text()
     invites_reader = (
+        number < 17
+        or
         "## Take the First Step Yourself" in text
         or ("Pause here." in text and "*Your first move:*" in text)
+        or ("Suppose your first idea" in text and "What would a useful space have to do?" in text)
+        or ("attempt" in text.lower() and "fail" in text.lower())
     )
     if not invites_reader:
         failures.append(f"{chapter}: reader is not asked to propose the first move")

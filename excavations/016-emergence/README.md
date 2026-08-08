@@ -2,17 +2,6 @@
 
 [Previous: Learning](../015-learning/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** If words are footprints, what hidden cause could explain many different prints?
-
-> **Try your first idea:** Memorize every sentence and test a new arrangement of familiar pieces.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
 Walk through a forest and find footprints. Are the footprints the thing you want to understand—or evidence of the animal that made them?
 
 Words are footprints.

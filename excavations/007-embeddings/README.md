@@ -1,31 +1,45 @@
-# Excavation 007 — Embeddings
+# Excavation 007 — A Place for Meaning to Live
 
-[Previous: Meaning](../006-meaning/README.md)
+[Previous: Meaning Without a Dictionary](../006-meaning/README.md)
 
+In the last excavation, you learned something strange. You could know almost
+nothing about the word *blar*, yet repeated sentences slowly fenced in what it
+could mean. A word appearing where animals usually appear was probably not a
+color. A word connecting creatures to food was probably not a place.
 
-## Take the First Step Yourself
+Each sentence pulled on the others. Meaning began to look less like a
+definition and more like a web of constraints.
 
-> **Your problem:** How can repeated contexts become locations a machine can compare?
+But a web is only a picture in our heads. A machine needs somewhere to keep
+what the web has taught it.
 
-> **Try your first idea:** Give words arbitrary IDs and ask whether nearby numbers mean nearby meanings.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-We have a web of constraints but no convenient way to store its geometry.
-
-## First attempt: give every word an ID
+Suppose your first idea is simply to number the words:
 
 ```text
-cat = 17
-dog = 42
-car = 91
+cat = 17       dog = 42       car = 91
 ```
 
-The IDs distinguish tokens, but their numeric gaps are accidents. Changing the numbering changes the apparent relationships without changing the language.
+The machine can now tell the words apart. Has it learned anything about their
+relationships?
 
-## Second attempt: one private coordinate per word
+Try subtracting the IDs. The gap from *cat* to *dog* is 25; the gap from *dog*
+to *car* is 49. That seems to claim that *cat* is more closely related to
+*dog*—until someone reorganizes the dictionary:
+
+```text
+cat = 91       dog = 17       car = 42
+```
+
+Nothing about English changed, but all the gaps did. The apparent geometry
+came from our numbering scheme, not from language. IDs can preserve identity;
+they cannot preserve meaning.
+
+You need a representation whose distances are allowed to be learned rather
+than assigned accidentally.
+
+## Make room without inventing meaning
+
+Give every word its own private coordinate:
 
 ```text
 cat = [1, 0, 0]
@@ -33,67 +47,127 @@ dog = [0, 1, 0]
 car = [0, 0, 1]
 ```
 
-Identity is perfect, but every word is equally unrelated to every other. The representation says only “different.” It cannot say “different, but used in related ways.”
+Now renumbering cannot create a false closeness. But calculate the distance
+between each pair. Every answer is the same. This space says *cat is different
+from dog* and *cat is different from car*, but it has no way to say that one
+difference is smaller than the other.
 
-## Let the constraints shape a space
+So you face a choice. Fixed coordinates preserve identity without
+relationships. Arbitrary IDs appear to contain relationships that are not
+real. What would a useful space have to do?
 
-Start each word at an arbitrary point. Ask the system to use surrounding text to predict missing or nearby words. When it predicts badly, move the relevant points slightly. Repeat across billions of contexts.
+It would need to begin without assumptions, then let actual usage move the
+words.
 
-No teacher declares an axis called *animalness*. The pressure comes from the whole web:
+## Let the sentences move the points
 
-- *cat* and *dog* repeatedly face similar contextual demands;
-- *bank* is pulled differently by financial and river contexts;
-- *eat* is constrained by the kinds of words that appear around it and their order.
+Place *cat*, *dog*, and *car* at random positions. The starting locations mean
+nothing. Then hide one word in a sentence:
 
-Eventually the geometry becomes a compact compromise among countless relationships. The learned vector for a token is an **embedding**.
+```text
+the ___ chased the mouse
+```
 
-Only now is notation helpful:
+Imagine the system predicts *car*. The surrounding words have exposed a
+failure: whatever position currently represents *car* makes it behave too much
+like things that chase mice. Move the points a little so *cat* and *dog* become
+easier answers here and *car* becomes harder.
 
-## Build Every Piece from the Concrete Example
+Now try another sentence:
 
-Choose width three. Tiger might currently be [0.8,0.2,-0.4]. The three coordinates do not arrive with names; training moves them until useful relationships fit into this three-number space.
+```text
+we parked the ___ beside the road
+```
 
-### Give Short Names Only After We Know the Pieces
+This time the pressure moves *car* toward words that fit vehicle contexts.
+Repeat the process across many sentences. No single example announces what a
+word means. Each one adds a small pull:
 
-- **token** is the discrete symbol whose relationships IDs could not express.
-- The arrow means “represent as,” not numerical equality.
-- **e** is its dense embedding vector.
-- **Rᵈ** says the vector has d real-valued coordinates; d is chosen capacity, not discovered meaning.
+```text
+                         "chased the mouse"
+                       cat  ←────  dog
+                        ↑           ↑
+       "drank milk" ────┘           └──── "wagged its tail"
 
+              car  ←──── "parked beside the road"
+```
 
-This does not claim that coordinate 1 has a simple dictionary name. Meaning may be distributed across many coordinates. What matters is that useful relationships become available to later computations.
+You have not labelled an axis *animalness*. You have not stored a dictionary
+definition inside coordinate one. You have merely allowed thousands of
+prediction failures to reshape the space until words facing similar demands
+occupy useful relative positions.
 
-Only now can we compress that reasoning:
+That learned position is what we call an **embedding**.
+
+## Let the symbols arrive last
+
+Take one concrete snapshot. Suppose we decided that every word gets three
+adjustable coordinates, and training has currently placed *tiger* here:
+
+```text
+tiger → [0.8, 0.2, -0.4]
+```
+
+Every part now has a job you already understand:
+
+- *tiger* is the discrete token—the identity we started with.
+- The arrow means “represent this token by,” not “these two things are equal.”
+- `[0.8, 0.2, -0.4]` is the position training has produced so far.
+- Three is the width we chose for this tiny world. A real model usually needs
+  many more adjustable coordinates.
+- The coordinates need not have private names. A relationship can be spread
+  across several of them.
+
+Only now is the compact notation useful:
 
 $$
 \text{token}\longrightarrow \mathbf{e}\in\mathbb{R}^d
 $$
 
+Here, $\mathbf{e}$ is merely a short name for the learned list of coordinates.
+$d$ is how many coordinates we chose to provide. $\mathbb{R}^d$ says that all
+$d$ entries may be ordinary real numbers—positive, negative, or zero. The
+equation has added no new idea. It records the space you just constructed.
 
-## A static embedding still fails
+## The word that refuses to stay still
 
-One token can carry different meanings:
+You might think the problem is solved. Then the same token appears twice:
 
 ```text
 deposit money at the bank
 sit on the river bank
 ```
 
-A single stored vector cannot by itself decide which meaning is active. Even worse, a long sentence can connect words separated by many positions. The representation must change with context.
+The lookup begins both occurrences of *bank* at the same learned position. Yet
+one occurrence must gather financial meaning and the other geographical
+meaning. A static embedding can provide a useful starting point, but it cannot
+decide what this particular occurrence means.
 
-That gives us a crucial distinction:
+Read that distinction once more:
 
 ```text
-embedding: where a token begins
-contextual representation: what this occurrence becomes here
+embedding              where the token begins
+contextual representation   what this occurrence becomes here
 ```
 
-## Challenge
+How can the second *bank* change without erasing what training already taught
+the token? It must look outward. It must discover which surrounding words
+matter now and retrieve information from them.
 
-Explain why one-hot vectors are excellent identifiers but poor representations of related meaning. Then explain why a dense embedding still cannot resolve *bank* without context.
+That unresolved need—not a desire to introduce another famous equation—is
+what forces the next invention.
 
-## What the next excavation needs
+## Before you leave the excavation
 
-Each word must be able to retrieve the parts of the sentence that matter for understanding this occurrence, rather than accepting one fixed summary of everything.
+Build a three-word world containing *cat*, *dog*, and *car*. First use IDs,
+then private one-hot coordinates. Explain exactly what each representation can
+preserve and what it cannot. Finally, describe in ordinary language how the
+sentence “the dog chased the cat” should pull the learned positions. Do not use
+the word *embedding* until your procedure has already created one.
 
-[Next: Attention](../008-attention/README.md)
+- [Mistakes worth preserving](mistakes.md)
+- [Diagram](diagram.md)
+- [Pure Python → NumPy → PyTorch](implementation/README.md)
+- [References](references.md)
+
+[Next: Why Attention Had to Exist](../008-attention/README.md)

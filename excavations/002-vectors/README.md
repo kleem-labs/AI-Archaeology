@@ -2,17 +2,6 @@
 
 [Previous: Why Features Exist](../001-why-features-exist/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** How can weight, speed, and age travel together without losing which number means which property?
-
-> **Try your first idea:** Swap the order for one animal and perform otherwise correct arithmetic. Does the result still mean anything?
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
 Civilization has grown. Reports arrive all day:
 
 ```text

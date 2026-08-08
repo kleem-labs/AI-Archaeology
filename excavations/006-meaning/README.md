@@ -7,17 +7,6 @@
 
 [Previous: Matrices](../005-matrices/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** With no dictionary, what evidence could constrain an unknown word?
-
-> **Try your first idea:** Define unknown words using other unknown words. Find where the circular explanation begins.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
 Suppose you arrive with no language and read:
 
 ```text

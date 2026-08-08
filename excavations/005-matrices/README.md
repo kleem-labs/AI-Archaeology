@@ -2,17 +2,6 @@
 
 [Previous: Vectors as Change](../004-vectors-as-change/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** How can one reusable machine turn any animal report into several new scores?
-
-> **Try your first idea:** Store an answer for every possible report, then forbid different inputs from interacting. Break both ideas.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
 Imagine two arrows starting at the same point. A machine stretches both, but sends them toward different final places depending on their original directions.
 
 Does that matter? You answered simply:

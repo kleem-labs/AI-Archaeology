@@ -2,17 +2,6 @@
 
 [Previous: Layer Normalization](../014-layer-normalization/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** A complete Transformer starts random. What observation tells each weight how to change?
-
-> **Try your first idea:** Wiggle billions of weights randomly and wait for improvement.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
 Build a complete Transformer with embeddings, attention, feed-forward networks, residual paths, and normalization. Ask it a question.
 
 It answers nonsense.

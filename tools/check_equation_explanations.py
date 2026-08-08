@@ -6,6 +6,7 @@ root = Path(__file__).parents[1]
 derivation_headings = (
     "## Build Every Piece from the Concrete Example",
     "## Build each piece from what just happened",
+    "## Let the symbols arrive last",
 )
 failures = []
 checked = 0

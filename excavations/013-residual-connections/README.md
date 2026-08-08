@@ -2,17 +2,6 @@
 
 [Previous: Feed-Forward Networks](../012-feed-forward-networks/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** How can fifty layers improve a message without repeatedly erasing it?
-
-> **Try your first idea:** Ask a replacement layer to do nothing. What perfect copying must it learn?
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
 Imagine rewriting an important message fifty times. If every editor replaces the entire document, one poor edit can erase something later editors need.
 
 A deep network faces the same danger. Attention and feed-forward blocks transform a representation repeatedly. Requiring each block to reproduce everything worth keeping while also improving it is an unnecessarily hard job.

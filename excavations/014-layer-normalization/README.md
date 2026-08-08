@@ -2,17 +2,6 @@
 
 [Previous: Residual Connections](../013-residual-connections/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** How can quiet and loud token vectors enter the next operation safely?
-
-> **Try your first idea:** Use one global volume knob on tokens whose internal scales differ.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
 Several experts are speaking into a shared system. One whispers; another shouts. Even if both carry useful patterns, the next operation may respond mostly to volume.
 
 Representations drift similarly. After many transformations and residual additions, one token may contain values around `0.01`, another around `100`. Dot products and gates react very differently to those scales.

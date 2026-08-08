@@ -2,17 +2,6 @@
 
 [Previous: Query, Key, and Value](../010-query-key-value/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** Can one attention pattern track grammar, reference, and topic simultaneously?
-
-> **Try your first idea:** Force all three jobs into one set of weights and inspect the compromise.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
 Ask one expert to interpret a sentence. The expert may follow reference, grammar, distance, or topic—but one attention distribution forces every relationship to compete in the same set of weights.
 
 ## Failed attempt: make one expert bigger
