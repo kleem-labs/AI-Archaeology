@@ -2,43 +2,29 @@
 
 [Previous: Excavation 084](../084-diffusion/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** At one diffusion step, what should the network predict?
-
-> **Try your first idea:** Ask it to recreate the entire clean image directly from every noise level.
-
-> **Now try to break your idea:** The task changes dramatically across noise strengths.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 At one diffusion step, what should the network predict?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Ask it to recreate the entire clean image directly from every noise level.
+*Your first move:* Ask it to recreate the entire clean image directly from every noise level.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-The task changes dramatically across noise strengths.
+*The case that breaks it:* The task changes dramatically across noise strengths.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Tell the model the noise level and predict the added noise or equivalent clean direction.
+*Your repair:* Tell the model the noise level and predict the added noise or equivalent clean direction.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Tell the model the noise level and predict the added noise or equivalent clean direction.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 If known noise [0.2,-0.1] was added, learning to estimate it lets subtraction move toward the clean sample.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 - xt is the noisy image already constructed in the example.
 - t tells the network how much corruption it faces.
@@ -51,15 +37,15 @@ $$
 L=\mathbb{E}\left[\lVert\epsilon-\epsilon_\theta(x_t,t)\rVert^2\right]
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Prediction parameterization and schedule affect stability and quality.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

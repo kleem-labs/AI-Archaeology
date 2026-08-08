@@ -2,43 +2,29 @@
 
 [Previous: Excavation 121](../121-formal-verification/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Can aggregate learning reveal whether one person’s record was included?
-
-> **Try your first idea:** Remove names and assume records are anonymous.
-
-> **Now try to break your idea:** Rare combinations and model outputs can re-identify individuals.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Can aggregate learning reveal whether one person’s record was included?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Remove names and assume records are anonymous.
+*Your first move:* Remove names and assume records are anonymous.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Rare combinations and model outputs can re-identify individuals.
+*The case that breaks it:* Rare combinations and model outputs can re-identify individuals.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
+*Your repair:* Limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Two datasets differing by one patient produce nearly indistinguishable released statistics.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 - D and D-prime are two datasets differing in one person.
 - The same possible released result S is considered under both.
@@ -51,15 +37,15 @@ $$
 P(M(D)\in S)\le e^\epsilon P(M(D^\prime)\in S)
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Privacy consumes an accuracy budget and implementation mistakes break guarantees.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

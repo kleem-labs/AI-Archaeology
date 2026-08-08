@@ -2,51 +2,37 @@
 
 [Previous: Excavation 067](../067-online-learning/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** The world producing inputs changes after deployment.
-
-> **Try your first idea:** Assume training accuracy remains valid forever.
-
-> **Now try to break your idea:** A winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 The world producing inputs changes after deployment.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Assume training accuracy remains valid forever.
+*Your first move:* Assume training accuracy remains valid forever.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-A winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
+*The case that breaks it:* A winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
+*Your repair:* Monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Average order size moves from $40 to $75 while error doubles. The shift is evidence to inspect, not automatic permission to update.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Not every statistical shift changes the decision that matters.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

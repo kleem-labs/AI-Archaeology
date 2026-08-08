@@ -3,8 +3,10 @@
 from pathlib import Path
 
 root = Path(__file__).parents[1]
-heading = "## Build Every Piece from the Concrete Example"
-example_headings = (heading,)
+derivation_headings = (
+    "## Build Every Piece from the Concrete Example",
+    "## Build each piece from what just happened",
+)
 failures = []
 checked = 0
 
@@ -13,14 +15,12 @@ for chapter in sorted((root / "excavations").glob("*/README.md")):
     if "$$" not in text:
         continue
     checked += 1
-    if heading not in text:
+    derivations = [text.index(item) for item in derivation_headings if item in text]
+    if not derivations:
         failures.append(f"{chapter}: missing term-by-term derivation")
-    elif text.index(heading) > text.index("$$"):
+    elif min(derivations) > text.index("$$"):
         failures.append(f"{chapter}: equation appears before its derivation")
-    examples = [text.index(item) for item in example_headings if item in text]
-    if not examples:
-        failures.append(f"{chapter}: missing a concrete worked example")
-    elif min(examples) > text.index("$$"):
+    if derivations and min(derivations) > text.index("$$"):
         failures.append(f"{chapter}: worked example appears after the equation")
 
 if failures:

@@ -2,48 +2,34 @@
 
 [Previous: Excavation 040](../040-next-token-examples/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** The Transformer produces one contextual vector per position. A vector is not yet a prediction such as tiger, river, or runs.
-
-> **Try your first idea:** Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 The Transformer produces one contextual vector per position. A vector is not yet a prediction such as tiger, river, or runs.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
+*Your first move:* Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Use a learned linear map to produce one raw score for every vocabulary item.
+*Your repair:* Use a learned linear map to produce one raw score for every vocabulary item.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 Logits have no standalone probability meaning and can shift together without changing the final distribution.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Use a learned linear map to produce one raw score for every vocabulary item.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 Let hidden state be [2,1]. One candidate column [3,0] scores 6; another [0,4] scores 4. Adding each candidate bias adjusts its baseline. These raw comparisons are logits.
 
@@ -63,15 +49,15 @@ $$
 
 The equation arrives after every operation has a job.
 
-## Real-World Analogy
+## Carry the idea back into the world
 
 Judges first assign unconstrained scores to every contestant before those scores are converted into shares.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

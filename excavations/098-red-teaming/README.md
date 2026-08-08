@@ -2,51 +2,37 @@
 
 [Previous: Excavation 097](../097-inference-serving/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Ordinary tests miss adversarial and unusual failures.
-
-> **Try your first idea:** Evaluate only expected well-formed requests.
-
-> **Now try to break your idea:** Real users, attackers, and accidents find paths designers never listed.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Ordinary tests miss adversarial and unusual failures.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Evaluate only expected well-formed requests.
+*Your first move:* Evaluate only expected well-formed requests.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Real users, attackers, and accidents find paths designers never listed.
+*The case that breaks it:* Real users, attackers, and accidents find paths designers never listed.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations.
+*Your repair:* Actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A hidden instruction in a retrieved page bypasses a normal demo; the case becomes a permanent injection test.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 No finite red team proves universal safety.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

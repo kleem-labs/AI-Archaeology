@@ -2,53 +2,39 @@
 
 [Previous: Excavation 062](../062-retries-idempotency/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A research task contains independent legal, technical, and market questions. One agent can process them sequentially, but specialization and parallel work may help.
-
-> **Try your first idea:** Create many agents for every problem and let them freely edit shared state.
-
-> **Now try to break your idea:** They duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
-
-> Stop here. State what a repair must guarantee without using the chapter title.
-
-## The Observation
-
 A research task contains independent legal, technical, and market questions. One agent can process them sequentially, but specialization and parallel work may help.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Create many agents for every problem and let them freely edit shared state.
+*Your first move:* Create many agents for every problem and let them freely edit shared state.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-They duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
+*The case that breaks it:* They duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
 
 Name the missing guarantee before continuing.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
+*Your repair:* Delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Three agents receive distinct questions and return evidence in the same schema. The coordinator resolves conflicts and alone edits the final report.
 
 No new equation is needed. The invention is a boundary, procedure, or system contract. Adding symbols would not make it more rigorous.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Parallel agents amplify both capability and error. Shared resources, authority, and termination require careful control.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

@@ -2,51 +2,37 @@
 
 [Previous: Excavation 105](../105-selective-prediction/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** After learning task B, the model suddenly fails task A.
-
-> **Try your first idea:** Fine-tune only on the newest data.
-
-> **Now try to break your idea:** Updates useful for B overwrite weights carrying A.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 After learning task B, the model suddenly fails task A.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Fine-tune only on the newest data.
+*Your first move:* Fine-tune only on the newest data.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Updates useful for B overwrite weights carrying A.
+*The case that breaks it:* Updates useful for B overwrite weights carrying A.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Rehearse old evidence, protect important parameters, or allocate new capacity.
+*Your repair:* Rehearse old evidence, protect important parameters, or allocate new capacity.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Rehearse old evidence, protect important parameters, or allocate new capacity.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Learning birds after mammals drops mammal accuracy; mixing a small mammal replay set preserves both.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Memory, privacy, and capacity limit rehearsal.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

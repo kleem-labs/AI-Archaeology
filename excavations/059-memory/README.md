@@ -2,53 +2,39 @@
 
 [Previous: Excavation 058](../058-planning/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** An assistant learns the user’s preferred writing style today, but tomorrow the conversation window no longer contains it.
-
-> **Try your first idea:** Store every message forever and paste all history into every new prompt.
-
-> **Now try to break your idea:** Cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose.
-
-> Stop here. State what a repair must guarantee without using the chapter title.
-
-## The Observation
-
 An assistant learns the user’s preferred writing style today, but tomorrow the conversation window no longer contains it.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Store every message forever and paste all history into every new prompt.
+*Your first move:* Store every message forever and paste all history into every new prompt.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose.
+*The case that breaks it:* Cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose.
 
 Name the missing guarantee before continuing.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
+*Your repair:* Separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Save “prefers concise status reports” with its source and date. Do not save a temporary hotel door code. Retrieve the preference only for relevant writing tasks.
 
 No new equation is needed. The invention is a boundary, procedure, or system contract. Adding symbols would not make it more rigorous.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Remembered facts can become stale or wrong. Memory needs consent, provenance, expiration, correction, and deletion.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

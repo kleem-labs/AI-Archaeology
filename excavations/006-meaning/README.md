@@ -1,5 +1,10 @@
 # Excavation 006 — Meaning Without a Dictionary
 
+> **PART II — INVENTING MEANING**
+>
+> Measurements can describe a tiger. They cannot yet explain why the same word changes meaning when its neighbors change.
+
+
 [Previous: Matrices](../005-matrices/README.md)
 
 

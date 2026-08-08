@@ -2,51 +2,37 @@
 
 [Previous: Excavation 117](../117-neuro-symbolic-systems/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** How can facts preserve who relates to whom instead of becoming one text paragraph?
-
-> **Try your first idea:** Store every fact as an isolated sentence.
-
-> **Now try to break your idea:** Repeated entities, reverse links, and multi-hop questions become difficult to traverse.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 How can facts preserve who relates to whom instead of becoming one text paragraph?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Store every fact as an isolated sentence.
+*Your first move:* Store every fact as an isolated sentence.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Repeated entities, reverse links, and multi-hop questions become difficult to traverse.
+*The case that breaks it:* Repeated entities, reverse links, and multi-hop questions become difficult to traverse.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Represent entities as nodes and named relations as edges.
+*Your repair:* Represent entities as nodes and named relations as edges.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Represent entities as nodes and named relations as edges.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Tiger —is_a→ cat and cat —is_a→ mammal support a two-hop ancestry query.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Graphs can be incomplete, stale, and uncertain.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

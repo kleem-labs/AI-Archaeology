@@ -2,48 +2,34 @@
 
 [Previous: Excavation 034](../034-generalization/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** We have excavated features, transformations, nonlinear gates, loss, gradients, batches, and validation separately. A pile of correct parts still does not learn.
-
-> **Try your first idea:** Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 We have excavated features, transformations, nonlinear gates, loss, gradients, batches, and validation separately. A pile of correct parts still does not learn.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
+*Your first move:* Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
+*Your repair:* Build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 The repair solves the immediate failure, but a tiny network exposes mechanics but is not yet a language model. The next arc must turn sequences into a trained generative system.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 Input 2 is mixed into a hidden signal, gated, and produces prediction 0.7. If the target is 1, loss sends correction backward through the same steps, changes weights, and the next forward pass may produce 0.8. The arrows are one loop.
 
@@ -65,20 +51,19 @@ $$
 x\to Wx+b\to\phi(\cdot)\to\hat y\to L\to\nabla_\theta L\to\theta^\prime
 $$
 
-
-## Real-World Analogy
+## Carry the idea back into the world
 
 An engine is understood when fuel, ignition, motion, exhaust, and feedback operate together—not when its parts lie labeled on a table.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair.
 
-## Exercises
+## Test what you believe
 
 Use the [invention challenges](exercises.md).
 
-## Connections
+## What this discovery now makes possible
 
 - [Mistakes](mistakes.md)
 - [Diagram](diagram.md)

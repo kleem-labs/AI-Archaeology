@@ -1,54 +1,45 @@
 # Excavation 056 — Authority — What Is the Agent Allowed to Do?
 
+> **PART VI — TRUSTING AN ACTING MACHINE**
+>
+> The model no longer merely answers. Its words can cause actions, and every action creates questions of authority and proof.
+
+
 [Previous: Excavation 055](../055-tool-using-agents/README.md)
-
-## Take the First Step Yourself
-
-> **Your problem:** A travel agent can read calendars, send email, and purchase tickets. A useful request to “plan my trip” does not automatically authorize spending money.
-
-> **Try your first idea:** Give every available tool to the model and treat user intent as unlimited permission.
-
-> **Now try to break your idea:** Ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not.
-
-> Stop here. State what a repair must guarantee without using the chapter title.
-
-## The Observation
 
 A travel agent can read calendars, send email, and purchase tickets. A useful request to “plan my trip” does not automatically authorize spending money.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Give every available tool to the model and treat user intent as unlimited permission.
+*Your first move:* Give every available tool to the model and treat user intent as unlimited permission.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not.
+*The case that breaks it:* Ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not.
 
 Name the missing guarantee before continuing.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
+*Your repair:* Separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 The agent may search flights and hold a draft itinerary. Purchasing requires a new explicit approval containing price, destination, and dates.
 
 No new equation is needed. The invention is a boundary, procedure, or system contract. Adding symbols would not make it more rigorous.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Permission checks do not prove the chosen action is wise. They bound what can happen while judgment and verification remain separate.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

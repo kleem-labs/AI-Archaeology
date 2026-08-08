@@ -12,7 +12,11 @@ for chapter in chapters:
         if not (folder / name).exists():
             failures.append(f"{folder}: missing {name}")
     text = chapter.read_text()
-    if "## Take the First Step Yourself" not in text:
+    invites_reader = (
+        "## Take the First Step Yourself" in text
+        or ("Pause here." in text and "*Your first move:*" in text)
+    )
+    if not invites_reader:
         failures.append(f"{chapter}: reader is not asked to propose the first move")
 
     # Concrete grounding is semantic: a word search cannot tell whether an

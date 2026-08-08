@@ -2,43 +2,29 @@
 
 [Previous: Excavation 101](../101-two-kinds-uncertainty/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A tracker begins with prior beliefs about tiger, deer, and wind, then observes a deep paw print.
-
-> **Try your first idea:** Discard the old belief and use only the newest clue.
-
-> **Now try to break your idea:** One noisy footprint can overpower years of evidence.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 A tracker begins with prior beliefs about tiger, deer, and wind, then observes a deep paw print.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Discard the old belief and use only the newest clue.
+*Your first move:* Discard the old belief and use only the newest clue.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-One noisy footprint can overpower years of evidence.
+*The case that breaks it:* One noisy footprint can overpower years of evidence.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Combine prior plausibility with how expected the clue is under each story, then normalize across stories.
+*Your repair:* Combine prior plausibility with how expected the clue is under each story, then normalize across stories.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Combine prior plausibility with how expected the clue is under each story, then normalize across stories.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Tiger starts at 10%, but a deep paw print is far more likely under tiger than wind; the belief rises without becoming certainty.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 - Tiger’s prior belief is its share before the footprint.
 - The footprint likelihood says how expected this exact clue is if tiger is true.
@@ -51,15 +37,15 @@ $$
 P(H\mid E)=\frac{P(E\mid H)P(H)}{\sum_j P(E\mid H_j)P(H_j)}
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Results depend on priors and likelihood assumptions.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

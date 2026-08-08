@@ -2,51 +2,37 @@
 
 [Previous: Excavation 104](../104-active-learning/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Must the model answer every question, even when evidence is weak?
-
-> **Try your first idea:** Always return the highest-scoring answer.
-
-> **Now try to break your idea:** A forced answer converts uncertainty into confident-looking error.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Must the model answer every question, even when evidence is weak?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Always return the highest-scoring answer.
+*Your first move:* Always return the highest-scoring answer.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-A forced answer converts uncertainty into confident-looking error.
+*The case that breaks it:* A forced answer converts uncertainty into confident-looking error.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Allow abstention and choose a coverage level whose retained answers meet a risk target.
+*Your repair:* Allow abstention and choose a coverage level whose retained answers meet a risk target.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Allow abstention and choose a coverage level whose retained answers meet a risk target.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 The system answers 80 of 100 cases and is correct on 78; the other 20 go to a human rather than becoming guesses.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Abstention shifts work and may fail unevenly across groups.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

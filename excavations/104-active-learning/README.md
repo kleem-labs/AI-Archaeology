@@ -2,51 +2,37 @@
 
 [Previous: Excavation 103](../103-ensembles/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Labeling one example is expensive. Which unlabeled case should a human inspect next?
-
-> **Try your first idea:** Label random examples forever.
-
-> **Now try to break your idea:** Thousands of easy repeated cases consume effort while the decision boundary remains unclear.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Labeling one example is expensive. Which unlabeled case should a human inspect next?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Label random examples forever.
+*Your first move:* Label random examples forever.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Thousands of easy repeated cases consume effort while the decision boundary remains unclear.
+*The case that breaks it:* Thousands of easy repeated cases consume effort while the decision boundary remains unclear.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Ask for labels where the model is uncertain or where examples add new coverage.
+*Your repair:* Ask for labels where the model is uncertain or where examples add new coverage.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Ask for labels where the model is uncertain or where examples add new coverage.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 The model knows obvious cats and dogs but splits 50–50 on one fox-like animal; labeling it teaches more than another obvious cat.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Uncertainty sampling can chase noise or outliers.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

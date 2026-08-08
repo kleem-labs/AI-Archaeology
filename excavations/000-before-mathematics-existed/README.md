@@ -1,5 +1,10 @@
 # Excavation 000 — Before Mathematics Existed
 
+> **PART I — MEASURING REALITY**
+>
+> You begin with no mathematics—only tracks, weather, animals, memory, and a world that refuses to repeat itself exactly.
+
+
 
 ## Take the First Step Yourself
 

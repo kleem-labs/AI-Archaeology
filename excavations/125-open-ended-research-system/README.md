@@ -2,51 +2,37 @@
 
 [Previous: Excavation 124](../124-adversarial-robustness/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** How can a system keep discovering without silently rewriting its goals or safety boundaries?
-
-> **Try your first idea:** Let it generate experiments, change itself, and deploy improvements automatically.
-
-> **Now try to break your idea:** A flawed metric or experiment compounds through self-modification before external review.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 How can a system keep discovering without silently rewriting its goals or safety boundaries?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Let it generate experiments, change itself, and deploy improvements automatically.
+*Your first move:* Let it generate experiments, change itself, and deploy improvements automatically.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-A flawed metric or experiment compounds through self-modification before external review.
+*The case that breaks it:* A flawed metric or experiment compounds through self-modification before external review.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
+*Your repair:* Separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 The system proposes a tokenizer change, tests it in isolation, reproduces gains, checks regressions, and submits evidence for human approval.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Open-ended discovery remains bounded by chosen objectives, measurements, and human institutions.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

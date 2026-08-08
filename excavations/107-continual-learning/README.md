@@ -2,51 +2,37 @@
 
 [Previous: Excavation 106](../106-catastrophic-forgetting/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A deployed learner faces a stream of changing tasks without clear boundaries.
-
-> **Try your first idea:** Periodically retrain from scratch on everything.
-
-> **Now try to break your idea:** Storage and compute grow forever, and old raw data may be unavailable.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 A deployed learner faces a stream of changing tasks without clear boundaries.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Periodically retrain from scratch on everything.
+*Your first move:* Periodically retrain from scratch on everything.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Storage and compute grow forever, and old raw data may be unavailable.
+*The case that breaks it:* Storage and compute grow forever, and old raw data may be unavailable.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together.
+*Your repair:* Detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A seasonal model adapts its demand head while preserving reusable product representations.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Stability and adaptability remain in tension.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

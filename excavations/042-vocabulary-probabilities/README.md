@@ -2,48 +2,34 @@
 
 [Previous: Excavation 041](../041-logits/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** The output head gives arbitrary positive and negative logits. We need comparable probabilities and a training loss.
-
-> **Try your first idea:** Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 The output head gives arbitrary positive and negative logits. We need comparable probabilities and a training loss.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
+*Your first move:* Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
+*Your repair:* Exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 A probability distribution expresses model confidence, not truth. Poor calibration and biased data remain possible.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 For logits [1,2], softmax gives about [0.27,0.73]. If the observed token is the second, loss is -log(0.73), about 0.31. Assigning it 0.01 would cost about 4.61.
 
@@ -63,15 +49,15 @@ $$
 
 The equation arrives after every operation has a job.
 
-## Real-World Analogy
+## Carry the idea back into the world
 
 A race score becomes odds only after every competitor is considered together.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

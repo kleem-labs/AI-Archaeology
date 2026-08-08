@@ -2,51 +2,37 @@
 
 [Previous: Excavation 123](../123-federated-learning/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A tiny input change invisible to a person flips the model’s decision.
-
-> **Try your first idea:** Test only natural clean examples.
-
-> **Now try to break your idea:** An attacker follows the model’s sensitivity into a brittle direction.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 A tiny input change invisible to a person flips the model’s decision.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Test only natural clean examples.
+*Your first move:* Test only natural clean examples.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-An attacker follows the model’s sensitivity into a brittle direction.
+*The case that breaks it:* An attacker follows the model’s sensitivity into a brittle direction.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Search for worst-case permitted perturbations, train against them, and bound behavior where possible.
+*Your repair:* Search for worst-case permitted perturbations, train against them, and bound behavior where possible.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Search for worst-case permitted perturbations, train against them, and bound behavior where possible.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Changing a few pixel values turns tiger into toaster for the model while looking unchanged to a human.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Robustness to one threat model does not imply robustness to others.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

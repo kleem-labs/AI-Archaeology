@@ -2,51 +2,37 @@
 
 [Previous: Excavation 113](../113-counterfactuals/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A world model can predict one step. How should the agent choose a long action sequence?
-
-> **Try your first idea:** Commit to the first sequence imagined.
-
-> **Now try to break your idea:** One forecast may exploit model error or miss better branches.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 A world model can predict one step. How should the agent choose a long action sequence?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Commit to the first sequence imagined.
+*Your first move:* Commit to the first sequence imagined.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-One forecast may exploit model error or miss better branches.
+*The case that breaks it:* One forecast may exploit model error or miss better branches.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.
+*Your repair:* Simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A robot simulates left-right paths, takes one safe step, then updates after detecting an obstacle.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Planning cost grows with horizon and branching.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

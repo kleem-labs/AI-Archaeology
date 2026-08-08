@@ -2,39 +2,25 @@
 
 [Previous: Excavation 048](../048-hallucination/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A model labels many answers “80% confident.” Can a user interpret that number?
-
-> **Try your first idea:** Treat the largest softmax probability as honest confidence.
-
-> **Now try to break your idea:** Collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability.
-
-> Stop here. State what the repair must accomplish in ordinary language. Do not name a standard technique.
-
-## The Observation
-
 A model labels many answers “80% confident.” Can a user interpret that number?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Treat the largest softmax probability as honest confidence.
+*Your first move:* Treat the largest softmax probability as honest confidence.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability.
+*The case that breaks it:* Collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability.
 
 What information did the attempt lose? Write that requirement before continuing.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
+*Your repair:* Group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.**
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 Five predictions report 0.8 confidence. Exactly four are correct. Accuracy is 4/5=0.8, so this group is calibrated. If only two are correct, accuracy is 0.4 and the confidence gap is 0.4.
 
@@ -48,15 +34,15 @@ $$
 \operatorname{ECE}=\sum_b\frac{|B_b|}{n}\left|\operatorname{accuracy}(B_b)-\operatorname{confidence}(B_b)\right|
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Calibration depends on task and population. A model calibrated overall can be unreliable for an important subgroup.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

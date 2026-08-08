@@ -2,51 +2,37 @@
 
 [Previous: Excavation 110](../110-self-supervised-learning/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** An agent needs to predict consequences before acting.
-
-> **Try your first idea:** Learn only which action was rewarded in previously visited situations.
-
-> **Now try to break your idea:** The agent cannot imagine untried sequences or reuse physical regularities.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 An agent needs to predict consequences before acting.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Learn only which action was rewarded in previously visited situations.
+*Your first move:* Learn only which action was rewarded in previously visited situations.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-The agent cannot imagine untried sequences or reuse physical regularities.
+*The case that breaks it:* The agent cannot imagine untried sequences or reuse physical regularities.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Learn a compact model that predicts next state and reward from current state and action.
+*Your repair:* Learn a compact model that predicts next state and reward from current state and action.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Learn a compact model that predicts next state and reward from current state and action.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 From ball position and push direction, predict where the ball will move before choosing the push.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Model errors compound during long imagined rollouts.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

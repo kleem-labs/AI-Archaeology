@@ -2,51 +2,37 @@
 
 [Previous: Excavation 070](../070-bandits/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A trained network works, but where is “striped animal” represented?
-
-> **Try your first idea:** Search for one neuron dedicated to each human concept.
-
-> **Now try to break your idea:** The concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 A trained network works, but where is “striped animal” represented?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Search for one neuron dedicated to each human concept.
+*Your first move:* Search for one neuron dedicated to each human concept.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-The concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
+*The case that breaks it:* The concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Treat representations as distributed directions and test them across varied examples.
+*Your repair:* Treat representations as distributed directions and test them across varied examples.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Treat representations as distributed directions and test them across varied examples.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Tiger and zebra activate overlapping patterns; subtracting ordinary cats isolates a stripe-related direction better than one cell.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Human labels may not match the model’s internal abstractions.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

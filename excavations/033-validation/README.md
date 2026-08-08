@@ -2,48 +2,34 @@
 
 [Previous: Excavation 032](../032-regularization/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** We need to choose model size, learning rate, and stopping time. Choosing them using the final test set quietly trains us on the test.
-
-> **Try your first idea:** Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 We need to choose model size, learning rate, and stopping time. Choosing them using the final test set quietly trains us on the test.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
+*Your first move:* Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
+*Your repair:* Split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 The repair solves the immediate failure, but random splits fail when future, users, families, or duplicated records leak across boundaries. The split must match the real deployment question.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 With 100 examples, use 60 to change weights, 20 to choose learning rate, and keep 20 sealed. If the sealed 20 guide choices, they stop being an honest final test.
 
@@ -63,20 +49,19 @@ $$
 D=D_{\text{train}}\cup D_{\text{validation}}\cup D_{\text{test}}
 $$
 
-
-## Real-World Analogy
+## Carry the idea back into the world
 
 A practice exam guides study. A sealed final exam measures what survived without feedback.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair.
 
-## Exercises
+## Test what you believe
 
 Use the [invention challenges](exercises.md).
 
-## Connections
+## What this discovery now makes possible
 
 - [Mistakes](mistakes.md)
 - [Diagram](diagram.md)

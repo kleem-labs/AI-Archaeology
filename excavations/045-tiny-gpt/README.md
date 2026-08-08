@@ -2,48 +2,34 @@
 
 [Previous: Excavation 044](../044-context-window/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** We have excavated every component of an autoregressive language model, but isolated demonstrations do not prove the parts cooperate.
-
-> **Try your first idea:** Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 We have excavated every component of an autoregressive language model, but isolated demonstrations do not prove the parts cooperate.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
+*Your first move:* Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
+*Your repair:* Assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 A tiny GPT demonstrates the mechanism, not modern capability. Scale, data quality, optimization, evaluation, and safety now become the next landscape.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 Prompt IDs enter embeddings, pass through a masked block, and produce logits [1,3,0]. Softmax favors the second token; sampling selects it, appends it to the prompt, and runs the same loop again.
 
@@ -65,17 +51,17 @@ $$
 
 The equation arrives after every operation has a job.
 
-## Real-World Analogy
+## Carry the idea back into the world
 
 An archaeological reconstruction succeeds when the rebuilt machine moves, not when labeled components remain on separate tables.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
 Close the loop yourself in the [Transparent Generation Field Lab](../../labs/05_generation_lab.py). Every generated token prints the scores, probabilities, choice, and updated context.
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

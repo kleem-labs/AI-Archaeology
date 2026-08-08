@@ -2,51 +2,37 @@
 
 [Previous: Excavation 115](../115-tree-search/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A model produces a plausible multi-step answer. Which step failed?
-
-> **Try your first idea:** Judge only the final answer.
-
-> **Now try to break your idea:** A lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 A model produces a plausible multi-step answer. Which step failed?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Judge only the final answer.
+*Your first move:* Judge only the final answer.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-A lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
+*The case that breaks it:* A lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Represent intermediate claims and verify each with an appropriate checker or evidence source.
+*Your repair:* Represent intermediate claims and verify each with an appropriate checker or evidence source.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Represent intermediate claims and verify each with an appropriate checker or evidence source.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A geometry solution checks every equality before accepting the final area.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Written steps may be rationalizations rather than the mechanism used.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

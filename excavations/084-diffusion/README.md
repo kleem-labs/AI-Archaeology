@@ -2,43 +2,29 @@
 
 [Previous: Excavation 083](../083-autoregressive-generation/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** How can generation begin without choosing a first meaningful pixel?
-
-> **Try your first idea:** Map one random vector directly to a finished image in one jump.
-
-> **Now try to break your idea:** One enormous jump is difficult to learn and unstable across diverse images.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 How can generation begin without choosing a first meaningful pixel?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Map one random vector directly to a finished image in one jump.
+*Your first move:* Map one random vector directly to a finished image in one jump.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-One enormous jump is difficult to learn and unstable across diverse images.
+*The case that breaks it:* One enormous jump is difficult to learn and unstable across diverse images.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Gradually add noise to real images, then learn the smaller reverse step at every noise level.
+*Your repair:* Gradually add noise to real images, then learn the smaller reverse step at every noise level.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Gradually add noise to real images, then learn the smaller reverse step at every noise level.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A tiger image becomes slightly grainy, then more noisy, then nearly random; training learns each local cleanup.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 - The clean image is the named tiger image x0.
 - Noise ε is the random corruption added during the forward process.
@@ -51,15 +37,15 @@ $$
 x_t=\sqrt{\bar\alpha_t}\,x_0+\sqrt{1-\bar\alpha_t}\,\epsilon
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Many denoising steps make sampling expensive.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

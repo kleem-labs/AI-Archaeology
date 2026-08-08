@@ -2,48 +2,34 @@
 
 [Previous: Excavation 033](../033-validation/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** Even a carefully validated model may meet a new hospital, dialect, season, or camera unlike anything in its files.
-
-> **Try your first idea:** Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 Even a carefully validated model may meet a new hospital, dialect, season, or camera unlike anything in its files.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
+*Your first move:* Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
+*Your repair:* State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 The repair solves the immediate failure, but no benchmark proves universal intelligence. Future distributions can change in ways neither data nor designers anticipated.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 Suppose future cases have losses 1,0,2,1. Their average is 1, our estimate of future risk. Averaging training losses instead would answer how well we remember the past, not deployment.
 
@@ -64,20 +50,19 @@ $$
 R(\theta)=\mathbb{E}_{(x,y)\sim P_{\text{future}}}[L(f_\theta(x),y)]
 $$
 
-
-## Real-World Analogy
+## Carry the idea back into the world
 
 A boat tested on one calm lake has not proved itself at sea. We must name the waters we expect it to cross.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair.
 
-## Exercises
+## Test what you believe
 
 Use the [invention challenges](exercises.md).
 
-## Connections
+## What this discovery now makes possible
 
 - [Mistakes](mistakes.md)
 - [Diagram](diagram.md)

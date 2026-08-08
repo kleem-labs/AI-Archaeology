@@ -2,39 +2,25 @@
 
 [Previous: Excavation 050](../050-data-quality/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Should limited resources buy a larger model, more data, or more training computation?
-
-> **Try your first idea:** Make the model as large as possible and assume capability follows parameter count.
-
-> **Now try to break your idea:** A huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns.
-
-> Stop here. State what the repair must accomplish in ordinary language. Do not name a standard technique.
-
-## The Observation
-
 Should limited resources buy a larger model, more data, or more training computation?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Make the model as large as possible and assume capability follows parameter count.
+*Your first move:* Make the model as large as possible and assume capability follows parameter count.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-A huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns.
+*The case that breaks it:* A huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns.
 
 What information did the attempt lose? Write that requirement before continuing.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
+*Your repair:* Run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.**
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 Models with 1, 2, and 4 million effective units achieve losses 4.0, 3.2, and 2.8. Improvement continues but shrinks. The curve helps estimate whether doubling again is worth the cost; it does not promise a new capability.
 
@@ -48,15 +34,15 @@ $$
 L(N)=A N^{-\alpha}+B
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 A fitted trend applies within observed regimes. Data quality, architecture changes, and new bottlenecks can bend it.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

@@ -2,53 +2,39 @@
 
 [Previous: Excavation 054](../054-retrieval-augmented-generation/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A model can describe checking weather, calculating totals, or querying a database, but description alone does not obtain the result.
-
-> **Try your first idea:** Ask the language model to simulate every tool from memory.
-
-> **Now try to break your idea:** It invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded.
-
-> Stop here. State what the repair must accomplish in ordinary language. Do not name a standard technique.
-
-## The Observation
-
 A model can describe checking weather, calculating totals, or querying a database, but description alone does not obtain the result.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Ask the language model to simulate every tool from memory.
+*Your first move:* Ask the language model to simulate every tool from memory.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-It invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded.
+*The case that breaks it:* It invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded.
 
 What information did the attempt lose? Write that requirement before continuing.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
+*Your repair:* Let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 The user asks whether to carry an umbrella. The model requests weather for the named city, receives a 90% rain forecast, and then answers. The forecast is an observation from the tool, not prose invented by the model.
 
 No new equation is needed here. The invention is a procedure and a separation of responsibilities, so forcing symbols into the chapter would hide rather than clarify it.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 An agent adds failure modes: bad tool choice, unsafe actions, prompt injection, loops, and ambiguous authority. Tools require permissions, validation, and stopping rules.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

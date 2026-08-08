@@ -2,51 +2,37 @@
 
 [Previous: Excavation 077](../077-convolution/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Local detectors create large activation maps.
-
-> **Try your first idea:** Keep every activation at full resolution through every layer.
-
-> **Now try to break your idea:** Memory explodes and tiny shifts move evidence to neighboring cells.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Local detectors create large activation maps.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Keep every activation at full resolution through every layer.
+*Your first move:* Keep every activation at full resolution through every layer.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Memory explodes and tiny shifts move evidence to neighboring cells.
+*The case that breaks it:* Memory explodes and tiny shifts move evidence to neighboring cells.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Summarize small neighborhoods while retaining the strongest or average evidence.
+*Your repair:* Summarize small neighborhoods while retaining the strongest or average evidence.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Summarize small neighborhoods while retaining the strongest or average evidence.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Max pooling [1,7,2,3] keeps 7: an edge existed somewhere in that patch.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Pooling discards exact location and can erase subtle patterns.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

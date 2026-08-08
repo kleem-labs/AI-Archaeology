@@ -2,48 +2,34 @@
 
 [Previous: Excavation 030](../030-activation-functions/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** A model scores perfectly on every training example, then fails on a new animal seen from a different angle.
-
-> **Try your first idea:** Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 A model scores perfectly on every training example, then fails on a new animal seen from a different angle.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
+*Your first move:* Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Reserve unseen cases and compare training success with performance outside the training memory.
+*Your repair:* Reserve unseen cases and compare training success with performance outside the training memory.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 The repair solves the immediate failure, but a gap diagnoses overfitting but does not identify its cause. Leakage, distribution shift, and noisy evaluation can mislead us.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Reserve unseen cases and compare training success with performance outside the training memory.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 A model has training loss 0.02 and unseen loss 0.17. Subtracting gives a gap of 0.15. The low training number shows memory; the gap measures how much success disappeared outside it.
 
@@ -63,20 +49,19 @@ $$
 \text{generalization gap}=L_{\text{unseen}}-L_{\text{train}}
 $$
 
-
-## Real-World Analogy
+## Carry the idea back into the world
 
 A student who memorizes answer positions can ace the practice sheet and fail when the same ideas are rearranged.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair.
 
-## Exercises
+## Test what you believe
 
 Use the [invention challenges](exercises.md).
 
-## Connections
+## What this discovery now makes possible
 
 - [Mistakes](mistakes.md)
 - [Diagram](diagram.md)

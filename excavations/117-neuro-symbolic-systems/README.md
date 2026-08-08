@@ -2,51 +2,37 @@
 
 [Previous: Excavation 116](../116-reasoning-and-verification/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Neural models handle perception; symbolic rules handle exact constraints. Must one system do both?
-
-> **Try your first idea:** Force fuzzy perception into rigid rules or exact rules into learned approximation.
-
-> **Now try to break your idea:** The first breaks on noisy inputs; the second can violate guaranteed constraints.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Neural models handle perception; symbolic rules handle exact constraints. Must one system do both?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Force fuzzy perception into rigid rules or exact rules into learned approximation.
+*Your first move:* Force fuzzy perception into rigid rules or exact rules into learned approximation.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-The first breaks on noisy inputs; the second can violate guaranteed constraints.
+*The case that breaks it:* The first breaks on noisy inputs; the second can violate guaranteed constraints.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Let neural components propose symbols or scores and symbolic components enforce explicit relations.
+*Your repair:* Let neural components propose symbols or scores and symbolic components enforce explicit relations.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Let neural components propose symbols or scores and symbolic components enforce explicit relations.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Vision detects board pieces; a chess engine enforces legal moves.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Errors at the interface can still corrupt the combined result.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

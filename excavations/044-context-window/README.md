@@ -2,48 +2,34 @@
 
 [Previous: Excavation 043](../043-sampling/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** Generation repeats one token at a time, and every new token may attend to the past. The stored conversation keeps growing.
-
-> **Try your first idea:** Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 Generation repeats one token at a time, and every new token may attend to the past. The stored conversation keeps growing.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
+*Your first move:* Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
+*Your repair:* Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 A larger window is not perfect memory. Retrieval, compression, recurrence, and careful data are separate inventions.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 With 4 tokens, attention forms 4×4=16 query-key comparisons. With 8 tokens it forms 8×8=64—not merely twice as many. This repeated pairing creates square growth.
 
@@ -63,15 +49,15 @@ $$
 
 The equation arrives after every operation has a job.
 
-## Real-World Analogy
+## Carry the idea back into the world
 
 A desk holds only a finite number of open pages. Notes and indexes can preserve selected information after pages leave the desk.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

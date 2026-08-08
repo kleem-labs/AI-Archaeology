@@ -2,43 +2,29 @@
 
 [Previous: Excavation 114](../114-model-based-planning/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Exploring every future action sequence becomes impossible.
-
-> **Try your first idea:** Expand every branch equally.
-
-> **Now try to break your idea:** Most computation is wasted on obviously poor branches.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Exploring every future action sequence becomes impossible.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Expand every branch equally.
+*Your first move:* Expand every branch equally.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Most computation is wasted on obviously poor branches.
+*The case that breaks it:* Most computation is wasted on obviously poor branches.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.
+*Your repair:* Balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A game search revisits a move that won often while still testing a less explored alternative.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 - The average reward records how well one branch has performed.
 - Visit count shrinks the exploration bonus as evidence accumulates.
@@ -51,15 +37,15 @@ $$
 \operatorname{score}(a)=\overline R_a+c\sqrt{\frac{\log N}{n_a}}
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Search quality depends on simulations and evaluation estimates.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

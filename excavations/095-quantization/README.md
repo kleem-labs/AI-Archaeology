@@ -2,43 +2,29 @@
 
 [Previous: Excavation 094](../094-lora/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** How can a model use less memory and faster arithmetic at inference?
-
-> **Try your first idea:** Round every weight aggressively without measuring effect.
-
-> **Now try to break your idea:** Small but important distinctions disappear and outputs degrade.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 How can a model use less memory and faster arithmetic at inference?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Round every weight aggressively without measuring effect.
+*Your first move:* Round every weight aggressively without measuring effect.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Small but important distinctions disappear and outputs degrade.
+*The case that breaks it:* Small but important distinctions disappear and outputs degrade.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Map values to a limited set of levels using calibrated scale and test sensitive layers.
+*Your repair:* Map values to a limited set of levels using calibrated scale and test sensitive layers.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Map values to a limited set of levels using calibrated scale and test sensitive layers.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Weights from -1 to 1 become 256 integer levels; a stored integer plus scale approximately reconstructs each value.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 - Real weight w is divided by scale s to express it in integer-sized steps.
 - Rounding chooses the nearest allowed integer q.
@@ -51,15 +37,15 @@ $$
 q=\operatorname{round}(w/s),\qquad \widehat w=sq
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Lower precision trades accuracy for efficiency and hardware support varies.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

@@ -2,51 +2,37 @@
 
 [Previous: Excavation 074](../074-superposition/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A probe finds a “tiger” direction. Does the model actually use it?
-
-> **Try your first idea:** Assume correlation with output proves causation.
-
-> **Now try to break your idea:** The direction predicts answers but changing it leaves behavior unchanged.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 A probe finds a “tiger” direction. Does the model actually use it?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Assume correlation with output proves causation.
+*Your first move:* Assume correlation with output proves causation.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-The direction predicts answers but changing it leaves behavior unchanged.
+*The case that breaks it:* The direction predicts answers but changing it leaves behavior unchanged.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Intervene on the representation and measure the specific downstream change against controls.
+*Your repair:* Intervene on the representation and measure the specific downstream change against controls.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Intervene on the representation and measure the specific downstream change against controls.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Adding the candidate direction raises tiger probability only in relevant contexts; random directions do not.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Interventions can create unnatural internal states.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

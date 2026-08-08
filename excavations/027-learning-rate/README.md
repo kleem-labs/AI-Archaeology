@@ -2,48 +2,34 @@
 
 [Previous: Excavation 026](../026-mini-batches/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** The gradient points downhill, but it does not say how far to walk. A correct direction can still produce a disastrous step.
-
-> **Try your first idea:** Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 The gradient points downhill, but it does not say how far to walk. A correct direction can still produce a disastrous step.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
+*Your first move:* Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
+*Your repair:* Multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 The repair solves the immediate failure, but no single learning rate is best throughout training. Scale, curvature, batch noise, and parameter units all matter.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 At weight 8 the gradient is 10. Rate 1 moves to -2 and overshoots; rate 0.1 moves to 7; rate 0.01 moves to 7.9. The rate controls travel distance, not downhill direction.
 
@@ -63,20 +49,19 @@ $$
 \theta_{t+1}=\theta_t-\eta_t g_t
 $$
 
-
-## Real-World Analogy
+## Carry the idea back into the world
 
 A mountain guide chooses shorter steps on steep or uncertain ground and can walk farther on a smooth open slope.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair.
 
-## Exercises
+## Test what you believe
 
 Use the [invention challenges](exercises.md).
 
-## Connections
+## What this discovery now makes possible
 
 - [Mistakes](mistakes.md)
 - [Diagram](diagram.md)

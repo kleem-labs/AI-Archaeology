@@ -2,51 +2,37 @@
 
 [Previous: Excavation 082](../082-latent-space/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** How can a model generate an image one piece at a time?
-
-> **Try your first idea:** Predict all pixels independently.
-
-> **Now try to break your idea:** Independent pixels produce noise because neighboring colors and shapes constrain one another.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 How can a model generate an image one piece at a time?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Predict all pixels independently.
+*Your first move:* Predict all pixels independently.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Independent pixels produce noise because neighboring colors and shapes constrain one another.
+*The case that breaks it:* Independent pixels produce noise because neighboring colors and shapes constrain one another.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Choose an order and predict each piece from previously generated pieces.
+*Your repair:* Choose an order and predict each piece from previously generated pieces.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Choose an order and predict each piece from previously generated pieces.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 After generating sky pixels, the model gives blue neighbors higher probability.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Sequential generation can be slow and ordering introduces bias.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

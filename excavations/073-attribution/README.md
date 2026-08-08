@@ -2,51 +2,37 @@
 
 [Previous: Excavation 072](../072-linear-probes/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Which input words influenced one prediction?
-
-> **Try your first idea:** Remove each word and treat output change as complete explanation.
-
-> **Now try to break your idea:** Removing a word changes grammar and creates an unnatural new input.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Which input words influenced one prediction?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Remove each word and treat output change as complete explanation.
+*Your first move:* Remove each word and treat output change as complete explanation.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Removing a word changes grammar and creates an unnatural new input.
+*The case that breaks it:* Removing a word changes grammar and creates an unnatural new input.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
+*Your repair:* Measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 For “not dangerous,” attribution highlights not; replacing it with very changes the class as predicted.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Attribution can be unstable and method-dependent.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

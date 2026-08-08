@@ -2,53 +2,39 @@
 
 [Previous: Excavation 060](../060-state-machines/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A coding agent edits a function and announces the bug is fixed.
-
-> **Try your first idea:** Trust the absence of an error message or the model’s own description of its work.
-
-> **Now try to break your idea:** The changed code compiles but breaks another case. Confidence is not evidence of the requested outcome.
-
-> Stop here. State what a repair must guarantee without using the chapter title.
-
-## The Observation
-
 A coding agent edits a function and announces the bug is fixed.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Trust the absence of an error message or the model’s own description of its work.
+*Your first move:* Trust the absence of an error message or the model’s own description of its work.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-The changed code compiles but breaks another case. Confidence is not evidence of the requested outcome.
+*The case that breaks it:* The changed code compiles but breaks another case. Confidence is not evidence of the requested outcome.
 
 Name the missing guarantee before continuing.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
+*Your repair:* Define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 For “fix CSV import,” success requires the original failing file to load, existing import tests to remain green, and malformed rows to produce the agreed error.
 
 No new equation is needed. The invention is a boundary, procedure, or system contract. Adding symbols would not make it more rigorous.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Verification can test only stated properties. A passing check suite may omit the most important behavior.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

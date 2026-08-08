@@ -1,52 +1,43 @@
 # Excavation 076 — Pixels — Turning Light into Numbers
 
+> **PART VIII — SEEING AND CREATING**
+>
+> Language was only one trace of reality. Light, space, sound, and noise demand new forms of the discoveries you already made.
+
+
 [Previous: Excavation 075](../075-causal-interventions/README.md)
-
-## Take the First Step Yourself
-
-> **Your problem:** A camera gives a grid of colored light, not objects.
-
-> **Try your first idea:** Assign one label to the entire raw byte sequence.
-
-> **Now try to break your idea:** A one-pixel shift changes thousands of byte positions although the same tiger remains.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
 
 A camera gives a grid of colored light, not objects.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Assign one label to the entire raw byte sequence.
+*Your first move:* Assign one label to the entire raw byte sequence.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-A one-pixel shift changes thousands of byte positions although the same tiger remains.
+*The case that breaks it:* A one-pixel shift changes thousands of byte positions although the same tiger remains.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Preserve local spatial arrangement and compare nearby color measurements.
+*Your repair:* Preserve local spatial arrangement and compare nearby color measurements.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Preserve local spatial arrangement and compare nearby color measurements.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A 2×2 grayscale patch becomes four intensities with explicit row and column positions.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Pixels depend on lighting, sensor, scale, and viewpoint.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

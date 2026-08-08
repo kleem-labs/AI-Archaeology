@@ -2,51 +2,37 @@
 
 [Previous: Excavation 080](../080-vision-transformers/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Can a model preserve what matters using fewer numbers?
-
-> **Try your first idea:** Copy the input through an unrestricted hidden layer.
-
-> **Now try to break your idea:** A wide hidden layer learns identity without compression.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Can a model preserve what matters using fewer numbers?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Copy the input through an unrestricted hidden layer.
+*Your first move:* Copy the input through an unrestricted hidden layer.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-A wide hidden layer learns identity without compression.
+*The case that breaks it:* A wide hidden layer learns identity without compression.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Force information through a bottleneck and train reconstruction.
+*Your repair:* Force information through a bottleneck and train reconstruction.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Force information through a bottleneck and train reconstruction.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Four correlated measurements compress to two codes that still rebuild the originals approximately.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Good reconstruction may preserve details irrelevant to downstream meaning.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

@@ -2,51 +2,37 @@
 
 [Previous: Excavation 095](../095-quantization/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** One machine cannot hold the model, data, and optimizer state.
-
-> **Try your first idea:** Let many machines train independent copies and combine them occasionally.
-
-> **Now try to break your idea:** Their parameters drift and duplicated work wastes computation.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 One machine cannot hold the model, data, and optimizer state.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Let many machines train independent copies and combine them occasionally.
+*Your first move:* Let many machines train independent copies and combine them occasionally.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Their parameters drift and duplicated work wastes computation.
+*The case that breaks it:* Their parameters drift and duplicated work wastes computation.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Partition data or model work, synchronize required results, and preserve one coherent update.
+*Your repair:* Partition data or model work, synchronize required results, and preserve one coherent update.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Partition data or model work, synchronize required results, and preserve one coherent update.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Two workers compute gradients on different batches, average them, then apply the same update.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Communication, failure recovery, and numerical nondeterminism become bottlenecks.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

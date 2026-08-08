@@ -2,53 +2,39 @@
 
 [Previous: Excavation 051](../051-scaling-laws/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A pretrained model continues text well but may continue a question instead of answering it.
-
-> **Try your first idea:** Prompt more forcefully and hope next-token prediction infers the desired interaction.
-
-> **Now try to break your idea:** Given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy.
-
-> Stop here. State what the repair must accomplish in ordinary language. Do not name a standard technique.
-
-## The Observation
-
 A pretrained model continues text well but may continue a question instead of answering it.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Prompt more forcefully and hope next-token prediction infers the desired interaction.
+*Your first move:* Prompt more forcefully and hope next-token prediction infers the desired interaction.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy.
+*The case that breaks it:* Given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy.
 
 What information did the attempt lose? Write that requirement before continuing.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
+*Your repair:* Show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Training examples pair “Summarize: [paragraph]” with a concise summary and “Classify sentiment: [review]” with a label. A new instruction can reuse the demonstrated relation between request and response.
 
 No new equation is needed here. The invention is a procedure and a separation of responsibilities, so forcing symbols into the chapter would hide rather than clarify it.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Instruction tuning teaches behavioral patterns from its examples; it does not guarantee truth, safety, or correct obedience to every request.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

@@ -2,51 +2,37 @@
 
 [Previous: Excavation 096](../096-distributed-training/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A trained model must answer many users with low latency and bounded cost.
-
-> **Try your first idea:** Run one request at a time on one full model.
-
-> **Now try to break your idea:** Hardware sits idle between small operations and traffic spikes create queues.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 A trained model must answer many users with low latency and bounded cost.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Run one request at a time on one full model.
+*Your first move:* Run one request at a time on one full model.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Hardware sits idle between small operations and traffic spikes create queues.
+*The case that breaks it:* Hardware sits idle between small operations and traffic spikes create queues.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
+*Your repair:* Batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Four prompts share one matrix operation while each retains separate token state.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Batching improves throughput but can worsen individual latency.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

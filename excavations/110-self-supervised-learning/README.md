@@ -2,51 +2,37 @@
 
 [Previous: Excavation 109](../109-curriculum-learning/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** How can enormous unlabeled data teach useful representations?
-
-> **Try your first idea:** Wait for humans to label every example.
-
-> **Now try to break your idea:** Labels are expensive and discard most structure already inside observations.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 How can enormous unlabeled data teach useful representations?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Wait for humans to label every example.
+*Your first move:* Wait for humans to label every example.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Labels are expensive and discard most structure already inside observations.
+*The case that breaks it:* Labels are expensive and discard most structure already inside observations.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Hide or transform part of an observation and train the model to recover the missing relation.
+*Your repair:* Hide or transform part of an observation and train the model to recover the missing relation.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Hide or transform part of an observation and train the model to recover the missing relation.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Mask one image patch and predict it from neighbors; no human label is needed.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Pretext tasks may reward patterns unrelated to downstream needs.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

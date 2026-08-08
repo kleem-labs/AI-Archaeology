@@ -2,51 +2,37 @@
 
 [Previous: Excavation 107](../107-continual-learning/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Can experience across many tasks teach the model how to learn a new task quickly?
-
-> **Try your first idea:** Train one universal fixed solution.
-
-> **Now try to break your idea:** A new task with different labels requires many examples and broad retraining.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Can experience across many tasks teach the model how to learn a new task quickly?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Train one universal fixed solution.
+*Your first move:* Train one universal fixed solution.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-A new task with different labels requires many examples and broad retraining.
+*The case that breaks it:* A new task with different labels requires many examples and broad retraining.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Optimize prior parameters or an update rule so a few new examples produce useful adaptation.
+*Your repair:* Optimize prior parameters or an update rule so a few new examples produce useful adaptation.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Optimize prior parameters or an update rule so a few new examples produce useful adaptation.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 After many two-class tasks, five labeled examples are enough to separate two unseen animal species.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Task distributions can be narrow and meta-learning can overfit them.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

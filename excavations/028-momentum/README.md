@@ -2,48 +2,34 @@
 
 [Previous: Excavation 027](../027-learning-rate/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** Mini-batch gradients wobble. One batch points left-down, the next right-down, although both share a persistent downward direction.
-
-> **Try your first idea:** Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 Mini-batch gradients wobble. One batch points left-down, the next right-down, although both share a persistent downward direction.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
+*Your first move:* Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Keep a fading memory of past gradients and combine it with the new one.
+*Your repair:* Keep a fading memory of past gradients and combine it with the new one.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 The repair solves the immediate failure, but momentum can overshoot, and its extra memory introduces another setting. It does not repair a fundamentally bad loss or dataset.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Keep a fading memory of past gradients and combine it with the new one.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 Successive gradients are [3,1], [3,-1], [3,1]. The sideways coordinate flips, while the first persists. A fading sum reinforces the repeated 3 direction and partly cancels the wobble.
 
@@ -64,20 +50,19 @@ $$
 v_t=\beta v_{t-1}+g_t,\qquad\theta_{t+1}=\theta_t-\eta v_t
 $$
 
-
-## Real-World Analogy
+## Carry the idea back into the world
 
 A heavy ball rattles less across a narrow ravine and keeps moving along the valley.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair.
 
-## Exercises
+## Test what you believe
 
 Use the [invention challenges](exercises.md).
 
-## Connections
+## What this discovery now makes possible
 
 - [Mistakes](mistakes.md)
 - [Diagram](diagram.md)

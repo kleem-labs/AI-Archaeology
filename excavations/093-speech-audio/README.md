@@ -2,51 +2,37 @@
 
 [Previous: Excavation 092](../092-contrastive-learning/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Audio is a long pressure waveform whose meaning survives small time shifts.
-
-> **Try your first idea:** Treat every raw sample as an independent token.
-
-> **Now try to break your idea:** Sequences are huge and local frequency structure is hidden.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Audio is a long pressure waveform whose meaning survives small time shifts.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Treat every raw sample as an independent token.
+*Your first move:* Treat every raw sample as an independent token.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Sequences are huge and local frequency structure is hidden.
+*The case that breaks it:* Sequences are huge and local frequency structure is hidden.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Transform short windows into time-frequency features, then model their sequence.
+*Your repair:* Transform short windows into time-frequency features, then model their sequence.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Transform short windows into time-frequency features, then model their sequence.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A whistle appears as sustained energy in one frequency band across several time windows.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Spectrogram choices discard phase or fine timing.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

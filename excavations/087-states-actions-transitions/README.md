@@ -2,51 +2,37 @@
 
 [Previous: Excavation 086](../086-rewards/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** To learn from reward, what must one experience record?
-
-> **Try your first idea:** Store only action and final reward.
-
-> **Now try to break your idea:** The same action helps in one situation and harms in another.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 To learn from reward, what must one experience record?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Store only action and final reward.
+*Your first move:* Store only action and final reward.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-The same action helps in one situation and harms in another.
+*The case that breaks it:* The same action helps in one situation and harms in another.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Record current state, chosen action, reward, and resulting state.
+*Your repair:* Record current state, chosen action, reward, and resulting state.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Record current state, chosen action, reward, and resulting state.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 “Move right” from left of the door succeeds; the same action beside a cliff fails because state differs.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 A state representation may omit information needed for future decisions.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

@@ -3,21 +3,20 @@
 from pathlib import Path
 
 root = Path(__file__).parents[1]
-required = (
-    "## Take the First Step Yourself",
-    "**Your problem:**",
-    "**Try your first idea:**",
-    "**Now try to break your idea:**",
-    "Stop here.",
-)
 failures = []
 
 for chapter in sorted((root / "excavations").glob("*/README.md")):
     text = chapter.read_text()
+    number = int(chapter.parent.name[:3])
+    if number < 17:
+        required = ("## Take the First Step Yourself", "**Try your first idea:**", "**Now try to break your idea:**")
+    else:
+        required = ("Pause here.", "*Your first move:*", "*The case that breaks it:*", "*Your repair:*")
     for marker in required:
         if marker not in text:
-            failures.append(f"{chapter}: missing {marker}")
-    if "$$" in text and text.index("## Take the First Step Yourself") > text.index("$$"):
+            failures.append(f"{chapter}: missing reader-led discovery marker {marker}")
+    first_discovery = min((text.find(marker) for marker in required if marker in text), default=-1)
+    if "$$" in text and (first_discovery < 0 or first_discovery > text.index("$$")):
         failures.append(f"{chapter}: reader receives equation before making an attempt")
 
 if failures:

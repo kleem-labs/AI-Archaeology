@@ -2,51 +2,37 @@
 
 [Previous: Excavation 090](../090-policy-gradients/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** How can an image and its caption meet in one representation?
-
-> **Try your first idea:** Compare raw pixels directly with token IDs.
-
-> **Now try to break your idea:** Their coordinates have unrelated meanings and shapes.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 How can an image and its caption meet in one representation?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Compare raw pixels directly with token IDs.
+*Your first move:* Compare raw pixels directly with token IDs.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Their coordinates have unrelated meanings and shapes.
+*The case that breaks it:* Their coordinates have unrelated meanings and shapes.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Use separate encoders and train paired image-text examples to become nearby.
+*Your repair:* Use separate encoders and train paired image-text examples to become nearby.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Use separate encoders and train paired image-text examples to become nearby.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A tiger photo and “striped big cat” move together; mismatched captions move apart.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Pairs can contain weak, biased, or incomplete descriptions.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

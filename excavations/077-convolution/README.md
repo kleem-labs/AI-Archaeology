@@ -2,43 +2,29 @@
 
 [Previous: Excavation 076](../076-pixels/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** An edge can appear anywhere in an image.
-
-> **Try your first idea:** Learn a separate edge detector for every location.
-
-> **Now try to break your idea:** The model relearns the same pattern thousands of times and fails when it moves.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 An edge can appear anywhere in an image.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Learn a separate edge detector for every location.
+*Your first move:* Learn a separate edge detector for every location.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-The model relearns the same pattern thousands of times and fails when it moves.
+*The case that breaks it:* The model relearns the same pattern thousands of times and fails when it moves.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Slide one small learned filter across all positions and reuse its weights.
+*Your repair:* Slide one small learned filter across all positions and reuse its weights.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Slide one small learned filter across all positions and reuse its weights.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 The filter [-1,1] produces a large response wherever neighboring brightness jumps from dark to light.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 - The signal values are neighboring brightness measurements.
 - The kernel values are the same small detector reused at every location.
@@ -51,15 +37,15 @@ $$
 y_i=\sum_{j=0}^{k-1}x_{i+j}w_j
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Convolution assumes useful locality and translation reuse.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

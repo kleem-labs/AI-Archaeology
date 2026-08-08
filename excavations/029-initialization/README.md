@@ -2,48 +2,34 @@
 
 [Previous: Excavation 028](../028-momentum/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** Before training, every weight needs a value. The starting point decides what signals and gradients the first examples can produce.
-
-> **Try your first idea:** Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 Before training, every weight needs a value. The starting point decides what signals and gradients the first examples can produce.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
+*Your first move:* Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Draw small random weights whose scale depends on how many inputs feed the neuron.
+*Your repair:* Draw small random weights whose scale depends on how many inputs feed the neuron.
+
+Only after that reasoning may we give your discovery its inherited name.
 
 ## Why It Still Fails
 
 The repair solves the immediate failure, but good initialization creates workable conditions; it does not encode the solution or guarantee stable training at every depth.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-**Draw small random weights whose scale depends on how many inputs feed the neuron.**
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 If 100 independent inputs each arrive near unit scale, weights near unit scale make their sum huge. Scaling typical weight spread by 1/sqrt(100)=0.1 keeps their combined signal near a workable scale.
 
@@ -64,20 +50,19 @@ $$
 \operatorname{Var}(w)\approx\frac{1}{n_{\text{in}}}
 $$
 
-
-## Real-World Analogy
+## Carry the idea back into the world
 
 A team needs different starting hypotheses, but none should begin shouting so loudly that every later observation is ignored.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair.
 
-## Exercises
+## Test what you believe
 
 Use the [invention challenges](exercises.md).
 
-## Connections
+## What this discovery now makes possible
 
 - [Mistakes](mistakes.md)
 - [Diagram](diagram.md)

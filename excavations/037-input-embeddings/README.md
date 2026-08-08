@@ -2,19 +2,6 @@
 
 [Previous: Tokenization](../036-tokenization/README.md)
 
-
-## Take the First Step Yourself
-
-> **Your problem:** The tokenizer returns IDs:
-
-> **Try your first idea:** Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
-
 The tokenizer returns IDs:
 
 ~~~text
@@ -27,21 +14,21 @@ A neural network needs numbers, so perhaps the problem appears solved. But what 
 
 Nothing except “look in slot 417.”
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
+*Your first move:* Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Give every vocabulary item a one-hot vector: one coordinate is one and all others are zero.
+*Your repair:* Give every vocabulary item a one-hot vector: one coordinate is one and all others are zero.
 
 ~~~text
 lion  → [1, 0, 0, 0]
@@ -51,13 +38,7 @@ river → [0, 0, 1, 0]
 
 Now IDs no longer pretend to contain magnitude.
 
-## Why It Still Fails
-
-A vocabulary of 50,000 tokens produces 50,000-dimensional vectors containing 49,999 zeros. Every distinct pair is equally distant. We preserved identity but learned no relationship.
-
-The network needs a compact set of coordinates whose positions can change when prediction errors reveal useful relationships.
-
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
 Create a table with one learnable vector per token. A token ID selects a row. Training moves that row whenever changing the token's representation would reduce prediction loss.
 
@@ -67,11 +48,17 @@ token ID → choose one row → dense vector
 
 The ID remains an address. The selected row becomes the representation.
 
-## Only Now Give the Discovery a Mathematical Name
+## Why It Still Fails
+
+A vocabulary of 50,000 tokens produces 50,000-dimensional vectors containing 49,999 zeros. Every distinct pair is equally distant. We preserved identity but learned no relationship.
+
+The network needs a compact set of coordinates whose positions can change when prediction errors reveal useful relationships.
+
+## Compress your discovery into mathematics
 
 Let the embedding table contain one row for each vocabulary item:
 
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 With four tokens and width two, the table might have rows [0.1,0.8], [-0.2,0.4], [0.7,-0.1], [0.3,0.2]. Token ID 2 selects [0.7,-0.1]; the number 2 is only the shelf address.
 
@@ -104,8 +91,7 @@ $$
 \mathbf{x}_i=\mathbf{e}_iE
 $$
 
-
-## Real-World Analogy
+## Carry the idea back into the world
 
 A library call number is not the book's meaning. It is an address used to retrieve the book. Token IDs are call numbers; embedding rows are the learnable content retrieved from the shelf.
 
@@ -121,11 +107,11 @@ The same token initially retrieves the same row in every sentence. Bank beside r
 
 Worse, the embedding table contains no order. Swapping dog bites man with man bites dog selects the same three rows in a different sequence, but self-attention alone has no built-in idea that one row arrived first.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

@@ -2,51 +2,37 @@
 
 [Previous: Excavation 111](../111-world-models/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** Ice-cream sales and drownings rise together. Would banning ice cream reduce drownings?
-
-> **Try your first idea:** Treat every correlation as a controllable cause.
-
-> **Now try to break your idea:** Hot weather raises both; changing one does not necessarily change the other.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 Ice-cream sales and drownings rise together. Would banning ice cream reduce drownings?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Treat every correlation as a controllable cause.
+*Your first move:* Treat every correlation as a controllable cause.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Hot weather raises both; changing one does not necessarily change the other.
+*The case that breaks it:* Hot weather raises both; changing one does not necessarily change the other.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Represent plausible causal structure and distinguish observing a variable from intervening on it.
+*Your repair:* Represent plausible causal structure and distinguish observing a variable from intervening on it.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Represent plausible causal structure and distinguish observing a variable from intervening on it.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Observing umbrellas predicts rain; forcing umbrellas open does not cause rain.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Causal conclusions require assumptions not recoverable from correlations alone.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

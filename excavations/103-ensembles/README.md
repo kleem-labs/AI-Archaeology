@@ -2,51 +2,37 @@
 
 [Previous: Excavation 102](../102-bayesian-updating/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** One trained model gives a confident answer. Would another equally trained model agree?
-
-> **Try your first idea:** Trust one training run as the unique learned truth.
-
-> **Now try to break your idea:** Different initialization and data order produce different boundaries.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 One trained model gives a confident answer. Would another equally trained model agree?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Trust one training run as the unique learned truth.
+*Your first move:* Trust one training run as the unique learned truth.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Different initialization and data order produce different boundaries.
+*The case that breaks it:* Different initialization and data order produce different boundaries.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Train several diverse models and combine predictions while inspecting disagreement.
+*Your repair:* Train several diverse models and combine predictions while inspecting disagreement.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Train several diverse models and combine predictions while inspecting disagreement.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Five models vote tiger probabilities .9,.85,.88,.3,.25; the average is moderate and disagreement warns of model uncertainty.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Ensembles cost more and shared data can produce shared mistakes.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

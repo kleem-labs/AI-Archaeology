@@ -2,51 +2,37 @@
 
 [Previous: Excavation 112](../112-causal-inference/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** What would have happened to this same patient under a treatment they did not receive?
-
-> **Try your first idea:** Compare them with any untreated person.
-
-> **Now try to break your idea:** Differences in age and illness confound the comparison.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 What would have happened to this same patient under a treatment they did not receive?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Compare them with any untreated person.
+*Your first move:* Compare them with any untreated person.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Differences in age and illness confound the comparison.
+*The case that breaks it:* Differences in age and illness confound the comparison.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Construct a comparable alternative world using causal assumptions and matched evidence.
+*Your repair:* Construct a comparable alternative world using causal assumptions and matched evidence.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Construct a comparable alternative world using causal assumptions and matched evidence.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Compare patients with the same relevant history except treatment, then estimate the missing outcome.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 The individual counterfactual is never directly observed.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

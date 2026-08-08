@@ -1,49 +1,42 @@
 # Excavation 036 — Tokenization: What Can a Language Model See?
 
+> **PART IV — BUILDING A TINY GPT**
+>
+> You have built a learner. Now place language in its hands and discover every mechanism required to make one token predict another.
+
+
 [Previous: A Tiny Neural Network](../035-tiny-neural-network/README.md)
-
-
-## Take the First Step Yourself
-
-> **Your problem:** Our network accepts numbers, but people produce an open stream of words, punctuation, names, code, and writing systems. Before learning language, the machine needs repeatable input pieces.
-
-> **Try your first idea:** Give every complete word one ID. Spaces appear to provide the boundaries.
-
-> **Now try to break your idea:** Find the smallest case where it loses information, invents a false relationship, leaks an answer, or cannot scale. Write the properties a repair must have—but do not name the repair yet.
-
-> Stop here. Write your repair in ordinary language. Do not continue until you can say what information must survive and what operation the failure forces.
-
-## Problem
 
 Our network accepts numbers, but people produce an open stream of words, punctuation, names, code, and writing systems. Before learning language, the machine needs repeatable input pieces.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Give every complete word one ID. Spaces appear to provide the boundaries.
+*Your first move:* Give every complete word one ID. Spaces appear to provide the boundaries.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Do not reject your idea because the book says it is wrong. Test what you just proposed:
+*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
 
 > Give every complete word one ID. Spaces appear to provide the boundaries.
 
 Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Use characters. Any new spelling can now be represented.
+*Your repair:* Use characters. Any new spelling can now be represented.
+
+Only after that reasoning may we give your discovery its inherited name.
+
+Begin with universally representable pieces. Count adjacent pairs and repeatedly merge the pair that occurs most often. Frequent structure earns a reusable subword token; rare forms remain constructible from smaller pieces.
 
 ## Why It Still Fails
 
 Common words become long sequences and the model must reconstruct recurring fragments such as ing repeatedly. Words are too large; characters are often too small.
 
-## What You Have Just Invented
+## Compress your discovery into mathematics
 
-Begin with universally representable pieces. Count adjacent pairs and repeatedly merge the pair that occurs most often. Frequent structure earns a reusable subword token; rare forms remain constructible from smaller pieces.
 
-## Only Now Give the Discovery a Mathematical Name
-
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 In low, lower, lowest, pair l-o appears three times, more than e-r once. Counting selects l-o; merging creates lo. Recounting can then select lo-w and create reusable low.
 
@@ -67,8 +60,7 @@ $$
 (a^*,b^*)=\operatorname*{arg\,max}_{(a,b)}c(a,b)
 $$
 
-
-## Real-World Analogy
+## Carry the idea back into the world
 
 Early readers sound out letters. With experience they recognize recurring fragments and whole familiar words while retaining the ability to sound out something new.
 
@@ -80,11 +72,11 @@ For low, lower, and lowest, the pair l-o repeats three times. Merge it into lo. 
 
 Tokenization chooses pieces, not meanings. IDs remain arbitrary, and the chosen vocabulary affects sequence length, cost, multilingual coverage, and which patterns are easy to notice.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

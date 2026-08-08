@@ -2,53 +2,39 @@
 
 [Previous: Excavation 063](../063-multi-agent-coordination/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** An agent stops after twenty steps with a wrong result. The final answer does not reveal whether retrieval, planning, a tool, or verification failed.
-
-> **Try your first idea:** Log only the final response, or log every hidden detail without structure.
-
-> **Now try to break your idea:** The first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript.
-
-> Stop here. State what a repair must guarantee without using the chapter title.
-
-## The Observation
-
 An agent stops after twenty steps with a wrong result. The final answer does not reveal whether retrieval, planning, a tool, or verification failed.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Log only the final response, or log every hidden detail without structure.
+*Your first move:* Log only the final response, or log every hidden detail without structure.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-The first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript.
+*The case that breaks it:* The first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript.
 
 Name the missing guarantee before continuing.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.
+*Your repair:* Record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A trace shows retrieval returned an outdated policy, the planner accepted it, and verification checked format but not date. The repair can now target the real failure.
 
 No new equation is needed. The invention is a boundary, procedure, or system contract. Adding symbols would not make it more rigorous.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Logs describe what instrumentation captured. Missing fields, privacy limits, and misleading metrics still constrain diagnosis.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

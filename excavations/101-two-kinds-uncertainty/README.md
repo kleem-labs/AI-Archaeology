@@ -1,52 +1,43 @@
 # Excavation 101 — Two Kinds of Uncertainty
 
+> **PART X — LEARNING WHAT WE STILL DO NOT KNOW**
+>
+> The complete system now meets the frontier: ignorance, changing tasks, causal questions, proofs, attacks, and open-ended research.
+
+
 [Previous: Excavation 100](../100-complete-ai-system/README.md)
-
-## Take the First Step Yourself
-
-> **Your problem:** The model is unsure whether a blurry animal is a tiger. Is the image ambiguous, or has the model never seen this species?
-
-> **Try your first idea:** Represent every uncertainty with one low confidence number.
-
-> **Now try to break your idea:** A clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
 
 The model is unsure whether a blurry animal is a tiger. Is the image ambiguous, or has the model never seen this species?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Represent every uncertainty with one low confidence number.
+*Your first move:* Represent every uncertainty with one low confidence number.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-A clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
+*The case that breaks it:* A clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Separate uncertainty in the observation from uncertainty in the model’s knowledge.
+*Your repair:* Separate uncertainty in the observation from uncertainty in the model’s knowledge.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Separate uncertainty in the observation from uncertainty in the model’s knowledge.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A foggy known tiger remains ambiguous even for an expert; a clear pangolin confuses a tiger-only learner for a different reason.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 The two sources interact and are difficult to estimate perfectly.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

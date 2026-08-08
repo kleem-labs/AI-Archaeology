@@ -2,43 +2,29 @@
 
 [Previous: Excavation 118](../118-knowledge-graphs/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** How can each node learn from a variable number of neighbors?
-
-> **Try your first idea:** Assign a fixed input slot to every possible neighbor.
-
-> **Now try to break your idea:** Graphs vary in size and neighbor order should not change meaning.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 How can each node learn from a variable number of neighbors?
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Assign a fixed input slot to every possible neighbor.
+*Your first move:* Assign a fixed input slot to every possible neighbor.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Graphs vary in size and neighbor order should not change meaning.
+*The case that breaks it:* Graphs vary in size and neighbor order should not change meaning.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Apply the same message rule to each edge and aggregate neighbor messages without depending on order.
+*Your repair:* Apply the same message rule to each edge and aggregate neighbor messages without depending on order.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Apply the same message rule to each edge and aggregate neighbor messages without depending on order.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A molecule atom receives messages from bonded atoms, sums them, then updates its representation.
 
 The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
 
-## Build Every Piece from the Concrete Example
+## Build each piece from what just happened
 
 - Node v keeps its current representation.
 - Every neighbor u sends a message computed by the same rule.
@@ -51,15 +37,15 @@ $$
 h_v^\prime=U\left(h_v,\sum_{u\in N(v)}M(h_v,h_u)\right)
 $$
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Repeated aggregation can blur distinct nodes.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

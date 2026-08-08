@@ -1,52 +1,43 @@
 # Excavation 066 — Feedback Loops
 
+> **PART VII — LEARNING AFTER DEPLOYMENT**
+>
+> The laboratory door opens onto a changing world. Now the system influences the very evidence from which it learns.
+
+
 [Previous: Excavation 065](../065-bounded-autonomy/README.md)
-
-## Take the First Step Yourself
-
-> **Your problem:** Recommendations change what users see, and those changed choices become tomorrow’s training data.
-
-> **Try your first idea:** Treat every click as independent evidence of natural preference.
-
-> **Now try to break your idea:** Show one song repeatedly; its extra clicks now appear to prove it deserved repetition.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
 
 Recommendations change what users see, and those changed choices become tomorrow’s training data.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Treat every click as independent evidence of natural preference.
+*Your first move:* Treat every click as independent evidence of natural preference.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Show one song repeatedly; its extra clicks now appear to prove it deserved repetition.
+*The case that breaks it:* Show one song repeatedly; its extra clicks now appear to prove it deserved repetition.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Record how the system influenced each observation and evaluate outcomes against a control or exploration policy.
+*Your repair:* Record how the system influenced each observation and evaluate outcomes against a control or exploration policy.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Record how the system influenced each observation and evaluate outcomes against a control or exploration policy.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 Two equal songs begin with ten listeners each. The agent promotes A to ninety more people; A receives more clicks because it received more chances, not necessarily because it was better.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Feedback can create self-fulfilling popularity and erase unexposed alternatives.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)

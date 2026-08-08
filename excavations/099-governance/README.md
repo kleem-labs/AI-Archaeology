@@ -2,51 +2,37 @@
 
 [Previous: Excavation 098](../098-red-teaming/README.md)
 
-## Take the First Step Yourself
-
-> **Your problem:** A technically safe model still affects people through deployment choices.
-
-> **Try your first idea:** Let builders decide every acceptable use because they understand the system.
-
-> **Now try to break your idea:** Affected users carry risks without authority, appeal, or visibility.
-
-> Stop here. State the missing requirement without naming the repair.
-
-## The Observation
-
 A technically safe model still affects people through deployment choices.
 
-## Your First Attempt
+Pause here. You do not know the accepted method yet. What would you try?
 
-Let builders decide every acceptable use because they understand the system.
+*Your first move:* Let builders decide every acceptable use because they understand the system.
 
-## Break Your First Attempt
+It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
 
-Affected users carry risks without authority, appeal, or visibility.
+*The case that breaks it:* Affected users carry risks without authority, appeal, or visibility.
 
-## Repair Your Attempt
+Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
 
-Define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
+*Your repair:* Define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
 
-## What You Have Just Invented
+Only after that reasoning may we give your discovery its inherited name.
 
-**Define ownership, review, documentation, incident response, user recourse, and deployment boundaries.**
-
-## Rebuild the Discovery with a Concrete Case
+## Now work a case you can see
 
 A lending model requires documented data, subgroup evaluation, human appeal, and a named owner before launch.
 
 The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
 
-## Real-World Limit
+## Where your new idea still breaks
 
 Governance can become paperwork unless tied to real authority and enforcement.
 
-## Implementation
+## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
-## Exercises and Connections
+## Carry the discovery forward
 
 - [Invention challenges](exercises.md)
 - [Mistakes](mistakes.md)
