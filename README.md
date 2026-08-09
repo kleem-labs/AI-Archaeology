@@ -7,10 +7,14 @@ then break and rebuild the idea in the [Laboratory](LABORATORY.md). The
 [completion standard](BOOK_AND_LAB_STANDARD.md) defines what “finished” means;
 file presence alone is not completion.
 
-Read it as a book through the [ten-part reading path](PARTS.md). Work with it
+Read it as a book through the [eleven-part reading path](PARTS.md). Work with it
 as a laboratory through the [field-lab protocol](labs/README.md). The
 [completion status](COMPLETION_STATUS.md) distinguishes finished depth from
 scaffolding still waiting to be excavated.
+
+After deriving an idea in its chapter, revisit it in the
+[Mathematical Gist](MATHEMATICAL_GIST.md): one ordered mathematical spine that
+keeps the concrete explanation of every term beside the equation it produced.
 
 This book does not begin with formulas. It begins with a person facing reality without inherited mathematics.
 
