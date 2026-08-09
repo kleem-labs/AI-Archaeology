@@ -42,4 +42,6 @@ Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
 
 ## Next Need
 
-The system can conduct bounded research. The next excavation must be forced by the new observations that research creates.
+The system can conduct bounded research, but it still needs to turn curiosity into a claim that evidence could defeat.
+
+[Next: Hypotheses](../126-hypothesis-generation/README.md)

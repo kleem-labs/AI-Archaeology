@@ -60,7 +60,7 @@ Softmax does not discover relevance. It converts already-computed relevance scor
 Only now can we compress that reasoning:
 
 $$
-\operatorname{softmax}(s_i)=\frac{e^{s_i}}{\sum_j e^{s_j}}
+\mathrm{softmax}(s_i)=\frac{e^{s_i}}{\sum_j e^{s_j}}
 $$
 
 

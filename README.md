@@ -153,6 +153,32 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 124 | [Adversarial Robustness](excavations/124-adversarial-robustness/README.md) | A tiny input change invisible to a person flips the model’s decision. |
 | 125 | [An Open-Ended Research System](excavations/125-open-ended-research-system/README.md) | How can a system keep discovering without silently rewriting its goals or safety boundaries? |
 
+| 126 | [Hypotheses — Turning Curiosity into a Testable Claim](excavations/126-hypothesis-generation/README.md) | The research system notices that longer context sometimes helps. What exactly should it test? |
+| 127 | [Experimental Design — Changing One Cause at a Time](excavations/127-experimental-design/README.md) | A new tokenizer and a larger model improve accuracy together. Which change helped? |
+| 128 | [Reproducibility — Can the Discovery Survive Another Run?](excavations/128-reproducibility/README.md) | One training run beats the baseline. Has the system discovered an improvement? |
+| 129 | [Benchmarks — Building a Ruler Before Measuring Progress](excavations/129-benchmarks/README.md) | Every team says its model is better, but each chooses different tasks. |
+| 130 | [Data Contamination — When the Test Was Secretly Homework](excavations/130-data-contamination/README.md) | A model scores perfectly on a benchmark. Did it generalize? |
+| 131 | [Synthetic Data — Letting a Model Write Lessons](excavations/131-synthetic-data/README.md) | Human examples are scarce. Can a model manufacture training data? |
+| 132 | [Knowledge Distillation — Teaching a Smaller Student](excavations/132-knowledge-distillation/README.md) | A capable model is too expensive to deploy on a phone. |
+| 133 | [Mixture of Experts — Spending Computation Where It Helps](excavations/133-mixture-of-experts/README.md) | Making every layer wider improves capacity but charges every token the full cost. |
+| 134 | [Sparse Attention — Looking Without Comparing Everything](excavations/134-sparse-attention/README.md) | Long context makes every token compare with every other token. |
+| 135 | [External Memory — Remembering Beyond the Context Window](excavations/135-external-memory/README.md) | An agent must remember a project after the current prompt disappears. |
+| 136 | [Long-Context Retrieval — Finding the One Clue That Matters](excavations/136-long-context-retrieval/README.md) | A million-token archive fits, but the model still overlooks one decisive sentence. |
+| 137 | [Test-Time Compute — Thinking Longer on Harder Problems](excavations/137-test-time-compute/README.md) | One fixed forward pass treats an easy lookup and a hard proof as equal work. |
+| 138 | [Search and Verification — Separate Proposing from Checking](excavations/138-search-and-verification/README.md) | The first proposed solution to a puzzle is plausible but wrong. |
+| 139 | [Process Supervision — Rewarding the Path, Not Only the Answer](excavations/139-process-supervision/README.md) | Two solutions reach the correct number; one used invalid reasoning by luck. |
+| 140 | [Reward Hacking — When the Score Replaces the Goal](excavations/140-reward-hacking/README.md) | An agent receives points for keeping a room clean. |
+| 141 | [Specification Gaming — Obeying the Words While Betraying the Purpose](excavations/141-specification-gaming/README.md) | A delivery agent is told to minimize average arrival time. |
+| 142 | [Corrigibility — Remaining Willing to Be Corrected](excavations/142-corrigibility/README.md) | A capable agent expects an operator to stop its current plan. |
+| 143 | [Uncertainty-Aware Planning — Choosing While Admitting Ignorance](excavations/143-uncertainty-aware-planning/README.md) | The shortest route crosses a bridge whose condition is unknown. |
+| 144 | [Impact Measures — Notice What Changed Besides the Goal](excavations/144-impact-measures/README.md) | A cleaning robot succeeds but rearranges the entire house. |
+| 145 | [Human Oversight — Put Judgment at the Irreversible Edge](excavations/145-human-oversight/README.md) | An agent can draft and send a legal filing in seconds. |
+| 146 | [Scalable Oversight — Reviewing Work Too Large for One Person](excavations/146-scalable-oversight/README.md) | A model produces a million-line migration no reviewer can inspect completely. |
+| 147 | [Debate — Let Claims Meet an Adversary](excavations/147-debate/README.md) | A persuasive answer hides one weak assumption in a long argument. |
+| 148 | [Constitutional Guidance — Rules That Can Critique Answers](excavations/148-constitutional-guidance/README.md) | Thousands of preferences cannot cover every new situation. |
+| 149 | [Pre-Deployment Evaluations — Fail Before the World Pays](excavations/149-predeployment-evaluations/README.md) | A model passes ordinary tests and is about to receive real tools. |
+| 150 | [A Bounded Self-Improving System — Close the Research Loop](excavations/150-bounded-self-improvement/README.md) | Can a system improve its own components without quietly expanding its power or rewriting success? |
+
 ## A note on style
 
 The questions and discoveries that shaped the original conversation are part of the argument, not side anecdotes: “How many tigers?”, “Where are they?”, comparing like attributes, squaring and rooting differences, distinguishing relevance from similarity, multiplying aligned features, and letting each expert contribute knowledge from its domain.

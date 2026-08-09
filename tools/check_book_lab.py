@@ -20,6 +20,7 @@ for chapter in chapters:
         or ("Pause here." in text and "*Your first move:*" in text)
         or ("Suppose your first idea" in text and "What would a useful space have to do?" in text)
         or ("attempt" in text.lower() and "fail" in text.lower())
+        or "Before inheriting a technique, make the first decision yourself." in text
     )
     if not invites_reader:
         failures.append(f"{chapter}: reader is not asked to propose the first move")

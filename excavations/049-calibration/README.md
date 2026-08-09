@@ -31,7 +31,7 @@ Each group contains predictions with similar confidence. Accuracy counts how man
 Only now can we compress the exact procedure:
 
 $$
-\operatorname{ECE}=\sum_b\frac{|B_b|}{n}\left|\operatorname{accuracy}(B_b)-\operatorname{confidence}(B_b)\right|
+\mathrm{ECE}=\sum_b\frac{|B_b|}{n}\left|\mathrm{accuracy}(B_b)-\mathrm{confidence}(B_b)\right|
 $$
 
 ## Where your new idea still breaks

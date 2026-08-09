@@ -47,7 +47,7 @@ Every operation records a need established above; the equation is the fossil, no
 Only now can we compress that reasoning:
 
 $$
-\operatorname{Var}(w)\approx\frac{1}{n_{\text{in}}}
+\mathrm{Var}(w)\approx\frac{1}{n_{\text{in}}}
 $$
 
 ## Carry the idea back into the world

@@ -36,7 +36,7 @@ The token count divides total surprise so longer sentences are comparable. Negat
 Only now can we compress the exact procedure:
 
 $$
-\operatorname{PPL}=\exp\left(-\frac{1}{n}\sum_{i=1}^{n}\log p(t_i\mid t_{<i})\right)
+\mathrm{PPL}=\exp\left(-\frac{1}{n}\sum_{i=1}^{n}\log p(t_i\mid t_{<i})\right)
 $$
 
 ## Where your new idea still breaks

@@ -12,8 +12,14 @@ for chapter in sorted((root / "excavations").glob("*/README.md")):
         # These opening chapters are deliberately bespoke prose. Their causal
         # flow is an editorial reading check, not a heading/keyword check.
         required = ()
-    else:
+    elif number < 126:
         required = ("Pause here.", "*Your first move:*", "*The case that breaks it:*", "*Your repair:*")
+    else:
+        required = (
+            "Before inheriting a technique, make the first decision yourself.",
+            "Then reality supplies the case it cannot explain:",
+            "The failure tells you what the repair must accomplish.",
+        )
     for marker in required:
         if marker not in text:
             failures.append(f"{chapter}: missing reader-led discovery marker {marker}")

@@ -15,6 +15,7 @@ part below ends where a new kind of failure makes the next part necessary.
 | VIII — Seeing and Creating | 076–085 | How do the same discoveries reach images and generative models? |
 | IX — Acting and Scaling | 086–100 | How do rewards, modalities, infrastructure, and governance meet? |
 | X — Learning What We Still Do Not Know | 101–125 | How can a system adapt, reason, verify, and research without losing control? |
+| XI — Earning the Right to Improve | 126–150 | How can proposed improvements survive experiments, adversaries, oversight, and rollback? |
 
 Start with [Excavation 000](excavations/000-before-mathematics-existed/README.md),
 but do not rush to “finish chapters.” Stop whenever a failed attempt surprises

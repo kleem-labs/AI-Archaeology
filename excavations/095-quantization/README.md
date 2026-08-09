@@ -34,7 +34,7 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 Only now can we compress the procedure:
 
 $$
-q=\operatorname{round}(w/s),\qquad \widehat w=sq
+q=\mathrm{round}(w/s),\qquad \widehat w=sq
 $$
 
 ## Where your new idea still breaks

@@ -9,6 +9,7 @@ Run every dependency-free experiment:
 python3 -m unittest discover -s tests -v
 python3 tools/check_guided_discovery.py
 python3 tools/check_equation_explanations.py
+python3 tools/check_latex_portability.py
 python3 tools/check_book_lab.py
 ~~~
 
@@ -25,4 +26,3 @@ python3 tools/check_book_lab.py
 Each lab prints intermediate values and contains assertions for the failure it
 was designed to expose. Read the linked excavation first; the lab is evidence,
 not a substitute for the narrative.
-

@@ -53,8 +53,8 @@ The phrase “feed-forward” can sound like the entire model. Here it means the
 Only now can we compress that reasoning:
 
 $$
-\operatorname{FFN}(\mathbf{x})
-=W_2\,\sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2
+\mathrm{FFN}(\mathbf{x})
+=W_2 \sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2
 $$
 
 

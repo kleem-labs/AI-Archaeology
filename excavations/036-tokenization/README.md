@@ -57,7 +57,7 @@ c(a,b)=\text{number of adjacent occurrences of }(a,b)
 $$
 
 $$
-(a^*,b^*)=\operatorname*{arg\,max}_{(a,b)}c(a,b)
+(a^*,b^*)=\underset{(a,b)}{\mathrm{arg\,max}}\;c(a,b)
 $$
 
 ## Carry the idea back into the world

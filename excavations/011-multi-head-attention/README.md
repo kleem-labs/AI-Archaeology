@@ -60,8 +60,8 @@ The analogy has limits. Heads do not always become clean, human-readable profess
 Only now can we compress that reasoning:
 
 $$
-\operatorname{MultiHead}(X)
-=\operatorname{Concat}(\text{head}_1,\ldots,\text{head}_H)W_O
+\mathrm{MultiHead}(X)
+=\mathrm{Concat}(\text{head}_1,\ldots,\text{head}_H)W_O
 $$
 
 

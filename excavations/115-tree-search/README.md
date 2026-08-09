@@ -34,7 +34,7 @@ The named objects come first. We add notation only when it shortens a procedure 
 Only now can we compress the procedure:
 
 $$
-\operatorname{score}(a)=\overline R_a+c\sqrt{\frac{\log N}{n_a}}
+\mathrm{score}(a)=\overline R_a+c\sqrt{\frac{\log N}{n_a}}
 $$
 
 ## Where your new idea still breaks

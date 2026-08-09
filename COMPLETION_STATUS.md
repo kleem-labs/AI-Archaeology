@@ -4,7 +4,7 @@ This page prevents a large repository from looking more finished than it is.
 
 ## What is genuinely in place
 
-- 126 linked excavations with the observation → attempt → failure → discovery discipline.
+- 151 linked excavations with the observation → attempt → failure → discovery discipline.
 - Companions beside every relevant chapter: mistakes, diagrams, exercises, references, and three implementation stages.
 - Automated checks for guided discovery and equations introduced only after their concrete pieces.
 - 35 passing behavior tests.
