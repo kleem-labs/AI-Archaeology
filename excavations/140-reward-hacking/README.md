@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Every finite set of checks leaves behavior outside the measurement boundary.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The boundary follows from the mechanism itself. We designed it to Treat reward as imperfect evidence, monitor side effects, use multiple checks, and test adversarial strategies. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

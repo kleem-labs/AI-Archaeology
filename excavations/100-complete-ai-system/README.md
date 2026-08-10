@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 No architecture completes intelligence forever; every deployment creates new observations and new responsibilities.
 
+The boundary follows from the mechanism itself. We designed it to Build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

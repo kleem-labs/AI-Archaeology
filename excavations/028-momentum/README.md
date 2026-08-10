@@ -6,15 +6,12 @@ Mini-batch gradients wobble. One batch points left-down, the next right-down, al
 
 At first, the simplest answer is tempting: Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
 
-But the simplicity has discarded something important: Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
-
 The missing information determines the next move: Keep a fading memory of past gradients and combine it with the new one.
 
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but momentum can overshoot, and its extra memory introduces another setting. It does not repair a fundamentally bad loss or dataset.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

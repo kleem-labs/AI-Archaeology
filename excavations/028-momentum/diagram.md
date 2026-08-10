@@ -4,12 +4,12 @@ The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart LR
-    A["Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every…"] -->|"test"| B["Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every…"]
+    A["Obey only the newest gradient."] -->|"test"| B["Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient…"]
     B -->|"forces"| C["Keep a fading memory of past gradients and combine it with the new one."]
 ```
 
 ```text
-TRY     Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every…
-BREAK   Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every…
+TRY     Obey only the newest gradient.
+BREAK   Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient…
 REPAIR  Keep a fading memory of past gradients and combine it with the new one.
 ```

@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Model errors compound during long imagined rollouts.
 
+The repair is explicit: learn a compact model that predicts next state and reward from current state and action. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

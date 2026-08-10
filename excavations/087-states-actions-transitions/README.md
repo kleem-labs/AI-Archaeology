@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 A state representation may omit information needed for future decisions.
 
+This is not an unrelated warning. The construction can record current state, chosen action, reward, and resulting state. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

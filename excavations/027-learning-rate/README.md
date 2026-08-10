@@ -6,15 +6,12 @@ The gradient points downhill, but it does not say how far to walk. A correct dir
 
 Without knowing the inherited method, we might try this: Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
 
-Its hidden assumption appears in the following case: Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
-
 Remove that assumption and the needed repair becomes clear: Multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
 
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but no single learning rate is best throughout training. Scale, curvature, batch noise, and parameter units all matter.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

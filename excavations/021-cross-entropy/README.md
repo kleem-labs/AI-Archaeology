@@ -6,16 +6,11 @@ A model predicts tiger 90% and deer 10%, but a deer appears. We need a loss that
 
 A reasonable place to begin is: Use zero for correct and one for wrong. It treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
 
-Now place that proposal under pressure: Cross-entropy judges probabilities, so the model outputs must form a valid distribution. It tells us the error but not yet how each weight caused it.
-
 What broke tells us what the replacement must preserve: Charge the information cost assigned by the predicted distribution to the outcome that actually occurred.
 
-## Why It Still Fails
+## From procedure to notation
 
-The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
-
-## Compress your discovery into mathematics
-
+The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
 ## Build each piece from what just happened
 
@@ -44,6 +39,8 @@ A bad map that assigns almost no chance to the road you actually encounter deser
 ## Limits
 
 Cross-entropy judges probabilities, so the model outputs must form a valid distribution. It tells us the error but not yet how each weight caused it.
+
+The repair is explicit: charge the information cost assigned by the predicted distribution to the outcome that actually occurred. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

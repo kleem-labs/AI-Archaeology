@@ -20,6 +20,8 @@ No new equation is needed here. The invention is a procedure and a separation of
 
 Every evaluation is a model of future use. Benchmarks can leak into training and become targets rather than measurements.
 
+This is not an unrelated warning. The construction can name the intended job, create separate tests for its required abilities and risks, and inspect real failures rather than averaging them away. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

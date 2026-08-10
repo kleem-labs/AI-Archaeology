@@ -6,15 +6,12 @@ The Transformer produces one contextual vector per position. A vector is not yet
 
 A reasonable place to begin is: Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
 
-Now place that proposal under pressure: Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
-
 What broke tells us what the replacement must preserve: Use a learned linear map to produce one raw score for every vocabulary item.
 
-## Why It Still Fails
+## From procedure to notation
 
 Logits have no standalone probability meaning and can shift together without changing the final distribution.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

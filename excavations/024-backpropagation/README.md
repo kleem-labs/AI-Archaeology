@@ -6,16 +6,11 @@ A network has millions of weights and shared intermediate results. The chain rul
 
 Our first construction is deliberately modest: Perturb each weight and rerun the model. This needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
 
-It works—right up to this boundary: Backpropagation computes gradients; it does not choose the update size or guarantee a good minimum.
+The cost of that attempt points to the missing operation: Compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
 
-Crossing that boundary requires one additional idea: Compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
+## From procedure to notation
 
-## Why It Still Fails
-
-The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
-
-## Compress your discovery into mathematics
-
+The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
 ## Build each piece from what just happened
 
@@ -44,7 +39,7 @@ A company traces one final loss through departments. Each department receives ac
 
 ## Limits
 
-Backpropagation computes gradients; it does not choose the update size or guarantee a good minimum.
+Backpropagation returns a local sensitivity for each weight: which infinitesimal direction would raise the loss, and how strongly. That information contains no instruction saying whether to take the whole suggested movement, one tenth of it, or one thousandth; choosing that fraction is a separate optimization decision. Nor does a local slope reveal the entire loss landscape. A downward direction from the present point cannot prove that a deeper valley does not exist elsewhere, so backpropagation alone cannot guarantee the best minimum.
 
 ## Enter the laboratory
 

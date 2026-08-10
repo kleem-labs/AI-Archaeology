@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Human labels may not match the model’s internal abstractions.
 
+The repair is explicit: treat representations as distributed directions and test them across varied examples. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

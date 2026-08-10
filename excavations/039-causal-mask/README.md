@@ -6,15 +6,12 @@ During next-token training the whole sentence is available. Without a barrier, t
 
 Our first construction is deliberately modest: Train each prefix in a separate forward pass. It prevents cheating but repeats nearly identical work.
 
-It works—right up to this boundary: Train each prefix in a separate forward pass. It prevents cheating but repeats nearly identical work.
+The cost of that attempt points to the missing operation: Process all positions together while blocking attention from position i to every later position j.
 
-Crossing that boundary requires one additional idea: Process all positions together while blocking attention from position i to every later position j.
-
-## Why It Still Fails
+## From procedure to notation
 
 A mask prevents direct attention leakage; shifted targets and data pipelines must also align correctly.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

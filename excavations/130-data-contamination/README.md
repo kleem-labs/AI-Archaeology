@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 No detector can prove absence from an unknown corpus.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The boundary follows from the mechanism itself. We designed it to Track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

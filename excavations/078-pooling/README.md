@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Pooling discards exact location and can erase subtle patterns.
 
+The reason is visible in the procedure. It knows how to summarize small neighborhoods while retaining the strongest or average evidence. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

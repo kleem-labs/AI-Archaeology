@@ -20,6 +20,8 @@ No new equation is needed. The invention is a boundary, procedure, or system con
 
 Remembered facts can become stale or wrong. Memory needs consent, provenance, expiration, correction, and deletion.
 
+Why does the boundary remain? Our new machinery only knows how to separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

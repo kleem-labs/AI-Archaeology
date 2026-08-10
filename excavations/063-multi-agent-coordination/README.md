@@ -20,6 +20,8 @@ No new equation is needed. The invention is a boundary, procedure, or system con
 
 Parallel agents amplify both capability and error. Shared resources, authority, and termination require careful control.
 
+The reason is visible in the procedure. It knows how to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

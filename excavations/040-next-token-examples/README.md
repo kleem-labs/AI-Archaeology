@@ -6,15 +6,12 @@ We have tokens, positions, and a causal boundary. The model still needs explicit
 
 The first solution that suggests itself is this: Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
 
-The idea survives only until we test it against reality: Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
-
 The failure gives us a precise requirement: Shift the sequence by one position so every visible prefix predicts the token immediately following it.
 
-## Why It Still Fails
+## From procedure to notation
 
 Padding and document boundaries can create false targets unless their losses are masked.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

@@ -28,6 +28,8 @@ $$
 
 A fitted trend applies within observed regimes. Data quality, architecture changes, and new bottlenecks can bend it.
 
+The repair is explicit: run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

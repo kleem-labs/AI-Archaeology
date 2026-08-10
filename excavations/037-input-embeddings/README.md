@@ -16,8 +16,6 @@ Nothing except “look in slot 417.”
 
 Without knowing the inherited method, we might try this: Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
 
-Its hidden assumption appears in the following case: arbitrary numbering invents false magnitude and distance.
-
 Remove that assumption and the needed repair becomes clear: Give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. ~~~text lion → [1, 0, 0, 0] tiger → [0, 1, 0, 0] river → [0, 0, 1, 0] ~~~ Now IDs no longer pretend to contain magnitude.
 
 Create a table with one learnable vector per token. A token ID selects a row. Training moves that row whenever changing the token's representation would reduce prediction loss.
@@ -28,13 +26,12 @@ token ID → choose one row → dense vector
 
 The ID remains an address. The selected row becomes the representation.
 
-## Why It Still Fails
+## From procedure to notation
 
 A vocabulary of 50,000 tokens produces 50,000-dimensional vectors containing 49,999 zeros. Every distinct pair is equally distant. We preserved identity but learned no relationship.
 
 The network needs a compact set of coordinates whose positions can change when prediction errors reveal useful relationships.
 
-## Compress your discovery into mathematics
 
 Let the embedding table contain one row for each vocabulary item:
 

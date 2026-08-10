@@ -4,12 +4,12 @@ The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart LR
-    B["Divide each logit by their sum. Negative values break probability and shifting all scores…"] --> A["Reject: Divide each logit by their sum. Negative values break probability and shifting all scores…"]
+    B["Negative values break probability and shifting all scores changes the result."] --> A["Reject: Divide each logit by their sum."]
     B --> C["Keep: Exponentiate relative scores, normalize them, then charge the negative log probability of…"]
 ```
 
 ```text
-TRY     Divide each logit by their sum. Negative values break probability and shifting all scores…
-BREAK   Divide each logit by their sum. Negative values break probability and shifting all scores…
+TRY     Divide each logit by their sum.
+BREAK   Negative values break probability and shifting all scores changes the result.
 REPAIR  Exponentiate relative scores, normalize them, then charge the negative log probability of…
 ```

@@ -6,15 +6,12 @@ We stack many learned transformations, expecting deeper reasoning. If every laye
 
 The first solution that suggests itself is this: Add more linear layers. Depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
 
-The idea survives only until we test it against reality: Add more linear layers. Depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
-
 The failure gives us a precise requirement: Place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.
 
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but every activation has tradeoffs: dead ReLUs, saturation, computational cost, or assumptions about input scale.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

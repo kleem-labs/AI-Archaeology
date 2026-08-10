@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Fast adaptation also creates fast corruption.
 
+This is not an unrelated warning. The construction can update from controlled batches with validation, rollback, and limits on how quickly behavior may change. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

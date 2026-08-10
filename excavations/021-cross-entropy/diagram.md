@@ -4,12 +4,12 @@ The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart TD
-    A["Use zero for correct and one for wrong. It treats barely wrong and confidently wrong as…"] --> B["Reality: Cross-entropy judges probabilities, so the model outputs must form a valid distribution. It…"]
+    A["Use zero for correct and one for wrong."] --> B["Reality: It treats barely wrong and confidently wrong as equal. Use ordinary distance between…"]
     B -. "missing requirement" .-> C["Charge the information cost assigned by the predicted distribution to the outcome that…"]
 ```
 
 ```text
-TRY     Use zero for correct and one for wrong. It treats barely wrong and confidently wrong as…
-BREAK   Cross-entropy judges probabilities, so the model outputs must form a valid distribution. It…
+TRY     Use zero for correct and one for wrong.
+BREAK   It treats barely wrong and confidently wrong as equal. Use ordinary distance between…
 REPAIR  Charge the information cost assigned by the predicted distribution to the outcome that…
 ```

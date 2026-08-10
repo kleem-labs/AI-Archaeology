@@ -4,12 +4,12 @@ The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart TD
-    A["Choose the most common cause and declare certainty. This works until the rare tiger…"] --> B["Reality: Probabilities depend on evidence and assumptions. When new evidence arrives, the shares…"]
+    A["Choose the most common cause and declare certainty."] --> B["Reality: This works until the rare tiger arrives. Refusing to decide is safer intellectually but…"]
     B -. "missing requirement" .-> C["Keep every plausible outcome and give each a share of belief. Count comparable past…"]
 ```
 
 ```text
-TRY     Choose the most common cause and declare certainty. This works until the rare tiger…
-BREAK   Probabilities depend on evidence and assumptions. When new evidence arrives, the shares…
+TRY     Choose the most common cause and declare certainty.
+BREAK   This works until the rare tiger arrives. Refusing to decide is safer intellectually but…
 REPAIR  Keep every plausible outcome and give each a share of belief. Count comparable past…
 ```

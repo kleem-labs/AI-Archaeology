@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Pairs can contain weak, biased, or incomplete descriptions.
 
+The repair is explicit: use separate encoders and train paired image-text examples to become nearby. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

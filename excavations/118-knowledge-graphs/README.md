@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Graphs can be incomplete, stale, and uncertain.
 
+The reason is visible in the procedure. It knows how to represent entities as nodes and named relations as edges. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

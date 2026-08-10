@@ -28,6 +28,8 @@ $$
 
 Calibration depends on task and population. A model calibrated overall can be unreliable for an important subgroup.
 
+Why does the boundary remain? Our new machinery only knows how to group predictions with similar confidence and compare their average stated confidence with the fraction actually correct. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

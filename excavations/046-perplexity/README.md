@@ -33,6 +33,8 @@ $$
 
 Lower perplexity measures better next-token probability on this data, not truthfulness, usefulness, safety, or reasoning.
 
+The repair is explicit: score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

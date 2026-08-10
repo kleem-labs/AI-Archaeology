@@ -20,6 +20,8 @@ No new equation is needed here. The invention is a procedure and a separation of
 
 Instruction tuning teaches behavioral patterns from its examples; it does not guarantee truth, safety, or correct obedience to every request.
 
+This is not an unrelated warning. The construction can show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

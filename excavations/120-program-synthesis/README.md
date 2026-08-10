@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Finite examples rarely identify one unique intended program.
 
+The boundary follows from the mechanism itself. We designed it to Search or generate candidate programs, execute them, and keep those satisfying examples and constraints. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

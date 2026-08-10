@@ -25,6 +25,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Pixels depend on lighting, sensor, scale, and viewpoint.
 
+The repair is explicit: preserve local spatial arrangement and compare nearby color measurements. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

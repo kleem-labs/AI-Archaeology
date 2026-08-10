@@ -33,6 +33,7 @@ repairs = (
     "Remove that assumption and the needed repair becomes clear:",
     "The missing information determines the next move:",
     "Crossing that boundary requires one additional idea:",
+    "The cost of that attempt points to the missing operation:",
 )
 
 for readme in sorted((ROOT / "excavations").glob("*/README.md")):
@@ -56,6 +57,15 @@ for readme in sorted((ROOT / "excavations").glob("*/README.md")):
         sm = next((re.search(re.escape(s) + r"\s*(.+?)(?=\n\n)", text, re.S) for s in starts if s in text), None)
         fm = next((re.search(re.escape(s) + r"\s*(.+?)(?=\n\n)", text, re.S) for s in breaks if s in text), None)
         rm = next((re.search(re.escape(s) + r"\s*(.+?)(?=\n\n|\Z)", text, re.S) for s in repairs if s in text), None)
+        if sm and not fm and 17 <= number <= 45:
+            pieces = re.split(r"(?<=[.!?])\s+", compact(sm.group(1), 1000))
+            if len(pieces) >= 2:
+                attempt_text = pieces[0]
+                failure_text = " ".join(pieces[1:])
+                class MatchText:
+                    def __init__(self, value): self.value = value
+                    def group(self, _): return self.value
+                sm, fm = MatchText(attempt_text), MatchText(failure_text)
         if not (sm and fm and rm):
             continue
         attempt, failure, repair = compact(sm.group(1)), compact(fm.group(1)), compact(rm.group(1))

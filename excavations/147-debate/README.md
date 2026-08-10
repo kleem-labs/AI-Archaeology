@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Debaters may share blind spots or manipulate a weak judge.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+This is not an unrelated warning. The construction can give an opposing investigator equal access and reward exposing checkable disagreements for a judge. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

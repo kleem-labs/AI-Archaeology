@@ -25,6 +25,8 @@ No new equation is needed. The invention is a boundary, procedure, or system con
 
 Permission checks do not prove the chosen action is wise. They bound what can happen while judgment and verification remain separate.
 
+The repair is explicit: separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

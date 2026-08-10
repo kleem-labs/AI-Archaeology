@@ -4,12 +4,12 @@ The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart TD
-    A["Use training loss for every choice; it rewards memorization. Check the test set repeatedly;…"] --> B["Reality: Use training loss for every choice; it rewards memorization. Check the test set repeatedly;…"]
+    A["Use training loss for every choice; it rewards memorization."] --> B["Reality: Check the test set repeatedly; every decision leaks test information back into development."]
     B -. "missing requirement" .-> C["Split data by role: training changes weights, validation changes design decisions, and test…"]
 ```
 
 ```text
-TRY     Use training loss for every choice; it rewards memorization. Check the test set repeatedly;…
-BREAK   Use training loss for every choice; it rewards memorization. Check the test set repeatedly;…
+TRY     Use training loss for every choice; it rewards memorization.
+BREAK   Check the test set repeatedly; every decision leaks test information back into development.
 REPAIR  Split data by role: training changes weights, validation changes design decisions, and test…
 ```

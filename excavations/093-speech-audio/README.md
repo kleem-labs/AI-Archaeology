@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Spectrogram choices discard phase or fine timing.
 
+The reason is visible in the procedure. It knows how to transform short windows into time-frequency features, then model their sequence. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

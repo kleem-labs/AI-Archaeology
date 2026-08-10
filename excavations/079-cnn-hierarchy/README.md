@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 The hierarchy is learned, not guaranteed to match human parts.
 
+Why does the boundary remain? Our new machinery only knows how to stack local detectors so later layers combine earlier patterns over wider regions. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

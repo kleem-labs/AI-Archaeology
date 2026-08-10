@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Principles conflict and still require legitimate interpretation.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The reason is visible in the procedure. It knows how to write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

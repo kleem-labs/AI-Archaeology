@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Task distributions can be narrow and meta-learning can overfit them.
 
+The reason is visible in the procedure. It knows how to optimize prior parameters or an update rule so a few new examples produce useful adaptation. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

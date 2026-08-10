@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 The student also inherits the teacher's blind spots.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+This is not an unrelated warning. The construction can let the student imitate the teacher's probability pattern as well as the observed answer. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

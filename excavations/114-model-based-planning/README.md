@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Planning cost grows with horizon and branching.
 
+Why does the boundary remain? Our new machinery only knows how to simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

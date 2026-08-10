@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Not every statistical shift changes the decision that matters.
 
+The reason is visible in the procedure. It knows how to monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

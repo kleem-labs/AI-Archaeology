@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Updates can still leak information and devices are unreliable or biased.
 
+The reason is visible in the procedure. It knows how to send model updates to devices, train locally, aggregate protected updates, and return a shared model. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

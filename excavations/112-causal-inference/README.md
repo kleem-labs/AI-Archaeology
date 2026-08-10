@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Causal conclusions require assumptions not recoverable from correlations alone.
 
+This is not an unrelated warning. The construction can represent plausible causal structure and distinguish observing a variable from intervening on it. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

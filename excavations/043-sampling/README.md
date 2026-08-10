@@ -6,15 +6,12 @@ The model predicts several plausible next tokens. Taking only the highest probab
 
 At first, the simplest answer is tempting: Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
 
-But the simplicity has discarded something important: Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
-
 The missing information determines the next move: Control the distribution with temperature and optionally restrict it to a credible top set before sampling.
 
-## Why It Still Fails
+## From procedure to notation
 
 Sampling changes expression, not knowledge. No decoding rule can repair a model that assigned poor probabilities.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

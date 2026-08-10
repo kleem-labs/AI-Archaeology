@@ -20,6 +20,8 @@ No new equation is needed. The invention is a boundary, procedure, or system con
 
 Not every external operation supports idempotency. Agents need reconciliation and human escalation when outcome is ambiguous.
 
+This is not an unrelated warning. The construction can give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

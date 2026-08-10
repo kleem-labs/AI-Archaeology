@@ -20,6 +20,8 @@ No new equation is needed here. The invention is a procedure and a separation of
 
 Evidence reduces unsupported claims but sources can be wrong, stale, conflicting, or misread.
 
+The reason is visible in the procedure. It knows how to separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

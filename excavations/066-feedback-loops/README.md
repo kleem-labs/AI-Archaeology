@@ -25,6 +25,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Feedback can create self-fulfilling popularity and erase unexposed alternatives.
 
+The repair is explicit: record how the system influenced each observation and evaluate outcomes against a control or exploration policy. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

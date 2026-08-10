@@ -33,6 +33,8 @@ $$
 
 Convolution assumes useful locality and translation reuse.
 
+This is not an unrelated warning. The construction can slide one small learned filter across all positions and reuse its weights. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

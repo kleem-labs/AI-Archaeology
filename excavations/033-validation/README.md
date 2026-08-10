@@ -6,15 +6,12 @@ We need to choose model size, learning rate, and stopping time. Choosing them us
 
 At first, the simplest answer is tempting: Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
 
-But the simplicity has discarded something important: Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
-
 The missing information determines the next move: Split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
 
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but random splits fail when future, users, families, or duplicated records leak across boundaries. The split must match the real deployment question.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

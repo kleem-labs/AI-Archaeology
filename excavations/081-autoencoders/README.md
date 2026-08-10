@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Good reconstruction may preserve details irrelevant to downstream meaning.
 
+The repair is explicit: force information through a bottleneck and train reconstruction. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

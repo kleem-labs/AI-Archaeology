@@ -6,15 +6,12 @@ A model scores perfectly on every training example, then fails on a new animal s
 
 A reasonable place to begin is: Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
 
-Now place that proposal under pressure: Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
-
 What broke tells us what the replacement must preserve: Reserve unseen cases and compare training success with performance outside the training memory.
 
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but a gap diagnoses overfitting but does not identify its cause. Leakage, distribution shift, and noisy evaluation can mislead us.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

@@ -26,7 +26,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 A clean hypothesis can still test the wrong measurement.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The repair is explicit: state one predicted change, one intervention, one measurement, and one observation that would count against the claim. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

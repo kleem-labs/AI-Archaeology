@@ -33,6 +33,8 @@ $$
 
 Results depend on priors and likelihood assumptions.
 
+This is not an unrelated warning. The construction can combine prior plausibility with how expected the clue is under each story, then normalize across stories. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

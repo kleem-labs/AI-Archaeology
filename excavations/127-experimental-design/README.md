@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Perfect control in a laboratory may not represent deployment.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+This is not an unrelated warning. The construction can hold everything fixed except the suspected cause, and include a control that receives no intervention. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

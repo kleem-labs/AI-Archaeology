@@ -6,15 +6,12 @@ We have excavated features, transformations, nonlinear gates, loss, gradients, b
 
 The first solution that suggests itself is this: Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
 
-The idea survives only until we test it against reality: Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
-
 The failure gives us a precise requirement: Build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
 
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but a tiny network exposes mechanics but is not yet a language model. The next arc must turn sequences into a trained generative system.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

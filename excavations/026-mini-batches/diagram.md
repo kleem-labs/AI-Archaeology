@@ -4,12 +4,12 @@ The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart LR
-    B["Use one example per update. It is fast, but noisy accidents dominate. Use every observation…"] --> A["Reject: Use one example per update. It is fast, but noisy accidents dominate. Use every observation…"]
+    B["It is fast, but noisy accidents dominate. Use every observation before each update. It is…"] --> A["Reject: Use one example per update."]
     B --> C["Keep: Average the evidence from a small group. Each batch is large enough to soften accidents and…"]
 ```
 
 ```text
-TRY     Use one example per update. It is fast, but noisy accidents dominate. Use every observation…
-BREAK   Use one example per update. It is fast, but noisy accidents dominate. Use every observation…
+TRY     Use one example per update.
+BREAK   It is fast, but noisy accidents dominate. Use every observation before each update. It is…
 REPAIR  Average the evidence from a small group. Each batch is large enough to soften accidents and…
 ```

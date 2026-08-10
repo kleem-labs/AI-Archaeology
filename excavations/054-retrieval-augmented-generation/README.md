@@ -20,6 +20,8 @@ No new equation is needed here. The invention is a procedure and a separation of
 
 Retrieval can miss the right document or return misleading text. Generation must distinguish evidence from instructions embedded inside evidence.
 
+Why does the boundary remain? Our new machinery only knows how to search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

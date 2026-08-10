@@ -33,6 +33,8 @@ $$
 
 Repeated aggregation can blur distinct nodes.
 
+Why does the boundary remain? Our new machinery only knows how to apply the same message rule to each edge and aggregate neighbor messages without depending on order. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

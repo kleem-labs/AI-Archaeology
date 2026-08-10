@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Repeated agreement does not remove a shared bias in all runs.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The reason is visible in the procedure. It knows how to record code, data, configuration, environment, seeds, and variation across repeated runs. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

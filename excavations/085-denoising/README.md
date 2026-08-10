@@ -33,6 +33,8 @@ $$
 
 Prediction parameterization and schedule affect stability and quality.
 
+The boundary follows from the mechanism itself. We designed it to Tell the model the noise level and predict the added noise or equivalent clean direction. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

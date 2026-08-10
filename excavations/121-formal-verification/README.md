@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Proof covers the formal model, which may omit real-world behavior.
 
+The repair is explicit: state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Value estimates inherit errors from limited experience.
 
+The reason is visible in the procedure. It knows how to estimate the future reward expected from a state or state-action pair. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

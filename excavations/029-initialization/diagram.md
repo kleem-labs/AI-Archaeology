@@ -4,12 +4,12 @@ The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart TD
-    A["Set every weight to zero. Neurons receive identical evidence and remain identical. Use…"] --> B["Reality: Set every weight to zero. Neurons receive identical evidence and remain identical. Use…"]
+    A["Set every weight to zero."] --> B["Reality: Neurons receive identical evidence and remain identical. Use arbitrarily huge random…"]
     B -. "missing requirement" .-> C["Draw small random weights whose scale depends on how many inputs feed the neuron."]
 ```
 
 ```text
-TRY     Set every weight to zero. Neurons receive identical evidence and remain identical. Use…
-BREAK   Set every weight to zero. Neurons receive identical evidence and remain identical. Use…
+TRY     Set every weight to zero.
+BREAK   Neurons receive identical evidence and remain identical. Use arbitrarily huge random…
 REPAIR  Draw small random weights whose scale depends on how many inputs feed the neuron.
 ```

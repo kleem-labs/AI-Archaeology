@@ -33,6 +33,8 @@ $$
 
 Search quality depends on simulations and evaluation estimates.
 
+The boundary follows from the mechanism itself. We designed it to Balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

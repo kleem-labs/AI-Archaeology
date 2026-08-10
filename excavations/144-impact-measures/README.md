@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 A baseline can punish beneficial change or preserve an unjust status quo.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+Why does the boundary remain? Our new machinery only knows how to compare the resulting world with a reasonable baseline and penalize avoidable side effects. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

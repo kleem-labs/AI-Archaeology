@@ -11,17 +11,14 @@ Our network accepts numbers, but people produce an open stream of words, punctua
 
 A reasonable place to begin is: Give every complete word one ID. Spaces appear to provide the boundaries.
 
-Now place that proposal under pressure: Give every complete word one ID. Spaces appear to provide the boundaries.
-
 What broke tells us what the replacement must preserve: Use characters. Any new spelling can now be represented.
 
 Begin with universally representable pieces. Count adjacent pairs and repeatedly merge the pair that occurs most often. Frequent structure earns a reusable subword token; rare forms remain constructible from smaller pieces.
 
-## Why It Still Fails
+## From procedure to notation
 
 Common words become long sequences and the model must reconstruct recurring fragments such as ing repeatedly. Words are too large; characters are often too small.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened
@@ -59,6 +56,8 @@ For low, lower, and lowest, the pair l-o repeats three times. Merge it into lo. 
 ## Limits
 
 Tokenization chooses pieces, not meanings. IDs remain arbitrary, and the chosen vocabulary affects sequence length, cost, multilingual coverage, and which patterns are easy to notice.
+
+The repair is explicit: use characters. Any new spelling can now be represented. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

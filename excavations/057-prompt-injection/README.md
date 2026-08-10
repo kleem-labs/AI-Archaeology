@@ -20,6 +20,8 @@ No new equation is needed. The invention is a boundary, procedure, or system con
 
 No prompt wording guarantees isolation. Security must also exist outside the model in tool schemas, permissions, and validation.
 
+This is not an unrelated warning. The construction can label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

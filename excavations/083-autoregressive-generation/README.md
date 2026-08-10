@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Sequential generation can be slow and ordering introduces bias.
 
+The reason is visible in the procedure. It knows how to choose an order and predict each piece from previously generated pieces. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

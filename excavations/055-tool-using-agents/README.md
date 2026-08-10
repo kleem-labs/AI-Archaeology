@@ -20,6 +20,8 @@ No new equation is needed here. The invention is a procedure and a separation of
 
 An agent adds failure modes: bad tool choice, unsafe actions, prompt injection, loops, and ambiguous authority. Tools require permissions, validation, and stopping rules.
 
+The boundary follows from the mechanism itself. We designed it to Let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

@@ -6,16 +6,11 @@ A messenger can report either “the sun rose” or “a tiger entered camp.” 
 
 Our first construction is deliberately modest: Measure information by message length. A long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
 
-It works—right up to this boundary: Information depends on the probability model. A surprise to one observer may be expected to another.
+The cost of that attempt points to the missing operation: Rare events should carry more information, certain events none, and independent messages should add. The negative logarithm satisfies all three needs.
 
-Crossing that boundary requires one additional idea: Rare events should carry more information, certain events none, and independent messages should add. The negative logarithm satisfies all three needs.
+## From procedure to notation
 
-## Why It Still Fails
-
-The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
-
-## Compress your discovery into mathematics
-
+The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
 ## Build each piece from what just happened
 
@@ -44,6 +39,8 @@ A locked door code is informative because many alternatives were possible. Learn
 ## Limits
 
 Information depends on the probability model. A surprise to one observer may be expected to another.
+
+Why does the boundary remain? Our new machinery only knows how to rare events should carry more information, certain events none, and independent messages should add. The negative logarithm satisfies all three needs. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

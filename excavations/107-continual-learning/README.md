@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Stability and adaptability remain in tension.
 
+This is not an unrelated warning. The construction can detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

@@ -6,15 +6,12 @@ The output head gives arbitrary positive and negative logits. We need comparable
 
 Without knowing the inherited method, we might try this: Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
 
-Its hidden assumption appears in the following case: Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
-
 Remove that assumption and the needed repair becomes clear: Exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
 
-## Why It Still Fails
+## From procedure to notation
 
 A probability distribution expresses model confidence, not truth. Poor calibration and biased data remain possible.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

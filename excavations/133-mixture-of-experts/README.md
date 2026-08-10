@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Routers can collapse onto popular experts and leave others untrained.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The reason is visible in the procedure. It knows how to learn a router that sends each token to a small number of experts while balancing their workload. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

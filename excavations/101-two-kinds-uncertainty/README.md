@@ -25,6 +25,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 The two sources interact and are difficult to estimate perfectly.
 
+The repair is explicit: separate uncertainty in the observation from uncertainty in the model’s knowledge. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

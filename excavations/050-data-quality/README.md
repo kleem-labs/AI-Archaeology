@@ -20,6 +20,8 @@ No new equation is needed here. The invention is a procedure and a separation of
 
 Filtering encodes human judgments and can erase minority language or useful unusual examples. Quality is task-dependent.
 
+The boundary follows from the mechanism itself. We designed it to Treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

@@ -20,6 +20,8 @@ No new equation is needed. The invention is a boundary, procedure, or system con
 
 Logs describe what instrumentation captured. Missing fields, privacy limits, and misleading metrics still constrain diagnosis.
 
+Why does the boundary remain? Our new machinery only knows how to record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

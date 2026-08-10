@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Probabilities and consequence values may both be poorly estimated.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The reason is visible in the procedure. It knows how to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Robustness to one threat model does not imply robustness to others.
 
+Why does the boundary remain? Our new machinery only knows how to search for worst-case permitted perturbations, train against them, and bound behavior where possible. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

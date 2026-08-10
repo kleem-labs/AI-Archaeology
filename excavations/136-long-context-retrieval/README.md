@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Retrieval success does not guarantee correct reasoning over what was retrieved.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The repair is explicit: test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Pretext tasks may reward patterns unrelated to downstream needs.
 
+The boundary follows from the mechanism itself. We designed it to Hide or transform part of an observation and train the model to recover the missing relation. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

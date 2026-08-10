@@ -6,15 +6,12 @@ dog bites man and man bites dog retrieve the same token vectors. Attention compa
 
 At first, the simplest answer is tempting: Sort tokens by ID or trust their array slot without exposing it to the model. The first invents arbitrary order; the second stores position outside the computation.
 
-But the simplicity has discarded something important: Sort tokens by ID or trust their array slot without exposing it to the model. The first invents arbitrary order; the second stores position outside the computation.
-
 The missing information determines the next move: Add a position-specific vector to each token vector before attention. Content says what; position says where.
 
-## Why It Still Fails
+## From procedure to notation
 
 A fixed learned table cannot extend beyond trained positions, and absolute location is not always the relationship language needs.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

@@ -25,6 +25,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Poor rewards create unintended shortcuts.
 
+The repair is explicit: provide outcome feedback and let experience connect actions with later consequences. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

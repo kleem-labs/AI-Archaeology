@@ -33,6 +33,8 @@ $$
 
 Low rank may be insufficient for large behavioral changes.
 
+Why does the boundary remain? Our new machinery only knows how to freeze the base and learn a small low-rank correction to selected matrices. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

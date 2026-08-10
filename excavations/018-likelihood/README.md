@@ -6,16 +6,11 @@ Two trackers propose different worlds. One says tigers usually leave deep round 
 
 At first, the simplest answer is tempting: Ask which story is generally more believable. That ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
 
-But the simplicity has discarded something important: Likelihood compares explanations for fixed evidence; it is not itself a normalized probability over explanations. Priors will matter later.
-
 The missing information determines the next move: Reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
 
-## Why It Still Fails
+## From procedure to notation
 
-The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
-
-## Compress your discovery into mathematics
-
+The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
 ## Build each piece from what just happened
 
@@ -45,6 +40,8 @@ A detective compares suspects by asking how well each suspect explains the clues
 ## Limits
 
 Likelihood compares explanations for fixed evidence; it is not itself a normalized probability over explanations. Priors will matter later.
+
+The reason is visible in the procedure. It knows how to reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

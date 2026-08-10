@@ -33,6 +33,8 @@ $$
 
 Privacy consumes an accuracy budget and implementation mistakes break guarantees.
 
+This is not an unrelated warning. The construction can limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

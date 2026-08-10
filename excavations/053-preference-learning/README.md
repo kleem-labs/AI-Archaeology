@@ -28,6 +28,8 @@ $$
 
 Human preferences conflict, annotators make mistakes, and optimizing a learned reward can exploit its blind spots.
 
+The reason is visible in the procedure. It knows how to collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

@@ -4,12 +4,12 @@ The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart TD
-    A["Call a framework Transformer and hide the causal chain. Or connect the parts without…"] --> B["Reality: Call a framework Transformer and hide the causal chain. Or connect the parts without…"]
+    A["Call a framework Transformer and hide the causal chain."] --> B["Reality: Or connect the parts without checking shapes, leakage, and target alignment."]
     B -. "missing requirement" .-> C["Assemble token and position embeddings, masked Transformer blocks, vocabulary logits,…"]
 ```
 
 ```text
-TRY     Call a framework Transformer and hide the causal chain. Or connect the parts without…
-BREAK   Call a framework Transformer and hide the causal chain. Or connect the parts without…
+TRY     Call a framework Transformer and hide the causal chain.
+BREAK   Or connect the parts without checking shapes, leakage, and target alignment.
 REPAIR  Assemble token and position embeddings, masked Transformer blocks, vocabulary logits,…
 ```

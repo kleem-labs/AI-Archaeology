@@ -11,16 +11,11 @@ The tribe hears movement behind tall grass. It may be a tiger, deer, or wind. A 
 
 Without knowing the inherited method, we might try this: Choose the most common cause and declare certainty. This works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act.
 
-Its hidden assumption appears in the following case: Probabilities depend on evidence and assumptions. When new evidence arrives, the shares must change.
-
 Remove that assumption and the needed repair becomes clear: Keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total.
 
-## Why It Still Fails
+## From procedure to notation
 
-The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
-
-## Compress your discovery into mathematics
-
+The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
 ## Build each piece from what just happened
 
@@ -50,6 +45,8 @@ Probability is a weather forecast: not a promise, but an honest description of u
 ## Limits
 
 Probabilities depend on evidence and assumptions. When new evidence arrives, the shares must change.
+
+This is not an unrelated warning. The construction can keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Abstention shifts work and may fail unevenly across groups.
 
+The boundary follows from the mechanism itself. We designed it to Allow abstention and choose a coverage level whose retained answers meet a risk target. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

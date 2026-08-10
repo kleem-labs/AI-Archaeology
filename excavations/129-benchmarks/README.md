@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 A fixed ruler becomes stale when people optimize specifically for it.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+Why does the boundary remain? Our new machinery only knows how to freeze representative tasks, inputs, metrics, and scoring rules before seeing results. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

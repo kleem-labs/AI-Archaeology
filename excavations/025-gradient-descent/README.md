@@ -6,16 +6,11 @@ We can now assign blame to every weight. The network still needs a disciplined w
 
 The first solution that suggests itself is this: Jump directly opposite the gradient with no step control; the model may overshoot and diverge. Take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
 
-The idea survives only until we test it against reality: Gradient descent finds a reachable low region, not necessarily the unique best explanation. Data, initialization, scale, and step size all shape the journey.
-
 The failure gives us a precise requirement: Move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress.
 
-## Why It Still Fails
+## From procedure to notation
 
-The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
-
-## Compress your discovery into mathematics
-
+The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
 ## Build each piece from what just happened
 
@@ -83,6 +78,8 @@ Descending in fog requires frequent local slope readings and careful steps. Mome
 ## Limits
 
 Gradient descent finds a reachable low region, not necessarily the unique best explanation. Data, initialization, scale, and step size all shape the journey.
+
+The boundary follows from the mechanism itself. We designed it to Move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

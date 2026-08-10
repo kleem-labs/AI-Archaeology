@@ -33,6 +33,8 @@ $$
 
 Maximization can overestimate noisy actions and offline data limits safe exploration.
 
+Why does the boundary remain? Our new machinery only knows how to move the estimate toward reward plus the best discounted value available next. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

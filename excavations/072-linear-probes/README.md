@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Decodable information is not proof the model uses it.
 
+This is not an unrelated warning. The construction can use a deliberately limited probe and compare layers, controls, and baselines. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

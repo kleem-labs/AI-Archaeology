@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 A weak verifier rewards solutions that exploit its blind spots.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The reason is visible in the procedure. It knows how to generate diverse candidates, check them with independent evidence, and keep only paths that survive. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

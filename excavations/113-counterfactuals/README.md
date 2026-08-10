@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 The individual counterfactual is never directly observed.
 
+The reason is visible in the procedure. It knows how to construct a comparable alternative world using causal assumptions and matched evidence. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

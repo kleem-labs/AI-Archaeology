@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Open-ended discovery remains bounded by chosen objectives, measurements, and human institutions.
 
+The boundary follows from the mechanism itself. We designed it to Separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

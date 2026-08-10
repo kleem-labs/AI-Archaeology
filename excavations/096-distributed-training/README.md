@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Communication, failure recovery, and numerical nondeterminism become bottlenecks.
 
+The repair is explicit: partition data or model work, synchronize required results, and preserve one coherent update. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

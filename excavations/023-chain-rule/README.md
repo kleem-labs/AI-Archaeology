@@ -6,16 +6,11 @@ A weight changes a hidden signal, which changes a score, which changes a probabi
 
 At first, the simplest answer is tempting: Measure only the first effect or only the final effect. Either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
 
-But the simplicity has discarded something important: Branches require sensitivities from every downstream path to be added, not merely one chain followed.
-
 The missing information determines the next move: Multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
 
-## Why It Still Fails
+## From procedure to notation
 
-The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
-
-## Compress your discovery into mathematics
-
+The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
 ## Build each piece from what just happened
 
@@ -44,6 +39,8 @@ A line of gears passes motion onward. To know the final turn from the first gear
 ## Limits
 
 Branches require sensitivities from every downstream path to be added, not merely one chain followed.
+
+The reason is visible in the procedure. It knows how to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 No finite red team proves universal safety.
 
+The reason is visible in the procedure. It knows how to actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

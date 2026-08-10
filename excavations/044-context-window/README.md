@@ -6,15 +6,12 @@ Generation repeats one token at a time, and every new token may attend to the pa
 
 Our first construction is deliberately modest: Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
 
-It works—right up to this boundary: Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
+The cost of that attempt points to the missing operation: Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
 
-Crossing that boundary requires one additional idea: Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
-
-## Why It Still Fails
+## From procedure to notation
 
 A larger window is not perfect memory. Retrieval, compression, recurrence, and careful data are separate inventions.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

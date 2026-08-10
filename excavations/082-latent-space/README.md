@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Latent directions need not be independent or human-readable.
 
+This is not an unrelated warning. The construction can shape the latent distribution and train nearby codes to decode coherently. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

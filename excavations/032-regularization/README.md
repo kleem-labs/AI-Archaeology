@@ -6,15 +6,12 @@ The model can reduce training loss by building fragile rules around tiny acciden
 
 Without knowing the inherited method, we might try this: Forbid complexity by making the model too small; it may lose real structure too. Stop training at an arbitrary time without observing unseen performance.
 
-Its hidden assumption appears in the following case: Forbid complexity by making the model too small; it may lose real structure too. Stop training at an arbitrary time without observing unseen performance.
-
 Remove that assumption and the needed repair becomes clear: Add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
 
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but regularization expresses a preference, not a universal truth. Too much causes underfitting and different tasks need different biases.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

@@ -33,6 +33,8 @@ $$
 
 Policy gradients are noisy and can exploit reward flaws.
 
+The boundary follows from the mechanism itself. We designed it to Sample from a policy and increase probability of actions followed by better-than-expected returns. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

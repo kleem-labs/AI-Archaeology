@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Memory, privacy, and capacity limit rehearsal.
 
+The repair is explicit: rehearse old evidence, protect important parameters, or allocate new capacity. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

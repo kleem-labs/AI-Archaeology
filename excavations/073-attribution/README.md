@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Attribution can be unstable and method-dependent.
 
+The reason is visible in the procedure. It knows how to measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

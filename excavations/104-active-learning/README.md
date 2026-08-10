@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Uncertainty sampling can chase noise or outliers.
 
+Why does the boundary remain? Our new machinery only knows how to ask for labels where the model is uncertain or where examples add new coverage. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

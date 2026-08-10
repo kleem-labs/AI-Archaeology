@@ -34,6 +34,8 @@ $$
 
 False negatives may actually describe the same concept.
 
+This is not an unrelated warning. The construction can compare each true pair against mismatched alternatives in the same batch. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

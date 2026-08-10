@@ -6,15 +6,12 @@ Before training, every weight needs a value. The starting point decides what sig
 
 Our first construction is deliberately modest: Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
 
-It works—right up to this boundary: Set every weight to zero. Neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
+The cost of that attempt points to the missing operation: Draw small random weights whose scale depends on how many inputs feed the neuron.
 
-Crossing that boundary requires one additional idea: Draw small random weights whose scale depends on how many inputs feed the neuron.
-
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but good initialization creates workable conditions; it does not encode the solution or guarantee stable training at every depth.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

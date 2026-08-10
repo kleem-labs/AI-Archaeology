@@ -33,6 +33,8 @@ $$
 
 Lower precision trades accuracy for efficiency and hardware support varies.
 
+The boundary follows from the mechanism itself. We designed it to Map values to a limited set of levels using calibrated scale and test sensitive layers. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

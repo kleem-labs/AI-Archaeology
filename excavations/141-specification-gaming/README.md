@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Human purposes contain conflicts that no single specification resolves.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The repair is explicit: write constraints for the protected purpose, inspect edge cases, and evaluate the whole outcome rather than one number. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

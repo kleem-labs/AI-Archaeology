@@ -6,16 +6,11 @@ One bag contains ten red stones. Another contains five red and five blue. Before
 
 The first solution that suggests itself is this: Count the number of outcomes. Both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
 
-The idea survives only until we test it against reality: Entropy measures uncertainty in a stated distribution, not disorder in every everyday sense.
-
 The failure gives us a precise requirement: Average the information of every possible outcome, weighted by how often that outcome occurs.
 
-## Why It Still Fails
+## From procedure to notation
 
-The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
-
-## Compress your discovery into mathematics
-
+The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
 ## Build each piece from what just happened
 
@@ -45,6 +40,8 @@ Entropy is the expected surprise before opening a sealed envelope. A guaranteed 
 ## Limits
 
 Entropy measures uncertainty in a stated distribution, not disorder in every everyday sense.
+
+The boundary follows from the mechanism itself. We designed it to Average the information of every possible outcome, weighted by how often that outcome occurs. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

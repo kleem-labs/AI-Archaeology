@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Errors at the interface can still corrupt the combined result.
 
+This is not an unrelated warning. The construction can let neural components propose symbols or scores and symbolic components enforce explicit relations. It cannot infer or control information that never enters that construction.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

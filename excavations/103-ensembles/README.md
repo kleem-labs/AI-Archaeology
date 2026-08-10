@@ -20,6 +20,8 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 Ensembles cost more and shared data can produce shared mistakes.
 
+The reason is visible in the procedure. It knows how to train several diverse models and combine predictions while inspecting disagreement. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

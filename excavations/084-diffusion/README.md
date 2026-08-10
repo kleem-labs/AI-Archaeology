@@ -33,6 +33,8 @@ $$
 
 Many denoising steps make sampling expensive.
 
+Why does the boundary remain? Our new machinery only knows how to gradually add noise to real images, then learn the smaller reverse step at every noise level. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 The loop remains only as wise as its objectives, evidence, boundaries, and accountable humans.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+The boundary follows from the mechanism itself. We designed it to Separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

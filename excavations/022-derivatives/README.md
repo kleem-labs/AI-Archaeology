@@ -6,16 +6,11 @@ The loss is high. The model has thousands of adjustable numbers. For one weight,
 
 Without knowing the inherited method, we might try this: Try a large jump and keep it if loss falls. Large jumps can leap over improvements. Try every possible value; there are infinitely many.
 
-Its hidden assumption appears in the following case: A derivative is local advice. Curved landscapes can change direction, flatten, or hide better valleys elsewhere.
-
 Remove that assumption and the needed repair becomes clear: Nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
 
-## Why It Still Fails
+## From procedure to notation
 
-The verbal procedure is now useful, but it is too long to repeat consistently and too vague to implement at scale. Every operation has earned a precise role; only now should notation compress it.
-
-## Compress your discovery into mathematics
-
+The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
 ## Build each piece from what just happened
 
@@ -46,6 +41,8 @@ A derivative is a local slope on a mountain trail: it says which direction rises
 ## Limits
 
 A derivative is local advice. Curved landscapes can change direction, flatten, or hide better valleys elsewhere.
+
+This is not an unrelated warning. The construction can nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

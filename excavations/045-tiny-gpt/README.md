@@ -6,15 +6,12 @@ We have excavated every component of an autoregressive language model, but isola
 
 The first solution that suggests itself is this: Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
 
-The idea survives only until we test it against reality: Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
-
 The failure gives us a precise requirement: Assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
 
-## Why It Still Fails
+## From procedure to notation
 
 A tiny GPT demonstrates the mechanism, not modern capability. Scale, data quality, optimization, evaluation, and safety now become the next landscape.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

@@ -6,15 +6,12 @@ Even a carefully validated model may meet a new hospital, dialect, season, or ca
 
 Our first construction is deliberately modest: Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
 
-It works—right up to this boundary: Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
+The cost of that attempt points to the missing operation: State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
 
-Crossing that boundary requires one additional idea: State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
-
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but no benchmark proves universal intelligence. Future distributions can change in ways neither data nor designers anticipated.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

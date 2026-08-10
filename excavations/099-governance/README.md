@@ -20,6 +20,8 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Governance can become paperwork unless tied to real authority and enforcement.
 
+Why does the boundary remain? Our new machinery only knows how to define ownership, review, documentation, incident response, user recourse, and deployment boundaries. Solving that problem does not automatically solve every decision built on top of it.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).

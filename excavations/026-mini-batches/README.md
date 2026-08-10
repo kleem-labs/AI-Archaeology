@@ -6,15 +6,12 @@ A hunter updates the danger rule after every single footprint. One muddy print s
 
 A reasonable place to begin is: Use one example per update. It is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read.
 
-Now place that proposal under pressure: Use one example per update. It is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read.
-
 What broke tells us what the replacement must preserve: Average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently.
 
-## Why It Still Fails
+## From procedure to notation
 
 The repair solves the immediate failure, but batch gradients are still estimates. Batch size changes noise, memory use, and sometimes what kind of solution training finds.
 
-## Compress your discovery into mathematics
 
 
 ## Build each piece from what just happened

@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 A sparse pattern can hide the one distant clue the answer needs.
 
-That limit is not a footnote. It is the pressure that forces the next excavation.
+Why does the boundary remain? Our new machinery only knows how to preserve a small pattern of local, global, or retrieved connections that matches the task's information paths. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

@@ -20,6 +20,8 @@ No new equation is needed. The invention is a boundary, procedure, or system con
 
 Verification can test only stated properties. A passing check suite may omit the most important behavior.
 
+The repair is explicit: define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state. Its power is also its boundary; anything not represented in those operations remains undecided.
+
 ## Enter the laboratory
 
 Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
