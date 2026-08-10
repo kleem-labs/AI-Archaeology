@@ -30,7 +30,7 @@ Only now does the familiar expression describe an understood machine:
 
 ## Build Every Piece from the Concrete Example
 
-Let the first map turn [2,-1] into candidates [3,-4,1]. ReLU closes the -4 path, leaving [3,0,1]. The second map can now recombine different active paths; without the gate both maps reduce to one fixed linear recipe.
+Attention tells the word *tiger* what the rest of the sentence said. Now imagine several small workshops inside that token: one notices whether an animal is dangerous, another recognizes whether it is acting or being described. A gate closes workshops whose evidence is negative and leaves useful ones open. A second mixing step combines only the surviving discoveries. Without the gate, the two mixing steps collapse into one fixed recipe and no conditional workshop can exist.
 
 ### Give Short Names Only After We Know the Pieces
 

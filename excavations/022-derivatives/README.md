@@ -14,7 +14,7 @@ The procedure now works in ordinary language. To repeat it consistently and impl
 
 ## Build each piece from what just happened
 
-Use L(w)=w² at w=3. Nudge to 3.001: loss changes from 9 to about 9.006001. Dividing the loss change by 0.001 gives about 6; smaller nudges approach the local sensitivity 6.
+A village adjusts one alarm dial controlling how much smoke is needed before ringing a bell. At setting 3 the false-alarm cost is 9. Raising the dial by only 0.001 changes the cost to about 9.006001. The extra cost divided by the tiny dial movement is about 6. Repeating with ever smaller movements reveals the local sensitivity at the current setting rather than the effect of one arbitrary jump.
 
 ### Give Short Names Only After We Know the Pieces
 

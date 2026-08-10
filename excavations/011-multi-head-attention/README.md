@@ -42,7 +42,7 @@ Only now does the compact expression earn its place:
 
 ## Build Every Piece from the Concrete Example
 
-Suppose one head returns [grammar=8,topic=1] and another [reference=7,distance=2]. Averaging would mix their coordinate roles. Concatenating keeps [8,1,7,2], after which the output matrix can learn the useful mixture.
+In “The tiger that chased the deer was tired,” one reader follows grammar to discover what *was tired* describes, while another follows reference to keep tiger separate from deer. Averaging their notes too early destroys which evidence came from which question. Keeping the two notes side by side lets a later learned map decide how much grammar and reference the sentence needs.
 
 ### Give Short Names Only After We Know the Pieces
 

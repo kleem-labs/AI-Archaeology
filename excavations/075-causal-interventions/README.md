@@ -20,7 +20,7 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 Interventions can create unnatural internal states.
 
-The boundary follows from the mechanism itself. We designed it to Intervene on the representation and measure the specific downstream change against controls. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+The boundary follows from the mechanism itself. We designed it to intervene on the representation and measure the specific downstream change against controls. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

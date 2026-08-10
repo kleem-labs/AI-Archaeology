@@ -37,7 +37,7 @@ Only now do we write the operation you rediscovered—the dot product:
 
 ## Build Every Piece from the Concrete Example
 
-Let q=[1,2] and one key be [3,4]. Matching coordinates contribute 1×3=3 and 2×4=8, giving score 11. If its normalized weight is 0.75 and its value is [8,4], it contributes [6,3] to the output.
+A librarian hears, “Find me the book about a striped predator.” The request emphasizes *animal* and *stripes*. A catalogue card advertises the same properties; matching request-property to catalogue-property produces relevance. If that card wins three quarters of the attention, three quarters of the book's stored content—not three quarters of its catalogue description—travels into the answer. The request becomes the query, the catalogue becomes the key, and the retrievable content becomes the value only after those jobs are distinct.
 
 ### Give Short Names Only After We Know the Pieces
 

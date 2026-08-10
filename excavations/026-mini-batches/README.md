@@ -16,7 +16,7 @@ The repair solves the immediate failure, but batch gradients are still estimates
 
 ## Build each piece from what just happened
 
-Three examples propose gradients [2,4], [4,2], and [3,3]. Adding gives [9,9]; dividing by three gives [3,3]. Without division, merely enlarging the batch would triple the update.
+A tiger detector has two adjustable dials: how much to trust stripes and how much to trust movement. A clear morning photograph recommends raising those dials by 2 and 4. A muddy side view recommends 4 and 2. A night photograph recommends 3 and 3. For the stripe dial, the three witnesses propose 2+4+3=9, so their average advice is 3. The movement dial also averages to 3. If we merely added their advice, inviting three witnesses instead of one would triple the step even when their average opinion had not changed.
 
 ### Give Short Names Only After We Know the Pieces
 

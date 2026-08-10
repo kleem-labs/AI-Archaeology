@@ -41,7 +41,7 @@ Entropy is the expected surprise before opening a sealed envelope. A guaranteed 
 
 Entropy measures uncertainty in a stated distribution, not disorder in every everyday sense.
 
-The boundary follows from the mechanism itself. We designed it to Average the information of every possible outcome, weighted by how often that outcome occurs. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+The boundary follows from the mechanism itself. We designed it to average the information of every possible outcome, weighted by how often that outcome occurs. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

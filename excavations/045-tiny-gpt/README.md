@@ -16,7 +16,7 @@ A tiny GPT demonstrates the mechanism, not modern capability. Scale, data qualit
 
 ## Build each piece from what just happened
 
-Prompt IDs enter embeddings, pass through a masked block, and produce logits [1,3,0]. Softmax favors the second token; sampling selects it, appends it to the prompt, and runs the same loop again.
+Begin with the prompt “the tiger.” Its token addresses fetch learned starting descriptions; position marks preserve order; masked attention gathers only allowed context; token workshops transform what was gathered; and the output scores every possible next word. Suppose sampling chooses *sleeps*. Appending that choice creates “the tiger sleeps,” and the same mechanism now faces a new prediction. The language model exists only when this entire loop closes.
 
 ### Give Short Names Only After We Know the Pieces
 

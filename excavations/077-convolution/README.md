@@ -18,6 +18,9 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 ## Build each piece from what just happened
 
+
+A ranger photographs a tiger behind tall grass. Along one row, neighboring brightness values change from dark grass to bright stripe and back to dark fur. She builds one three-slot stripe detector and slides that same detector across the row. At every location she multiplies each observed brightness by the matching detector slot and adds the agreements. A large total says the local patch resembles the stripe pattern. Reusing the detector matters because a stripe should remain a stripe whether it appears on the left or right of the photograph.
+
 - The signal values are neighboring brightness measurements.
 - The kernel values are the same small detector reused at every location.
 - Multiplication measures how each local measurement agrees with its detector weight.

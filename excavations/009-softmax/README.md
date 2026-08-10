@@ -43,7 +43,7 @@ After exponentiating, divide each result by their total. Now the values are posi
 
 ## Build Every Piece from the Concrete Example
 
-For scores [1,2], exponentiation gives about [2.72,7.39]. Their total is 10.11. Dividing produces [0.27,0.73]: both remain possible, the larger score gets more weight, and the weights total one.
+Mary, John, and the book are possible sources for the word *she*. The sentence gives Mary the strongest relevance, the book a weaker connection, and John the weakest. Raw relevance can be negative or arbitrarily large, so it cannot yet say what share each source should contribute. Exponentiation turns every candidate into positive evidence; dividing by their shared total converts that evidence into portions of one whole.
 
 ### Give Short Names Only After We Know the Pieces
 

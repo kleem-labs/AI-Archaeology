@@ -16,7 +16,7 @@ A fixed learned table cannot extend beyond trained positions, and absolute locat
 
 ## Build each piece from what just happened
 
-Tiger at position 0 retrieves content [0.8,0.2] and position [0.1,-0.1], producing [0.9,0.1]. The same tiger at position 2 adds a different position vector, so content stays recognizable while order changes.
+Compare “tiger chases deer” with “deer chases tiger.” The same three word cards appear, so content alone cannot distinguish hunter from hunted. Give the first slot one reusable position mark, the second another, and the third another. Adding the appropriate mark to each word leaves *tiger* recognizable while also telling later attention whether this occurrence came first or last.
 
 ### Give Short Names Only After We Know the Pieces
 

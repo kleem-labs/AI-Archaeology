@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 Bad memories can persist longer than the conversations that created them.
 
-The boundary follows from the mechanism itself. We designed it to Write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+The boundary follows from the mechanism itself. We designed it to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

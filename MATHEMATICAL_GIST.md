@@ -147,7 +147,7 @@ The formula is your procedure written compactly.
 
 ## Excavation 004 — Vectors as Change
 
-A traveler starts at [2,3] and ends at [7,1]. Removing the start coordinate by coordinate gives [5,-2]. Adding that change to a different start [10,10] produces [15,8], proving the instruction can travel.
+A rescue party marks its camp on a paper map. It walks five kilometres east and two kilometres south to reach an injured ranger. Those instructions still work if a second party begins from another camp: move five east and two south. Only after the route has a meaning do we record east–west and north–south change as `[5, -2]`.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -174,18 +174,7 @@ $$
 
 ## Excavation 005 — Matrices
 
-Our animal report has normalized weight signal 4 and speed signal 5.
-
-The first output is a threat score: two copies of weight plus three copies of speed, giving 2×4 + 3×5 = 23.
-
-The second is a chase score: ignore weight and take four copies of speed, giving 0×4 + 4×5 = 20.
-
-~~~text
-threat = 2×weight + 3×speed = 2×4 + 3×5 = 23
-chase  = 0×weight + 4×speed = 0×4 + 4×5 = 20
-~~~
-
-Only after these named recipes do they become two matrix rows.
+A ranger must turn two observations—how heavy an animal looks and how fast it moves—into two decisions: danger and whether pursuit is possible. For danger she counts the weight clue twice and the speed clue three times. For pursuit she ignores weight and counts speed four times. Writing the two recipes as rows lets one reusable machine apply both judgments to every animal report.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -248,7 +237,7 @@ equation has added no new idea. It records the space you just constructed.
 
 ## Excavation 009 — From Scores to Attention
 
-For scores [1,2], exponentiation gives about [2.72,7.39]. Their total is 10.11. Dividing produces [0.27,0.73]: both remain possible, the larger score gets more weight, and the weights total one.
+Mary, John, and the book are possible sources for the word *she*. The sentence gives Mary the strongest relevance, the book a weaker connection, and John the weakest. Raw relevance can be negative or arbitrarily large, so it cannot yet say what share each source should contribute. Exponentiation turns every candidate into positive evidence; dividing by their shared total converts that evidence into portions of one whole.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -274,7 +263,7 @@ $$
 
 ## Excavation 010 — Query, Key, and Value
 
-Let q=[1,2] and one key be [3,4]. Matching coordinates contribute 1×3=3 and 2×4=8, giving score 11. If its normalized weight is 0.75 and its value is [8,4], it contributes [6,3] to the output.
+A librarian hears, “Find me the book about a striped predator.” The request emphasizes *animal* and *stripes*. A catalogue card advertises the same properties; matching request-property to catalogue-property produces relevance. If that card wins three quarters of the attention, three quarters of the book's stored content—not three quarters of its catalogue description—travels into the answer. The request becomes the query, the catalogue becomes the key, and the retrievable content becomes the value only after those jobs are distinct.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -324,7 +313,7 @@ $$
 
 ## Excavation 011 — Multi-Head Attention
 
-Suppose one head returns [grammar=8,topic=1] and another [reference=7,distance=2]. Averaging would mix their coordinate roles. Concatenating keeps [8,1,7,2], after which the output matrix can learn the useful mixture.
+In “The tiger that chased the deer was tired,” one reader follows grammar to discover what *was tired* describes, while another follows reference to keep tiger separate from deer. Averaging their notes too early destroys which evidence came from which question. Keeping the two notes side by side lets a later learned map decide how much grammar and reference the sentence needs.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -352,7 +341,7 @@ $$
 
 ## Excavation 012 — Feed-Forward Networks
 
-Let the first map turn [2,-1] into candidates [3,-4,1]. ReLU closes the -4 path, leaving [3,0,1]. The second map can now recombine different active paths; without the gate both maps reduce to one fixed linear recipe.
+Attention tells the word *tiger* what the rest of the sentence said. Now imagine several small workshops inside that token: one notices whether an animal is dangerous, another recognizes whether it is acting or being described. A gate closes workshops whose evidence is negative and leaves useful ones open. A second mixing step combines only the surviving discoveries. Without the gate, the two mixing steps collapse into one fixed recipe and no conditional workshop can exist.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -385,7 +374,7 @@ $$
 
 ## Excavation 013 — Residual Connections
 
-A layer receives [5,2]. If it discovers only a correction [0.5,-1], addition gives [5.5,1]. If no correction is needed, [0,0] preserves [5,2] exactly instead of relearning how to copy it.
+A cartographer already has a useful map of the forest. A new survey reports that one trail bends half a kilometre east and one kilometre south. Replacing the whole map with that small report would destroy everything known; adding it as a correction preserves the map and changes only the trail. If the survey discovers nothing useful, adding a zero correction leaves the original untouched.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -413,7 +402,7 @@ $$
 
 ## Excavation 014 — Layer Normalization
 
-For [1,2,3], the mean is 2. Centering gives [-1,0,1]; their squared average is 2/3. Dividing by its square root gives a zero-centered, predictable-scale pattern. Epsilon matters for [4,4,4], whose spread is zero.
+Three microphones hear the same roar at volumes 1, 2, and 3 because one sits closer to the tiger. Their shared centre is 2. Subtracting it leaves the pattern `[-1, 0, 1]`: quieter, typical, louder. Dividing by the pattern's spread makes that relative shape comparable with another set recorded by more sensitive microphones. A tiny safety amount is needed when all microphones report the same value and the spread is zero.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -450,7 +439,7 @@ $$
 
 ## Excavation 015 — How a Dead Brain Learns
 
-One weight is 8, its target is 3, and its local uphill sensitivity is 10. Taking one tenth of the reversed suggestion moves it to 7 and lowers squared error from 25 to 16.
+A tiger alarm has one adjustable dial: how strongly a stripe should raise danger. The dial is currently 8, but repeated verified encounters suggest 3 would fit better. Its present squared mistake is 25, and a tiny upward test reveals that increasing the dial makes error rise with sensitivity 10. Reversing one tenth of that uphill suggestion moves the dial from 8 to 7 and lowers the mistake to 16.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -599,7 +588,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 ## Excavation 022 — Derivatives — Asking One Weight What It Changed
 
-Use L(w)=w² at w=3. Nudge to 3.001: loss changes from 9 to about 9.006001. Dividing the loss change by 0.001 gives about 6; smaller nudges approach the local sensitivity 6.
+A village adjusts one alarm dial controlling how much smoke is needed before ringing a bell. At setting 3 the false-alarm cost is 9. Raising the dial by only 0.001 changes the cost to about 9.006001. The extra cost divided by the tiny dial movement is about 6. Repeating with ever smaller movements reveals the local sensitivity at the current setting rather than the effect of one arbitrary jump.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -625,7 +614,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 ## Excavation 023 — The Chain Rule — Following One Change Through Many Machines
 
-A weight change is doubled by the first machine, tripled by the second, and quadrupled by the loss. One unit at the start becomes 2, then 6, then 24. Multiplying 2×3×4 captures the complete path.
+Turn an oven knob slightly. The first mechanism doubles that movement into a fuel change; the next triples the fuel change into temperature; the bread-loss rule magnifies the temperature error fourfold. A one-unit knob change therefore becomes 2, then 6, then 24 units of final sensitivity. Each machine contributes one local multiplier, and the whole causal path requires all of them.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -649,7 +638,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 ## Excavation 024 — Backpropagation — Reusing Blame Instead of Recomputing It
 
-Suppose x feeds two children. The first returns blame 3 through a local sensitivity 2, contributing 6. The second returns blame 4 through sensitivity 5, contributing 20. Total blame reaching x is 26, so both paths must be added.
+One shared dough temperature affects two outcomes: crust and centre. The crust branch sends blame 3 through local sensitivity 2, contributing 6. The centre branch sends blame 4 through sensitivity 5, contributing 20. Because both outcomes depended on the same temperature, the baker must return total blame 26 to that shared decision. Computing either downstream suffix twice would add work without adding evidence.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -674,36 +663,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 ## Excavation 025 — Gradient Descent — Teaching a Tiny Network
 
-Forget θ for a moment. Our tiny model has one adjustable weight, currently **8**. We want it to become **3**, so its mistake is (weight − 3)². At weight 8, the mistake is 25.
-
-A tiny upward nudge shows a local sensitivity of 10. In ordinary language: increasing the weight a little makes the mistake rise about ten times as much. Ten therefore points uphill. To reduce the mistake, we move the other way. That creates the minus sign.
-
-Should we move the entire ten units?
-
-~~~text
-8 - 10 = -2
-mistake at -2 = (-2 - 3)² = 25
-~~~
-
-We jumped across the valley and learned nothing. So direction is not enough. We need a knob controlling how much of the proposed movement we trust.
-
-Try taking one tenth:
-
-~~~text
-suggested uphill direction = 10
-reverse it                 = -10
-take one tenth             = -1
-new weight                 = 8 - 1 = 7
-new mistake                = (7 - 3)² = 16
-~~~
-
-The mistake fell from 25 to 16. That one tenth is the **learning rate**, later written η. It is simply a caution knob:
-
-- η = 1 takes the entire proposed movement;
-- η = 0.1 takes one tenth;
-- η = 0.01 takes one hundredth.
-
-Too large can jump over the valley. Too small moves safely but slowly.
+Return to the tiger alarm's stripe dial. It is 8; verified encounters suggest 3; the squared mistake is 25; and the local uphill sensitivity is 10. Moving the full ten units lands at −2, equally far from the target on the other side. Direction alone has not taught us distance. Taking one tenth of the proposed correction moves the dial to 7 and lowers the mistake to 16. That chosen fraction is the learning rate.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -737,7 +697,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 ## Excavation 026 — Mini-Batches — Learning from More Than One Example
 
-Three examples propose gradients [2,4], [4,2], and [3,3]. Adding gives [9,9]; dividing by three gives [3,3]. Without division, merely enlarging the batch would triple the update.
+A tiger detector has two adjustable dials: how much to trust stripes and how much to trust movement. A clear morning photograph recommends raising those dials by 2 and 4. A muddy side view recommends 4 and 2. A night photograph recommends 3 and 3. For the stripe dial, the three witnesses propose 2+4+3=9, so their average advice is 3. The movement dial also averages to 3. If we merely added their advice, inviting three witnesses instead of one would triple the step even when their average opinion had not changed.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -762,7 +722,7 @@ $$
 
 ## Excavation 027 — Learning Rate — How Large Should the Next Step Be?
 
-At weight 8 the gradient is 10. Rate 1 moves to -2 and overshoots; rate 0.1 moves to 7; rate 0.01 moves to 7.9. The rate controls travel distance, not downhill direction.
+The tiger alarm's stripe dial is again 8, and the local uphill sensitivity is 10. Moving opposite the entire suggestion sends the dial to −2 and jumps across the best setting. Trusting one tenth moves it to 7; trusting one hundredth moves it to 7.9. All three moves use the same downhill direction. The learning rate answers the separate human question: how much of that local advice should we trust now?
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -786,7 +746,7 @@ $$
 
 ## Excavation 028 — Momentum — Remembering Which Way Downhill Persists
 
-Successive gradients are [3,1], [3,-1], [3,1]. The sideways coordinate flips, while the first persists. A fading sum reinforces the repeated 3 direction and partly cancels the wobble.
+Three small groups inspect tiger tracks. Each recommends changing two detector dials: stripes and movement. Their advice is `[3,1]`, `[3,-1]`, and `[3,1]`. Now the coordinates are not anonymous: every group agrees that stripe trust should rise by 3, while movement advice flips with noisy tracks. Remembering recent directions reinforces the persistent stripe evidence and lets the contradictory movement evidence partly cancel.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -811,7 +771,7 @@ $$
 
 ## Excavation 029 — Initialization — Where Should Learning Begin?
 
-If 100 independent inputs each arrive near unit scale, weights near unit scale make their sum huge. Scaling typical weight spread by 1/sqrt(100)=0.1 keeps their combined signal near a workable scale.
+Imagine one hundred weak sensors feeding an alarm. If every sensor signal and every connecting weight is typically near 1, adding all one hundred contributions produces a signal near 100; deeper layers can make it explode further. Giving the starting weights a typical size near one tenth keeps the combined signal near the scale of one useful observation. The factor `1/√100` is therefore a scale-preserving choice, not a magic constant.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -836,7 +796,7 @@ $$
 
 ## Excavation 030 — Activation Functions — Why a Network Must Bend
 
-Without a gate, multiplying by 2 and then 3 always equals multiplying once by 6. With ReLU between them, input -1 becomes -2, then 0, then 0—behavior no single multiply-by-6 rule reproduces for both signs.
+A gatekeeper receives a danger signal. Two ordinary scaling rules—double it, then triple it—always behave like one rule that multiplies by six. Adding more such rules has created no new decision. Put a gate between them: negative evidence is closed to zero while positive evidence continues. Now the same machinery treats warning evidence and reassuring evidence differently, something one multiplication cannot reproduce.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -1011,7 +971,7 @@ $$
 
 ## Excavation 037 — Input Embeddings: Giving Tokens Learnable Coordinates
 
-With four tokens and width two, the table might have rows [0.1,0.8], [-0.2,0.4], [0.7,-0.1], [0.3,0.2]. Token ID 2 selects [0.7,-0.1]; the number 2 is only the shelf address.
+The tokenizer assigns shelf address 2 to *tiger*. Looking up address 2 retrieves a small card of adjustable coordinates learned from tiger's usage. The address itself says nothing about meaning; moving the tiger card to shelf 7 would not change its learned contents. The table is therefore a collection of learned starting descriptions, while the token ID is merely the address used to fetch one.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -1048,7 +1008,7 @@ $$
 
 ## Excavation 038 — Position — Why Order Must Enter the Model
 
-Tiger at position 0 retrieves content [0.8,0.2] and position [0.1,-0.1], producing [0.9,0.1]. The same tiger at position 2 adds a different position vector, so content stays recognizable while order changes.
+Compare “tiger chases deer” with “deer chases tiger.” The same three word cards appear, so content alone cannot distinguish hunter from hunted. Give the first slot one reusable position mark, the second another, and the third another. Adding the appropriate mark to each word leaves *tiger* recognizable while also telling later attention whether this occurrence came first or last.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -1073,7 +1033,7 @@ The equation arrives after every operation has a job.
 
 ## Excavation 039 — Causal Masking — Preventing the Future from Leaking Backward
 
-For position i=2, sources j=0,1,2 receive mask value 0 and remain visible. Sources j=3,4 receive negative infinity; exponentiation turns those scores into zero weight.
+While learning from “the tiger sleeps,” the model sees the complete training sentence. At the position after *the*, the correct next token *tiger* is already sitting to the right. Place an impassable barrier on every connection pointing into the future. In score language, those forbidden paths receive a value whose exponential contribution becomes zero, while present and earlier words remain available.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -1121,7 +1081,7 @@ The equation arrives after every operation has a job.
 
 ## Excavation 041 — Logits — Let Every Vocabulary Token Compete
 
-Let hidden state be [2,1]. One candidate column [3,0] scores 6; another [0,4] scores 4. Adding each candidate bias adjusts its baseline. These raw comparisons are logits.
+After reading “the striped animal is a,” the model holds one contextual description. Every vocabulary candidate now presents a learned question: how well does this description support *tiger*, *river*, *sleeping*, and so on? Matching the same context against each candidate produces one raw score per word. Those scores are logits; they are competitors, not probabilities yet.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -1145,7 +1105,7 @@ The equation arrives after every operation has a job.
 
 ## Excavation 042 — Vocabulary Probabilities — Turning Scores into a Prediction
 
-For logits [1,2], softmax gives about [0.27,0.73]. If the observed token is the second, loss is -log(0.73), about 0.31. Assigning it 0.01 would cost about 4.61.
+Suppose *tiger* receives score 2 and *leopard* score 1 after “the striped animal is a.” Softmax turns them into shares of about 0.73 and 0.27. If the observed answer is *tiger*, the model pays the surprise of assigning it 0.73. Had it assigned tiger only 0.01, the penalty would be far larger. The loss therefore records not merely whether the guess won, but how much belief the model risked on reality.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -1169,7 +1129,7 @@ The equation arrives after every operation has a job.
 
 ## Excavation 043 — Sampling — Choosing Without Always Taking the Maximum
 
-For logits [1,2], T=1 keeps the original gap. T=0.5 turns them into [2,4], making the winner much sharper. T=2 turns them into [0.5,1], making alternatives more plausible.
+After “the tiger,” suppose *sleeps* is more likely than *runs*, but both make sense. Always choosing the winner makes every story follow the same path. Imagine a temperature dial on indecision: cooling enlarges the evidence gap and makes *sleeps* dominate; heating shrinks the gap and lets *runs* remain plausible. Dividing every logit by the same temperature implements that dial before sampling.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -1194,7 +1154,7 @@ The equation arrives after every operation has a job.
 
 ## Excavation 044 — Context Windows — How Much Past Can the Model Carry?
 
-With 4 tokens, attention forms 4×4=16 query-key comparisons. With 8 tokens it forms 8×8=64—not merely twice as many. This repeated pairing creates square growth.
+Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The reader can see the growth by drawing the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -1218,7 +1178,7 @@ The equation arrives after every operation has a job.
 
 ## Excavation 045 — A Tiny GPT — Close the Prediction Loop
 
-Prompt IDs enter embeddings, pass through a masked block, and produce logits [1,3,0]. Softmax favors the second token; sampling selects it, appends it to the prompt, and runs the same loop again.
+Begin with the prompt “the tiger.” Its token addresses fetch learned starting descriptions; position marks preserve order; masked attention gathers only allowed context; token workshops transform what was gathered; and the output scores every possible next word. Suppose sampling chooses *sleeps*. Appending that choice creates “the tiger sleeps,” and the same mechanism now faces a new prediction. The language model exists only when this entire loop closes.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -1316,6 +1276,8 @@ $$
 
 ## Excavation 077 — Convolution — Reusing the Same Local Detector
 
+A ranger photographs a tiger behind tall grass. Along one row, neighboring brightness values change from dark grass to bright stripe and back to dark fur. She builds one three-slot stripe detector and slides that same detector across the row. At every location she multiplies each observed brightness by the matching detector slot and adds the agreements. A large total says the local patch resembles the stripe pattern. Reusing the detector matters because a stripe should remain a stripe whether it appears on the left or right of the photograph.
+
 - The signal values are neighboring brightness measurements.
 - The kernel values are the same small detector reused at every location.
 - Multiplication measures how each local measurement agrees with its detector weight.
@@ -1332,6 +1294,8 @@ $$
 ---
 
 ## Excavation 084 — Diffusion — Learning by Destroying
+
+Print a clean tiger photograph on transparent film. At the first step, keep almost all of the photograph and mix in a faint sheet of random grain. At later steps, keep less tiger and add more grain until the animal is nearly lost. The two mixing amounts must be coordinated: increasing noise while keeping all the original image would make total intensity grow without bound. The square-root factors preserve a controlled overall scale while transferring influence from image to noise.
 
 - The clean image is the named tiger image x0.
 - Noise ε is the random corruption added during the forward process.
@@ -1350,6 +1314,8 @@ $$
 
 ## Excavation 085 — Denoising — Predicting What the Noise Hid
 
+Take one pixel from that corrupted tiger image. We know the random grain added to it was `+0.30`. The denoiser sees the corrupted image and the current noise step and predicts `+0.20`. Its error is `0.10`; squaring makes the contribution `0.01` and prevents a `-0.10` error elsewhere from cancelling it. Repeating this comparison across pixels and images teaches the network which part of a noisy observation should be removed.
+
 - xt is the noisy image already constructed in the example.
 - t tells the network how much corruption it faces.
 - The network predicts the exact noise ε that hid the clean image.
@@ -1366,6 +1332,8 @@ $$
 ---
 
 ## Excavation 089 — Q-Learning — Improving Values from Experience
+
+A rescue robot reaches a fork. Moving left finds one injured hiker now, worth immediate reward 1, and leads to a state whose best known continuation is worth 5. If future reward is discounted by 0.9, the experience proposes `1 + 0.9×5 = 5.5` as the new target value for choosing left. The robot is not claiming certainty; it is joining what happened now with its best current estimate of what can follow.
 
 - The immediate reward is what happened now.
 - The largest next-state Q value represents the best continuation currently known.
@@ -1384,6 +1352,8 @@ $$
 
 ## Excavation 090 — Policy Gradients — Improving the Choices Directly
 
+A rescue robot sometimes chooses the river path and sometimes the ridge path. On one trip it samples the ridge with probability 0.30 and eventually reaches the hiker safely, earning a strong return. The learning signal should make that sampled choice somewhat more likely. On a failed trip, the return reverses the pressure. The policy gradient is the bookkeeping rule that connects how the trip ended to how the probability of the chosen action should change.
+
 - The sampled action probability comes from policy πθ.
 - Its log converts repeated action probabilities into additive learning signals.
 - Return G says how the chosen action eventually turned out.
@@ -1400,6 +1370,8 @@ $$
 ---
 
 ## Excavation 092 — Contrastive Learning
+
+Place four wildlife photographs beside four captions. The tiger photograph should prefer “a striped predator” over “a river,” “a truck,” and “a sleeping dog.” Pulling only the correct pair together is insufficient: every photograph and caption could collapse to the same location. Making the tiger compete against all candidate captions forces its correct caption to be closer *relative to the alternatives*.
 
 - zi and ti are the matched image and text vectors.
 - Their dot product is the named alignment score.
@@ -1419,6 +1391,8 @@ $$
 
 ## Excavation 094 — Low-Rank Adaptation
 
+A large language model already knows general English, but a park service needs it to understand a small set of ranger report conventions. Copying and changing its entire transformation matrix would be expensive. Instead, freeze the original map and learn two narrow maps: one compresses a report into a few adaptation directions, and the other expands those directions back into a correction with the original shape. Adding that correction preserves the base map while bending it toward ranger language.
+
 - W is the frozen large matrix we refuse to duplicate.
 - A and B are the two narrow trainable matrices.
 - Their product BA creates a full-shaped correction while using far fewer values.
@@ -1435,6 +1409,8 @@ $$
 ---
 
 ## Excavation 095 — Quantization
+
+Suppose one learned weight is `0.73`, but the device can store only integer steps of size `0.10`. Dividing by the step size says the weight is 7.3 steps; rounding stores integer 7. During computation, multiplying 7 by `0.10` reconstructs `0.70`. The device has traded an error of `0.03` for cheaper storage and arithmetic. The scale decides which real differences survive.
 
 - Real weight w is divided by scale s to express it in integer-sized steps.
 - Rounding chooses the nearest allowed integer q.
@@ -1453,6 +1429,8 @@ $$
 
 ## Excavation 102 — Bayesian Updating
 
+Before seeing tracks, a ranger considers tiger less common than deer: perhaps tiger receives prior share 1 and deer share 4. A deep round print is far more expected under tiger—say likelihood 8—than deer—say likelihood 1. Multiplying gives supports 8 for tiger and 4 for deer. Dividing each by total support 12 turns them into revised shares: two thirds tiger, one third deer. The print overcame the prior, but did not erase it.
+
 - Tiger’s prior belief is its share before the footprint.
 - The footprint likelihood says how expected this exact clue is if tiger is true.
 - Multiplying gives tiger’s unnormalized support.
@@ -1469,6 +1447,8 @@ $$
 ---
 
 ## Excavation 115 — Tree Search
+
+A cave explorer can investigate the river tunnel or the ridge tunnel. The river tunnel has produced good finds in eight visits; the ridge has been tried only once. Choosing only the better average may ignore an undiscovered ridge chamber, while choosing only the least visited branch wastes known evidence. The search score adds an uncertainty bonus that is large for neglected branches and shrinks as visits supply evidence.
 
 - The average reward records how well one branch has performed.
 - Visit count shrinks the exploration bonus as evidence accumulates.
@@ -1487,6 +1467,8 @@ $$
 
 ## Excavation 119 — Graph Neural Networks
 
+Three villages share borders. The river village wants to update its flood-risk estimate using reports from its upstream neighbors. Each neighbor converts its own rainfall and elevation into the same kind of message; the river village adds those messages, then combines them with its existing local estimate. Addition works whether it has two neighbors or five and does not pretend that the order in which reports arrive changes geography.
+
 - Node v keeps its current representation.
 - Every neighbor u sends a message computed by the same rule.
 - Summation combines a variable number of messages without depending on neighbor order.
@@ -1503,6 +1485,8 @@ $$
 ---
 
 ## Excavation 122 — Differential Privacy
+
+A clinic wants to publish an average recovery time. Imagine two almost identical worlds: one dataset includes Maya's record and the other does not. If the published number changes dramatically, an observer can infer Maya's participation. The privacy mechanism limits how much the probability of any released result may differ between those worlds. Clipping limits one person's influence; calibrated randomness makes the two possible output distributions overlap.
 
 - D and D-prime are two datasets differing in one person.
 - The same possible released result S is considered under both.

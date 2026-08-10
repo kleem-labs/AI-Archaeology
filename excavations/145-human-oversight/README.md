@@ -22,7 +22,7 @@ Write down what changed, what remained fixed, and which observation could have c
 
 A reviewer without time or context is not meaningful oversight.
 
-The boundary follows from the mechanism itself. We designed it to Automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+The boundary follows from the mechanism itself. We designed it to automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

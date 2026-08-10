@@ -37,18 +37,7 @@ Stacking the questions creates a **matrix**. Only after that idea is clear do we
 
 ## Build Every Piece from the Concrete Example
 
-Our animal report has normalized weight signal 4 and speed signal 5.
-
-The first output is a threat score: two copies of weight plus three copies of speed, giving 2×4 + 3×5 = 23.
-
-The second is a chase score: ignore weight and take four copies of speed, giving 0×4 + 4×5 = 20.
-
-~~~text
-threat = 2×weight + 3×speed = 2×4 + 3×5 = 23
-chase  = 0×weight + 4×speed = 0×4 + 4×5 = 20
-~~~
-
-Only after these named recipes do they become two matrix rows.
+A ranger must turn two observations—how heavy an animal looks and how fast it moves—into two decisions: danger and whether pursuit is possible. For danger she counts the weight clue twice and the speed clue three times. For pursuit she ignores weight and counts speed four times. Writing the two recipes as rows lets one reusable machine apply both judgments to every animal report.
 
 ### Give Short Names Only After We Know the Pieces
 

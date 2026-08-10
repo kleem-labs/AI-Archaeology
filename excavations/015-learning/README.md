@@ -40,7 +40,7 @@ Only now does the update rule earn its place:
 
 ## Build Every Piece from the Concrete Example
 
-One weight is 8, its target is 3, and its local uphill sensitivity is 10. Taking one tenth of the reversed suggestion moves it to 7 and lowers squared error from 25 to 16.
+A tiger alarm has one adjustable dial: how strongly a stripe should raise danger. The dial is currently 8, but repeated verified encounters suggest 3 would fit better. Its present squared mistake is 25, and a tiny upward test reveals that increasing the dial makes error rise with sensitivity 10. Reversing one tenth of that uphill suggestion moves the dial from 8 to 7 and lowers the mistake to 16.
 
 ### Give Short Names Only After We Know the Pieces
 

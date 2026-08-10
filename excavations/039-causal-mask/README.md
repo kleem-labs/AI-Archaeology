@@ -16,7 +16,7 @@ A mask prevents direct attention leakage; shifted targets and data pipelines mus
 
 ## Build each piece from what just happened
 
-For position i=2, sources j=0,1,2 receive mask value 0 and remain visible. Sources j=3,4 receive negative infinity; exponentiation turns those scores into zero weight.
+While learning from “the tiger sleeps,” the model sees the complete training sentence. At the position after *the*, the correct next token *tiger* is already sitting to the right. Place an impassable barrier on every connection pointing into the future. In score language, those forbidden paths receive a value whose exponential contribution becomes zero, while present and earlier words remain available.
 
 ### Give Short Names Only After We Know the Pieces
 

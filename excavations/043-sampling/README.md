@@ -16,7 +16,7 @@ Sampling changes expression, not knowledge. No decoding rule can repair a model 
 
 ## Build each piece from what just happened
 
-For logits [1,2], T=1 keeps the original gap. T=0.5 turns them into [2,4], making the winner much sharper. T=2 turns them into [0.5,1], making alternatives more plausible.
+After “the tiger,” suppose *sleeps* is more likely than *runs*, but both make sense. Always choosing the winner makes every story follow the same path. Imagine a temperature dial on indecision: cooling enlarges the evidence gap and makes *sleeps* dominate; heating shrinks the gap and lets *runs* remain plausible. Dividing every logit by the same temperature implements that dial before sampling.
 
 ### Give Short Names Only After We Know the Pieces
 

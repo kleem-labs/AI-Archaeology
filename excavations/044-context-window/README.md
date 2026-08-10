@@ -16,7 +16,7 @@ A larger window is not perfect memory. Retrieval, compression, recurrence, and c
 
 ## Build each piece from what just happened
 
-With 4 tokens, attention forms 4×4=16 query-key comparisons. With 8 tokens it forms 8×8=64—not merely twice as many. This repeated pairing creates square growth.
+Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The reader can see the growth by drawing the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
 
 ### Give Short Names Only After We Know the Pieces
 

@@ -18,6 +18,9 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 ## Build each piece from what just happened
 
+
+A large language model already knows general English, but a park service needs it to understand a small set of ranger report conventions. Copying and changing its entire transformation matrix would be expensive. Instead, freeze the original map and learn two narrow maps: one compresses a report into a few adaptation directions, and the other expands those directions back into a correction with the original shape. Adding that correction preserves the base map while bending it toward ranger language.
+
 - W is the frozen large matrix we refuse to duplicate.
 - A and B are the two narrow trainable matrices.
 - Their product BA creates a full-shaped correction while using far fewer values.

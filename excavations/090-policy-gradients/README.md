@@ -18,6 +18,9 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 ## Build each piece from what just happened
 
+
+A rescue robot sometimes chooses the river path and sometimes the ridge path. On one trip it samples the ridge with probability 0.30 and eventually reaches the hiker safely, earning a strong return. The learning signal should make that sampled choice somewhat more likely. On a failed trip, the return reverses the pressure. The policy gradient is the bookkeeping rule that connects how the trip ended to how the probability of the chosen action should change.
+
 - The sampled action probability comes from policy πθ.
 - Its log converts repeated action probabilities into additive learning signals.
 - Return G says how the chosen action eventually turned out.
@@ -33,7 +36,7 @@ $$
 
 Policy gradients are noisy and can exploit reward flaws.
 
-The boundary follows from the mechanism itself. We designed it to Sample from a policy and increase probability of actions followed by better-than-expected returns. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+The boundary follows from the mechanism itself. We designed it to sample from a policy and increase probability of actions followed by better-than-expected returns. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

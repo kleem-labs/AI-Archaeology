@@ -18,6 +18,9 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 ## Build each piece from what just happened
 
+
+Print a clean tiger photograph on transparent film. At the first step, keep almost all of the photograph and mix in a faint sheet of random grain. At later steps, keep less tiger and add more grain until the animal is nearly lost. The two mixing amounts must be coordinated: increasing noise while keeping all the original image would make total intensity grow without bound. The square-root factors preserve a controlled overall scale while transferring influence from image to noise.
+
 - The clean image is the named tiger image x0.
 - Noise ε is the random corruption added during the forward process.
 - The retained clean fraction and noise fraction change with step t.

@@ -14,7 +14,7 @@ The procedure now works in ordinary language. To repeat it consistently and impl
 
 ## Build each piece from what just happened
 
-A weight change is doubled by the first machine, tripled by the second, and quadrupled by the loss. One unit at the start becomes 2, then 6, then 24. Multiplying 2×3×4 captures the complete path.
+Turn an oven knob slightly. The first mechanism doubles that movement into a fuel change; the next triples the fuel change into temperature; the bread-loss rule magnifies the temperature error fourfold. A one-unit knob change therefore becomes 2, then 6, then 24 units of final sensitivity. Each machine contributes one local multiplier, and the whole causal path requires all of them.
 
 ### Give Short Names Only After We Know the Pieces
 

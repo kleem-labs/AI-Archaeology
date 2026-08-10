@@ -18,6 +18,9 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 ## Build each piece from what just happened
 
+
+A clinic wants to publish an average recovery time. Imagine two almost identical worlds: one dataset includes Maya's record and the other does not. If the published number changes dramatically, an observer can infer Maya's participation. The privacy mechanism limits how much the probability of any released result may differ between those worlds. Clipping limits one person's influence; calibrated randomness makes the two possible output distributions overlap.
+
 - D and D-prime are two datasets differing in one person.
 - The same possible released result S is considered under both.
 - Epsilon limits how much more likely that result may become because one person participated.

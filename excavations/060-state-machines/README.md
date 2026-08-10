@@ -20,7 +20,7 @@ No new equation is needed. The invention is a boundary, procedure, or system con
 
 Real workflows have exceptions and concurrent events. State machines need recovery paths and authoritative external records.
 
-The boundary follows from the mechanism itself. We designed it to Represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+The boundary follows from the mechanism itself. We designed it to represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

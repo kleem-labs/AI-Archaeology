@@ -16,7 +16,7 @@ Logits have no standalone probability meaning and can shift together without cha
 
 ## Build each piece from what just happened
 
-Let hidden state be [2,1]. One candidate column [3,0] scores 6; another [0,4] scores 4. Adding each candidate bias adjusts its baseline. These raw comparisons are logits.
+After reading “the striped animal is a,” the model holds one contextual description. Every vocabulary candidate now presents a learned question: how well does this description support *tiger*, *river*, *sleeping*, and so on? Matching the same context against each candidate produces one raw score per word. Those scores are logits; they are competitors, not probabilities yet.
 
 ### Give Short Names Only After We Know the Pieces
 

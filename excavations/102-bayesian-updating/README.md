@@ -18,6 +18,9 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 ## Build each piece from what just happened
 
+
+Before seeing tracks, a ranger considers tiger less common than deer: perhaps tiger receives prior share 1 and deer share 4. A deep round print is far more expected under tiger—say likelihood 8—than deer—say likelihood 1. Multiplying gives supports 8 for tiger and 4 for deer. Dividing each by total support 12 turns them into revised shares: two thirds tiger, one third deer. The print overcame the prior, but did not erase it.
+
 - Tiger’s prior belief is its share before the footprint.
 - The footprint likelihood says how expected this exact clue is if tiger is true.
 - Multiplying gives tiger’s unnormalized support.

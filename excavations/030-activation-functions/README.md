@@ -16,7 +16,7 @@ The repair solves the immediate failure, but every activation has tradeoffs: dea
 
 ## Build each piece from what just happened
 
-Without a gate, multiplying by 2 and then 3 always equals multiplying once by 6. With ReLU between them, input -1 becomes -2, then 0, then 0—behavior no single multiply-by-6 rule reproduces for both signs.
+A gatekeeper receives a danger signal. Two ordinary scaling rules—double it, then triple it—always behave like one rule that multiplies by six. Adding more such rules has created no new decision. Put a gate between them: negative evidence is closed to zero while positive evidence continues. Now the same machinery treats warning evidence and reassuring evidence differently, something one multiplication cannot reproduce.
 
 ### Give Short Names Only After We Know the Pieces
 

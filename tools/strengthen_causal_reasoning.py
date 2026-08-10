@@ -42,6 +42,10 @@ for path in sorted((ROOT / "excavations").glob("*/README.md")):
     number = int(path.parent.name[:3])
     text = path.read_text()
     text = text.replace("Look back at what the repair actually does: it ", "The repair is explicit: ")
+    # Imperative repair sentences were sometimes inserted after infinitives
+    # with their original capital letter. Lowercase only that first word.
+    text = re.sub(r"(We designed it to )([A-Z])", lambda m: m.group(1) + m.group(2).lower(), text)
+    text = re.sub(r"(only knows how to )([A-Z])", lambda m: m.group(1) + m.group(2).lower(), text)
 
     # In 017–045 the old migration inserted the completed method's later limit
     # where the naive counterexample belonged. The attempted paragraph already

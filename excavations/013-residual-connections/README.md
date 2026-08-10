@@ -27,7 +27,7 @@ Only now do we need the compact rule:
 
 ## Build Every Piece from the Concrete Example
 
-A layer receives [5,2]. If it discovers only a correction [0.5,-1], addition gives [5.5,1]. If no correction is needed, [0,0] preserves [5,2] exactly instead of relearning how to copy it.
+A cartographer already has a useful map of the forest. A new survey reports that one trail bends half a kilometre east and one kilometre south. Replacing the whole map with that small report would destroy everything known; adding it as a correction preserves the map and changes only the trail. If the survey discovers nothing useful, adding a zero correction leaves the original untouched.
 
 ### Give Short Names Only After We Know the Pieces
 

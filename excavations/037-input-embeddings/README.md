@@ -37,7 +37,7 @@ Let the embedding table contain one row for each vocabulary item:
 
 ## Build each piece from what just happened
 
-With four tokens and width two, the table might have rows [0.1,0.8], [-0.2,0.4], [0.7,-0.1], [0.3,0.2]. Token ID 2 selects [0.7,-0.1]; the number 2 is only the shelf address.
+The tokenizer assigns shelf address 2 to *tiger*. Looking up address 2 retrieves a small card of adjustable coordinates learned from tiger's usage. The address itself says nothing about meaning; moving the tiger card to shelf 7 would not change its learned contents. The table is therefore a collection of learned starting descriptions, while the token ID is merely the address used to fetch one.
 
 ### Give Short Names Only After We Know the Pieces
 

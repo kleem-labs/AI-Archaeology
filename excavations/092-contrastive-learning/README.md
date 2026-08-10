@@ -18,6 +18,9 @@ The named objects and arithmetic come first. This chapter introduces no displaye
 
 ## Build each piece from what just happened
 
+
+Place four wildlife photographs beside four captions. The tiger photograph should prefer “a striped predator” over “a river,” “a truck,” and “a sleeping dog.” Pulling only the correct pair together is insufficient: every photograph and caption could collapse to the same location. Making the tiger compete against all candidate captions forces its correct caption to be closer *relative to the alternatives*.
+
 - zi and ti are the matched image and text vectors.
 - Their dot product is the named alignment score.
 - Temperature T controls how sharply alternatives compete.

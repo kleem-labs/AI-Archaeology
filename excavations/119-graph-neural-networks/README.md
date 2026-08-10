@@ -18,6 +18,9 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 ## Build each piece from what just happened
 
+
+Three villages share borders. The river village wants to update its flood-risk estimate using reports from its upstream neighbors. Each neighbor converts its own rainfall and elevation into the same kind of message; the river village adds those messages, then combines them with its existing local estimate. Addition works whether it has two neighbors or five and does not pretend that the order in which reports arrive changes geography.
+
 - Node v keeps its current representation.
 - Every neighbor u sends a message computed by the same rule.
 - Summation combines a variable number of messages without depending on neighbor order.

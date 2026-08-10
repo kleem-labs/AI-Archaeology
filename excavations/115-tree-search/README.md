@@ -18,6 +18,9 @@ The named objects come first. We add notation only when it shortens a procedure 
 
 ## Build each piece from what just happened
 
+
+A cave explorer can investigate the river tunnel or the ridge tunnel. The river tunnel has produced good finds in eight visits; the ridge has been tried only once. Choosing only the better average may ignore an undiscovered ridge chamber, while choosing only the least visited branch wastes known evidence. The search score adds an uncertainty bonus that is large for neglected branches and shrinks as visits supply evidence.
+
 - The average reward records how well one branch has performed.
 - Visit count shrinks the exploration bonus as evidence accumulates.
 - Total visits increase pressure to reconsider neglected branches.
@@ -33,7 +36,7 @@ $$
 
 Search quality depends on simulations and evaluation estimates.
 
-The boundary follows from the mechanism itself. We designed it to Balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+The boundary follows from the mechanism itself. We designed it to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

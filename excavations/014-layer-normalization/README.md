@@ -25,7 +25,7 @@ Only after this procedure feels natural do we compress it:
 
 ## Build Every Piece from the Concrete Example
 
-For [1,2,3], the mean is 2. Centering gives [-1,0,1]; their squared average is 2/3. Dividing by its square root gives a zero-centered, predictable-scale pattern. Epsilon matters for [4,4,4], whose spread is zero.
+Three microphones hear the same roar at volumes 1, 2, and 3 because one sits closer to the tiger. Their shared centre is 2. Subtracting it leaves the pattern `[-1, 0, 1]`: quieter, typical, louder. Dividing by the pattern's spread makes that relative shape comparable with another set recorded by more sensitive microphones. A tiny safety amount is needed when all microphones report the same value and the spread is zero.
 
 ### Give Short Names Only After We Know the Pieces
 

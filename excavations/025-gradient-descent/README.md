@@ -14,36 +14,7 @@ The procedure now works in ordinary language. To repeat it consistently and impl
 
 ## Build each piece from what just happened
 
-Forget θ for a moment. Our tiny model has one adjustable weight, currently **8**. We want it to become **3**, so its mistake is (weight − 3)². At weight 8, the mistake is 25.
-
-A tiny upward nudge shows a local sensitivity of 10. In ordinary language: increasing the weight a little makes the mistake rise about ten times as much. Ten therefore points uphill. To reduce the mistake, we move the other way. That creates the minus sign.
-
-Should we move the entire ten units?
-
-~~~text
-8 - 10 = -2
-mistake at -2 = (-2 - 3)² = 25
-~~~
-
-We jumped across the valley and learned nothing. So direction is not enough. We need a knob controlling how much of the proposed movement we trust.
-
-Try taking one tenth:
-
-~~~text
-suggested uphill direction = 10
-reverse it                 = -10
-take one tenth             = -1
-new weight                 = 8 - 1 = 7
-new mistake                = (7 - 3)² = 16
-~~~
-
-The mistake fell from 25 to 16. That one tenth is the **learning rate**, later written η. It is simply a caution knob:
-
-- η = 1 takes the entire proposed movement;
-- η = 0.1 takes one tenth;
-- η = 0.01 takes one hundredth.
-
-Too large can jump over the valley. Too small moves safely but slowly.
+Return to the tiger alarm's stripe dial. It is 8; verified encounters suggest 3; the squared mistake is 25; and the local uphill sensitivity is 10. Moving the full ten units lands at −2, equally far from the target on the other side. Direction alone has not taught us distance. Taking one tenth of the proposed correction moves the dial to 7 and lowers the mistake to 16. That chosen fraction is the learning rate.
 
 ### Give Short Names Only After We Know the Pieces
 
@@ -79,7 +50,7 @@ Descending in fog requires frequent local slope readings and careful steps. Mome
 
 Gradient descent finds a reachable low region, not necessarily the unique best explanation. Data, initialization, scale, and step size all shape the journey.
 
-The boundary follows from the mechanism itself. We designed it to Move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
+The boundary follows from the mechanism itself. We designed it to move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

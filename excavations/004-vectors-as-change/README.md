@@ -22,7 +22,7 @@ Only now is an equation useful:
 
 ## Build Every Piece from the Concrete Example
 
-A traveler starts at [2,3] and ends at [7,1]. Removing the start coordinate by coordinate gives [5,-2]. Adding that change to a different start [10,10] produces [15,8], proving the instruction can travel.
+A rescue party marks its camp on a paper map. It walks five kilometres east and two kilometres south to reach an injured ranger. Those instructions still work if a second party begins from another camp: move five east and two south. Only after the route has a meaning do we record east–west and north–south change as `[5, -2]`.
 
 ### Give Short Names Only After We Know the Pieces
 
