@@ -4,19 +4,11 @@
 
 How can a huge pretrained model learn a new task without changing every weight?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Copy and fine-tune all parameters for every task.
 
-*Your first move:* Copy and fine-tune all parameters for every task.
+It works—right up to this boundary: Storage and training cost multiply, and the base model is harder to preserve.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Storage and training cost multiply, and the base model is harder to preserve.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Freeze the base and learn a small low-rank correction to selected matrices.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Freeze the base and learn a small low-rank correction to selected matrices.
 
 ## Now work a case you can see
 

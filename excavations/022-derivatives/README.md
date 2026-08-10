@@ -4,23 +4,11 @@
 
 The loss is high. The model has thousands of adjustable numbers. For one weight, should we increase it or decrease it?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Try a large jump and keep it if loss falls. Large jumps can leap over improvements. Try every possible value; there are infinitely many.
 
-*Your first move:* Try a large jump and keep it if loss falls. Large jumps can leap over improvements. Try every possible value; there are infinitely many.
+Its hidden assumption appears in the following case: A derivative is local advice. Curved landscapes can change direction, flatten, or hide better valleys elsewhere.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Try a large jump and keep it if loss falls. Large jumps can leap over improvements. Try every possible value; there are infinitely many.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
 
 ## Why It Still Fails
 

@@ -4,19 +4,11 @@
 
 How should one experience update the value of an action?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Replace its value with the immediate reward.
 
-*Your first move:* Replace its value with the immediate reward.
+It works—right up to this boundary: The update ignores the valuable state reached afterward.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The update ignores the valuable state reached afterward.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Move the estimate toward reward plus the best discounted value available next.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Move the estimate toward reward plus the best discounted value available next.
 
 ## Now work a case you can see
 

@@ -4,21 +4,11 @@
 
 A pretrained model continues text well but may continue a question instead of answering it.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Prompt more forcefully and hope next-token prediction infers the desired interaction.
 
-*Your first move:* Prompt more forcefully and hope next-token prediction infers the desired interaction.
+Its hidden assumption appears in the following case: Given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy. What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy.
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
 
 ## Now work a case you can see
 

@@ -4,21 +4,11 @@
 
 A model labels many answers “80% confident.” Can a user interpret that number?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Treat the largest softmax probability as honest confidence.
 
-*Your first move:* Treat the largest softmax probability as honest confidence.
+It works—right up to this boundary: Collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability. What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability.
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
 
 ## Build each piece from what just happened
 

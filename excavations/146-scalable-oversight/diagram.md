@@ -1,13 +1,15 @@
-# Diagram — Scalable Oversight — Reviewing Work Too Large for One Person
+# Diagram — Excavation 146 — Scalable Oversight — Reviewing Work Too Large for One Person
+
+The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart LR
-    A["Observation"] --> B["Tempting shortcut"]
-    B --> C["Counterexample"]
-    C --> D["Required repair"]
-    D --> E["Scalable Oversight"]
+    B["The review exceeds human attention and hidden failures survive."] --> A["Reject: Ask one expert to approve the entire artifact."]
+    B --> C["Keep: Decompose the work, attach local evidence, sample strategically, and escalate disagreements…"]
 ```
 
 ```text
-observation -> attempt -> failure -> requirement -> discovery
+TRY     Ask one expert to approve the entire artifact.
+BREAK   The review exceeds human attention and hidden failures survive.
+REPAIR  Decompose the work, attach local evidence, sample strategically, and escalate disagreements…
 ```

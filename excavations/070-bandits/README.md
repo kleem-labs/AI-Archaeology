@@ -4,19 +4,11 @@
 
 An agent must choose recommendations while still learning which are useful.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Always choose the currently best option.
 
-*Your first move:* Always choose the currently best option.
+The idea survives only until we test it against reality: An unlucky first result permanently hides a better alternative.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* An unlucky first result permanently hides a better alternative.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Reserve some choices for exploration while exploiting accumulated evidence.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Reserve some choices for exploration while exploiting accumulated evidence.
 
 ## Now work a case you can see
 

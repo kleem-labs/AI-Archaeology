@@ -9,23 +9,11 @@
 
 Our network accepts numbers, but people produce an open stream of words, punctuation, names, code, and writing systems. Before learning language, the machine needs repeatable input pieces.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Give every complete word one ID. Spaces appear to provide the boundaries.
 
-*Your first move:* Give every complete word one ID. Spaces appear to provide the boundaries.
+Now place that proposal under pressure: Give every complete word one ID. Spaces appear to provide the boundaries.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Give every complete word one ID. Spaces appear to provide the boundaries.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Use characters. Any new spelling can now be represented.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Use characters. Any new spelling can now be represented.
 
 Begin with universally representable pieces. Count adjacent pairs and repeatedly merge the pair that occurs most often. Frequent structure earns a reusable subword token; rare forms remain constructible from smaller pieces.
 

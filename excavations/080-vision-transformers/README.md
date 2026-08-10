@@ -4,19 +4,11 @@
 
 Convolutions bake in locality, but distant image regions may need direct comparison.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Treat every pixel as a token.
 
-*Your first move:* Treat every pixel as a token.
+The idea survives only until we test it against reality: The sequence becomes enormous and individual pixels carry little stable structure.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The sequence becomes enormous and individual pixels carry little stable structure.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Group pixels into patches, embed them as tokens, add position, and apply attention.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Group pixels into patches, embed them as tokens, add position, and apply attention.
 
 ## Now work a case you can see
 

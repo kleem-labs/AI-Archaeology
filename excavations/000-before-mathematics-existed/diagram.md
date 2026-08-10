@@ -1,10 +1,15 @@
 # Diagram — Excavation 000 — Before Mathematics Existed
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
+```mermaid
 flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+    A["Exact memory"] -->|"test"| B["A harmless change makes every encounter look new."]
+    B -->|"forces"| C["Keep recurring evidence. The chapter derives why this repair exists before naming…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Exact memory
+BREAK   A harmless change makes every encounter look new.
+REPAIR  Keep recurring evidence. The chapter derives why this repair exists before naming…
+```

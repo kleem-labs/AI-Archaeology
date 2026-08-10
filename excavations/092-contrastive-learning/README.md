@@ -4,19 +4,11 @@
 
 Paired examples should be close, but close relative to what?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Pull every observed pair together without negatives.
 
-*Your first move:* Pull every observed pair together without negatives.
+Its hidden assumption appears in the following case: All representations can collapse to one point.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* All representations can collapse to one point.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Compare each true pair against mismatched alternatives in the same batch.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Compare each true pair against mismatched alternatives in the same batch.
 
 ## Now work a case you can see
 

@@ -4,19 +4,11 @@
 
 A tiny input change invisible to a person flips the model’s decision.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Test only natural clean examples.
 
-*Your first move:* Test only natural clean examples.
+It works—right up to this boundary: An attacker follows the model’s sensitivity into a brittle direction.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* An attacker follows the model’s sensitivity into a brittle direction.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Search for worst-case permitted perturbations, train against them, and bound behavior where possible.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Search for worst-case permitted perturbations, train against them, and bound behavior where possible.
 
 ## Now work a case you can see
 

@@ -4,13 +4,13 @@
 
 Two solutions reach the correct number; one used invalid reasoning by luck.
 
-Before inheriting a technique, make the first decision yourself. Reward only whether the final answer matches.
+Our first construction is deliberately modest: Reward only whether the final answer matches.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Lucky shortcuts receive the same credit as reliable reasoning.
+It works—right up to this boundary: Lucky shortcuts receive the same credit as reliable reasoning.
 
-The failure tells you what the repair must accomplish. Evaluate checkable intermediate claims and train the system to prefer valid paths.
+Crossing that boundary requires one additional idea: Evaluate checkable intermediate claims and train the system to prefer valid paths.
 
-Only now have you earned the chapter's name: **Process Supervision**.
+Only here do we name the idea: **Process Supervision**.
 
 ## Follow one case all the way through
 

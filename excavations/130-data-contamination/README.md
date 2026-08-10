@@ -4,13 +4,13 @@
 
 A model scores perfectly on a benchmark. Did it generalize?
 
-Before inheriting a technique, make the first decision yourself. Assume held-out files guarantee unseen knowledge.
+The first solution that suggests itself is this: Assume held-out files guarantee unseen knowledge.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: The same questions appeared online in training data with small formatting changes.
+The idea survives only until we test it against reality: The same questions appeared online in training data with small formatting changes.
 
-The failure tells you what the repair must accomplish. Track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations.
+The failure gives us a precise requirement: Track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations.
 
-Only now have you earned the chapter's name: **Data Contamination**.
+Only here do we name the idea: **Data Contamination**.
 
 ## Follow one case all the way through
 

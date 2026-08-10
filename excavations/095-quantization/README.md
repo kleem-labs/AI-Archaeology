@@ -4,19 +4,11 @@
 
 How can a model use less memory and faster arithmetic at inference?
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Round every weight aggressively without measuring effect.
 
-*Your first move:* Round every weight aggressively without measuring effect.
+The idea survives only until we test it against reality: Small but important distinctions disappear and outputs degrade.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Small but important distinctions disappear and outputs degrade.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Map values to a limited set of levels using calibrated scale and test sensitive layers.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Map values to a limited set of levels using calibrated scale and test sensitive layers.
 
 ## Now work a case you can see
 

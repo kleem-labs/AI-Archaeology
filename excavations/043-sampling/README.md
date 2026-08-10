@@ -4,23 +4,11 @@
 
 The model predicts several plausible next tokens. Taking only the highest probability makes generation repetitive and brittle.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
 
-*Your first move:* Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
+But the simplicity has discarded something important: Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Always use argmax. The same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Control the distribution with temperature and optionally restrict it to a credible top set before sampling.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Control the distribution with temperature and optionally restrict it to a credible top set before sampling.
 
 ## Why It Still Fails
 

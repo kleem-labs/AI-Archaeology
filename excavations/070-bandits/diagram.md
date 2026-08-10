@@ -1,6 +1,15 @@
-# Diagram — 070
+# Diagram — Excavation 070 — Bandits — Learning While Choosing
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A[Observation] --> B[Reader attempt] --> C[Counterexample] --> D[Missing requirement] --> E[Reader invention]
-~~~
+    B["An unlucky first result permanently hides a better alternative."] --> A["Reject: Always choose the currently best option."]
+    B --> C["Keep: Reserve some choices for exploration while exploiting accumulated evidence."]
+```
+
+```text
+TRY     Always choose the currently best option.
+BREAK   An unlucky first result permanently hides a better alternative.
+REPAIR  Reserve some choices for exploration while exploiting accumulated evidence.
+```

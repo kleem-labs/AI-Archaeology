@@ -4,19 +4,11 @@
 
 Can many devices train together without centralizing raw data?
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Upload every user record to one server.
 
-*Your first move:* Upload every user record to one server.
+But the simplicity has discarded something important: Central collection increases privacy and governance risk.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Central collection increases privacy and governance risk.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Send model updates to devices, train locally, aggregate protected updates, and return a shared model.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Send model updates to devices, train locally, aggregate protected updates, and return a shared model.
 
 ## Now work a case you can see
 

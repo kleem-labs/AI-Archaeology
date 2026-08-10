@@ -4,19 +4,11 @@
 
 A technically safe model still affects people through deployment choices.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Let builders decide every acceptable use because they understand the system.
 
-*Your first move:* Let builders decide every acceptable use because they understand the system.
+It works—right up to this boundary: Affected users carry risks without authority, appeal, or visibility.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Affected users carry risks without authority, appeal, or visibility.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
 
 ## Now work a case you can see
 

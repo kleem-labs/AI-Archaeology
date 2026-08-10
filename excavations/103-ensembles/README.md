@@ -4,19 +4,11 @@
 
 One trained model gives a confident answer. Would another equally trained model agree?
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Trust one training run as the unique learned truth.
 
-*Your first move:* Trust one training run as the unique learned truth.
+But the simplicity has discarded something important: Different initialization and data order produce different boundaries.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Different initialization and data order produce different boundaries.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Train several diverse models and combine predictions while inspecting disagreement.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Train several diverse models and combine predictions while inspecting disagreement.
 
 ## Now work a case you can see
 

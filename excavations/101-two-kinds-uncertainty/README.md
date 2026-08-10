@@ -9,19 +9,11 @@
 
 The model is unsure whether a blurry animal is a tiger. Is the image ambiguous, or has the model never seen this species?
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Represent every uncertainty with one low confidence number.
 
-*Your first move:* Represent every uncertainty with one low confidence number.
+Now place that proposal under pressure: A clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Separate uncertainty in the observation from uncertainty in the model’s knowledge.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Separate uncertainty in the observation from uncertainty in the model’s knowledge.
 
 ## Now work a case you can see
 

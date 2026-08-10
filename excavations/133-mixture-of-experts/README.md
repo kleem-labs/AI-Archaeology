@@ -4,13 +4,13 @@
 
 Making every layer wider improves capacity but charges every token the full cost.
 
-Before inheriting a technique, make the first decision yourself. Run every specialist for every token and average them.
+At first, the simplest answer is tempting: Run every specialist for every token and average them.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Most computation is wasted on specialists irrelevant to the current token.
+But the simplicity has discarded something important: Most computation is wasted on specialists irrelevant to the current token.
 
-The failure tells you what the repair must accomplish. Learn a router that sends each token to a small number of experts while balancing their workload.
+The missing information determines the next move: Learn a router that sends each token to a small number of experts while balancing their workload.
 
-Only now have you earned the chapter's name: **Mixture of Experts**.
+Only here do we name the idea: **Mixture of Experts**.
 
 ## Follow one case all the way through
 

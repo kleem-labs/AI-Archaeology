@@ -4,19 +4,11 @@
 
 Ice-cream sales and drownings rise together. Would banning ice cream reduce drownings?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Treat every correlation as a controllable cause.
 
-*Your first move:* Treat every correlation as a controllable cause.
+Its hidden assumption appears in the following case: Hot weather raises both; changing one does not necessarily change the other.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Hot weather raises both; changing one does not necessarily change the other.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Represent plausible causal structure and distinguish observing a variable from intervening on it.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Represent plausible causal structure and distinguish observing a variable from intervening on it.
 
 ## Now work a case you can see
 

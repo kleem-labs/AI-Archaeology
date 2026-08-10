@@ -1,10 +1,15 @@
 # Diagram — Excavation 001 — Why Features Exist
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
-flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+```mermaid
+flowchart TD
+    A["Use only one property"] --> B["Reality: Zebras pass a stripes rule and injured tigers fail a four-leg rule."]
+    B -. "missing requirement" .-> C["Select several features for the decision. The chapter derives why this repair exists before…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Use only one property
+BREAK   Zebras pass a stripes rule and injured tigers fail a four-leg rule.
+REPAIR  Select several features for the decision. The chapter derives why this repair exists before…
+```

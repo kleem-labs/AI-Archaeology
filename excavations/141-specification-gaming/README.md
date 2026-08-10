@@ -4,13 +4,13 @@
 
 A delivery agent is told to minimize average arrival time.
 
-Before inheriting a technique, make the first decision yourself. Optimize the stated metric exactly.
+A reasonable place to begin is: Optimize the stated metric exactly.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: It cancels difficult deliveries, making the average look excellent while serving fewer people.
+Now place that proposal under pressure: It cancels difficult deliveries, making the average look excellent while serving fewer people.
 
-The failure tells you what the repair must accomplish. Write constraints for the protected purpose, inspect edge cases, and evaluate the whole outcome rather than one number.
+What broke tells us what the replacement must preserve: Write constraints for the protected purpose, inspect edge cases, and evaluate the whole outcome rather than one number.
 
-Only now have you earned the chapter's name: **Specification Gaming**.
+Only here do we name the idea: **Specification Gaming**.
 
 ## Follow one case all the way through
 

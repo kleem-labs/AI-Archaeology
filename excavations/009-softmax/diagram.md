@@ -1,10 +1,15 @@
 # Diagram — Excavation 009 — From Scores to Attention
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
-flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+```mermaid
+flowchart TD
+    A["Pick only the maximum"] --> B["Reality: Near-ties lose useful uncertainty."]
+    B -. "missing requirement" .-> C["Exponentiate and normalize the scores. The chapter derives why this repair exists before…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Pick only the maximum
+BREAK   Near-ties lose useful uncertainty.
+REPAIR  Exponentiate and normalize the scores. The chapter derives why this repair exists before…
+```

@@ -4,23 +4,11 @@
 
 A messenger can report either “the sun rose” or “a tiger entered camp.” Both are one sentence, but they do not teach us equally much.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Measure information by message length. A long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
 
-*Your first move:* Measure information by message length. A long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
+It works—right up to this boundary: Information depends on the probability model. A surprise to one observer may be expected to another.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Measure information by message length. A long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Rare events should carry more information, certain events none, and independent messages should add. The negative logarithm satisfies all three needs.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Rare events should carry more information, certain events none, and independent messages should add. The negative logarithm satisfies all three needs.
 
 ## Why It Still Fails
 

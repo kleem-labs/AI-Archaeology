@@ -4,21 +4,11 @@
 
 Asked for a paper that does not exist, the model confidently invents a title, authors, and journal.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Trust fluent language because uncertainty should sound hesitant.
 
-*Your first move:* Trust fluent language because uncertainty should sound hesitant.
+But the simplicity has discarded something important: Training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.” What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.”
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.
 
 ## Now work a case you can see
 

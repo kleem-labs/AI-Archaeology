@@ -4,19 +4,11 @@
 
 At one diffusion step, what should the network predict?
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Ask it to recreate the entire clean image directly from every noise level.
 
-*Your first move:* Ask it to recreate the entire clean image directly from every noise level.
+The idea survives only until we test it against reality: The task changes dramatically across noise strengths.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The task changes dramatically across noise strengths.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Tell the model the noise level and predict the added noise or equivalent clean direction.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Tell the model the noise level and predict the added noise or equivalent clean direction.
 
 ## Now work a case you can see
 

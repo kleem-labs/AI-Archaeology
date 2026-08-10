@@ -4,19 +4,11 @@
 
 One machine cannot hold the model, data, and optimizer state.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Let many machines train independent copies and combine them occasionally.
 
-*Your first move:* Let many machines train independent copies and combine them occasionally.
+Now place that proposal under pressure: Their parameters drift and duplicated work wastes computation.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Their parameters drift and duplicated work wastes computation.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Partition data or model work, synchronize required results, and preserve one coherent update.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Partition data or model work, synchronize required results, and preserve one coherent update.
 
 ## Now work a case you can see
 

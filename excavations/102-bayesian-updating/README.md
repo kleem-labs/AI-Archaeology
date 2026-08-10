@@ -4,19 +4,11 @@
 
 A tracker begins with prior beliefs about tiger, deer, and wind, then observes a deep paw print.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Discard the old belief and use only the newest clue.
 
-*Your first move:* Discard the old belief and use only the newest clue.
+Its hidden assumption appears in the following case: One noisy footprint can overpower years of evidence.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* One noisy footprint can overpower years of evidence.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Combine prior plausibility with how expected the clue is under each story, then normalize across stories.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Combine prior plausibility with how expected the clue is under each story, then normalize across stories.
 
 ## Now work a case you can see
 

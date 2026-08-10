@@ -4,13 +4,13 @@
 
 A model passes ordinary tests and is about to receive real tools.
 
-Before inheriting a technique, make the first decision yourself. Deploy broadly and learn from production incidents.
+Our first construction is deliberately modest: Deploy broadly and learn from production incidents.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: The first realistic discovery of a dangerous capability harms actual users.
+It works—right up to this boundary: The first realistic discovery of a dangerous capability harms actual users.
 
-The failure tells you what the repair must accomplish. Test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
+Crossing that boundary requires one additional idea: Test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
 
-Only now have you earned the chapter's name: **Pre-Deployment Evaluations**.
+Only here do we name the idea: **Pre-Deployment Evaluations**.
 
 ## Follow one case all the way through
 

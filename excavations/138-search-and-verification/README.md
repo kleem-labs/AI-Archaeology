@@ -4,13 +4,13 @@
 
 The first proposed solution to a puzzle is plausible but wrong.
 
-Before inheriting a technique, make the first decision yourself. Ask the same generator to confidently approve its own first answer.
+At first, the simplest answer is tempting: Ask the same generator to confidently approve its own first answer.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: The error that shaped the proposal also shapes its self-justification.
+But the simplicity has discarded something important: The error that shaped the proposal also shapes its self-justification.
 
-The failure tells you what the repair must accomplish. Generate diverse candidates, check them with independent evidence, and keep only paths that survive.
+The missing information determines the next move: Generate diverse candidates, check them with independent evidence, and keep only paths that survive.
 
-Only now have you earned the chapter's name: **Search and Verification**.
+Only here do we name the idea: **Search and Verification**.
 
 ## Follow one case all the way through
 

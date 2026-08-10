@@ -1,10 +1,15 @@
-# Diagram — 029
+# Diagram — Excavation 029 — Initialization — Where Should Learning Begin?
 
-~~~mermaid
-flowchart LR
- A["Concrete problem"] --> B["Naive attempt"] --> C["Useful learners must begin different from one another without making signals vanish or explode."] --> D["Draw small random weights whose scale depends on how many inputs feed the neuron."]
-~~~
+The picture carries this excavation's particular counterexample and repair.
 
-~~~text
-observe -> attempt -> break it -> repair -> expose the next limit
-~~~
+```mermaid
+flowchart TD
+    A["Set every weight to zero. Neurons receive identical evidence and remain identical. Use…"] --> B["Reality: Set every weight to zero. Neurons receive identical evidence and remain identical. Use…"]
+    B -. "missing requirement" .-> C["Draw small random weights whose scale depends on how many inputs feed the neuron."]
+```
+
+```text
+TRY     Set every weight to zero. Neurons receive identical evidence and remain identical. Use…
+BREAK   Set every weight to zero. Neurons receive identical evidence and remain identical. Use…
+REPAIR  Draw small random weights whose scale depends on how many inputs feed the neuron.
+```

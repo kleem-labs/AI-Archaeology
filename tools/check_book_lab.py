@@ -13,15 +13,14 @@ for chapter in chapters:
         if not (folder / name).exists():
             failures.append(f"{folder}: missing {name}")
     text = chapter.read_text()
-    invites_reader = (
-        number < 17
-        or
-        "## Take the First Step Yourself" in text
-        or ("Pause here." in text and "*Your first move:*" in text)
-        or ("Suppose your first idea" in text and "What would a useful space have to do?" in text)
-        or ("attempt" in text.lower() and "fail" in text.lower())
-        or "Before inheriting a technique, make the first decision yourself." in text
+    narrative_attempts = (
+        "The first solution that suggests itself is this:",
+        "A reasonable place to begin is:",
+        "Without knowing the inherited method, we might try this:",
+        "At first, the simplest answer is tempting:",
+        "Our first construction is deliberately modest:",
     )
+    invites_reader = number < 17 or any(marker in text for marker in narrative_attempts)
     if not invites_reader:
         failures.append(f"{chapter}: reader is not asked to propose the first move")
 

@@ -4,19 +4,11 @@
 
 A deployed learner faces a stream of changing tasks without clear boundaries.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Periodically retrain from scratch on everything.
 
-*Your first move:* Periodically retrain from scratch on everything.
+Its hidden assumption appears in the following case: Storage and compute grow forever, and old raw data may be unavailable.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Storage and compute grow forever, and old raw data may be unavailable.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together.
 
 ## Now work a case you can see
 

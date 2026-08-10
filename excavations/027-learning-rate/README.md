@@ -4,23 +4,11 @@
 
 The gradient points downhill, but it does not say how far to walk. A correct direction can still produce a disastrous step.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
 
-*Your first move:* Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
+Its hidden assumption appears in the following case: Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Always take a huge step: leap across the valley and oscillate. Always take a microscopic step: improve so slowly that the expedition ends first.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
 
 ## Why It Still Fails
 

@@ -4,13 +4,13 @@
 
 Human examples are scarce. Can a model manufacture training data?
 
-Before inheriting a technique, make the first decision yourself. Generate millions of answers and train on all of them.
+A reasonable place to begin is: Generate millions of answers and train on all of them.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Confident errors are copied, multiplied, and eventually treated as truth.
+Now place that proposal under pressure: Confident errors are copied, multiplied, and eventually treated as truth.
 
-The failure tells you what the repair must accomplish. Generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry.
+What broke tells us what the replacement must preserve: Generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry.
 
-Only now have you earned the chapter's name: **Synthetic Data**.
+Only here do we name the idea: **Synthetic Data**.
 
 ## Follow one case all the way through
 

@@ -4,23 +4,11 @@
 
 We can now assign blame to every weight. The network still needs a disciplined way to turn those sensitivities into repeated improvement.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Jump directly opposite the gradient with no step control; the model may overshoot and diverge. Take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
 
-*Your first move:* Jump directly opposite the gradient with no step control; the model may overshoot and diverge. Take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
+The idea survives only until we test it against reality: Gradient descent finds a reachable low region, not necessarily the unique best explanation. Data, initialization, scale, and step size all shape the journey.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Jump directly opposite the gradient with no step control; the model may overshoot and diverge. Take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress.
 
 ## Why It Still Fails
 

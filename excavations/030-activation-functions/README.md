@@ -4,23 +4,11 @@
 
 We stack many learned transformations, expecting deeper reasoning. If every layer is linear, the entire tower is equivalent to one matrix.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Add more linear layers. Depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
 
-*Your first move:* Add more linear layers. Depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
+The idea survives only until we test it against reality: Add more linear layers. Depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Add more linear layers. Depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.
 
 ## Why It Still Fails
 

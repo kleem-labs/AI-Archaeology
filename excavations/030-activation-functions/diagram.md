@@ -1,10 +1,15 @@
-# Diagram — 030
+# Diagram — Excavation 030 — Activation Functions — Why a Network Must Bend
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A["Concrete problem"] --> B["Naive attempt"] --> C["A deep learner needs a simple nonlinearity that changes which paths respond while remaining trainable."] --> D["Place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually."]
-~~~
+    B["Add more linear layers. Depth increases, but expressive power does not. Use a hard…"] --> A["Reject: Add more linear layers. Depth increases, but expressive power does not. Use a hard…"]
+    B --> C["Keep: Place an activation after a linear transformation. ReLU opens positive paths; smoother…"]
+```
 
-~~~text
-observe -> attempt -> break it -> repair -> expose the next limit
-~~~
+```text
+TRY     Add more linear layers. Depth increases, but expressive power does not. Use a hard…
+BREAK   Add more linear layers. Depth increases, but expressive power does not. Use a hard…
+REPAIR  Place an activation after a linear transformation. ReLU opens positive paths; smoother…
+```

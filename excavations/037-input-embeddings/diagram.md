@@ -1,19 +1,15 @@
-# Diagram — 037
+# Diagram — Excavation 037 — Input Embeddings: Giving Tokens Learnable Coordinates
 
-~~~mermaid
-flowchart LR
- A["Token ID: address only"] --> B["Direct arithmetic"]
- B --> C["False ordering and distance"]
- C --> D["One-hot identity"]
- D --> E["Huge and relationship-free"]
- E --> F["Learnable embedding table"]
- F --> G["Dense token vector"]
-~~~
+The picture carries this excavation's particular counterexample and repair.
 
-~~~text
-ID 417 ───────┐
-              v
-table row 417: [ 0.2, -0.7, 1.1, ... ]
-              ^
-      training moves this row
-~~~
+```mermaid
+flowchart TD
+    A["Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats…"] --> B["Reality: arbitrary numbering invents false magnitude and distance."]
+    B -. "missing requirement" .-> C["Give every vocabulary item a one-hot vector: one coordinate is one and all others are zero.…"]
+```
+
+```text
+TRY     Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats…
+BREAK   arbitrary numbering invents false magnitude and distance.
+REPAIR  Give every vocabulary item a one-hot vector: one coordinate is one and all others are zero.…
+```

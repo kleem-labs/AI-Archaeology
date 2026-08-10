@@ -4,23 +4,11 @@
 
 Two trackers propose different worlds. One says tigers usually leave deep round prints; another says deer do. We have observed one print and must compare the stories.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Ask which story is generally more believable. That ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
 
-*Your first move:* Ask which story is generally more believable. That ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
+But the simplicity has discarded something important: Likelihood compares explanations for fixed evidence; it is not itself a normalized probability over explanations. Priors will matter later.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Ask which story is generally more believable. That ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
 
 ## Why It Still Fails
 

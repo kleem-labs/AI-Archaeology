@@ -4,19 +4,11 @@
 
 A probe finds a “tiger” direction. Does the model actually use it?
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Assume correlation with output proves causation.
 
-*Your first move:* Assume correlation with output proves causation.
+The idea survives only until we test it against reality: The direction predicts answers but changing it leaves behavior unchanged.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The direction predicts answers but changing it leaves behavior unchanged.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Intervene on the representation and measure the specific downstream change against controls.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Intervene on the representation and measure the specific downstream change against controls.
 
 ## Now work a case you can see
 

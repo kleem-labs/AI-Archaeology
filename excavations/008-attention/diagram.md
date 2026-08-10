@@ -1,10 +1,15 @@
 # Diagram — Excavation 008 — Why Attention Had to Exist
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
+```mermaid
 flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+    A["Average every word equally"] -->|"test"| B["Irrelevant tokens drown out the needed clue."]
+    B -->|"forces"| C["Retrieve context according to current need. The chapter derives why this repair exists…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Average every word equally
+BREAK   Irrelevant tokens drown out the needed clue.
+REPAIR  Retrieve context according to current need. The chapter derives why this repair exists…
+```

@@ -1,13 +1,15 @@
-# Diagram — 018
+# Diagram — Excavation 018 — Likelihood — Which Hidden Story Produced This Evidence?
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A["Two trackers propose different worlds"] --> B["Naive attempt"]
- B --> C["Failure becomes visible"]
- C --> D["Reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood."]
- D --> E["Likelihood"]
-~~~
+    B["Likelihood compares explanations for fixed evidence; it is not itself a normalized…"] --> A["Reject: Ask which story is generally more believable. That ignores the actual print. Or ask for the…"]
+    B --> C["Keep: Reverse the question: if this story were true, how expected would the observed evidence be?…"]
+```
 
-~~~text
-problem -> attempt -> failure -> need -> discovery
-~~~
+```text
+TRY     Ask which story is generally more believable. That ignores the actual print. Or ask for the…
+BREAK   Likelihood compares explanations for fixed evidence; it is not itself a normalized…
+REPAIR  Reverse the question: if this story were true, how expected would the observed evidence be?…
+```

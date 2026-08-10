@@ -4,23 +4,11 @@
 
 We have tokens, positions, and a causal boundary. The model still needs explicit questions and answers.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
 
-*Your first move:* Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
+The idea survives only until we test it against reality: Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Shift the sequence by one position so every visible prefix predicts the token immediately following it.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Shift the sequence by one position so every visible prefix predicts the token immediately following it.
 
 ## Why It Still Fails
 

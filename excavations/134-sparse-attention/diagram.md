@@ -1,13 +1,15 @@
-# Diagram — Sparse Attention — Looking Without Comparing Everything
+# Diagram — Excavation 134 — Sparse Attention — Looking Without Comparing Everything
+
+The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart LR
-    A["Observation"] --> B["Tempting shortcut"]
-    B --> C["Counterexample"]
-    C --> D["Required repair"]
-    D --> E["Sparse Attention"]
+    B["Doubling length roughly quadruples pairwise comparisons."] --> A["Reject: Keep full attention and buy more hardware."]
+    B --> C["Keep: Preserve a small pattern of local, global, or retrieved connections that matches the task's…"]
 ```
 
 ```text
-observation -> attempt -> failure -> requirement -> discovery
+TRY     Keep full attention and buy more hardware.
+BREAK   Doubling length roughly quadruples pairwise comparisons.
+REPAIR  Preserve a small pattern of local, global, or retrieved connections that matches the task's…
 ```

@@ -4,13 +4,13 @@
 
 Thousands of preferences cannot cover every new situation.
 
-Before inheriting a technique, make the first decision yourself. Memorize approved answers and imitate their surface style.
+At first, the simplest answer is tempting: Memorize approved answers and imitate their surface style.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: A novel case has no matching example, and style does not reveal the governing reason.
+But the simplicity has discarded something important: A novel case has no matching example, and style does not reveal the governing reason.
 
-The failure tells you what the repair must accomplish. Write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change.
+The missing information determines the next move: Write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change.
 
-Only now have you earned the chapter's name: **Constitutional Guidance**.
+Only here do we name the idea: **Constitutional Guidance**.
 
 ## Follow one case all the way through
 

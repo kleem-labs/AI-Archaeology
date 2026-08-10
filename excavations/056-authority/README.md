@@ -9,21 +9,11 @@
 
 A travel agent can read calendars, send email, and purchase tickets. A useful request to “plan my trip” does not automatically authorize spending money.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Give every available tool to the model and treat user intent as unlimited permission.
 
-*Your first move:* Give every available tool to the model and treat user intent as unlimited permission.
+Now place that proposal under pressure: Ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not. Name the missing guarantee before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not.
-
-Name the missing guarantee before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
 
 ## Now work a case you can see
 

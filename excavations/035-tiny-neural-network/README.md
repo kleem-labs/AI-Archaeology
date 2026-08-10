@@ -4,23 +4,11 @@
 
 We have excavated features, transformations, nonlinear gates, loss, gradients, batches, and validation separately. A pile of correct parts still does not learn.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
 
-*Your first move:* Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
+The idea survives only until we test it against reality: Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Hide everything behind a framework call. The code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
 
 ## Why It Still Fails
 

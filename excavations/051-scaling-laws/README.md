@@ -4,21 +4,11 @@
 
 Should limited resources buy a larger model, more data, or more training computation?
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Make the model as large as possible and assume capability follows parameter count.
 
-*Your first move:* Make the model as large as possible and assume capability follows parameter count.
+Now place that proposal under pressure: A huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns. What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns.
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
 
 ## Build each piece from what just happened
 

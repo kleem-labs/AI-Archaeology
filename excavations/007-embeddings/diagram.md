@@ -1,10 +1,17 @@
-# Diagram — Excavation 007 — Embeddings
+# Diagram — Excavation 007 — A Place for Meaning to Live
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
-flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+```mermaid
+flowchart TD
+    A["Question"] --> B["Try: Give every word an arbitrary ID"]
+    A --> C["Observe: Identity contains no geometric relationship."]
+    B --> D["Repair: Learn coordinates from usage constraints. The chapter derives why this repair exists before…"]
+    C --> D
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Give every word an arbitrary ID
+BREAK   Identity contains no geometric relationship.
+REPAIR  Learn coordinates from usage constraints. The chapter derives why this repair exists before…
+```

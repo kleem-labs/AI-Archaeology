@@ -4,13 +4,13 @@
 
 Can a system improve its own components without quietly expanding its power or rewriting success?
 
-Before inheriting a technique, make the first decision yourself. Let every measured gain replace the current system automatically.
+The first solution that suggests itself is this: Let every measured gain replace the current system automatically.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor.
+The idea survives only until we test it against reality: Contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor.
 
-The failure tells you what the repair must accomplish. Separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback.
+The failure gives us a precise requirement: Separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback.
 
-Only now have you earned the chapter's name: **A Bounded Self-Improving System**.
+Only here do we name the idea: **A Bounded Self-Improving System**.
 
 ## Follow one case all the way through
 

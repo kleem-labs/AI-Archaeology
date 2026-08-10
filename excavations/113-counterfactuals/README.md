@@ -4,19 +4,11 @@
 
 What would have happened to this same patient under a treatment they did not receive?
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Compare them with any untreated person.
 
-*Your first move:* Compare them with any untreated person.
+But the simplicity has discarded something important: Differences in age and illness confound the comparison.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Differences in age and illness confound the comparison.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Construct a comparable alternative world using causal assumptions and matched evidence.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Construct a comparable alternative world using causal assumptions and matched evidence.
 
 ## Now work a case you can see
 

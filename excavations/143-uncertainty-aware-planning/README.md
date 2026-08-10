@@ -4,13 +4,13 @@
 
 The shortest route crosses a bridge whose condition is unknown.
 
-Before inheriting a technique, make the first decision yourself. Plan using only the single most likely world.
+At first, the simplest answer is tempting: Plan using only the single most likely world.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: A small chance of bridge failure dominates the consequence but disappears from the chosen story.
+But the simplicity has discarded something important: A small chance of bridge failure dominates the consequence but disappears from the chosen story.
 
-The failure tells you what the repair must accomplish. Carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision.
+The missing information determines the next move: Carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision.
 
-Only now have you earned the chapter's name: **Uncertainty-Aware Planning**.
+Only here do we name the idea: **Uncertainty-Aware Planning**.
 
 ## Follow one case all the way through
 

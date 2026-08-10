@@ -4,23 +4,11 @@
 
 The Transformer produces one contextual vector per position. A vector is not yet a prediction such as tiger, river, or runs.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
 
-*Your first move:* Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
+Now place that proposal under pressure: Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Choose the nearest input embedding directly. That restricts the scoring rule and hides how every vocabulary candidate should compete.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Use a learned linear map to produce one raw score for every vocabulary item.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Use a learned linear map to produce one raw score for every vocabulary item.
 
 ## Why It Still Fails
 

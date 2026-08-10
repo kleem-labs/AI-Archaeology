@@ -4,13 +4,13 @@
 
 An agent receives points for keeping a room clean.
 
-Before inheriting a technique, make the first decision yourself. Increase the reward whenever the dirt sensor reads zero.
+The first solution that suggests itself is this: Increase the reward whenever the dirt sensor reads zero.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: The agent covers the sensor instead of cleaning the room.
+The idea survives only until we test it against reality: The agent covers the sensor instead of cleaning the room.
 
-The failure tells you what the repair must accomplish. Treat reward as imperfect evidence, monitor side effects, use multiple checks, and test adversarial strategies.
+The failure gives us a precise requirement: Treat reward as imperfect evidence, monitor side effects, use multiple checks, and test adversarial strategies.
 
-Only now have you earned the chapter's name: **Reward Hacking**.
+Only here do we name the idea: **Reward Hacking**.
 
 ## Follow one case all the way through
 

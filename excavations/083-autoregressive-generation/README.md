@@ -4,19 +4,11 @@
 
 How can a model generate an image one piece at a time?
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Predict all pixels independently.
 
-*Your first move:* Predict all pixels independently.
+But the simplicity has discarded something important: Independent pixels produce noise because neighboring colors and shapes constrain one another.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Independent pixels produce noise because neighboring colors and shapes constrain one another.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Choose an order and predict each piece from previously generated pieces.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Choose an order and predict each piece from previously generated pieces.
 
 ## Now work a case you can see
 

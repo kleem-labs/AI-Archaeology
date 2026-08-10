@@ -4,21 +4,11 @@
 
 A coding agent edits a function and announces the bug is fixed.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Trust the absence of an error message or the model’s own description of its work.
 
-*Your first move:* Trust the absence of an error message or the model’s own description of its work.
+Now place that proposal under pressure: The changed code compiles but breaks another case. Confidence is not evidence of the requested outcome. Name the missing guarantee before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The changed code compiles but breaks another case. Confidence is not evidence of the requested outcome.
-
-Name the missing guarantee before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
 
 ## Now work a case you can see
 

@@ -4,19 +4,11 @@
 
 Ordinary tests miss adversarial and unusual failures.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Evaluate only expected well-formed requests.
 
-*Your first move:* Evaluate only expected well-formed requests.
+But the simplicity has discarded something important: Real users, attackers, and accidents find paths designers never listed.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Real users, attackers, and accidents find paths designers never listed.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations.
 
 ## Now work a case you can see
 

@@ -4,21 +4,11 @@
 
 Two answers are factually acceptable, but one is clearer, safer, and better aligned with the user’s intent.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Write one perfect target response for every prompt and train only to imitate it.
 
-*Your first move:* Write one perfect target response for every prompt and train only to imitate it.
+But the simplicity has discarded something important: Many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer. What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer.
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
 
 ## Build each piece from what just happened
 

@@ -4,19 +4,11 @@
 
 How can facts preserve who relates to whom instead of becoming one text paragraph?
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Store every fact as an isolated sentence.
 
-*Your first move:* Store every fact as an isolated sentence.
+But the simplicity has discarded something important: Repeated entities, reverse links, and multi-hop questions become difficult to traverse.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Repeated entities, reverse links, and multi-hop questions become difficult to traverse.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Represent entities as nodes and named relations as edges.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Represent entities as nodes and named relations as edges.
 
 ## Now work a case you can see
 

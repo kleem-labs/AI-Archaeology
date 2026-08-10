@@ -1,10 +1,15 @@
 # Diagram — Excavation 002 — Vectors
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
+```mermaid
 flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+    B["Their meanings disappear when order changes."] --> A["Reject: Store unrelated numbers"]
+    B --> C["Keep: Bind ordered coordinates into one vector. The chapter derives why this repair exists before…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Store unrelated numbers
+BREAK   Their meanings disappear when order changes.
+REPAIR  Bind ordered coordinates into one vector. The chapter derives why this repair exists before…
+```

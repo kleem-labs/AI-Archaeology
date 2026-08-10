@@ -4,23 +4,11 @@
 
 A network has millions of weights and shared intermediate results. The chain rule gives a path, but following every path independently repeats the same downstream calculations.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Perturb each weight and rerun the model. This needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
 
-*Your first move:* Perturb each weight and rerun the model. This needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
+It works—right up to this boundary: Backpropagation computes gradients; it does not choose the update size or guarantee a good minimum.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Perturb each weight and rerun the model. This needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
 
 ## Why It Still Fails
 

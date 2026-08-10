@@ -4,21 +4,11 @@
 
 A support agent may draft a refund, request approval, issue it, or report completion. These are different realities, not merely different sentences.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Let the conversation prose serve as the workflow state.
 
-*Your first move:* Let the conversation prose serve as the workflow state.
+The idea survives only until we test it against reality: The model says “refund completed” after merely drafting it, or issues it twice after losing track of an earlier tool result. Name the missing guarantee before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The model says “refund completed” after merely drafting it, or issues it twice after losing track of an earlier tool result.
-
-Name the missing guarantee before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.
 
 ## Now work a case you can see
 

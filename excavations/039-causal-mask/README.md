@@ -4,23 +4,11 @@
 
 During next-token training the whole sentence is available. Without a barrier, the representation at cat can inspect the answer sitting to its right.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Train each prefix in a separate forward pass. It prevents cheating but repeats nearly identical work.
 
-*Your first move:* Train each prefix in a separate forward pass. It prevents cheating but repeats nearly identical work.
+It works—right up to this boundary: Train each prefix in a separate forward pass. It prevents cheating but repeats nearly identical work.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Train each prefix in a separate forward pass. It prevents cheating but repeats nearly identical work.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Process all positions together while blocking attention from position i to every later position j.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Process all positions together while blocking attention from position i to every later position j.
 
 ## Why It Still Fails
 

@@ -4,23 +4,11 @@
 
 One bag contains ten red stones. Another contains five red and five blue. Before drawing, which bag leaves us more uncertain?
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Count the number of outcomes. Both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
 
-*Your first move:* Count the number of outcomes. Both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
+The idea survives only until we test it against reality: Entropy measures uncertainty in a stated distribution, not disorder in every everyday sense.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Count the number of outcomes. Both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Average the information of every possible outcome, weighted by how often that outcome occurs.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Average the information of every possible outcome, weighted by how often that outcome occurs.
 
 ## Why It Still Fails
 

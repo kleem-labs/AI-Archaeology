@@ -4,19 +4,11 @@
 
 How can enormous unlabeled data teach useful representations?
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Wait for humans to label every example.
 
-*Your first move:* Wait for humans to label every example.
+The idea survives only until we test it against reality: Labels are expensive and discard most structure already inside observations.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Labels are expensive and discard most structure already inside observations.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Hide or transform part of an observation and train the model to recover the missing relation.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Hide or transform part of an observation and train the model to recover the missing relation.
 
 ## Now work a case you can see
 

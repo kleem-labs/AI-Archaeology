@@ -1,13 +1,15 @@
-# Diagram — 017
+# Diagram — Excavation 017 — Probability — Counting What We Do Not Know
 
-~~~mermaid
-flowchart LR
- A["The tribe hears movement behind tall grass"] --> B["Naive attempt"]
- B --> C["Failure becomes visible"]
- C --> D["Keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total."]
- D --> E["Probability"]
-~~~
+The picture carries this excavation's particular counterexample and repair.
 
-~~~text
-problem -> attempt -> failure -> need -> discovery
-~~~
+```mermaid
+flowchart TD
+    A["Choose the most common cause and declare certainty. This works until the rare tiger…"] --> B["Reality: Probabilities depend on evidence and assumptions. When new evidence arrives, the shares…"]
+    B -. "missing requirement" .-> C["Keep every plausible outcome and give each a share of belief. Count comparable past…"]
+```
+
+```text
+TRY     Choose the most common cause and declare certainty. This works until the rare tiger…
+BREAK   Probabilities depend on evidence and assumptions. When new evidence arrives, the shares…
+REPAIR  Keep every plausible outcome and give each a share of belief. Count comparable past…
+```

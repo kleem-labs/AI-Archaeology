@@ -4,21 +4,11 @@
 
 “Move my website to a new host” contains dependencies: back up data, configure the destination, test it, change traffic, and preserve rollback.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Ask the agent to take the next action that sounds useful until the goal appears complete.
 
-*Your first move:* Ask the agent to take the next action that sounds useful until the goal appears complete.
+But the simplicity has discarded something important: It changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive. Name the missing guarantee before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* It changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive.
-
-Name the missing guarantee before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions.
 
 ## Now work a case you can see
 

@@ -4,19 +4,11 @@
 
 Which input words influenced one prediction?
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Remove each word and treat output change as complete explanation.
 
-*Your first move:* Remove each word and treat output change as complete explanation.
+But the simplicity has discarded something important: Removing a word changes grammar and creates an unnatural new input.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Removing a word changes grammar and creates an unnatural new input.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
 
 ## Now work a case you can see
 

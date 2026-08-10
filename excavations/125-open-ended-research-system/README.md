@@ -4,19 +4,11 @@
 
 How can a system keep discovering without silently rewriting its goals or safety boundaries?
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Let it generate experiments, change itself, and deploy improvements automatically.
 
-*Your first move:* Let it generate experiments, change itself, and deploy improvements automatically.
+The idea survives only until we test it against reality: A flawed metric or experiment compounds through self-modification before external review.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A flawed metric or experiment compounds through self-modification before external review.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
 
 ## Now work a case you can see
 

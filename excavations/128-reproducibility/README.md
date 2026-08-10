@@ -4,13 +4,13 @@
 
 One training run beats the baseline. Has the system discovered an improvement?
 
-Before inheriting a technique, make the first decision yourself. Keep the best checkpoint and report its score.
+At first, the simplest answer is tempting: Keep the best checkpoint and report its score.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Changing only the random seed makes the gain disappear.
+But the simplicity has discarded something important: Changing only the random seed makes the gain disappear.
 
-The failure tells you what the repair must accomplish. Record code, data, configuration, environment, seeds, and variation across repeated runs.
+The missing information determines the next move: Record code, data, configuration, environment, seeds, and variation across repeated runs.
 
-Only now have you earned the chapter's name: **Reproducibility**.
+Only here do we name the idea: **Reproducibility**.
 
 ## Follow one case all the way through
 

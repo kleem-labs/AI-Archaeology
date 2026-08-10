@@ -1,10 +1,15 @@
-# Diagram — 033
+# Diagram — Excavation 033 — Validation — Testing Without Peeking at the Final Exam
 
-~~~mermaid
-flowchart LR
- A["Concrete problem"] --> B["Naive attempt"] --> C["One unseen set must guide choices, while another remains untouched for the final estimate."] --> D["Split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end."]
-~~~
+The picture carries this excavation's particular counterexample and repair.
 
-~~~text
-observe -> attempt -> break it -> repair -> expose the next limit
-~~~
+```mermaid
+flowchart TD
+    A["Use training loss for every choice; it rewards memorization. Check the test set repeatedly;…"] --> B["Reality: Use training loss for every choice; it rewards memorization. Check the test set repeatedly;…"]
+    B -. "missing requirement" .-> C["Split data by role: training changes weights, validation changes design decisions, and test…"]
+```
+
+```text
+TRY     Use training loss for every choice; it rewards memorization. Check the test set repeatedly;…
+BREAK   Use training loss for every choice; it rewards memorization. Check the test set repeatedly;…
+REPAIR  Split data by role: training changes weights, validation changes design decisions, and test…
+```

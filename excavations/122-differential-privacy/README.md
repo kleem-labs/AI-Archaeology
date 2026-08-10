@@ -4,19 +4,11 @@
 
 Can aggregate learning reveal whether one person’s record was included?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Remove names and assume records are anonymous.
 
-*Your first move:* Remove names and assume records are anonymous.
+Its hidden assumption appears in the following case: Rare combinations and model outputs can re-identify individuals.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Rare combinations and model outputs can re-identify individuals.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
 
 ## Now work a case you can see
 

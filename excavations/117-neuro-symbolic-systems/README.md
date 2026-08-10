@@ -4,19 +4,11 @@
 
 Neural models handle perception; symbolic rules handle exact constraints. Must one system do both?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Force fuzzy perception into rigid rules or exact rules into learned approximation.
 
-*Your first move:* Force fuzzy perception into rigid rules or exact rules into learned approximation.
+Its hidden assumption appears in the following case: The first breaks on noisy inputs; the second can violate guaranteed constraints.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The first breaks on noisy inputs; the second can violate guaranteed constraints.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Let neural components propose symbols or scores and symbolic components enforce explicit relations.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Let neural components propose symbols or scores and symbolic components enforce explicit relations.
 
 ## Now work a case you can see
 

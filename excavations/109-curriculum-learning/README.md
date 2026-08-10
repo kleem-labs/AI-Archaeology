@@ -4,19 +4,11 @@
 
 Should a learner face the hardest examples first?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Shuffle all examples uniformly from the beginning.
 
-*Your first move:* Shuffle all examples uniformly from the beginning.
+It works—right up to this boundary: Early gradients from unsolved complex cases are noisy and provide little structure.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Early gradients from unsolved complex cases are noisy and provide little structure.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Order or weight examples so mastered foundations support harder cases, while revisiting earlier skills.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Order or weight examples so mastered foundations support harder cases, while revisiting earlier skills.
 
 ## Now work a case you can see
 

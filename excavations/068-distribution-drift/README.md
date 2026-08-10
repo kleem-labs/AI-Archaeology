@@ -4,19 +4,11 @@
 
 The world producing inputs changes after deployment.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Assume training accuracy remains valid forever.
 
-*Your first move:* Assume training accuracy remains valid forever.
+But the simplicity has discarded something important: A winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
 
 ## Now work a case you can see
 

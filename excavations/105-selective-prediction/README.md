@@ -4,19 +4,11 @@
 
 Must the model answer every question, even when evidence is weak?
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Always return the highest-scoring answer.
 
-*Your first move:* Always return the highest-scoring answer.
+The idea survives only until we test it against reality: A forced answer converts uncertainty into confident-looking error.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A forced answer converts uncertainty into confident-looking error.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Allow abstention and choose a coverage level whose retained answers meet a risk target.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Allow abstention and choose a coverage level whose retained answers meet a risk target.
 
 ## Now work a case you can see
 

@@ -4,19 +4,11 @@
 
 Audio is a long pressure waveform whose meaning survives small time shifts.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Treat every raw sample as an independent token.
 
-*Your first move:* Treat every raw sample as an independent token.
+But the simplicity has discarded something important: Sequences are huge and local frequency structure is hidden.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Sequences are huge and local frequency structure is hidden.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Transform short windows into time-frequency features, then model their sequence.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Transform short windows into time-frequency features, then model their sequence.
 
 ## Now work a case you can see
 

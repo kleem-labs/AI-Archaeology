@@ -4,19 +4,11 @@
 
 How can an image and its caption meet in one representation?
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Compare raw pixels directly with token IDs.
 
-*Your first move:* Compare raw pixels directly with token IDs.
+Now place that proposal under pressure: Their coordinates have unrelated meanings and shapes.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Their coordinates have unrelated meanings and shapes.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Use separate encoders and train paired image-text examples to become nearby.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Use separate encoders and train paired image-text examples to become nearby.
 
 ## Now work a case you can see
 

@@ -4,21 +4,11 @@
 
 A research task contains independent legal, technical, and market questions. One agent can process them sequentially, but specialization and parallel work may help.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Create many agents for every problem and let them freely edit shared state.
 
-*Your first move:* Create many agents for every problem and let them freely edit shared state.
+But the simplicity has discarded something important: They duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. Name the missing guarantee before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* They duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
-
-Name the missing guarantee before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
 
 ## Now work a case you can see
 

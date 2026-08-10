@@ -1,10 +1,17 @@
 # Diagram — Excavation 003 — Distance
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
-flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+```mermaid
+flowchart TD
+    A["Question"] --> B["Try: Add signed differences"]
+    A --> C["Observe: Opposite differences cancel."]
+    B --> D["Repair: Square, add, and take the root. The chapter derives why this repair exists before naming…"]
+    C --> D
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Add signed differences
+BREAK   Opposite differences cancel.
+REPAIR  Square, add, and take the root. The chapter derives why this repair exists before naming…
+```

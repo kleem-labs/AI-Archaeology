@@ -4,23 +4,11 @@
 
 Even a carefully validated model may meet a new hospital, dialect, season, or camera unlike anything in its files.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
 
-*Your first move:* Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
+It works—right up to this boundary: Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
 
 ## Why It Still Fails
 

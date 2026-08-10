@@ -1,10 +1,15 @@
 # Diagram — Excavation 010 — Query, Key, and Value
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
+```mermaid
 flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+    B["Similarity is not directional relevance."] --> A["Reject: Use Euclidean distance"]
+    B --> C["Keep: Match queries to keys and mix values. The chapter derives why this repair exists before…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Use Euclidean distance
+BREAK   Similarity is not directional relevance.
+REPAIR  Match queries to keys and mix values. The chapter derives why this repair exists before…
+```

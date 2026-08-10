@@ -4,23 +4,11 @@
 
 Generation repeats one token at a time, and every new token may attend to the past. The stored conversation keeps growing.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
 
-*Your first move:* Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
+It works—right up to this boundary: Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
 
 ## Why It Still Fails
 

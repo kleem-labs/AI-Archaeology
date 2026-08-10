@@ -4,19 +4,11 @@
 
 After learning task B, the model suddenly fails task A.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Fine-tune only on the newest data.
 
-*Your first move:* Fine-tune only on the newest data.
+Now place that proposal under pressure: Updates useful for B overwrite weights carrying A.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Updates useful for B overwrite weights carrying A.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Rehearse old evidence, protect important parameters, or allocate new capacity.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Rehearse old evidence, protect important parameters, or allocate new capacity.
 
 ## Now work a case you can see
 

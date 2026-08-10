@@ -4,19 +4,11 @@
 
 An agent needs to predict consequences before acting.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Learn only which action was rewarded in previously visited situations.
 
-*Your first move:* Learn only which action was rewarded in previously visited situations.
+Now place that proposal under pressure: The agent cannot imagine untried sequences or reuse physical regularities.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The agent cannot imagine untried sequences or reuse physical regularities.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Learn a compact model that predicts next state and reward from current state and action.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Learn a compact model that predicts next state and reward from current state and action.
 
 ## Now work a case you can see
 

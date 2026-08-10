@@ -4,13 +4,13 @@
 
 Every team says its model is better, but each chooses different tasks.
 
-Before inheriting a technique, make the first decision yourself. Let each model demonstrate its strongest example.
+Our first construction is deliberately modest: Let each model demonstrate its strongest example.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: A showcase cannot support comparison because difficulty and scoring move with the contestant.
+It works—right up to this boundary: A showcase cannot support comparison because difficulty and scoring move with the contestant.
 
-The failure tells you what the repair must accomplish. Freeze representative tasks, inputs, metrics, and scoring rules before seeing results.
+Crossing that boundary requires one additional idea: Freeze representative tasks, inputs, metrics, and scoring rules before seeing results.
 
-Only now have you earned the chapter's name: **Benchmarks**.
+Only here do we name the idea: **Benchmarks**.
 
 ## Follow one case all the way through
 

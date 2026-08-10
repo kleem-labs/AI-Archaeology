@@ -1,10 +1,15 @@
 # Diagram — Excavation 004 — Vectors as Change
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
+```mermaid
 flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+    A["Keep magnitude only"] -->|"test"| B["The same amount can lead in many directions."]
+    B -->|"forces"| C["Represent magnitude and direction together. The chapter derives why this repair exists…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Keep magnitude only
+BREAK   The same amount can lead in many directions.
+REPAIR  Represent magnitude and direction together. The chapter derives why this repair exists…
+```

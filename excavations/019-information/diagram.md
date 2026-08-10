@@ -1,13 +1,17 @@
-# Diagram — 019
+# Diagram — Excavation 019 — Information — Why Surprise Needs a Number
 
-~~~mermaid
-flowchart LR
- A["A messenger can report either “the sun rose” or “a tiger entered camp"] --> B["Naive attempt"]
- B --> C["Failure becomes visible"]
- C --> D["Rare events should carry more information, certain events none, and independent messages should add. The negative logarithm satisfies all three needs."]
- D --> E["Information"]
-~~~
+The picture carries this excavation's particular counterexample and repair.
 
-~~~text
-problem -> attempt -> failure -> need -> discovery
-~~~
+```mermaid
+flowchart TD
+    A["Question"] --> B["Try: Measure information by message length. A long predictable greeting can contain less news…"]
+    A --> C["Observe: Information depends on the probability model. A surprise to one observer may be expected to…"]
+    B --> D["Repair: Rare events should carry more information, certain events none, and independent messages…"]
+    C --> D
+```
+
+```text
+TRY     Measure information by message length. A long predictable greeting can contain less news…
+BREAK   Information depends on the probability model. A surprise to one observer may be expected to…
+REPAIR  Rare events should carry more information, certain events none, and independent messages…
+```

@@ -4,19 +4,11 @@
 
 A new model performs better after launch, but traffic and season also changed.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Compare this week with last week.
 
-*Your first move:* Compare this week with last week.
+It works—right up to this boundary: A holiday raises sales for both systems and receives credit as a model improvement.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A holiday raises sales for both systems and receives credit as a model improvement.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Randomly assign comparable cases to old and new behavior and compare predefined outcomes.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Randomly assign comparable cases to old and new behavior and compare predefined outcomes.
 
 ## Now work a case you can see
 

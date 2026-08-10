@@ -1,10 +1,15 @@
-# Diagram — 034
+# Diagram — Excavation 034 — Generalization — What Should Survive Beyond the Dataset?
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A["Concrete problem"] --> B["Naive attempt"] --> C["Generalization is always relative to a family of future situations and the invariances we expect to remain true."] --> D["State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts."]
-~~~
+    B["Assume all future observations come from exactly the same source as training. Or demand…"] --> A["Reject: Assume all future observations come from exactly the same source as training. Or demand…"]
+    B --> C["Keep: State the deployment world, test meaningful shifts, and build representations around…"]
+```
 
-~~~text
-observe -> attempt -> break it -> repair -> expose the next limit
-~~~
+```text
+TRY     Assume all future observations come from exactly the same source as training. Or demand…
+BREAK   Assume all future observations come from exactly the same source as training. Or demand…
+REPAIR  State the deployment world, test meaningful shifts, and build representations around…
+```

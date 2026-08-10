@@ -1,6 +1,15 @@
-# Diagram — 052
+# Diagram — Excavation 052 — Instruction Tuning — From Continuation to Cooperation
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A[Observation] --> B[Reader attempt] --> C[Counterexample] --> D[Missing requirement] --> E[Reader repair]
-~~~
+    A["Prompt more forcefully and hope next-token prediction infers the desired interaction."] -->|"test"| B["Given “Translate cat to French,” raw continuation may produce more translation examples,…"]
+    B -->|"forces"| C["Show many instruction-input-response examples and continue training so following the…"]
+```
+
+```text
+TRY     Prompt more forcefully and hope next-token prediction infers the desired interaction.
+BREAK   Given “Translate cat to French,” raw continuation may produce more translation examples,…
+REPAIR  Show many instruction-input-response examples and continue training so following the…
+```

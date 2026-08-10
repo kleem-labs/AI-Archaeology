@@ -4,23 +4,11 @@
 
 We have excavated every component of an autoregressive language model, but isolated demonstrations do not prove the parts cooperate.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
 
-*Your first move:* Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
+The idea survives only until we test it against reality: Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
 
 ## Why It Still Fails
 

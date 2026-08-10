@@ -9,19 +9,11 @@
 
 Recommendations change what users see, and those changed choices become tomorrow’s training data.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Treat every click as independent evidence of natural preference.
 
-*Your first move:* Treat every click as independent evidence of natural preference.
+Now place that proposal under pressure: Show one song repeatedly; its extra clicks now appear to prove it deserved repetition.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Show one song repeatedly; its extra clicks now appear to prove it deserved repetition.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Record how the system influenced each observation and evaluate outcomes against a control or exploration policy.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Record how the system influenced each observation and evaluate outcomes against a control or exploration policy.
 
 ## Now work a case you can see
 

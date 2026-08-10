@@ -4,23 +4,11 @@
 
 We need to choose model size, learning rate, and stopping time. Choosing them using the final test set quietly trains us on the test.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
 
-*Your first move:* Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
+But the simplicity has discarded something important: Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Use training loss for every choice; it rewards memorization. Check the test set repeatedly; every decision leaks test information back into development.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
 
 ## Why It Still Fails
 

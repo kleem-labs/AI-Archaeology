@@ -1,13 +1,15 @@
-# Diagram — 024
+# Diagram — Excavation 024 — Backpropagation — Reusing Blame Instead of Recomputing It
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A["A network has millions of weights and shared intermediate results"] --> B["Naive attempt"]
- B --> C["Failure becomes visible"]
- C --> D["Compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream."]
- D --> E["Backpropagation"]
-~~~
+    A["Perturb each weight and rerun the model. This needs at least one extra forward pass per…"] -->|"test"| B["Backpropagation computes gradients; it does not choose the update size or guarantee a good…"]
+    B -->|"forces"| C["Compute the prediction once, remember intermediate values, then move backward. At each…"]
+```
 
-~~~text
-problem -> attempt -> failure -> need -> discovery
-~~~
+```text
+TRY     Perturb each weight and rerun the model. This needs at least one extra forward pass per…
+BREAK   Backpropagation computes gradients; it does not choose the update size or guarantee a good…
+REPAIR  Compute the prediction once, remember intermediate values, then move backward. At each…
+```

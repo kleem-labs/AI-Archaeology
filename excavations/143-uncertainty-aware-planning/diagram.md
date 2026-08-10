@@ -1,13 +1,17 @@
-# Diagram — Uncertainty-Aware Planning — Choosing While Admitting Ignorance
+# Diagram — Excavation 143 — Uncertainty-Aware Planning — Choosing While Admitting Ignorance
+
+The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
-flowchart LR
-    A["Observation"] --> B["Tempting shortcut"]
-    B --> C["Counterexample"]
-    C --> D["Required repair"]
-    D --> E["Uncertainty-Aware Planning"]
+flowchart TD
+    A["Question"] --> B["Try: Plan using only the single most likely world."]
+    A --> C["Observe: A small chance of bridge failure dominates the consequence but disappears from the chosen…"]
+    B --> D["Repair: Carry multiple plausible worlds, weight their consequences, and seek information when…"]
+    C --> D
 ```
 
 ```text
-observation -> attempt -> failure -> requirement -> discovery
+TRY     Plan using only the single most likely world.
+BREAK   A small chance of bridge failure dominates the consequence but disappears from the chosen…
+REPAIR  Carry multiple plausible worlds, weight their consequences, and seek information when…
 ```

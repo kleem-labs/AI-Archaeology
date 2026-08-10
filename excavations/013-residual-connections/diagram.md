@@ -1,10 +1,15 @@
 # Diagram — Excavation 013 — Residual Connections
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
-flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+```mermaid
+flowchart TD
+    A["Replace the representation at every layer"] --> B["Reality: Useful information must be reconstructed repeatedly."]
+    B -. "missing requirement" .-> C["Preserve the stream and add a correction. The chapter derives why this repair exists before…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Replace the representation at every layer
+BREAK   Useful information must be reconstructed repeatedly.
+REPAIR  Preserve the stream and add a correction. The chapter derives why this repair exists before…
+```

@@ -1,13 +1,17 @@
-# Diagram — 023
+# Diagram — Excavation 023 — The Chain Rule — Following One Change Through Many Machines
 
-~~~mermaid
-flowchart LR
- A["A weight changes a hidden signal, which changes a score, which changes a probability, which changes the loss"] --> B["Naive attempt"]
- B --> C["Failure becomes visible"]
- C --> D["Multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward."]
- D --> E["The Chain Rule"]
-~~~
+The picture carries this excavation's particular counterexample and repair.
 
-~~~text
-problem -> attempt -> failure -> need -> discovery
-~~~
+```mermaid
+flowchart TD
+    A["Question"] --> B["Try: Measure only the first effect or only the final effect. Either breaks the causal path.…"]
+    A --> C["Observe: Branches require sensitivities from every downstream path to be added, not merely one chain…"]
+    B --> D["Repair: Multiply local sensitivities along the causal path. Each stage tells how strongly it passes…"]
+    C --> D
+```
+
+```text
+TRY     Measure only the first effect or only the final effect. Either breaks the causal path.…
+BREAK   Branches require sensitivities from every downstream path to be added, not merely one chain…
+REPAIR  Multiply local sensitivities along the causal path. Each stage tells how strongly it passes…
+```

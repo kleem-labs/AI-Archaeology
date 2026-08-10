@@ -4,19 +4,11 @@
 
 Labeling one example is expensive. Which unlabeled case should a human inspect next?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Label random examples forever.
 
-*Your first move:* Label random examples forever.
+It works—right up to this boundary: Thousands of easy repeated cases consume effort while the decision boundary remains unclear.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Thousands of easy repeated cases consume effort while the decision boundary remains unclear.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Ask for labels where the model is uncertain or where examples add new coverage.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Ask for labels where the model is uncertain or where examples add new coverage.
 
 ## Now work a case you can see
 

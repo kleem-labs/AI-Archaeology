@@ -4,19 +4,11 @@
 
 Can experience across many tasks teach the model how to learn a new task quickly?
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Train one universal fixed solution.
 
-*Your first move:* Train one universal fixed solution.
+But the simplicity has discarded something important: A new task with different labels requires many examples and broad retraining.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A new task with different labels requires many examples and broad retraining.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Optimize prior parameters or an update rule so a few new examples produce useful adaptation.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Optimize prior parameters or an update rule so a few new examples produce useful adaptation.
 
 ## Now work a case you can see
 

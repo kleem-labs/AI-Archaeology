@@ -1,10 +1,17 @@
 # Diagram — Excavation 011 — Multi-Head Attention
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
-flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+```mermaid
+flowchart TD
+    A["Question"] --> B["Try: Make one attention head wider"]
+    A --> C["Observe: Different relationships still compete in one distribution."]
+    B --> D["Repair: Use parallel learned relationship spaces. The chapter derives why this repair exists before…"]
+    C --> D
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Make one attention head wider
+BREAK   Different relationships still compete in one distribution.
+REPAIR  Use parallel learned relationship spaces. The chapter derives why this repair exists before…
+```

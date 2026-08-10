@@ -9,19 +9,11 @@
 
 An agent acts over time and receives only eventual success or failure.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Label the correct action at every moment.
 
-*Your first move:* Label the correct action at every moment.
+Now place that proposal under pressure: For exploration or games, nobody knows every correct intermediate move.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* For exploration or games, nobody knows every correct intermediate move.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Provide outcome feedback and let experience connect actions with later consequences.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Provide outcome feedback and let experience connect actions with later consequences.
 
 ## Now work a case you can see
 

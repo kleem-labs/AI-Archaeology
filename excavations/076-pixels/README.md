@@ -9,19 +9,11 @@
 
 A camera gives a grid of colored light, not objects.
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Assign one label to the entire raw byte sequence.
 
-*Your first move:* Assign one label to the entire raw byte sequence.
+Now place that proposal under pressure: A one-pixel shift changes thousands of byte positions although the same tiger remains.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A one-pixel shift changes thousands of byte positions although the same tiger remains.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Preserve local spatial arrangement and compare nearby color measurements.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Preserve local spatial arrangement and compare nearby color measurements.
 
 ## Now work a case you can see
 

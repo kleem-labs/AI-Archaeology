@@ -4,19 +4,11 @@
 
 Tests sample cases. How can we guarantee a property for all allowed inputs?
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Add more random tests and call the property proven.
 
-*Your first move:* Add more random tests and call the property proven.
+Now place that proposal under pressure: An untested edge case can remain.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* An untested edge case can remain.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* State assumptions and desired properties formally, then prove or mechanically check that every transition preserves them.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: State assumptions and desired properties formally, then prove or mechanically check that every transition preserves them.
 
 ## Now work a case you can see
 

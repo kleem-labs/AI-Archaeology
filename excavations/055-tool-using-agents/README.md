@@ -4,21 +4,11 @@
 
 A model can describe checking weather, calculating totals, or querying a database, but description alone does not obtain the result.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Ask the language model to simulate every tool from memory.
 
-*Your first move:* Ask the language model to simulate every tool from memory.
+The idea survives only until we test it against reality: It invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded. What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* It invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded.
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
 
 ## Now work a case you can see
 

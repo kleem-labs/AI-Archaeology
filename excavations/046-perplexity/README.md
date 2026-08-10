@@ -9,21 +9,11 @@
 
 Two tiny language models produce fluent-looking text. Which one consistently assigns better probabilities to real held-out sentences?
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree.
 
-*Your first move:* Count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree.
+Now place that proposal under pressure: Use the held-out sentence “the tiger sleeps.” Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token. What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Use the held-out sentence “the tiger sleeps.” Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token.
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale.
 
 ## Build each piece from what just happened
 

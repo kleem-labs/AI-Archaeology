@@ -4,19 +4,11 @@
 
 Value learning still needs a rule converting estimates into action probabilities.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Always choose the highest estimated action.
 
-*Your first move:* Always choose the highest estimated action.
+The idea survives only until we test it against reality: Early errors remove exploration and discrete choice blocks ordinary differentiation.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Early errors remove exploration and discrete choice blocks ordinary differentiation.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Sample from a policy and increase probability of actions followed by better-than-expected returns.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Sample from a policy and increase probability of actions followed by better-than-expected returns.
 
 ## Now work a case you can see
 

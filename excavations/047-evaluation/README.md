@@ -4,21 +4,11 @@
 
 A model improves perplexity but gives worse medical answers and better poetry. Is it better?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Choose one benchmark score and call it intelligence.
 
-*Your first move:* Choose one benchmark score and call it intelligence.
+Its hidden assumption appears in the following case: A calculator can ace arithmetic while failing conversation; a fluent model can pass style tests while inventing facts. One number silently chooses which failures do not matter. What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A calculator can ace arithmetic while failing conversation; a fluent model can pass style tests while inventing facts. One number silently chooses which failures do not matter.
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Name the intended job, create separate tests for its required abilities and risks, and inspect real failures rather than averaging them away.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Name the intended job, create separate tests for its required abilities and risks, and inspect real failures rather than averaging them away.
 
 ## Now work a case you can see
 

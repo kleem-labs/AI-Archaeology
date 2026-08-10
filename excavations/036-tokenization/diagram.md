@@ -1,14 +1,15 @@
-# Diagram — 036
+# Diagram — Excavation 036 — Tokenization: What Can a Language Model See?
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A[Raw text] --> B[Whole words] --> C[Unknown vocabulary]
- C --> D[Characters] --> E[Sequences too long]
- E --> F[Merge repeated neighbors] --> G[Subword tokens]
-~~~
+    A["Give every complete word one ID. Spaces appear to provide the boundaries."] -->|"test"| B["Give every complete word one ID. Spaces appear to provide the boundaries."]
+    B -->|"forces"| C["Use characters. Any new spelling can now be represented."]
+```
 
-~~~text
-words: too large <- need -> characters: too small
-                    |
-                 subwords
-~~~
+```text
+TRY     Give every complete word one ID. Spaces appear to provide the boundaries.
+BREAK   Give every complete word one ID. Spaces appear to provide the boundaries.
+REPAIR  Use characters. Any new spelling can now be represented.
+```

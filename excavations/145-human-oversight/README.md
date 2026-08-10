@@ -4,13 +4,13 @@
 
 An agent can draft and send a legal filing in seconds.
 
-Before inheriting a technique, make the first decision yourself. Ask a human to watch every internal step.
+The first solution that suggests itself is this: Ask a human to watch every internal step.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Constant review overwhelms attention, so approval becomes automatic ceremony.
+The idea survives only until we test it against reality: Constant review overwhelms attention, so approval becomes automatic ceremony.
 
-The failure tells you what the repair must accomplish. Automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries.
+The failure gives us a precise requirement: Automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries.
 
-Only now have you earned the chapter's name: **Human Oversight**.
+Only here do we name the idea: **Human Oversight**.
 
 ## Follow one case all the way through
 

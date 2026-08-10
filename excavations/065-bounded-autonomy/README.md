@@ -4,21 +4,11 @@
 
 We can now plan, remember, call tools, verify, and retry. Combining all powers without boundaries creates a system capable of compounding mistakes.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Give the agent a broad goal and let it continue until it believes the goal is complete.
 
-*Your first move:* Give the agent a broad goal and let it continue until it believes the goal is complete.
+The idea survives only until we test it against reality: A mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step. Name the missing guarantee before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step.
-
-Name the missing guarantee before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
 
 ## Now work a case you can see
 

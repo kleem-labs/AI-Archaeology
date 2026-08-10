@@ -4,19 +4,11 @@
 
 Immediate reward cannot distinguish a step toward a distant goal from a dead end.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Choose the action with the largest reward right now.
 
-*Your first move:* Choose the action with the largest reward right now.
+But the simplicity has discarded something important: A small immediate treat can prevent reaching a larger later reward.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A small immediate treat can prevent reaching a larger later reward.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Estimate the future reward expected from a state or state-action pair.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Estimate the future reward expected from a state or state-action pair.
 
 ## Now work a case you can see
 

@@ -1,10 +1,15 @@
 # Diagram — Excavation 016 — The Hidden World Behind Words
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
+```mermaid
 flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+    A["Memorize every sentence"] -->|"test"| B["New combinations were never stored."]
+    B -->|"forces"| C["Compress reusable causes behind many observations. The chapter derives why this repair…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Memorize every sentence
+BREAK   New combinations were never stored.
+REPAIR  Compress reusable causes behind many observations. The chapter derives why this repair…
+```

@@ -4,13 +4,13 @@
 
 A million-token archive fits, but the model still overlooks one decisive sentence.
 
-Before inheriting a technique, make the first decision yourself. Assume information inside the window will automatically influence the answer.
+A reasonable place to begin is: Assume information inside the window will automatically influence the answer.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Availability is not retrieval; distracting passages dominate the relevant line.
+Now place that proposal under pressure: Availability is not retrieval; distracting passages dominate the relevant line.
 
-The failure tells you what the repair must accomplish. Test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning.
+What broke tells us what the replacement must preserve: Test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning.
 
-Only now have you earned the chapter's name: **Long-Context Retrieval**.
+Only here do we name the idea: **Long-Context Retrieval**.
 
 ## Follow one case all the way through
 

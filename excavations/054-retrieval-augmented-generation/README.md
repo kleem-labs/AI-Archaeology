@@ -4,21 +4,11 @@
 
 The model’s weights are stale and cannot reliably store every private or changing fact.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Retrain the whole model whenever one document changes.
 
-*Your first move:* Retrain the whole model whenever one document changes.
+It works—right up to this boundary: A price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source. What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source.
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved.
 
 ## Now work a case you can see
 

@@ -4,19 +4,11 @@
 
 We have excavated models, data, learning, tools, and controls. How do they become one coherent system?
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Connect every powerful component and call the result intelligent.
 
-*Your first move:* Connect every powerful component and call the result intelligent.
+The idea survives only until we test it against reality: An accurate model with stale data, excessive authority, weak verification, or no accountability still fails.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* An accurate model with stale data, excessive authority, weak verification, or no accountability still fails.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another.
 
 ## Now work a case you can see
 

@@ -9,23 +9,11 @@
 
 The tribe hears movement behind tall grass. It may be a tiger, deer, or wind. A yes-or-no answer pretends to know more than the observations allow.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Choose the most common cause and declare certainty. This works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act.
 
-*Your first move:* Choose the most common cause and declare certainty. This works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act.
+Its hidden assumption appears in the following case: Probabilities depend on evidence and assumptions. When new evidence arrives, the shares must change.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Choose the most common cause and declare certainty. This works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total.
 
 ## Why It Still Fails
 

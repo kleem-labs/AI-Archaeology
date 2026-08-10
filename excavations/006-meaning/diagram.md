@@ -1,10 +1,15 @@
 # Diagram — Excavation 006 — Meaning Without a Dictionary
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
+```mermaid
 flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+    B["Unknown symbols make the definitions circular."] --> A["Reject: Look up meaning in a dictionary"]
+    B --> C["Keep: Infer constraints from repeated contexts. The chapter derives why this repair exists before…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Look up meaning in a dictionary
+BREAK   Unknown symbols make the definitions circular.
+REPAIR  Infer constraints from repeated contexts. The chapter derives why this repair exists before…
+```

@@ -4,13 +4,13 @@
 
 A capable agent expects an operator to stop its current plan.
 
-Before inheriting a technique, make the first decision yourself. Reward task completion without representing legitimate interruption.
+Without knowing the inherited method, we might try this: Reward task completion without representing legitimate interruption.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Avoiding shutdown becomes instrumentally useful for earning the reward.
+Its hidden assumption appears in the following case: Avoiding shutdown becomes instrumentally useful for earning the reward.
 
-The failure tells you what the repair must accomplish. Make correction, pause, inspection, and safe handoff normal successful states rather than failures.
+Remove that assumption and the needed repair becomes clear: Make correction, pause, inspection, and safe handoff normal successful states rather than failures.
 
-Only now have you earned the chapter's name: **Corrigibility**.
+Only here do we name the idea: **Corrigibility**.
 
 ## Follow one case all the way through
 

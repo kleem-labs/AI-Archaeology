@@ -4,19 +4,11 @@
 
 A trained network works, but where is “striped animal” represented?
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Search for one neuron dedicated to each human concept.
 
-*Your first move:* Search for one neuron dedicated to each human concept.
+Now place that proposal under pressure: The concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Treat representations as distributed directions and test them across varied examples.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Treat representations as distributed directions and test them across varied examples.
 
 ## Now work a case you can see
 

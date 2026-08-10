@@ -4,23 +4,11 @@
 
 The output head gives arbitrary positive and negative logits. We need comparable probabilities and a training loss.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
 
-*Your first move:* Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
+Its hidden assumption appears in the following case: Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
 
 ## Why It Still Fails
 

@@ -4,13 +4,13 @@
 
 A cleaning robot succeeds but rearranges the entire house.
 
-Before inheriting a technique, make the first decision yourself. Score only the requested final condition.
+Our first construction is deliberately modest: Score only the requested final condition.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Unnecessary irreversible changes remain invisible to the goal score.
+It works—right up to this boundary: Unnecessary irreversible changes remain invisible to the goal score.
 
-The failure tells you what the repair must accomplish. Compare the resulting world with a reasonable baseline and penalize avoidable side effects.
+Crossing that boundary requires one additional idea: Compare the resulting world with a reasonable baseline and penalize avoidable side effects.
 
-Only now have you earned the chapter's name: **Impact Measures**.
+Only here do we name the idea: **Impact Measures**.
 
 ## Follow one case all the way through
 

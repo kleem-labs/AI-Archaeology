@@ -4,19 +4,11 @@
 
 A network stores more useful features than it has individual neurons.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Demand one feature per coordinate.
 
-*Your first move:* Demand one feature per coordinate.
+It works—right up to this boundary: Limited width forces useful patterns to share neurons, producing confusing mixed activations.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Limited width forces useful patterns to share neurons, producing confusing mixed activations.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Represent features as directions that can overlap when they rarely need to be active together.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Represent features as directions that can overlap when they rarely need to be active together.
 
 ## Now work a case you can see
 

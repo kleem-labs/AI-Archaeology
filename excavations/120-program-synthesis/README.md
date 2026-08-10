@@ -4,19 +4,11 @@
 
 Can examples specify a reusable procedure rather than one output?
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Memorize the provided input-output pairs.
 
-*Your first move:* Memorize the provided input-output pairs.
+The idea survives only until we test it against reality: A new input exposes the absence of an underlying algorithm.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A new input exposes the absence of an underlying algorithm.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Search or generate candidate programs, execute them, and keep those satisfying examples and constraints.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Search or generate candidate programs, execute them, and keep those satisfying examples and constraints.
 
 ## Now work a case you can see
 

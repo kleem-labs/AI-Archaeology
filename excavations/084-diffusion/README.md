@@ -4,19 +4,11 @@
 
 How can generation begin without choosing a first meaningful pixel?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Map one random vector directly to a finished image in one jump.
 
-*Your first move:* Map one random vector directly to a finished image in one jump.
+It works—right up to this boundary: One enormous jump is difficult to learn and unstable across diverse images.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* One enormous jump is difficult to learn and unstable across diverse images.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Gradually add noise to real images, then learn the smaller reverse step at every noise level.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Gradually add noise to real images, then learn the smaller reverse step at every noise level.
 
 ## Now work a case you can see
 

@@ -4,19 +4,11 @@
 
 Local detectors create large activation maps.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Keep every activation at full resolution through every layer.
 
-*Your first move:* Keep every activation at full resolution through every layer.
+But the simplicity has discarded something important: Memory explodes and tiny shifts move evidence to neighboring cells.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Memory explodes and tiny shifts move evidence to neighboring cells.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Summarize small neighborhoods while retaining the strongest or average evidence.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Summarize small neighborhoods while retaining the strongest or average evidence.
 
 ## Now work a case you can see
 

@@ -4,19 +4,11 @@
 
 Can a hidden layer already separate animal species?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Train a powerful classifier on hidden states and call any success evidence.
 
-*Your first move:* Train a powerful classifier on hidden states and call any success evidence.
+Its hidden assumption appears in the following case: The probe learns the task itself even if the representation did not make it simple.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The probe learns the task itself even if the representation did not make it simple.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Use a deliberately limited probe and compare layers, controls, and baselines.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Use a deliberately limited probe and compare layers, controls, and baselines.
 
 ## Now work a case you can see
 

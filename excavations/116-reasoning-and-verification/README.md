@@ -4,19 +4,11 @@
 
 A model produces a plausible multi-step answer. Which step failed?
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Judge only the final answer.
 
-*Your first move:* Judge only the final answer.
+Now place that proposal under pressure: A lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Represent intermediate claims and verify each with an appropriate checker or evidence source.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Represent intermediate claims and verify each with an appropriate checker or evidence source.
 
 ## Now work a case you can see
 

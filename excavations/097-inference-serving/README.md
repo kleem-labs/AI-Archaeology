@@ -4,19 +4,11 @@
 
 A trained model must answer many users with low latency and bounded cost.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Run one request at a time on one full model.
 
-*Your first move:* Run one request at a time on one full model.
+Its hidden assumption appears in the following case: Hardware sits idle between small operations and traffic spikes create queues.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Hardware sits idle between small operations and traffic spikes create queues.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
 
 ## Now work a case you can see
 

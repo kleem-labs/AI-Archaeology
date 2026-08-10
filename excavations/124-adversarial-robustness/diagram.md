@@ -1,6 +1,15 @@
-# Diagram — 124
+# Diagram — Excavation 124 — Adversarial Robustness
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A[Observation] --> B[Reader attempt] --> C[Counterexample] --> D[Missing requirement] --> E[Reader invention]
-~~~
+    A["Test only natural clean examples."] -->|"test"| B["An attacker follows the model’s sensitivity into a brittle direction."]
+    B -->|"forces"| C["Search for worst-case permitted perturbations, train against them, and bound behavior where…"]
+```
+
+```text
+TRY     Test only natural clean examples.
+BREAK   An attacker follows the model’s sensitivity into a brittle direction.
+REPAIR  Search for worst-case permitted perturbations, train against them, and bound behavior where…
+```

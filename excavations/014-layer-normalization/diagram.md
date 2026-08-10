@@ -1,10 +1,15 @@
 # Diagram — Excavation 014 — Layer Normalization
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
+```mermaid
 flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+    B["Each token can drift differently."] --> A["Reject: Use one global scale"]
+    B --> C["Keep: Normalize each token across its features. The chapter derives why this repair exists before…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Use one global scale
+BREAK   Each token can drift differently.
+REPAIR  Normalize each token across its features. The chapter derives why this repair exists before…
+```

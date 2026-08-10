@@ -4,19 +4,11 @@
 
 Edges are not yet eyes, stripes, or tigers.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Classify directly from isolated edge responses.
 
-*Your first move:* Classify directly from isolated edge responses.
+It works—right up to this boundary: One edge has no object-level meaning.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* One edge has no object-level meaning.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Stack local detectors so later layers combine earlier patterns over wider regions.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Stack local detectors so later layers combine earlier patterns over wider regions.
 
 ## Now work a case you can see
 

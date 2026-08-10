@@ -4,13 +4,13 @@
 
 A persuasive answer hides one weak assumption in a long argument.
 
-Before inheriting a technique, make the first decision yourself. Let the author choose which evidence the judge sees.
+Without knowing the inherited method, we might try this: Let the author choose which evidence the judge sees.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Selective presentation makes eloquence look like correctness.
+Its hidden assumption appears in the following case: Selective presentation makes eloquence look like correctness.
 
-The failure tells you what the repair must accomplish. Give an opposing investigator equal access and reward exposing checkable disagreements for a judge.
+Remove that assumption and the needed repair becomes clear: Give an opposing investigator equal access and reward exposing checkable disagreements for a judge.
 
-Only now have you earned the chapter's name: **Debate**.
+Only here do we name the idea: **Debate**.
 
 ## Follow one case all the way through
 

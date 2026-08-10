@@ -4,23 +4,11 @@
 
 A weight changes a hidden signal, which changes a score, which changes a probability, which changes the loss. The weight never touches the loss directly.
 
-Pause here. You do not know the accepted method yet. What would you try?
+At first, the simplest answer is tempting: Measure only the first effect or only the final effect. Either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
 
-*Your first move:* Measure only the first effect or only the final effect. Either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
+But the simplicity has discarded something important: Branches require sensitivities from every downstream path to be added, not merely one chain followed.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Measure only the first effect or only the final effect. Either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
-
-Only after that reasoning may we give your discovery its inherited name.
+The missing information determines the next move: Multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
 
 ## Why It Still Fails
 

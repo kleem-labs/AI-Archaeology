@@ -4,21 +4,11 @@
 
 An assistant learns the user’s preferred writing style today, but tomorrow the conversation window no longer contains it.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Store every message forever and paste all history into every new prompt.
 
-*Your first move:* Store every message forever and paste all history into every new prompt.
+It works—right up to this boundary: Cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose. Name the missing guarantee before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose.
-
-Name the missing guarantee before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
 
 ## Now work a case you can see
 

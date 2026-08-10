@@ -1,13 +1,17 @@
-# Diagram — External Memory — Remembering Beyond the Context Window
+# Diagram — Excavation 135 — External Memory — Remembering Beyond the Context Window
+
+The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
-flowchart LR
-    A["Observation"] --> B["Tempting shortcut"]
-    B --> C["Counterexample"]
-    C --> D["Required repair"]
-    D --> E["External Memory"]
+flowchart TD
+    A["Question"] --> B["Try: Append every past event to every future prompt."]
+    A --> C["Observe: Cost grows forever and important facts drown in irrelevant history."]
+    B --> D["Repair: Write selected facts to addressed storage, retrieve by present need, and preserve…"]
+    C --> D
 ```
 
 ```text
-observation -> attempt -> failure -> requirement -> discovery
+TRY     Append every past event to every future prompt.
+BREAK   Cost grows forever and important facts drown in irrelevant history.
+REPAIR  Write selected facts to addressed storage, retrieve by present need, and preserve…
 ```

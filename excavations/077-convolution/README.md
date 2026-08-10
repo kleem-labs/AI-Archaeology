@@ -4,19 +4,11 @@
 
 An edge can appear anywhere in an image.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Learn a separate edge detector for every location.
 
-*Your first move:* Learn a separate edge detector for every location.
+Its hidden assumption appears in the following case: The model relearns the same pattern thousands of times and fails when it moves.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The model relearns the same pattern thousands of times and fails when it moves.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Slide one small learned filter across all positions and reuse its weights.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Slide one small learned filter across all positions and reuse its weights.
 
 ## Now work a case you can see
 

@@ -8,13 +8,13 @@
 
 The research system notices that longer context sometimes helps. What exactly should it test?
 
-Before inheriting a technique, make the first decision yourself. Ask whether more context makes the model better.
+A reasonable place to begin is: Ask whether more context makes the model better.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact.
+Now place that proposal under pressure: Better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact.
 
-The failure tells you what the repair must accomplish. State one predicted change, one intervention, one measurement, and one observation that would count against the claim.
+What broke tells us what the replacement must preserve: State one predicted change, one intervention, one measurement, and one observation that would count against the claim.
 
-Only now have you earned the chapter's name: **Hypotheses**.
+Only here do we name the idea: **Hypotheses**.
 
 ## Follow one case all the way through
 

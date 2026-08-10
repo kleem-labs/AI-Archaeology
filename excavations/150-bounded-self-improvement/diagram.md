@@ -1,13 +1,15 @@
-# Diagram — A Bounded Self-Improving System — Close the Research Loop
+# Diagram — Excavation 150 — A Bounded Self-Improving System — Close the Research Loop
+
+The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart LR
-    A["Observation"] --> B["Tempting shortcut"]
-    B --> C["Counterexample"]
-    C --> D["Required repair"]
-    D --> E["A Bounded Self-Improving System"]
+    B["Contaminated tests, reward hacks, or one lucky run can promote a worse and less…"] --> A["Reject: Let every measured gain replace the current system automatically."]
+    B --> C["Keep: Separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact…"]
 ```
 
 ```text
-observation -> attempt -> failure -> requirement -> discovery
+TRY     Let every measured gain replace the current system automatically.
+BREAK   Contaminated tests, reward hacks, or one lucky run can promote a worse and less…
+REPAIR  Separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact…
 ```

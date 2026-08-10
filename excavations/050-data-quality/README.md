@@ -4,21 +4,11 @@
 
 The architecture is correct, but the model repeats contradictions, private data, spam, and prejudice found in its training text.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Collect as much text as possible and assume scale washes out bad examples.
 
-*Your first move:* Collect as much text as possible and assume scale washes out bad examples.
+The idea survives only until we test it against reality: Duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them. What information did the attempt lose? Write that requirement before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them.
-
-What information did the attempt lose? Write that requirement before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices.
 
 ## Now work a case you can see
 

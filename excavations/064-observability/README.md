@@ -4,21 +4,11 @@
 
 An agent stops after twenty steps with a wrong result. The final answer does not reveal whether retrieval, planning, a tool, or verification failed.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Log only the final response, or log every hidden detail without structure.
 
-*Your first move:* Log only the final response, or log every hidden detail without structure.
+It works—right up to this boundary: The first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript. Name the missing guarantee before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript.
-
-Name the missing guarantee before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.
 
 ## Now work a case you can see
 

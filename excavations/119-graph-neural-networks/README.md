@@ -4,19 +4,11 @@
 
 How can each node learn from a variable number of neighbors?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Our first construction is deliberately modest: Assign a fixed input slot to every possible neighbor.
 
-*Your first move:* Assign a fixed input slot to every possible neighbor.
+It works—right up to this boundary: Graphs vary in size and neighbor order should not change meaning.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Graphs vary in size and neighbor order should not change meaning.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Apply the same message rule to each edge and aggregate neighbor messages without depending on order.
-
-Only after that reasoning may we give your discovery its inherited name.
+Crossing that boundary requires one additional idea: Apply the same message rule to each edge and aggregate neighbor messages without depending on order.
 
 ## Now work a case you can see
 

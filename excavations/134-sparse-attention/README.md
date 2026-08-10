@@ -4,13 +4,13 @@
 
 Long context makes every token compare with every other token.
 
-Before inheriting a technique, make the first decision yourself. Keep full attention and buy more hardware.
+Our first construction is deliberately modest: Keep full attention and buy more hardware.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Doubling length roughly quadruples pairwise comparisons.
+It works—right up to this boundary: Doubling length roughly quadruples pairwise comparisons.
 
-The failure tells you what the repair must accomplish. Preserve a small pattern of local, global, or retrieved connections that matches the task's information paths.
+Crossing that boundary requires one additional idea: Preserve a small pattern of local, global, or retrieved connections that matches the task's information paths.
 
-Only now have you earned the chapter's name: **Sparse Attention**.
+Only here do we name the idea: **Sparse Attention**.
 
 ## Follow one case all the way through
 

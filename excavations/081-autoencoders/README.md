@@ -4,19 +4,11 @@
 
 Can a model preserve what matters using fewer numbers?
 
-Pause here. You do not know the accepted method yet. What would you try?
+A reasonable place to begin is: Copy the input through an unrestricted hidden layer.
 
-*Your first move:* Copy the input through an unrestricted hidden layer.
+Now place that proposal under pressure: A wide hidden layer learns identity without compression.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* A wide hidden layer learns identity without compression.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Force information through a bottleneck and train reconstruction.
-
-Only after that reasoning may we give your discovery its inherited name.
+What broke tells us what the replacement must preserve: Force information through a bottleneck and train reconstruction.
 
 ## Now work a case you can see
 

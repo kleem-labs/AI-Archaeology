@@ -4,19 +4,11 @@
 
 Exploring every future action sequence becomes impossible.
 
-Pause here. You do not know the accepted method yet. What would you try?
+The first solution that suggests itself is this: Expand every branch equally.
 
-*Your first move:* Expand every branch equally.
+The idea survives only until we test it against reality: Most computation is wasted on obviously poor branches.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Most computation is wasted on obviously poor branches.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.
-
-Only after that reasoning may we give your discovery its inherited name.
+The failure gives us a precise requirement: Balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.
 
 ## Now work a case you can see
 

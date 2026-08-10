@@ -1,6 +1,15 @@
-# Diagram — 118
+# Diagram — Excavation 118 — Knowledge Graphs
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A[Observation] --> B[Reader attempt] --> C[Counterexample] --> D[Missing requirement] --> E[Reader invention]
-~~~
+    B["Repeated entities, reverse links, and multi-hop questions become difficult to traverse."] --> A["Reject: Store every fact as an isolated sentence."]
+    B --> C["Keep: Represent entities as nodes and named relations as edges."]
+```
+
+```text
+TRY     Store every fact as an isolated sentence.
+BREAK   Repeated entities, reverse links, and multi-hop questions become difficult to traverse.
+REPAIR  Represent entities as nodes and named relations as edges.
+```

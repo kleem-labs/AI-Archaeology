@@ -4,13 +4,13 @@
 
 A capable model is too expensive to deploy on a phone.
 
-Before inheriting a technique, make the first decision yourself. Train a small model only on the original hard labels.
+Without knowing the inherited method, we might try this: Train a small model only on the original hard labels.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: The labels reveal the winner but discard how the teacher distributed doubt among alternatives.
+Its hidden assumption appears in the following case: The labels reveal the winner but discard how the teacher distributed doubt among alternatives.
 
-The failure tells you what the repair must accomplish. Let the student imitate the teacher's probability pattern as well as the observed answer.
+Remove that assumption and the needed repair becomes clear: Let the student imitate the teacher's probability pattern as well as the observed answer.
 
-Only now have you earned the chapter's name: **Knowledge Distillation**.
+Only here do we name the idea: **Knowledge Distillation**.
 
 ## Follow one case all the way through
 

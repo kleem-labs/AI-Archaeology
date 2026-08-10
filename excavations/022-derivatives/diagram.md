@@ -1,13 +1,15 @@
-# Diagram — 022
+# Diagram — Excavation 022 — Derivatives — Asking One Weight What It Changed
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A["The loss is high"] --> B["Naive attempt"]
- B --> C["Failure becomes visible"]
- C --> D["Nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero."]
- D --> E["Derivatives"]
-~~~
+    B["A derivative is local advice. Curved landscapes can change direction, flatten, or hide…"] --> A["Reject: Try a large jump and keep it if loss falls. Large jumps can leap over improvements. Try…"]
+    B --> C["Keep: Nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by…"]
+```
 
-~~~text
-problem -> attempt -> failure -> need -> discovery
-~~~
+```text
+TRY     Try a large jump and keep it if loss falls. Large jumps can leap over improvements. Try…
+BREAK   A derivative is local advice. Curved landscapes can change direction, flatten, or hide…
+REPAIR  Nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by…
+```

@@ -4,21 +4,11 @@
 
 An agent sends a payment request, the network times out, and no response arrives. Did the payment fail, or did only the reply disappear?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Retry the action whenever a response is missing.
 
-*Your first move:* Retry the action whenever a response is missing.
+Its hidden assumption appears in the following case: The first payment succeeded and the retry charges the customer twice. Name the missing guarantee before continuing.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* The first payment succeeded and the retry charges the customer twice.
-
-Name the missing guarantee before continuing.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect.
 
 ## Now work a case you can see
 

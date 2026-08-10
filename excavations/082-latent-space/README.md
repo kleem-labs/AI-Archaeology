@@ -4,19 +4,11 @@
 
 The bottleneck contains numbers, but do nearby codes vary meaningfully?
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Assume any compressed coordinates form a smooth useful space.
 
-*Your first move:* Assume any compressed coordinates form a smooth useful space.
+Its hidden assumption appears in the following case: Tiny code changes can cause abrupt unrelated outputs.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Tiny code changes can cause abrupt unrelated outputs.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Shape the latent distribution and train nearby codes to decode coherently.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Shape the latent distribution and train nearby codes to decode coherently.
 
 ## Now work a case you can see
 

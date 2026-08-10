@@ -1,13 +1,15 @@
-# Diagram — Constitutional Guidance — Rules That Can Critique Answers
+# Diagram — Excavation 148 — Constitutional Guidance — Rules That Can Critique Answers
+
+The picture carries this excavation's particular counterexample and repair.
 
 ```mermaid
 flowchart LR
-    A["Observation"] --> B["Tempting shortcut"]
-    B --> C["Counterexample"]
-    C --> D["Required repair"]
-    D --> E["Constitutional Guidance"]
+    A["Memorize approved answers and imitate their surface style."] -->|"test"| B["A novel case has no matching example, and style does not reveal the governing reason."]
+    B -->|"forces"| C["Write inspectable principles, use them to critique drafts, revise, and record which…"]
 ```
 
 ```text
-observation -> attempt -> failure -> requirement -> discovery
+TRY     Memorize approved answers and imitate their surface style.
+BREAK   A novel case has no matching example, and style does not reveal the governing reason.
+REPAIR  Write inspectable principles, use them to critique drafts, revise, and record which…
 ```

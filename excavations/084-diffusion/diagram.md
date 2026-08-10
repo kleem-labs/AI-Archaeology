@@ -1,6 +1,15 @@
-# Diagram — 084
+# Diagram — Excavation 084 — Diffusion — Learning by Destroying
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A[Observation] --> B[Reader attempt] --> C[Counterexample] --> D[Missing requirement] --> E[Reader invention]
-~~~
+    A["Map one random vector directly to a finished image in one jump."] -->|"test"| B["One enormous jump is difficult to learn and unstable across diverse images."]
+    B -->|"forces"| C["Gradually add noise to real images, then learn the smaller reverse step at every noise…"]
+```
+
+```text
+TRY     Map one random vector directly to a finished image in one jump.
+BREAK   One enormous jump is difficult to learn and unstable across diverse images.
+REPAIR  Gradually add noise to real images, then learn the smaller reverse step at every noise…
+```

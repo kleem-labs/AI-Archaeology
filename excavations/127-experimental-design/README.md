@@ -4,13 +4,13 @@
 
 A new tokenizer and a larger model improve accuracy together. Which change helped?
 
-Before inheriting a technique, make the first decision yourself. Ship both improvements and compare with the old system.
+Without knowing the inherited method, we might try this: Ship both improvements and compare with the old system.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: One score changed while two possible causes changed; the result cannot assign credit.
+Its hidden assumption appears in the following case: One score changed while two possible causes changed; the result cannot assign credit.
 
-The failure tells you what the repair must accomplish. Hold everything fixed except the suspected cause, and include a control that receives no intervention.
+Remove that assumption and the needed repair becomes clear: Hold everything fixed except the suspected cause, and include a control that receives no intervention.
 
-Only now have you earned the chapter's name: **Experimental Design**.
+Only here do we name the idea: **Experimental Design**.
 
 ## Follow one case all the way through
 

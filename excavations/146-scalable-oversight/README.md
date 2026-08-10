@@ -4,13 +4,13 @@
 
 A model produces a million-line migration no reviewer can inspect completely.
 
-Before inheriting a technique, make the first decision yourself. Ask one expert to approve the entire artifact.
+A reasonable place to begin is: Ask one expert to approve the entire artifact.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: The review exceeds human attention and hidden failures survive.
+Now place that proposal under pressure: The review exceeds human attention and hidden failures survive.
 
-The failure tells you what the repair must accomplish. Decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions.
+What broke tells us what the replacement must preserve: Decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions.
 
-Only now have you earned the chapter's name: **Scalable Oversight**.
+Only here do we name the idea: **Scalable Oversight**.
 
 ## Follow one case all the way through
 

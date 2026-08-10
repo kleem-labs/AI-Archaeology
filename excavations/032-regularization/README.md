@@ -4,23 +4,11 @@
 
 The model can reduce training loss by building fragile rules around tiny accidental details.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Forbid complexity by making the model too small; it may lose real structure too. Stop training at an arbitrary time without observing unseen performance.
 
-*Your first move:* Forbid complexity by making the model too small; it may lose real structure too. Stop training at an arbitrary time without observing unseen performance.
+Its hidden assumption appears in the following case: Forbid complexity by making the model too small; it may lose real structure too. Stop training at an arbitrary time without observing unseen performance.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* Do not reject your idea because the book says it is wrong. Test what you just proposed:
-
-> Forbid complexity by making the model too small; it may lose real structure too. Stop training at an arbitrary time without observing unseen performance.
-
-Change the example until this rule gives an answer you know cannot be right. Name the exact information that disappeared or the false assumption the rule introduced. That missing requirement—not the name of a standard technique—is what you carry into the repair.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
 
 ## Why It Still Fails
 

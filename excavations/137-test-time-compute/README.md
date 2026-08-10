@@ -4,13 +4,13 @@
 
 One fixed forward pass treats an easy lookup and a hard proof as equal work.
 
-Before inheriting a technique, make the first decision yourself. Make every model response extremely long.
+Without knowing the inherited method, we might try this: Make every model response extremely long.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Easy tasks waste computation while long fluent mistakes become more convincing.
+Its hidden assumption appears in the following case: Easy tasks waste computation while long fluent mistakes become more convincing.
 
-The failure tells you what the repair must accomplish. Allocate extra attempts or steps only when uncertainty and verification justify their cost.
+Remove that assumption and the needed repair becomes clear: Allocate extra attempts or steps only when uncertainty and verification justify their cost.
 
-Only now have you earned the chapter's name: **Test-Time Compute**.
+Only here do we name the idea: **Test-Time Compute**.
 
 ## Follow one case all the way through
 

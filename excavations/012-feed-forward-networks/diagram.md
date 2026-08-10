@@ -1,10 +1,15 @@
 # Diagram — Excavation 012 — Feed-Forward Networks
 
-[Return to the excavation](README.md)
+The picture carries this excavation's particular counterexample and repair.
 
-~~~mermaid
+```mermaid
 flowchart LR
- A[Observation] --> B[Naive attempt] --> C[Visible failure] --> D[Needed discovery] --> E[New limitation]
-~~~
+    A["Stack only linear maps"] -->|"test"| B["The stack collapses into one linear map."]
+    B -->|"forces"| C["Insert a nonlinear gate between expansion and contraction. The chapter derives why this…"]
+```
 
-The chapter gives every arrow its concrete meaning.
+```text
+TRY     Stack only linear maps
+BREAK   The stack collapses into one linear map.
+REPAIR  Insert a nonlinear gate between expansion and contraction. The chapter derives why this…
+```

@@ -4,19 +4,11 @@
 
 A fraud pattern changes today, but the deployed model learned only from last year.
 
-Pause here. You do not know the accepted method yet. What would you try?
+Without knowing the inherited method, we might try this: Retrain immediately on every new labeled event.
 
-*Your first move:* Retrain immediately on every new labeled event.
+Its hidden assumption appears in the following case: One mislabeled transaction can move the model before anyone notices.
 
-It sounds reasonable. Now make it face the smallest case that refuses to cooperate.
-
-*The case that breaks it:* One mislabeled transaction can move the model before anyone notices.
-
-Do not reach for terminology. Say—in ordinary language—what the repaired idea must preserve or accomplish.
-
-*Your repair:* Update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
-
-Only after that reasoning may we give your discovery its inherited name.
+Remove that assumption and the needed repair becomes clear: Update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
 
 ## Now work a case you can see
 

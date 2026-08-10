@@ -4,13 +4,13 @@
 
 An agent must remember a project after the current prompt disappears.
 
-Before inheriting a technique, make the first decision yourself. Append every past event to every future prompt.
+The first solution that suggests itself is this: Append every past event to every future prompt.
 
-For a moment, the idea appears sufficient. Then reality supplies the case it cannot explain: Cost grows forever and important facts drown in irrelevant history.
+The idea survives only until we test it against reality: Cost grows forever and important facts drown in irrelevant history.
 
-The failure tells you what the repair must accomplish. Write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules.
+The failure gives us a precise requirement: Write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules.
 
-Only now have you earned the chapter's name: **External Memory**.
+Only here do we name the idea: **External Memory**.
 
 ## Follow one case all the way through
 

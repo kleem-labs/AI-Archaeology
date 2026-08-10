@@ -1,6 +1,15 @@
-# Diagram — 122
+# Diagram — Excavation 122 — Differential Privacy
 
-~~~mermaid
+The picture carries this excavation's particular counterexample and repair.
+
+```mermaid
 flowchart LR
- A[Observation] --> B[Reader attempt] --> C[Counterexample] --> D[Missing requirement] --> E[Reader invention]
-~~~
+    B["Rare combinations and model outputs can re-identify individuals."] --> A["Reject: Remove names and assume records are anonymous."]
+    B --> C["Keep: Limit how much any one record can change the released result, usually by clipping influence…"]
+```
+
+```text
+TRY     Remove names and assume records are anonymous.
+BREAK   Rare combinations and model outputs can re-identify individuals.
+REPAIR  Limit how much any one record can change the released result, usually by clipping influence…
+```
