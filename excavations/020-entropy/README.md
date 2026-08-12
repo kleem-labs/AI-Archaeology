@@ -22,6 +22,12 @@ For a fair coin, each outcome has probability 1/2 and information 1 bit. Weighti
 - Summing over every i computes average surprise before the outcome is known.
 - **H(P)** names uncertainty of the whole distribution P.
 
+### Why these operations are forced
+
+- [Multiplying each surprise by pᵢ](../../MATHEMATICAL_MOVES.md#multiplication) lets common outcomes speak more often than rare ones when measuring the uncertainty of the whole situation.
+- [Summing](../../MATHEMATICAL_MOVES.md#summation) combines those mutually exclusive outcome contributions into one expected uncertainty; multiplying them would make any certain zero-surprise outcome erase all others.
+- [The log](../../MATHEMATICAL_MOVES.md#logarithm) still converts probability products into additive information, and [the minus sign](../../MATHEMATICAL_MOVES.md#negative-sign) keeps that information nonnegative.
+
 Only now can we compress that reasoning:
 
 $$

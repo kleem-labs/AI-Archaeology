@@ -23,6 +23,11 @@ Input 2 is mixed into a hidden signal, gated, and produces prediction 0.7. If th
 - **∇_θL** assigns local correction directions to all parameters θ.
 - **θ′** is the updated state; the arrows show the forward path continuing into feedback rather than separate facts.
 
+### Why these operations are forced
+
+- [Arrows](../../MATHEMATICAL_MOVES.md#arrows) preserve process order: data is transformed, activated, predicted, priced, blamed, and only then used to update parameters. Equality would wrongly claim those stages are the same object.
+- [The gradient stage](../../MATHEMATICAL_MOVES.md#gradient) changes a single loss into parameter-by-parameter advice; the final primed θ names the resulting new state.
+
 Only now can we compress that reasoning:
 
 $$

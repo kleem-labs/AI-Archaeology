@@ -21,6 +21,12 @@ After reading “the striped animal is a,” the model holds one contextual desc
 - **b** allows each token a learned baseline tendency.
 - **ℓ_i** is the resulting unconstrained logit for candidate i—not yet a probability.
 
+### Why these operations are forced
+
+- [Multiplication by Wvocab](../../MATHEMATICAL_MOVES.md#multiplication) lets every contextual feature contribute a learned amount to every vocabulary candidate's score.
+- [The bias](../../MATHEMATICAL_MOVES.md#addition) gives each vocabulary token a learned baseline tendency even when the contextual vector is zero.
+- The index i selects one output candidate; it does not mean the token with the largest ID should win. See [indices](../../MATHEMATICAL_MOVES.md#indices).
+
 Only now can we compress that reasoning:
 
 $$

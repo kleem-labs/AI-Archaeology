@@ -16,6 +16,12 @@ For “How do I reset my router?”, answer A gives three safe ordered steps; an
 
 The reward scores two responses to the same prompt. Their difference matters, not the absolute score. The logistic function turns that difference into a preference probability; larger positive differences favor the chosen answer.
 
+### Why these operations are forced
+
+- [rA−rB](../../MATHEMATICAL_MOVES.md#subtraction) discards any common reward offset and keeps only which answer reviewers prefer and by how much.
+- [The inner negative](../../MATHEMATICAL_MOVES.md#negative-sign) makes larger preference gaps reduce the exponential term, so A's probability rises rather than falls.
+- [Exponentiation](../../MATHEMATICAL_MOVES.md#exponential) turns an unbounded reward gap into positive odds; adding one and [taking the reciprocal](../../MATHEMATICAL_MOVES.md#division) squeeze the result between zero and one without changing order.
+
 Only now can we compress the exact procedure:
 
 $$

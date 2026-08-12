@@ -27,6 +27,12 @@ In low, lower, lowest, pair l-o appears three times, more than e-r once. Countin
 
 Count, choose, merge, and repeat. The symbols only compress the procedure already needed.
 
+### Why these operations are forced
+
+- [The first equality](../../MATHEMATICAL_MOVES.md#equals) defines c(a,b) as the observed adjacency count; the parentheses keep the candidate pair together.
+- [Arg max](../../MATHEMATICAL_MOVES.md#arg-max) returns the pair whose count is largest because the tokenizer must know **what to merge**. Max alone would return only the winning count.
+- [The star](../../MATHEMATICAL_MOVES.md#symbol-decorations) marks the selected winner; it is a label on a and b, not multiplication or exponentiation.
+
 Only now can we compress that reasoning:
 
 $$

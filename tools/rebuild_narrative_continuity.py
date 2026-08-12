@@ -221,7 +221,10 @@ LEGACY_REPAIR_LEADS = REPAIR_MARKERS + (
     "Now the missing requirement is visible: ",
     "That failure tells us what must come next: ",
     "The broken attempt leaves one useful clue: ", "So the next invention must ",
+    "The requirement is that ", "We need ",
 )
+
+CUSTOM_REPAIR_LEADS = {19: "We need "}
 
 
 def remove_leads(value, leads):
@@ -271,7 +274,8 @@ def integrate(number, text):
     opening = [CARRY[number], sentence(ATTEMPT_LEADS[number % len(ATTEMPT_LEADS)], attempt)]
     if failure:
         opening.append(sentence(FAILURE_LEADS[number % len(FAILURE_LEADS)], failure))
-    opening.append(sentence(REPAIR_LEADS[number % len(REPAIR_LEADS)], repair))
+    repair_lead = CUSTOM_REPAIR_LEADS.get(number, REPAIR_LEADS[number % len(REPAIR_LEADS)])
+    opening.append(sentence(repair_lead, repair))
     return "\n\n".join(kept + opening) + "\n" + remainder
 
 

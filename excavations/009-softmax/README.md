@@ -54,6 +54,12 @@ For scores `[2, 4, 8]`, the largest score receives almost all the weight, but th
 
 Softmax does not discover relevance. It converts already-computed relevance scores into a smooth distribution of attention.
 
+### Why these operations are forced
+
+- [Exponentiation](../../MATHEMATICAL_MOVES.md#exponential) makes every raw score positive while preserving order and turning score gaps into stable ratios. Squaring would make a large negative score look strong; clipping would destroy gap information.
+- [The sum](../../MATHEMATICAL_MOVES.md#summation) gathers every candidate's positive weight because all candidates must share one unit of attention. A product would not describe a total available amount.
+- [Dividing by that total](../../MATHEMATICAL_MOVES.md#division) converts each weight into its share. Without it, multiplying every score scale would change the amount of information mixed rather than only its distribution.
+
 Only now can we compress that reasoning:
 
 $$

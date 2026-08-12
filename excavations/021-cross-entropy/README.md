@@ -21,6 +21,12 @@ Reality says the answer is tiger. A model assigning tiger 0.9 pays -log(0.9), ab
 - **−log qᵢ** makes confident neglect extremely costly.
 - Summing the reality-weighted costs gives one expected prediction penalty H(P,Q).
 
+### Why these operations are forced
+
+- [−log qᵢ](../../MATHEMATICAL_MOVES.md#logarithm) charges a large price when the model assigns tiny probability to what occurs; logarithms also let sequence costs add instead of multiplying many small probabilities.
+- [Multiplying by pᵢ](../../MATHEMATICAL_MOVES.md#multiplication) asks reality how often that charge should count. Without pᵢ, impossible and common outcomes would receive equal influence.
+- [The sum](../../MATHEMATICAL_MOVES.md#summation) forms one expected bill across outcomes. A product would allow one zero-weighted outcome to erase every other prediction error.
+
 Only now can we compress that reasoning:
 
 $$

@@ -4,7 +4,7 @@ Likelihood ranks hidden stories against the evidence in front of us. Yet two clu
 
 We first try to measure information by message length. A long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
 
-We need to we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs.
+We need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs.
 
 ## From procedure to notation
 
@@ -20,6 +20,12 @@ An event with probability 1/2 carries 1 bit because -log₂(1/2)=1. An event wit
 - The logarithm is needed because independent probabilities multiply while information from independent messages should add.
 - Probabilities below one have negative logs, so the minus sign makes information nonnegative.
 - A certain event has P=1 and therefore zero information; rarer events receive more.
+
+### Why these operations are forced
+
+- [The logarithm](../../MATHEMATICAL_MOVES.md#logarithm) is forced because independent probabilities multiply while learned information should accumulate by addition. It converts a product of probabilities into a sum of surprises.
+- [The negative sign](../../MATHEMATICAL_MOVES.md#negative-sign) reverses the negative log of probabilities below one, making rare events carry larger positive information and a certain event carry zero.
+- Using 1/P would also grow for rare events, but its independent surprises would multiply rather than add; that is why it fails the job we established.
 
 Only now can we compress that reasoning:
 

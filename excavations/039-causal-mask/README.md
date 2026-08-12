@@ -21,6 +21,12 @@ While learning from “the tiger sleeps,” the model sees the complete training
 - When j>i, the source is future; adding −∞ makes its later softmax weight zero.
 - **M_ij** stores that allowed-or-forbidden correction for every pair.
 
+### Why these operations are forced
+
+- [Cases](../../MATHEMATICAL_MOVES.md#cases) are forced because visible and forbidden positions obey genuinely different rules.
+- [j ≤ i and j > i](../../MATHEMATICAL_MOVES.md#inequalities) divide earlier-or-current keys from future keys for query position i.
+- Zero leaves an allowed attention score unchanged. [Negative infinity](../../MATHEMATICAL_MOVES.md#negative-sign) makes a forbidden score's exponential weight zero after softmax; a large positive value would do the opposite.
+
 Only now can we compress that reasoning:
 
 $$

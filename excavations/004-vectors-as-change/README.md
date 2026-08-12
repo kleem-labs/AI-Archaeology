@@ -31,6 +31,12 @@ A rescue party marks its camp on a paper map. It walks five kilometres east and 
 - **Δ** names that reusable change, including its signs and directions.
 - Adding Δ back to a must recover b; this second equation checks the meaning of the first.
 
+### Why these operations are forced
+
+- [Destination minus starting point](../../MATHEMATICAL_MOVES.md#subtraction) is forced because we want the change that would carry **a** to **b**, not their combined location.
+- [A negative coordinate](../../MATHEMATICAL_MOVES.md#negative-sign) keeps direction: −2 means move two units opposite that axis, not that the movement has an impossible size.
+- [Adding the change back](../../MATHEMATICAL_MOVES.md#addition) is the check: starting place plus the discovered movement must recover the destination.
+
 Only now can we compress that reasoning:
 
 $$

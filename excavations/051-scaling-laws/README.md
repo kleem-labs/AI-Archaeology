@@ -16,6 +16,12 @@ Models with 1, 2, and 4 million effective units achieve losses 4.0, 3.2, and 2.8
 
 N is the resource being scaled. The negative exponent makes loss fall as N grows. Alpha controls how quickly returns diminish. A scales the improvable part; B is the floor this simple trend cannot beat.
 
+### Why these operations are forced
+
+- [The negative power](../../MATHEMATICAL_MOVES.md#powers) makes the improvable part fall as resource N grows, with α controlling how quickly returns diminish.
+- [A scales that falling term](../../MATHEMATICAL_MOVES.md#multiplication) to the observed problem; adding A would create a floor instead of changing improvement size.
+- [Adding B](../../MATHEMATICAL_MOVES.md#addition) represents a remaining floor this simple scaling route does not remove. Multiplying by B would force the whole loss toward zero instead of allowing an irreducible remainder.
+
 Only now can we compress the exact procedure:
 
 $$

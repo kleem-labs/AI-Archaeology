@@ -21,6 +21,12 @@ Two models have data loss 2. Model A has squared-weight sum 100; B has 4. With l
 - **λ** expresses how strongly we prefer smaller machinery relative to data fit.
 - Addition forces training to negotiate prediction accuracy and complexity in one objective.
 
+### Why these operations are forced
+
+- [Addition](../../MATHEMATICAL_MOVES.md#addition) puts prediction cost and complexity cost on one bill so optimization cannot improve one without seeing the other.
+- [The squared norm](../../MATHEMATICAL_MOVES.md#norm) combines all parameter magnitudes without positive and negative weights cancelling, while making exceptionally large weights cost disproportionately more.
+- [λ scales the penalty](../../MATHEMATICAL_MOVES.md#multiplication) because the data cannot decide by itself how much simplicity to trade for fit. Adding λ as a constant would not change which parameters are preferred.
+
 Only now can we compress that reasoning:
 
 $$

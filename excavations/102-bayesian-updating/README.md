@@ -21,6 +21,12 @@ Before seeing tracks, a ranger considers tiger less common than deer: perhaps ti
 - Multiplying gives tiger’s unnormalized support.
 - The denominator repeats that multiplication for every story and adds them so final beliefs total one.
 
+### Why these operations are forced
+
+- [Likelihood times prior](../../MATHEMATICAL_MOVES.md#multiplication) requires a story to have both earlier plausibility and support from the new footprint. Addition would let overwhelming prior belief compensate linearly for evidence impossible under that story.
+- [The denominator sums support](../../MATHEMATICAL_MOVES.md#summation) over every competing story to find the whole amount of belief available.
+- [Division by that total](../../MATHEMATICAL_MOVES.md#division) turns each story's support into a share summing to one, while [the conditional bars](../../MATHEMATICAL_MOVES.md#conditional-bar) keep “evidence given story” distinct from “story after evidence.”
+
 Only now can we compress the procedure:
 
 $$

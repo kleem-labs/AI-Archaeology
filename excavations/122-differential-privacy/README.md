@@ -21,6 +21,13 @@ A clinic wants to publish an average recovery time. Imagine two almost identical
 - Epsilon limits how much more likely that result may become because one person participated.
 - A smaller epsilon makes the two worlds harder to distinguish.
 
+### Why these operations are forced
+
+- [The two probabilities](../../MATHEMATICAL_MOVES.md#probability) ask how likely the same released event S is with or without one person's record.
+- [M(D) ∈ S](../../MATHEMATICAL_MOVES.md#membership) says the randomized mechanism's output landed in the set of outcomes being inspected.
+- [e^ε](../../MATHEMATICAL_MOVES.md#exponential) turns the privacy budget into a multiplicative allowance: ε=0 requires equal probabilities, while larger ε permits a bounded ratio.
+- [The ≤ sign](../../MATHEMATICAL_MOVES.md#inequalities) promises a ceiling rather than false equality; privacy needs the two distributions close, not identical for every dataset pair.
+
 Only now can we compress the procedure:
 
 $$

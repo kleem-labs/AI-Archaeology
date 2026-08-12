@@ -41,6 +41,14 @@ Forcing every representation to remain permanently standardized would itself be 
 
 Layer normalization is not intelligence and does not create meaning. It creates stable numerical conditions in which learned transformations can operate.
 
+### Why these operations are forced
+
+- [Summing and dividing by d](../../MATHEMATICAL_MOVES.md#mean) finds the token's average feature level. A raw sum would grow merely because the representation has more coordinates.
+- [Subtracting the mean](../../MATHEMATICAL_MOVES.md#subtraction) asks how each feature differs from this token's centre; addition would move the whole pattern farther from centre.
+- [Squaring and averaging those differences](../../MATHEMATICAL_MOVES.md#variance) measures spread without quieter and louder features cancelling each other.
+- [The square root](../../MATHEMATICAL_MOVES.md#square-root) returns variance to ordinary feature scale, and [division by that spread](../../MATHEMATICAL_MOVES.md#division) removes arbitrary volume while preserving relative shape.
+- Adding ε is a safety floor: when every feature is identical, spread is zero and division would be undefined. See [addition](../../MATHEMATICAL_MOVES.md#addition) and [division](../../MATHEMATICAL_MOVES.md#division).
+
 Only now can we compress that reasoning:
 
 $$

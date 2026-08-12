@@ -31,6 +31,12 @@ next weight = current weight - learning rate × uphill sensitivity
             = 7
 ~~~
 
+### Why these operations are forced
+
+- [The time indices](../../MATHEMATICAL_MOVES.md#indices) distinguish the parameter state before update t from the state after it.
+- [The gradient](../../MATHEMATICAL_MOVES.md#gradient) supplies one local uphill sensitivity for each parameter; [the minus sign](../../MATHEMATICAL_MOVES.md#negative-sign) reverses that direction toward lower loss.
+- [Multiplying by η](../../MATHEMATICAL_MOVES.md#multiplication) supplies the missing travel distance. A direction alone does not say whether to move one millimetre or one kilometre.
+
 Only now can we compress the same procedure:
 
 $$

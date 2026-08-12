@@ -51,6 +51,13 @@ A tiger alarm has one adjustable dial: how strongly a stripe should raise danger
 
 $\theta$ is the current state of the weights, $\nabla L$ is a vector of advised change, and $\eta$ controls how large a step to take.
 
+### Why these operations are forced
+
+- [The gradient](../../MATHEMATICAL_MOVES.md#gradient) collects one local loss sensitivity for every adjustable weight so the whole parameter state receives coordinated advice.
+- [The minus sign](../../MATHEMATICAL_MOVES.md#negative-sign) reverses the gradient because the gradient points toward increasing loss and learning wants the locally decreasing direction.
+- [Multiplying by η](../../MATHEMATICAL_MOVES.md#multiplication) chooses how much of that direction to trust. Without η, the gradient's magnitude would dictate the whole step even when it is too large or too small.
+- The update arrow means “replace the old parameter state with this new one”; it is an action, not symmetric equality. See [arrows](../../MATHEMATICAL_MOVES.md#arrows).
+
 Only now can we compress that reasoning:
 
 $$

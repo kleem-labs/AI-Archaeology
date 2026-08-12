@@ -21,6 +21,12 @@ After deriving an idea in its chapter, revisit it in the
 [Mathematical Gist](MATHEMATICAL_GIST.md): one ordered mathematical spine that
 keeps the concrete explanation of every term beside the equation it produced.
 
+When an operation itself is unfamiliar, follow its chapter link into
+[Mathematical Moves](MATHEMATICAL_MOVES.md). It explains what addition,
+multiplication, division, powers, roots, exponentials, logarithms, derivatives,
+expectations, and notation preserve; why a different move would answer a
+different question; and where each move is useful elsewhere.
+
 This book does not begin with formulas. It begins with a person facing reality without inherited mathematics.
 
 Every excavation follows the same discipline:

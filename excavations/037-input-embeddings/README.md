@@ -28,6 +28,12 @@ The tokenizer assigns shelf address 2 to *tiger*. Looking up address 2 retrieves
 
 Multiplying by a one-hot vector merely selects one row, so an implementation can perform the lookup directly.
 
+### Why these operations are forced
+
+- [E ∈ ℝ](../../MATHEMATICAL_MOVES.md#membership) states the embedding table's allowed shape: one row per vocabulary token and d real coordinates per row.
+- [E[i]](../../MATHEMATICAL_MOVES.md#indices) treats token ID i as a shelf address. It retrieves one row rather than using the ID as a meaningful magnitude.
+- [One-hot multiplication](../../MATHEMATICAL_MOVES.md#multiplication) gives the same lookup because every zero row contribution vanishes and the single one-valued row survives; addition then combines the row contributions.
+
 Only now can we compress that reasoning:
 
 $$

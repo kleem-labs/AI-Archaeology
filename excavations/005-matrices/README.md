@@ -49,6 +49,12 @@ A ranger must turn two observations—how heavy an animal looks and how fast it 
 
 Row-by-column multiplication is not a ritual. Each row is one output asking how much every input should contribute.
 
+### Why these operations are forced
+
+- [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) lets each clue's importance scale that clue. A zero weight silences it; a weight of three makes it count three times.
+- [Addition](../../MATHEMATICAL_MOVES.md#addition) combines the scaled clues because they are separate contributions to the same judgment. Multiplying them would make any zero clue erase the entire decision and would claim interaction we never asked for.
+- [Each equals sign](../../MATHEMATICAL_MOVES.md#equals) records that the verbal judgment, its arithmetic recipe, and its final score are three descriptions of the same result.
+
 Only now can we compress that reasoning:
 
 $$

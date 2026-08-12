@@ -22,6 +22,12 @@ Imagine one hundred weak sensors feeding an alarm. If every sensor signal and ev
 - Dividing by n_in compensates for adding more independent inputs, preventing their combined signal scale from growing with width.
 - “Approximately” leaves room for activation-specific constants such as Xavier or He scaling.
 
+### Why these operations are forced
+
+- [Variance](../../MATHEMATICAL_MOVES.md#variance) describes the typical squared size of random starting weights without requiring every sampled weight to have that exact magnitude.
+- [Dividing by the number of incoming signals](../../MATHEMATICAL_MOVES.md#division) makes each individual weight smaller when more signals will be added, preventing total activation scale from growing with fan-in.
+- [The approximately sign](../../MATHEMATICAL_MOVES.md#approximation) admits a design target rather than claiming every finite random sample has exactly this variance; see [equality](../../MATHEMATICAL_MOVES.md#equals) for the stronger claim it avoids.
+
 Only now can we compress that reasoning:
 
 $$

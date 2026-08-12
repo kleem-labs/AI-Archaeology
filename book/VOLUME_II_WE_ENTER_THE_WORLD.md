@@ -34,6 +34,12 @@ Model A assigns probability 0.5 to each of three observed next tokens. Each cost
 
 The token count divides total surprise so longer sentences are comparable. Negative logs turn small assigned probabilities into large costs. Exponentiation reverses the log and returns the result to a probability-like choice scale.
 
+##### Why these operations are forced
+
+- [The log](../MATHEMATICAL_MOVES.md#logarithm) converts the product of many observed-token probabilities into additive surprise, avoiding a tiny unstable product for a long sentence.
+- [Summing](../MATHEMATICAL_MOVES.md#summation) collects surprise from every actual next token, and [dividing by n](../MATHEMATICAL_MOVES.md#division) makes sentences of different lengths comparable per token.
+- [The minus sign](../MATHEMATICAL_MOVES.md#negative-sign) makes low probabilities costly; [the final exponential](../MATHEMATICAL_MOVES.md#exponential) reverses the log scale so the answer reads like an equivalent number of equally likely choices.
+
 Only now can we compress the exact procedure:
 
 $$
@@ -96,6 +102,12 @@ Five predictions report 0.8 confidence. Exactly four are correct. Accuracy is 4/
 
 Each group contains predictions with similar confidence. Accuracy counts how many were correct. The absolute difference measures the reliability gap; weighting by group size prevents tiny groups dominating.
 
+##### Why these operations are forced
+
+- [Confidence minus accuracy](../MATHEMATICAL_MOVES.md#subtraction) finds each bin's reliability gap; adding them would measure overall level rather than disagreement.
+- [Absolute value](../MATHEMATICAL_MOVES.md#absolute-value) makes overconfidence and underconfidence both count as error when this metric asks for magnitude rather than direction.
+- [Multiplying by |Bᵦ|/n](../MATHEMATICAL_MOVES.md#multiplication) gives a large bin proportionally more influence, and [the sum](../MATHEMATICAL_MOVES.md#summation) combines all bin contributions. An unweighted mean would let a tiny bin count as much as a common one.
+
 Only now can we compress the exact procedure:
 
 $$
@@ -140,6 +152,12 @@ Models with 1, 2, and 4 million effective units achieve losses 4.0, 3.2, and 2.8
 
 N is the resource being scaled. The negative exponent makes loss fall as N grows. Alpha controls how quickly returns diminish. A scales the improvable part; B is the floor this simple trend cannot beat.
 
+##### Why these operations are forced
+
+- [The negative power](../MATHEMATICAL_MOVES.md#powers) makes the improvable part fall as resource N grows, with α controlling how quickly returns diminish.
+- [A scales that falling term](../MATHEMATICAL_MOVES.md#multiplication) to the observed problem; adding A would create a floor instead of changing improvement size.
+- [Adding B](../MATHEMATICAL_MOVES.md#addition) represents a remaining floor this simple scaling route does not remove. Multiplying by B would force the whole loss toward zero instead of allowing an irreducible remainder.
+
 Only now can we compress the exact procedure:
 
 $$
@@ -183,6 +201,12 @@ That failure tells us to collect comparisons between candidate responses, learn 
 For “How do I reset my router?”, answer A gives three safe ordered steps; answer B gives twenty vague paragraphs. A reviewer chooses A. Repeated comparisons teach concision and usefulness without declaring one exact sentence mandatory.
 
 The reward scores two responses to the same prompt. Their difference matters, not the absolute score. The logistic function turns that difference into a preference probability; larger positive differences favor the chosen answer.
+
+##### Why these operations are forced
+
+- [rA−rB](../MATHEMATICAL_MOVES.md#subtraction) discards any common reward offset and keeps only which answer reviewers prefer and by how much.
+- [The inner negative](../MATHEMATICAL_MOVES.md#negative-sign) makes larger preference gaps reduce the exponential term, so A's probability rises rather than falls.
+- [Exponentiation](../MATHEMATICAL_MOVES.md#exponential) turns an unbounded reward gap into positive odds; adding one and [taking the reciprocal](../MATHEMATICAL_MOVES.md#division) squeeze the result between zero and one without changing order.
 
 Only now can we compress the exact procedure:
 
@@ -671,6 +695,12 @@ A ranger photographs a tiger behind tall grass. Along one row, neighboring brigh
 - Multiplication measures how each local measurement agrees with its detector weight.
 - Summation combines the local evidence; shifting i moves the same detector instead of learning a new one.
 
+##### Why these operations are forced
+
+- [Each multiplication](../MATHEMATICAL_MOVES.md#multiplication) asks how strongly one local pixel agrees with the corresponding filter weight. A zero weight ignores that location; a negative one looks for contrast.
+- [The sum](../MATHEMATICAL_MOVES.md#summation) combines those aligned local contributions into one detector response. Multiplying all responses would let one zero pixel erase the entire pattern.
+- [i+j](../MATHEMATICAL_MOVES.md#indices) slides the same relative filter position j to a new image location i, which is how one detector is reused rather than relearned everywhere.
+
 Only now can we compress the procedure:
 
 $$
@@ -810,6 +840,12 @@ Print a clean tiger photograph on transparent film. At the first step, keep almo
 - The retained clean fraction and noise fraction change with step t.
 - Square roots scale amplitudes so their variances combine as intended.
 
+##### Why these operations are forced
+
+- [The two multiplications](../MATHEMATICAL_MOVES.md#multiplication) scale how much clean image and fresh noise survive at time t.
+- [Addition](../MATHEMATICAL_MOVES.md#addition) overlays those two same-shaped image contributions. Concatenation would produce two images side by side rather than one corrupted image.
+- [Square roots of the variance shares](../MATHEMATICAL_MOVES.md#square-root) convert variance allocation into amplitude scaling; the two squared amplitudes then sum to one total variance.
+
 Only now can we compress the procedure:
 
 $$
@@ -840,6 +876,12 @@ Take one pixel from that corrupted tiger image. We know the random grain added t
 - t tells the network how much corruption it faces.
 - The network predicts the exact noise ε that hid the clean image.
 - Squaring the pixel-by-pixel prediction error prevents cancellation; averaging trains across samples.
+
+##### Why these operations are forced
+
+- [Subtracting predicted noise from actual noise](../MATHEMATICAL_MOVES.md#subtraction) isolates the denoiser's error rather than their combined amount.
+- [The squared norm](../MATHEMATICAL_MOVES.md#norm) lets every pixel error contribute without opposite signs cancelling and penalizes large misses more strongly.
+- [Expectation](../MATHEMATICAL_MOVES.md#expectation) averages that error over images, noise samples, and times according to how training encounters them.
 
 Only now can we compress the procedure:
 
@@ -932,6 +974,12 @@ A rescue robot reaches a fork. Moving left finds one injured hiker now, worth im
 - Discount γ reduces distant evidence and keeps unending sums bounded.
 - Adding immediate and discounted future reward creates the target the old estimate moves toward.
 
+##### Why these operations are forced
+
+- [Addition](../MATHEMATICAL_MOVES.md#addition) combines reward received now with estimated value still available afterward because both contribute to total future return.
+- [γ scales future value](../MATHEMATICAL_MOVES.md#multiplication) to express delay or uncertainty; adding γ would give the same arbitrary bonus regardless of what future was reached.
+- [Max](../MATHEMATICAL_MOVES.md#maximum) uses the value of the best next action because Q-learning asks what return remains under optimal continuation. Averaging would evaluate a different future policy.
+
 Only now can we compress the procedure:
 
 $$
@@ -962,6 +1010,12 @@ A rescue robot sometimes chooses the river path and sometimes the ridge path. On
 - Its log converts repeated action probabilities into additive learning signals.
 - Return G says how the chosen action eventually turned out.
 - The gradient changes θ in the direction that makes above-average rewarded actions more likely.
+
+##### Why these operations are forced
+
+- [The policy log](../MATHEMATICAL_MOVES.md#logarithm) turns a product of action probabilities along a trajectory into additive terms and yields a convenient relative sensitivity: how a small parameter change alters chosen-action probability.
+- [Multiplying by return G](../MATHEMATICAL_MOVES.md#multiplication) makes successful sampled actions more influential and harmful ones push the opposite way; adding G would shift advice without scaling responsibility.
+- [Expectation](../MATHEMATICAL_MOVES.md#expectation) averages this noisy sampled advice across trajectories according to how often the policy produces them.
 
 Only now can we compress the procedure:
 
@@ -1013,6 +1067,13 @@ Place four wildlife photographs beside four captions. The tiger photograph shoul
 - The denominator includes every candidate caption, preventing all examples from collapsing to one point.
 - The negative log penalizes the true pair when mismatches receive comparable scores.
 
+##### Why these operations are forced
+
+- [Each dot product](../MATHEMATICAL_MOVES.md#dot-product) measures aligned agreement between one image representation and one candidate text representation.
+- [Dividing by temperature](../MATHEMATICAL_MOVES.md#division) controls how strongly score gaps matter before [exponentiation](../MATHEMATICAL_MOVES.md#exponential) converts them into positive relative weights.
+- [The denominator sum](../MATHEMATICAL_MOVES.md#summation) makes the correct pair compete against all candidates, preventing every representation from winning by collapsing to one point.
+- [Negative log](../MATHEMATICAL_MOVES.md#logarithm) turns the correct pair's probability share into additive cost and punishes confident preference for the wrong match.
+
 Only now can we compress the procedure:
 
 $$
@@ -1062,6 +1123,11 @@ A large language model already knows general English, but a park service needs i
 - Their product BA creates a full-shaped correction while using far fewer values.
 - Addition preserves the base behavior and applies only the learned adaptation.
 
+##### Why these operations are forced
+
+- [BA](../MATHEMATICAL_MOVES.md#multiplication) composes two narrow learned transformations, forcing the correction through a low-dimensional bottleneck instead of learning every entry of a full matrix.
+- [Adding that correction to W](../MATHEMATICAL_MOVES.md#addition) preserves the pretrained base and treats adaptation as a change. [The prime on W](../MATHEMATICAL_MOVES.md#symbol-decorations) marks the adapted version; replacing W would discard the knowledge we intended to keep.
+
 Only now can we compress the procedure:
 
 $$
@@ -1092,6 +1158,12 @@ Suppose one learned weight is `0.73`, but the device can store only integer step
 - Rounding chooses the nearest allowed integer q.
 - Multiplying q by s reconstructs the approximate weight used in computation.
 - The scale is calibrated so important values fit the available integer range.
+
+##### Why these operations are forced
+
+- [Dividing by scale s](../MATHEMATICAL_MOVES.md#division) expresses a real weight in units of one quantization step.
+- [Rounding](../MATHEMATICAL_MOVES.md#rounding) chooses the nearest integer level because storage permits only discrete codes; this is the deliberate lossy step.
+- [Multiplying q by s](../MATHEMATICAL_MOVES.md#multiplication) converts the stored step count back to the weight's approximate real scale. [The hat on w](../MATHEMATICAL_MOVES.md#symbol-decorations) marks this reconstructed approximation; addition would shift levels rather than restore their unit size.
 
 Only now can we compress the procedure:
 

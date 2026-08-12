@@ -116,6 +116,12 @@ Every part now has a job you already understand:
 - The coordinates need not have private names. A relationship can be spread
   across several of them.
 
+### Why these operations are forced
+
+- [The arrow](../../MATHEMATICAL_MOVES.md#arrows) means “represent this token as,” not equality: a word and its numerical representation are different kinds of object.
+- [The membership sign](../../MATHEMATICAL_MOVES.md#membership) says the embedding is allowed to live among d-coordinate real vectors.
+- [The superscript d](../../MATHEMATICAL_MOVES.md#powers) counts coordinate slots here; it is dimension, not an instruction to raise each number to a power.
+
 Only now is the compact notation useful:
 
 $$

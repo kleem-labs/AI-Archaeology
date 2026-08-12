@@ -20,6 +20,12 @@ Model A assigns probability 0.5 to each of three observed next tokens. Each cost
 
 The token count divides total surprise so longer sentences are comparable. Negative logs turn small assigned probabilities into large costs. Exponentiation reverses the log and returns the result to a probability-like choice scale.
 
+### Why these operations are forced
+
+- [The log](../../MATHEMATICAL_MOVES.md#logarithm) converts the product of many observed-token probabilities into additive surprise, avoiding a tiny unstable product for a long sentence.
+- [Summing](../../MATHEMATICAL_MOVES.md#summation) collects surprise from every actual next token, and [dividing by n](../../MATHEMATICAL_MOVES.md#division) makes sentences of different lengths comparable per token.
+- [The minus sign](../../MATHEMATICAL_MOVES.md#negative-sign) makes low probabilities costly; [the final exponential](../../MATHEMATICAL_MOVES.md#exponential) reverses the log scale so the answer reads like an equivalent number of equally likely choices.
+
 Only now can we compress the exact procedure:
 
 $$

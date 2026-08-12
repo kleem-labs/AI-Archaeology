@@ -13,8 +13,13 @@ Every finished chapter must contain:
 4. A repair the reader can state in ordinary language.
 5. A worked example using named objects and actual values.
 6. Symbols introduced only as nicknames for understood pieces.
-7. A limitation that creates the next excavation.
-8. Direct links to code, lab, mistakes, exercises, and references.
+7. Every operation justified in human terms: why add rather than multiply,
+   divide rather than merely count, log rather than use raw probability, and
+   so on.
+8. Each operation linked to its reusable mental model in
+   [Mathematical Moves](MATHEMATICAL_MOVES.md).
+9. A limitation that creates the next excavation.
+10. Direct links to code, lab, mistakes, exercises, and references.
 
 ## Laboratory gate
 
@@ -32,4 +37,3 @@ Every executable mathematical chapter must provide:
 A chapter marked complete must pass structural checks, implementation tests,
 local-link checks, and manual reading review. Placeholder code, generic diagrams,
 and unverified references fail this gate.
-

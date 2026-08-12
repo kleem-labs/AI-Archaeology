@@ -22,6 +22,12 @@ A tiger detector has two adjustable dials: how much to trust stripes and how muc
 - Dividing by batch size prevents merely using more examples from making the step proportionally larger.
 - **g_B** is the batch's less noisy gradient estimate.
 
+### Why these operations are forced
+
+- [The sum](../../MATHEMATICAL_MOVES.md#summation) lets every selected example contribute its proposed parameter correction. Multiplying gradients would turn one zero coordinate into a veto and would not represent a council's combined advice.
+- [Dividing by |B|](../../MATHEMATICAL_MOVES.md#division) asks for advice per example, so merely inviting twice as many witnesses does not double the update.
+- [i ∈ B](../../MATHEMATICAL_MOVES.md#membership) restricts the sum to examples actually selected for this mini-batch; [|B|](../../MATHEMATICAL_MOVES.md#cardinality) means the number of those examples.
+
 Only now can we compress that reasoning:
 
 $$

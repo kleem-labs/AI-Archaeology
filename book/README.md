@@ -11,3 +11,7 @@ chapter.
 
 For equation-focused review after deriving the ideas, use the
 [Mathematical Gist](../MATHEMATICAL_GIST.md).
+
+For a reusable understanding of why a formula adds, multiplies, divides,
+squares, exponentiates, logs, maximizes, or differentiates, use
+[Mathematical Moves](../MATHEMATICAL_MOVES.md).

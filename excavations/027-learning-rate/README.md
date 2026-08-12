@@ -21,6 +21,12 @@ The tiger alarm's stripe dial is again 8, and the local uphill sensitivity is 10
 - The minus sign moves against increasing loss.
 - **θ_t** and **θ_{t+1}** distinguish the old and updated parameter states.
 
+### Why these operations are forced
+
+- [gₜ](../../MATHEMATICAL_MOVES.md#gradient) gives direction but not distance.
+- [Multiplying by ηₜ](../../MATHEMATICAL_MOVES.md#multiplication) turns the direction into a controllable step for this time t; adding η would shift every coordinate regardless of the gradient's direction.
+- [Subtraction](../../MATHEMATICAL_MOVES.md#negative-sign) moves opposite the locally uphill gradient rather than making loss rise faster.
+
 Only now can we compress that reasoning:
 
 $$

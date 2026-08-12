@@ -21,6 +21,11 @@ With 100 examples, use 60 to change weights, 20 to choose learning rate, and kee
 - Union means they reconstruct the available collection.
 - The intended split also requires no example to leak between sets, even though the compact union symbol alone does not state disjointness.
 
+### Why these operations are forced
+
+- [Union](../../MATHEMATICAL_MOVES.md#union) says the complete dataset contains the members assigned to training, validation, or test roles. Ordinary addition is for numeric quantities, not for joining collections of examples.
+- Separate names preserve separate responsibilities; the union sign alone does not guarantee the sets do not overlap, so the split procedure must enforce that boundary.
+
 Only now can we compress that reasoning:
 
 $$

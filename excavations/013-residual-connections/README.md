@@ -40,6 +40,11 @@ This direct route also gives learning signals a path that does not depend entire
 
 Addition requires the input and proposal to have the same shape. That is why attention and feed-forward sublayers return to the model's shared width before joining the residual stream.
 
+### Why these operations are forced
+
+- [Addition](../../MATHEMATICAL_MOVES.md#addition) preserves the old message **x** and treats the block as a proposed change **F(x)**. Replacing x would force every block to reconstruct all useful old information.
+- [F(x)](../../MATHEMATICAL_MOVES.md#function-application) says the proposed change depends on this exact incoming representation rather than being one fixed correction for every token.
+
 Only now can we compress that reasoning:
 
 $$

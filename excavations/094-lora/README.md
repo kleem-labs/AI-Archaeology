@@ -21,6 +21,11 @@ A large language model already knows general English, but a park service needs i
 - Their product BA creates a full-shaped correction while using far fewer values.
 - Addition preserves the base behavior and applies only the learned adaptation.
 
+### Why these operations are forced
+
+- [BA](../../MATHEMATICAL_MOVES.md#multiplication) composes two narrow learned transformations, forcing the correction through a low-dimensional bottleneck instead of learning every entry of a full matrix.
+- [Adding that correction to W](../../MATHEMATICAL_MOVES.md#addition) preserves the pretrained base and treats adaptation as a change. [The prime on W](../../MATHEMATICAL_MOVES.md#symbol-decorations) marks the adapted version; replacing W would discard the knowledge we intended to keep.
+
 Only now can we compress the procedure:
 
 $$

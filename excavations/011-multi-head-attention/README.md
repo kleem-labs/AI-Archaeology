@@ -54,6 +54,11 @@ Each head is the query–key–value mechanism from the previous excavation with
 
 The analogy has limits. Heads do not always become clean, human-readable professions. Some overlap; some are difficult to interpret. The architectural point is parallel relationship spaces, not a promise of tidy labels.
 
+### Why these operations are forced
+
+- [Concatenation](../../MATHEMATICAL_MOVES.md#concatenation) keeps the grammar expert, reference expert, and distance expert side by side. Adding them immediately would erase which head supplied which evidence.
+- [Multiplication by the output matrix](../../MATHEMATICAL_MOVES.md#multiplication) lets the model learn how those preserved expert coordinates should interact; a fixed sum would impose the same mixture everywhere.
+
 Only now can we compress that reasoning:
 
 $$

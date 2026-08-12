@@ -15,7 +15,8 @@ def clean_section(section):
     lines = section.strip().splitlines()
     if lines and lines[0].startswith("## "):
         lines = lines[1:]
-    return "\n".join(lines).strip()
+    text = "\n".join(lines).strip()
+    return text.replace("../../MATHEMATICAL_MOVES.md", "MATHEMATICAL_MOVES.md")
 
 
 def build():
@@ -47,6 +48,8 @@ def build():
         "",
         "Use it after reading an excavation, or to revisit the chain of",
         "mathematical inventions without rereading the entire narrative.",
+        "For the reusable meaning of an operation, follow its link into the",
+        "[Mathematical Moves guide](MATHEMATICAL_MOVES.md).",
         "",
         f"**{len(entries)} equation-bearing excavations · {equation_count} displayed equations**",
         "",

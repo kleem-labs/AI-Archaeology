@@ -23,6 +23,12 @@ A village adjusts one alarm dial controlling how much smoke is needed before rin
 - The limit shrinks the nudge so the answer becomes local rather than dependent on an arbitrary test step.
 - **dL/dw** names that local sensitivity.
 
+### Why these operations are forced
+
+- [The numerator subtracts](../../MATHEMATICAL_MOVES.md#subtraction) old loss from nudged loss to isolate what the nudge changed; adding them would mix level with change.
+- [Division by the weight nudge](../../MATHEMATICAL_MOVES.md#division) converts raw loss change into loss change **per unit of weight change**, making different probe sizes comparable.
+- [The limit](../../MATHEMATICAL_MOVES.md#limit) lets the probe approach zero so curvature across a large jump does not disguise the local slope; setting ε equal to zero directly would divide by zero.
+
 Only now can we compress that reasoning:
 
 $$

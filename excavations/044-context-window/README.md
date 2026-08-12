@@ -21,6 +21,11 @@ Four words create sixteen possible question–source comparisons: each of four p
 - That repeated pairwise work is why cost grows proportionally to n² rather than n.
 - The proportional sign is used because heads, width, batching, and implementation add constants omitted from this scaling argument.
 
+### Why these operations are forced
+
+- [Proportionality](../../MATHEMATICAL_MOVES.md#proportionality) states the growth pattern without pretending every implementation has the same fixed cost.
+- [The square](../../MATHEMATICAL_MOVES.md#powers) appears because each of n query positions can compare with n key positions, creating n×n pairs. A linear n would count only one comparison per token.
+
 Only now can we compress that reasoning:
 
 $$

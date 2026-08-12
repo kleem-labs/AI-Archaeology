@@ -54,6 +54,12 @@ Before seeing tracks, a ranger considers tiger less common than deer: perhaps ti
 - Multiplying gives tiger’s unnormalized support.
 - The denominator repeats that multiplication for every story and adds them so final beliefs total one.
 
+##### Why these operations are forced
+
+- [Likelihood times prior](../MATHEMATICAL_MOVES.md#multiplication) requires a story to have both earlier plausibility and support from the new footprint. Addition would let overwhelming prior belief compensate linearly for evidence impossible under that story.
+- [The denominator sums support](../MATHEMATICAL_MOVES.md#summation) over every competing story to find the whole amount of belief available.
+- [Division by that total](../MATHEMATICAL_MOVES.md#division) turns each story's support into a share summing to one, while [the conditional bars](../MATHEMATICAL_MOVES.md#conditional-bar) keep “evidence given story” distinct from “story after evidence.”
+
 Only now can we compress the procedure:
 
 $$
@@ -301,6 +307,13 @@ A cave explorer can investigate the river tunnel or the ridge tunnel. The river 
 - Total visits increase pressure to reconsider neglected branches.
 - The constant controls how much uncertainty competes with known reward.
 
+##### Why these operations are forced
+
+- [The bar over R](../MATHEMATICAL_MOVES.md#symbol-decorations) marks the mean return, keeping what a branch has already demonstrated; see [mean](../MATHEMATICAL_MOVES.md#mean).
+- [log N](../MATHEMATICAL_MOVES.md#logarithm) lets exploration pressure grow slowly as the parent receives more visits instead of growing in direct proportion forever.
+- [Dividing by nₐ](../MATHEMATICAL_MOVES.md#division) makes an often-tested action less uncertain; [the square root](../MATHEMATICAL_MOVES.md#square-root) tempers how sharply that exploration bonus changes.
+- [c scales curiosity](../MATHEMATICAL_MOVES.md#multiplication) and [addition](../MATHEMATICAL_MOVES.md#addition) places that exploration bonus beside observed reward. Multiplying reward and curiosity would make either zero erase the other.
+
 Only now can we compress the procedure:
 
 $$
@@ -386,6 +399,12 @@ Three villages share borders. The river village wants to update its flood-risk e
 - Summation combines a variable number of messages without depending on neighbor order.
 - The update rule joins the old node state with the aggregated neighborhood evidence.
 
+##### Why these operations are forced
+
+- [M(hᵥ,hᵤ)](../MATHEMATICAL_MOVES.md#function-application) creates a message that depends on both receiving and neighboring nodes.
+- [Summing over neighbors](../MATHEMATICAL_MOVES.md#summation) combines a variable-size, unordered neighborhood into one fixed-size message. Concatenation would depend on neighbor count and arbitrary listing order.
+- [U](../MATHEMATICAL_MOVES.md#function-application) then updates the old node state using both its own previous information and the neighborhood evidence.
+
 Only now can we compress the procedure:
 
 $$
@@ -452,6 +471,13 @@ A clinic wants to publish an average recovery time. Imagine two almost identical
 - The same possible released result S is considered under both.
 - Epsilon limits how much more likely that result may become because one person participated.
 - A smaller epsilon makes the two worlds harder to distinguish.
+
+##### Why these operations are forced
+
+- [The two probabilities](../MATHEMATICAL_MOVES.md#probability) ask how likely the same released event S is with or without one person's record.
+- [M(D) ∈ S](../MATHEMATICAL_MOVES.md#membership) says the randomized mechanism's output landed in the set of outcomes being inspected.
+- [e^ε](../MATHEMATICAL_MOVES.md#exponential) turns the privacy budget into a multiplicative allowance: ε=0 requires equal probabilities, while larger ε permits a bounded ratio.
+- [The ≤ sign](../MATHEMATICAL_MOVES.md#inequalities) promises a ceiling rather than false equality; privacy needs the two distributions close, not identical for every dataset pair.
 
 Only now can we compress the procedure:
 

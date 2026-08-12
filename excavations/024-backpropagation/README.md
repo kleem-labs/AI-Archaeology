@@ -22,6 +22,12 @@ One shared dough temperature affects two outcomes: crust and centre. The crust b
 - **∂y/∂x** says how strongly x affected that child locally.
 - Multiplication passes blame through one edge; summation combines all outgoing paths.
 
+### Why these operations are forced
+
+- [The partial derivative](../../MATHEMATICAL_MOVES.md#partial-derivative) measures one local edge while other inputs are held fixed.
+- [Multiplying child blame by edge sensitivity](../../MATHEMATICAL_MOVES.md#multiplication) passes downstream responsibility through that edge; either factor being zero should block that path.
+- [Summing over children](../../MATHEMATICAL_MOVES.md#summation) reunites separate downstream routes that all depended on x. Multiplication would incorrectly make one zero-blame route erase every other route.
+
 Only now can we compress that reasoning:
 
 $$

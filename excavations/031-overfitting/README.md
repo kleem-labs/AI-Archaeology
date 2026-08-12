@@ -21,6 +21,11 @@ A model has training loss 0.02 and unseen loss 0.17. Subtracting gives a gap of 
 - Subtraction isolates deterioration outside memory instead of confusing it with absolute task difficulty.
 - A positive generalization gap is evidence that training success did not fully survive.
 
+### Why these operations are forced
+
+- [Unseen loss minus training loss](../../MATHEMATICAL_MOVES.md#subtraction) isolates how much performance deteriorates beyond memorized examples. Adding the losses would measure total error, not the transfer gap.
+- The order matters: a positive answer naturally means unseen cases are worse. Reversing the subtraction would reverse that interpretation.
+
 Only now can we compress that reasoning:
 
 $$

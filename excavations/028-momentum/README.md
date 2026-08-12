@@ -22,6 +22,12 @@ Three small groups inspect tiger tracks. Each recommends changing two detector d
 - Addition combines memory with new evidence into velocity v_t.
 - **η** scales that velocity before it changes θ.
 
+### Why these operations are forced
+
+- [Multiplying old velocity by β](../../MATHEMATICAL_MOVES.md#multiplication) fades memory instead of remembering every ancient gradient equally. β near zero forgets quickly; β near one preserves direction longer.
+- [Adding the new gradient](../../MATHEMATICAL_MOVES.md#addition) lets current evidence join the surviving past direction. Multiplying them would erase memory wherever either vector contains zero.
+- The final [η scaling](../../MATHEMATICAL_MOVES.md#multiplication) chooses travel distance and [the minus sign](../../MATHEMATICAL_MOVES.md#negative-sign) turns remembered uphill direction into a downhill update.
+
 Only now can we compress that reasoning:
 
 $$

@@ -21,6 +21,11 @@ A gatekeeper receives a danger signal. Two ordinary scaling rules—double it, t
 - **φ** is the necessary nonlinear gate; without it, stacked layers collapse into one linear map.
 - **h** is the hidden representation after both mixing and gating.
 
+### Why these operations are forced
+
+- [Wx](../../MATHEMATICAL_MOVES.md#multiplication) lets every learned input weight scale and mix its matching feature; [adding b](../../MATHEMATICAL_MOVES.md#addition) supplies a learnable baseline.
+- [Applying φ](../../MATHEMATICAL_MOVES.md#function-application) bends the result. Without φ, repeated multiply-and-add stages remain one linear map, no matter how many layers are stacked.
+
 Only now can we compress that reasoning:
 
 $$

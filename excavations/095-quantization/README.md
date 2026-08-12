@@ -21,6 +21,12 @@ Suppose one learned weight is `0.73`, but the device can store only integer step
 - Multiplying q by s reconstructs the approximate weight used in computation.
 - The scale is calibrated so important values fit the available integer range.
 
+### Why these operations are forced
+
+- [Dividing by scale s](../../MATHEMATICAL_MOVES.md#division) expresses a real weight in units of one quantization step.
+- [Rounding](../../MATHEMATICAL_MOVES.md#rounding) chooses the nearest integer level because storage permits only discrete codes; this is the deliberate lossy step.
+- [Multiplying q by s](../../MATHEMATICAL_MOVES.md#multiplication) converts the stored step count back to the weight's approximate real scale. [The hat on w](../../MATHEMATICAL_MOVES.md#symbol-decorations) marks this reconstructed approximation; addition would shift levels rather than restore their unit size.
+
 Only now can we compress the procedure:
 
 $$

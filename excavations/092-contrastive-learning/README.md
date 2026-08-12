@@ -22,6 +22,13 @@ Place four wildlife photographs beside four captions. The tiger photograph shoul
 - The denominator includes every candidate caption, preventing all examples from collapsing to one point.
 - The negative log penalizes the true pair when mismatches receive comparable scores.
 
+### Why these operations are forced
+
+- [Each dot product](../../MATHEMATICAL_MOVES.md#dot-product) measures aligned agreement between one image representation and one candidate text representation.
+- [Dividing by temperature](../../MATHEMATICAL_MOVES.md#division) controls how strongly score gaps matter before [exponentiation](../../MATHEMATICAL_MOVES.md#exponential) converts them into positive relative weights.
+- [The denominator sum](../../MATHEMATICAL_MOVES.md#summation) makes the correct pair compete against all candidates, preventing every representation from winning by collapsing to one point.
+- [Negative log](../../MATHEMATICAL_MOVES.md#logarithm) turns the correct pair's probability share into additive cost and punishes confident preference for the wrong match.
+
 Only now can we compress the procedure:
 
 $$

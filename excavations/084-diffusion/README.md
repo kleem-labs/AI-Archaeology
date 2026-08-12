@@ -21,6 +21,12 @@ Print a clean tiger photograph on transparent film. At the first step, keep almo
 - The retained clean fraction and noise fraction change with step t.
 - Square roots scale amplitudes so their variances combine as intended.
 
+### Why these operations are forced
+
+- [The two multiplications](../../MATHEMATICAL_MOVES.md#multiplication) scale how much clean image and fresh noise survive at time t.
+- [Addition](../../MATHEMATICAL_MOVES.md#addition) overlays those two same-shaped image contributions. Concatenation would produce two images side by side rather than one corrupted image.
+- [Square roots of the variance shares](../../MATHEMATICAL_MOVES.md#square-root) convert variance allocation into amplitude scaling; the two squared amplitudes then sum to one total variance.
+
 Only now can we compress the procedure:
 
 $$

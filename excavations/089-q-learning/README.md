@@ -21,6 +21,12 @@ A rescue robot reaches a fork. Moving left finds one injured hiker now, worth im
 - Discount γ reduces distant evidence and keeps unending sums bounded.
 - Adding immediate and discounted future reward creates the target the old estimate moves toward.
 
+### Why these operations are forced
+
+- [Addition](../../MATHEMATICAL_MOVES.md#addition) combines reward received now with estimated value still available afterward because both contribute to total future return.
+- [γ scales future value](../../MATHEMATICAL_MOVES.md#multiplication) to express delay or uncertainty; adding γ would give the same arbitrary bonus regardless of what future was reached.
+- [Max](../../MATHEMATICAL_MOVES.md#maximum) uses the value of the best next action because Q-learning asks what return remains under optimal continuation. Averaging would evaluate a different future policy.
+
 Only now can we compress the procedure:
 
 $$

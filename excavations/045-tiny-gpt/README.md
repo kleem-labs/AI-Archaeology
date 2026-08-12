@@ -23,6 +23,11 @@ Begin with the prompt “the tiger.” Its token addresses fetch learned startin
 - **sample** chooses a continuation and feeds it back as the next token.
 - The arrows encode one closed causal loop, not an unexplained algebraic equality.
 
+### Why these operations are forced
+
+- [Arrows](../../MATHEMATICAL_MOVES.md#arrows) show dependency and order rather than equality: tokens become representations, representations produce scores, loss produces gradients, and an update changes what the next sample can be.
+- The loop matters more than any isolated sign. Removing one arrow breaks the causal path by which observed text can change future generation.
+
 Only now can we compress that reasoning:
 
 $$

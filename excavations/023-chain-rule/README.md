@@ -21,6 +21,11 @@ Turn an oven knob slightly. The first mechanism doubles that movement into a fue
 - Multiplication is forced because a change is scaled at every link it traverses.
 - The product gives the effect of w on L without pretending they touch directly.
 
+### Why these operations are forced
+
+- Each [derivative](../../MATHEMATICAL_MOVES.md#derivative) is a local conversion rate: loss per y, y per x, and x per weight.
+- [Multiplying the rates](../../MATHEMATICAL_MOVES.md#multiplication) is forced because one unit of weight change produces dx/dw units of x, each produces dy/dx units of y, and each of those produces dL/dy loss. Adding would mix rates with incompatible units.
+
 Only now can we compress that reasoning:
 
 $$

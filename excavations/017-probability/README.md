@@ -26,6 +26,11 @@ A tracker saw tigers after 2 of 10 comparable rustles. The raw count 2 means lit
 - Division turns the count into a share between zero and one.
 - **P(A)** names that evidence-dependent share, not a guarantee.
 
+### Why these operations are forced
+
+- [Division](../../MATHEMATICAL_MOVES.md#division) turns a tiger count into a share of comparable encounters. The count alone grows when we watch longer even if the underlying chance is unchanged.
+- [Probability](../../MATHEMATICAL_MOVES.md#probability) preserves several possible causes as parts of one whole instead of forcing certainty from incomplete evidence.
+
 Only now can we compress that reasoning:
 
 $$

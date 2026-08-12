@@ -77,6 +77,14 @@ Before a displayed equation, the reader must have:
 4. substituted concrete values where arithmetic is involved;
 5. encountered every symbol as a nickname for a known job.
 
+Every mathematical operation must also answer a counterfactual: why this move
+rather than the nearest plausible alternative? “Sum combines the terms” is not
+enough. The prose must show what a product would falsely claim, what would
+cancel without a square, why a log is needed when probabilities multiply but
+information must add, or why an exponential has the exact order-and-ratio
+behavior the problem requires. The chapter then links that move to
+`MATHEMATICAL_MOVES.md` so the reader can reuse it beyond one formula.
+
 The notation must render in GitHub-compatible Markdown. Spacing macros that the
 renderer misreads are prohibited.
 

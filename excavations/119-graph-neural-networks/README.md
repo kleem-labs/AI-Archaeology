@@ -21,6 +21,12 @@ Three villages share borders. The river village wants to update its flood-risk e
 - Summation combines a variable number of messages without depending on neighbor order.
 - The update rule joins the old node state with the aggregated neighborhood evidence.
 
+### Why these operations are forced
+
+- [M(hᵥ,hᵤ)](../../MATHEMATICAL_MOVES.md#function-application) creates a message that depends on both receiving and neighboring nodes.
+- [Summing over neighbors](../../MATHEMATICAL_MOVES.md#summation) combines a variable-size, unordered neighborhood into one fixed-size message. Concatenation would depend on neighbor count and arbitrary listing order.
+- [U](../../MATHEMATICAL_MOVES.md#function-application) then updates the old node state using both its own previous information and the neighborhood evidence.
+
 Only now can we compress the procedure:
 
 $$

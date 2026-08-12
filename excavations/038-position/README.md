@@ -22,6 +22,11 @@ Compare “tiger chases deer” with “deer chases tiger.” The same three wor
 - Addition is possible because both vectors share width and is necessary so every later operation receives content and position together.
 - **z_i** is the combined input at position i.
 
+### Why these operations are forced
+
+- [Addition](../../MATHEMATICAL_MOVES.md#addition) overlays the token's learned content and this occurrence's position while keeping the vector width unchanged. Concatenation would widen every later layer and keep the two sources permanently separate.
+- [The shared index i](../../MATHEMATICAL_MOVES.md#indices) forces the token and position from the same slot to meet; mismatched indices would attach the wrong location.
+
 Only now can we compress that reasoning:
 
 $$

@@ -22,6 +22,11 @@ Story A says a deep print occurs 80% of the time; Story B says 20%. After observ
 - **P(x|θ)** asks how expected this evidence would be if θ were true—the reversal forced by comparing stories.
 - **L(θ|x)** names that same quantity when x is held fixed and explanations vary; it is not automatically a probability over θ.
 
+### Why these operations are forced
+
+- [The conditional bar](../../MATHEMATICAL_MOVES.md#conditional-bar) deliberately asks how expected this footprint would be **if** a tiger story were true. Reversing the two sides asks a different question and would silently mix evidence with prior belief.
+- [Equality](../../MATHEMATICAL_MOVES.md#equals) renames that conditional evidence score as likelihood when θ is treated as the candidate story and x as fixed evidence.
+
 Only now can we compress that reasoning:
 
 $$

@@ -6,6 +6,8 @@ of each term before allowing notation to compress the idea.
 
 Use it after reading an excavation, or to revisit the chain of
 mathematical inventions without rereading the entire narrative.
+For the reusable meaning of an operation, follow its link into the
+[Mathematical Moves guide](MATHEMATICAL_MOVES.md).
 
 **57 equation-bearing excavations · 69 displayed equations**
 
@@ -84,6 +86,12 @@ A tiger recorded as weight 220, speed 65, and age 6 becomes [220, 65, 6]. The fi
 
 This says only: one object carries an ordered measurement for each of $n$ agreed features.
 
+### Why these operations are forced
+
+- [Brackets](MATHEMATICAL_MOVES.md#brackets) keep tiger weight, speed, and age together without pretending they should be added; each observation must remain recoverable.
+- [Subscripts](MATHEMATICAL_MOVES.md#indices) give each retained feature an address. The dots mean the same pattern continues until feature n; they do not hide another operation.
+- [The equals sign](MATHEMATICAL_MOVES.md#equals) says that **x** is our short name for this complete ordered list.
+
 Only now can we compress that reasoning:
 
 $$
@@ -130,6 +138,13 @@ The total is in squared differences. Its square root gives one ordinary separati
 - The root changes total 27 into distance 5.20.
 - **d(x,y)** merely names “the one separation between these two tigers.”
 
+### Why these operations are forced
+
+- [Subtracting](MATHEMATICAL_MOVES.md#subtraction) tiger height from tiger height and tiger speed from tiger speed isolates each like-for-like disagreement. Adding would measure a total, not a gap.
+- [Squaring](MATHEMATICAL_MOVES.md#powers) stops a smaller and larger feature from cancelling and makes a large mismatch count more strongly. Absolute value could stop cancellation too, but would produce a different geometry in which many small misses and one large miss trade differently.
+- [Adding the squared disagreements](MATHEMATICAL_MOVES.md#summation) lets every retained feature contribute to one separation. Multiplying would let one perfect feature match erase all other disagreement by making the product zero.
+- [The square root](MATHEMATICAL_MOVES.md#square-root) returns the accumulated squared separation to the features' ordinary scale; it is omitted when squared distance itself is all an algorithm needs.
+
 Only now can we compress that reasoning:
 
 $$
@@ -153,6 +168,12 @@ A rescue party marks its camp on a paper map. It walks five kilometres east and 
 - Subtraction is forced because we need the change that remains after removing the start.
 - **Δ** names that reusable change, including its signs and directions.
 - Adding Δ back to a must recover b; this second equation checks the meaning of the first.
+
+### Why these operations are forced
+
+- [Destination minus starting point](MATHEMATICAL_MOVES.md#subtraction) is forced because we want the change that would carry **a** to **b**, not their combined location.
+- [A negative coordinate](MATHEMATICAL_MOVES.md#negative-sign) keeps direction: −2 means move two units opposite that axis, not that the movement has an impossible size.
+- [Adding the change back](MATHEMATICAL_MOVES.md#addition) is the check: starting place plus the discovered movement must recover the destination.
 
 Only now can we compress that reasoning:
 
@@ -183,6 +204,12 @@ A ranger must turn two observations—how heavy an animal looks and how fast it 
 - The result **[23,20]** contains one value per matrix row.
 
 Row-by-column multiplication is not a ritual. Each row is one output asking how much every input should contribute.
+
+### Why these operations are forced
+
+- [Multiplication](MATHEMATICAL_MOVES.md#multiplication) lets each clue's importance scale that clue. A zero weight silences it; a weight of three makes it count three times.
+- [Addition](MATHEMATICAL_MOVES.md#addition) combines the scaled clues because they are separate contributions to the same judgment. Multiplying them would make any zero clue erase the entire decision and would claim interaction we never asked for.
+- [Each equals sign](MATHEMATICAL_MOVES.md#equals) records that the verbal judgment, its arithmetic recipe, and its final score are three descriptions of the same result.
 
 Only now can we compress that reasoning:
 
@@ -217,6 +244,12 @@ Every part now has a job you already understand:
 - The coordinates need not have private names. A relationship can be spread
   across several of them.
 
+### Why these operations are forced
+
+- [The arrow](MATHEMATICAL_MOVES.md#arrows) means “represent this token as,” not equality: a word and its numerical representation are different kinds of object.
+- [The membership sign](MATHEMATICAL_MOVES.md#membership) says the embedding is allowed to live among d-coordinate real vectors.
+- [The superscript d](MATHEMATICAL_MOVES.md#powers) counts coordinate slots here; it is dimension, not an instruction to raise each number to a power.
+
 Only now is the compact notation useful:
 
 $$
@@ -247,6 +280,12 @@ For scores `[2, 4, 8]`, the largest score receives almost all the weight, but th
 
 Softmax does not discover relevance. It converts already-computed relevance scores into a smooth distribution of attention.
 
+### Why these operations are forced
+
+- [Exponentiation](MATHEMATICAL_MOVES.md#exponential) makes every raw score positive while preserving order and turning score gaps into stable ratios. Squaring would make a large negative score look strong; clipping would destroy gap information.
+- [The sum](MATHEMATICAL_MOVES.md#summation) gathers every candidate's positive weight because all candidates must share one unit of attention. A product would not describe a total available amount.
+- [Dividing by that total](MATHEMATICAL_MOVES.md#division) converts each weight into its share. Without it, multiplying every score scale would change the amount of information mixed rather than only its distribution.
+
 Only now can we compress that reasoning:
 
 $$
@@ -271,6 +310,12 @@ A librarian hears, “Find me the book about a striped predator.” The request 
 - Summing over j combines every permitted source into output oᵢ.
 
 Learned matrices create query, key, and value views from each current representation. Their formulas record three roles we already needed; they are not arbitrary symmetry.
+
+### Why these operations are forced
+
+- [The dot product](MATHEMATICAL_MOVES.md#dot-product) multiplies query height-need by key height-offer, stripe-need by stripe-offer, and so on, then adds those aligned agreements into one relevance score.
+- [Multiplication inside the dot product](MATHEMATICAL_MOVES.md#multiplication) is required because a query feature should matter only when the matching key feature is present too; addition would reward a key for merely being large on unrelated features.
+- [The first sum](MATHEMATICAL_MOVES.md#summation) combines feature-level evidence into one match. The second sum combines each source's value after its attention weight scales how loudly that source contributes.
 
 Only now can we compress that reasoning:
 
@@ -322,6 +367,11 @@ Each head is the query–key–value mechanism from the previous excavation with
 
 The analogy has limits. Heads do not always become clean, human-readable professions. Some overlap; some are difficult to interpret. The architectural point is parallel relationship spaces, not a promise of tidy labels.
 
+### Why these operations are forced
+
+- [Concatenation](MATHEMATICAL_MOVES.md#concatenation) keeps the grammar expert, reference expert, and distance expert side by side. Adding them immediately would erase which head supplied which evidence.
+- [Multiplication by the output matrix](MATHEMATICAL_MOVES.md#multiplication) lets the model learn how those preserved expert coordinates should interact; a fixed sum would impose the same mixture everywhere.
+
 Only now can we compress that reasoning:
 
 $$
@@ -354,6 +404,12 @@ feed-forward: what do I make of what I heard?
 
 The phrase “feed-forward” can sound like the entire model. Here it means the position-wise transformation inside each Transformer block.
 
+### Why these operations are forced
+
+- [Each matrix multiplication](MATHEMATICAL_MOVES.md#multiplication) lets learned weights decide how strongly one incoming feature should affect each hidden or outgoing feature.
+- [Adding a bias](MATHEMATICAL_MOVES.md#addition) lets a detector have a baseline threshold even when all incoming features are zero; multiplication alone must always map zero input to zero output.
+- [The activation function](MATHEMATICAL_MOVES.md#function-application) bends the intermediate result. Without that nonlinearity, the two matrix stages collapse into one linear transformation.
+
 Only now can we compress that reasoning:
 
 $$
@@ -381,6 +437,11 @@ The block learns the **residual**—the difference between what exists and what 
 This direct route also gives learning signals a path that does not depend entirely on every learned transformation. Residual connections do not guarantee that a very deep model will train, but they make preservation and correction far easier.
 
 Addition requires the input and proposal to have the same shape. That is why attention and feed-forward sublayers return to the model's shared width before joining the residual stream.
+
+### Why these operations are forced
+
+- [Addition](MATHEMATICAL_MOVES.md#addition) preserves the old message **x** and treats the block as a proposed change **F(x)**. Replacing x would force every block to reconstruct all useful old information.
+- [F(x)](MATHEMATICAL_MOVES.md#function-application) says the proposed change depends on this exact incoming representation rather than being one fixed correction for every token.
 
 Only now can we compress that reasoning:
 
@@ -411,6 +472,14 @@ The small $\epsilon$ prevents division by zero when every feature is equal.
 Forcing every representation to remain permanently standardized would itself be restrictive. Learned scale and shift parameters therefore let the model restore useful volumes and offsets after normalization.
 
 Layer normalization is not intelligence and does not create meaning. It creates stable numerical conditions in which learned transformations can operate.
+
+### Why these operations are forced
+
+- [Summing and dividing by d](MATHEMATICAL_MOVES.md#mean) finds the token's average feature level. A raw sum would grow merely because the representation has more coordinates.
+- [Subtracting the mean](MATHEMATICAL_MOVES.md#subtraction) asks how each feature differs from this token's centre; addition would move the whole pattern farther from centre.
+- [Squaring and averaging those differences](MATHEMATICAL_MOVES.md#variance) measures spread without quieter and louder features cancelling each other.
+- [The square root](MATHEMATICAL_MOVES.md#square-root) returns variance to ordinary feature scale, and [division by that spread](MATHEMATICAL_MOVES.md#division) removes arbitrary volume while preserving relative shape.
+- Adding ε is a safety floor: when every feature is identical, spread is zero and division would be undefined. See [addition](MATHEMATICAL_MOVES.md#addition) and [division](MATHEMATICAL_MOVES.md#division).
 
 Only now can we compress that reasoning:
 
@@ -445,6 +514,13 @@ A tiger alarm has one adjustable dial: how strongly a stripe should raise danger
 
 $\theta$ is the current state of the weights, $\nabla L$ is a vector of advised change, and $\eta$ controls how large a step to take.
 
+### Why these operations are forced
+
+- [The gradient](MATHEMATICAL_MOVES.md#gradient) collects one local loss sensitivity for every adjustable weight so the whole parameter state receives coordinated advice.
+- [The minus sign](MATHEMATICAL_MOVES.md#negative-sign) reverses the gradient because the gradient points toward increasing loss and learning wants the locally decreasing direction.
+- [Multiplying by η](MATHEMATICAL_MOVES.md#multiplication) chooses how much of that direction to trust. Without η, the gradient's magnitude would dictate the whole step even when it is too large or too small.
+- The update arrow means “replace the old parameter state with this new one”; it is an action, not symmetric equality. See [arrows](MATHEMATICAL_MOVES.md#arrows).
+
 Only now can we compress that reasoning:
 
 $$
@@ -466,6 +542,11 @@ A tracker saw tigers after 2 of 10 comparable rustles. The raw count 2 means lit
 - The denominator counts all comparable opportunities, because an isolated count has no scale.
 - Division turns the count into a share between zero and one.
 - **P(A)** names that evidence-dependent share, not a guarantee.
+
+### Why these operations are forced
+
+- [Division](MATHEMATICAL_MOVES.md#division) turns a tiger count into a share of comparable encounters. The count alone grows when we watch longer even if the underlying chance is unchanged.
+- [Probability](MATHEMATICAL_MOVES.md#probability) preserves several possible causes as parts of one whole instead of forcing certainty from incomplete evidence.
 
 Only now can we compress that reasoning:
 
@@ -489,6 +570,11 @@ Story A says a deep print occurs 80% of the time; Story B says 20%. After observ
 - **P(x|θ)** asks how expected this evidence would be if θ were true—the reversal forced by comparing stories.
 - **L(θ|x)** names that same quantity when x is held fixed and explanations vary; it is not automatically a probability over θ.
 
+### Why these operations are forced
+
+- [The conditional bar](MATHEMATICAL_MOVES.md#conditional-bar) deliberately asks how expected this footprint would be **if** a tiger story were true. Reversing the two sides asks a different question and would silently mix evidence with prior belief.
+- [Equality](MATHEMATICAL_MOVES.md#equals) renames that conditional evidence score as likelihood when θ is treated as the candidate story and x as fixed evidence.
+
 Only now can we compress that reasoning:
 
 $$
@@ -509,6 +595,12 @@ An event with probability 1/2 carries 1 bit because -log₂(1/2)=1. An event wit
 - The logarithm is needed because independent probabilities multiply while information from independent messages should add.
 - Probabilities below one have negative logs, so the minus sign makes information nonnegative.
 - A certain event has P=1 and therefore zero information; rarer events receive more.
+
+### Why these operations are forced
+
+- [The logarithm](MATHEMATICAL_MOVES.md#logarithm) is forced because independent probabilities multiply while learned information should accumulate by addition. It converts a product of probabilities into a sum of surprises.
+- [The negative sign](MATHEMATICAL_MOVES.md#negative-sign) reverses the negative log of probabilities below one, making rare events carry larger positive information and a certain event carry zero.
+- Using 1/P would also grow for rare events, but its independent surprises would multiply rather than add; that is why it fails the job we established.
 
 Only now can we compress that reasoning:
 
@@ -532,6 +624,12 @@ For a fair coin, each outcome has probability 1/2 and information 1 bit. Weighti
 - Summing over every i computes average surprise before the outcome is known.
 - **H(P)** names uncertainty of the whole distribution P.
 
+### Why these operations are forced
+
+- [Multiplying each surprise by pᵢ](MATHEMATICAL_MOVES.md#multiplication) lets common outcomes speak more often than rare ones when measuring the uncertainty of the whole situation.
+- [Summing](MATHEMATICAL_MOVES.md#summation) combines those mutually exclusive outcome contributions into one expected uncertainty; multiplying them would make any certain zero-surprise outcome erase all others.
+- [The log](MATHEMATICAL_MOVES.md#logarithm) still converts probability products into additive information, and [the minus sign](MATHEMATICAL_MOVES.md#negative-sign) keeps that information nonnegative.
+
 Only now can we compress that reasoning:
 
 $$
@@ -552,6 +650,12 @@ Reality says the answer is tiger. A model assigning tiger 0.9 pays -log(0.9), ab
 - **Q** is the model's proposed distribution; qᵢ is the probability it assigned outcome i.
 - **−log qᵢ** makes confident neglect extremely costly.
 - Summing the reality-weighted costs gives one expected prediction penalty H(P,Q).
+
+### Why these operations are forced
+
+- [−log qᵢ](MATHEMATICAL_MOVES.md#logarithm) charges a large price when the model assigns tiny probability to what occurs; logarithms also let sequence costs add instead of multiplying many small probabilities.
+- [Multiplying by pᵢ](MATHEMATICAL_MOVES.md#multiplication) asks reality how often that charge should count. Without pᵢ, impossible and common outcomes would receive equal influence.
+- [The sum](MATHEMATICAL_MOVES.md#summation) forms one expected bill across outcomes. A product would allow one zero-weighted outcome to erase every other prediction error.
 
 Only now can we compress that reasoning:
 
@@ -576,6 +680,12 @@ A village adjusts one alarm dial controlling how much smoke is needed before rin
 - The limit shrinks the nudge so the answer becomes local rather than dependent on an arbitrary test step.
 - **dL/dw** names that local sensitivity.
 
+### Why these operations are forced
+
+- [The numerator subtracts](MATHEMATICAL_MOVES.md#subtraction) old loss from nudged loss to isolate what the nudge changed; adding them would mix level with change.
+- [Division by the weight nudge](MATHEMATICAL_MOVES.md#division) converts raw loss change into loss change **per unit of weight change**, making different probe sizes comparable.
+- [The limit](MATHEMATICAL_MOVES.md#limit) lets the probe approach zero so curvature across a large jump does not disguise the local slope; setting ε equal to zero directly would divide by zero.
+
 Only now can we compress that reasoning:
 
 $$
@@ -596,6 +706,11 @@ Turn an oven knob slightly. The first mechanism doubles that movement into a fue
 - Each fraction is one local sensitivity: how its output changes when its input changes.
 - Multiplication is forced because a change is scaled at every link it traverses.
 - The product gives the effect of w on L without pretending they touch directly.
+
+### Why these operations are forced
+
+- Each [derivative](MATHEMATICAL_MOVES.md#derivative) is a local conversion rate: loss per y, y per x, and x per weight.
+- [Multiplying the rates](MATHEMATICAL_MOVES.md#multiplication) is forced because one unit of weight change produces dx/dw units of x, each produces dy/dx units of y, and each of those produces dL/dy loss. Adding would mix rates with incompatible units.
 
 Only now can we compress that reasoning:
 
@@ -618,6 +733,12 @@ One shared dough temperature affects two outcomes: crust and centre. The crust b
 - **ȳ** is blame already accumulated at child y.
 - **∂y/∂x** says how strongly x affected that child locally.
 - Multiplication passes blame through one edge; summation combines all outgoing paths.
+
+### Why these operations are forced
+
+- [The partial derivative](MATHEMATICAL_MOVES.md#partial-derivative) measures one local edge while other inputs are held fixed.
+- [Multiplying child blame by edge sensitivity](MATHEMATICAL_MOVES.md#multiplication) passes downstream responsibility through that edge; either factor being zero should block that path.
+- [Summing over children](MATHEMATICAL_MOVES.md#summation) reunites separate downstream routes that all depended on x. Multiplication would incorrectly make one zero-blame route erase every other route.
 
 Only now can we compress that reasoning:
 
@@ -650,6 +771,12 @@ next weight = current weight - learning rate × uphill sensitivity
             = 7
 ~~~
 
+### Why these operations are forced
+
+- [The time indices](MATHEMATICAL_MOVES.md#indices) distinguish the parameter state before update t from the state after it.
+- [The gradient](MATHEMATICAL_MOVES.md#gradient) supplies one local uphill sensitivity for each parameter; [the minus sign](MATHEMATICAL_MOVES.md#negative-sign) reverses that direction toward lower loss.
+- [Multiplying by η](MATHEMATICAL_MOVES.md#multiplication) supplies the missing travel distance. A direction alone does not say whether to move one millimetre or one kilometre.
+
 Only now can we compress the same procedure:
 
 $$
@@ -672,6 +799,12 @@ A tiger detector has two adjustable dials: how much to trust stripes and how muc
 - Dividing by batch size prevents merely using more examples from making the step proportionally larger.
 - **g_B** is the batch's less noisy gradient estimate.
 
+### Why these operations are forced
+
+- [The sum](MATHEMATICAL_MOVES.md#summation) lets every selected example contribute its proposed parameter correction. Multiplying gradients would turn one zero coordinate into a veto and would not represent a council's combined advice.
+- [Dividing by |B|](MATHEMATICAL_MOVES.md#division) asks for advice per example, so merely inviting twice as many witnesses does not double the update.
+- [i ∈ B](MATHEMATICAL_MOVES.md#membership) restricts the sum to examples actually selected for this mini-batch; [|B|](MATHEMATICAL_MOVES.md#cardinality) means the number of those examples.
+
 Only now can we compress that reasoning:
 
 $$
@@ -692,6 +825,12 @@ The tiger alarm's stripe dial is again 8, and the local uphill sensitivity is 10
 - **η_t** converts direction into a chosen travel distance and may change with time.
 - The minus sign moves against increasing loss.
 - **θ_t** and **θ_{t+1}** distinguish the old and updated parameter states.
+
+### Why these operations are forced
+
+- [gₜ](MATHEMATICAL_MOVES.md#gradient) gives direction but not distance.
+- [Multiplying by ηₜ](MATHEMATICAL_MOVES.md#multiplication) turns the direction into a controllable step for this time t; adding η would shift every coordinate regardless of the gradient's direction.
+- [Subtraction](MATHEMATICAL_MOVES.md#negative-sign) moves opposite the locally uphill gradient rather than making loss rise faster.
 
 Only now can we compress that reasoning:
 
@@ -714,6 +853,12 @@ Three small groups inspect tiger tracks. Each recommends changing two detector d
 - **β** between zero and one controls how much old motion survives; repeated multiplication makes old advice fade.
 - Addition combines memory with new evidence into velocity v_t.
 - **η** scales that velocity before it changes θ.
+
+### Why these operations are forced
+
+- [Multiplying old velocity by β](MATHEMATICAL_MOVES.md#multiplication) fades memory instead of remembering every ancient gradient equally. β near zero forgets quickly; β near one preserves direction longer.
+- [Adding the new gradient](MATHEMATICAL_MOVES.md#addition) lets current evidence join the surviving past direction. Multiplying them would erase memory wherever either vector contains zero.
+- The final [η scaling](MATHEMATICAL_MOVES.md#multiplication) chooses travel distance and [the minus sign](MATHEMATICAL_MOVES.md#negative-sign) turns remembered uphill direction into a downhill update.
 
 Only now can we compress that reasoning:
 
@@ -741,6 +886,12 @@ Imagine one hundred weak sensors feeding an alarm. If every sensor signal and ev
 - Dividing by n_in compensates for adding more independent inputs, preventing their combined signal scale from growing with width.
 - “Approximately” leaves room for activation-specific constants such as Xavier or He scaling.
 
+### Why these operations are forced
+
+- [Variance](MATHEMATICAL_MOVES.md#variance) describes the typical squared size of random starting weights without requiring every sampled weight to have that exact magnitude.
+- [Dividing by the number of incoming signals](MATHEMATICAL_MOVES.md#division) makes each individual weight smaller when more signals will be added, preventing total activation scale from growing with fan-in.
+- [The approximately sign](MATHEMATICAL_MOVES.md#approximation) admits a design target rather than claiming every finite random sample has exactly this variance; see [equality](MATHEMATICAL_MOVES.md#equals) for the stronger claim it avoids.
+
 Only now can we compress that reasoning:
 
 $$
@@ -761,6 +912,11 @@ A gatekeeper receives a danger signal. Two ordinary scaling rules—double it, t
 - **W** mixes its features; **b** permits learned thresholds and offsets.
 - **φ** is the necessary nonlinear gate; without it, stacked layers collapse into one linear map.
 - **h** is the hidden representation after both mixing and gating.
+
+### Why these operations are forced
+
+- [Wx](MATHEMATICAL_MOVES.md#multiplication) lets every learned input weight scale and mix its matching feature; [adding b](MATHEMATICAL_MOVES.md#addition) supplies a learnable baseline.
+- [Applying φ](MATHEMATICAL_MOVES.md#function-application) bends the result. Without φ, repeated multiply-and-add stages remain one linear map, no matter how many layers are stacked.
 
 Only now can we compress that reasoning:
 
@@ -783,6 +939,11 @@ A model has training loss 0.02 and unseen loss 0.17. Subtracting gives a gap of 
 - Subtraction isolates deterioration outside memory instead of confusing it with absolute task difficulty.
 - A positive generalization gap is evidence that training success did not fully survive.
 
+### Why these operations are forced
+
+- [Unseen loss minus training loss](MATHEMATICAL_MOVES.md#subtraction) isolates how much performance deteriorates beyond memorized examples. Adding the losses would measure total error, not the transfer gap.
+- The order matters: a positive answer naturally means unseen cases are worse. Reversing the subtraction would reverse that interpretation.
+
 Only now can we compress that reasoning:
 
 $$
@@ -803,6 +964,12 @@ Two models have data loss 2. Model A has squared-weight sum 100; B has 4. With l
 - **θ** contains the weights; squaring and summing them creates ||θ||² without signed cancellation.
 - **λ** expresses how strongly we prefer smaller machinery relative to data fit.
 - Addition forces training to negotiate prediction accuracy and complexity in one objective.
+
+### Why these operations are forced
+
+- [Addition](MATHEMATICAL_MOVES.md#addition) puts prediction cost and complexity cost on one bill so optimization cannot improve one without seeing the other.
+- [The squared norm](MATHEMATICAL_MOVES.md#norm) combines all parameter magnitudes without positive and negative weights cancelling, while making exceptionally large weights cost disproportionately more.
+- [λ scales the penalty](MATHEMATICAL_MOVES.md#multiplication) because the data cannot decide by itself how much simplicity to trade for fit. Adding λ as a constant would not change which parameters are preferred.
 
 Only now can we compress that reasoning:
 
@@ -825,6 +992,11 @@ With 100 examples, use 60 to change weights, 20 to choose learning rate, and kee
 - Union means they reconstruct the available collection.
 - The intended split also requires no example to leak between sets, even though the compact union symbol alone does not state disjointness.
 
+### Why these operations are forced
+
+- [Union](MATHEMATICAL_MOVES.md#union) says the complete dataset contains the members assigned to training, validation, or test roles. Ordinary addition is for numeric quantities, not for joining collections of examples.
+- Separate names preserve separate responsibilities; the union sign alone does not guarantee the sets do not overlap, so the split procedure must enforce that boundary.
+
 Only now can we compress that reasoning:
 
 $$
@@ -846,6 +1018,12 @@ Suppose future cases have losses 1,0,2,1. Their average is 1, our estimate of fu
 - **P_future** names the deployment world we actually care about.
 - Sampling (x,y) from that world prevents training data from silently defining success.
 - The expectation averages loss over future cases; **R(θ)** names that future risk.
+
+### Why these operations are forced
+
+- [Expectation](MATHEMATICAL_MOVES.md#expectation) weights each future case by how often the deployment world produces it, rather than pretending every possible case is equally common.
+- [fθ(x)](MATHEMATICAL_MOVES.md#function-application) feeds input x through the model with parameters θ; the outer loss compares that prediction with the actual y.
+- The sampling mark ties the average to the future distribution. Training risk would answer a different question even if the same loss function were used.
 
 Only now can we compress that reasoning:
 
@@ -870,6 +1048,11 @@ Input 2 is mixed into a hidden signal, gated, and produces prediction 0.7. If th
 - **∇_θL** assigns local correction directions to all parameters θ.
 - **θ′** is the updated state; the arrows show the forward path continuing into feedback rather than separate facts.
 
+### Why these operations are forced
+
+- [Arrows](MATHEMATICAL_MOVES.md#arrows) preserve process order: data is transformed, activated, predicted, priced, blamed, and only then used to update parameters. Equality would wrongly claim those stages are the same object.
+- [The gradient stage](MATHEMATICAL_MOVES.md#gradient) changes a single loss into parameter-by-parameter advice; the final primed θ names the resulting new state.
+
 Only now can we compress that reasoning:
 
 $$
@@ -892,6 +1075,12 @@ In low, lower, lowest, pair l-o appears three times, more than e-r once. Countin
 - Maximizing over every candidate pair makes the merge arise from the corpus rather than a hand-written linguistic rule.
 
 Count, choose, merge, and repeat. The symbols only compress the procedure already needed.
+
+### Why these operations are forced
+
+- [The first equality](MATHEMATICAL_MOVES.md#equals) defines c(a,b) as the observed adjacency count; the parentheses keep the candidate pair together.
+- [Arg max](MATHEMATICAL_MOVES.md#arg-max) returns the pair whose count is largest because the tokenizer must know **what to merge**. Max alone would return only the winning count.
+- [The star](MATHEMATICAL_MOVES.md#symbol-decorations) marks the selected winner; it is a label on a and b, not multiplication or exponentiation.
 
 Only now can we compress that reasoning:
 
@@ -920,6 +1109,12 @@ The tokenizer assigns shelf address 2 to *tiger*. Looking up address 2 retrieves
 - **e_i** is the one-hot selector. Multiplying e_i by E produces the same row, explaining why direct lookup is valid and cheaper.
 
 Multiplying by a one-hot vector merely selects one row, so an implementation can perform the lookup directly.
+
+### Why these operations are forced
+
+- [E ∈ ℝ](MATHEMATICAL_MOVES.md#membership) states the embedding table's allowed shape: one row per vocabulary token and d real coordinates per row.
+- [E[i]](MATHEMATICAL_MOVES.md#indices) treats token ID i as a shelf address. It retrieves one row rather than using the ID as a meaningful magnitude.
+- [One-hot multiplication](MATHEMATICAL_MOVES.md#multiplication) gives the same lookup because every zero row contribution vanishes and the single one-valued row survives; addition then combines the row contributions.
 
 Only now can we compress that reasoning:
 
@@ -955,6 +1150,11 @@ Compare “tiger chases deer” with “deer chases tiger.” The same three wor
 - Addition is possible because both vectors share width and is necessary so every later operation receives content and position together.
 - **z_i** is the combined input at position i.
 
+### Why these operations are forced
+
+- [Addition](MATHEMATICAL_MOVES.md#addition) overlays the token's learned content and this occurrence's position while keeping the vector width unchanged. Concatenation would widen every later layer and keep the two sources permanently separate.
+- [The shared index i](MATHEMATICAL_MOVES.md#indices) forces the token and position from the same slot to meet; mismatched indices would attach the wrong location.
+
 Only now can we compress that reasoning:
 
 $$
@@ -978,6 +1178,12 @@ While learning from “the tiger sleeps,” the model sees the complete training
 - When j>i, the source is future; adding −∞ makes its later softmax weight zero.
 - **M_ij** stores that allowed-or-forbidden correction for every pair.
 
+### Why these operations are forced
+
+- [Cases](MATHEMATICAL_MOVES.md#cases) are forced because visible and forbidden positions obey genuinely different rules.
+- [j ≤ i and j > i](MATHEMATICAL_MOVES.md#inequalities) divide earlier-or-current keys from future keys for query position i.
+- Zero leaves an allowed attention score unchanged. [Negative infinity](MATHEMATICAL_MOVES.md#negative-sign) makes a forbidden score's exponential weight zero after softmax; a large positive value would do the opposite.
+
 Only now can we compress that reasoning:
 
 $$
@@ -1000,6 +1206,11 @@ Tokens [the,cat,slept] become inputs [the,cat] and targets [cat,slept]. One forw
 - Input x stops one token early because each position needs an answer to its right.
 - Target y starts one token later so y_i is exactly the next token after x_i.
 - The shared length lets one forward pass create a supervised lesson at every position.
+
+### Why these operations are forced
+
+- [Parentheses](MATHEMATICAL_MOVES.md#brackets) keep each ordered token sequence intact; summing the tokens would destroy both identity and order.
+- [The shifted indices](MATHEMATICAL_MOVES.md#indices) remove the final token from inputs and the first token from targets, so target position i is exactly the next token after input position i.
 
 Only now can we compress that reasoning:
 
@@ -1028,6 +1239,12 @@ After reading “the striped animal is a,” the model holds one contextual desc
 - **b** allows each token a learned baseline tendency.
 - **ℓ_i** is the resulting unconstrained logit for candidate i—not yet a probability.
 
+### Why these operations are forced
+
+- [Multiplication by Wvocab](MATHEMATICAL_MOVES.md#multiplication) lets every contextual feature contribute a learned amount to every vocabulary candidate's score.
+- [The bias](MATHEMATICAL_MOVES.md#addition) gives each vocabulary token a learned baseline tendency even when the contextual vector is zero.
+- The index i selects one output candidate; it does not mean the token with the largest ID should win. See [indices](MATHEMATICAL_MOVES.md#indices).
+
 Only now can we compress that reasoning:
 
 $$
@@ -1050,6 +1267,12 @@ Suppose *tiger* receives score 2 and *leopard* score 1 after “the striped anim
 - Dividing exponentiated evidence by the sum over all j creates positive probabilities p_i that total one.
 - **y** is the observed next-token index, so p_y is the probability assigned to what happened.
 - The logarithm converts products across examples into sums and the minus sign makes low assigned probability a large positive loss L.
+
+### Why these operations are forced
+
+- [Exponentials](MATHEMATICAL_MOVES.md#exponential) create positive candidate weights and preserve score order; squaring would make strongly negative logits look desirable.
+- [Summing all weights](MATHEMATICAL_MOVES.md#summation) measures the whole amount to be shared, and [division](MATHEMATICAL_MOVES.md#division) turns each candidate's weight into a probability share.
+- [The log](MATHEMATICAL_MOVES.md#logarithm) turns the probability assigned to the observed token into additive information cost; [the minus sign](MATHEMATICAL_MOVES.md#negative-sign) makes low probability expensive and certainty cost zero.
 
 Only now can we compress that reasoning:
 
@@ -1079,6 +1302,11 @@ After “the tiger,” suppose *sleeps* is more likely than *runs*, but both mak
 - Exponentiation preserves ranking while making evidence positive.
 - Summing over every j and dividing normalizes the adjusted evidence into p_i(T).
 
+### Why these operations are forced
+
+- [Dividing every logit by T](MATHEMATICAL_MOVES.md#division) changes score gaps before probabilities are formed. T below one enlarges gaps; T above one shrinks them. Adding T would shift every score equally and softmax would not change at all.
+- [Exponentiation](MATHEMATICAL_MOVES.md#exponential) then turns the adjusted gaps into positive ratios, while [summing](MATHEMATICAL_MOVES.md#summation) and dividing make one probability distribution.
+
 Only now can we compress that reasoning:
 
 $$
@@ -1101,6 +1329,11 @@ Four words create sixteen possible question–source comparisons: each of four p
 - Each of n queries can compare with n keys, creating roughly n×n score pairs.
 - That repeated pairwise work is why cost grows proportionally to n² rather than n.
 - The proportional sign is used because heads, width, batching, and implementation add constants omitted from this scaling argument.
+
+### Why these operations are forced
+
+- [Proportionality](MATHEMATICAL_MOVES.md#proportionality) states the growth pattern without pretending every implementation has the same fixed cost.
+- [The square](MATHEMATICAL_MOVES.md#powers) appears because each of n query positions can compare with n key positions, creating n×n pairs. A linear n would count only one comparison per token.
 
 Only now can we compress that reasoning:
 
@@ -1127,6 +1360,11 @@ Begin with the prompt “the tiger.” Its token addresses fetch learned startin
 - **sample** chooses a continuation and feeds it back as the next token.
 - The arrows encode one closed causal loop, not an unexplained algebraic equality.
 
+### Why these operations are forced
+
+- [Arrows](MATHEMATICAL_MOVES.md#arrows) show dependency and order rather than equality: tokens become representations, representations produce scores, loss produces gradients, and an update changes what the next sample can be.
+- The loop matters more than any isolated sign. Removing one arrow breaks the causal path by which observed text can change future generation.
+
 Only now can we compress that reasoning:
 
 $$
@@ -1147,6 +1385,12 @@ Model A assigns probability 0.5 to each of three observed next tokens. Each cost
 
 The token count divides total surprise so longer sentences are comparable. Negative logs turn small assigned probabilities into large costs. Exponentiation reverses the log and returns the result to a probability-like choice scale.
 
+### Why these operations are forced
+
+- [The log](MATHEMATICAL_MOVES.md#logarithm) converts the product of many observed-token probabilities into additive surprise, avoiding a tiny unstable product for a long sentence.
+- [Summing](MATHEMATICAL_MOVES.md#summation) collects surprise from every actual next token, and [dividing by n](MATHEMATICAL_MOVES.md#division) makes sentences of different lengths comparable per token.
+- [The minus sign](MATHEMATICAL_MOVES.md#negative-sign) makes low probabilities costly; [the final exponential](MATHEMATICAL_MOVES.md#exponential) reverses the log scale so the answer reads like an equivalent number of equally likely choices.
+
 Only now can we compress the exact procedure:
 
 $$
@@ -1164,6 +1408,12 @@ Five predictions report 0.8 confidence. Exactly four are correct. Accuracy is 4/
 ### Only now do the symbols earn names
 
 Each group contains predictions with similar confidence. Accuracy counts how many were correct. The absolute difference measures the reliability gap; weighting by group size prevents tiny groups dominating.
+
+### Why these operations are forced
+
+- [Confidence minus accuracy](MATHEMATICAL_MOVES.md#subtraction) finds each bin's reliability gap; adding them would measure overall level rather than disagreement.
+- [Absolute value](MATHEMATICAL_MOVES.md#absolute-value) makes overconfidence and underconfidence both count as error when this metric asks for magnitude rather than direction.
+- [Multiplying by |Bᵦ|/n](MATHEMATICAL_MOVES.md#multiplication) gives a large bin proportionally more influence, and [the sum](MATHEMATICAL_MOVES.md#summation) combines all bin contributions. An unweighted mean would let a tiny bin count as much as a common one.
 
 Only now can we compress the exact procedure:
 
@@ -1183,6 +1433,12 @@ Models with 1, 2, and 4 million effective units achieve losses 4.0, 3.2, and 2.8
 
 N is the resource being scaled. The negative exponent makes loss fall as N grows. Alpha controls how quickly returns diminish. A scales the improvable part; B is the floor this simple trend cannot beat.
 
+### Why these operations are forced
+
+- [The negative power](MATHEMATICAL_MOVES.md#powers) makes the improvable part fall as resource N grows, with α controlling how quickly returns diminish.
+- [A scales that falling term](MATHEMATICAL_MOVES.md#multiplication) to the observed problem; adding A would create a floor instead of changing improvement size.
+- [Adding B](MATHEMATICAL_MOVES.md#addition) represents a remaining floor this simple scaling route does not remove. Multiplying by B would force the whole loss toward zero instead of allowing an irreducible remainder.
+
 Only now can we compress the exact procedure:
 
 $$
@@ -1200,6 +1456,12 @@ For “How do I reset my router?”, answer A gives three safe ordered steps; an
 ### Only now do the symbols earn names
 
 The reward scores two responses to the same prompt. Their difference matters, not the absolute score. The logistic function turns that difference into a preference probability; larger positive differences favor the chosen answer.
+
+### Why these operations are forced
+
+- [rA−rB](MATHEMATICAL_MOVES.md#subtraction) discards any common reward offset and keeps only which answer reviewers prefer and by how much.
+- [The inner negative](MATHEMATICAL_MOVES.md#negative-sign) makes larger preference gaps reduce the exponential term, so A's probability rises rather than falls.
+- [Exponentiation](MATHEMATICAL_MOVES.md#exponential) turns an unbounded reward gap into positive odds; adding one and [taking the reciprocal](MATHEMATICAL_MOVES.md#division) squeeze the result between zero and one without changing order.
 
 Only now can we compress the exact procedure:
 
@@ -1220,6 +1482,12 @@ A ranger photographs a tiger behind tall grass. Along one row, neighboring brigh
 - Multiplication measures how each local measurement agrees with its detector weight.
 - Summation combines the local evidence; shifting i moves the same detector instead of learning a new one.
 
+### Why these operations are forced
+
+- [Each multiplication](MATHEMATICAL_MOVES.md#multiplication) asks how strongly one local pixel agrees with the corresponding filter weight. A zero weight ignores that location; a negative one looks for contrast.
+- [The sum](MATHEMATICAL_MOVES.md#summation) combines those aligned local contributions into one detector response. Multiplying all responses would let one zero pixel erase the entire pattern.
+- [i+j](MATHEMATICAL_MOVES.md#indices) slides the same relative filter position j to a new image location i, which is how one detector is reused rather than relearned everywhere.
+
 Only now can we compress the procedure:
 
 $$
@@ -1238,6 +1506,12 @@ Print a clean tiger photograph on transparent film. At the first step, keep almo
 - Noise ε is the random corruption added during the forward process.
 - The retained clean fraction and noise fraction change with step t.
 - Square roots scale amplitudes so their variances combine as intended.
+
+### Why these operations are forced
+
+- [The two multiplications](MATHEMATICAL_MOVES.md#multiplication) scale how much clean image and fresh noise survive at time t.
+- [Addition](MATHEMATICAL_MOVES.md#addition) overlays those two same-shaped image contributions. Concatenation would produce two images side by side rather than one corrupted image.
+- [Square roots of the variance shares](MATHEMATICAL_MOVES.md#square-root) convert variance allocation into amplitude scaling; the two squared amplitudes then sum to one total variance.
 
 Only now can we compress the procedure:
 
@@ -1258,6 +1532,12 @@ Take one pixel from that corrupted tiger image. We know the random grain added t
 - The network predicts the exact noise ε that hid the clean image.
 - Squaring the pixel-by-pixel prediction error prevents cancellation; averaging trains across samples.
 
+### Why these operations are forced
+
+- [Subtracting predicted noise from actual noise](MATHEMATICAL_MOVES.md#subtraction) isolates the denoiser's error rather than their combined amount.
+- [The squared norm](MATHEMATICAL_MOVES.md#norm) lets every pixel error contribute without opposite signs cancelling and penalizes large misses more strongly.
+- [Expectation](MATHEMATICAL_MOVES.md#expectation) averages that error over images, noise samples, and times according to how training encounters them.
+
 Only now can we compress the procedure:
 
 $$
@@ -1277,6 +1557,12 @@ A rescue robot reaches a fork. Moving left finds one injured hiker now, worth im
 - Discount γ reduces distant evidence and keeps unending sums bounded.
 - Adding immediate and discounted future reward creates the target the old estimate moves toward.
 
+### Why these operations are forced
+
+- [Addition](MATHEMATICAL_MOVES.md#addition) combines reward received now with estimated value still available afterward because both contribute to total future return.
+- [γ scales future value](MATHEMATICAL_MOVES.md#multiplication) to express delay or uncertainty; adding γ would give the same arbitrary bonus regardless of what future was reached.
+- [Max](MATHEMATICAL_MOVES.md#maximum) uses the value of the best next action because Q-learning asks what return remains under optimal continuation. Averaging would evaluate a different future policy.
+
 Only now can we compress the procedure:
 
 $$
@@ -1295,6 +1581,12 @@ A rescue robot sometimes chooses the river path and sometimes the ridge path. On
 - Its log converts repeated action probabilities into additive learning signals.
 - Return G says how the chosen action eventually turned out.
 - The gradient changes θ in the direction that makes above-average rewarded actions more likely.
+
+### Why these operations are forced
+
+- [The policy log](MATHEMATICAL_MOVES.md#logarithm) turns a product of action probabilities along a trajectory into additive terms and yields a convenient relative sensitivity: how a small parameter change alters chosen-action probability.
+- [Multiplying by return G](MATHEMATICAL_MOVES.md#multiplication) makes successful sampled actions more influential and harmful ones push the opposite way; adding G would shift advice without scaling responsibility.
+- [Expectation](MATHEMATICAL_MOVES.md#expectation) averages this noisy sampled advice across trajectories according to how often the policy produces them.
 
 Only now can we compress the procedure:
 
@@ -1316,6 +1608,13 @@ Place four wildlife photographs beside four captions. The tiger photograph shoul
 - The denominator includes every candidate caption, preventing all examples from collapsing to one point.
 - The negative log penalizes the true pair when mismatches receive comparable scores.
 
+### Why these operations are forced
+
+- [Each dot product](MATHEMATICAL_MOVES.md#dot-product) measures aligned agreement between one image representation and one candidate text representation.
+- [Dividing by temperature](MATHEMATICAL_MOVES.md#division) controls how strongly score gaps matter before [exponentiation](MATHEMATICAL_MOVES.md#exponential) converts them into positive relative weights.
+- [The denominator sum](MATHEMATICAL_MOVES.md#summation) makes the correct pair compete against all candidates, preventing every representation from winning by collapsing to one point.
+- [Negative log](MATHEMATICAL_MOVES.md#logarithm) turns the correct pair's probability share into additive cost and punishes confident preference for the wrong match.
+
 Only now can we compress the procedure:
 
 $$
@@ -1335,6 +1634,11 @@ A large language model already knows general English, but a park service needs i
 - Their product BA creates a full-shaped correction while using far fewer values.
 - Addition preserves the base behavior and applies only the learned adaptation.
 
+### Why these operations are forced
+
+- [BA](MATHEMATICAL_MOVES.md#multiplication) composes two narrow learned transformations, forcing the correction through a low-dimensional bottleneck instead of learning every entry of a full matrix.
+- [Adding that correction to W](MATHEMATICAL_MOVES.md#addition) preserves the pretrained base and treats adaptation as a change. [The prime on W](MATHEMATICAL_MOVES.md#symbol-decorations) marks the adapted version; replacing W would discard the knowledge we intended to keep.
+
 Only now can we compress the procedure:
 
 $$
@@ -1353,6 +1657,12 @@ Suppose one learned weight is `0.73`, but the device can store only integer step
 - Rounding chooses the nearest allowed integer q.
 - Multiplying q by s reconstructs the approximate weight used in computation.
 - The scale is calibrated so important values fit the available integer range.
+
+### Why these operations are forced
+
+- [Dividing by scale s](MATHEMATICAL_MOVES.md#division) expresses a real weight in units of one quantization step.
+- [Rounding](MATHEMATICAL_MOVES.md#rounding) chooses the nearest integer level because storage permits only discrete codes; this is the deliberate lossy step.
+- [Multiplying q by s](MATHEMATICAL_MOVES.md#multiplication) converts the stored step count back to the weight's approximate real scale. [The hat on w](MATHEMATICAL_MOVES.md#symbol-decorations) marks this reconstructed approximation; addition would shift levels rather than restore their unit size.
 
 Only now can we compress the procedure:
 
@@ -1377,6 +1687,12 @@ Before seeing tracks, a ranger considers tiger less common than deer: perhaps ti
 - Multiplying gives tiger’s unnormalized support.
 - The denominator repeats that multiplication for every story and adds them so final beliefs total one.
 
+### Why these operations are forced
+
+- [Likelihood times prior](MATHEMATICAL_MOVES.md#multiplication) requires a story to have both earlier plausibility and support from the new footprint. Addition would let overwhelming prior belief compensate linearly for evidence impossible under that story.
+- [The denominator sums support](MATHEMATICAL_MOVES.md#summation) over every competing story to find the whole amount of belief available.
+- [Division by that total](MATHEMATICAL_MOVES.md#division) turns each story's support into a share summing to one, while [the conditional bars](MATHEMATICAL_MOVES.md#conditional-bar) keep “evidence given story” distinct from “story after evidence.”
+
 Only now can we compress the procedure:
 
 $$
@@ -1395,6 +1711,13 @@ A cave explorer can investigate the river tunnel or the ridge tunnel. The river 
 - Visit count shrinks the exploration bonus as evidence accumulates.
 - Total visits increase pressure to reconsider neglected branches.
 - The constant controls how much uncertainty competes with known reward.
+
+### Why these operations are forced
+
+- [The bar over R](MATHEMATICAL_MOVES.md#symbol-decorations) marks the mean return, keeping what a branch has already demonstrated; see [mean](MATHEMATICAL_MOVES.md#mean).
+- [log N](MATHEMATICAL_MOVES.md#logarithm) lets exploration pressure grow slowly as the parent receives more visits instead of growing in direct proportion forever.
+- [Dividing by nₐ](MATHEMATICAL_MOVES.md#division) makes an often-tested action less uncertain; [the square root](MATHEMATICAL_MOVES.md#square-root) tempers how sharply that exploration bonus changes.
+- [c scales curiosity](MATHEMATICAL_MOVES.md#multiplication) and [addition](MATHEMATICAL_MOVES.md#addition) places that exploration bonus beside observed reward. Multiplying reward and curiosity would make either zero erase the other.
 
 Only now can we compress the procedure:
 
@@ -1415,6 +1738,12 @@ Three villages share borders. The river village wants to update its flood-risk e
 - Summation combines a variable number of messages without depending on neighbor order.
 - The update rule joins the old node state with the aggregated neighborhood evidence.
 
+### Why these operations are forced
+
+- [M(hᵥ,hᵤ)](MATHEMATICAL_MOVES.md#function-application) creates a message that depends on both receiving and neighboring nodes.
+- [Summing over neighbors](MATHEMATICAL_MOVES.md#summation) combines a variable-size, unordered neighborhood into one fixed-size message. Concatenation would depend on neighbor count and arbitrary listing order.
+- [U](MATHEMATICAL_MOVES.md#function-application) then updates the old node state using both its own previous information and the neighborhood evidence.
+
 Only now can we compress the procedure:
 
 $$
@@ -1433,6 +1762,13 @@ A clinic wants to publish an average recovery time. Imagine two almost identical
 - The same possible released result S is considered under both.
 - Epsilon limits how much more likely that result may become because one person participated.
 - A smaller epsilon makes the two worlds harder to distinguish.
+
+### Why these operations are forced
+
+- [The two probabilities](MATHEMATICAL_MOVES.md#probability) ask how likely the same released event S is with or without one person's record.
+- [M(D) ∈ S](MATHEMATICAL_MOVES.md#membership) says the randomized mechanism's output landed in the set of outcomes being inspected.
+- [e^ε](MATHEMATICAL_MOVES.md#exponential) turns the privacy budget into a multiplicative allowance: ε=0 requires equal probabilities, while larger ε permits a bounded ratio.
+- [The ≤ sign](MATHEMATICAL_MOVES.md#inequalities) promises a ceiling rather than false equality; privacy needs the two distributions close, not identical for every dataset pair.
 
 Only now can we compress the procedure:
 

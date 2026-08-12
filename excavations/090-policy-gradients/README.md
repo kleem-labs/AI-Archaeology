@@ -21,6 +21,12 @@ A rescue robot sometimes chooses the river path and sometimes the ridge path. On
 - Return G says how the chosen action eventually turned out.
 - The gradient changes θ in the direction that makes above-average rewarded actions more likely.
 
+### Why these operations are forced
+
+- [The policy log](../../MATHEMATICAL_MOVES.md#logarithm) turns a product of action probabilities along a trajectory into additive terms and yields a convenient relative sensitivity: how a small parameter change alters chosen-action probability.
+- [Multiplying by return G](../../MATHEMATICAL_MOVES.md#multiplication) makes successful sampled actions more influential and harmful ones push the opposite way; adding G would shift advice without scaling responsibility.
+- [Expectation](../../MATHEMATICAL_MOVES.md#expectation) averages this noisy sampled advice across trajectories according to how often the policy produces them.
+
 Only now can we compress the procedure:
 
 $$

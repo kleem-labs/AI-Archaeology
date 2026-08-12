@@ -22,6 +22,11 @@ After “the tiger,” suppose *sleeps* is more likely than *runs*, but both mak
 - Exponentiation preserves ranking while making evidence positive.
 - Summing over every j and dividing normalizes the adjusted evidence into p_i(T).
 
+### Why these operations are forced
+
+- [Dividing every logit by T](../../MATHEMATICAL_MOVES.md#division) changes score gaps before probabilities are formed. T below one enlarges gaps; T above one shrinks them. Adding T would shift every score equally and softmax would not change at all.
+- [Exponentiation](../../MATHEMATICAL_MOVES.md#exponential) then turns the adjusted gaps into positive ratios, while [summing](../../MATHEMATICAL_MOVES.md#summation) and dividing make one probability distribution.
+
 Only now can we compress that reasoning:
 
 $$

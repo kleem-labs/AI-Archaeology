@@ -21,6 +21,12 @@ Take one pixel from that corrupted tiger image. We know the random grain added t
 - The network predicts the exact noise ε that hid the clean image.
 - Squaring the pixel-by-pixel prediction error prevents cancellation; averaging trains across samples.
 
+### Why these operations are forced
+
+- [Subtracting predicted noise from actual noise](../../MATHEMATICAL_MOVES.md#subtraction) isolates the denoiser's error rather than their combined amount.
+- [The squared norm](../../MATHEMATICAL_MOVES.md#norm) lets every pixel error contribute without opposite signs cancelling and penalizes large misses more strongly.
+- [Expectation](../../MATHEMATICAL_MOVES.md#expectation) averages that error over images, noise samples, and times according to how training encounters them.
+
 Only now can we compress the procedure:
 
 $$

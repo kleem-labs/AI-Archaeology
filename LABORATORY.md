@@ -10,6 +10,7 @@ python3 -m unittest discover -s tests -v
 python3 tools/check_guided_discovery.py
 python3 tools/check_chapter_continuity.py
 python3 tools/check_equation_explanations.py
+python3 tools/check_operation_reasoning.py
 python3 tools/check_latex_portability.py
 python3 tools/check_reasoned_limits.py
 python3 tools/check_human_math_examples.py

@@ -75,6 +75,7 @@ def chapter_for_book(path):
     # Volume title (H1) → part (H2) → excavation (H3) → chapter sections.
     text = re.sub(r"^(#{1,4}) ", lambda m: "#" * (len(m.group(1)) + 2) + " ", text, flags=re.M)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
+    text = text.replace("../../MATHEMATICAL_MOVES.md", "../MATHEMATICAL_MOVES.md")
     link = path.relative_to(ROOT).as_posix()
     return text + f"\n\n*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../{link}).*"
 
@@ -116,6 +117,10 @@ chapter.
 
 For equation-focused review after deriving the ideas, use the
 [Mathematical Gist](../MATHEMATICAL_GIST.md).
+
+For a reusable understanding of why a formula adds, multiplies, divides,
+squares, exponentiates, logs, maximizes, or differentiates, use
+[Mathematical Moves](../MATHEMATICAL_MOVES.md).
 """
     return result
 

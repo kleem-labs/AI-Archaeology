@@ -47,6 +47,12 @@ feed-forward: what do I make of what I heard?
 
 The phrase “feed-forward” can sound like the entire model. Here it means the position-wise transformation inside each Transformer block.
 
+### Why these operations are forced
+
+- [Each matrix multiplication](../../MATHEMATICAL_MOVES.md#multiplication) lets learned weights decide how strongly one incoming feature should affect each hidden or outgoing feature.
+- [Adding a bias](../../MATHEMATICAL_MOVES.md#addition) lets a detector have a baseline threshold even when all incoming features are zero; multiplication alone must always map zero input to zero output.
+- [The activation function](../../MATHEMATICAL_MOVES.md#function-application) bends the intermediate result. Without that nonlinearity, the two matrix stages collapse into one linear transformation.
+
 Only now can we compress that reasoning:
 
 $$

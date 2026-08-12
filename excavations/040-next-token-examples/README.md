@@ -21,6 +21,11 @@ Tokens [the,cat,slept] become inputs [the,cat] and targets [cat,slept]. One forw
 - Target y starts one token later so y_i is exactly the next token after x_i.
 - The shared length lets one forward pass create a supervised lesson at every position.
 
+### Why these operations are forced
+
+- [Parentheses](../../MATHEMATICAL_MOVES.md#brackets) keep each ordered token sequence intact; summing the tokens would destroy both identity and order.
+- [The shifted indices](../../MATHEMATICAL_MOVES.md#indices) remove the final token from inputs and the first token from targets, so target position i is exactly the next token after input position i.
+
 Only now can we compress that reasoning:
 
 $$

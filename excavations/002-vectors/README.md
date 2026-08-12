@@ -71,6 +71,12 @@ A tiger recorded as weight 220, speed 65, and age 6 becomes [220, 65, 6]. The fi
 
 This says only: one object carries an ordered measurement for each of $n$ agreed features.
 
+### Why these operations are forced
+
+- [Brackets](../../MATHEMATICAL_MOVES.md#brackets) keep tiger weight, speed, and age together without pretending they should be added; each observation must remain recoverable.
+- [Subscripts](../../MATHEMATICAL_MOVES.md#indices) give each retained feature an address. The dots mean the same pattern continues until feature n; they do not hide another operation.
+- [The equals sign](../../MATHEMATICAL_MOVES.md#equals) says that **x** is our short name for this complete ordered list.
+
 Only now can we compress that reasoning:
 
 $$

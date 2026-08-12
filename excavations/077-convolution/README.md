@@ -21,6 +21,12 @@ A ranger photographs a tiger behind tall grass. Along one row, neighboring brigh
 - Multiplication measures how each local measurement agrees with its detector weight.
 - Summation combines the local evidence; shifting i moves the same detector instead of learning a new one.
 
+### Why these operations are forced
+
+- [Each multiplication](../../MATHEMATICAL_MOVES.md#multiplication) asks how strongly one local pixel agrees with the corresponding filter weight. A zero weight ignores that location; a negative one looks for contrast.
+- [The sum](../../MATHEMATICAL_MOVES.md#summation) combines those aligned local contributions into one detector response. Multiplying all responses would let one zero pixel erase the entire pattern.
+- [i+j](../../MATHEMATICAL_MOVES.md#indices) slides the same relative filter position j to a new image location i, which is how one detector is reused rather than relearned everywhere.
+
 Only now can we compress the procedure:
 
 $$

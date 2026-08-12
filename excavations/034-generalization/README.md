@@ -22,6 +22,12 @@ Suppose future cases have losses 1,0,2,1. Their average is 1, our estimate of fu
 - Sampling (x,y) from that world prevents training data from silently defining success.
 - The expectation averages loss over future cases; **R(θ)** names that future risk.
 
+### Why these operations are forced
+
+- [Expectation](../../MATHEMATICAL_MOVES.md#expectation) weights each future case by how often the deployment world produces it, rather than pretending every possible case is equally common.
+- [fθ(x)](../../MATHEMATICAL_MOVES.md#function-application) feeds input x through the model with parameters θ; the outer loss compares that prediction with the actual y.
+- The sampling mark ties the average to the future distribution. Training risk would answer a different question even if the same loss function were used.
+
 Only now can we compress that reasoning:
 
 $$

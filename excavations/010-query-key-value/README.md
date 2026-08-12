@@ -48,6 +48,12 @@ A librarian hears, “Find me the book about a striped predator.” The request 
 
 Learned matrices create query, key, and value views from each current representation. Their formulas record three roles we already needed; they are not arbitrary symmetry.
 
+### Why these operations are forced
+
+- [The dot product](../../MATHEMATICAL_MOVES.md#dot-product) multiplies query height-need by key height-offer, stripe-need by stripe-offer, and so on, then adds those aligned agreements into one relevance score.
+- [Multiplication inside the dot product](../../MATHEMATICAL_MOVES.md#multiplication) is required because a query feature should matter only when the matching key feature is present too; addition would reward a key for merely being large on unrelated features.
+- [The first sum](../../MATHEMATICAL_MOVES.md#summation) combines feature-level evidence into one match. The second sum combines each source's value after its attention weight scales how loudly that source contributes.
+
 Only now can we compress that reasoning:
 
 $$

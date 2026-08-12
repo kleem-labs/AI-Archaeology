@@ -21,6 +21,12 @@ Suppose *tiger* receives score 2 and *leopard* score 1 after “the striped anim
 - **y** is the observed next-token index, so p_y is the probability assigned to what happened.
 - The logarithm converts products across examples into sums and the minus sign makes low assigned probability a large positive loss L.
 
+### Why these operations are forced
+
+- [Exponentials](../../MATHEMATICAL_MOVES.md#exponential) create positive candidate weights and preserve score order; squaring would make strongly negative logits look desirable.
+- [Summing all weights](../../MATHEMATICAL_MOVES.md#summation) measures the whole amount to be shared, and [division](../../MATHEMATICAL_MOVES.md#division) turns each candidate's weight into a probability share.
+- [The log](../../MATHEMATICAL_MOVES.md#logarithm) turns the probability assigned to the observed token into additive information cost; [the minus sign](../../MATHEMATICAL_MOVES.md#negative-sign) makes low probability expensive and certainty cost zero.
+
 Only now can we compress that reasoning:
 
 $$
