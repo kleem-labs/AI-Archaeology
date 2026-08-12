@@ -1,26 +1,20 @@
 # Excavation 123 — Federated Learning
 
-[Previous: Excavation 122](../122-differential-privacy/README.md)
+Differential privacy limits the observable influence of one record. Hospitals and devices may be unwilling or legally unable to centralize their raw data even when collective learning would help everyone.
 
-Can many devices train together without centralizing raw data?
+At first we upload every user record to one server.
 
-At first, the simplest answer is tempting: Upload every user record to one server.
+That confidence lasts only until central collection increases privacy and governance risk.
 
-But the simplicity has discarded something important: Central collection increases privacy and governance risk.
+We need to send model updates to devices, train locally, aggregate protected updates, and return a shared model.
 
-The missing information determines the next move: Send model updates to devices, train locally, aggregate protected updates, and return a shared model.
-
-## Now work a case you can see
+## Let the case decide
 
 Phones compute keyboard gradients locally; the server receives an aggregate, not typed messages.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Updates can still leak information and devices are unreliable or biased.
-
-The reason is visible in the procedure. It knows how to send model updates to devices, train locally, aggregate protected updates, and return a shared model. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

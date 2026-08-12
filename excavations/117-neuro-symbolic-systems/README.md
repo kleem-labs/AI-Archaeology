@@ -1,26 +1,20 @@
 # Excavation 117 — Neuro-Symbolic Systems
 
-[Previous: Excavation 116](../116-reasoning-and-verification/README.md)
+Reasoning with verification catches steps that violate checkable constraints. Neural representations handle perception and ambiguity well, while exact logical and algebraic rules resist being approximated.
 
-Neural models handle perception; symbolic rules handle exact constraints. Must one system do both?
+At first we force fuzzy perception into rigid rules or exact rules into learned approximation.
 
-Without knowing the inherited method, we might try this: Force fuzzy perception into rigid rules or exact rules into learned approximation.
+The trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints.
 
-Its hidden assumption appears in the following case: The first breaks on noisy inputs; the second can violate guaranteed constraints.
+That failure tells us to let neural components propose symbols or scores and symbolic components enforce explicit relations.
 
-Remove that assumption and the needed repair becomes clear: Let neural components propose symbols or scores and symbolic components enforce explicit relations.
-
-## Now work a case you can see
+## Let the case decide
 
 Vision detects board pieces; a chess engine enforces legal moves.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Errors at the interface can still corrupt the combined result.
-
-This is not an unrelated warning. The construction can let neural components propose symbols or scores and symbolic components enforce explicit relations. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

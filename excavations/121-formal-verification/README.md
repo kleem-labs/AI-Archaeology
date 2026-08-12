@@ -1,26 +1,20 @@
 # Excavation 121 — Formal Verification
 
-[Previous: Excavation 120](../120-program-synthesis/README.md)
+Program synthesis turns examples into candidate procedures. Tests inspect selected cases; a safety-critical system may need proof that a property holds for every input permitted by the specification.
 
-Tests sample cases. How can we guarantee a property for all allowed inputs?
+We first try to add more random tests and call the property proven.
 
-A reasonable place to begin is: Add more random tests and call the property proven.
+Yet an untested edge case can remain.
 
-Now place that proposal under pressure: An untested edge case can remain.
+That failure tells us to state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them.
 
-What broke tells us what the replacement must preserve: State assumptions and desired properties formally, then prove or mechanically check that every transition preserves them.
-
-## Now work a case you can see
+## Let the case decide
 
 Prove a refund state machine can issue at most one payment per idempotency key.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Proof covers the formal model, which may omit real-world behavior.
-
-The repair is explicit: state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

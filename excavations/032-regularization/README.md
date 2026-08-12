@@ -1,32 +1,25 @@
 # Excavation 032 — Regularization — Making Memorization More Expensive
 
-[Previous: Excavation 031](../031-overfitting/README.md)
+Overfitting reveals that low training error can be perfect memory wearing the costume of intelligence. The learner therefore needs pressure against fragile, unnecessarily extreme explanations.
 
-The model can reduce training loss by building fragile rules around tiny accidental details.
+One tempting answer is to forbid complexity by making the model too small; it may lose real structure too. Stop training at an arbitrary time without observing unseen performance.
 
-Without knowing the inherited method, we might try this: Forbid complexity by making the model too small; it may lose real structure too. Stop training at an arbitrary time without observing unseen performance.
-
-Remove that assumption and the needed repair becomes clear: Add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
+Now we can see what is missing: we must add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
 
 ## From procedure to notation
 
 The repair solves the immediate failure, but regularization expresses a preference, not a universal truth. Too much causes underfitting and different tasks need different biases.
 
-
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 Two models have data loss 2. Model A has squared-weight sum 100; B has 4. With lambda 0.1, totals are 12 and 2.4. The penalty makes the equally fitting but less extreme model preferable.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **L_data** rewards fitting observations.
 - **θ** contains the weights; squaring and summing them creates ||θ||² without signed cancellation.
 - **λ** expresses how strongly we prefer smaller machinery relative to data fit.
 - Addition forces training to negotiate prediction accuracy and complexity in one objective.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 

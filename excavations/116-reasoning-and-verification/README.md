@@ -1,26 +1,20 @@
 # Excavation 116 — Reasoning and Verification
 
-[Previous: Excavation 115](../115-tree-search/README.md)
+Tree search spends simulation on promising and uncertain branches. A long proposed solution may still hide one invalid inference, so plausible completion must be separated from stepwise verification.
 
-A model produces a plausible multi-step answer. Which step failed?
+One tempting answer is to judge only the final answer.
 
-A reasonable place to begin is: Judge only the final answer.
+Yet a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
 
-Now place that proposal under pressure: A lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
+Now we can see what is missing: we must represent intermediate claims and verify each with an appropriate checker or evidence source.
 
-What broke tells us what the replacement must preserve: Represent intermediate claims and verify each with an appropriate checker or evidence source.
-
-## Now work a case you can see
+## Let the case decide
 
 A geometry solution checks every equality before accepting the final area.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Written steps may be rationalizations rather than the mechanism used.
-
-The repair is explicit: represent intermediate claims and verify each with an appropriate checker or evidence source. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

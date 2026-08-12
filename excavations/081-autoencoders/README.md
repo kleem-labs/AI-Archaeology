@@ -1,26 +1,20 @@
 # Excavation 081 — Autoencoders — Compressing and Rebuilding
 
-[Previous: Excavation 080](../080-vision-transformers/README.md)
+Vision Transformers let distant patches attend to one another. Classification uses the representation once; reconstruction asks whether a smaller internal code can preserve enough of the image to rebuild it.
 
-Can a model preserve what matters using fewer numbers?
+At first we copy the input through an unrestricted hidden layer.
 
-A reasonable place to begin is: Copy the input through an unrestricted hidden layer.
+Yet a wide hidden layer learns identity without compression.
 
-Now place that proposal under pressure: A wide hidden layer learns identity without compression.
+That failure tells us to force information through a bottleneck and train reconstruction.
 
-What broke tells us what the replacement must preserve: Force information through a bottleneck and train reconstruction.
-
-## Now work a case you can see
+## Let the case decide
 
 Four correlated measurements compress to two codes that still rebuild the originals approximately.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Good reconstruction may preserve details irrelevant to downstream meaning.
-
-The repair is explicit: force information through a bottleneck and train reconstruction. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

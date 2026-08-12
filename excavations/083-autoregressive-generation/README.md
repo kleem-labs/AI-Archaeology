@@ -1,26 +1,20 @@
 # Excavation 083 — Autoregressive Generation Beyond Text
 
-[Previous: Excavation 082](../082-latent-space/README.md)
+A meaningful latent space gives images coordinates we can navigate. To create a new image, the system still needs a procedure that turns an uncertain starting state into a complete arrangement of pixels.
 
-How can a model generate an image one piece at a time?
+An obvious shortcut is to predict all pixels independently.
 
-At first, the simplest answer is tempting: Predict all pixels independently.
+That confidence lasts only until independent pixels produce noise because neighboring colors and shapes constrain one another.
 
-But the simplicity has discarded something important: Independent pixels produce noise because neighboring colors and shapes constrain one another.
+We need to choose an order and predict each piece from previously generated pieces.
 
-The missing information determines the next move: Choose an order and predict each piece from previously generated pieces.
-
-## Now work a case you can see
+## Let the case decide
 
 After generating sky pixels, the model gives blue neighbors higher probability.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Sequential generation can be slow and ordering introduces bias.
-
-The reason is visible in the procedure. It knows how to choose an order and predict each piece from previously generated pieces. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

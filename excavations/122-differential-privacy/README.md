@@ -1,23 +1,18 @@
 # Excavation 122 — Differential Privacy
 
-[Previous: Excavation 121](../121-formal-verification/README.md)
+Formal verification can prove universal properties of a program. Training and evaluating the wider system may still expose whether one person's sensitive record participated in the data.
 
-Can aggregate learning reveal whether one person’s record was included?
+One tempting answer is to remove names and assume records are anonymous.
 
-Without knowing the inherited method, we might try this: Remove names and assume records are anonymous.
+The trouble appears immediately: rare combinations and model outputs can re-identify individuals.
 
-Its hidden assumption appears in the following case: Rare combinations and model outputs can re-identify individuals.
+So we limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
 
-Remove that assumption and the needed repair becomes clear: Limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
-
-## Now work a case you can see
+## Let the case decide
 
 Two datasets differing by one patient produce nearly indistinguishable released statistics.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Build each piece from what just happened
-
+## The arithmetic we have earned
 
 A clinic wants to publish an average recovery time. Imagine two almost identical worlds: one dataset includes Maya's record and the other does not. If the published number changes dramatically, an observer can infer Maya's participation. The privacy mechanism limits how much the probability of any released result may differ between those worlds. Clipping limits one person's influence; calibrated randomness makes the two possible output distributions overlap.
 
@@ -32,11 +27,9 @@ $$
 P(M(D)\in S)\le e^\epsilon P(M(D^\prime)\in S)
 $$
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Privacy consumes an accuracy budget and implementation mistakes break guarantees.
-
-This is not an unrelated warning. The construction can limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

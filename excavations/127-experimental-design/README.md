@@ -1,28 +1,20 @@
 # Excavation 127 — Experimental Design — Changing One Cause at a Time
 
-[Previous excavation](../126-hypothesis-generation/README.md)
+A testable hypothesis predicts a measurable difference. If several components change together, the result cannot reveal which intervention caused that difference.
 
-A new tokenizer and a larger model improve accuracy together. Which change helped?
+We first try to ship both improvements and compare with the old system.
 
-Without knowing the inherited method, we might try this: Ship both improvements and compare with the old system.
+The trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit.
 
-Its hidden assumption appears in the following case: One score changed while two possible causes changed; the result cannot assign credit.
+We need to hold everything fixed except the suspected cause, and include a control that receives no intervention.
 
-Remove that assumption and the needed repair becomes clear: Hold everything fixed except the suspected cause, and include a control that receives no intervention.
-
-Only here do we name the idea: **Experimental Design**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Train four tiny models: old/new tokenizer crossed with small/large width; the four cells separate both effects and their interaction.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Perfect control in a laboratory may not represent deployment.
-
-This is not an unrelated warning. The construction can hold everything fixed except the suspected cause, and include a control that receives no intervention. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

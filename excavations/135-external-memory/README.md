@@ -1,28 +1,20 @@
 # Excavation 135 — External Memory — Remembering Beyond the Context Window
 
-[Previous excavation](../134-sparse-attention/README.md)
+Sparse attention follows selected local, global, or retrieved paths instead of comparing everything. Any fixed context remains finite, while a long-running research system must preserve knowledge beyond the current window.
 
-An agent must remember a project after the current prompt disappears.
+At first we append every past event to every future prompt.
 
-The first solution that suggests itself is this: Append every past event to every future prompt.
+But cost grows forever and important facts drown in irrelevant history.
 
-The idea survives only until we test it against reality: Cost grows forever and important facts drown in irrelevant history.
+We need to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules.
 
-The failure gives us a precise requirement: Write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules.
-
-Only here do we name the idea: **External Memory**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Store the user's chosen unit system once, retrieve it for calculations, and retain when and why it was recorded.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Bad memories can persist longer than the conversations that created them.
-
-The boundary follows from the mechanism itself. We designed it to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

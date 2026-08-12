@@ -1,28 +1,20 @@
 # Excavation 137 — Test-Time Compute — Thinking Longer on Harder Problems
 
-[Previous excavation](../136-long-context-retrieval/README.md)
+Long-context retrieval brings the relevant clue back into view. Easy lookups and hard proofs still receive the same fixed amount of reasoning unless computation can be allocated according to difficulty.
 
-One fixed forward pass treats an easy lookup and a hard proof as equal work.
+An obvious shortcut is to make every model response extremely long.
 
-Without knowing the inherited method, we might try this: Make every model response extremely long.
+The trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing.
 
-Its hidden assumption appears in the following case: Easy tasks waste computation while long fluent mistakes become more convincing.
+That failure tells us to allocate extra attempts or steps only when uncertainty and verification justify their cost.
 
-Remove that assumption and the needed repair becomes clear: Allocate extra attempts or steps only when uncertainty and verification justify their cost.
-
-Only here do we name the idea: **Test-Time Compute**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Answer 2+2 immediately, but generate and check several candidate routes for a scheduling puzzle.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 More computation amplifies a bad objective or unreliable verifier.
-
-This is not an unrelated warning. The construction can allocate extra attempts or steps only when uncertainty and verification justify their cost. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

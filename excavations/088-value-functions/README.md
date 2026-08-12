@@ -1,26 +1,20 @@
 # Excavation 088 — Value — Estimating Future Consequences
 
-[Previous: Excavation 087](../087-states-actions-transitions/README.md)
+State–action–transition records make experience explicit. Immediate reward still cannot distinguish a move toward a distant rescue from a move into a dead end when neither pays off yet.
 
-Immediate reward cannot distinguish a step toward a distant goal from a dead end.
+Using what we have, we choose the action with the largest reward right now.
 
-At first, the simplest answer is tempting: Choose the action with the largest reward right now.
+That confidence lasts only until a small immediate treat can prevent reaching a larger later reward.
 
-But the simplicity has discarded something important: A small immediate treat can prevent reaching a larger later reward.
+Now we can see what is missing: we must estimate the future reward expected from a state or state-action pair.
 
-The missing information determines the next move: Estimate the future reward expected from a state or state-action pair.
-
-## Now work a case you can see
+## Let the case decide
 
 One path gives 1 now; another gives 0 now and 10 next. Future value makes the second preferable.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Value estimates inherit errors from limited experience.
-
-The reason is visible in the procedure. It knows how to estimate the future reward expected from a state or state-action pair. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

@@ -1,7 +1,5 @@
 # Excavation 003 — Distance
 
-[Previous: Vectors](../002-vectors/README.md)
-
 The king asks for the animal most similar to Tiger A.
 
 ```text
@@ -44,7 +42,7 @@ Why take the root? The direct line across a space is not the sum of its side len
 
 Only after the reasoning is complete does the notation help:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 Tiger A has weight 220 kg, speed 65 km/h, and age 6 years.
 
@@ -69,7 +67,7 @@ total                                      = 27
 
 The total is in squared differences. Its square root gives one ordinary separation: about 5.20.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is only a nickname for Tiger A's ordered measurements.
 - **y** is only a nickname for Tiger B's ordered measurements.
@@ -86,7 +84,6 @@ $$
 d(\mathbf{x},\mathbf{y})
 =\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots+(x_n-y_n)^2}
 $$
-
 
 The formula is your procedure written compactly.
 

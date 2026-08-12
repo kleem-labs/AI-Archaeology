@@ -1,26 +1,20 @@
 # Excavation 099 — Governance — Who Decides and Who Is Accountable?
 
-[Previous: Excavation 098](../098-red-teaming/README.md)
+Red teaming discovers failures before ordinary traffic does. Deciding which risks are acceptable, who may approve deployment, and who is accountable cannot be delegated to the model being evaluated.
 
-A technically safe model still affects people through deployment choices.
+At first we let builders decide every acceptable use because they understand the system.
 
-Our first construction is deliberately modest: Let builders decide every acceptable use because they understand the system.
+The world refuses to cooperate: affected users carry risks without authority, appeal, or visibility.
 
-It works—right up to this boundary: Affected users carry risks without authority, appeal, or visibility.
+We need to define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
 
-Crossing that boundary requires one additional idea: Define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
-
-## Now work a case you can see
+## Let the case decide
 
 A lending model requires documented data, subgroup evaluation, human appeal, and a named owner before launch.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Governance can become paperwork unless tied to real authority and enforcement.
-
-Why does the boundary remain? Our new machinery only knows how to define ownership, review, documentation, incident response, user recourse, and deployment boundaries. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

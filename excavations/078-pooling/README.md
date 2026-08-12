@@ -1,26 +1,20 @@
 # Excavation 078 — Pooling — Keeping Evidence While Shrinking the Map
 
-[Previous: Excavation 077](../077-convolution/README.md)
+Convolution slides one local detector across the whole image. The resulting activation maps preserve every detected location and quickly become too large for deeper processing.
 
-Local detectors create large activation maps.
+Perhaps we keep every activation at full resolution through every layer.
 
-At first, the simplest answer is tempting: Keep every activation at full resolution through every layer.
+That confidence lasts only until memory explodes and tiny shifts move evidence to neighboring cells.
 
-But the simplicity has discarded something important: Memory explodes and tiny shifts move evidence to neighboring cells.
+So we summarize small neighborhoods while retaining the strongest or average evidence.
 
-The missing information determines the next move: Summarize small neighborhoods while retaining the strongest or average evidence.
-
-## Now work a case you can see
+## Let the case decide
 
 Max pooling [1,7,2,3] keeps 7: an edge existed somewhere in that patch.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Pooling discards exact location and can erase subtle patterns.
-
-The reason is visible in the procedure. It knows how to summarize small neighborhoods while retaining the strongest or average evidence. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

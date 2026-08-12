@@ -1,8 +1,10 @@
 # Excavation 002 — Vectors
 
-[Previous: Why Features Exist](../001-why-features-exist/README.md)
+The tribe has learned to keep only useful features: weight, speed, age, distance from camp. But those features are still loose facts. When reports begin arriving all day, copying or comparing one animal means chasing its measurements across the record.
 
-Civilization has grown. Reports arrive all day:
+The crisis is no longer noticing. It is keeping the observations that belong to one animal together.
+
+Reports now look like this:
 
 ```text
 tiger near river
@@ -10,8 +12,6 @@ three deer north
 hunter injured
 water low
 ```
-
-The crisis is no longer noticing. It is organizing.
 
 A table helps: one row per animal, one column per property. But to compare, copy, or transform one animal, we want to lift its row out as a single object.
 
@@ -58,17 +58,16 @@ Nearby locations can represent similar objects. A movie can be located by humor,
 
 We already understand the object, so notation can compress it:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 A tiger recorded as weight 220, speed 65, and age 6 becomes [220, 65, 6]. The first slot must always mean weight; otherwise [220, 65, 6] could describe nonsense.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is the object we needed to carry as one package.
 - **x₁ through xₙ** are its agreed measurements; subscripts preserve which feature is which.
 - **n** exists because different problems keep different numbers of features.
 - The brackets bind the measurements without adding or comparing them yet.
-
 
 This says only: one object carries an ordered measurement for each of $n$ agreed features.
 
@@ -77,7 +76,6 @@ Only now can we compress that reasoning:
 $$
 \mathbf{x}=[x_1,x_2,\ldots,x_n]
 $$
-
 
 ## Challenge
 

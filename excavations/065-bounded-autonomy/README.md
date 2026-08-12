@@ -1,26 +1,22 @@
 # Excavation 065 — Bounded Autonomy — Building an Agent That Can Be Trusted
 
-[Previous: Excavation 064](../064-observability/README.md)
+Observability makes a failure inspectable after it occurs. Trust requires more than postmortems: the agent's possible actions must remain inside an explicit operating envelope before anything goes wrong.
 
-We can now plan, remember, call tools, verify, and retry. Combining all powers without boundaries creates a system capable of compounding mistakes.
+An obvious shortcut is to give the agent a broad goal and let it continue until it believes the goal is complete.
 
-The first solution that suggests itself is this: Give the agent a broad goal and let it continue until it believes the goal is complete.
+But a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step.
 
-The idea survives only until we test it against reality: A mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step. Name the missing guarantee before continuing.
+That failure tells us to create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
 
-The failure gives us a precise requirement: Create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
-
-## Now work a case you can see
+## Let the case decide
 
 A deployment agent may modify staging for thirty minutes, spend at most a fixed budget, run required tests, and prepare a production change. Production execution remains behind human approval.
 
 No new equation is needed. The invention is a boundary, procedure, or system contract. Adding symbols would not make it more rigorous.
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Bounded autonomy reduces blast radius; it does not make the model infallible. Responsibility remains with the people and systems granting authority.
-
-The boundary follows from the mechanism itself. We designed it to create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

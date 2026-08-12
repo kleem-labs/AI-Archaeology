@@ -2,7 +2,7 @@
 from pathlib import Path
 
 root = Path(__file__).parents[1]
-banned = (r"\operatorname", r"\operatorname*")
+banned = (r"\operatorname", r"\operatorname*", r"\,", r"\;", r"\!", r"\qquad")
 failures = []
 
 for path in root.rglob("*.md"):

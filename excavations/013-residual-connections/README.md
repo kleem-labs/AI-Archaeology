@@ -1,7 +1,5 @@
 # Excavation 013 — Residual Connections
 
-[Previous: Feed-Forward Networks](../012-feed-forward-networks/README.md)
-
 Imagine rewriting an important message fifty times. If every editor replaces the entire document, one poor edit can erase something later editors need.
 
 A deep network faces the same danger. Attention and feed-forward blocks transform a representation repeatedly. Requiring each block to reproduce everything worth keeping while also improving it is an unnecessarily hard job.
@@ -25,17 +23,16 @@ This reconnects directly with Excavation 004: a vector can describe a state, and
 
 Only now do we need the compact rule:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 A cartographer already has a useful map of the forest. A new survey reports that one trail bends half a kilometre east and one kilometre south. Replacing the whole map with that small report would destroy everything known; adding it as a correction preserves the map and changes only the trail. If the survey discovers nothing useful, adding a zero correction leaves the original untouched.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is the representation worth preserving.
 - **F(x)** is only the transformation's proposed correction, not a complete replacement.
 - Addition keeps a direct route for x and makes “do nothing” possible when F(x)=0.
 - **y** is the corrected state passed onward.
-
 
 The block learns the **residual**—the difference between what exists and what should be added.
 
@@ -48,7 +45,6 @@ Only now can we compress that reasoning:
 $$
 \mathbf{y}=\mathbf{x}+F(\mathbf{x})
 $$
-
 
 ## Challenge
 

@@ -1,26 +1,20 @@
 # Excavation 055 — Tool-Using Agents — When Words Must Cause Verified Actions
 
-[Previous: Excavation 054](../054-retrieval-augmented-generation/README.md)
+Retrieval lets the assistant look for evidence before speaking. Some requests require more than words: send a message, query a database, reserve equipment, or change real state.
 
-A model can describe checking weather, calculating totals, or querying a database, but description alone does not obtain the result.
+We first try to ask the language model to simulate every tool from memory.
 
-The first solution that suggests itself is this: Ask the language model to simulate every tool from memory.
+But it invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded.
 
-The idea survives only until we test it against reality: It invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded. What information did the attempt lose? Write that requirement before continuing.
+We need to let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
 
-The failure gives us a precise requirement: Let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
-
-## Now work a case you can see
+## Let the case decide
 
 The user asks whether to carry an umbrella. The model requests weather for the named city, receives a 90% rain forecast, and then answers. The forecast is an observation from the tool, not prose invented by the model.
 
-No new equation is needed here. The invention is a procedure and a separation of responsibilities, so forcing symbols into the chapter would hide rather than clarify it.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 An agent adds failure modes: bad tool choice, unsafe actions, prompt injection, loops, and ambiguous authority. Tools require permissions, validation, and stopping rules.
-
-The boundary follows from the mechanism itself. We designed it to let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

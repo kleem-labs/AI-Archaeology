@@ -1,28 +1,20 @@
 # Excavation 147 — Debate — Let Claims Meet an Adversary
 
-[Previous excavation](../146-scalable-oversight/README.md)
+Scalable oversight decomposes work, attaches local evidence, samples risk, and escalates anomalies. A polished argument can still hide one weak assumption unless an equally capable opponent is rewarded for finding it.
 
-A persuasive answer hides one weak assumption in a long argument.
+At first we let the author choose which evidence the judge sees.
 
-Without knowing the inherited method, we might try this: Let the author choose which evidence the judge sees.
+The trouble appears immediately: selective presentation makes eloquence look like correctness.
 
-Its hidden assumption appears in the following case: Selective presentation makes eloquence look like correctness.
+We need to give an opposing investigator equal access and reward exposing checkable disagreements for a judge.
 
-Remove that assumption and the needed repair becomes clear: Give an opposing investigator equal access and reward exposing checkable disagreements for a judge.
-
-Only here do we name the idea: **Debate**.
-
-## Follow one case all the way through
+## Let the case decide
 
 One side proposes a medical claim; the other points to the exact unsupported causal step and both reveal sources.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Debaters may share blind spots or manipulate a weak judge.
-
-This is not an unrelated warning. The construction can give an opposing investigator equal access and reward exposing checkable disagreements for a judge. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

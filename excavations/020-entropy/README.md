@@ -1,22 +1,20 @@
 # Excavation 020 — Entropy — Measuring the Uncertainty of a Whole Situation
 
-[Previous excavation](../019-information/README.md)
+Information gives one surprising observation a numerical weight. Before opening the next envelope, however, the community needs to compare the uncertainty of entire situations, not only the surprise of one event after it happens.
 
-One bag contains ten red stones. Another contains five red and five blue. Before drawing, which bag leaves us more uncertain?
+One tempting answer is to count the number of outcomes. Both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
 
-The first solution that suggests itself is this: Count the number of outcomes. Both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
-
-The failure gives us a precise requirement: Average the information of every possible outcome, weighted by how often that outcome occurs.
+Now we can see what is missing: we must average the information of every possible outcome, weighted by how often that outcome occurs.
 
 ## From procedure to notation
 
 The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 For a fair coin, each outcome has probability 1/2 and information 1 bit. Weighting gives 0.5×1+0.5×1=1 expected bit. A coin guaranteed heads gives -log₂(1)=0, so its entropy is zero.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **pᵢ** is the probability of possible outcome i.
 - **−log pᵢ** is the information received if i occurs.
@@ -30,9 +28,6 @@ $$
 H(P)=-\sum_i p_i\log p_i
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 ## Carry the idea back into the world
 
 Entropy is the expected surprise before opening a sealed envelope. A guaranteed message brings none; evenly balanced alternatives bring more.
@@ -40,8 +35,6 @@ Entropy is the expected surprise before opening a sealed envelope. A guaranteed 
 ## Limits
 
 Entropy measures uncertainty in a stated distribution, not disorder in every everyday sense.
-
-The boundary follows from the mechanism itself. We designed it to average the information of every possible outcome, weighted by how often that outcome occurs. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

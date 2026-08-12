@@ -1,23 +1,18 @@
 # Excavation 102 — Bayesian Updating
 
-[Previous: Excavation 101](../101-two-kinds-uncertainty/README.md)
+Separating uncertainty in the observation from uncertainty in the model's knowledge tells us what kind of ignorance we face. New evidence must then revise several plausible stories without erasing what was believed before it arrived.
 
-A tracker begins with prior beliefs about tiger, deer, and wind, then observes a deep paw print.
+Perhaps we discard the old belief and use only the newest clue.
 
-Without knowing the inherited method, we might try this: Discard the old belief and use only the newest clue.
+The trouble appears immediately: one noisy footprint can overpower years of evidence.
 
-Its hidden assumption appears in the following case: One noisy footprint can overpower years of evidence.
+So we combine prior plausibility with how expected the clue is under each story, then normalize across stories.
 
-Remove that assumption and the needed repair becomes clear: Combine prior plausibility with how expected the clue is under each story, then normalize across stories.
-
-## Now work a case you can see
+## Let the case decide
 
 Tiger starts at 10%, but a deep paw print is far more likely under tiger than wind; the belief rises without becoming certainty.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Build each piece from what just happened
-
+## The arithmetic we have earned
 
 Before seeing tracks, a ranger considers tiger less common than deer: perhaps tiger receives prior share 1 and deer share 4. A deep round print is far more expected under tiger—say likelihood 8—than deer—say likelihood 1. Multiplying gives supports 8 for tiger and 4 for deer. Dividing each by total support 12 turns them into revised shares: two thirds tiger, one third deer. The print overcame the prior, but did not erase it.
 
@@ -32,11 +27,9 @@ $$
 P(H\mid E)=\frac{P(E\mid H)P(H)}{\sum_j P(E\mid H_j)P(H_j)}
 $$
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Results depend on priors and likelihood assumptions.
-
-This is not an unrelated warning. The construction can combine prior plausibility with how expected the clue is under each story, then normalize across stories. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

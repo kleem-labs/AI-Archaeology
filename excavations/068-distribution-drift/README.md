@@ -1,26 +1,20 @@
 # Excavation 068 — Distribution Drift
 
-[Previous: Excavation 067](../067-online-learning/README.md)
+Online learning adapts quickly and can also absorb noise or attack just as quickly. The system must first distinguish ordinary variation from a genuine change in the source producing its inputs.
 
-The world producing inputs changes after deployment.
+One tempting answer is to assume training accuracy remains valid forever.
 
-At first, the simplest answer is tempting: Assume training accuracy remains valid forever.
+That confidence lasts only until a winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
 
-But the simplicity has discarded something important: A winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
+Now we can see what is missing: we must monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
 
-The missing information determines the next move: Monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
-
-## Now work a case you can see
+## Let the case decide
 
 Average order size moves from $40 to $75 while error doubles. The shift is evidence to inspect, not automatic permission to update.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Not every statistical shift changes the decision that matters.
-
-The reason is visible in the procedure. It knows how to monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

@@ -1,28 +1,20 @@
 # Excavation 149 — Pre-Deployment Evaluations — Fail Before the World Pays
 
-[Previous excavation](../148-constitutional-guidance/README.md)
+Constitutional guidance turns inspectable principles into critique and revision. Before real tools and users are exposed, the complete system must face staged tests of capabilities, misuse, safeguards, and operating limits.
 
-A model passes ordinary tests and is about to receive real tools.
+An obvious shortcut is to deploy broadly and learn from production incidents.
 
-Our first construction is deliberately modest: Deploy broadly and learn from production incidents.
+The world refuses to cooperate: the first realistic discovery of a dangerous capability harms actual users.
 
-It works—right up to this boundary: The first realistic discovery of a dangerous capability harms actual users.
+That failure tells us to test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
 
-Crossing that boundary requires one additional idea: Test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
-
-Only here do we name the idea: **Pre-Deployment Evaluations**.
-
-## Follow one case all the way through
+## Let the case decide
 
 A sandboxed email agent faces prompt injection, ambiguous recipients, retries, and irreversible-send boundaries.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Evaluations sample futures; passing them never proves universal safety.
-
-That limit is not a footnote. It is the pressure that forces the next excavation.
 
 ## Enter the laboratory
 

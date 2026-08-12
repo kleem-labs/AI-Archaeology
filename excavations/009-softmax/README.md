@@ -1,7 +1,5 @@
 # Excavation 009 — From Scores to Attention
 
-[Previous: Attention](../008-attention/README.md)
-
 Suppose *she* compares itself with earlier words and receives:
 
 ```text
@@ -41,17 +39,16 @@ Squares also amplify large scores, but they turn `-5` into `25`, converting stro
 
 After exponentiating, divide each result by their total. Now the values are positive and sum to one. Only after deriving those requirements do we name the result **softmax**:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 Mary, John, and the book are possible sources for the word *she*. The sentence gives Mary the strongest relevance, the book a weaker connection, and John the weakest. Raw relevance can be negative or arbitrarily large, so it cannot yet say what share each source should contribute. Exponentiation turns every candidate into positive evidence; dividing by their shared total converts that evidence into portions of one whole.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **sᵢ** is the raw relevance score for candidate i.
 - Exponentiation makes every weight positive, preserves ordering, suppresses negative evidence, and amplifies strong evidence.
 - The denominator sums evidence from every candidate j because a weight is meaningful only relative to its competitors.
 - Division makes all resulting weights sum to one.
-
 
 For scores `[2, 4, 8]`, the largest score receives almost all the weight, but the others are not forbidden from contributing.
 
@@ -62,7 +59,6 @@ Only now can we compress that reasoning:
 $$
 \mathrm{softmax}(s_i)=\frac{e^{s_i}}{\sum_j e^{s_j}}
 $$
-
 
 ## The missing question
 

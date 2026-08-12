@@ -1,26 +1,20 @@
 # Excavation 067 — Online Learning
 
-[Previous: Excavation 066](../066-feedback-loops/README.md)
+A feedback loop reveals that deployment is part of the data-generating process. When the world changes for legitimate reasons, a frozen model grows stale and needs a controlled way to learn online.
 
-A fraud pattern changes today, but the deployed model learned only from last year.
+We first try to retrain immediately on every new labeled event.
 
-Without knowing the inherited method, we might try this: Retrain immediately on every new labeled event.
+The trouble appears immediately: one mislabeled transaction can move the model before anyone notices.
 
-Its hidden assumption appears in the following case: One mislabeled transaction can move the model before anyone notices.
+We need to update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
 
-Remove that assumption and the needed repair becomes clear: Update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
-
-## Now work a case you can see
+## Let the case decide
 
 A new batch reduces recent fraud loss but doubles errors on the stable validation set; the update is rejected.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Fast adaptation also creates fast corruption.
-
-This is not an unrelated warning. The construction can update from controlled batches with validation, rollback, and limits on how quickly behavior may change. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

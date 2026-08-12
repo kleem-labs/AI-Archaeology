@@ -7,6 +7,11 @@ then break and rebuild the idea in the [Laboratory](LABORATORY.md). The
 [completion standard](BOOK_AND_LAB_STANDARD.md) defines what “finished” means;
 file presence alone is not completion.
 
+For uninterrupted reading, begin with the
+[three-volume book edition](book/README.md). The excavation directories remain
+the working dig sites where code, diagrams, mistakes, exercises, and references
+live beside the idea that produced them.
+
 Read it as a book through the [eleven-part reading path](PARTS.md). Work with it
 as a laboratory through the [field-lab protocol](labs/README.md). The
 [completion status](COMPLETION_STATUS.md) distinguishes finished depth from
@@ -156,7 +161,6 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 123 | [Federated Learning](excavations/123-federated-learning/README.md) | Can many devices train together without centralizing raw data? |
 | 124 | [Adversarial Robustness](excavations/124-adversarial-robustness/README.md) | A tiny input change invisible to a person flips the model’s decision. |
 | 125 | [An Open-Ended Research System](excavations/125-open-ended-research-system/README.md) | How can a system keep discovering without silently rewriting its goals or safety boundaries? |
-
 | 126 | [Hypotheses — Turning Curiosity into a Testable Claim](excavations/126-hypothesis-generation/README.md) | The research system notices that longer context sometimes helps. What exactly should it test? |
 | 127 | [Experimental Design — Changing One Cause at a Time](excavations/127-experimental-design/README.md) | A new tokenizer and a larger model improve accuracy together. Which change helped? |
 | 128 | [Reproducibility — Can the Discovery Survive Another Run?](excavations/128-reproducibility/README.md) | One training run beats the baseline. Has the system discovered an improvement? |

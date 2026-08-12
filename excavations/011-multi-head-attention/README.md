@@ -1,7 +1,5 @@
 # Excavation 011 — Multi-Head Attention
 
-[Previous: Query, Key, and Value](../010-query-key-value/README.md)
-
 Ask one expert to interpret a sentence. The expert may follow reference, grammar, distance, or topic—but one attention distribution forces every relationship to compete in the same set of weights.
 
 ## Failed attempt: make one expert bigger
@@ -40,18 +38,17 @@ Averaging would erase which expert supplied which coordinates before the model c
 
 Only now does the compact expression earn its place:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 In “The tiger that chased the deer was tired,” one reader follows grammar to discover what *was tired* describes, while another follows reference to keep tiger separate from deer. Averaging their notes too early destroys which evidence came from which question. Keeping the two notes side by side lets a later learned map decide how much grammar and reference the sentence needs.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **X** is the shared sequence of token representations.
 - Each **headₕ** is an independent Q/K/V retrieval space, needed because relationships should not compete in one distribution.
 - Concatenation preserves each report instead of averaging distinctions away.
 - **H** counts the parallel heads.
 - **W_O** is learned because the model must decide how the preserved reports should interact and return to the shared width.
-
 
 Each head is the query–key–value mechanism from the previous excavation with independent learned projections.
 
@@ -63,7 +60,6 @@ $$
 \mathrm{MultiHead}(X)
 =\mathrm{Concat}(\text{head}_1,\ldots,\text{head}_H)W_O
 $$
-
 
 ## Challenge
 

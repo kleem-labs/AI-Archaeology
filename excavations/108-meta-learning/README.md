@@ -1,26 +1,20 @@
 # Excavation 108 — Meta-Learning
 
-[Previous: Excavation 107](../107-continual-learning/README.md)
+Continual learning protects the past but may still require many examples for every genuinely new task. Experience across tasks could teach not only solutions, but a better procedure for adapting quickly.
 
-Can experience across many tasks teach the model how to learn a new task quickly?
+Perhaps we train one universal fixed solution.
 
-At first, the simplest answer is tempting: Train one universal fixed solution.
+That confidence lasts only until a new task with different labels requires many examples and broad retraining.
 
-But the simplicity has discarded something important: A new task with different labels requires many examples and broad retraining.
+Now we can see what is missing: we must optimize prior parameters or an update rule so a few new examples produce useful adaptation.
 
-The missing information determines the next move: Optimize prior parameters or an update rule so a few new examples produce useful adaptation.
-
-## Now work a case you can see
+## Let the case decide
 
 After many two-class tasks, five labeled examples are enough to separate two unseen animal species.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Task distributions can be narrow and meta-learning can overfit them.
-
-The reason is visible in the procedure. It knows how to optimize prior parameters or an update rule so a few new examples produce useful adaptation. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

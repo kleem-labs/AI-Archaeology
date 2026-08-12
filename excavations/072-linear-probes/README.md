@@ -1,26 +1,20 @@
 # Excavation 072 — Linear Probes
 
-[Previous: Excavation 071](../071-features-inside-networks/README.md)
+Internal-feature analysis asks what distinctions a hidden layer already makes. A simple probe may decode “tiger” from that layer, but decodability does not prove the original model uses that information.
 
-Can a hidden layer already separate animal species?
+Perhaps we train a powerful classifier on hidden states and call any success evidence.
 
-Without knowing the inherited method, we might try this: Train a powerful classifier on hidden states and call any success evidence.
+The trouble appears immediately: the probe learns the task itself even if the representation did not make it simple.
 
-Its hidden assumption appears in the following case: The probe learns the task itself even if the representation did not make it simple.
+Now we can see what is missing: we must use a deliberately limited probe and compare layers, controls, and baselines.
 
-Remove that assumption and the needed repair becomes clear: Use a deliberately limited probe and compare layers, controls, and baselines.
-
-## Now work a case you can see
+## Let the case decide
 
 A linear probe succeeds at layer 8 but random-label controls fail, suggesting species became linearly accessible there.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Decodable information is not proof the model uses it.
-
-This is not an unrelated warning. The construction can use a deliberately limited probe and compare layers, controls, and baselines. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

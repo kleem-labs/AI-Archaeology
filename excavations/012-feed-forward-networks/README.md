@@ -1,7 +1,5 @@
 # Excavation 012 — Feed-Forward Networks
 
-[Previous: Multi-Head Attention](../011-multi-head-attention/README.md)
-
 Attention lets tokens communicate. Communication is not the same as thinking.
 
 Imagine several experts place evidence on your desk. You still need to interpret it, combine patterns, and form a new conclusion. In a Transformer, each token needs a private processing step after it gathers information.
@@ -28,18 +26,17 @@ A simple gate such as ReLU turns negative signals off and leaves positive ones a
 
 Only now does the familiar expression describe an understood machine:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 Attention tells the word *tiger* what the rest of the sentence said. Now imagine several small workshops inside that token: one notices whether an animal is dangerous, another recognizes whether it is acting or being described. A gate closes workshops whose evidence is negative and leaves useful ones open. A second mixing step combines only the surviving discoveries. Without the gate, the two mixing steps collapse into one fixed recipe and no conditional workshop can exist.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is one token after communication.
 - **W₁x+b₁** expands it into candidate features; b₁ lets a feature activate without forcing the boundary through zero.
 - **σ** is the nonlinear gate that prevents two linear maps collapsing into one.
 - **W₂** recombines active candidates into the model width.
 - **b₂** permits an output offset after recombination.
-
 
 The same workshop is applied separately to every token. It does not communicate across positions; attention already handled that.
 
@@ -56,7 +53,6 @@ $$
 \mathrm{FFN}(\mathbf{x})
 =W_2 \sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2
 $$
-
 
 ## Challenge
 

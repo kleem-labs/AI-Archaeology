@@ -1,7 +1,5 @@
 # Excavation 010 — Query, Key, and Value
 
-[Previous: Softmax](../009-softmax/README.md)
-
 Return to the trophy sentence. The word *it* is looking for something like “a previously mentioned physical object that can participate in this size relationship.” Each earlier word offers different clues.
 
 This suggests two cards:
@@ -35,11 +33,11 @@ If both sides care strongly about the same feature, the contribution is large. I
 
 Only now do we write the operation you rediscovered—the dot product:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 A librarian hears, “Find me the book about a striped predator.” The request emphasizes *animal* and *stripes*. A catalogue card advertises the same properties; matching request-property to catalogue-property produces relevance. If that card wins three quarters of the attention, three quarters of the book's stored content—not three quarters of its catalogue description—travels into the answer. The request becomes the query, the catalogue becomes the key, and the retrievable content becomes the value only after those jobs are distinct.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **qᵢ** states what receiving token i needs; **kⱼ** states what source j offers.
 - Multiplying matching coordinates rewards aligned needs and offers; opposite signs become negative evidence.
@@ -47,7 +45,6 @@ A librarian hears, “Find me the book about a striped predator.” The request 
 - **αᵢⱼ** is that score after normalization: how much i listens to j.
 - **vⱼ** is the content source j contributes; multiplying by α scales its voice.
 - Summing over j combines every permitted source into output oᵢ.
-
 
 Learned matrices create query, key, and value views from each current representation. Their formulas record three roles we already needed; they are not arbitrary symmetry.
 
@@ -80,7 +77,6 @@ The output for one token is finally the weighted sum of source values:
 $$
 \mathbf{o}_i=\sum_j \alpha_{ij}\mathbf{v}_j
 $$
-
 
 ## Challenge
 

@@ -1,22 +1,20 @@
 # Excavation 018 — Likelihood — Which Hidden Story Produced This Evidence?
 
-[Previous excavation](../017-probability/README.md)
+Probability lets the trackers preserve several possible outcomes instead of pretending to know. Now they face the reverse problem: one footprint has arrived, and several hidden animals could have produced it.
 
-Two trackers propose different worlds. One says tigers usually leave deep round prints; another says deer do. We have observed one print and must compare the stories.
+Perhaps we ask which story is generally more believable. That ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
 
-At first, the simplest answer is tempting: Ask which story is generally more believable. That ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
-
-The missing information determines the next move: Reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
+So we reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
 
 ## From procedure to notation
 
 The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 Story A says a deep print occurs 80% of the time; Story B says 20%. After observing a deep print, the same evidence has likelihood 0.8 under A and 0.2 under B, so A explains this clue four times as well.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **θ** is one proposed hidden explanation.
 - **x** is the evidence already observed.
@@ -30,9 +28,6 @@ $$
 \mathcal{L}(\theta\mid x)=P(x\mid\theta)
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 ## Carry the idea back into the world
 
 A detective compares suspects by asking how well each suspect explains the clues, not how common the suspect is in the population.
@@ -40,8 +35,6 @@ A detective compares suspects by asking how well each suspect explains the clues
 ## Limits
 
 Likelihood compares explanations for fixed evidence; it is not itself a normalized probability over explanations. Priors will matter later.
-
-The reason is visible in the procedure. It knows how to reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

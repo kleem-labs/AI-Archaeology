@@ -1,7 +1,5 @@
 # Excavation 001 — Why Features Exist
 
-[Previous: Before Mathematics Existed](../000-before-mathematics-existed/README.md)
-
 Your tribe now recognizes tigers. That is not enough. Ten animals are moving through the valley, and you must decide which ones threaten the camp.
 
 For each animal you could remember the whole encounter: the exact light, every hair, every sound. But those details change even when the danger does not. Perfect memory gives you more information and less ability to compare.

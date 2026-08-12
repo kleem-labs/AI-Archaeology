@@ -1,28 +1,20 @@
 # Excavation 134 — Sparse Attention — Looking Without Comparing Everything
 
-[Previous excavation](../133-mixture-of-experts/README.md)
+A mixture of experts activates only a few specialists for each token. Long-context attention still compares too many token pairs, making communication—not expert capacity—the next computational bottleneck.
 
-Long context makes every token compare with every other token.
+One tempting answer is to keep full attention and buy more hardware.
 
-Our first construction is deliberately modest: Keep full attention and buy more hardware.
+The world refuses to cooperate: doubling length roughly quadruples pairwise comparisons.
 
-It works—right up to this boundary: Doubling length roughly quadruples pairwise comparisons.
+So we preserve a small pattern of local, global, or retrieved connections that matches the task's information paths.
 
-Crossing that boundary requires one additional idea: Preserve a small pattern of local, global, or retrieved connections that matches the task's information paths.
-
-Only here do we name the idea: **Sparse Attention**.
-
-## Follow one case all the way through
+## Let the case decide
 
 A document token attends nearby sentences plus section headings instead of every word in the book.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 A sparse pattern can hide the one distant clue the answer needs.
-
-Why does the boundary remain? Our new machinery only knows how to preserve a small pattern of local, global, or retrieved connections that matches the task's information paths. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

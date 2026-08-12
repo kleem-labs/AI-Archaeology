@@ -1,26 +1,20 @@
 # Excavation 120 — Program Synthesis
 
-[Previous: Excavation 119](../119-graph-neural-networks/README.md)
+Graph neural networks propagate learned messages through relational structure. Some tasks demand more than one answer: they demand a reusable procedure that maps every allowed input to an output.
 
-Can examples specify a reusable procedure rather than one output?
+Perhaps we memorize the provided input-output pairs.
 
-The first solution that suggests itself is this: Memorize the provided input-output pairs.
+But a new input exposes the absence of an underlying algorithm.
 
-The idea survives only until we test it against reality: A new input exposes the absence of an underlying algorithm.
+Now we can see what is missing: we must search or generate candidate programs, execute them, and keep those satisfying examples and constraints.
 
-The failure gives us a precise requirement: Search or generate candidate programs, execute them, and keep those satisfying examples and constraints.
-
-## Now work a case you can see
+## Let the case decide
 
 Examples 2→4 and 3→6 suggest multiply by two; testing 5 distinguishes it from memorized lookup.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Finite examples rarely identify one unique intended program.
-
-The boundary follows from the mechanism itself. We designed it to search or generate candidate programs, execute them, and keep those satisfying examples and constraints. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

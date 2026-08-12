@@ -1,23 +1,18 @@
 # Excavation 092 — Contrastive Learning
 
-[Previous: Excavation 091](../091-multimodal-alignment/README.md)
+Multimodal alignment places an image near its matching caption. Pulling pairs together alone permits every pair to collapse to the same point; meaning appears only when the correct match wins against plausible alternatives.
 
-Paired examples should be close, but close relative to what?
+One tempting answer is to pull every observed pair together without negatives.
 
-Without knowing the inherited method, we might try this: Pull every observed pair together without negatives.
+The trouble appears immediately: all representations can collapse to one point.
 
-Its hidden assumption appears in the following case: All representations can collapse to one point.
+Now we can see what is missing: we must compare each true pair against mismatched alternatives in the same batch.
 
-Remove that assumption and the needed repair becomes clear: Compare each true pair against mismatched alternatives in the same batch.
-
-## Now work a case you can see
+## Let the case decide
 
 One tiger image chooses its caption among 31 wrong captions; success requires relative alignment.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Build each piece from what just happened
-
+## The arithmetic we have earned
 
 Place four wildlife photographs beside four captions. The tiger photograph should prefer “a striped predator” over “a river,” “a truck,” and “a sleeping dog.” Pulling only the correct pair together is insufficient: every photograph and caption could collapse to the same location. Making the tiger compete against all candidate captions forces its correct caption to be closer *relative to the alternatives*.
 
@@ -33,11 +28,9 @@ $$
 L_i=-\log\frac{\exp(z_i\cdot t_i/T)}{\sum_j\exp(z_i\cdot t_j/T)}
 $$
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 False negatives may actually describe the same concept.
-
-This is not an unrelated warning. The construction can compare each true pair against mismatched alternatives in the same batch. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

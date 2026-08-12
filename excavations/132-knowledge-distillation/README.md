@@ -1,28 +1,20 @@
 # Excavation 132 — Knowledge Distillation — Teaching a Smaller Student
 
-[Previous excavation](../131-synthetic-data/README.md)
+Synthetic data can expand training only when errors are verified instead of multiplied. The capable teacher generating or checking those lessons may be too large and costly for deployment.
 
-A capable model is too expensive to deploy on a phone.
+Perhaps we train a small model only on the original hard labels.
 
-Without knowing the inherited method, we might try this: Train a small model only on the original hard labels.
+The trouble appears immediately: the labels reveal the winner but discard how the teacher distributed doubt among alternatives.
 
-Its hidden assumption appears in the following case: The labels reveal the winner but discard how the teacher distributed doubt among alternatives.
+Now we can see what is missing: we must let the student imitate the teacher's probability pattern as well as the observed answer.
 
-Remove that assumption and the needed repair becomes clear: Let the student imitate the teacher's probability pattern as well as the observed answer.
-
-Only here do we name the idea: **Knowledge Distillation**.
-
-## Follow one case all the way through
+## Let the case decide
 
 For an animal image, 0.55 tiger, 0.40 leopard, 0.05 car teaches similarity that the label tiger hides.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 The student also inherits the teacher's blind spots.
-
-This is not an unrelated warning. The construction can let the student imitate the teacher's probability pattern as well as the observed answer. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

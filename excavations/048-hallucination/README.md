@@ -1,26 +1,20 @@
 # Excavation 048 — Hallucination — When Fluent Prediction Outruns Evidence
 
-[Previous: Excavation 047](../047-evaluation/README.md)
+Evaluation therefore begins with the job the system is supposed to perform. On that job, a disturbing failure remains: the model can produce a beautifully fluent answer even when no evidence supports it.
 
-Asked for a paper that does not exist, the model confidently invents a title, authors, and journal.
+Perhaps we trust fluent language because uncertainty should sound hesitant.
 
-At first, the simplest answer is tempting: Trust fluent language because uncertainty should sound hesitant.
+That confidence lasts only until training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.”
 
-But the simplicity has discarded something important: Training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.” What information did the attempt lose? Write that requirement before continuing.
+Now we can see what is missing: we must separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.
 
-The missing information determines the next move: Separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.
-
-## Now work a case you can see
+## Let the case decide
 
 The prompt asks for the 2018 paper “Tiger Attention Networks.” Search returns no matching source. A supported system must say no source was found instead of completing the familiar citation pattern.
 
-No new equation is needed here. The invention is a procedure and a separation of responsibilities, so forcing symbols into the chapter would hide rather than clarify it.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Evidence reduces unsupported claims but sources can be wrong, stale, conflicting, or misread.
-
-The reason is visible in the procedure. It knows how to separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

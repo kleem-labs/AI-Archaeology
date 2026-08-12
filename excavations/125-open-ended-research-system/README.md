@@ -1,26 +1,20 @@
 # Excavation 125 — An Open-Ended Research System
 
-[Previous: Excavation 124](../124-adversarial-robustness/README.md)
+Adversarial robustness tests whether behavior survives hostile changes. The system can now run experiments on itself, but open-ended discovery becomes unsafe if it can rewrite objectives, evidence standards, or deployment authority.
 
-How can a system keep discovering without silently rewriting its goals or safety boundaries?
+An obvious shortcut is to let it generate experiments, change itself, and deploy improvements automatically.
 
-The first solution that suggests itself is this: Let it generate experiments, change itself, and deploy improvements automatically.
+But a flawed metric or experiment compounds through self-modification before external review.
 
-The idea survives only until we test it against reality: A flawed metric or experiment compounds through self-modification before external review.
+That failure tells us to separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
 
-The failure gives us a precise requirement: Separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
-
-## Now work a case you can see
+## Let the case decide
 
 The system proposes a tokenizer change, tests it in isolation, reproduces gains, checks regressions, and submits evidence for human approval.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Open-ended discovery remains bounded by chosen objectives, measurements, and human institutions.
-
-The boundary follows from the mechanism itself. We designed it to separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

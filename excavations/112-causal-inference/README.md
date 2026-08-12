@@ -1,26 +1,20 @@
 # Excavation 112 — Causal Inference
 
-[Previous: Excavation 111](../111-world-models/README.md)
+A world model predicts future observations. Prediction from recorded correlations cannot answer what would happen if the agent deliberately intervened and changed one cause.
 
-Ice-cream sales and drownings rise together. Would banning ice cream reduce drownings?
+Using what we have, we treat every correlation as a controllable cause.
 
-Without knowing the inherited method, we might try this: Treat every correlation as a controllable cause.
+The trouble appears immediately: hot weather raises both; changing one does not necessarily change the other.
 
-Its hidden assumption appears in the following case: Hot weather raises both; changing one does not necessarily change the other.
+Now we can see what is missing: we must represent plausible causal structure and distinguish observing a variable from intervening on it.
 
-Remove that assumption and the needed repair becomes clear: Represent plausible causal structure and distinguish observing a variable from intervening on it.
-
-## Now work a case you can see
+## Let the case decide
 
 Observing umbrellas predicts rain; forcing umbrellas open does not cause rain.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Causal conclusions require assumptions not recoverable from correlations alone.
-
-This is not an unrelated warning. The construction can represent plausible causal structure and distinguish observing a variable from intervening on it. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

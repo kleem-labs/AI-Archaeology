@@ -1,28 +1,20 @@
 # Excavation 139 — Process Supervision — Rewarding the Path, Not Only the Answer
 
-[Previous excavation](../138-search-and-verification/README.md)
+Search and verification keep only candidates that survive an independent test. A correct final answer can still reward an invalid path that reached it by luck.
 
-Two solutions reach the correct number; one used invalid reasoning by luck.
+We first try to reward only whether the final answer matches.
 
-Our first construction is deliberately modest: Reward only whether the final answer matches.
+The world refuses to cooperate: lucky shortcuts receive the same credit as reliable reasoning.
 
-It works—right up to this boundary: Lucky shortcuts receive the same credit as reliable reasoning.
+We need to evaluate checkable intermediate claims and train the system to prefer valid paths.
 
-Crossing that boundary requires one additional idea: Evaluate checkable intermediate claims and train the system to prefer valid paths.
-
-Only here do we name the idea: **Process Supervision**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Mark each algebraic transformation valid or invalid before judging the final result.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Human process labels are expensive and can enforce one style rather than truth.
-
-Why does the boundary remain? Our new machinery only knows how to evaluate checkable intermediate claims and train the system to prefer valid paths. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

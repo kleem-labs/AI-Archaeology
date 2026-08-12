@@ -1,24 +1,20 @@
 # Excavation 040 — Next-Token Examples — One Sentence Becomes Many Lessons
 
-[Previous: Excavation 039](../039-causal-mask/README.md)
+Causal masking prevents the learner from reading future answers. The model still needs to turn one sentence into all the honest prediction questions hidden inside it.
 
-We have tokens, positions, and a causal boundary. The model still needs explicit questions and answers.
+Using what we have, we treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
 
-The first solution that suggests itself is this: Treat an entire sentence as one training example with one answer. Most of its transitions provide no learning signal.
-
-The failure gives us a precise requirement: Shift the sequence by one position so every visible prefix predicts the token immediately following it.
+Now we can see what is missing: we must shift the sequence by one position so every visible prefix predicts the token immediately following it.
 
 ## From procedure to notation
 
 Padding and document boundaries can create false targets unless their losses are masked.
 
-
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 Tokens [the,cat,slept] become inputs [the,cat] and targets [cat,slept]. One forward pass therefore asks “after the?” and “after the cat?” at separate positions.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **t₀…t_n** are consecutive tokens from one observed sequence.
 - Input x stops one token early because each position needs an answer to its right.
@@ -28,9 +24,12 @@ Tokens [the,cat,slept] become inputs [the,cat] and targets [cat,slept]. One forw
 Only now can we compress that reasoning:
 
 $$
-x=(t_0,\ldots,t_{n-1}),\qquad y=(t_1,\ldots,t_n)
+x=(t_0,\ldots,t_{n-1})
 $$
 
+$$
+y=(t_1,\ldots,t_n)
+$$
 
 The equation arrives after every operation has a job.
 

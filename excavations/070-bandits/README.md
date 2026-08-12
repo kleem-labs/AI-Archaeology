@@ -1,26 +1,20 @@
 # Excavation 070 — Bandits — Learning While Choosing
 
-[Previous: Excavation 069](../069-controlled-experiments/README.md)
+Controlled experiments isolate causal effects by holding alternatives steady. In a live recommender, withholding every uncertain choice until a long experiment ends sacrifices opportunities to learn while serving users.
 
-An agent must choose recommendations while still learning which are useful.
+Using what we have, we always choose the currently best option.
 
-The first solution that suggests itself is this: Always choose the currently best option.
+But an unlucky first result permanently hides a better alternative.
 
-The idea survives only until we test it against reality: An unlucky first result permanently hides a better alternative.
+So we reserve some choices for exploration while exploiting accumulated evidence.
 
-The failure gives us a precise requirement: Reserve some choices for exploration while exploiting accumulated evidence.
-
-## Now work a case you can see
+## Let the case decide
 
 Cafe A wins its first two trials; continuing to sample B reveals it succeeds eight out of ten times.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Exploration has real cost and can be unacceptable for high-risk actions.
-
-The boundary follows from the mechanism itself. We designed it to reserve some choices for exploration while exploiting accumulated evidence. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

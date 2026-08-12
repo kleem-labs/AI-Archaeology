@@ -1,7 +1,5 @@
 # Excavation 015 — How a Dead Brain Learns
 
-[Previous: Layer Normalization](../014-layer-normalization/README.md)
-
 Build a complete Transformer with embeddings, attention, feed-forward networks, residual paths, and normalization. Ask it a question.
 
 It answers nonsense.
@@ -38,11 +36,11 @@ That question—not a symbol—is the derivative. It measures sensitivity. All t
 
 Only now does the update rule earn its place:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 A tiger alarm has one adjustable dial: how strongly a stripe should raise danger. The dial is currently 8, but repeated verified encounters suggest 3 would fit better. Its present squared mistake is 25, and a tiny upward test reveals that increasing the dial makes error rise with sensitivity 10. Reversing one tenth of that uphill suggestion moves the dial from 8 to 7 and lowers the mistake to 16.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **θ** is the current collection of learnable weights.
 - **L** is the measured prediction failure.
@@ -51,7 +49,6 @@ A tiger alarm has one adjustable dial: how strongly a stripe should raise danger
 - **η** controls step size because direction alone does not say how far to move.
 - The arrow means replace the old weights with the improved ones.
 
-
 $\theta$ is the current state of the weights, $\nabla L$ is a vector of advised change, and $\eta$ controls how large a step to take.
 
 Only now can we compress that reasoning:
@@ -59,7 +56,6 @@ Only now can we compress that reasoning:
 $$
 \theta\leftarrow\theta-\eta\nabla L
 $$
-
 
 ## How does blame reach billions of weights?
 

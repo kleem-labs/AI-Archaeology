@@ -1,28 +1,20 @@
 # Excavation 150 — A Bounded Self-Improving System — Close the Research Loop
 
-[Previous excavation](../149-predeployment-evaluations/README.md)
+Pre-deployment evaluation can reject a dangerous candidate before the world pays for the experiment. A measured improvement must still pass reproducibility, impact review, authorization, staged release, monitoring, and rollback before it may replace the system that proposed it.
 
-Can a system improve its own components without quietly expanding its power or rewriting success?
+Perhaps we let every measured gain replace the current system automatically.
 
-The first solution that suggests itself is this: Let every measured gain replace the current system automatically.
+But contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor.
 
-The idea survives only until we test it against reality: Contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor.
+So we separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback.
 
-The failure gives us a precise requirement: Separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback.
-
-Only here do we name the idea: **A Bounded Self-Improving System**.
-
-## Follow one case all the way through
+## Let the case decide
 
 A tokenizer change advances only after repeated clean tests, safety checks, signed approval, a small canary release, and monitored rollback criteria.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 The loop remains only as wise as its objectives, evidence, boundaries, and accountable humans.
-
-The boundary follows from the mechanism itself. We designed it to separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 
@@ -36,4 +28,6 @@ Rebuild the tempting shortcut first, make its failure visible, and then implemen
 - [References and reading trail](references.md)
 - [Visual asset brief](images/README.md)
 
-The circle is closed, but not finished: every future discovery must pass through the same bounded loop.
+The circle is closed, but not finished. We began with a person watching the world closely enough to notice a repeating pattern. A trustworthy improving system must return to that same beginning: observation first, then a question, then an idea reality is allowed to break. Only after evidence, explanation, authorization, and a reversible trial may the discovery alter the system that made it.
+
+Mathematics never became the ruler of the expedition. It remained what it was in the first excavation: the shortest faithful record of something reality forced us to understand.

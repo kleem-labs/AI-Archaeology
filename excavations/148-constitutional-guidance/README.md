@@ -1,28 +1,20 @@
 # Excavation 148 — Constitutional Guidance — Rules That Can Critique Answers
 
-[Previous excavation](../147-debate/README.md)
+Debate exposes checkable disagreement instead of letting one persuasive answer control the evidence. Novel cases still need stable principles by which a judge can criticize both sides.
 
-Thousands of preferences cannot cover every new situation.
+Using what we have, we memorize approved answers and imitate their surface style.
 
-At first, the simplest answer is tempting: Memorize approved answers and imitate their surface style.
+That confidence lasts only until a novel case has no matching example, and style does not reveal the governing reason.
 
-But the simplicity has discarded something important: A novel case has no matching example, and style does not reveal the governing reason.
+Now we can see what is missing: we must write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change.
 
-The missing information determines the next move: Write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change.
-
-Only here do we name the idea: **Constitutional Guidance**.
-
-## Follow one case all the way through
+## Let the case decide
 
 A draft exposes private data; the critique identifies the privacy rule and produces a redacted answer.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Principles conflict and still require legitimate interpretation.
-
-The reason is visible in the procedure. It knows how to write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

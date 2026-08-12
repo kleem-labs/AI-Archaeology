@@ -1,26 +1,20 @@
 # Excavation 082 — Latent Space — Coordinates for Hidden Causes
 
-[Previous: Excavation 081](../081-autoencoders/README.md)
+An autoencoder learns to compress and reconstruct. Its bottleneck is only a list of numbers until changes in those coordinates correspond to useful hidden causes such as pose, lighting, or identity.
 
-The bottleneck contains numbers, but do nearby codes vary meaningfully?
+Using what we have, we assume any compressed coordinates form a smooth useful space.
 
-Without knowing the inherited method, we might try this: Assume any compressed coordinates form a smooth useful space.
+The trouble appears immediately: tiny code changes can cause abrupt unrelated outputs.
 
-Its hidden assumption appears in the following case: Tiny code changes can cause abrupt unrelated outputs.
+So we shape the latent distribution and train nearby codes to decode coherently.
 
-Remove that assumption and the needed repair becomes clear: Shape the latent distribution and train nearby codes to decode coherently.
-
-## Now work a case you can see
+## Let the case decide
 
 Moving one latent coordinate gradually changes image brightness while another changes pose.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Latent directions need not be independent or human-readable.
-
-This is not an unrelated warning. The construction can shape the latent distribution and train nearby codes to decode coherently. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

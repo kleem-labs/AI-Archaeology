@@ -1,26 +1,20 @@
 # Excavation 118 — Knowledge Graphs
 
-[Previous: Excavation 117](../117-neuro-symbolic-systems/README.md)
+A neuro-symbolic system gives learned perception and exact rules distinct jobs. Those rules need facts stored with explicit entities and relationships rather than buried inside one paragraph or vector.
 
-How can facts preserve who relates to whom instead of becoming one text paragraph?
+Using what we have, we store every fact as an isolated sentence.
 
-At first, the simplest answer is tempting: Store every fact as an isolated sentence.
+That confidence lasts only until repeated entities, reverse links, and multi-hop questions become difficult to traverse.
 
-But the simplicity has discarded something important: Repeated entities, reverse links, and multi-hop questions become difficult to traverse.
+So we represent entities as nodes and named relations as edges.
 
-The missing information determines the next move: Represent entities as nodes and named relations as edges.
-
-## Now work a case you can see
+## Let the case decide
 
 Tiger —is_a→ cat and cat —is_a→ mammal support a two-hop ancestry query.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Graphs can be incomplete, stale, and uncertain.
-
-The reason is visible in the procedure. It knows how to represent entities as nodes and named relations as edges. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

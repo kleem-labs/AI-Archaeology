@@ -1,24 +1,20 @@
 # Excavation 042 — Vocabulary Probabilities — Turning Scores into a Prediction
 
-[Previous: Excavation 041](../041-logits/README.md)
+The output head lets every vocabulary token present a raw compatibility score. Those logits may be negative, enormous, or shifted together; neither the reader nor the loss can treat them as comparable beliefs yet.
 
-The output head gives arbitrary positive and negative logits. We need comparable probabilities and a training loss.
+Perhaps we divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
 
-Without knowing the inherited method, we might try this: Divide each logit by their sum. Negative values break probability and shifting all scores changes the result.
-
-Remove that assumption and the needed repair becomes clear: Exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
+So we exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
 
 ## From procedure to notation
 
 A probability distribution expresses model confidence, not truth. Poor calibration and biased data remain possible.
 
-
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 Suppose *tiger* receives score 2 and *leopard* score 1 after “the striped animal is a.” Softmax turns them into shares of about 0.73 and 0.27. If the observed answer is *tiger*, the model pays the surprise of assigning it 0.73. Had it assigned tiger only 0.01, the penalty would be far larger. The loss therefore records not merely whether the guess won, but how much belief the model risked on reality.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **ℓ_i** is candidate i's raw score.
 - Dividing exponentiated evidence by the sum over all j creates positive probabilities p_i that total one.
@@ -28,9 +24,12 @@ Suppose *tiger* receives score 2 and *leopard* score 1 after “the striped anim
 Only now can we compress that reasoning:
 
 $$
-p_i=\frac{e^{\ell_i}}{\sum_j e^{\ell_j}},\qquad L=-\log p_y
+p_i=\frac{e^{\ell_i}}{\sum_j e^{\ell_j}}
 $$
 
+$$
+L=-\log p_y
+$$
 
 The equation arrives after every operation has a job.
 

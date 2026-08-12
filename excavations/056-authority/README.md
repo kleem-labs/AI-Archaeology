@@ -4,28 +4,23 @@
 >
 > The model no longer merely answers. Its words can cause actions, and every action creates questions of authority and proof.
 
+Tools let language cause external effects. The moment an answer can act, capability must be separated from permission: what may this agent do without asking again?
 
-[Previous: Excavation 055](../055-tool-using-agents/README.md)
+One tempting answer is to give every available tool to the model and treat user intent as unlimited permission.
 
-A travel agent can read calendars, send email, and purchase tickets. A useful request to “plan my trip” does not automatically authorize spending money.
+Yet ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not.
 
-A reasonable place to begin is: Give every available tool to the model and treat user intent as unlimited permission.
+Now we can see what is missing: we must separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
 
-Now place that proposal under pressure: Ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not. Name the missing guarantee before continuing.
-
-What broke tells us what the replacement must preserve: Separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
-
-## Now work a case you can see
+## Let the case decide
 
 The agent may search flights and hold a draft itinerary. Purchasing requires a new explicit approval containing price, destination, and dates.
 
 No new equation is needed. The invention is a boundary, procedure, or system contract. Adding symbols would not make it more rigorous.
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Permission checks do not prove the chosen action is wise. They bound what can happen while judgment and verification remain separate.
-
-The repair is explicit: separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

@@ -1,26 +1,22 @@
 # Excavation 063 — Multi-Agent Coordination — When Should Work Be Divided?
 
-[Previous: Excavation 062](../062-retries-idempotency/README.md)
+Idempotent retries make repetition safe. A large goal can nevertheless overwhelm one agent's context and tools, raising the question of when division of work reduces risk rather than multiplying it.
 
-A research task contains independent legal, technical, and market questions. One agent can process them sequentially, but specialization and parallel work may help.
+At first we create many agents for every problem and let them freely edit shared state.
 
-At first, the simplest answer is tempting: Create many agents for every problem and let them freely edit shared state.
+That confidence lasts only until they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
 
-But the simplicity has discarded something important: They duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. Name the missing guarantee before continuing.
+We need to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
 
-The missing information determines the next move: Delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
-
-## Now work a case you can see
+## Let the case decide
 
 Three agents receive distinct questions and return evidence in the same schema. The coordinator resolves conflicts and alone edits the final report.
 
 No new equation is needed. The invention is a boundary, procedure, or system contract. Adding symbols would not make it more rigorous.
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Parallel agents amplify both capability and error. Shared resources, authority, and termination require careful control.
-
-The reason is visible in the procedure. It knows how to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

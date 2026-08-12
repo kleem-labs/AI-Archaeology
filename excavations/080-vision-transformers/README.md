@@ -1,26 +1,20 @@
 # Excavation 080 — Vision Transformers
 
-[Previous: Excavation 079](../079-cnn-hierarchy/README.md)
+A convolutional hierarchy builds local parts into objects. Some decisions depend on distant regions that a fixed local pathway connects only after many layers, inviting the image patches to communicate directly.
 
-Convolutions bake in locality, but distant image regions may need direct comparison.
+One tempting answer is to treat every pixel as a token.
 
-The first solution that suggests itself is this: Treat every pixel as a token.
+But the sequence becomes enormous and individual pixels carry little stable structure.
 
-The idea survives only until we test it against reality: The sequence becomes enormous and individual pixels carry little stable structure.
+Now we can see what is missing: we must group pixels into patches, embed them as tokens, add position, and apply attention.
 
-The failure gives us a precise requirement: Group pixels into patches, embed them as tokens, add position, and apply attention.
-
-## Now work a case you can see
+## Let the case decide
 
 A 224×224 image with 16×16 patches becomes 196 tokens instead of 50,176 pixel tokens.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Patch size trades detail for cost and needs substantial data.
-
-The boundary follows from the mechanism itself. We designed it to group pixels into patches, embed them as tokens, add position, and apply attention. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

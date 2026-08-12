@@ -1,28 +1,20 @@
 # Excavation 128 — Reproducibility — Can the Discovery Survive Another Run?
 
-[Previous excavation](../127-experimental-design/README.md)
+Experimental design isolates one suspected cause and provides a control. A single successful run can still be a favorable random seed rather than a discovery that will survive repetition.
 
-One training run beats the baseline. Has the system discovered an improvement?
+One tempting answer is to keep the best checkpoint and report its score.
 
-At first, the simplest answer is tempting: Keep the best checkpoint and report its score.
+That confidence lasts only until changing only the random seed makes the gain disappear.
 
-But the simplicity has discarded something important: Changing only the random seed makes the gain disappear.
+Now we can see what is missing: we must record code, data, configuration, environment, seeds, and variation across repeated runs.
 
-The missing information determines the next move: Record code, data, configuration, environment, seeds, and variation across repeated runs.
-
-Only here do we name the idea: **Reproducibility**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Run five seeds; compare the distribution of gains rather than celebrating the luckiest one.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Repeated agreement does not remove a shared bias in all runs.
-
-The reason is visible in the procedure. It knows how to record code, data, configuration, environment, seeds, and variation across repeated runs. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

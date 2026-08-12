@@ -1,28 +1,20 @@
 # Excavation 144 — Impact Measures — Notice What Changed Besides the Goal
 
-[Previous excavation](../143-uncertainty-aware-planning/README.md)
+Uncertainty-aware planning carries several plausible worlds and may seek information before acting. Even a plan that succeeds in all of them can alter unrelated parts of the world unnecessarily.
 
-A cleaning robot succeeds but rearranges the entire house.
+Perhaps we score only the requested final condition.
 
-Our first construction is deliberately modest: Score only the requested final condition.
+The world refuses to cooperate: unnecessary irreversible changes remain invisible to the goal score.
 
-It works—right up to this boundary: Unnecessary irreversible changes remain invisible to the goal score.
+Now we can see what is missing: we must compare the resulting world with a reasonable baseline and penalize avoidable side effects.
 
-Crossing that boundary requires one additional idea: Compare the resulting world with a reasonable baseline and penalize avoidable side effects.
-
-Only here do we name the idea: **Impact Measures**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Cleaning the spill changes one patch of floor; moving every chair and deleting files changes unrelated state.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 A baseline can punish beneficial change or preserve an unjust status quo.
-
-Why does the boundary remain? Our new machinery only knows how to compare the resulting world with a reasonable baseline and penalize avoidable side effects. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

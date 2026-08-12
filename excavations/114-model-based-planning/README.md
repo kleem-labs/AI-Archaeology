@@ -1,26 +1,20 @@
 # Excavation 114 — Model-Based Planning
 
-[Previous: Excavation 113](../113-counterfactuals/README.md)
+Counterfactual reasoning compares unrealized alternatives for one case. Planning extends that question across a sequence, where each imagined action changes which choices and states can follow.
 
-A world model can predict one step. How should the agent choose a long action sequence?
+Perhaps we commit to the first sequence imagined.
 
-Our first construction is deliberately modest: Commit to the first sequence imagined.
+The world refuses to cooperate: one forecast may exploit model error or miss better branches.
 
-It works—right up to this boundary: One forecast may exploit model error or miss better branches.
+So we simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.
 
-Crossing that boundary requires one additional idea: Simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.
-
-## Now work a case you can see
+## Let the case decide
 
 A robot simulates left-right paths, takes one safe step, then updates after detecting an obstacle.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Planning cost grows with horizon and branching.
-
-Why does the boundary remain? Our new machinery only knows how to simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

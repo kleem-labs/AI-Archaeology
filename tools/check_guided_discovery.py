@@ -1,5 +1,6 @@
 """Protect reader-led prose without forcing a repeated lesson template."""
 from pathlib import Path
+from rebuild_narrative_continuity import ATTEMPT_LEADS, CARRY
 
 root = Path(__file__).parents[1]
 banned = (
@@ -9,13 +10,6 @@ banned = (
     "Before inheriting a technique, make the first decision yourself.",
     "Do not reject your idea because the book says it is wrong.",
 )
-attempt_openings = (
-    "The first solution that suggests itself is this:",
-    "A reasonable place to begin is:",
-    "Without knowing the inherited method, we might try this:",
-    "At first, the simplest answer is tempting:",
-    "Our first construction is deliberately modest:",
-)
 failures = []
 
 for chapter in sorted((root / "excavations").glob("*/README.md")):
@@ -24,8 +18,12 @@ for chapter in sorted((root / "excavations").glob("*/README.md")):
     for phrase in banned:
         if phrase in text:
             failures.append(f"{chapter}: contains template coaching prose: {phrase}")
-    if number >= 17 and not any(opening in text for opening in attempt_openings):
+    if number >= 17 and CARRY[number] not in text:
+        failures.append(f"{chapter}: does not carry forward the preceding discovery")
+    if number >= 17 and not any(opening in text for opening in ATTEMPT_LEADS):
         failures.append(f"{chapter}: attempted idea is not integrated into narrative prose")
+    if "The repair is explicit:" in text or "What information did the attempt lose?" in text:
+        failures.append(f"{chapter}: exposes editorial scaffolding to the reader")
 
 if failures:
     raise SystemExit("\n".join(failures))

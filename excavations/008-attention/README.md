@@ -1,6 +1,6 @@
 # Excavation 008 — Why Attention Had to Exist
 
-[Previous: Embeddings](../007-embeddings/README.md)
+An embedding gives a word a useful starting place, but *bank* still begins at the same place beside *money* and beside *river*. Its present meaning must be rebuilt from the words around this occurrence. The first question is how any word can reach the earlier evidence it needs.
 
 Imagine a messenger reading one word at a time. The messenger may carry one summary forward but may never look back.
 

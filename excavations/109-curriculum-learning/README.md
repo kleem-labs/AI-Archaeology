@@ -1,26 +1,20 @@
 # Excavation 109 — Curriculum Learning
 
-[Previous: Excavation 108](../108-meta-learning/README.md)
+Meta-learning shapes that adaptation procedure. Its success depends on which tasks and difficulties the learner encounters first; a hostile order can make useful structure unnecessarily hard to discover.
 
-Should a learner face the hardest examples first?
+We first try to shuffle all examples uniformly from the beginning.
 
-Our first construction is deliberately modest: Shuffle all examples uniformly from the beginning.
+The world refuses to cooperate: early gradients from unsolved complex cases are noisy and provide little structure.
 
-It works—right up to this boundary: Early gradients from unsolved complex cases are noisy and provide little structure.
+That failure tells us to order or weight examples so mastered foundations support harder cases, while revisiting earlier skills.
 
-Crossing that boundary requires one additional idea: Order or weight examples so mastered foundations support harder cases, while revisiting earlier skills.
-
-## Now work a case you can see
+## Let the case decide
 
 Learn clear single-animal images before crowded camouflage scenes.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 A poor curriculum can delay useful diversity or teach shortcuts.
-
-Why does the boundary remain? Our new machinery only knows how to order or weight examples so mastered foundations support harder cases, while revisiting earlier skills. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

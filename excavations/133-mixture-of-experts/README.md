@@ -1,28 +1,20 @@
 # Excavation 133 — Mixture of Experts — Spending Computation Where It Helps
 
-[Previous excavation](../132-knowledge-distillation/README.md)
+Distillation transfers a teacher's pattern of belief into a smaller student. A dense student still spends every parameter on every token, even when different inputs need different expertise.
 
-Making every layer wider improves capacity but charges every token the full cost.
+We first try to run every specialist for every token and average them.
 
-At first, the simplest answer is tempting: Run every specialist for every token and average them.
+That confidence lasts only until most computation is wasted on specialists irrelevant to the current token.
 
-But the simplicity has discarded something important: Most computation is wasted on specialists irrelevant to the current token.
+That failure tells us to learn a router that sends each token to a small number of experts while balancing their workload.
 
-The missing information determines the next move: Learn a router that sends each token to a small number of experts while balancing their workload.
-
-Only here do we name the idea: **Mixture of Experts**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Route a code token toward syntax experts and a biology token toward scientific-language experts, then combine only selected outputs.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Routers can collapse onto popular experts and leave others untrained.
-
-The reason is visible in the procedure. It knows how to learn a router that sends each token to a small number of experts while balancing their workload. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

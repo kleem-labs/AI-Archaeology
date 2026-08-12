@@ -1,7 +1,5 @@
 # Excavation 007 — A Place for Meaning to Live
 
-[Previous: Meaning Without a Dictionary](../006-meaning/README.md)
-
 In the last excavation, you learned something strange. You could know almost
 nothing about the word *blar*, yet repeated sentences slowly fenced in what it
 could mean. A word appearing where animals usually appear was probably not a

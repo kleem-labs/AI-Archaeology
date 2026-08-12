@@ -1,23 +1,18 @@
 # Excavation 085 — Denoising — Predicting What the Noise Hid
 
-[Previous: Excavation 084](../084-diffusion/README.md)
+The forward diffusion process tells us exactly how clean image and noise combine at every step. Generation now depends on a network that can inspect the corrupted image and infer what the noise hid.
 
-At one diffusion step, what should the network predict?
+We first try to ask it to recreate the entire clean image directly from every noise level.
 
-The first solution that suggests itself is this: Ask it to recreate the entire clean image directly from every noise level.
+But the task changes dramatically across noise strengths.
 
-The idea survives only until we test it against reality: The task changes dramatically across noise strengths.
+That failure tells us to tell the model the noise level and predict the added noise or equivalent clean direction.
 
-The failure gives us a precise requirement: Tell the model the noise level and predict the added noise or equivalent clean direction.
-
-## Now work a case you can see
+## Let the case decide
 
 If known noise [0.2,-0.1] was added, learning to estimate it lets subtraction move toward the clean sample.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Build each piece from what just happened
-
+## The arithmetic we have earned
 
 Take one pixel from that corrupted tiger image. We know the random grain added to it was `+0.30`. The denoiser sees the corrupted image and the current noise step and predicts `+0.20`. Its error is `0.10`; squaring makes the contribution `0.01` and prevents a `-0.10` error elsewhere from cancelling it. Repeating this comparison across pixels and images teaches the network which part of a noisy observation should be removed.
 
@@ -32,11 +27,9 @@ $$
 L=\mathbb{E}\left[\lVert\epsilon-\epsilon_\theta(x_t,t)\rVert^2\right]
 $$
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Prediction parameterization and schedule affect stability and quality.
-
-The boundary follows from the mechanism itself. We designed it to tell the model the noise level and predict the added noise or equivalent clean direction. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

@@ -1,26 +1,20 @@
 # Excavation 111 — World Models
 
-[Previous: Excavation 110](../110-self-supervised-learning/README.md)
+Self-supervision extracts lessons from unlabeled observations. An acting system needs more than representations: before choosing, it must imagine how the world may change after each possible action.
 
-An agent needs to predict consequences before acting.
+At first we learn only which action was rewarded in previously visited situations.
 
-A reasonable place to begin is: Learn only which action was rewarded in previously visited situations.
+Yet the agent cannot imagine untried sequences or reuse physical regularities.
 
-Now place that proposal under pressure: The agent cannot imagine untried sequences or reuse physical regularities.
+We need to learn a compact model that predicts next state and reward from current state and action.
 
-What broke tells us what the replacement must preserve: Learn a compact model that predicts next state and reward from current state and action.
-
-## Now work a case you can see
+## Let the case decide
 
 From ball position and push direction, predict where the ball will move before choosing the push.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Model errors compound during long imagined rollouts.
-
-The repair is explicit: learn a compact model that predicts next state and reward from current state and action. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

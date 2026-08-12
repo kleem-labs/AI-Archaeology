@@ -1,24 +1,20 @@
 # Excavation 045 — A Tiny GPT — Close the Prediction Loop
 
-[Previous: Excavation 044](../044-context-window/README.md)
+A context window bounds how much past the model can carry. We have now earned every part of a tiny GPT; the remaining question is whether those parts actually cooperate in one prediction-and-generation loop.
 
-We have excavated every component of an autoregressive language model, but isolated demonstrations do not prove the parts cooperate.
+At first we call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
 
-The first solution that suggests itself is this: Call a framework Transformer and hide the causal chain. Or connect the parts without checking shapes, leakage, and target alignment.
-
-The failure gives us a precise requirement: Assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
+That failure tells us to assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
 
 ## From procedure to notation
 
 A tiny GPT demonstrates the mechanism, not modern capability. Scale, data quality, optimization, evaluation, and safety now become the next landscape.
 
-
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 Begin with the prompt “the tiger.” Its token addresses fetch learned starting descriptions; position marks preserve order; masked attention gathers only allowed context; token workshops transform what was gathered; and the output scores every possible next word. Suppose sampling chooses *sleeps*. Appending that choice creates “the tiger sleeps,” and the same mechanism now faces a new prediction. The language model exists only when this entire loop closes.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **tokens** are discrete addresses produced by the tokenizer.
 - **embeddings** turn addresses into vectors; Transformer **blocks** contextualize them under causal masking.
@@ -32,7 +28,6 @@ Only now can we compress that reasoning:
 $$
 tokens\to embeddings\to blocks\to logits\to loss\to update\to sample
 $$
-
 
 The equation arrives after every operation has a job.
 

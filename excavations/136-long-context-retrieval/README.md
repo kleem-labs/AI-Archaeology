@@ -1,28 +1,20 @@
 # Excavation 136 — Long-Context Retrieval — Finding the One Clue That Matters
 
-[Previous excavation](../135-external-memory/README.md)
+External memory stores selected facts outside the prompt. Storage is not remembrance in practice: the one decisive record can remain unused if retrieval ranks a thousand plausible distractions above it.
 
-A million-token archive fits, but the model still overlooks one decisive sentence.
+Using what we have, we assume information inside the window will automatically influence the answer.
 
-A reasonable place to begin is: Assume information inside the window will automatically influence the answer.
+Yet availability is not retrieval; distracting passages dominate the relevant line.
 
-Now place that proposal under pressure: Availability is not retrieval; distracting passages dominate the relevant line.
+Now we can see what is missing: we must test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning.
 
-What broke tells us what the replacement must preserve: Test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning.
-
-Only here do we name the idea: **Long-Context Retrieval**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Hide a changed contract date among repeated boilerplate and trace whether the model selects the exact clause.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Retrieval success does not guarantee correct reasoning over what was retrieved.
-
-The repair is explicit: test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

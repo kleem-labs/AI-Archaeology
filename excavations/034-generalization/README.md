@@ -1,33 +1,26 @@
 # Excavation 034 — Generalization — What Should Survive Beyond the Dataset?
 
-[Previous: Excavation 033](../033-validation/README.md)
+Validation lets us choose among models without opening the sealed test set. Even an honest test can come from yesterday's hospital, dialect, season, or camera while tomorrow arrives from somewhere else.
 
-Even a carefully validated model may meet a new hospital, dialect, season, or camera unlike anything in its files.
+Using what we have, we assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
 
-Our first construction is deliberately modest: Assume all future observations come from exactly the same source as training. Or demand good performance on every imaginable world, which no finite evidence can guarantee.
-
-The cost of that attempt points to the missing operation: State the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
+So we state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
 
 ## From procedure to notation
 
 The repair solves the immediate failure, but no benchmark proves universal intelligence. Future distributions can change in ways neither data nor designers anticipated.
 
-
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 Suppose future cases have losses 1,0,2,1. Their average is 1, our estimate of future risk. Averaging training losses instead would answer how well we remember the past, not deployment.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **θ** is one trained model and **f_θ(x)** its prediction for input x.
 - **L(f_θ(x),y)** measures failure against outcome y.
 - **P_future** names the deployment world we actually care about.
 - Sampling (x,y) from that world prevents training data from silently defining success.
 - The expectation averages loss over future cases; **R(θ)** names that future risk.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 

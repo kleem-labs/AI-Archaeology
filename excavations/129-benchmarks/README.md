@@ -1,28 +1,20 @@
 # Excavation 129 — Benchmarks — Building a Ruler Before Measuring Progress
 
-[Previous excavation](../128-reproducibility/README.md)
+Reproducibility asks whether the gain survives recorded code, data, configuration, and repeated seeds. Different teams still cannot compare progress if each chooses a different task and ruler.
 
-Every team says its model is better, but each chooses different tasks.
+At first we let each model demonstrate its strongest example.
 
-Our first construction is deliberately modest: Let each model demonstrate its strongest example.
+The world refuses to cooperate: a showcase cannot support comparison because difficulty and scoring move with the contestant.
 
-It works—right up to this boundary: A showcase cannot support comparison because difficulty and scoring move with the contestant.
+That failure tells us to freeze representative tasks, inputs, metrics, and scoring rules before seeing results.
 
-Crossing that boundary requires one additional idea: Freeze representative tasks, inputs, metrics, and scoring rules before seeing results.
-
-Only here do we name the idea: **Benchmarks**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Give three navigation agents the same maps, action budget, and success definition.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 A fixed ruler becomes stale when people optimize specifically for it.
-
-Why does the boundary remain? Our new machinery only knows how to freeze representative tasks, inputs, metrics, and scoring rules before seeing results. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

@@ -1,23 +1,18 @@
 # Excavation 094 — Low-Rank Adaptation
 
-[Previous: Excavation 093](../093-speech-audio/README.md)
+Audio models extend the assistant's senses and enlarge the already expensive system. Adapting the whole model for each ranger station, language, or task would duplicate billions of parameters.
 
-How can a huge pretrained model learn a new task without changing every weight?
+Using what we have, we copy and fine-tune all parameters for every task.
 
-Our first construction is deliberately modest: Copy and fine-tune all parameters for every task.
+The world refuses to cooperate: storage and training cost multiply, and the base model is harder to preserve.
 
-It works—right up to this boundary: Storage and training cost multiply, and the base model is harder to preserve.
+So we freeze the base and learn a small low-rank correction to selected matrices.
 
-Crossing that boundary requires one additional idea: Freeze the base and learn a small low-rank correction to selected matrices.
-
-## Now work a case you can see
+## Let the case decide
 
 Instead of a million-value update, two narrow matrices produce a constrained correction with far fewer trainable values.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Build each piece from what just happened
-
+## The arithmetic we have earned
 
 A large language model already knows general English, but a park service needs it to understand a small set of ranger report conventions. Copying and changing its entire transformation matrix would be expensive. Instead, freeze the original map and learn two narrow maps: one compresses a report into a few adaptation directions, and the other expands those directions back into a correction with the original shape. Adding that correction preserves the base map while bending it toward ranger language.
 
@@ -32,11 +27,9 @@ $$
 W^\prime=W+BA
 $$
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Low rank may be insufficient for large behavioral changes.
-
-Why does the boundary remain? Our new machinery only knows how to freeze the base and learn a small low-rank correction to selected matrices. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

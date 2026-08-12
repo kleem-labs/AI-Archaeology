@@ -4,28 +4,21 @@
 >
 > Correct answers disappear. The learner must act, wait for consequences, share machines, and remain accountable at scale.
 
+Denoising closes the image-generation loop. The field system can predict words and images, but an acting agent often receives no correct action label—only eventual success, damage, or failure.
 
-[Previous: Excavation 085](../085-denoising/README.md)
+One tempting answer is to label the correct action at every moment.
 
-An agent acts over time and receives only eventual success or failure.
+Yet for exploration or games, nobody knows every correct intermediate move.
 
-A reasonable place to begin is: Label the correct action at every moment.
+So we provide outcome feedback and let experience connect actions with later consequences.
 
-Now place that proposal under pressure: For exploration or games, nobody knows every correct intermediate move.
-
-What broke tells us what the replacement must preserve: Provide outcome feedback and let experience connect actions with later consequences.
-
-## Now work a case you can see
+## Let the case decide
 
 A maze gives +1 only at the exit; repeated trials reveal which earlier turns tend to reach it.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Poor rewards create unintended shortcuts.
-
-The repair is explicit: provide outcome feedback and let experience connect actions with later consequences. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

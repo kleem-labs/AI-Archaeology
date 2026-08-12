@@ -1,26 +1,20 @@
 # Excavation 104 — Active Learning
 
-[Previous: Excavation 103](../103-ensembles/README.md)
+An ensemble turns disagreement into evidence about model uncertainty. When labels are expensive, that disagreement can guide which unlabeled case deserves a human answer next.
 
-Labeling one example is expensive. Which unlabeled case should a human inspect next?
+One tempting answer is to label random examples forever.
 
-Our first construction is deliberately modest: Label random examples forever.
+The world refuses to cooperate: thousands of easy repeated cases consume effort while the decision boundary remains unclear.
 
-It works—right up to this boundary: Thousands of easy repeated cases consume effort while the decision boundary remains unclear.
+Now we can see what is missing: we must ask for labels where the model is uncertain or where examples add new coverage.
 
-Crossing that boundary requires one additional idea: Ask for labels where the model is uncertain or where examples add new coverage.
-
-## Now work a case you can see
+## Let the case decide
 
 The model knows obvious cats and dogs but splits 50–50 on one fox-like animal; labeling it teaches more than another obvious cat.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Uncertainty sampling can chase noise or outliers.
-
-Why does the boundary remain? Our new machinery only knows how to ask for labels where the model is uncertain or where examples add new coverage. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

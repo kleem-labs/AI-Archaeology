@@ -1,26 +1,20 @@
 # Excavation 106 — Catastrophic Forgetting
 
-[Previous: Excavation 105](../105-selective-prediction/README.md)
+Selective prediction gives the system permission to abstain. When an approved new task finally supplies more training data, learning it can overwrite skills that were reliable yesterday.
 
-After learning task B, the model suddenly fails task A.
+Using what we have, we fine-tune only on the newest data.
 
-A reasonable place to begin is: Fine-tune only on the newest data.
+Yet updates useful for B overwrite weights carrying A.
 
-Now place that proposal under pressure: Updates useful for B overwrite weights carrying A.
+So we rehearse old evidence, protect important parameters, or allocate new capacity.
 
-What broke tells us what the replacement must preserve: Rehearse old evidence, protect important parameters, or allocate new capacity.
-
-## Now work a case you can see
+## Let the case decide
 
 Learning birds after mammals drops mammal accuracy; mixing a small mammal replay set preserves both.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Memory, privacy, and capacity limit rehearsal.
-
-The repair is explicit: rehearse old evidence, protect important parameters, or allocate new capacity. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

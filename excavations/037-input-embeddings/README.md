@@ -1,30 +1,10 @@
 # Excavation 037 — Input Embeddings: Giving Tokens Learnable Coordinates
 
-[Previous: Tokenization](../036-tokenization/README.md)
+Tokenization gives the machine repeatable pieces and assigns each piece an address. An address distinguishes tokens but says nothing about how their meanings should begin.
 
-The tokenizer returns IDs:
+We first try to feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
 
-~~~text
-tiger → 417
-lion  → 92
-river → 801
-~~~
-
-A neural network needs numbers, so perhaps the problem appears solved. But what does 417 mean?
-
-Nothing except “look in slot 417.”
-
-Without knowing the inherited method, we might try this: Feed token IDs directly into the network. Since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
-
-Remove that assumption and the needed repair becomes clear: Give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. ~~~text lion → [1, 0, 0, 0] tiger → [0, 1, 0, 0] river → [0, 0, 1, 0] ~~~ Now IDs no longer pretend to contain magnitude.
-
-Create a table with one learnable vector per token. A token ID selects a row. Training moves that row whenever changing the token's representation would reduce prediction loss.
-
-~~~text
-token ID → choose one row → dense vector
-~~~
-
-The ID remains an address. The selected row becomes the representation.
+That failure tells us to give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude.
 
 ## From procedure to notation
 
@@ -32,21 +12,19 @@ A vocabulary of 50,000 tokens produces 50,000-dimensional vectors containing 49,
 
 The network needs a compact set of coordinates whose positions can change when prediction errors reveal useful relationships.
 
-
 Let the embedding table contain one row for each vocabulary item:
 
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 The tokenizer assigns shelf address 2 to *tiger*. Looking up address 2 retrieves a small card of adjustable coordinates learned from tiger's usage. The address itself says nothing about meaning; moving the tiger card to shelf 7 would not change its learned contents. The table is therefore a collection of learned starting descriptions, while the token ID is merely the address used to fetch one.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **V** is the vocabulary and **|V|** its number of token addresses.
 - **d** is the compact representation width chosen for the model.
 - **E** therefore needs one row per token and d learnable coordinates per row.
 - **i** is a token ID used only to select row E[i]; **x_i** is the retrieved meaning-bearing vector.
 - **e_i** is the one-hot selector. Multiplying e_i by E produces the same row, explaining why direct lookup is valid and cheaper.
-
 
 Multiplying by a one-hot vector merely selects one row, so an implementation can perform the lookup directly.
 

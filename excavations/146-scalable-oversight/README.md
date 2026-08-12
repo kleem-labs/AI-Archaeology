@@ -1,28 +1,20 @@
 # Excavation 146 — Scalable Oversight — Reviewing Work Too Large for One Person
 
-[Previous excavation](../145-human-oversight/README.md)
+Human oversight places judgment where an action becomes difficult to reverse. The artifacts produced by a powerful system can exceed any one reviewer's time and attention.
 
-A model produces a million-line migration no reviewer can inspect completely.
+One tempting answer is to ask one expert to approve the entire artifact.
 
-A reasonable place to begin is: Ask one expert to approve the entire artifact.
+Yet the review exceeds human attention and hidden failures survive.
 
-Now place that proposal under pressure: The review exceeds human attention and hidden failures survive.
+So we decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions.
 
-What broke tells us what the replacement must preserve: Decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions.
-
-Only here do we name the idea: **Scalable Oversight**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Review module contracts, run integration properties, and deeply inspect anomalous diffs.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Decomposition can miss failures created only by interactions between parts.
-
-The repair is explicit: decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

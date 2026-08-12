@@ -1,6 +1,6 @@
 # Excavation 004 — Vectors as Change
 
-[Previous: Distance](../003-distance/README.md)
+Distance has given the trackers one number for how far apart two places are. It throws away something they now urgently need: which way to walk from one place to the other.
 
 You are standing in the jungle. Someone tells you, “Walk five meters.” You cannot obey.
 
@@ -20,11 +20,11 @@ Suppose a traveler starts at `[2, 3]` and ends at `[7, 1]`. We can discover the 
 
 Only now is an equation useful:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 A rescue party marks its camp on a paper map. It walks five kilometres east and two kilometres south to reach an injured ranger. Those instructions still work if a second party begins from another camp: move five east and two south. Only after the route has a meaning do we record east–west and north–south change as `[5, -2]`.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **a** is the starting state and **b** the observed destination.
 - Subtraction is forced because we need the change that remains after removing the start.
@@ -42,7 +42,6 @@ Add it back and the meaning becomes visible:
 $$
 \mathbf{a}+\Delta=\mathbf{b}
 $$
-
 
 ## Why changes add
 

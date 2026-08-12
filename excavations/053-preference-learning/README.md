@@ -1,20 +1,18 @@
 # Excavation 053 — Preference Learning — When Several Answers Are Correct but Not Equally Helpful
 
-[Previous: Excavation 052](../052-instruction-tuning/README.md)
+Instruction tuning turns continuation into cooperation on demonstrated tasks. Several answers can obey the same instruction while differing sharply in clarity, honesty, safety, and usefulness.
 
-Two answers are factually acceptable, but one is clearer, safer, and better aligned with the user’s intent.
+An obvious shortcut is to write one perfect target response for every prompt and train only to imitate it.
 
-At first, the simplest answer is tempting: Write one perfect target response for every prompt and train only to imitate it.
+That confidence lasts only until many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer.
 
-But the simplicity has discarded something important: Many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer. What information did the attempt lose? Write that requirement before continuing.
+That failure tells us to collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
 
-The missing information determines the next move: Collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 For “How do I reset my router?”, answer A gives three safe ordered steps; answer B gives twenty vague paragraphs. A reviewer chooses A. Repeated comparisons teach concision and usefulness without declaring one exact sentence mandatory.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 The reward scores two responses to the same prompt. Their difference matters, not the absolute score. The logistic function turns that difference into a preference probability; larger positive differences favor the chosen answer.
 
@@ -24,11 +22,9 @@ $$
 P(A\succ B)=\frac{1}{1+\exp(-(r_A-r_B))}
 $$
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Human preferences conflict, annotators make mistakes, and optimizing a learned reward can exploit its blind spots.
-
-The reason is visible in the procedure. It knows how to collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

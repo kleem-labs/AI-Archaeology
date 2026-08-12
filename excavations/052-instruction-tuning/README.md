@@ -1,26 +1,20 @@
 # Excavation 052 — Instruction Tuning — From Continuation to Cooperation
 
-[Previous: Excavation 051](../051-scaling-laws/README.md)
+Scaling laws reveal regular trends as resources grow. A larger next-token predictor is still a predictor; nothing in scale alone tells it that a user's instruction should govern the continuation.
 
-A pretrained model continues text well but may continue a question instead of answering it.
+Using what we have, we prompt more forcefully and hope next-token prediction infers the desired interaction.
 
-Without knowing the inherited method, we might try this: Prompt more forcefully and hope next-token prediction infers the desired interaction.
+The trouble appears immediately: given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy.
 
-Its hidden assumption appears in the following case: Given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy. What information did the attempt lose? Write that requirement before continuing.
+Now we can see what is missing: we must show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
 
-Remove that assumption and the needed repair becomes clear: Show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
-
-## Now work a case you can see
+## Let the case decide
 
 Training examples pair “Summarize: [paragraph]” with a concise summary and “Classify sentiment: [review]” with a label. A new instruction can reuse the demonstrated relation between request and response.
 
-No new equation is needed here. The invention is a procedure and a separation of responsibilities, so forcing symbols into the chapter would hide rather than clarify it.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Instruction tuning teaches behavioral patterns from its examples; it does not guarantee truth, safety, or correct obedience to every request.
-
-This is not an unrelated warning. The construction can show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

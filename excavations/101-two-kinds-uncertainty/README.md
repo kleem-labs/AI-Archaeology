@@ -4,28 +4,21 @@
 >
 > The complete system now meets the frontier: ignorance, changing tasks, causal questions, proofs, attacks, and open-ended research.
 
+The complete system acts responsibly only if it knows when its evidence is weak. A blurry tiger and a perfectly clear animal from an unseen species both produce uncertainty, but they call for different remedies.
 
-[Previous: Excavation 100](../100-complete-ai-system/README.md)
+An obvious shortcut is to represent every uncertainty with one low confidence number.
 
-The model is unsure whether a blurry animal is a tiger. Is the image ambiguous, or has the model never seen this species?
+Yet a clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
 
-A reasonable place to begin is: Represent every uncertainty with one low confidence number.
+That failure tells us to separate uncertainty in the observation from uncertainty in the model’s knowledge.
 
-Now place that proposal under pressure: A clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
-
-What broke tells us what the replacement must preserve: Separate uncertainty in the observation from uncertainty in the model’s knowledge.
-
-## Now work a case you can see
+## Let the case decide
 
 A foggy known tiger remains ambiguous even for an expert; a clear pangolin confuses a tiger-only learner for a different reason.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 The two sources interact and are difficult to estimate perfectly.
-
-The repair is explicit: separate uncertainty in the observation from uncertainty in the model’s knowledge. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

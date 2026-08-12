@@ -1,26 +1,20 @@
 # Excavation 113 — Counterfactuals
 
-[Previous: Excavation 112](../112-causal-inference/README.md)
+Causal inference separates observation from intervention at the population level. A doctor or planner often asks a narrower question: what would have happened to this same case under the action not taken?
 
-What would have happened to this same patient under a treatment they did not receive?
+An obvious shortcut is to compare them with any untreated person.
 
-At first, the simplest answer is tempting: Compare them with any untreated person.
+That confidence lasts only until differences in age and illness confound the comparison.
 
-But the simplicity has discarded something important: Differences in age and illness confound the comparison.
+That failure tells us to construct a comparable alternative world using causal assumptions and matched evidence.
 
-The missing information determines the next move: Construct a comparable alternative world using causal assumptions and matched evidence.
-
-## Now work a case you can see
+## Let the case decide
 
 Compare patients with the same relevant history except treatment, then estimate the missing outcome.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 The individual counterfactual is never directly observed.
-
-The reason is visible in the procedure. It knows how to construct a comparable alternative world using causal assumptions and matched evidence. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

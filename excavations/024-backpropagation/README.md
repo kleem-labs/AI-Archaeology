@@ -1,22 +1,20 @@
 # Excavation 024 — Backpropagation — Reusing Blame Instead of Recomputing It
 
-[Previous excavation](../023-chain-rule/README.md)
+The chain rule follows responsibility through one sequence of machines. A real network is a branching graph with shared intermediate results, so tracing every route independently repeats the same downstream work.
 
-A network has millions of weights and shared intermediate results. The chain rule gives a path, but following every path independently repeats the same downstream calculations.
+Perhaps we perturb each weight and rerun the model. This needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
 
-Our first construction is deliberately modest: Perturb each weight and rerun the model. This needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
-
-The cost of that attempt points to the missing operation: Compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
+Now we can see what is missing: we must compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
 
 ## From procedure to notation
 
 The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 One shared dough temperature affects two outcomes: crust and centre. The crust branch sends blame 3 through local sensitivity 2, contributing 6. The centre branch sends blame 4 through sensitivity 5, contributing 20. Because both outcomes depended on the same temperature, the baker must return total blame 26 to that shared decision. Computing either downstream suffix twice would add work without adding evidence.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x̄** means accumulated sensitivity of final loss to intermediate x.
 - A node can influence several child results y, so every downstream path must contribute.
@@ -29,9 +27,6 @@ Only now can we compress that reasoning:
 $$
 \bar{x}=\sum_{y\in children(x)}\bar{y}\frac{\partial y}{\partial x}
 $$
-
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
 
 ## Carry the idea back into the world
 

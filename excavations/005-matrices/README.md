@@ -1,6 +1,6 @@
 # Excavation 005 — Matrices
 
-[Previous: Vectors as Change](../004-vectors-as-change/README.md)
+One vector can now describe one particular change. The rangers next want a reusable machine: give it any animal report and let the same set of rules produce several new judgments. Adding one fixed change cannot do that, because a heavy slow animal and a light fast animal should not be altered identically.
 
 Imagine two arrows starting at the same point. A machine stretches both, but sends them toward different final places depending on their original directions.
 
@@ -35,18 +35,17 @@ Each question needs a row of weights:
 
 Stacking the questions creates a **matrix**. Only after that idea is clear do we calculate:
 
-## Build Every Piece from the Concrete Example
+## The arithmetic we have earned
 
 A ranger must turn two observations—how heavy an animal looks and how fast it moves—into two decisions: danger and whether pursuit is possible. For danger she counts the weight clue twice and the speed clue three times. For pursuit she ignores weight and counts speed four times. Writing the two recipes as rows lets one reusable machine apply both judgments to every animal report.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - The right-hand vector **[4,5]** is shorthand for weight signal 4 and speed signal 5.
 - Each matrix row describes one output; each row needs one weight per input.
 - Multiplication measures one input's contribution to one output.
 - Addition combines all contributions reaching that output.
 - The result **[23,20]** contains one value per matrix row.
-
 
 Row-by-column multiplication is not a ritual. Each row is one output asking how much every input should contribute.
 
@@ -59,7 +58,6 @@ $$
 $$
 \text{chase score}=0(4)+4(5)=20
 $$
-
 
 ## Why order and shape matter
 

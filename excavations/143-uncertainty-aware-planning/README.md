@@ -1,28 +1,20 @@
 # Excavation 143 — Uncertainty-Aware Planning — Choosing While Admitting Ignorance
 
-[Previous excavation](../142-corrigibility/README.md)
+Corrigibility makes pause, inspection, correction, and handoff legitimate outcomes. A corrigible planner still has to choose when the most efficient route passes through a world it understands poorly.
 
-The shortest route crosses a bridge whose condition is unknown.
+An obvious shortcut is to plan using only the single most likely world.
 
-At first, the simplest answer is tempting: Plan using only the single most likely world.
+That confidence lasts only until a small chance of bridge failure dominates the consequence but disappears from the chosen story.
 
-But the simplicity has discarded something important: A small chance of bridge failure dominates the consequence but disappears from the chosen story.
+We need to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision.
 
-The missing information determines the next move: Carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision.
-
-Only here do we name the idea: **Uncertainty-Aware Planning**.
-
-## Follow one case all the way through
+## Let the case decide
 
 Compare detouring now with first sending a cheap inspection drone.
 
-Write down what changed, what remained fixed, and which observation could have contradicted your belief. The method lives in those jobs; its name is only shorthand.
-
-## Where the discovery still breaks
+## The boundary of the discovery
 
 Probabilities and consequence values may both be poorly estimated.
-
-The reason is visible in the procedure. It knows how to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision. The limitation above asks for another judgment, and no part of the procedure makes that judgment.
 
 ## Enter the laboratory
 

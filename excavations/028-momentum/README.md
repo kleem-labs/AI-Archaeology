@@ -1,24 +1,20 @@
 # Excavation 028 — Momentum — Remembering Which Way Downhill Persists
 
-[Previous: Excavation 027](../027-learning-rate/README.md)
+The learning rate controls the size of each step. Mini-batches nevertheless disagree sideways from one update to the next, hiding the direction that persists across their noise.
 
-Mini-batch gradients wobble. One batch points left-down, the next right-down, although both share a persistent downward direction.
+Using what we have, we obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
 
-At first, the simplest answer is tempting: Obey only the newest gradient. Sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
-
-The missing information determines the next move: Keep a fading memory of past gradients and combine it with the new one.
+Now we can see what is missing: we must keep a fading memory of past gradients and combine it with the new one.
 
 ## From procedure to notation
 
 The repair solves the immediate failure, but momentum can overshoot, and its extra memory introduces another setting. It does not repair a fundamentally bad loss or dataset.
 
-
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 Three small groups inspect tiger tracks. Each recommends changing two detector dials: stripes and movement. Their advice is `[3,1]`, `[3,-1]`, and `[3,1]`. Now the coordinates are not anonymous: every group agrees that stripe trust should rise by 3, while movement advice flips with noisy tracks. Remembering recent directions reinforces the persistent stripe evidence and lets the contradictory movement evidence partly cancel.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **g_t** is the newest noisy gradient.
 - **v_{t−1}** stores direction accumulated previously.
@@ -26,13 +22,14 @@ Three small groups inspect tiger tracks. Each recommends changing two detector d
 - Addition combines memory with new evidence into velocity v_t.
 - **η** scales that velocity before it changes θ.
 
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
-
 Only now can we compress that reasoning:
 
 $$
-v_t=\beta v_{t-1}+g_t,\qquad\theta_{t+1}=\theta_t-\eta v_t
+v_t=\beta v_{t-1}+g_t
+$$
+
+$$
+\theta_{t+1}=\theta_t-\eta v_t
 $$
 
 ## Carry the idea back into the world

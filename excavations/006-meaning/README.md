@@ -4,8 +4,7 @@
 >
 > Measurements can describe a tiger. They cannot yet explain why the same word changes meaning when its neighbors change.
 
-
-[Previous: Matrices](../005-matrices/README.md)
+Matrices can transform measurements once we know what each input coordinate means. The community's richest records are not measurement tables, however. They are warnings, stories, and instructions made of words—and no measuring instrument tells us what an unknown word means.
 
 Suppose you arrive with no language and read:
 

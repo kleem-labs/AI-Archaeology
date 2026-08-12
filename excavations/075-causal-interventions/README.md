@@ -1,26 +1,20 @@
 # Excavation 075 — Causal Interventions
 
-[Previous: Excavation 074](../074-superposition/README.md)
+Superposition explains how limited dimensions can carry more features than individual neurons. A readable direction may still be a bystander; only changing it and observing behavior can test whether it is causally used.
 
-A probe finds a “tiger” direction. Does the model actually use it?
+At first we assume correlation with output proves causation.
 
-The first solution that suggests itself is this: Assume correlation with output proves causation.
+But the direction predicts answers but changing it leaves behavior unchanged.
 
-The idea survives only until we test it against reality: The direction predicts answers but changing it leaves behavior unchanged.
+We need to intervene on the representation and measure the specific downstream change against controls.
 
-The failure gives us a precise requirement: Intervene on the representation and measure the specific downstream change against controls.
-
-## Now work a case you can see
+## Let the case decide
 
 Adding the candidate direction raises tiger probability only in relevant contexts; random directions do not.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Interventions can create unnatural internal states.
-
-The boundary follows from the mechanism itself. We designed it to intervene on the representation and measure the specific downstream change against controls. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

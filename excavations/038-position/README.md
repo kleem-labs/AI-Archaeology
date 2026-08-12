@@ -1,24 +1,20 @@
 # Excavation 038 — Position — Why Order Must Enter the Model
 
-[Previous: Excavation 037](../037-input-embeddings/README.md)
+An embedding table gives every token a learned starting description. The sentences “dog bites man” and “man bites dog” still contain the same three descriptions, so the machine cannot tell who did what.
 
-dog bites man and man bites dog retrieve the same token vectors. Attention compares content, but content alone does not say which occurrence came first.
+One tempting answer is to sort tokens by ID or trust their array slot without exposing it to the model. The first invents arbitrary order; the second stores position outside the computation.
 
-At first, the simplest answer is tempting: Sort tokens by ID or trust their array slot without exposing it to the model. The first invents arbitrary order; the second stores position outside the computation.
-
-The missing information determines the next move: Add a position-specific vector to each token vector before attention. Content says what; position says where.
+So we add a position-specific vector to each token vector before attention. Content says what; position says where.
 
 ## From procedure to notation
 
 A fixed learned table cannot extend beyond trained positions, and absolute location is not always the relationship language needs.
 
-
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 Compare “tiger chases deer” with “deer chases tiger.” The same three word cards appear, so content alone cannot distinguish hunter from hunted. Give the first slot one reusable position mark, the second another, and the third another. Adding the appropriate mark to each word leaves *tiger* recognizable while also telling later attention whether this occurrence came first or last.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **token_i** is the vocabulary address appearing at sequence location i.
 - **E[token_i]** retrieves what that token currently represents.
@@ -31,7 +27,6 @@ Only now can we compress that reasoning:
 $$
 z_i=E[token_i]+P_i
 $$
-
 
 The equation arrives after every operation has a job.
 

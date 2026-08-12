@@ -1,32 +1,25 @@
 # Excavation 031 — Overfitting — When Perfect Memory Pretends to Be Intelligence
 
-[Previous: Excavation 030](../030-activation-functions/README.md)
+Activation gates let the network bend and build conditional internal paths. That flexibility also makes a new deception possible: the machine can reproduce every training example without learning what should survive beyond them.
 
-A model scores perfectly on every training example, then fails on a new animal seen from a different angle.
+We first try to celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
 
-A reasonable place to begin is: Celebrate zero training error. The model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
-
-What broke tells us what the replacement must preserve: Reserve unseen cases and compare training success with performance outside the training memory.
+We need to reserve unseen cases and compare training success with performance outside the training memory.
 
 ## From procedure to notation
 
 The repair solves the immediate failure, but a gap diagnoses overfitting but does not identify its cause. Leakage, distribution shift, and noisy evaluation can mislead us.
 
-
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 A model has training loss 0.02 and unseen loss 0.17. Subtracting gives a gap of 0.15. The low training number shows memory; the gap measures how much success disappeared outside it.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **L_train** measures error on examples allowed to shape the model.
 - **L_unseen** measures error on held-out observations.
 - Subtraction isolates deterioration outside memory instead of confusing it with absolute task difficulty.
 - A positive generalization gap is evidence that training success did not fully survive.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 

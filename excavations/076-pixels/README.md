@@ -4,28 +4,21 @@
 >
 > Language was only one trace of reality. Light, space, sound, and noise demand new forms of the discoveries you already made.
 
+Causal interventions turn interpretation into an experiment. The field system can now inspect language reasoning, but its users also need it to understand the camera's raw grid of colored light.
 
-[Previous: Excavation 075](../075-causal-interventions/README.md)
+Using what we have, we assign one label to the entire raw byte sequence.
 
-A camera gives a grid of colored light, not objects.
+Yet a one-pixel shift changes thousands of byte positions although the same tiger remains.
 
-A reasonable place to begin is: Assign one label to the entire raw byte sequence.
+Now we can see what is missing: we must preserve local spatial arrangement and compare nearby color measurements.
 
-Now place that proposal under pressure: A one-pixel shift changes thousands of byte positions although the same tiger remains.
-
-What broke tells us what the replacement must preserve: Preserve local spatial arrangement and compare nearby color measurements.
-
-## Now work a case you can see
+## Let the case decide
 
 A 2×2 grayscale patch becomes four intensities with explicit row and column positions.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Pixels depend on lighting, sensor, scale, and viewpoint.
-
-The repair is explicit: preserve local spatial arrangement and compare nearby color measurements. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

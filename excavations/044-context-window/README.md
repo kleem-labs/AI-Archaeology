@@ -1,24 +1,20 @@
 # Excavation 044 — Context Windows — How Much Past Can the Model Carry?
 
-[Previous: Excavation 043](../043-sampling/README.md)
+Sampling allows several plausible futures instead of one repetitive path. Every chosen token is appended to the past, so the amount of history available to attention grows until computation or memory reaches a boundary.
 
-Generation repeats one token at a time, and every new token may attend to the past. The stored conversation keeps growing.
+One tempting answer is to attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
 
-Our first construction is deliberately modest: Attend to the entire history forever. Computation and memory grow, and the model eventually exceeds positions it was trained to handle.
-
-The cost of that attempt points to the missing operation: Choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
+Now we can see what is missing: we must choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
 
 ## From procedure to notation
 
 A larger window is not perfect memory. Retrieval, compression, recurrence, and careful data are separate inventions.
 
-
-
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The reader can see the growth by drawing the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **n** is the number of tokens inside the active context.
 - Each of n queries can compare with n keys, creating roughly n×n score pairs.
@@ -30,7 +26,6 @@ Only now can we compress that reasoning:
 $$
 \text{attention cost}\propto n^2
 $$
-
 
 The equation arrives after every operation has a job.
 

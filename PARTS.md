@@ -1,6 +1,6 @@
-# The Book in Ten Parts
+# The Book in Eleven Parts
 
-A list of 126 chapters feels like a file index. A book needs a journey. Each
+A list of 151 chapters feels like a file index. A book needs a journey. Each
 part below ends where a new kind of failure makes the next part necessary.
 
 | Part | Excavations | Human question |

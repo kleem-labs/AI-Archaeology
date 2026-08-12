@@ -1,23 +1,18 @@
 # Excavation 089 — Q-Learning — Improving Values from Experience
 
-[Previous: Excavation 088](../088-value-functions/README.md)
+A value estimate represents future consequences from a state. Experience must now revise those estimates without waiting to rediscover every long future from scratch.
 
-How should one experience update the value of an action?
+An obvious shortcut is to replace its value with the immediate reward.
 
-Our first construction is deliberately modest: Replace its value with the immediate reward.
+The world refuses to cooperate: the update ignores the valuable state reached afterward.
 
-It works—right up to this boundary: The update ignores the valuable state reached afterward.
+That failure tells us to move the estimate toward reward plus the best discounted value available next.
 
-Crossing that boundary requires one additional idea: Move the estimate toward reward plus the best discounted value available next.
-
-## Now work a case you can see
+## Let the case decide
 
 Reward 0 leads to a next state valued 10; with discount .9 the target is 9, not 0.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Build each piece from what just happened
-
+## The arithmetic we have earned
 
 A rescue robot reaches a fork. Moving left finds one injured hiker now, worth immediate reward 1, and leads to a state whose best known continuation is worth 5. If future reward is discounted by 0.9, the experience proposes `1 + 0.9×5 = 5.5` as the new target value for choosing left. The robot is not claiming certainty; it is joining what happened now with its best current estimate of what can follow.
 
@@ -32,11 +27,9 @@ $$
 \text{target}=r+\gamma\max_{a^\prime}Q(s^\prime,a^\prime)
 $$
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Maximization can overestimate noisy actions and offline data limits safe exploration.
-
-Why does the boundary remain? Our new machinery only knows how to move the estimate toward reward plus the best discounted value available next. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

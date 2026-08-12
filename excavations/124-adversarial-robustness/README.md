@@ -1,26 +1,20 @@
 # Excavation 124 — Adversarial Robustness
 
-[Previous: Excavation 123](../123-federated-learning/README.md)
+Federated learning moves computation to distributed data. Model updates and inputs remain vulnerable to malicious or tiny perturbations that preserve human meaning while flipping machine behavior.
 
-A tiny input change invisible to a person flips the model’s decision.
+Using what we have, we test only natural clean examples.
 
-Our first construction is deliberately modest: Test only natural clean examples.
+The world refuses to cooperate: an attacker follows the model’s sensitivity into a brittle direction.
 
-It works—right up to this boundary: An attacker follows the model’s sensitivity into a brittle direction.
+Now we can see what is missing: we must search for worst-case permitted perturbations, train against them, and bound behavior where possible.
 
-Crossing that boundary requires one additional idea: Search for worst-case permitted perturbations, train against them, and bound behavior where possible.
-
-## Now work a case you can see
+## Let the case decide
 
 Changing a few pixel values turns tiger into toaster for the model while looking unchanged to a human.
 
-The named objects come first. We add notation only when it shortens a procedure the reader has already performed.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Robustness to one threat model does not imply robustness to others.
-
-Why does the boundary remain? Our new machinery only knows how to search for worst-case permitted perturbations, train against them, and bound behavior where possible. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

@@ -1,26 +1,20 @@
 # Excavation 097 — Inference Serving
 
-[Previous: Excavation 096](../096-distributed-training/README.md)
+Distributed training lets many machines construct one model. Deployment reverses the pressure: thousands of users now expect that model to answer with low latency, bounded cost, and consistent state.
 
-A trained model must answer many users with low latency and bounded cost.
+We first try to run one request at a time on one full model.
 
-Without knowing the inherited method, we might try this: Run one request at a time on one full model.
+The trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues.
 
-Its hidden assumption appears in the following case: Hardware sits idle between small operations and traffic spikes create queues.
+That failure tells us to batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
 
-Remove that assumption and the needed repair becomes clear: Batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
-
-## Now work a case you can see
+## Let the case decide
 
 Four prompts share one matrix operation while each retains separate token state.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Batching improves throughput but can worsen individual latency.
-
-This is not an unrelated warning. The construction can batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

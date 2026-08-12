@@ -1,26 +1,20 @@
 # Excavation 074 — Superposition
 
-[Previous: Excavation 073](../073-attribution/README.md)
+Attribution assigns influence to inputs or internal components. The investigation soon finds that one neuron can participate in many features and one feature can be distributed across many neurons.
 
-A network stores more useful features than it has individual neurons.
+One tempting answer is to demand one feature per coordinate.
 
-Our first construction is deliberately modest: Demand one feature per coordinate.
+The world refuses to cooperate: limited width forces useful patterns to share neurons, producing confusing mixed activations.
 
-It works—right up to this boundary: Limited width forces useful patterns to share neurons, producing confusing mixed activations.
+So we represent features as directions that can overlap when they rarely need to be active together.
 
-Crossing that boundary requires one additional idea: Represent features as directions that can overlap when they rarely need to be active together.
-
-## Now work a case you can see
+## Let the case decide
 
 One two-dimensional space stores several sparse directions; collisions occur mainly when multiple stored features activate together.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Separating superposed features is difficult and may not yield unique answers.
-
-Why does the boundary remain? Our new machinery only knows how to represent features as directions that can overlap when they rarely need to be active together. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

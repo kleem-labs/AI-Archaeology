@@ -1,23 +1,18 @@
 # Excavation 084 — Diffusion — Learning by Destroying
 
-[Previous: Excavation 083](../083-autoregressive-generation/README.md)
+Autoregressive image generation chooses one piece after another, making an arbitrary generation order part of the model. Diffusion offers another route: destroy a complete image gradually so that generation can learn to reverse each small corruption.
 
-How can generation begin without choosing a first meaningful pixel?
+Perhaps we map one random vector directly to a finished image in one jump.
 
-Our first construction is deliberately modest: Map one random vector directly to a finished image in one jump.
+The world refuses to cooperate: one enormous jump is difficult to learn and unstable across diverse images.
 
-It works—right up to this boundary: One enormous jump is difficult to learn and unstable across diverse images.
+Now we can see what is missing: we must gradually add noise to real images, then learn the smaller reverse step at every noise level.
 
-Crossing that boundary requires one additional idea: Gradually add noise to real images, then learn the smaller reverse step at every noise level.
-
-## Now work a case you can see
+## Let the case decide
 
 A tiger image becomes slightly grainy, then more noisy, then nearly random; training learns each local cleanup.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Build each piece from what just happened
-
+## The arithmetic we have earned
 
 Print a clean tiger photograph on transparent film. At the first step, keep almost all of the photograph and mix in a faint sheet of random grain. At later steps, keep less tiger and add more grain until the animal is nearly lost. The two mixing amounts must be coordinated: increasing noise while keeping all the original image would make total intensity grow without bound. The square-root factors preserve a controlled overall scale while transferring influence from image to noise.
 
@@ -29,14 +24,12 @@ Print a clean tiger photograph on transparent film. At the first step, keep almo
 Only now can we compress the procedure:
 
 $$
-x_t=\sqrt{\bar\alpha_t}\,x_0+\sqrt{1-\bar\alpha_t}\,\epsilon
+x_t=\sqrt{\bar\alpha_t}x_0+\sqrt{1-\bar\alpha_t}\epsilon
 $$
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Many denoising steps make sampling expensive.
-
-Why does the boundary remain? Our new machinery only knows how to gradually add noise to real images, then learn the smaller reverse step at every noise level. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

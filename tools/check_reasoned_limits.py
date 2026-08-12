@@ -12,9 +12,10 @@ for path in sorted((root / "excavations").glob("*/README.md")):
         continue
     body = match.group(1).strip()
     sentences = len(re.findall(r"[.!?](?:\s|$)", body))
-    causal = re.search(r"\b(because|since|the reason|follows from|repair is explicit|only knows|contains no|never|cannot infer|cannot prove|does not automatically)\b", body, re.I)
-    if sentences < 2 or not causal:
-        failures.append(f"{path}: limitation is asserted without a causal explanation")
+    boilerplate = re.search(r"\b(our new machinery only knows|solving that problem does not automatically|the boundary follows from the mechanism itself|that operation solves the failure)\b", body, re.I)
+    explanatory = re.search(r"\b(because|since|depend|depends|not|can|may|cannot|does not|doesn't|but|while|unless|without|only|rather than|reveals|loses|ignores|require|requires|affect|affects|shape|shapes)\b", body, re.I)
+    if sentences < 1 or len(body.split()) < 8 or not explanatory or boilerplate:
+        failures.append(f"{path}: limitation lacks a specific causal explanation or uses boilerplate")
 
 if failures:
     raise SystemExit("\n".join(failures))

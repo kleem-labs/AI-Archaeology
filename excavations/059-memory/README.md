@@ -1,26 +1,22 @@
 # Excavation 059 — Memory — What Should Survive After the Context Ends?
 
-[Previous: Excavation 058](../058-planning/README.md)
+Planning turns a goal into steps the agent can inspect and revise. A plan that outlives the current context needs selected facts and decisions to survive without preserving every irrelevant token forever.
 
-An assistant learns the user’s preferred writing style today, but tomorrow the conversation window no longer contains it.
+An obvious shortcut is to store every message forever and paste all history into every new prompt.
 
-Our first construction is deliberately modest: Store every message forever and paste all history into every new prompt.
+The world refuses to cooperate: cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose.
 
-It works—right up to this boundary: Cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose. Name the missing guarantee before continuing.
+We need to separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
 
-Crossing that boundary requires one additional idea: Separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
-
-## Now work a case you can see
+## Let the case decide
 
 Save “prefers concise status reports” with its source and date. Do not save a temporary hotel door code. Retrieve the preference only for relevant writing tasks.
 
 No new equation is needed. The invention is a boundary, procedure, or system contract. Adding symbols would not make it more rigorous.
 
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Remembered facts can become stale or wrong. Memory needs consent, provenance, expiration, correction, and deletion.
-
-Why does the boundary remain? Our new machinery only knows how to separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

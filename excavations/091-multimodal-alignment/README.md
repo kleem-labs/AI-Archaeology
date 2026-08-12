@@ -1,26 +1,20 @@
 # Excavation 091 — Multimodal Alignment
 
-[Previous: Excavation 090](../090-policy-gradients/README.md)
+Policy gradients let consequences reshape action probabilities. The field system's words, images, and actions still live in separate representational worlds unless paired observations can teach them to meet.
 
-How can an image and its caption meet in one representation?
+We first try to compare raw pixels directly with token IDs.
 
-A reasonable place to begin is: Compare raw pixels directly with token IDs.
+Yet their coordinates have unrelated meanings and shapes.
 
-Now place that proposal under pressure: Their coordinates have unrelated meanings and shapes.
+We need to use separate encoders and train paired image-text examples to become nearby.
 
-What broke tells us what the replacement must preserve: Use separate encoders and train paired image-text examples to become nearby.
-
-## Now work a case you can see
+## Let the case decide
 
 A tiger photo and “striped big cat” move together; mismatched captions move apart.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Pairs can contain weak, biased, or incomplete descriptions.
-
-The repair is explicit: use separate encoders and train paired image-text examples to become nearby. Its power is also its boundary; anything not represented in those operations remains undecided.
 
 ## Enter the laboratory
 

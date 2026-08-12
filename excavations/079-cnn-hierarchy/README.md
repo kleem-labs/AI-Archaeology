@@ -1,26 +1,20 @@
 # Excavation 079 — CNN Hierarchies
 
-[Previous: Excavation 078](../078-pooling/README.md)
+Pooling keeps strong local evidence while shrinking the map. Edges and spots are still not eyes, stripes, or tigers; later detectors must compose simple evidence into larger structures.
 
-Edges are not yet eyes, stripes, or tigers.
+We first try to classify directly from isolated edge responses.
 
-Our first construction is deliberately modest: Classify directly from isolated edge responses.
+The world refuses to cooperate: one edge has no object-level meaning.
 
-It works—right up to this boundary: One edge has no object-level meaning.
+We need to stack local detectors so later layers combine earlier patterns over wider regions.
 
-Crossing that boundary requires one additional idea: Stack local detectors so later layers combine earlier patterns over wider regions.
-
-## Now work a case you can see
+## Let the case decide
 
 Edges form corners; corners and textures form stripes; repeated stripes plus shape support tiger.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 The hierarchy is learned, not guaranteed to match human parts.
-
-Why does the boundary remain? Our new machinery only knows how to stack local detectors so later layers combine earlier patterns over wider regions. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

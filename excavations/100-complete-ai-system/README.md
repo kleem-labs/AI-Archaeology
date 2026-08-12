@@ -1,26 +1,20 @@
 # Excavation 100 — The Complete AI System — From Observation to Responsible Action
 
-[Previous: Excavation 099](../099-governance/README.md)
+Governance assigns legitimate decisions and responsibility around the technology. We can finally assemble data, models, tools, evaluation, operations, and authority into one complete AI system rather than treating the model as the whole product.
 
-We have excavated models, data, learning, tools, and controls. How do they become one coherent system?
+Using what we have, we connect every powerful component and call the result intelligent.
 
-The first solution that suggests itself is this: Connect every powerful component and call the result intelligent.
+But an accurate model with stale data, excessive authority, weak verification, or no accountability still fails.
 
-The idea survives only until we test it against reality: An accurate model with stale data, excessive authority, weak verification, or no accountability still fails.
+Now we can see what is missing: we must build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another.
 
-The failure gives us a precise requirement: Build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another.
-
-## Now work a case you can see
+## Let the case decide
 
 A support system retrieves current policy, drafts an answer, cites evidence, requests approval for refunds, verifies transactions, logs outcomes, and learns only through reviewed updates.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 No architecture completes intelligence forever; every deployment creates new observations and new responsibilities.
-
-The boundary follows from the mechanism itself. We designed it to build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another. That operation solves the failure we had reached, but it contains no step that answers the additional problem above.
 
 ## Enter the laboratory
 

@@ -1,26 +1,20 @@
 # Excavation 087 — States, Actions, and Transitions
 
-[Previous: Excavation 086](../086-rewards/README.md)
+A reward says how an outcome turned out. To learn from it, the agent must preserve the situation it occupied, the action it chose, and the situation that followed.
 
-To learn from reward, what must one experience record?
+At first we store only action and final reward.
 
-Without knowing the inherited method, we might try this: Store only action and final reward.
+The trouble appears immediately: the same action helps in one situation and harms in another.
 
-Its hidden assumption appears in the following case: The same action helps in one situation and harms in another.
+We need to record current state, chosen action, reward, and resulting state.
 
-Remove that assumption and the needed repair becomes clear: Record current state, chosen action, reward, and resulting state.
-
-## Now work a case you can see
+## Let the case decide
 
 “Move right” from left of the door succeeds; the same action beside a cliff fails because state differs.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 A state representation may omit information needed for future decisions.
-
-This is not an unrelated warning. The construction can record current state, chosen action, reward, and resulting state. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 

@@ -1,26 +1,20 @@
 # Excavation 069 — Controlled Experiments
 
-[Previous: Excavation 068](../068-distribution-drift/README.md)
+Drift detection says that the input or outcome distribution moved. It does not say whether a new model, a holiday, a policy change, or chance caused the observed performance difference.
 
-A new model performs better after launch, but traffic and season also changed.
+At first we compare this week with last week.
 
-Our first construction is deliberately modest: Compare this week with last week.
+The world refuses to cooperate: a holiday raises sales for both systems and receives credit as a model improvement.
 
-It works—right up to this boundary: A holiday raises sales for both systems and receives credit as a model improvement.
+That failure tells us to randomly assign comparable cases to old and new behavior and compare predefined outcomes.
 
-Crossing that boundary requires one additional idea: Randomly assign comparable cases to old and new behavior and compare predefined outcomes.
-
-## Now work a case you can see
+## Let the case decide
 
 Split 10,000 simultaneous visitors evenly; conversion is 5% for control and 5.5% for treatment under the same week.
 
-The named objects and arithmetic come first. This chapter introduces no displayed equation unless notation clarifies something the reader has already calculated.
-
-## Where your new idea still breaks
+## The boundary of the discovery
 
 Experiments require sufficient samples, ethical limits, and careful metrics.
-
-Why does the boundary remain? Our new machinery only knows how to randomly assign comparable cases to old and new behavior and compare predefined outcomes. Solving that problem does not automatically solve every decision built on top of it.
 
 ## Enter the laboratory
 

@@ -7,7 +7,7 @@ of each term before allowing notation to compress the idea.
 Use it after reading an excavation, or to revisit the chain of
 mathematical inventions without rereading the entire narrative.
 
-**57 equation-bearing excavations · 64 displayed equations**
+**57 equation-bearing excavations · 69 displayed equations**
 
 ## Map
 
@@ -75,13 +75,12 @@ mathematical inventions without rereading the entire narrative.
 
 A tiger recorded as weight 220, speed 65, and age 6 becomes [220, 65, 6]. The first slot must always mean weight; otherwise [220, 65, 6] could describe nonsense.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is the object we needed to carry as one package.
 - **x₁ through xₙ** are its agreed measurements; subscripts preserve which feature is which.
 - **n** exists because different problems keep different numbers of features.
 - The brackets bind the measurements without adding or comparing them yet.
-
 
 This says only: one object carries an ordered measurement for each of $n$ agreed features.
 
@@ -120,7 +119,7 @@ total                                      = 27
 
 The total is in squared differences. Its square root gives one ordinary separation: about 5.20.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is only a nickname for Tiger A's ordered measurements.
 - **y** is only a nickname for Tiger B's ordered measurements.
@@ -138,7 +137,6 @@ d(\mathbf{x},\mathbf{y})
 =\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots+(x_n-y_n)^2}
 $$
 
-
 The formula is your procedure written compactly.
 
 [Return to the full excavation](excavations/003-distance/README.md)
@@ -149,7 +147,7 @@ The formula is your procedure written compactly.
 
 A rescue party marks its camp on a paper map. It walks five kilometres east and two kilometres south to reach an injured ranger. Those instructions still work if a second party begins from another camp: move five east and two south. Only after the route has a meaning do we record east–west and north–south change as `[5, -2]`.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **a** is the starting state and **b** the observed destination.
 - Subtraction is forced because we need the change that remains after removing the start.
@@ -176,14 +174,13 @@ $$
 
 A ranger must turn two observations—how heavy an animal looks and how fast it moves—into two decisions: danger and whether pursuit is possible. For danger she counts the weight clue twice and the speed clue three times. For pursuit she ignores weight and counts speed four times. Writing the two recipes as rows lets one reusable machine apply both judgments to every animal report.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - The right-hand vector **[4,5]** is shorthand for weight signal 4 and speed signal 5.
 - Each matrix row describes one output; each row needs one weight per input.
 - Multiplication measures one input's contribution to one output.
 - Addition combines all contributions reaching that output.
 - The result **[23,20]** contains one value per matrix row.
-
 
 Row-by-column multiplication is not a ritual. Each row is one output asking how much every input should contribute.
 
@@ -239,13 +236,12 @@ equation has added no new idea. It records the space you just constructed.
 
 Mary, John, and the book are possible sources for the word *she*. The sentence gives Mary the strongest relevance, the book a weaker connection, and John the weakest. Raw relevance can be negative or arbitrarily large, so it cannot yet say what share each source should contribute. Exponentiation turns every candidate into positive evidence; dividing by their shared total converts that evidence into portions of one whole.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **sᵢ** is the raw relevance score for candidate i.
 - Exponentiation makes every weight positive, preserves ordering, suppresses negative evidence, and amplifies strong evidence.
 - The denominator sums evidence from every candidate j because a weight is meaningful only relative to its competitors.
 - Division makes all resulting weights sum to one.
-
 
 For scores `[2, 4, 8]`, the largest score receives almost all the weight, but the others are not forbidden from contributing.
 
@@ -265,7 +261,7 @@ $$
 
 A librarian hears, “Find me the book about a striped predator.” The request emphasizes *animal* and *stripes*. A catalogue card advertises the same properties; matching request-property to catalogue-property produces relevance. If that card wins three quarters of the attention, three quarters of the book's stored content—not three quarters of its catalogue description—travels into the answer. The request becomes the query, the catalogue becomes the key, and the retrievable content becomes the value only after those jobs are distinct.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **qᵢ** states what receiving token i needs; **kⱼ** states what source j offers.
 - Multiplying matching coordinates rewards aligned needs and offers; opposite signs become negative evidence.
@@ -273,7 +269,6 @@ A librarian hears, “Find me the book about a striped predator.” The request 
 - **αᵢⱼ** is that score after normalization: how much i listens to j.
 - **vⱼ** is the content source j contributes; multiplying by α scales its voice.
 - Summing over j combines every permitted source into output oᵢ.
-
 
 Learned matrices create query, key, and value views from each current representation. Their formulas record three roles we already needed; they are not arbitrary symmetry.
 
@@ -315,14 +310,13 @@ $$
 
 In “The tiger that chased the deer was tired,” one reader follows grammar to discover what *was tired* describes, while another follows reference to keep tiger separate from deer. Averaging their notes too early destroys which evidence came from which question. Keeping the two notes side by side lets a later learned map decide how much grammar and reference the sentence needs.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **X** is the shared sequence of token representations.
 - Each **headₕ** is an independent Q/K/V retrieval space, needed because relationships should not compete in one distribution.
 - Concatenation preserves each report instead of averaging distinctions away.
 - **H** counts the parallel heads.
 - **W_O** is learned because the model must decide how the preserved reports should interact and return to the shared width.
-
 
 Each head is the query–key–value mechanism from the previous excavation with independent learned projections.
 
@@ -343,14 +337,13 @@ $$
 
 Attention tells the word *tiger* what the rest of the sentence said. Now imagine several small workshops inside that token: one notices whether an animal is dangerous, another recognizes whether it is acting or being described. A gate closes workshops whose evidence is negative and leaves useful ones open. A second mixing step combines only the surviving discoveries. Without the gate, the two mixing steps collapse into one fixed recipe and no conditional workshop can exist.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is one token after communication.
 - **W₁x+b₁** expands it into candidate features; b₁ lets a feature activate without forcing the boundary through zero.
 - **σ** is the nonlinear gate that prevents two linear maps collapsing into one.
 - **W₂** recombines active candidates into the model width.
 - **b₂** permits an output offset after recombination.
-
 
 The same workshop is applied separately to every token. It does not communicate across positions; attention already handled that.
 
@@ -376,13 +369,12 @@ $$
 
 A cartographer already has a useful map of the forest. A new survey reports that one trail bends half a kilometre east and one kilometre south. Replacing the whole map with that small report would destroy everything known; adding it as a correction preserves the map and changes only the trail. If the survey discovers nothing useful, adding a zero correction leaves the original untouched.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is the representation worth preserving.
 - **F(x)** is only the transformation's proposed correction, not a complete replacement.
 - Addition keeps a direct route for x and makes “do nothing” possible when F(x)=0.
 - **y** is the corrected state passed onward.
-
 
 The block learns the **residual**—the difference between what exists and what should be added.
 
@@ -404,7 +396,7 @@ $$
 
 Three microphones hear the same roar at volumes 1, 2, and 3 because one sits closer to the tiger. Their shared centre is 2. Subtracting it leaves the pattern `[-1, 0, 1]`: quieter, typical, louder. Dividing by the pattern's spread makes that relative shape comparable with another set recorded by more sensitive microphones. A tiny safety amount is needed when all microphones report the same value and the spread is zero.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **xᵢ** is one feature of a token and **d** is its number of features.
 - Summing and dividing by d creates μ, the token's average level.
@@ -413,7 +405,6 @@ Three microphones hear the same roar at volumes 1, 2, and 3 because one sits clo
 - The square root converts variance to ordinary scale.
 - Dividing produces comparable spread; ε prevents division by zero when no spread exists.
 - **x̂ᵢ** is the normalized feature.
-
 
 The small $\epsilon$ prevents division by zero when every feature is equal.
 
@@ -425,7 +416,9 @@ Only now can we compress that reasoning:
 
 $$
 \mu=\frac1d\sum_i x_i,
-\qquad
+$$
+
+$$
 \sigma^2=\frac1d\sum_i(x_i-\mu)^2
 $$
 
@@ -441,7 +434,7 @@ $$
 
 A tiger alarm has one adjustable dial: how strongly a stripe should raise danger. The dial is currently 8, but repeated verified encounters suggest 3 would fit better. Its present squared mistake is 25, and a tiny upward test reveals that increasing the dial makes error rise with sensitivity 10. Reversing one tenth of that uphill suggestion moves the dial from 8 to 7 and lowers the mistake to 16.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **θ** is the current collection of learnable weights.
 - **L** is the measured prediction failure.
@@ -449,7 +442,6 @@ A tiger alarm has one adjustable dial: how strongly a stripe should raise danger
 - The minus sign reverses that uphill direction.
 - **η** controls step size because direction alone does not say how far to move.
 - The arrow means replace the old weights with the improved ones.
-
 
 $\theta$ is the current state of the weights, $\nabla L$ is a vector of advised change, and $\eta$ controls how large a step to take.
 
@@ -467,7 +459,7 @@ $$
 
 A tracker saw tigers after 2 of 10 comparable rustles. The raw count 2 means little without 10 opportunities. Dividing gives 0.2: under this evidence, two tenths of such rustles preceded a tiger.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **A** is the uncertain event we need to discuss.
 - The numerator counts observations where A occurred.
@@ -481,9 +473,6 @@ $$
 P(A)=\frac{\text{times }A\text{ occurred}}{\text{comparable observations}}
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 [Return to the full excavation](excavations/017-probability/README.md)
 
 ---
@@ -492,7 +481,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 Story A says a deep print occurs 80% of the time; Story B says 20%. After observing a deep print, the same evidence has likelihood 0.8 under A and 0.2 under B, so A explains this clue four times as well.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **θ** is one proposed hidden explanation.
 - **x** is the evidence already observed.
@@ -506,9 +495,6 @@ $$
 \mathcal{L}(\theta\mid x)=P(x\mid\theta)
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 [Return to the full excavation](excavations/018-likelihood/README.md)
 
 ---
@@ -517,7 +503,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 An event with probability 1/2 carries 1 bit because -log₂(1/2)=1. An event with probability 1/8 carries 3 bits. The rarer observation eliminates more alternatives, so it teaches more.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **P(x)** measures how expected observation x was.
 - The logarithm is needed because independent probabilities multiply while information from independent messages should add.
@@ -530,9 +516,6 @@ $$
 I(x)=-\log P(x)
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 [Return to the full excavation](excavations/019-information/README.md)
 
 ---
@@ -541,7 +524,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 For a fair coin, each outcome has probability 1/2 and information 1 bit. Weighting gives 0.5×1+0.5×1=1 expected bit. A coin guaranteed heads gives -log₂(1)=0, so its entropy is zero.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **pᵢ** is the probability of possible outcome i.
 - **−log pᵢ** is the information received if i occurs.
@@ -555,9 +538,6 @@ $$
 H(P)=-\sum_i p_i\log p_i
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 [Return to the full excavation](excavations/020-entropy/README.md)
 
 ---
@@ -566,7 +546,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 Reality says the answer is tiger. A model assigning tiger 0.9 pays -log(0.9), about 0.105. A model assigning 0.01 pays about 4.605. The confident wrong model is charged far more.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **P** is the distribution reality supplies; pᵢ weights which outcomes actually occur.
 - **Q** is the model's proposed distribution; qᵢ is the probability it assigned outcome i.
@@ -579,9 +559,6 @@ $$
 H(P,Q)=-\sum_i p_i\log q_i
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 [Return to the full excavation](excavations/021-cross-entropy/README.md)
 
 ---
@@ -590,7 +567,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 A village adjusts one alarm dial controlling how much smoke is needed before ringing a bell. At setting 3 the false-alarm cost is 9. Raising the dial by only 0.001 changes the cost to about 9.006001. The extra cost divided by the tiny dial movement is about 6. Repeating with ever smaller movements reveals the local sensitivity at the current setting rather than the effect of one arbitrary jump.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **w** is the one weight whose responsibility we are probing.
 - **ε** is a small experimental nudge.
@@ -605,9 +582,6 @@ $$
 \frac{dL}{dw}=\lim_{\epsilon\to0}\frac{L(w+\epsilon)-L(w)}{\epsilon}
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 [Return to the full excavation](excavations/022-derivatives/README.md)
 
 ---
@@ -616,7 +590,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 Turn an oven knob slightly. The first mechanism doubles that movement into a fuel change; the next triples the fuel change into temperature; the bread-loss rule magnifies the temperature error fourfold. A one-unit knob change therefore becomes 2, then 6, then 24 units of final sensitivity. Each machine contributes one local multiplier, and the whole causal path requires all of them.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **w→x→y→L** is the causal path through successive machines.
 - Each fraction is one local sensitivity: how its output changes when its input changes.
@@ -629,9 +603,6 @@ $$
 \frac{dL}{dw}=\frac{dL}{dy}\frac{dy}{dx}\frac{dx}{dw}
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 [Return to the full excavation](excavations/023-chain-rule/README.md)
 
 ---
@@ -640,7 +611,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 One shared dough temperature affects two outcomes: crust and centre. The crust branch sends blame 3 through local sensitivity 2, contributing 6. The centre branch sends blame 4 through sensitivity 5, contributing 20. Because both outcomes depended on the same temperature, the baker must return total blame 26 to that shared decision. Computing either downstream suffix twice would add work without adding evidence.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x̄** means accumulated sensitivity of final loss to intermediate x.
 - A node can influence several child results y, so every downstream path must contribute.
@@ -654,9 +625,6 @@ $$
 \bar{x}=\sum_{y\in children(x)}\bar{y}\frac{\partial y}{\partial x}
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 [Return to the full excavation](excavations/024-backpropagation/README.md)
 
 ---
@@ -665,7 +633,7 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 Return to the tiger alarm's stripe dial. It is 8; verified encounters suggest 3; the squared mistake is 25; and the local uphill sensitivity is 10. Moving the full ten units lands at −2, equally far from the target on the other side. Direction alone has not taught us distance. Taking one tenth of the proposed correction moves the dial to 7 and lowers the mistake to 16. That chosen fraction is the learning rate.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **θ_t** packages the current weights; our tiny example has only 8.
 - **L** is the mistake measure; here it is (weight − 3)².
@@ -688,9 +656,6 @@ $$
 \theta_{t+1}=\theta_t-\eta\nabla_\theta L
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 [Return to the full excavation](excavations/025-gradient-descent/README.md)
 
 ---
@@ -699,16 +664,13 @@ The equation is not the discovery. It is the shortest record of the discovery al
 
 A tiger detector has two adjustable dials: how much to trust stripes and how much to trust movement. A clear morning photograph recommends raising those dials by 2 and 4. A muddy side view recommends 4 and 2. A night photograph recommends 3 and 3. For the stripe dial, the three witnesses propose 2+4+3=9, so their average advice is 3. The movement dial also averages to 3. If we merely added their advice, inviting three witnesses instead of one would triple the step even when their average opinion had not changed.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **B** is the selected mini-batch and **|B|** its number of examples.
 - **Lᵢ** is loss for example i; **∇_θLᵢ** is that example's proposed parameter direction.
 - Summing combines the witnesses.
 - Dividing by batch size prevents merely using more examples from making the step proportionally larger.
 - **g_B** is the batch's less noisy gradient estimate.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 
@@ -724,15 +686,12 @@ $$
 
 The tiger alarm's stripe dial is again 8, and the local uphill sensitivity is 10. Moving opposite the entire suggestion sends the dial to −2 and jumps across the best setting. Trusting one tenth moves it to 7; trusting one hundredth moves it to 7.9. All three moves use the same downhill direction. The learning rate answers the separate human question: how much of that local advice should we trust now?
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **g_t** is the downhill evidence measured at step t.
 - **η_t** converts direction into a chosen travel distance and may change with time.
 - The minus sign moves against increasing loss.
 - **θ_t** and **θ_{t+1}** distinguish the old and updated parameter states.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 
@@ -748,7 +707,7 @@ $$
 
 Three small groups inspect tiger tracks. Each recommends changing two detector dials: stripes and movement. Their advice is `[3,1]`, `[3,-1]`, and `[3,1]`. Now the coordinates are not anonymous: every group agrees that stripe trust should rise by 3, while movement advice flips with noisy tracks. Remembering recent directions reinforces the persistent stripe evidence and lets the contradictory movement evidence partly cancel.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **g_t** is the newest noisy gradient.
 - **v_{t−1}** stores direction accumulated previously.
@@ -756,13 +715,14 @@ Three small groups inspect tiger tracks. Each recommends changing two detector d
 - Addition combines memory with new evidence into velocity v_t.
 - **η** scales that velocity before it changes θ.
 
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
-
 Only now can we compress that reasoning:
 
 $$
-v_t=\beta v_{t-1}+g_t,\qquad\theta_{t+1}=\theta_t-\eta v_t
+v_t=\beta v_{t-1}+g_t
+$$
+
+$$
+\theta_{t+1}=\theta_t-\eta v_t
 $$
 
 [Return to the full excavation](excavations/028-momentum/README.md)
@@ -773,16 +733,13 @@ $$
 
 Imagine one hundred weak sensors feeding an alarm. If every sensor signal and every connecting weight is typically near 1, adding all one hundred contributions produces a signal near 100; deeper layers can make it explode further. Giving the starting weights a typical size near one tenth keeps the combined signal near the scale of one useful observation. The factor `1/√100` is therefore a scale-preserving choice, not a magic constant.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **w** is one newly initialized weight.
 - **Var(w)** measures the typical squared spread of starting weights, not their meaning.
 - **n_in** counts signals entering the neuron.
 - Dividing by n_in compensates for adding more independent inputs, preventing their combined signal scale from growing with width.
 - “Approximately” leaves room for activation-specific constants such as Xavier or He scaling.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 
@@ -798,15 +755,12 @@ $$
 
 A gatekeeper receives a danger signal. Two ordinary scaling rules—double it, then triple it—always behave like one rule that multiplies by six. Adding more such rules has created no new decision. Put a gate between them: negative evidence is closed to zero while positive evidence continues. Now the same machinery treats warning evidence and reassuring evidence differently, something one multiplication cannot reproduce.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is the incoming representation.
 - **W** mixes its features; **b** permits learned thresholds and offsets.
 - **φ** is the necessary nonlinear gate; without it, stacked layers collapse into one linear map.
 - **h** is the hidden representation after both mixing and gating.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 
@@ -822,15 +776,12 @@ $$
 
 A model has training loss 0.02 and unseen loss 0.17. Subtracting gives a gap of 0.15. The low training number shows memory; the gap measures how much success disappeared outside it.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **L_train** measures error on examples allowed to shape the model.
 - **L_unseen** measures error on held-out observations.
 - Subtraction isolates deterioration outside memory instead of confusing it with absolute task difficulty.
 - A positive generalization gap is evidence that training success did not fully survive.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 
@@ -846,15 +797,12 @@ $$
 
 Two models have data loss 2. Model A has squared-weight sum 100; B has 4. With lambda 0.1, totals are 12 and 2.4. The penalty makes the equally fitting but less extreme model preferable.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **L_data** rewards fitting observations.
 - **θ** contains the weights; squaring and summing them creates ||θ||² without signed cancellation.
 - **λ** expresses how strongly we prefer smaller machinery relative to data fit.
 - Addition forces training to negotiate prediction accuracy and complexity in one objective.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 
@@ -870,15 +818,12 @@ $$
 
 With 100 examples, use 60 to change weights, 20 to choose learning rate, and keep 20 sealed. If the sealed 20 guide choices, they stop being an honest final test.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **D** is all available data.
 - The three named subsets exist because weight learning, design choices, and final measurement must not share feedback.
 - Union means they reconstruct the available collection.
 - The intended split also requires no example to leak between sets, even though the compact union symbol alone does not state disjointness.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 
@@ -894,16 +839,13 @@ $$
 
 Suppose future cases have losses 1,0,2,1. Their average is 1, our estimate of future risk. Averaging training losses instead would answer how well we remember the past, not deployment.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **θ** is one trained model and **f_θ(x)** its prediction for input x.
 - **L(f_θ(x),y)** measures failure against outcome y.
 - **P_future** names the deployment world we actually care about.
 - Sampling (x,y) from that world prevents training data from silently defining success.
 - The expectation averages loss over future cases; **R(θ)** names that future risk.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 
@@ -919,7 +861,7 @@ $$
 
 Input 2 is mixed into a hidden signal, gated, and produces prediction 0.7. If the target is 1, loss sends correction backward through the same steps, changes weights, and the next forward pass may produce 0.8. The arrows are one loop.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **x** is observed input.
 - **Wx+b** mixes features and supplies offsets.
@@ -927,9 +869,6 @@ Input 2 is mixed into a hidden signal, gated, and produces prediction 0.7. If th
 - **ŷ** is the prediction and **L** measures its failure.
 - **∇_θL** assigns local correction directions to all parameters θ.
 - **θ′** is the updated state; the arrows show the forward path continuing into feedback rather than separate facts.
-
-
-Every operation records a need established above; the equation is the fossil, not the living discovery.
 
 Only now can we compress that reasoning:
 
@@ -945,13 +884,12 @@ $$
 
 In low, lower, lowest, pair l-o appears three times, more than e-r once. Counting selects l-o; merging creates lo. Recounting can then select lo-w and create reusable low.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **a and b** are neighboring current tokens; c(a,b) counts their repeated adjacency because repetition is the evidence for reuse.
 - The star marks the pair selected for merging.
 - **arg max** returns the pair itself, not its count, because that pair must be replaced.
 - Maximizing over every candidate pair makes the merge arise from the corpus rather than a hand-written linguistic rule.
-
 
 Count, choose, merge, and repeat. The symbols only compress the procedure already needed.
 
@@ -962,7 +900,7 @@ c(a,b)=\text{number of adjacent occurrences of }(a,b)
 $$
 
 $$
-(a^*,b^*)=\underset{(a,b)}{\mathrm{arg\,max}}\;c(a,b)
+(a^*,b^*)=\underset{(a,b)}{\text{arg max}} c(a,b)
 $$
 
 [Return to the full excavation](excavations/036-tokenization/README.md)
@@ -973,14 +911,13 @@ $$
 
 The tokenizer assigns shelf address 2 to *tiger*. Looking up address 2 retrieves a small card of adjustable coordinates learned from tiger's usage. The address itself says nothing about meaning; moving the tiger card to shelf 7 would not change its learned contents. The table is therefore a collection of learned starting descriptions, while the token ID is merely the address used to fetch one.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **V** is the vocabulary and **|V|** its number of token addresses.
 - **d** is the compact representation width chosen for the model.
 - **E** therefore needs one row per token and d learnable coordinates per row.
 - **i** is a token ID used only to select row E[i]; **x_i** is the retrieved meaning-bearing vector.
 - **e_i** is the one-hot selector. Multiplying e_i by E produces the same row, explaining why direct lookup is valid and cheaper.
-
 
 Multiplying by a one-hot vector merely selects one row, so an implementation can perform the lookup directly.
 
@@ -1010,7 +947,7 @@ $$
 
 Compare “tiger chases deer” with “deer chases tiger.” The same three word cards appear, so content alone cannot distinguish hunter from hunted. Give the first slot one reusable position mark, the second another, and the third another. Adding the appropriate mark to each word leaves *tiger* recognizable while also telling later attention whether this occurrence came first or last.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **token_i** is the vocabulary address appearing at sequence location i.
 - **E[token_i]** retrieves what that token currently represents.
@@ -1024,7 +961,6 @@ $$
 z_i=E[token_i]+P_i
 $$
 
-
 The equation arrives after every operation has a job.
 
 [Return to the full excavation](excavations/038-position/README.md)
@@ -1035,7 +971,7 @@ The equation arrives after every operation has a job.
 
 While learning from “the tiger sleeps,” the model sees the complete training sentence. At the position after *the*, the correct next token *tiger* is already sitting to the right. Place an impassable barrier on every connection pointing into the future. In score language, those forbidden paths receive a value whose exponential contribution becomes zero, while present and earlier words remain available.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **i** is the receiving position and **j** a possible source position.
 - When j≤i, the source is present or past, so adding zero leaves its attention score unchanged.
@@ -1048,7 +984,6 @@ $$
 M_{ij}=\begin{cases}0&j\le i\\-\infty&j>i\end{cases}
 $$
 
-
 The equation arrives after every operation has a job.
 
 [Return to the full excavation](excavations/039-causal-mask/README.md)
@@ -1059,7 +994,7 @@ The equation arrives after every operation has a job.
 
 Tokens [the,cat,slept] become inputs [the,cat] and targets [cat,slept]. One forward pass therefore asks “after the?” and “after the cat?” at separate positions.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **t₀…t_n** are consecutive tokens from one observed sequence.
 - Input x stops one token early because each position needs an answer to its right.
@@ -1069,9 +1004,12 @@ Tokens [the,cat,slept] become inputs [the,cat] and targets [cat,slept]. One forw
 Only now can we compress that reasoning:
 
 $$
-x=(t_0,\ldots,t_{n-1}),\qquad y=(t_1,\ldots,t_n)
+x=(t_0,\ldots,t_{n-1})
 $$
 
+$$
+y=(t_1,\ldots,t_n)
+$$
 
 The equation arrives after every operation has a job.
 
@@ -1083,7 +1021,7 @@ The equation arrives after every operation has a job.
 
 After reading “the striped animal is a,” the model holds one contextual description. Every vocabulary candidate now presents a learned question: how well does this description support *tiger*, *river*, *sleeping*, and so on? Matching the same context against each candidate produces one raw score per word. Those scores are logits; they are competitors, not probabilities yet.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **h** is one contextual token vector containing what the Transformer currently knows.
 - **W_vocab** has one scoring direction per vocabulary candidate; multiplication compares h with all candidates at once.
@@ -1096,7 +1034,6 @@ $$
 \ell_i=hW_{\text{vocab}}+b
 $$
 
-
 The equation arrives after every operation has a job.
 
 [Return to the full excavation](excavations/041-logits/README.md)
@@ -1107,7 +1044,7 @@ The equation arrives after every operation has a job.
 
 Suppose *tiger* receives score 2 and *leopard* score 1 after “the striped animal is a.” Softmax turns them into shares of about 0.73 and 0.27. If the observed answer is *tiger*, the model pays the surprise of assigning it 0.73. Had it assigned tiger only 0.01, the penalty would be far larger. The loss therefore records not merely whether the guess won, but how much belief the model risked on reality.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **ℓ_i** is candidate i's raw score.
 - Dividing exponentiated evidence by the sum over all j creates positive probabilities p_i that total one.
@@ -1117,9 +1054,12 @@ Suppose *tiger* receives score 2 and *leopard* score 1 after “the striped anim
 Only now can we compress that reasoning:
 
 $$
-p_i=\frac{e^{\ell_i}}{\sum_j e^{\ell_j}},\qquad L=-\log p_y
+p_i=\frac{e^{\ell_i}}{\sum_j e^{\ell_j}}
 $$
 
+$$
+L=-\log p_y
+$$
 
 The equation arrives after every operation has a job.
 
@@ -1131,7 +1071,7 @@ The equation arrives after every operation has a job.
 
 After “the tiger,” suppose *sleeps* is more likely than *runs*, but both make sense. Always choosing the winner makes every story follow the same path. Imagine a temperature dial on indecision: cooling enlarges the evidence gap and makes *sleeps* dominate; heating shrinks the gap and lets *runs* remain plausible. Dividing every logit by the same temperature implements that dial before sampling.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **ℓ_i** is candidate i's raw logit.
 - **T** is temperature: dividing by T changes score gaps before exponentiation.
@@ -1145,7 +1085,6 @@ $$
 p_i(T)=\frac{e^{\ell_i/T}}{\sum_j e^{\ell_j/T}}
 $$
 
-
 The equation arrives after every operation has a job.
 
 [Return to the full excavation](excavations/043-sampling/README.md)
@@ -1156,7 +1095,7 @@ The equation arrives after every operation has a job.
 
 Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The reader can see the growth by drawing the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **n** is the number of tokens inside the active context.
 - Each of n queries can compare with n keys, creating roughly n×n score pairs.
@@ -1169,7 +1108,6 @@ $$
 \text{attention cost}\propto n^2
 $$
 
-
 The equation arrives after every operation has a job.
 
 [Return to the full excavation](excavations/044-context-window/README.md)
@@ -1180,7 +1118,7 @@ The equation arrives after every operation has a job.
 
 Begin with the prompt “the tiger.” Its token addresses fetch learned starting descriptions; position marks preserve order; masked attention gathers only allowed context; token workshops transform what was gathered; and the output scores every possible next word. Suppose sampling chooses *sleeps*. Appending that choice creates “the tiger sleeps,” and the same mechanism now faces a new prediction. The language model exists only when this entire loop closes.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **tokens** are discrete addresses produced by the tokenizer.
 - **embeddings** turn addresses into vectors; Transformer **blocks** contextualize them under causal masking.
@@ -1195,7 +1133,6 @@ $$
 tokens\to embeddings\to blocks\to logits\to loss\to update\to sample
 $$
 
-
 The equation arrives after every operation has a job.
 
 [Return to the full excavation](excavations/045-tiny-gpt/README.md)
@@ -1206,7 +1143,7 @@ The equation arrives after every operation has a job.
 
 Model A assigns probability 0.5 to each of three observed next tokens. Each costs about 0.693 nats; the average is 0.693. Exponentiating gives 2. The model behaves as if it were choosing among two equally plausible options at each step.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 The token count divides total surprise so longer sentences are comparable. Negative logs turn small assigned probabilities into large costs. Exponentiation reverses the log and returns the result to a probability-like choice scale.
 
@@ -1224,7 +1161,7 @@ $$
 
 Five predictions report 0.8 confidence. Exactly four are correct. Accuracy is 4/5=0.8, so this group is calibrated. If only two are correct, accuracy is 0.4 and the confidence gap is 0.4.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 Each group contains predictions with similar confidence. Accuracy counts how many were correct. The absolute difference measures the reliability gap; weighting by group size prevents tiny groups dominating.
 
@@ -1242,7 +1179,7 @@ $$
 
 Models with 1, 2, and 4 million effective units achieve losses 4.0, 3.2, and 2.8. Improvement continues but shrinks. The curve helps estimate whether doubling again is worth the cost; it does not promise a new capability.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 N is the resource being scaled. The negative exponent makes loss fall as N grows. Alpha controls how quickly returns diminish. A scales the improvable part; B is the floor this simple trend cannot beat.
 
@@ -1260,7 +1197,7 @@ $$
 
 For “How do I reset my router?”, answer A gives three safe ordered steps; answer B gives twenty vague paragraphs. A reviewer chooses A. Repeated comparisons teach concision and usefulness without declaring one exact sentence mandatory.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 The reward scores two responses to the same prompt. Their difference matters, not the absolute score. The logistic function turns that difference into a preference probability; larger positive differences favor the chosen answer.
 
@@ -1305,7 +1242,7 @@ Print a clean tiger photograph on transparent film. At the first step, keep almo
 Only now can we compress the procedure:
 
 $$
-x_t=\sqrt{\bar\alpha_t}\,x_0+\sqrt{1-\bar\alpha_t}\,\epsilon
+x_t=\sqrt{\bar\alpha_t}x_0+\sqrt{1-\bar\alpha_t}\epsilon
 $$
 
 [Return to the full excavation](excavations/084-diffusion/README.md)
@@ -1362,7 +1299,7 @@ A rescue robot sometimes chooses the river path and sometimes the ridge path. On
 Only now can we compress the procedure:
 
 $$
-\nabla_\theta J=\mathbb{E}\left[G\,\nabla_\theta\log\pi_\theta(a\mid s)\right]
+\nabla_\theta J=\mathbb{E}\left[G\nabla_\theta\log\pi_\theta(a\mid s)\right]
 $$
 
 [Return to the full excavation](excavations/090-policy-gradients/README.md)
@@ -1420,7 +1357,11 @@ Suppose one learned weight is `0.73`, but the device can store only integer step
 Only now can we compress the procedure:
 
 $$
-q=\mathrm{round}(w/s),\qquad \widehat w=sq
+q=\mathrm{round}(w/s)
+$$
+
+$$
+\widehat w=sq
 $$
 
 [Return to the full excavation](excavations/095-quantization/README.md)

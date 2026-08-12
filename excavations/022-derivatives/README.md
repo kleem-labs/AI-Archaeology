@@ -1,22 +1,20 @@
 # Excavation 022 — Derivatives — Asking One Weight What It Changed
 
-[Previous excavation](../021-cross-entropy/README.md)
+Cross-entropy turns the model's misplaced confidence into one loss. One number can announce that the whole machine is wrong, but it cannot yet tell any particular weight whether moving up or down would help.
 
-The loss is high. The model has thousands of adjustable numbers. For one weight, should we increase it or decrease it?
+Using what we have, we try a large jump and keep it if loss falls. Large jumps can leap over improvements. Try every possible value; there are infinitely many.
 
-Without knowing the inherited method, we might try this: Try a large jump and keep it if loss falls. Large jumps can leap over improvements. Try every possible value; there are infinitely many.
-
-Remove that assumption and the needed repair becomes clear: Nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
+So we nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
 
 ## From procedure to notation
 
 The procedure now works in ordinary language. To repeat it consistently and implement it at scale, we give precise names to operations the concrete example has already earned.
 
-## Build each piece from what just happened
+## The arithmetic we have earned
 
 A village adjusts one alarm dial controlling how much smoke is needed before ringing a bell. At setting 3 the false-alarm cost is 9. Raising the dial by only 0.001 changes the cost to about 9.006001. The extra cost divided by the tiny dial movement is about 6. Repeating with ever smaller movements reveals the local sensitivity at the current setting rather than the effect of one arbitrary jump.
 
-### Give Short Names Only After We Know the Pieces
+### Only now do the symbols earn names
 
 - **w** is the one weight whose responsibility we are probing.
 - **ε** is a small experimental nudge.
@@ -31,9 +29,6 @@ $$
 \frac{dL}{dw}=\lim_{\epsilon\to0}\frac{L(w+\epsilon)-L(w)}{\epsilon}
 $$
 
-
-The equation is not the discovery. It is the shortest record of the discovery already reconstructed above.
-
 ## Carry the idea back into the world
 
 A derivative is a local slope on a mountain trail: it says which direction rises and how sharply, only near the current step.
@@ -41,8 +36,6 @@ A derivative is a local slope on a mountain trail: it says which direction rises
 ## Limits
 
 A derivative is local advice. Curved landscapes can change direction, flatten, or hide better valleys elsewhere.
-
-This is not an unrelated warning. The construction can nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero. It cannot infer or control information that never enters that construction.
 
 ## Enter the laboratory
 
