@@ -32,6 +32,16 @@ flowchart TD
  SS --> WM[World Models] --> CA[Causality] --> CO[Counterfactuals] --> MP[Model Based Planning] --> TS[Tree Search]
  TS --> RV[Reasoning Verification] --> NS[Neuro Symbolic] --> KG[Knowledge Graphs] --> GN[Graph Networks] --> PS[Program Synthesis]
  PS --> FV[Formal Verification] --> DP[Differential Privacy] --> FE[Federated Learning] --> AR[Adversarial Robustness] --> OR[Open Ended Research]
+ OR --> X126[Hypothesis] --> X127[Experimental Design] --> X128[Reproducibility] --> X129[Benchmarks] --> X130[Contamination]
+ X130 --> X131[Synthetic Data] --> X132[Distillation] --> X133[Mixture of Experts] --> X134[Sparse Attention] --> X135[External Memory]
+ X135 --> X136[Long Context Retrieval] --> X137[Test Time Compute] --> X138[Search and Verification] --> X139[Process Supervision] --> X140[Reward Hacking]
+ X140 --> X141[Specification Gaming] --> X142[Corrigibility] --> X143[Uncertainty Aware Planning] --> X144[Impact Measures] --> X145[Human Oversight]
+ X145 --> X146[Scalable Oversight] --> X147[Debate] --> X148[Constitutional Guidance] --> X149[Predeployment Evaluation] --> X150[Bounded Improvement]
+ X150 --> X151[Reproducible Baseline] --> X152[Profiling] --> X153[Input Pipeline] --> X154[Sequence Packing] --> X155[RoPE]
+ X155 --> X156[Relative Position Bias] --> X157[KV Cache] --> X158[Multi Query Attention] --> X159[Grouped Query Attention] --> X160[FlashAttention]
+ X160 --> X161[RMSNorm] --> X162[Pre Normalization] --> X163[SwiGLU] --> X164[Weight Tying] --> X165[Adam]
+ X165 --> X166[AdamW] --> X167[Gradient Clipping] --> X168[Mixed Precision] --> X169[Loss Scaling] --> X170[Gradient Accumulation]
+ X170 --> X171[Activation Checkpointing] --> X172[ZeRO Sharding] --> X173[Tensor Parallelism] --> X174[Speculative Decoding] --> X175[Modern Tiny Language Model]
 ~~~
 
 Every arrow means the earlier idea creates or exposes the problem that forces the later one.

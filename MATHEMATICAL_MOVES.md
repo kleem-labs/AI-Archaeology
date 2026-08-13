@@ -390,6 +390,20 @@ Use maximum when only the winning value matters. It is brittle when uncertainty,
 diversity, or near-ties matter; then averaging, sampling, or preserving the full
 distribution may be more honest.
 
+<a id="minimum"></a>
+## Minimum: keep the smallest value or enforce a ceiling
+
+Suppose a draft model proposes a token twice as often as the trusted model
+supports it. Their support ratio is one half, so accepting only half the
+proposals repairs the excess. But when the ratio is greater than one, it cannot
+be used directly as a probability: certainty stops at one. Taking the minimum
+of one and the ratio preserves the ratio when it is valid and caps it when it
+is not.
+
+Use minimum when the smaller value is the answer or when a hard upper bound has
+a concrete meaning. Do not use it merely to make a number smaller; it discards
+whichever alternative is larger.
+
 <a id="arg-max"></a>
 ## Arg max: keep the candidate that produced the largest value
 

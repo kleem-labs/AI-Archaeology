@@ -30,6 +30,7 @@ contents.
 | Imagine causes and plans | 111–121 | Model the world, ask causal and counterfactual questions, search futures, verify reasoning, and synthesize exact procedures. |
 | Learn without exposing or breaking people | 122–125 | Protect individual records, learn across devices, resist adversaries, and conduct bounded research. |
 | Earn improvement | 126–150 | Form hypotheses, run reproducible experiments, prevent metric gaming, scale oversight, and release only reversible, authorized improvements. |
+| Rebuild the engine | 151–175 | Freeze one reference model, expose its measured bottlenecks, and earn each modern training or serving repair without changing the trusted result. |
 
 ## Recurring world
 
@@ -48,4 +49,3 @@ valley observations
 Not every chapter must mention a tiger. Every chapter must, however, say what
 the evolving system could do before this chapter and which new encounter made
 that capability insufficient.
-

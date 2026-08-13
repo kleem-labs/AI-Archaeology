@@ -9,7 +9,7 @@ mathematical inventions without rereading the entire narrative.
 For the reusable meaning of an operation, follow its link into the
 [Mathematical Moves guide](MATHEMATICAL_MOVES.md).
 
-**57 equation-bearing excavations · 69 displayed equations**
+**81 equation-bearing excavations · 93 displayed equations**
 
 ## Map
 
@@ -70,6 +70,30 @@ For the reusable meaning of an operation, follow its link into the
 - [Excavation 115 — Tree Search](#excavation-115-tree-search)
 - [Excavation 119 — Graph Neural Networks](#excavation-119-graph-neural-networks)
 - [Excavation 122 — Differential Privacy](#excavation-122-differential-privacy)
+- [Excavation 151 — A Reproducible Baseline — Improve Something That Actually Exists](#excavation-151-a-reproducible-baseline-improve-something-that-actually-exists)
+- [Excavation 152 — Profiling — Measure Where the Time Went](#excavation-152-profiling-measure-where-the-time-went)
+- [Excavation 153 — The Input Pipeline — Stop Making the Accelerator Wait](#excavation-153-the-input-pipeline-stop-making-the-accelerator-wait)
+- [Excavation 154 — Sequence Packing — Stop Training on Empty Space](#excavation-154-sequence-packing-stop-training-on-empty-space)
+- [Excavation 155 — Rotary Position Embeddings — Let Distance Enter the Match](#excavation-155-rotary-position-embeddings-let-distance-enter-the-match)
+- [Excavation 156 — Relative Position Bias — What Should Happen Beyond the Seen Window?](#excavation-156-relative-position-bias-what-should-happen-beyond-the-seen-window)
+- [Excavation 157 — The KV Cache — Stop Re-reading the Entire Past](#excavation-157-the-kv-cache-stop-re-reading-the-entire-past)
+- [Excavation 158 — Multi-Query Attention — Why Cache Separate Copies for Every Head?](#excavation-158-multi-query-attention-why-cache-separate-copies-for-every-head)
+- [Excavation 159 — Grouped-Query Attention — Recover Some Specialist Memory](#excavation-159-grouped-query-attention-recover-some-specialist-memory)
+- [Excavation 160 — FlashAttention — The Arithmetic Was Not the Bottleneck](#excavation-160-flashattention-the-arithmetic-was-not-the-bottleneck)
+- [Excavation 161 — RMSNorm — Do We Need to Subtract the Centre?](#excavation-161-rmsnorm-do-we-need-to-subtract-the-centre)
+- [Excavation 162 — Pre-Normalization — Protect the Residual Highway](#excavation-162-pre-normalization-protect-the-residual-highway)
+- [Excavation 163 — SwiGLU — Let One Learned Path Gate Another](#excavation-163-swiglu-let-one-learned-path-gate-another)
+- [Excavation 164 — Weight Tying — Use One Word Geometry Twice](#excavation-164-weight-tying-use-one-word-geometry-twice)
+- [Excavation 165 — Adam — Give Each Parameter Its Own Step Scale](#excavation-165-adam-give-each-parameter-its-own-step-scale)
+- [Excavation 166 — AdamW — Keep Shrinkage Separate from Adaptation](#excavation-166-adamw-keep-shrinkage-separate-from-adaptation)
+- [Excavation 167 — Gradient Clipping — Stop One Shock from Becoming a Catastrophe](#excavation-167-gradient-clipping-stop-one-shock-from-becoming-a-catastrophe)
+- [Excavation 168 — Mixed Precision — Stop Storing Every Number with Unneeded Detail](#excavation-168-mixed-precision-stop-storing-every-number-with-unneeded-detail)
+- [Excavation 169 — Loss Scaling — Rescue Gradients Too Small to Represent](#excavation-169-loss-scaling-rescue-gradients-too-small-to-represent)
+- [Excavation 170 — Gradient Accumulation — Build a Large Batch That Does Not Fit](#excavation-170-gradient-accumulation-build-a-large-batch-that-does-not-fit)
+- [Excavation 171 — Activation Checkpointing — Remember Less, Recompute Exactly](#excavation-171-activation-checkpointing-remember-less-recompute-exactly)
+- [Excavation 172 — ZeRO — Stop Replicating the Same Training State](#excavation-172-zero-stop-replicating-the-same-training-state)
+- [Excavation 173 — Tensor Parallelism — Split One Matrix That No Device Can Hold](#excavation-173-tensor-parallelism-split-one-matrix-that-no-device-can-hold)
+- [Excavation 174 — Speculative Decoding — Let a Small Model Propose, Never Decide](#excavation-174-speculative-decoding-let-a-small-model-propose-never-decide)
 
 ---
 
@@ -1777,3 +1801,483 @@ P(M(D)\in S)\le e^\epsilon P(M(D^\prime)\in S)
 $$
 
 [Return to the full excavation](excavations/122-differential-privacy/README.md)
+
+---
+
+## Excavation 151 — A Reproducible Baseline — Improve Something That Actually Exists
+
+The frozen run scores 2.4 and the candidate scores 2.1 on the same loss test. Looking at 2.1 alone cannot tell you whether anything improved. Remove the old 2.4 from the new 2.1: the remaining −0.3 is the candidate's change. We call the old measurement m_baseline, the new one m_candidate, and the remainder delta m only after doing that comparison.
+
+m_baseline is the frozen model's measurement; m_candidate is measured by the same procedure; delta m names only the change between them.
+
+### Why these operations are forced
+
+[Subtraction](MATHEMATICAL_MOVES.md#subtraction) removes the common baseline and isolates the candidate's change. Addition would make two large scores look impressive even when they are identical. The order fixes the sign: positive means the candidate raised this metric.
+
+Only now can we compress the procedure:
+
+$$
+\Delta m=m_{\text{candidate}}-m_{\text{baseline}}
+$$
+
+[Return to the full excavation](excavations/151-reproducible-baseline/README.md)
+
+---
+
+## Excavation 152 — Profiling — Measure Where the Time Went
+
+Start a stopwatch with one training step. Loading ends at 35 ms; computation then carries the clock to 80; communication to 90; idle synchronization to 100. These are consecutive pieces of one elapsed interval, so you join them end to end. The name T_step is simply the final reading after T_data, T_compute, T_communication, and T_idle have all contributed.
+
+Each T names elapsed time assigned to one non-overlapping stage of the same training step.
+
+### Why these operations are forced
+
+[Addition](MATHEMATICAL_MOVES.md#addition) is forced because these non-overlapping durations occur along one wall-clock path and accumulate into total time. Multiplication would claim that doubling one stage scales every other stage. The equality is valid only when the measured categories cover the step without overlap.
+
+Only now can we compress the procedure:
+
+$$
+T_{\text{step}}=T_{\text{data}}+T_{\text{compute}}+T_{\text{communication}}+T_{\text{idle}}
+$$
+
+[Return to the full excavation](excavations/152-profiling/README.md)
+
+---
+
+## Excavation 153 — The Input Pipeline — Stop Making the Accelerator Wait
+
+Now give the ranger station's data loader and accelerator separate workers and start both together. Loading finishes after 35 ms, but the next step is still waiting for computation at 45 ms. The pair is ready when the slower worker finishes—not after 35+45 ms. That finishing time is what T_overlapped records; the approximation sign leaves room for pipeline startup and coordination.
+
+The two times describe stages allowed to run concurrently after the pipeline is filled.
+
+### Why these operations are forced
+
+[Maximum](MATHEMATICAL_MOVES.md#maximum) appears because concurrent stages finish when the slower one finishes. Adding would describe serial execution—the failed design. [Approximation](MATHEMATICAL_MOVES.md#approximation) admits startup, synchronization, and overhead that prevent perfect overlap.
+
+Only now can we compress the procedure:
+
+$$
+T_{\text{overlapped}}\approx\max(T_{\text{data}},T_{\text{compute}})
+$$
+
+[Return to the full excavation](excavations/153-input-pipeline/README.md)
+
+---
+
+## Excavation 154 — Sequence Packing — Stop Training on Empty Space
+
+Draw two rows with eight boxes each: sixteen paid positions. Place sequences of lengths 6 and 2 in the first row, then 5 and 3 in the second. All sixteen boxes now contain real tokens. To ask what share of the paid space teaches the model, put useful boxes over paid boxes: 16/16. Eta_pack is only a short name for that useful fraction.
+
+The numerator counts language tokens that create lessons; the denominator counts every position for which hardware reserves work.
+
+### Why these operations are forced
+
+[Division](MATHEMATICAL_MOVES.md#division) forms the useful share per allocated position, making batches of different sizes comparable. A raw token count would reward larger batches even if their wasted fraction were worse. The ratio stays between zero and one because real tokens cannot exceed allocated positions.
+
+Only now can we compress the procedure:
+
+$$
+\eta_{\text{pack}}=\frac{N_{\text{real tokens}}}{N_{\text{allocated positions}}}
+$$
+
+[Return to the full excavation](excavations/154-sequence-packing/README.md)
+
+---
+
+## Excavation 155 — Rotary Position Embeddings — Let Distance Enter the Match
+
+Imagine the pair of coordinates as a clock hand beginning at [1,0]. At position one, a quarter-turn sends it to [0,1]; at position two, another quarter-turn sends it to [−1,0]. The hand's length never changes—only its angle does. Multiplying position p by the chosen turn theta tells us the total angle; the four cosine-and-sine entries record how any starting pair must contribute to its two rotated coordinates.
+
+p is token position, theta is one rotation frequency, and R rotates one coordinate pair without changing its length.
+
+### Why these operations are forced
+
+[Function application](MATHEMATICAL_MOVES.md#function-application) applies the same rotation rule at each position. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) mixes the two coordinates according to cosine and sine; [addition](MATHEMATICAL_MOVES.md#addition) combines their signed contributions. Squaring or adding p would change magnitude instead of encoding position as an angle whose differences survive a shared shift.
+
+Only now can we compress the procedure:
+
+$$
+R(p\theta)=\begin{bmatrix}\cos(p\theta)&-\sin(p\theta)\\\sin(p\theta)&\cos(p\theta)\end{bmatrix}
+$$
+
+[Return to the full excavation](excavations/155-rotary-position/README.md)
+
+---
+
+## Excavation 156 — Relative Position Bias — What Should Happen Beyond the Seen Window?
+
+Suppose tiger matches one key with content score 3.0. The key is two places away, and we decide that each place should cost 0.1, so distance contributes 2×0.1=0.2. Removing that cost leaves 2.8. A key twenty places away pays 20×0.1=2.0 and keeps 1.0. We now name the original content score s_ij, the price per place m, and the adjusted result s-prime.
+
+s_ij is the content match, |i−j| is token separation, m is this head's nonnegative distance slope, and s-prime is the adjusted score.
+
+### Why these operations are forced
+
+[Subtraction](MATHEMATICAL_MOVES.md#subtraction) lowers rather than raises distant matches. [Absolute value](MATHEMATICAL_MOVES.md#absolute-value) keeps separation size while discarding left-versus-right direction in this bias. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) lets slope m control the price per position; adding a fixed m would not make farther tokens cost more.
+
+Only now can we compress the procedure:
+
+$$
+s_{ij}^{\prime}=s_{ij}-m\lvert i-j\rvert
+$$
+
+[Return to the full excavation](excavations/156-relative-position-bias/README.md)
+
+---
+
+## Excavation 157 — The KV Cache — Stop Re-reading the Entire Past
+
+At token 101, write the hundred old keys on cards and compute one new card. Nothing on the old cards has changed, so combining must mean placing card 101 after cards 1 through 100—not adding their numbers together. K_1:t−1 names the ordered stack already present, k_t the one new card, and K_1:t the longer stack after appending.
+
+K_1:t−1 is the unchanged past cache, k_t is the newly computed key, and K_1:t is the cache available to the current query.
+
+### Why these operations are forced
+
+[Function application](MATHEMATICAL_MOVES.md#function-application) names one append operation. Appending preserves order and old values; [addition](MATHEMATICAL_MOVES.md#addition) would numerically blend keys and destroy which token produced each one. The indices show that only position t is new.
+
+Only now can we compress the procedure:
+
+$$
+K_{1:t}=\mathrm{append}(K_{1:t-1},k_t)
+$$
+
+[Return to the full excavation](excavations/157-kv-cache/README.md)
+
+---
+
+## Excavation 158 — Multi-Query Attention — Why Cache Separate Copies for Every Head?
+
+Take one layer with 100 remembered tokens. If each KV head stores 64 coordinates, one head needs 100×64 coordinate slots for keys and the same again for values. Eight heads need eight copies of those slots. The three counts—tokens L, KV heads H_KV, and width d_h—multiply because every choice from one count is paired with every choice from the others.
+
+L is cached sequence length, H_KV is the number of key-value heads, and d_h is the width stored per head.
+
+### Why these operations are forced
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) appears because every token stores every KV head's coordinates: doubling any factor doubles memory. [Proportionality](MATHEMATICAL_MOVES.md#proportionality) omits fixed factors such as both K and V, bytes per number, layers, and batch size while preserving the scaling argument.
+
+Only now can we compress the procedure:
+
+$$
+M_{\text{KV}}\propto L H_{\text{KV}} d_h
+$$
+
+[Return to the full excavation](excavations/158-multi-query-attention/README.md)
+
+---
+
+## Excavation 159 — Grouped-Query Attention — Recover Some Specialist Memory
+
+Line up the model's eight query heads and two KV catalogs. Four consecutive query heads must point to catalog 0 and the next four to catalog 1. Scaling head number h from the eight-head range into the two-catalog range gives h×2/8; rounding down turns positions 0 through 3 into address 0 and positions 4 through 7 into address 1. The name g(h) records that address-making rule.
+
+h is a query-head index, H_Q counts query heads, H_KV counts shared KV groups, and g(h) selects the group serving head h.
+
+### Why these operations are forced
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) spreads the KV group range across query-head indices; [division](MATHEMATICAL_MOVES.md#division) converts one query index into its proportional group location. The floor deliberately [rounds](MATHEMATICAL_MOVES.md#rounding) down so every head receives one valid discrete group rather than a fractional address.
+
+Only now can we compress the procedure:
+
+$$
+g(h)=\left\lfloor\frac{hH_{\text{KV}}}{H_Q}\right\rfloor
+$$
+
+[Return to the full excavation](excavations/159-grouped-query-attention/README.md)
+
+---
+
+## Excavation 160 — FlashAttention — The Arithmetic Was Not the Bottleneck
+
+The model's first attention tile contains scores 1 and 4, so 4 becomes the remembered safety ceiling. The next tile contains 3 and 2; neither exceeds 4, so the ceiling remains 4. If a later tile contained 7, the ceiling would become 7 and the earlier exponential totals would be rescaled. Thus m is the largest score already processed, the s_j values are the arriving tile, and m-prime is the one maximum covering both histories.
+
+m is the largest score already seen, s_j are scores in the new tile, and m-prime is the safe maximum for the combined tiles.
+
+### Why these operations are forced
+
+[Maximum](MATHEMATICAL_MOVES.md#maximum) preserves the one value needed to stabilize exponentials across both old and new tiles. Addition would invent a score that never occurred; averaging could be lower than the true maximum and allow overflow. The prime marks the updated running version; see [symbol decorations](MATHEMATICAL_MOVES.md#symbol-decorations).
+
+Only now can we compress the procedure:
+
+$$
+m^{\prime}=\max(m,\max_j s_j)
+$$
+
+[Return to the full excavation](excavations/160-flash-attention/README.md)
+
+---
+
+## Excavation 161 — RMSNorm — Do We Need to Subtract the Centre?
+
+Take the model feature pair [3,4]. Adding the raw values would let a negative feature cancel a positive one, so first turn their sizes into 9 and 16. Together they contribute 25; shared across two features that is 12.5 per feature. Its square root, about 3.54, returns to the features' ordinary units. Only now do we call this typical magnitude RMS(x) and the feature count d.
+
+d is feature width; each x_i is one feature; RMS(x) is the vector's typical magnitude before a learned scale is applied.
+
+### Why these operations are forced
+
+[Squaring](MATHEMATICAL_MOVES.md#powers) keeps negative and positive feature magnitudes from cancelling. [Summation](MATHEMATICAL_MOVES.md#summation) gathers every feature's contribution, [division](MATHEMATICAL_MOVES.md#division) makes the magnitude per feature, and the [square root](MATHEMATICAL_MOVES.md#square-root) returns to the original scale. Omitting division would make wider vectors appear larger merely for having more coordinates.
+
+Only now can we compress the procedure:
+
+$$
+\mathrm{RMS}(x)=\sqrt{\frac1d\sum_{i=1}^{d}x_i^2}
+$$
+
+[Return to the full excavation](excavations/161-rmsnorm/README.md)
+
+---
+
+## Excavation 162 — Pre-Normalization — Protect the Residual Highway
+
+Let the residual stream carry a useful tiger signal x. The new branch examines a normalized copy and proposes a correction F(...). At initialization that proposal may be almost zero. Adding it to the untouched x lets the block say 'change nothing yet'; replacing x with the proposal would destroy the signal. The layer indices merely distinguish the stream before and after this addition.
+
+x_l is the residual stream entering layer l; RMSNorm prepares only the branch; F proposes a change; x_l+1 is the next stream.
+
+### Why these operations are forced
+
+[Function application](MATHEMATICAL_MOVES.md#function-application) fixes the order: normalize, then transform. [Addition](MATHEMATICAL_MOVES.md#addition) preserves an untouched identity contribution beside the proposal. Replacing x with F would erase the gradient highway; normalizing the sum would place another transformation on that highway.
+
+Only now can we compress the procedure:
+
+$$
+x_{\ell+1}=x_\ell+F(\mathrm{RMSNorm}(x_\ell))
+$$
+
+[Return to the full excavation](excavations/162-pre-normalization/README.md)
+
+---
+
+## Excavation 163 — SwiGLU — Let One Learned Path Gate Another
+
+Picture one candidate feature saying 'river-bank meaning: 5.' A separate learned gate examines this occurrence of bank. Near the river it may open close to 1, allowing almost all 5 through; near money it may close near 0, silencing that feature. This demands multiplication: zero times content must become zero. W_v creates the candidate, W_g creates gate evidence, SiLU shapes that evidence, and the circled product pairs each gate with its own feature.
+
+W_g creates gate evidence, SiLU bends it smoothly, W_v creates candidate content, and the circled product combines matching hidden coordinates.
+
+### Why these operations are forced
+
+[Function application](MATHEMATICAL_MOVES.md#function-application) makes the gate depend on this token. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) is forced because a zero gate must silence its matching content and a partial gate must scale it. Addition would let closed content leak through. The elementwise mark means aligned coordinates interact rather than forming every pair.
+
+Only now can we compress the procedure:
+
+$$
+\mathrm{SwiGLU}(x)=\mathrm{SiLU}(xW_g)\odot(xW_v)
+$$
+
+[Return to the full excavation](excavations/163-swiglu/README.md)
+
+---
+
+## Excavation 164 — Weight Tying — Use One Word Geometry Twice
+
+The input table already contains a row pointing in the learned direction of tiger. At the output, predicting tiger means asking how strongly the final hidden state points along that same direction. Turning table rows into scoring columns changes only their orientation. E names the existing table, T marks that turn, and equality says W_out is the very same learned values—not a second copy trained to resemble them.
+
+E stores one embedding row per token; transpose turns those rows into output-scoring columns without changing their values.
+
+### Why these operations are forced
+
+[Equality](MATHEMATICAL_MOVES.md#equals) imposes shared parameters rather than merely similar initialization. Transposition changes orientation so matrix shapes fit; it does not relearn or numerically transform the coordinates. Using addition would combine two matrices instead of making one geometry perform both roles.
+
+Only now can we compress the procedure:
+
+$$
+W_{\text{out}}=E^{\mathsf T}
+$$
+
+[Return to the full excavation](excavations/164-weight-tying/README.md)
+
+---
+
+## Excavation 165 — Adam — Give Each Parameter Its Own Step Scale
+
+Follow one weight that repeatedly receives gradients near 2 and another that usually receives gradients near 0.2. A single raw step scale makes their movement differ tenfold even if each signal is ordinary for its own weight. Remember each weight's recent direction in m and its recent squared size in v; compare direction with the square root of size, then let eta choose the common overall pace. Epsilon is the tiny floor that keeps a never-touched weight from asking us to divide by zero.
+
+m-hat is bias-corrected directional memory, v-hat is bias-corrected squared-gradient memory, eta is global scale, and epsilon prevents division by zero.
+
+### Why these operations are forced
+
+[Division](MATHEMATICAL_MOVES.md#division) measures direction relative to recent gradient magnitude, giving each coordinate an adaptive scale. The [square root](MATHEMATICAL_MOVES.md#square-root) returns squared-gradient memory to gradient units. [Subtraction](MATHEMATICAL_MOVES.md#subtraction) moves opposite estimated uphill direction; adding would increase loss locally.
+
+Only now can we compress the procedure:
+
+$$
+\theta_{t+1}=\theta_t-\eta\frac{\widehat m_t}{\sqrt{\widehat v_t}+\epsilon}
+$$
+
+[Return to the full excavation](excavations/165-adam/README.md)
+
+---
+
+## Excavation 166 — AdamW — Keep Shrinkage Separate from Adaptation
+
+Suppose two weights both equal 2, although their gradient histories differ. If decay means 'remove one tenth of one percent of the present weight this step,' both should lose the same proportion before their evidence-driven Adam movements differ. Multiplying theta by 1−eta lambda performs that direct shrink. The separate subtraction then applies Adam's learned direction, preventing gradient history from secretly changing the intended decay rule.
+
+lambda is decay strength; the first term shrinks the old parameter directly; the second is Adam's data-driven update.
+
+### Why these operations are forced
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) by 1−eta lambda makes decay proportional to current parameter size: a zero weight stays zero and doubling a weight doubles shrinkage. [Subtraction](MATHEMATICAL_MOVES.md#subtraction) then applies the independently adapted loss step. Hiding decay inside m and v would mix two jobs the formula deliberately separates.
+
+Only now can we compress the procedure:
+
+$$
+\theta_{t+1}=(1-\eta\lambda)\theta_t-\eta\frac{\widehat m_t}{\sqrt{\widehat v_t}+\epsilon}
+$$
+
+[Return to the full excavation](excavations/166-adamw/README.md)
+
+---
+
+## Excavation 167 — Gradient Clipping — Stop One Shock from Becoming a Catastrophe
+
+The model's current gradient points in a useful direction but has length 20, while this run permits length 5. The required scale is 5/20, or one quarter, so every component shrinks by one quarter and direction survives. If the next gradient has length 3, the fraction 5/3 would enlarge it—exactly what we do not want—so we cap the multiplier at 1. We call the ceiling c, the original advice g, and the safe advice g-prime.
+
+g is the original gradient vector, c is the allowed norm ceiling, and g-prime is the gradient actually given to the optimizer.
+
+### Why these operations are forced
+
+[Division](MATHEMATICAL_MOVES.md#division) computes the fraction needed to bring the current norm down to c. [Minimum](MATHEMATICAL_MOVES.md#minimum) chooses at most one, so small gradients are never enlarged. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) scales every coordinate equally, preserving direction; clipping coordinates separately would rotate the update.
+
+Only now can we compress the procedure:
+
+$$
+g^{\prime}=g\min\left(1,\frac{c}{\lVert g\rVert}\right)
+$$
+
+[Return to the full excavation](excavations/167-gradient-clipping/README.md)
+
+---
+
+## Excavation 168 — Mixed Precision — Stop Storing Every Number with Unneeded Detail
+
+Place one million model activation numbers in memory. At 32 bits each they occupy 32 million bits; at 16 bits each, 16 million bits. Hardware reports bytes, with eight bits in each byte, so divide either total by eight: four megabytes versus two. N counts the values, b is the chosen bits per value, and M is the resulting payload in bytes.
+
+N is the number of stored scalar values, b is bits per value, and division by eight converts bits into bytes.
+
+### Why these operations are forced
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) is forced because every one of N values consumes b bits. [Division](MATHEMATICAL_MOVES.md#division) converts units using eight bits per byte; adding eight would not perform a unit conversion. The equality describes payload memory and intentionally omits allocator overhead.
+
+Only now can we compress the procedure:
+
+$$
+M=\frac{N b}{8}\ \text{bytes}
+$$
+
+[Return to the full excavation](excavations/168-mixed-precision/README.md)
+
+---
+
+## Excavation 169 — Loss Scaling — Rescue Gradients Too Small to Represent
+
+A true gradient of 0.000001 may vanish in half precision. Before differentiation, make the loss one thousand times larger; every loss-derived gradient becomes 0.001 and survives. Before updating the weight, divide by the same thousand and recover 0.000001. S names this temporary magnifier, L the original loss, and g the restored gradient—the model has not been told to learn a thousand times faster.
+
+L is original loss, S is a temporary positive scale, and g is the recovered gradient in the loss's original units.
+
+### Why these operations are forced
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) by S enlarges every loss-derived gradient before narrow arithmetic can erase it. [Division](MATHEMATICAL_MOVES.md#division) by the same S reverses that temporary unit change before the optimizer. Adding S would not proportionally enlarge tiny sensitivities and could not be undone uniformly.
+
+Only now can we compress the procedure:
+
+$$
+g=\frac{1}{S}\nabla_\theta(SL)
+$$
+
+[Return to the full excavation](excavations/169-loss-scaling/README.md)
+
+---
+
+## Excavation 170 — Gradient Accumulation — Build a Large Batch That Does Not Fit
+
+Imagine four small tables of eight examples arriving one after another. Each table gives its own average advice about the weights, but none is allowed to update yet. Add the four pieces of advice into one pending total, then share that total across the four witnesses. K counts those witnesses, g_k names one witness's advice, and g_effective is what the single optimizer step hears.
+
+K is the number of micro-batches and g_k is the gradient average produced by micro-batch k of equal size.
+
+### Why these operations are forced
+
+[Summation](MATHEMATICAL_MOVES.md#summation) lets every micro-batch contribute to the same pending update. [Division](MATHEMATICAL_MOVES.md#division) returns advice per micro-batch so increasing K does not enlarge the step by itself. Multiplication would let a zero coordinate in one micro-batch erase all others.
+
+Only now can we compress the procedure:
+
+$$
+g_{\text{effective}}=\frac1K\sum_{k=1}^{K}g_k
+$$
+
+[Return to the full excavation](excavations/170-gradient-accumulation/README.md)
+
+---
+
+## Excavation 171 — Activation Checkpointing — Remember Less, Recompute Exactly
+
+In a model chain of nine layers, keeping every activation costs nine stored boundaries. Keep only layers 0, 3, and 6; during backward work, rebuild the three missing operations inside the needed segment. For a much longer chain, choosing about the square root of L boundaries creates segments of about the same length, balancing stored checkpoints against recomputation. Big-O records this growth pattern, not an exact byte count.
+
+L is the number of sequential layers and the expression records the memory-growth order under a balanced basic checkpoint scheme.
+
+### Why these operations are forced
+
+[Square root](MATHEMATICAL_MOVES.md#square-root) appears because balancing roughly sqrt(L) stored boundaries with sqrt(L)-sized recomputed segments minimizes the larger side of the trade. [Proportionality](MATHEMATICAL_MOVES.md#proportionality) is implicit in big-O: exact bytes depend on activation shapes and implementation.
+
+Only now can we compress the procedure:
+
+$$
+M_{\text{activations}}=O(\sqrt{L})
+$$
+
+[Return to the full excavation](excavations/171-activation-checkpointing/README.md)
+
+---
+
+## Excavation 172 — ZeRO — Stop Replicating the Same Training State
+
+Adam's moment state has twelve equal chunks and four devices are cooperating. Replication gives every device all twelve; sharding gives each device three. Asking for state per device therefore means sharing the total across P owners: total divided by P. The approximation sign remains because temporary gathers and uneven tensor sizes prevent the physical memory from being exactly that ideal share.
+
+M_total is shardable model state and P is the number of cooperating devices under an ideal balanced partition.
+
+### Why these operations are forced
+
+[Division](MATHEMATICAL_MOVES.md#division) expresses an equal share per device. Multiplication describes the failed replicated system's total cluster memory, not the amount one device must hold. [Approximation](MATHEMATICAL_MOVES.md#approximation) admits temporary gathers, buffers, and uneven tensors.
+
+Only now can we compress the procedure:
+
+$$
+M_{\text{state per device}}\approx\frac{M_{\text{total state}}}{P}
+$$
+
+[Return to the full excavation](excavations/172-zero-sharding/README.md)
+
+---
+
+## Excavation 173 — Tensor Parallelism — Split One Matrix That No Device Can Hold
+
+Split the vocabulary-scoring matrix into four column blocks. Every device receives the same hidden state X but multiplies it by only its own block W_p, producing scores Y_p for its quarter of the vocabulary. Those scores must remain distinct, so place the four blocks beside one another in vocabulary order. Adding them would collapse different tokens into the same slots. Y names the restored full score row after concatenation.
+
+W is partitioned into P column blocks; every worker receives X and produces the corresponding block of output columns.
+
+### Why these operations are forced
+
+[Concatenation](MATHEMATICAL_MOVES.md#concatenation) preserves distinct output columns side by side; addition would collapse vocabulary scores that must remain separate. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) applies the same input X to each learned block, and equality states that partitioned execution matches the unsplit matrix operation.
+
+Only now can we compress the procedure:
+
+$$
+Y_p=XW_p,\quad Y=[Y_1,Y_2,\ldots,Y_P]
+$$
+
+[Return to the full excavation](excavations/173-tensor-parallelism/README.md)
+
+---
+
+## Excavation 174 — Speculative Decoding — Let a Small Model Propose, Never Decide
+
+If the draft assigns tiger probability 0.8 but the target assigns 0.4, only half of those proposals have target support: 0.4/0.8=0.5. If the draft assigns 0.4 and the target 0.8, the ratio is 2, but acceptance cannot be 200 percent, so it stops at 1. The function a(x) names this capped acceptance chance for proposed token x.
+
+q(x) is draft probability, p(x) is target probability, and a(x) is the probability of accepting the draft token under the correction step.
+
+### Why these operations are forced
+
+[Division](MATHEMATICAL_MOVES.md#division) compares target support per unit of draft support. [Minimum](MATHEMATICAL_MOVES.md#minimum) caps acceptance at one because probabilities cannot exceed certainty. Simply taking max or always accepting would change the target distribution; the ratio corrects proposals that the draft overproduces.
+
+Only now can we compress the procedure:
+
+$$
+a(x)=\min\left(1,\frac{p(x)}{q(x)}\right)
+$$
+
+[Return to the full excavation](excavations/174-speculative-decoding/README.md)

@@ -12,7 +12,7 @@ For uninterrupted reading, begin with the
 the working dig sites where code, diagrams, mistakes, exercises, and references
 live beside the idea that produced them.
 
-Read it as a book through the [eleven-part reading path](PARTS.md). Work with it
+Read it as a book through the [twelve-part reading path](PARTS.md). Work with it
 as a laboratory through the [field-lab protocol](labs/README.md). The
 [completion status](COMPLETION_STATUS.md) distinguishes finished depth from
 scaffolding still waiting to be excavated.
@@ -192,6 +192,31 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 148 | [Constitutional Guidance — Rules That Can Critique Answers](excavations/148-constitutional-guidance/README.md) | Thousands of preferences cannot cover every new situation. |
 | 149 | [Pre-Deployment Evaluations — Fail Before the World Pays](excavations/149-predeployment-evaluations/README.md) | A model passes ordinary tests and is about to receive real tools. |
 | 150 | [A Bounded Self-Improving System — Close the Research Loop](excavations/150-bounded-self-improvement/README.md) | Can a system improve its own components without quietly expanding its power or rewriting success? |
+| 151 | [A Reproducible Baseline — Improve Something That Actually Exists](excavations/151-reproducible-baseline/README.md) | What exactly must remain fixed before an improvement can be measured? |
+| 152 | [Profiling — Measure Where the Time Went](excavations/152-profiling/README.md) | The baseline is slow. Which operation actually consumes the time? |
+| 153 | [The Input Pipeline — Stop Making the Accelerator Wait](excavations/153-input-pipeline/README.md) | How can loading overlap computation without changing the lessons? |
+| 154 | [Sequence Packing — Stop Training on Empty Space](excavations/154-sequence-packing/README.md) | The pipeline is full, but why is much of each batch padding? |
+| 155 | [Rotary Position Embeddings — Let Distance Enter the Match](excavations/155-rotary-position/README.md) | Packed tokens use the device efficiently. How should attention recognize relative separation? |
+| 156 | [Relative Position Bias — What Should Happen Beyond the Seen Window?](excavations/156-relative-position-bias/README.md) | RoPE exposes relative distance, but how should attention treat distances never seen in training? |
+| 157 | [The KV Cache — Stop Re-reading the Entire Past](excavations/157-kv-cache/README.md) | Why recompute old keys and values for every generated token? |
+| 158 | [Multi-Query Attention — Why Cache Separate Copies for Every Head?](excavations/158-multi-query-attention/README.md) | The cache avoids recomputation. Why store one complete history per query head? |
+| 159 | [Grouped-Query Attention — Recover Some Specialist Memory](excavations/159-grouped-query-attention/README.md) | Can specialist key-value views return without restoring every copy? |
+| 160 | [FlashAttention — The Arithmetic Was Not the Bottleneck](excavations/160-flash-attention/README.md) | Why does exact long-sequence attention spend so much time moving its score matrix? |
+| 161 | [RMSNorm — Do We Need to Subtract the Centre?](excavations/161-rmsnorm/README.md) | Can normalization preserve useful scale control with less work? |
+| 162 | [Pre-Normalization — Protect the Residual Highway](excavations/162-pre-normalization/README.md) | Where should normalization sit so gradients can cross a deep stack? |
+| 163 | [SwiGLU — Let One Learned Path Gate Another](excavations/163-swiglu/README.md) | Can the feed-forward block choose which candidate features pass? |
+| 164 | [Weight Tying — Use One Word Geometry Twice](excavations/164-weight-tying/README.md) | Why learn unrelated token geometry at the entrance and exit? |
+| 165 | [Adam — Give Each Parameter Its Own Step Scale](excavations/165-adam/README.md) | Why does one global learning rate train some weights poorly? |
+| 166 | [AdamW — Keep Shrinkage Separate from Adaptation](excavations/166-adamw/README.md) | What goes wrong when weight decay passes through Adam's adaptive scaling? |
+| 167 | [Gradient Clipping — Stop One Shock from Becoming a Catastrophe](excavations/167-gradient-clipping/README.md) | How should training react to one enormous gradient spike? |
+| 168 | [Mixed Precision — Stop Storing Every Number with Unneeded Detail](excavations/168-mixed-precision/README.md) | Why pay full precision for operations that do not need it? |
+| 169 | [Loss Scaling — Rescue Gradients Too Small to Represent](excavations/169-loss-scaling/README.md) | How can tiny gradients survive reduced precision? |
+| 170 | [Gradient Accumulation — Build a Large Batch That Does Not Fit](excavations/170-gradient-accumulation/README.md) | How can several micro-batches become one honest optimizer step? |
+| 171 | [Activation Checkpointing — Remember Less, Recompute Exactly](excavations/171-activation-checkpointing/README.md) | Why store every intermediate value when some can be rebuilt? |
+| 172 | [ZeRO — Stop Replicating the Same Training State](excavations/172-zero-sharding/README.md) | Why does every data-parallel device hold the same optimizer state? |
+| 173 | [Tensor Parallelism — Split One Matrix That No Device Can Hold](excavations/173-tensor-parallelism/README.md) | What if one layer is too large even when training state is sharded? |
+| 174 | [Speculative Decoding — Let a Small Model Propose, Never Decide](excavations/174-speculative-decoding/README.md) | Can a cheap draft accelerate generation without replacing the trusted distribution? |
+| 175 | [A Modern Tiny Language Model — Assemble the Measured Engine](excavations/175-modern-tiny-llm/README.md) | Can every earned repair cooperate while preserving evidence and a reference path? |
 
 ## A note on style
 

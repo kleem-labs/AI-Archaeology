@@ -4,10 +4,10 @@ This page prevents a large repository from looking more finished than it is.
 
 ## What is genuinely in place
 
-- 151 linked excavations with the observation → attempt → failure → discovery discipline.
+- 176 linked excavations with the observation → attempt → failure → discovery discipline.
 - Companions beside every relevant chapter: mistakes, diagrams, exercises, references, and three implementation stages.
 - Automated checks for guided discovery and equations introduced only after their concrete pieces.
-- 35 passing behavior tests.
+- Passing behavior tests for the original laboratories and the complete Part XII engine arc.
 - A first polished laboratory trail connecting Distance, Softmax, Attention, Gradient Descent, and Tiny GPT.
 
 ## What “present” does not yet mean

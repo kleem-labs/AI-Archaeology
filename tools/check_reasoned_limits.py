@@ -7,7 +7,7 @@ failures = []
 
 for path in sorted((root / "excavations").glob("*/README.md")):
     text = path.read_text()
-    match = re.search(r"^## (?:Limits|Where [^\n]*breaks)\n+(.*?)(?=^## |\Z)", text, re.M | re.S)
+    match = re.search(r"^## (?:Limits|Where [^\n]*breaks|What this repair cannot do)\n+(.*?)(?=^## |\Z)", text, re.M | re.S)
     if not match:
         continue
     body = match.group(1).strip()

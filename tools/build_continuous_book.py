@@ -13,6 +13,8 @@ VOLUMES = (
      "The model can speak. Now it must earn trust, use evidence and tools, survive deployment, gain new senses, act through consequences, and become an accountable system."),
     ("VOLUME_III_WE_KEEP_LEARNING.md", 101, 150, "Volume III — We Let the Mind Keep Learning",
      "The deployed system meets ignorance, change, causality, proof, privacy, attack, and finally the question of whether it may improve itself."),
+    ("VOLUME_IV_WE_REBUILD_THE_ENGINE.md", 151, 175, "Volume IV — We Rebuild the Engine",
+     "The research loop has earned the right to propose changes. We return to the tiny language model, freeze one honest baseline, and rebuild its engine one measured bottleneck at a time without surrendering a reference path."),
 )
 
 PARTS = {
@@ -38,12 +40,14 @@ PARTS = {
           "A complete deployed system still faces two dangerous words: ‘I’m uncertain.’ Sometimes the world is genuinely ambiguous; sometimes the model simply has not learned enough. Separating those cases opens a longer journey through updating, continual learning, causal imagination, planning, proof, privacy, and robust research."),
     126: ("Part XI — Earning the Right to Improve",
           "The research system can now propose changes to itself. That power does not grant permission to deploy them. Every proposed improvement must become a falsifiable claim, survive controlled and reproducible tests, resist contaminated metrics and strategic gaming, and remain subject to human authority and rollback."),
+    151: ("Part XII — Rebuilding the Engine Without Breaking the System",
+          "The bounded loop gives us permission to improve—not permission to guess. We freeze the tiny language model, measure where its time and memory go, and replace one bottleneck at a time while the original path remains available to challenge every faster one."),
 }
 
 SUPPORT_HEADINGS = (
     "Enter the laboratory", "Implementation", "Test what you believe", "Exercises",
     "Challenge", "Before you leave the excavation", "Carry the discovery forward",
-    "Connections", "What this discovery now makes possible",
+    "Connections", "What this discovery now makes possible", "Continue the dig",
 )
 
 SCAFFOLD_HEADINGS = (
@@ -51,6 +55,7 @@ SCAFFOLD_HEADINGS = (
     "Only now do the symbols earn names", "Let the case decide",
     "The boundary of the discovery", "Carry the idea back into the world",
     "Next Need", "What the next excavation needs",
+    "Let one run decide", "What this repair cannot do",
 )
 
 
@@ -71,6 +76,14 @@ def chapter_for_book(path):
         "",
         text,
         flags=re.M,
+    )
+    text = text.replace(
+        "Nothing in that case was introduced because a modern model happens to use it. The measured failure created the job; the repair is only the shortest design that performs it.\n",
+        "",
+    )
+    text = text.replace(
+        "That boundary is the opening condition of the next excavation.\n",
+        "",
     )
     # Volume title (H1) → part (H2) → excavation (H3) → chapter sections.
     text = re.sub(r"^(#{1,4}) ", lambda m: "#" * (len(m.group(1)) + 2) + " ", text, flags=re.M)
@@ -106,7 +119,7 @@ def outputs():
         result[BOOK / args[0]] = build_volume(*args)
     result[BOOK / "README.md"] = """# Read AI Archaeology as a Book
 
-The excavation folders are workshops. These three volumes are the uninterrupted
+The excavation folders are workshops. These four volumes are the uninterrupted
 reading edition. Supporting code, diagrams, mistakes, exercises, and references
 remain beside the chapter they belong to and are linked at the end of each
 chapter.
@@ -114,6 +127,7 @@ chapter.
 1. [Volume I — We Build a Mind](VOLUME_I_WE_BUILD_A_MIND.md)
 2. [Volume II — We Let the Mind Enter the World](VOLUME_II_WE_ENTER_THE_WORLD.md)
 3. [Volume III — We Let the Mind Keep Learning](VOLUME_III_WE_KEEP_LEARNING.md)
+4. [Volume IV — We Rebuild the Engine](VOLUME_IV_WE_REBUILD_THE_ENGINE.md)
 
 For equation-focused review after deriving the ideas, use the
 [Mathematical Gist](../MATHEMATICAL_GIST.md).
@@ -139,4 +153,4 @@ else:
     BOOK.mkdir(exist_ok=True)
     for path, content in generated.items():
         path.write_text(content)
-    print("Built the three-volume continuous reading edition.")
+    print("Built the four-volume continuous reading edition.")

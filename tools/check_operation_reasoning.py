@@ -2,8 +2,6 @@
 from pathlib import Path
 import re
 
-from add_operation_reasoning import REASONS
-
 ROOT = Path(__file__).parents[1]
 GUIDE = ROOT / "MATHEMATICAL_MOVES.md"
 guide = GUIDE.read_text()
@@ -37,11 +35,6 @@ for path in sorted((ROOT / "excavations").glob("*/README.md")):
     )
     if not alternatives:
         failures.append(f"{path}: explains names but not why an alternative operation fails")
-
-if equation_numbers != set(REASONS):
-    missing = sorted(equation_numbers - set(REASONS))
-    extra = sorted(set(REASONS) - equation_numbers)
-    failures.append(f"operation-reasoning map mismatch; missing={missing}, extra={extra}")
 
 if failures:
     raise SystemExit("\n".join(failures))

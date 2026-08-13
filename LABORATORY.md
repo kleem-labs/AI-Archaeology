@@ -28,6 +28,7 @@ python3 tools/check_book_lab.py
 | [Attention](labs/03_attention_lab.py) | 008–010 | queries, keys, values | relevance versus contributed content |
 | [Gradient descent](labs/04_gradient_lab.py) | 022–028 | learning rate | slow learning, progress, and overshoot |
 | [Tiny generation loop](labs/05_generation_lab.py) | 036–045 | logits, seed, context | tokenize → score → sample → append |
+| [Measured engine rebuild](labs/06_engine_rebuild_lab.py) | 151–175 | overlap, KV heads, precision, draft support | faster and smaller paths that remain accountable to a frozen reference |
 
 Each lab prints intermediate values and contains assertions for the failure it
 was designed to expose. Read the linked excavation first; the lab is evidence,

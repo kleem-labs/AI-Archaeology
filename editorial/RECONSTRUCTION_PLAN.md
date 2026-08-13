@@ -56,6 +56,13 @@ retain old knowledge, model causes, plan and verify, protect people and data,
 and finally propose improvements that cannot deploy themselves without
 reproducible evidence and authorization.
 
+### Volume IV — We rebuild the engine (151–175)
+
+Return to the tiny language model under the bounded research loop. Preserve a
+reproducible reference path while profiling, repairing attention and the block,
+stabilizing optimization, crossing device boundaries, and verifying faster
+decoding against the target distribution.
+
 ## Boundary contract
 
 For adjacent chapters A → B:

@@ -1,6 +1,6 @@
-# The Book in Eleven Parts
+# The Book in Twelve Parts
 
-A list of 151 chapters feels like a file index. A book needs a journey. Each
+A list of 176 chapters feels like a file index. A book needs a journey. Each
 part below ends where a new kind of failure makes the next part necessary.
 
 | Part | Excavations | Human question |
@@ -16,6 +16,7 @@ part below ends where a new kind of failure makes the next part necessary.
 | IX — Acting and Scaling | 086–100 | How do rewards, modalities, infrastructure, and governance meet? |
 | X — Learning What We Still Do Not Know | 101–125 | How can a system adapt, reason, verify, and research without losing control? |
 | XI — Earning the Right to Improve | 126–150 | How can proposed improvements survive experiments, adversaries, oversight, and rollback? |
+| XII — Rebuilding the Engine Without Breaking the System | 151–175 | How can we make the language-model engine faster, steadier, and larger without changing what it means or losing the reference path? |
 
 Start with [Excavation 000](excavations/000-before-mathematics-existed/README.md),
 but do not rush to “finish chapters.” Stop whenever a failed attempt surprises

@@ -22,6 +22,10 @@ class LaboratoryTests(unittest.TestCase):
         load("04_gradient_lab.py").run()
     def test_generation_lab(self):
         self.assertEqual(len(load("05_generation_lab.py").run()), 4)
+    def test_engine_rebuild_lab(self):
+        result = load("06_engine_rebuild_lab.py").run_lab()
+        self.assertEqual(result["quality_authority"], "frozen target model")
+        self.assertEqual(result["kv_cache_reduction"], 4)
 
 if __name__ == "__main__":
     unittest.main()

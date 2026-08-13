@@ -141,12 +141,19 @@ CARRY = {
 150:"Pre-deployment evaluation can reject a dangerous candidate before the world pays for the experiment. A measured improvement must still pass reproducibility, impact review, authorization, staged release, monitoring, and rollback before it may replace the system that proposed it.",
 }
 
+# Part XII is authored as one measured experiment by its dedicated builder. Use
+# those exact openings here so continuity checks cannot drift away from the
+# chapter sources.
+from build_excavations_151_175 import ROWS as PART_XII_ROWS
+CARRY.update({row[0]: row[4] for row in PART_XII_ROWS})
+
 ATTEMPT_MARKERS = (
     "The first solution that suggests itself is this:",
     "A reasonable place to begin is:",
     "Without knowing the inherited method, we might try this:",
     "At first, the simplest answer is tempting:",
     "Our first construction is deliberately modest:",
+    "The first repair that suggests itself is simple:",
 )
 FAILURE_MARKERS = (
     "The idea survives only until we test it against reality:",
@@ -370,7 +377,7 @@ def main():
             text = integrate(number, text)
         text = clean_editorial_scaffolding(text)
         path.write_text(text.rstrip() + "\n")
-    print("Rebuilt causal openings and removed editorial scaffolding from Excavations 000–150.")
+    print("Rebuilt causal openings and removed editorial scaffolding from Excavations 000–175.")
 
 
 if __name__ == "__main__":
