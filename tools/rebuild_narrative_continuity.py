@@ -146,6 +146,8 @@ CARRY = {
 # chapter sources.
 from build_excavations_151_175 import ROWS as PART_XII_ROWS
 CARRY.update({row[0]: row[4] for row in PART_XII_ROWS})
+from build_excavations_176_200 import ROWS as PART_XIII_ROWS
+CARRY.update({row[0]: row[3] for row in PART_XIII_ROWS})
 
 ATTEMPT_MARKERS = (
     "The first solution that suggests itself is this:",
@@ -377,7 +379,7 @@ def main():
             text = integrate(number, text)
         text = clean_editorial_scaffolding(text)
         path.write_text(text.rstrip() + "\n")
-    print("Rebuilt causal openings and removed editorial scaffolding from Excavations 000–175.")
+    print("Rebuilt causal openings and removed editorial scaffolding from Excavations 000–200.")
 
 
 if __name__ == "__main__":

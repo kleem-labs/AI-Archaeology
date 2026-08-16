@@ -15,6 +15,8 @@ VOLUMES = (
      "The deployed system meets ignorance, change, causality, proof, privacy, attack, and finally the question of whether it may improve itself."),
     ("VOLUME_IV_WE_REBUILD_THE_ENGINE.md", 151, 175, "Volume IV — We Rebuild the Engine",
      "The research loop has earned the right to propose changes. We return to the tiny language model, freeze one honest baseline, and rebuild its engine one measured bottleneck at a time without surrendering a reference path."),
+    ("VOLUME_V_WE_ACCOUNT_FOR_PRETRAINING.md", 176, 200, "Volume V — We Account for Pretraining",
+     "The modern engine can run. We now build the accountable factory around it: traceable evidence, explicit curation, budgeted learning, coordinated workers, recoverable state, independent audits, and a report that remains attached to the final artifact."),
 )
 
 PARTS = {
@@ -42,6 +44,8 @@ PARTS = {
           "The research system can now propose changes to itself. That power does not grant permission to deploy them. Every proposed improvement must become a falsifiable claim, survive controlled and reproducible tests, resist contaminated metrics and strategic gaming, and remain subject to human authority and rollback."),
     151: ("Part XII — Rebuilding the Engine Without Breaking the System",
           "The bounded loop gives us permission to improve—not permission to guess. We freeze the tiny language model, measure where its time and memory go, and replace one bottleneck at a time while the original path remains available to challenge every faster one."),
+    176: ("Part XIII — A Pretraining Factory We Can Account For",
+          "The model is modern but still empty of trustworthy experience. We follow one named corpus from its source documents through boundaries, curation, mixture decisions, compute budgets, distributed training, recovery, validation, memorization audits, and a reversible release."),
 }
 
 SUPPORT_HEADINGS = (
@@ -85,6 +89,14 @@ def chapter_for_book(path):
         "That boundary is the opening condition of the next excavation.\n",
         "",
     )
+    text = text.replace(
+        "The standard name arrives only after the reader can point to the information the earlier design lost.\n",
+        "",
+    )
+    text = text.replace(
+        "That limit supplies the next excavation's opening condition.\n",
+        "",
+    )
     # Volume title (H1) → part (H2) → excavation (H3) → chapter sections.
     text = re.sub(r"^(#{1,4}) ", lambda m: "#" * (len(m.group(1)) + 2) + " ", text, flags=re.M)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
@@ -119,7 +131,7 @@ def outputs():
         result[BOOK / args[0]] = build_volume(*args)
     result[BOOK / "README.md"] = """# Read AI Archaeology as a Book
 
-The excavation folders are workshops. These four volumes are the uninterrupted
+The excavation folders are workshops. These five volumes are the uninterrupted
 reading edition. Supporting code, diagrams, mistakes, exercises, and references
 remain beside the chapter they belong to and are linked at the end of each
 chapter.
@@ -128,6 +140,7 @@ chapter.
 2. [Volume II — We Let the Mind Enter the World](VOLUME_II_WE_ENTER_THE_WORLD.md)
 3. [Volume III — We Let the Mind Keep Learning](VOLUME_III_WE_KEEP_LEARNING.md)
 4. [Volume IV — We Rebuild the Engine](VOLUME_IV_WE_REBUILD_THE_ENGINE.md)
+5. [Volume V — We Account for Pretraining](VOLUME_V_WE_ACCOUNT_FOR_PRETRAINING.md)
 
 For equation-focused review after deriving the ideas, use the
 [Mathematical Gist](../MATHEMATICAL_GIST.md).
@@ -153,4 +166,4 @@ else:
     BOOK.mkdir(exist_ok=True)
     for path, content in generated.items():
         path.write_text(content)
-    print("Built the four-volume continuous reading edition.")
+    print("Built the five-volume continuous reading edition.")

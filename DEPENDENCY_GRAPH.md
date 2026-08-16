@@ -42,6 +42,11 @@ flowchart TD
  X160 --> X161[RMSNorm] --> X162[Pre Normalization] --> X163[SwiGLU] --> X164[Weight Tying] --> X165[Adam]
  X165 --> X166[AdamW] --> X167[Gradient Clipping] --> X168[Mixed Precision] --> X169[Loss Scaling] --> X170[Gradient Accumulation]
  X170 --> X171[Activation Checkpointing] --> X172[ZeRO Sharding] --> X173[Tensor Parallelism] --> X174[Speculative Decoding] --> X175[Modern Tiny Language Model]
+ X175 --> X176[Corpus Manifest] --> X177[Document Boundaries] --> X178[Language Identification] --> X179[Exact Deduplication] --> X180[Near Deduplication]
+ X180 --> X181[Quality Filtering] --> X182[Data Provenance] --> X183[PII Redaction] --> X184[Data Mixtures] --> X185[Mixture Sampling]
+ X185 --> X186[Token Budget] --> X187[Compute Allocation] --> X188[Learning Rate Warmup] --> X189[Cosine Decay] --> X190[Gradient Noise Scale]
+ X190 --> X191[Data Parallelism] --> X192[Pipeline Parallelism] --> X193[Three Dimensional Parallelism] --> X194[Sharded Checkpoints] --> X195[Deterministic Resume]
+ X195 --> X196[Loss Spike Recovery] --> X197[Validation Stream] --> X198[Memorization Audit] --> X199[Training Report] --> X200[Tiny Pretraining Factory]
 ~~~
 
 Every arrow means the earlier idea creates or exposes the problem that forces the later one.

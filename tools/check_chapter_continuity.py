@@ -8,8 +8,8 @@ ROOT = Path(__file__).parents[1]
 failures = []
 chapters = sorted((ROOT / "excavations").glob("*/README.md"))
 
-if len(chapters) != 176:
-    failures.append(f"expected Excavations 000–175, found {len(chapters)}")
+if len(chapters) != 201:
+    failures.append(f"expected Excavations 000–200, found {len(chapters)}")
 
 for path in chapters:
     number = int(path.parent.name[:3])
@@ -33,4 +33,4 @@ for path in chapters:
 if failures:
     raise SystemExit("\n".join(failures))
 
-print("Verified one causal opening chain across Excavations 000–175.")
+print("Verified one causal opening chain across Excavations 000–200.")

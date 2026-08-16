@@ -12,7 +12,7 @@ For uninterrupted reading, begin with the
 the working dig sites where code, diagrams, mistakes, exercises, and references
 live beside the idea that produced them.
 
-Read it as a book through the [twelve-part reading path](PARTS.md). Work with it
+Read it as a book through the [thirteen-part reading path](PARTS.md). Work with it
 as a laboratory through the [field-lab protocol](labs/README.md). The
 [completion status](COMPLETION_STATUS.md) distinguishes finished depth from
 scaffolding still waiting to be excavated.
@@ -217,6 +217,31 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 173 | [Tensor Parallelism — Split One Matrix That No Device Can Hold](excavations/173-tensor-parallelism/README.md) | What if one layer is too large even when training state is sharded? |
 | 174 | [Speculative Decoding — Let a Small Model Propose, Never Decide](excavations/174-speculative-decoding/README.md) | Can a cheap draft accelerate generation without replacing the trusted distribution? |
 | 175 | [A Modern Tiny Language Model — Assemble the Measured Engine](excavations/175-modern-tiny-llm/README.md) | Can every earned repair cooperate while preserving evidence and a reference path? |
+| 176 | [A Corpus Manifest — Know What Entered the Run](excavations/176-corpus-manifest/README.md) | Which exact body of evidence will shape the model? |
+| 177 | [Document Boundaries — Keep One Story from Leaking into Another](excavations/177-document-boundaries/README.md) | How can packed documents avoid inventing false continuations? |
+| 178 | [Language Identification — Do Not Confuse Familiar Script with Familiar Language](excavations/178-language-identification/README.md) | Which language evidence does the corpus actually contain? |
+| 179 | [Exact Deduplication — Stop Paying Twice for the Same Document](excavations/179-exact-deduplication/README.md) | Why should a mirrored document receive more votes? |
+| 180 | [Near Deduplication — When a Copy Changes a Few Words](excavations/180-near-deduplication/README.md) | How can edited copies be recognized without demanding equality? |
+| 181 | [Quality Filtering — Remove Noise Without Defining Humanity Away](excavations/181-quality-filtering/README.md) | How can noise be reduced without hiding whose language was excluded? |
+| 182 | [Data Provenance — Keep the Path Back to Every Source](excavations/182-data-provenance/README.md) | Can every final token be traced through the decisions that retained it? |
+| 183 | [PII Redaction — Do Not Turn Accidental Secrets into Lessons](excavations/183-pii-redaction/README.md) | How can risky spans be removed without erasing the entire document? |
+| 184 | [Data Mixtures — Decide Which Worlds Receive a Voice](excavations/184-data-mixtures/README.md) | Should raw source size silently choose the model's curriculum? |
+| 185 | [Mixture Sampling — Turn Planned Shares into a Reproducible Stream](excavations/185-mixture-sampling/README.md) | How do domain proportions become a finite ordered stream? |
+| 186 | [The Token Budget — Convert a Training Plan into a Count of Lessons](excavations/186-token-budget/README.md) | How much language will the run actually expose? |
+| 187 | [Compute-Optimal Allocation — Buy a Larger Memory or More Experience?](excavations/187-compute-optimal-allocation/README.md) | Should fixed compute buy more parameters or more tokens? |
+| 188 | [Learning-Rate Warmup — Let Adam Learn the Terrain Before Running](excavations/188-learning-rate-warmup/README.md) | Why are the optimizer's first steps unusually fragile? |
+| 189 | [Cosine Decay — Make Late Corrections Smaller Without a Cliff](excavations/189-cosine-decay/README.md) | How should broad early learning become careful late correction? |
+| 190 | [Gradient Noise Scale — When More Examples Stop Buying More Direction](excavations/190-gradient-noise-scale/README.md) | When does a larger batch mostly repeat existing advice? |
+| 191 | [Data Parallelism — Let Several Workers Observe Different Evidence](excavations/191-data-parallelism/README.md) | How can several devices form one honest global batch? |
+| 192 | [Pipeline Parallelism — Keep Layer Stages Working Together](excavations/192-pipeline-parallelism/README.md) | How can model stages avoid waiting for a whole batch? |
+| 193 | [Three-Dimensional Parallelism — Give Each Memory Wall Its Own Axis](excavations/193-three-dimensional-parallelism/README.md) | How can tensor, pipeline, and data parallelism cooperate? |
+| 194 | [Sharded Checkpoints — Save One Recoverable State Without Gathering It](excavations/194-sharded-checkpoints/README.md) | When is a directory of shards truly one checkpoint? |
+| 195 | [Deterministic Resume — Continue the Same Experiment, Not a Similar One](excavations/195-deterministic-resume/README.md) | What must be restored so the next update remains the same? |
+| 196 | [Loss Spikes — Distinguish One Hard Batch from a Run Leaving the Road](excavations/196-loss-spike-recovery/README.md) | When should a loss jump trigger recovery? |
+| 197 | [A Validation Stream — Test Learning Outside the Current Batch](excavations/197-validation-stream/README.md) | Is the model improving beyond the data presently updating it? |
+| 198 | [A Memorization Audit — Pattern or Stored Passage?](excavations/198-memorization-audit/README.md) | Can authorized probes reveal extractable training memory? |
+| 199 | [The Training Report — Preserve the Decisions, Not Only the Weights](excavations/199-training-report/README.md) | What evidence must accompany the final tensors? |
+| 200 | [A Tiny Pretraining Factory — Close the Accountable Training Loop](excavations/200-tiny-pretraining-factory/README.md) | Can one run remain traceable from source documents to reversible release? |
 
 ## A note on style
 

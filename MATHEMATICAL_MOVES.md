@@ -29,14 +29,14 @@ explains why that tool became necessary there.
 
 | Job | Moves |
 |---|---|
-| Name and organize | [equals](#equals), [brackets](#brackets), [indices](#indices), [membership](#membership), [arrows](#arrows), [function application](#function-application) |
+| Name and organize | [equals](#equals), [brackets](#brackets), [indices](#indices), [membership](#membership), [arrows](#arrows), [function application](#function-application), [function composition](#function-composition), [tuples](#tuples), [tables](#tables) |
 | Compare and measure change | [subtraction](#subtraction), [absolute value](#absolute-value), [powers](#powers), [square root](#square-root), [difference and delta](#difference-and-delta) |
 | Combine evidence | [addition](#addition), [summation](#summation), [multiplication](#multiplication), [dot product](#dot-product), [concatenation](#concatenation) |
 | Share and normalize | [division](#division), [mean](#mean), [normalization](#normalization), [norm](#norm) |
-| Reshape scale | [exponential](#exponential), [logarithm](#logarithm), [negative sign](#negative-sign) |
-| Choose or constrain | [maximum](#maximum), [arg-max](#arg-max), [cases](#cases), [inequalities](#inequalities), [union](#union), [rounding](#rounding) |
+| Reshape scale | [exponential](#exponential), [logarithm](#logarithm), [negative sign](#negative-sign), [cosine](#cosine) |
+| Choose or constrain | [maximum](#maximum), [arg-max](#arg-max), [cases](#cases), [inequalities](#inequalities), [union](#union), [intersection](#intersection), [replacement](#replacement), [rounding](#rounding), [logical conjunction](#logical-and) |
 | Describe sensitivity | [limit](#limit), [derivative](#derivative), [partial derivative](#partial-derivative), [gradient](#gradient), [proportionality](#proportionality) |
-| Reason under uncertainty | [probability](#probability), [conditional bar](#conditional-bar), [expectation](#expectation), [variance](#variance) |
+| Reason under uncertainty | [probability](#probability), [conditional bar](#conditional-bar), [expectation](#expectation), [variance](#variance), [covariance](#covariance), [trace](#trace) |
 
 ## Quick sign index
 
@@ -53,11 +53,13 @@ explains why that tool became necessary there.
 | $\log a$ | convert multiplication into addition | [logarithm](#logarithm) |
 | $\lvert a\rvert$, $\lVert a\rVert$ | magnitude after discarding selected direction information | [absolute value](#absolute-value), [norm](#norm) |
 | $\to$, $\leftarrow$ | flows into, becomes, or is updated by | [arrows](#arrows) |
-| $\in$, $\cup$ | belongs to a set; joins set members | [membership](#membership), [union](#union) |
+| $\in$, $\cup$, $\cap$ | belongs to a set; joins or intersects set members | [membership](#membership), [union](#union), [intersection](#intersection) |
 | $<$, $>$, $\le$ | order or bound without claiming equality | [inequalities](#inequalities) |
 | $\approx$, $\propto$ | approximately equal; scales like | [approximation](#approximation), [proportionality](#proportionality) |
 | $\lim$, $d/du$, $\partial$, $\nabla$ | approaching value; local sensitivity | [limit](#limit), [derivative](#derivative), [partial derivative](#partial-derivative), [gradient](#gradient) |
 | $P(\cdot)$, $\mid$, $\mathbb{E}$ | probability, conditioning, probability-weighted average | [probability](#probability), [conditional bar](#conditional-bar), [expectation](#expectation) |
+| $\cos$, $\mathrm{Cov}$, $\mathrm{tr}$ | smooth angular change; co-variation; diagonal total | [cosine](#cosine), [covariance](#covariance), [trace](#trace) |
+| $\land$ | every required condition must hold | [logical conjunction](#logical-and) |
 | $\max$, $\underset{x}{\text{arg max}}$ | winning value; candidate that wins | [maximum](#maximum), [arg max](#arg-max) |
 | $\lvert B\rvert$ | number of members in B | [cardinality](#cardinality) |
 | $x_i$, $x^*$, $x'$, $\widehat{x}$, $\bar{x}$ | addressed or specially marked version of x | [indices](#indices), [symbol decorations](#symbol-decorations) |
@@ -555,6 +557,100 @@ averaging them.
 Use variance for noise, uncertainty, initialization scale, and dispersion. It
 measures spread, not the original unit; standard deviation takes the square
 root to return to that unit.
+
+<a id="intersection"></a>
+## Intersection: keep only members shared by both sets
+
+Two documents can be represented by their overlapping phrase sets. Their
+intersection keeps phrases found in both documents and discards phrases found
+in only one. A union asks a different question: everything found in either.
+
+Use intersection for overlap, shared permissions, common evidence, and jointly
+satisfied membership. Do not use it when unique members must remain visible.
+
+<a id="function-composition"></a>
+## Function composition: make the output of one procedure feed the next
+
+Exact deduplication first normalizes irrelevant formatting and only then hashes
+the result. Composition preserves that order. Hashing first would freeze the
+very formatting differences normalization was meant to erase.
+
+Use composition when several transformations form one ordered machine. It is
+not multiplication: the intermediate object is passed forward, not numerically
+scaled.
+
+<a id="replacement"></a>
+## Replacement: preserve a structure while changing one identified part
+
+Redacting a phone number can replace the risky span with `[PHONE]` while keeping
+the surrounding grammatical lesson. Deleting the whole document discards far
+more; leaving the span unchanged preserves the risk.
+
+Use replacement when the location and role should survive but the original
+content should not. Record what rule authorized the change.
+
+<a id="cosine"></a>
+## Cosine: turn steady angular progress into a smooth rise or fall
+
+As an angle moves from zero to pi, cosine moves smoothly from one to negative
+one and flattens at both ends. A learning-rate schedule can rescale that path
+between its maximum and minimum without a sudden endpoint slope.
+
+Use cosine when a smooth periodic or half-wave shape has a real job. Do not use
+it merely because it is conventional; a linear or horizon-free schedule may
+fit a different training plan better.
+
+<a id="covariance"></a>
+## Covariance: measure how witnesses vary around their shared direction
+
+Micro-batch gradients contain common advice and batch-specific disagreement.
+Covariance first removes the mean advice, then records which coordinates vary
+together. Raw products would confuse strong shared signal with noise.
+
+Use covariance for co-variation, gradient noise, uncertainty, and correlated
+features. Its estimate depends on the population of witnesses sampled.
+
+<a id="trace"></a>
+## Trace: add the diagonal of a square matrix
+
+The diagonal of a covariance matrix contains one variance for each coordinate.
+Its trace adds those variances into total coordinate-wise disagreement without
+adding the off-diagonal relationships a second time.
+
+Use trace when the diagonal total has a defined meaning. It deliberately loses
+which coordinate contributed which amount.
+
+<a id="tuples"></a>
+## Tuples: keep differently typed state together without mixing it
+
+A resumable training state contains weights, optimizer moments, update number,
+random-generator states, and data cursors. A tuple keeps their order and
+identity; adding them would be meaningless.
+
+Use tuples for fixed collections whose positions have different jobs. Name the
+job of every position rather than treating the tuple as an unexplained bundle.
+
+<a id="tables"></a>
+## Tables: preserve exact mappings across repeated fields
+
+A training report must connect each claim with its dataset version, evaluation
+condition, result, and limitation. A table makes those repeated mappings
+inspectable. One paragraph or aggregate score can silently detach a claim from
+its conditions.
+
+Use tables for repeated-field comparisons and exact mappings. They organize
+evidence; they do not prove the entries are true.
+
+<a id="logical-and"></a>
+## Logical conjunction: require every independent condition
+
+A release may require clean validation, a passed memorization audit, signed
+approval, and a rollback artifact. Logical AND accepts only when every gate is
+true. Averaging the gates would let one serious failure disappear beneath
+several easy successes.
+
+Use conjunction when all requirements are mandatory. Use OR only when any one
+alternative is genuinely sufficient.
 
 ---
 

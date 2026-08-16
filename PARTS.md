@@ -1,6 +1,6 @@
-# The Book in Twelve Parts
+# The Book in Thirteen Parts
 
-A list of 176 chapters feels like a file index. A book needs a journey. Each
+A list of 201 chapters feels like a file index. A book needs a journey. Each
 part below ends where a new kind of failure makes the next part necessary.
 
 | Part | Excavations | Human question |
@@ -17,6 +17,7 @@ part below ends where a new kind of failure makes the next part necessary.
 | X — Learning What We Still Do Not Know | 101–125 | How can a system adapt, reason, verify, and research without losing control? |
 | XI — Earning the Right to Improve | 126–150 | How can proposed improvements survive experiments, adversaries, oversight, and rollback? |
 | XII — Rebuilding the Engine Without Breaking the System | 151–175 | How can we make the language-model engine faster, steadier, and larger without changing what it means or losing the reference path? |
+| XIII — A Pretraining Factory We Can Account For | 176–200 | How can documents become one recoverable training run without losing provenance, privacy, evidence, or control? |
 
 Start with [Excavation 000](excavations/000-before-mathematics-existed/README.md),
 but do not rush to “finish chapters.” Stop whenever a failed attempt surprises

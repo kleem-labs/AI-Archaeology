@@ -31,6 +31,7 @@ contents.
 | Learn without exposing or breaking people | 122–125 | Protect individual records, learn across devices, resist adversaries, and conduct bounded research. |
 | Earn improvement | 126–150 | Form hypotheses, run reproducible experiments, prevent metric gaming, scale oversight, and release only reversible, authorized improvements. |
 | Rebuild the engine | 151–175 | Freeze one reference model, expose its measured bottlenecks, and earn each modern training or serving repair without changing the trusted result. |
+| Account for pretraining | 176–200 | Turn traceable documents into one budgeted, recoverable, audited training run whose artifact can explain what produced it. |
 
 ## Recurring world
 

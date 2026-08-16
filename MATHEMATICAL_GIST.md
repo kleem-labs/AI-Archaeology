@@ -9,7 +9,7 @@ mathematical inventions without rereading the entire narrative.
 For the reusable meaning of an operation, follow its link into the
 [Mathematical Moves guide](MATHEMATICAL_MOVES.md).
 
-**81 equation-bearing excavations · 93 displayed equations**
+**98 equation-bearing excavations · 110 displayed equations**
 
 ## Map
 
@@ -94,6 +94,23 @@ For the reusable meaning of an operation, follow its link into the
 - [Excavation 172 — ZeRO — Stop Replicating the Same Training State](#excavation-172-zero-stop-replicating-the-same-training-state)
 - [Excavation 173 — Tensor Parallelism — Split One Matrix That No Device Can Hold](#excavation-173-tensor-parallelism-split-one-matrix-that-no-device-can-hold)
 - [Excavation 174 — Speculative Decoding — Let a Small Model Propose, Never Decide](#excavation-174-speculative-decoding-let-a-small-model-propose-never-decide)
+- [Excavation 177 — Document Boundaries — Keep One Story from Leaking into Another](#excavation-177-document-boundaries-keep-one-story-from-leaking-into-another)
+- [Excavation 178 — Language Identification — Do Not Confuse Familiar Script with Familiar Language](#excavation-178-language-identification-do-not-confuse-familiar-script-with-familiar-language)
+- [Excavation 179 — Exact Deduplication — Stop Paying Twice for the Same Document](#excavation-179-exact-deduplication-stop-paying-twice-for-the-same-document)
+- [Excavation 180 — Near Deduplication — When a Copy Changes a Few Words](#excavation-180-near-deduplication-when-a-copy-changes-a-few-words)
+- [Excavation 184 — Data Mixtures — Decide Which Worlds Receive a Voice](#excavation-184-data-mixtures-decide-which-worlds-receive-a-voice)
+- [Excavation 185 — Mixture Sampling — Turn Planned Shares into a Reproducible Stream](#excavation-185-mixture-sampling-turn-planned-shares-into-a-reproducible-stream)
+- [Excavation 186 — The Token Budget — Convert a Training Plan into a Count of Lessons](#excavation-186-the-token-budget-convert-a-training-plan-into-a-count-of-lessons)
+- [Excavation 187 — Compute-Optimal Allocation — Buy a Larger Memory or More Experience?](#excavation-187-compute-optimal-allocation-buy-a-larger-memory-or-more-experience)
+- [Excavation 188 — Learning-Rate Warmup — Let Adam Learn the Terrain Before Running](#excavation-188-learning-rate-warmup-let-adam-learn-the-terrain-before-running)
+- [Excavation 189 — Cosine Decay — Make Late Corrections Smaller Without a Cliff](#excavation-189-cosine-decay-make-late-corrections-smaller-without-a-cliff)
+- [Excavation 190 — Gradient Noise Scale — When More Examples Stop Buying More Direction](#excavation-190-gradient-noise-scale-when-more-examples-stop-buying-more-direction)
+- [Excavation 191 — Data Parallelism — Let Several Workers Observe Different Evidence](#excavation-191-data-parallelism-let-several-workers-observe-different-evidence)
+- [Excavation 192 — Pipeline Parallelism — Stop Waiting for the Whole Model to Cross One Device at a Time](#excavation-192-pipeline-parallelism-stop-waiting-for-the-whole-model-to-cross-one-device-at-a-time)
+- [Excavation 193 — Three-Dimensional Parallelism — Give Each Memory Wall Its Own Axis](#excavation-193-three-dimensional-parallelism-give-each-memory-wall-its-own-axis)
+- [Excavation 196 — Loss Spikes — Distinguish One Hard Batch from a Run Leaving the Road](#excavation-196-loss-spikes-distinguish-one-hard-batch-from-a-run-leaving-the-road)
+- [Excavation 197 — A Validation Stream — Ask Whether Learning Survives Outside the Current Batch](#excavation-197-a-validation-stream-ask-whether-learning-survives-outside-the-current-batch)
+- [Excavation 198 — A Memorization Audit — Did the Model Learn a Pattern or Store a Passage?](#excavation-198-a-memorization-audit-did-the-model-learn-a-pattern-or-store-a-passage)
 
 ---
 
@@ -2281,3 +2298,309 @@ a(x)=\min\left(1,\frac{p(x)}{q(x)}\right)
 $$
 
 [Return to the full excavation](excavations/174-speculative-decoding/README.md)
+
+---
+
+## Excavation 177 — Document Boundaries — Keep One Story from Leaking into Another
+
+A_ij answers one concrete yes-or-no question for token positions i and j: may information cross between them? One means the pair shares a document; zero means the boundary forbids the connection.
+
+### Why these operations are forced
+
+[Cases](MATHEMATICAL_MOVES.md#cases) are forced because same-document and cross-document pairs obey different rules. [Equality](MATHEMATICAL_MOVES.md#equals) assigns an exact permission bit. A distance score would blur a categorical boundary, while addition would invent partial permission.
+
+Only now can we compress the procedure:
+
+$$
+A_{ij}=\begin{cases}1&\text{tokens }i,j\text{ share a document}\\0&\text{otherwise}\end{cases}
+$$
+
+[Return to the full excavation](excavations/177-document-boundaries/README.md)
+
+---
+
+## Excavation 178 — Language Identification — Do Not Confuse Familiar Script with Familiar Language
+
+d is the document being inspected; the set L contains allowed language labels; p(l|d) is the classifier's support for one label; l-star is the label whose support is largest.
+
+### Why these operations are forced
+
+[Conditional probability](MATHEMATICAL_MOVES.md#conditional-bar) asks for language support given this document. [Arg max](MATHEMATICAL_MOVES.md#arg-max) keeps the winning label rather than only its score. Summing the scores would erase which language produced them; a threshold is still checked afterward because the winner may be weak.
+
+Only now can we compress the procedure:
+
+$$
+\ell^*=\underset{\ell\in\mathcal L}{\mathrm{argmax}}\ p(\ell\mid d)
+$$
+
+[Return to the full excavation](excavations/178-language-identification/README.md)
+
+---
+
+## Excavation 179 — Exact Deduplication — Stop Paying Twice for the Same Document
+
+d is the original tiger field-report document, N performs the recorded normalization, H is a deterministic content-hash function, and h(d) is the fingerprint used to group exact copies.
+
+### Why these operations are forced
+
+[Function composition](MATHEMATICAL_MOVES.md#function-composition) fixes the order: normalize first, hash second. Reversing the order leaves irrelevant byte differences visible. [Equality](MATHEMATICAL_MOVES.md#equals) groups only matching fingerprints; adding hashes has no interpretation and would not identify copies.
+
+Only now can we compress the procedure:
+
+$$
+h(d)=H(N(d))
+$$
+
+[Return to the full excavation](excavations/179-exact-deduplication/README.md)
+
+---
+
+## Excavation 180 — Near Deduplication — When a Copy Changes a Few Words
+
+A and B are the shingle sets from the original tiger report and its edited mirror. Their intersection counts phrases both contain; their union counts every distinct phrase appearing in either; J is the shared fraction.
+
+### Why these operations are forced
+
+[Intersection](MATHEMATICAL_MOVES.md#intersection) keeps shared evidence and [union](MATHEMATICAL_MOVES.md#union) defines the total distinct evidence available. [Cardinality](MATHEMATICAL_MOVES.md#cardinality) turns each set into a count. [Division](MATHEMATICAL_MOVES.md#division) makes the overlap comparable across document lengths; a raw shared count would favor long documents.
+
+Only now can we compress the procedure:
+
+$$
+J(A,B)=\frac{\lvert A\cap B\rvert}{\lvert A\cup B\rvert}
+$$
+
+[Return to the full excavation](excavations/180-near-deduplication/README.md)
+
+---
+
+## Excavation 184 — Data Mixtures — Decide Which Worlds Receive a Voice
+
+D counts the named data domains and w_d is the chance that the next training draw chooses domain d. Nonnegative weights prevent negative sampling; a total of one exhausts all possible domain choices.
+
+### Why these operations are forced
+
+[Summation](MATHEMATICAL_MOVES.md#summation) combines mutually exclusive domain shares into the whole probability mass. Multiplication would make one zero-weight domain erase the mixture. [Equality](MATHEMATICAL_MOVES.md#equals) requires a complete distribution, while the [inequality](MATHEMATICAL_MOVES.md#inequalities) forbids impossible negative shares.
+
+Only now can we compress the procedure:
+
+$$
+\sum_{d=1}^{D}w_d=1,\quad w_d\ge 0
+$$
+
+[Return to the full excavation](excavations/184-data-mixtures/README.md)
+
+---
+
+## Excavation 185 — Mixture Sampling — Turn Planned Shares into a Reproducible Stream
+
+N is the total number of scheduled training draws, w_d is domain d's share, n_d is its realized count, and E[n_d] is the average count expected across many schedules.
+
+### Why these operations are forced
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) is forced because each of N draws independently offers domain d the same share w_d. Addition would grant a fixed number unrelated to run length. [Expectation](MATHEMATICAL_MOVES.md#expectation) describes a long-run average, not a guarantee that one finite schedule equals Nw_d exactly.
+
+Only now can we compress the procedure:
+
+$$
+E[n_d]=Nw_d
+$$
+
+[Return to the full excavation](excavations/185-mixture-sampling/README.md)
+
+---
+
+## Excavation 186 — The Token Budget — Convert a Training Plan into a Count of Lessons
+
+T is the planned number of optimizer updates, B_tokens counts real loss-bearing tokens in one global batch, and N_tokens is the complete exposure budget.
+
+### Why these operations are forced
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) appears because every one of T updates consumes B_tokens lessons. Addition would count only one update plus one batch. Padding is excluded because it occupies hardware but contributes no language target.
+
+Only now can we compress the procedure:
+
+$$
+N_{\text{tokens}}=T B_{\text{tokens}}
+$$
+
+[Return to the full excavation](excavations/186-token-budget/README.md)
+
+---
+
+## Excavation 187 — Compute-Optimal Allocation — Buy a Larger Memory or More Experience?
+
+P is the number of trainable model parameters, D is the number of training tokens, and C is a rough count of floating-point work for dense Transformer training; six summarizes forward and backward work per parameter-token interaction.
+
+### Why these operations are forced
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) is forced because every token exercises the model's parameters: doubling either P or D roughly doubles work. [Approximation](MATHEMATICAL_MOVES.md#approximation) preserves the scaling relation while admitting architecture and implementation details. Adding P and D would combine incompatible units.
+
+Only now can we compress the procedure:
+
+$$
+C\approx 6PD
+$$
+
+[Return to the full excavation](excavations/187-compute-optimal-allocation/README.md)
+
+---
+
+## Excavation 188 — Learning-Rate Warmup — Let Adam Learn the Terrain Before Running
+
+t is the current model warmup update, T_warm is the number of warmup updates, eta_peak is the intended stable rate, and eta_t is the smaller rate used now.
+
+### Why these operations are forced
+
+[Division](MATHEMATICAL_MOVES.md#division) turns elapsed warmup steps into a progress fraction from zero to one. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) applies that fraction to the peak rate. Adding t would mix step counts with a rate; jumping directly to eta_peak recreates the failed attempt.
+
+Only now can we compress the procedure:
+
+$$
+\eta_t=\eta_{\text{peak}}\frac{t}{T_{\text{warm}}}\quad(0\le t\le T_{\text{warm}})
+$$
+
+[Return to the full excavation](excavations/188-learning-rate-warmup/README.md)
+
+---
+
+## Excavation 189 — Cosine Decay — Make Late Corrections Smaller Without a Cliff
+
+t is model-training progress through the decay interval of length T; eta_max and eta_min are its endpoint rates; cosine supplies a smooth path between them.
+
+### Why these operations are forced
+
+[Subtraction](MATHEMATICAL_MOVES.md#subtraction) isolates the adjustable rate range, [division](MATHEMATICAL_MOVES.md#division) converts progress to a fraction, and [cosine](MATHEMATICAL_MOVES.md#cosine) bends that fraction smoothly with flat endpoint slopes. Addition places the scaled range above eta_min. A raw linear drop is possible, but cosine avoids an abrupt endpoint slope.
+
+Only now can we compress the procedure:
+
+$$
+\eta_t=\eta_{\min}+\frac{\eta_{\max}-\eta_{\min}}{2}\left(1+\cos\frac{\pi t}{T}\right)
+$$
+
+[Return to the full excavation](excavations/189-cosine-decay/README.md)
+
+---
+
+## Excavation 190 — Gradient Noise Scale — When More Examples Stop Buying More Direction
+
+Each g_i is one model micro-batch's gradient advice. The covariance measures how those witnesses disagree; its trace totals disagreement across coordinates. The squared norm of their mean measures the strength of the shared direction; G compares noise with signal.
+
+### Why these operations are forced
+
+[Covariance](MATHEMATICAL_MOVES.md#covariance) keeps variation around the common advice rather than raw gradient size. [Trace](MATHEMATICAL_MOVES.md#trace) gathers coordinate variances without inventing cross-coordinate units. [Division](MATHEMATICAL_MOVES.md#division) asks disagreement per unit of squared shared direction; subtraction would not remove dependence on signal scale.
+
+Only now can we compress the procedure:
+
+$$
+G=\frac{\mathrm{tr}(\mathrm{Cov}[g_i])}{\lVert E[g_i]\rVert^2}
+$$
+
+[Return to the full excavation](excavations/190-gradient-noise-scale/README.md)
+
+---
+
+## Excavation 191 — Data Parallelism — Let Several Workers Observe Different Evidence
+
+P is the number of data-parallel workers, g_p is worker p's average gradient from different examples, and g is the single gradient used by the shared optimizer step.
+
+### Why these operations are forced
+
+[Summation](MATHEMATICAL_MOVES.md#summation) lets every worker's independent evidence contribute. [Division](MATHEMATICAL_MOVES.md#division) returns advice per worker so adding hardware does not enlarge the update by itself. Multiplication would let a zero coordinate from one worker erase all others.
+
+Only now can we compress the procedure:
+
+$$
+g=\frac1P\sum_{p=1}^{P}g_p
+$$
+
+[Return to the full excavation](excavations/191-data-parallelism/README.md)
+
+---
+
+## Excavation 192 — Pipeline Parallelism — Stop Waiting for the Whole Model to Cross One Device at a Time
+
+m is the number of model micro-batches and p the number of pipeline stages in a simple forward pipeline. Useful work occupies m slots; filling and draining add p−1 slots; U is the idealized occupied share.
+
+### Why these operations are forced
+
+[Addition](MATHEMATICAL_MOVES.md#addition) joins useful slots with unavoidable fill-and-drain slots. [Division](MATHEMATICAL_MOVES.md#division) turns useful slots into a share of total schedule time. Multiplying m and p would count stage-tasks, not the fraction of time one stage remains usefully occupied.
+
+Only now can we compress the procedure:
+
+$$
+U=\frac{m}{m+p-1}
+$$
+
+[Return to the full excavation](excavations/192-pipeline-parallelism/README.md)
+
+---
+
+## Excavation 193 — Three-Dimensional Parallelism — Give Each Memory Wall Its Own Axis
+
+Each factor counts independent choices along one model-parallel axis. Selecting one tensor rank, one pipeline rank, and one data rank identifies exactly one worker; P_total counts all such combinations.
+
+### Why these operations are forced
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) is forced by the product rule: every choice on one axis pairs with every choice on the others. Addition would count axis labels rather than workers. [Equality](MATHEMATICAL_MOVES.md#equals) assumes the grid is fully populated.
+
+Only now can we compress the procedure:
+
+$$
+P_{\text{total}}=P_{\text{tensor}}P_{\text{pipeline}}P_{\text{data}}
+$$
+
+[Return to the full excavation](excavations/193-three-dimensional-parallelism/README.md)
+
+---
+
+## Excavation 196 — Loss Spikes — Distinguish One Hard Batch from a Run Leaving the Road
+
+L_t is the current monitored model loss, mu_t is its robust recent center, sigma_t is ordinary recent spread, and z_t says how many usual spreads the current value lies above or below that center.
+
+### Why these operations are forced
+
+[Subtraction](MATHEMATICAL_MOVES.md#subtraction) removes the local baseline. [Division](MATHEMATICAL_MOVES.md#division) expresses the remainder in units of ordinary variation, making different loss scales comparable. A raw threshold would behave differently as normal loss falls during training.
+
+Only now can we compress the procedure:
+
+$$
+z_t=\frac{L_t-\mu_t}{\sigma_t}
+$$
+
+[Return to the full excavation](excavations/196-loss-spike-recovery/README.md)
+
+---
+
+## Excavation 197 — A Validation Stream — Ask Whether Learning Survives Outside the Current Batch
+
+The validation stream contains N honest next-token events. The model assigns the observed token x_i a conditional probability from its earlier context. Negative log turns confident neglect into positive cost, and L_val averages that cost across the stream.
+
+### Why these operations are forced
+
+[Logarithms](MATHEMATICAL_MOVES.md#logarithm) turn multiplied sequence probabilities into additive token costs. [Negative signs](MATHEMATICAL_MOVES.md#negative-sign) make lower assigned probability cost more. [Summation](MATHEMATICAL_MOVES.md#summation) lets every event contribute, and [division](MATHEMATICAL_MOVES.md#division) makes streams of different lengths comparable.
+
+Only now can we compress the procedure:
+
+$$
+L_{\text{val}}=-\frac1N\sum_{i=1}^{N}\log p_\theta(x_i\mid x_{<i})
+$$
+
+[Return to the full excavation](excavations/197-validation-stream/README.md)
+
+---
+
+## Excavation 198 — A Memorization Audit — Did the Model Learn a Pattern or Store a Passage?
+
+R is the known space of possible synthetic canaries and rank is the tested canary's position when alternatives are ordered from most to least likely. Exposure measures how many bits of the search space the model has effectively removed.
+
+### Why these operations are forced
+
+[Cardinality](MATHEMATICAL_MOVES.md#cardinality) counts possible canaries. [Logarithms](MATHEMATICAL_MOVES.md#logarithm) turn multiplicative changes in search space and rank into bits. [Subtraction](MATHEMATICAL_MOVES.md#subtraction) removes the remaining search difficulty from the original difficulty; adding would reward a worse rank.
+
+Only now can we compress the procedure:
+
+$$
+\mathrm{exposure}=\log_2\lvert\mathcal R\rvert-\log_2\mathrm{rank}
+$$
+
+[Return to the full excavation](excavations/198-memorization-audit/README.md)

@@ -29,6 +29,7 @@ python3 tools/check_book_lab.py
 | [Gradient descent](labs/04_gradient_lab.py) | 022–028 | learning rate | slow learning, progress, and overshoot |
 | [Tiny generation loop](labs/05_generation_lab.py) | 036–045 | logits, seed, context | tokenize → score → sample → append |
 | [Measured engine rebuild](labs/06_engine_rebuild_lab.py) | 151–175 | overlap, KV heads, precision, draft support | faster and smaller paths that remain accountable to a frozen reference |
+| [Accountable pretraining factory](labs/07_pretraining_factory_lab.py) | 176–200 | manifests, deduplication, mixtures, budgets, recovery, audits | one traceable path from raw documents to a gated model artifact |
 
 Each lab prints intermediate values and contains assertions for the failure it
 was designed to expose. Read the linked excavation first; the lab is evidence,

@@ -63,6 +63,14 @@ reproducible reference path while profiling, repairing attention and the block,
 stabilizing optimization, crossing device boundaries, and verifying faster
 decoding against the target distribution.
 
+### Volume V — We account for pretraining (176–200)
+
+Give the modern engine a traceable body of evidence and a recoverable training
+plan. Preserve document identity through curation, make data and compute choices
+explicit, make many workers behave like one experiment, and require validation,
+memorization audits, documentation, and release gates before the final artifact
+may leave the factory.
+
 ## Boundary contract
 
 For adjacent chapters A → B:

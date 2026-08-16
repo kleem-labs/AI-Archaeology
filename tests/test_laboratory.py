@@ -26,6 +26,11 @@ class LaboratoryTests(unittest.TestCase):
         result = load("06_engine_rebuild_lab.py").run_lab()
         self.assertEqual(result["quality_authority"], "frozen target model")
         self.assertEqual(result["kv_cache_reduction"], 4)
+    def test_pretraining_factory_lab(self):
+        result = load("07_pretraining_factory_lab.py").run_lab()
+        self.assertEqual(result["raw_documents"], 4)
+        self.assertEqual(result["unique_documents"], 3)
+        self.assertTrue(result["release"])
 
 if __name__ == "__main__":
     unittest.main()
