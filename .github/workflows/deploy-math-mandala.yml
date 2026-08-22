@@ -4,9 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "math-mandala/**"
-      - ".github/workflows/deploy-math-mandala.yml"
   workflow_dispatch:
 
 permissions:
@@ -29,7 +26,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
       - name: Upload the mandala
         uses: actions/upload-pages-artifact@v4
