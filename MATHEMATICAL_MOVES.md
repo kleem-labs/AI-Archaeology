@@ -25,6 +25,10 @@ Use the links below from any excavation. Return to the concrete chapter after
 the move makes sense; this guide explains the tool, while the excavation
 explains why that tool became necessary there.
 
+The [living Mathematical Mandala](math-mandala/README.md) turns these jobs and
+moves into a spatial memory: connected equations remain together, while a gold
+thread preserves the order in which the book discovered them.
+
 ## Map of the moves
 
 | Job | Moves |

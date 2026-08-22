@@ -50,6 +50,8 @@ def build():
         "mathematical inventions without rereading the entire narrative.",
         "For the reusable meaning of an operation, follow its link into the",
         "[Mathematical Moves guide](MATHEMATICAL_MOVES.md).",
+        "To remember where an equation belongs and what it connects to, enter",
+        "the [living Mathematical Mandala](math-mandala/README.md).",
         "",
         f"**{len(entries)} equation-bearing excavations · {equation_count} displayed equations**",
         "",

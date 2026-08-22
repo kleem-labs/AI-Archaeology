@@ -8,7 +8,7 @@ then break and rebuild the idea in the [Laboratory](LABORATORY.md). The
 file presence alone is not completion.
 
 For uninterrupted reading, begin with the
-[three-volume book edition](book/README.md). The excavation directories remain
+[five-volume book edition](book/README.md). The excavation directories remain
 the working dig sites where code, diagrams, mistakes, exercises, and references
 live beside the idea that produced them.
 
@@ -26,6 +26,16 @@ When an operation itself is unfamiliar, follow its chapter link into
 multiplication, division, powers, roots, exponentials, logarithms, derivatives,
 expectations, and notation preserve; why a different move would answer a
 different question; and where each move is useful elsewhere.
+
+## The mathematics as one living mandala
+
+The [Mathematical Mandala](math-mandala/README.md) gathers every equation around
+the human need that forced it to exist. Follow a colored spoke inward to recall
+why an operation was needed. Follow the faint gold thread outward to see which
+equation the book discovered next. Every numbered node opens its excavation,
+and the map grows automatically when future chapters earn new equations.
+
+[![AI Archaeology Mathematical Mandala](math-mandala/math-mandala.svg)](math-mandala/README.md)
 
 This book does not begin with formulas. It begins with a person facing reality without inherited mathematics.
 

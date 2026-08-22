@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2200 2200" role="img" aria-labelledby="mandala-title mandala-description">
+<title id="mandala-title">AI Archaeology Mathematical Mandala</title>
+<desc id="mandala-description">A clickable map of 110 equations grouped by the human needs that forced them to exist.</desc>
+<style>
+.bg{fill:#090d20}.ring{fill:none;stroke:#d8c27a;stroke-opacity:.14;stroke-width:2}.spoke{fill:none;stroke:#dbe7ff;stroke-opacity:.12;stroke-width:1.5}.thread{fill:none;stroke:#f4cf75;stroke-opacity:.18;stroke-width:1.7;stroke-dasharray:3 7}.family-edge{stroke-width:2.3;stroke-opacity:.3}.family-node{stroke:#fff8df;stroke-width:2.5}.move-node{fill:#111936;stroke-width:2}.equation-node{stroke:#fff;stroke-opacity:.82;stroke-width:1.2}.node:hover{stroke:#fff;stroke-width:4;filter:url(#glow)}.family-label{fill:#f8f3e6;font:600 18px ui-sans-serif,system-ui;text-anchor:middle}.move-label{fill:#eef3ff;font:500 12px ui-sans-serif,system-ui;text-anchor:middle}.eq-label{fill:#091020;font:700 9px ui-monospace,monospace;text-anchor:middle;dominant-baseline:central}.title{fill:#fff8df;font:700 32px ui-serif,Georgia,serif;text-anchor:middle;letter-spacing:1px}.subtitle{fill:#b8c5e2;font:400 15px ui-sans-serif,system-ui;text-anchor:middle}.heart{fill:#f4cf75;font:700 38px ui-serif,Georgia,serif;text-anchor:middle}.legend{fill:#bdc9e5;font:400 14px ui-sans-serif,system-ui}.legend-strong{fill:#fff8df;font:600 15px ui-sans-serif,system-ui}
+</style>
+<defs><filter id="glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect class="bg" width="2200" height="2200" rx="28"/>
+<circle class="ring" cx="1100" cy="1100" r="155"/>
+<circle class="ring" cx="1100" cy="1100" r="245"/>
+<circle class="ring" cx="1100" cy="1100" r="360"/>
+<circle class="ring" cx="1100" cy="1100" r="438"/>
+<circle class="ring" cx="1100" cy="1100" r="516"/>
+<circle class="ring" cx="1100" cy="1100" r="594"/>
+<circle class="ring" cx="1100" cy="1100" r="680"/>
+<circle class="ring" cx="1100" cy="1100" r="795"/>
+<circle class="ring" cx="1100" cy="1100" r="910"/>
+<circle class="ring" cx="1100" cy="1100" r="1025"/>
+<path class="thread" d="M 910.8,446.8 Q 1150.0,650.4 1428.1,504.4"/>
+<path class="thread" d="M 1428.1,504.4 Q 1346.2,676.9 1455.7,520.4"/>
+<path class="thread" d="M 1455.7,520.4 Q 1365.8,689.0 1482.5,537.8"/>
+<path class="thread" d="M 1482.5,537.8 Q 1180.7,659.5 941.7,438.7"/>
+<path class="thread" d="M 941.7,438.7 Q 997.3,621.4 972.9,432.0"/>
+<path class="thread" d="M 972.9,432.0 Q 1019.9,617.1 1004.5,426.7"/>
+<path class="thread" d="M 1004.5,426.7 Q 1132.1,1093.2 1284.6,1754.5"/>
+<path class="thread" d="M 1284.6,1754.5 Q 1402.1,1269.2 1754.5,915.4"/>
+<path class="thread" d="M 1754.5,915.4 Q 1574.8,981.6 1764.5,955.7"/>
+<path class="thread" d="M 1764.5,955.7 Q 1581.2,1010.8 1772.1,996.6"/>
+<path class="thread" d="M 1772.1,996.6 Q 1319.0,819.0 1036.2,423.0"/>
+<path class="thread" d="M 1036.2,423.0 Q 1065.5,611.8 1068.1,420.8"/>
+<path class="thread" d="M 1068.1,420.8 Q 874.1,737.4 504.4,771.9"/>
+<path class="thread" d="M 504.4,771.9 Q 676.9,853.8 520.4,744.3"/>
+<path class="thread" d="M 520.4,744.3 Q 689.0,834.2 537.8,717.5"/>
+<path class="thread" d="M 537.8,717.5 Q 662.5,1030.4 446.8,1289.2"/>
+<path class="thread" d="M 446.8,1289.2 Q 669.2,1021.0 556.4,691.5"/>
+<path class="thread" d="M 556.4,691.5 Q 715.7,796.8 576.2,666.4"/>
+<path class="thread" d="M 576.2,666.4 Q 730.4,779.1 597.1,642.3"/>
+<path class="thread" d="M 597.1,642.3 Q 745.9,762.1 619.2,619.2"/>
+<path class="thread" d="M 619.2,619.2 Q 762.1,745.9 642.3,597.1"/>
+<path class="thread" d="M 642.3,597.1 Q 697.1,975.9 438.7,1258.3"/>
+<path class="thread" d="M 438.7,1258.3 Q 621.4,1202.7 432.0,1227.1"/>
+<path class="thread" d="M 432.0,1227.1 Q 617.1,1180.1 426.7,1195.5"/>
+<path class="thread" d="M 426.7,1195.5 Q 613.9,1157.4 423.0,1163.8"/>
+<path class="thread" d="M 423.0,1163.8 Q 856.3,878.2 1100.0,420.0"/>
+<path class="thread" d="M 1100.0,420.0 Q 855.5,866.7 420.8,1131.9"/>
+<path class="thread" d="M 420.8,1131.9 Q 610.7,1111.5 420.0,1100.0"/>
+<path class="thread" d="M 420.0,1100.0 Q 610.7,1088.5 420.8,1068.1"/>
+<path class="thread" d="M 420.8,1068.1 Q 699.4,899.9 666.4,576.2"/>
+<path class="thread" d="M 666.4,576.2 Q 955.4,666.9 1131.9,420.8"/>
+<path class="thread" d="M 1131.9,420.8 Q 1258.6,659.8 1508.5,556.4"/>
+<path class="thread" d="M 1508.5,556.4 Q 1459.7,1025.5 1690.7,1436.8"/>
+<path class="thread" d="M 1690.7,1436.8 Q 1193.6,1435.2 769.4,1694.2"/>
+<path class="thread" d="M 769.4,1694.2 Q 833.9,1118.2 691.5,556.4"/>
+<path class="thread" d="M 691.5,556.4 Q 709.2,881.3 423.0,1036.2"/>
+<path class="thread" d="M 423.0,1036.2 Q 725.6,1284.0 736.9,1675.0"/>
+<path class="thread" d="M 736.9,1675.0 Q 827.3,1506.4 705.6,1653.9"/>
+<path class="thread" d="M 705.6,1653.9 Q 981.0,1055.7 1163.8,423.0"/>
+<path class="thread" d="M 1163.8,423.0 Q 1157.4,613.9 1195.5,426.7"/>
+<path class="thread" d="M 1195.5,426.7 Q 1180.1,617.1 1227.1,432.0"/>
+<path class="thread" d="M 1227.1,432.0 Q 1202.7,621.4 1258.3,438.7"/>
+<path class="thread" d="M 1258.3,438.7 Q 1004.1,1053.1 675.4,1631.2"/>
+<path class="thread" d="M 675.4,1631.2 Q 1015.3,1056.1 1289.2,446.8"/>
+<path class="thread" d="M 1289.2,446.8 Q 1089.7,589.6 882.1,335.5"/>
+<path class="thread" d="M 882.1,335.5 Q 958.5,545.6 924.9,324.5"/>
+<path class="thread" d="M 924.9,324.5 Q 1088.9,1060.1 1244.3,1764.5"/>
+<path class="thread" d="M 1244.3,1764.5 Q 1189.2,1581.2 1203.4,1772.1"/>
+<path class="thread" d="M 1203.4,1772.1 Q 1159.6,1585.7 1162.2,1777.1"/>
+<path class="thread" d="M 1162.2,1777.1 Q 1325.2,1480.9 1663.3,1480.9"/>
+<path class="thread" d="M 1663.3,1480.9 Q 1255.3,954.9 968.2,316.0"/>
+<path class="thread" d="M 968.2,316.0 Q 914.8,615.4 717.5,537.8"/>
+<path class="thread" d="M 717.5,537.8 Q 834.2,689.0 744.3,520.4"/>
+<path class="thread" d="M 744.3,520.4 Q 1128.0,702.8 1533.6,576.2"/>
+<path class="thread" d="M 1533.6,576.2 Q 1263.6,1156.1 1120.8,1779.7"/>
+<path class="thread" d="M 1120.8,1779.7 Q 1075.8,1060.2 1011.9,309.9"/>
+<path class="thread" d="M 1011.9,309.9 Q 1233.1,634.5 1557.7,597.1"/>
+<path class="thread" d="M 1557.7,597.1 Q 1456.5,1071.1 1632.6,1522.7"/>
+<path class="thread" d="M 1632.6,1522.7 Q 1128.5,1434.6 646.6,1606.8"/>
+<path class="thread" d="M 646.6,1606.8 Q 694.4,1248.0 426.7,1004.5"/>
+<path class="thread" d="M 426.7,1004.5 Q 1101.4,1043.2 1777.1,1037.8"/>
+<path class="thread" d="M 1777.1,1037.8 Q 1327.9,791.8 1055.9,306.2"/>
+<path class="thread" d="M 1055.9,306.2 Q 1076.6,1058.9 1079.2,1779.7"/>
+<path class="thread" d="M 1079.2,1779.7 Q 1070.1,1588.5 1037.8,1777.1"/>
+<path class="thread" d="M 1037.8,1777.1 Q 959.5,1129.3 771.9,504.4"/>
+<path class="thread" d="M 771.9,504.4 Q 1161.5,1051.9 1598.8,1562.1"/>
+<path class="thread" d="M 1598.8,1562.1 Q 1279.6,980.2 1100.0,305.0"/>
+<path class="thread" d="M 1100.0,305.0 Q 869.2,644.6 458.9,629.9"/>
+<path class="thread" d="M 458.9,629.9 Q 1042.3,757.7 1580.8,619.2"/>
+<path class="thread" d="M 1580.8,619.2 Q 1517.8,919.4 1779.7,1079.2"/>
+<path class="thread" d="M 1779.7,1079.2 Q 1171.6,1265.6 619.2,1580.8"/>
+<path class="thread" d="M 619.2,1580.8 Q 1093.3,1452.7 1562.1,1598.8"/>
+<path class="thread" d="M 1562.1,1598.8 Q 1447.4,1114.8 1602.9,642.3"/>
+<path class="thread" d="M 1602.9,642.3 Q 1469.6,779.1 1623.8,666.4"/>
+<path class="thread" d="M 1623.8,666.4 Q 1304.5,658.1 1144.1,306.2"/>
+<path class="thread" d="M 1144.1,306.2 Q 1268.1,1006.0 1522.7,1632.6"/>
+<path class="thread" d="M 1522.7,1632.6 Q 1214.9,1533.7 996.6,1772.1"/>
+<path class="thread" d="M 996.6,1772.1 Q 880.3,1505.2 593.2,1553.4"/>
+<path class="thread" d="M 593.2,1553.4 Q 1113.3,1116.2 1643.6,691.5"/>
+<path class="thread" d="M 1643.6,691.5 Q 1327.4,668.5 1188.1,309.9"/>
+<path class="thread" d="M 1188.1,309.9 Q 1179.2,533.3 1231.8,316.0"/>
+<path class="thread" d="M 1231.8,316.0 Q 1349.9,680.1 1662.2,717.5"/>
+<path class="thread" d="M 1662.2,717.5 Q 1061.9,916.6 432.0,972.9"/>
+<path class="thread" d="M 432.0,972.9 Q 621.4,997.3 438.7,941.7"/>
+<path class="thread" d="M 438.7,941.7 Q 626.8,974.9 446.8,910.8"/>
+<path class="thread" d="M 446.8,910.8 Q 1002.0,1234.7 1480.9,1663.3"/>
+<path class="thread" d="M 1480.9,1663.3 Q 958.4,1367.8 325.8,1280.5"/>
+<path class="thread" d="M 325.8,1280.5 Q 535.9,1186.8 307.3,1160.6"/>
+<path class="thread" d="M 307.3,1160.6 Q 935.9,1334.5 1436.8,1690.7"/>
+<path class="thread" d="M 1436.8,1690.7 Q 1429.9,1184.6 1679.6,744.3"/>
+<path class="thread" d="M 1679.6,744.3 Q 1553.3,979.4 1779.7,1120.8"/>
+<path class="thread" d="M 1779.7,1120.8 Q 1153.5,1260.3 568.8,1524.6"/>
+<path class="thread" d="M 568.8,1524.6 Q 709.4,1394.8 546.1,1494.4"/>
+<path class="thread" d="M 546.1,1494.4 Q 693.6,1372.7 525.0,1463.1"/>
+<path class="thread" d="M 525.0,1463.1 Q 1136.8,1253.1 1777.1,1162.2"/>
+<path class="thread" d="M 1777.1,1162.2 Q 1129.9,1241.4 505.8,1430.6"/>
+<path class="thread" d="M 505.8,1430.6 Q 1100.5,1100.9 1695.6,771.9"/>
+<path class="thread" d="M 1695.6,771.9 Q 1145.2,751.1 629.9,458.9"/>
+<path class="thread" d="M 629.9,458.9 Q 1172.7,906.4 1772.1,1203.4"/>
+<path class="thread" d="M 1772.1,1203.4 Q 1511.2,906.4 1570.1,458.9"/>
+<path class="thread" d="M 1570.1,458.9 Q 983.9,847.4 307.3,1039.4"/>
+<path class="thread" d="M 307.3,1039.4 Q 762.7,1317.4 955.7,1764.5"/>
+<path class="thread" d="M 955.7,1764.5 Q 769.3,1274.2 325.8,919.5"/>
+<path class="thread" d="M 325.8,919.5 Q 1060.5,1087.0 1764.5,1244.3"/>
+<path class="thread" d="M 1764.5,1244.3 Q 1574.8,1218.4 1754.5,1284.6"/>
+<path class="thread" d="M 1754.5,1284.6 Q 1398.7,887.3 1275.1,324.5"/>
+<path class="thread" d="M 1275.1,324.5 Q 1393.9,651.6 1741.1,629.9"/>
+<path class="thread" d="M 1741.1,629.9 Q 1264.4,1166.4 915.4,1754.5"/>
+<path class="thread" d="M 915.4,1754.5 Q 1112.0,1060.4 1317.9,335.5"/>
+<path class="spoke family-edge" stroke="#8bd3dd" d="M 1100.0,855.0 Q 1082.5,956.6 1027.2,747.4"/>
+<path class="spoke family-edge" stroke="#8bd3dd" d="M 1100.0,855.0 Q 1100.0,954.8 1100.0,740.0"/>
+<path class="spoke family-edge" stroke="#8bd3dd" d="M 1100.0,855.0 Q 1117.5,956.6 1172.8,747.4"/>
+<path class="spoke family-edge" stroke="#8bd3dd" d="M 1100.0,855.0 Q 1078.7,938.3 1011.4,671.0"/>
+<path class="spoke family-edge" stroke="#8bd3dd" d="M 1100.0,855.0 Q 1100.0,936.1 1100.0,662.0"/>
+<path class="spoke family-edge" stroke="#8bd3dd" d="M 1100.0,855.0 Q 1121.3,938.3 1188.6,671.0"/>
+<path class="spoke family-edge" stroke="#8bd3dd" d="M 1100.0,855.0 Q 1081.2,918.8 1021.5,590.0"/>
+<path class="spoke family-edge" stroke="#8bd3dd" d="M 1100.0,855.0 Q 1118.8,918.8 1178.5,590.0"/>
+<path class="spoke family-edge" stroke="#a9def9" d="M 1273.2,926.8 Q 1189.1,986.2 1297.8,799.2"/>
+<path class="spoke family-edge" stroke="#a9def9" d="M 1273.2,926.8 Q 1202.7,997.3 1354.6,845.4"/>
+<path class="spoke family-edge" stroke="#a9def9" d="M 1273.2,926.8 Q 1213.8,1010.9 1400.8,902.2"/>
+<path class="spoke family-edge" stroke="#a9def9" d="M 1273.2,926.8 Q 1199.3,970.6 1340.7,734.1"/>
+<path class="spoke family-edge" stroke="#a9def9" d="M 1273.2,926.8 Q 1215.9,984.1 1409.7,790.3"/>
+<path class="spoke family-edge" stroke="#a9def9" d="M 1273.2,926.8 Q 1229.4,1000.7 1465.9,859.3"/>
+<path class="spoke family-edge" stroke="#cdb4db" d="M 1345.0,1100.0 Q 1243.4,1082.5 1452.6,1027.2"/>
+<path class="spoke family-edge" stroke="#cdb4db" d="M 1345.0,1100.0 Q 1245.2,1100.0 1460.0,1100.0"/>
+<path class="spoke family-edge" stroke="#cdb4db" d="M 1345.0,1100.0 Q 1243.4,1117.5 1452.6,1172.8"/>
+<path class="spoke family-edge" stroke="#cdb4db" d="M 1345.0,1100.0 Q 1261.7,1078.7 1529.0,1011.4"/>
+<path class="spoke family-edge" stroke="#cdb4db" d="M 1345.0,1100.0 Q 1263.9,1100.0 1538.0,1100.0"/>
+<path class="spoke family-edge" stroke="#cdb4db" d="M 1345.0,1100.0 Q 1261.7,1121.3 1529.0,1188.6"/>
+<path class="spoke family-edge" stroke="#ffd6a5" d="M 1273.2,1273.2 Q 1213.8,1189.1 1400.8,1297.8"/>
+<path class="spoke family-edge" stroke="#ffd6a5" d="M 1273.2,1273.2 Q 1202.7,1202.7 1354.6,1354.6"/>
+<path class="spoke family-edge" stroke="#ffd6a5" d="M 1273.2,1273.2 Q 1189.1,1213.8 1297.8,1400.8"/>
+<path class="spoke family-edge" stroke="#ffd6a5" d="M 1273.2,1273.2 Q 1215.9,1215.9 1409.7,1409.7"/>
+<path class="spoke family-edge" stroke="#ffadad" d="M 1100.0,1345.0 Q 1117.5,1243.4 1172.8,1452.6"/>
+<path class="spoke family-edge" stroke="#ffadad" d="M 1100.0,1345.0 Q 1100.0,1245.2 1100.0,1460.0"/>
+<path class="spoke family-edge" stroke="#ffadad" d="M 1100.0,1345.0 Q 1082.5,1243.4 1027.2,1452.6"/>
+<path class="spoke family-edge" stroke="#ffadad" d="M 1100.0,1345.0 Q 1116.0,1262.7 1166.6,1532.9"/>
+<path class="spoke family-edge" stroke="#ffadad" d="M 1100.0,1345.0 Q 1084.0,1262.7 1033.4,1532.9"/>
+<path class="spoke family-edge" stroke="#fdffb6" d="M 926.8,1273.2 Q 1010.9,1213.8 902.2,1400.8"/>
+<path class="spoke family-edge" stroke="#fdffb6" d="M 926.8,1273.2 Q 997.3,1202.7 845.4,1354.6"/>
+<path class="spoke family-edge" stroke="#fdffb6" d="M 926.8,1273.2 Q 986.2,1189.1 799.2,1297.8"/>
+<path class="spoke family-edge" stroke="#fdffb6" d="M 926.8,1273.2 Q 1000.7,1229.4 859.3,1465.9"/>
+<path class="spoke family-edge" stroke="#fdffb6" d="M 926.8,1273.2 Q 984.1,1215.9 790.3,1409.7"/>
+<path class="spoke family-edge" stroke="#fdffb6" d="M 926.8,1273.2 Q 970.6,1199.3 734.1,1340.7"/>
+<path class="spoke family-edge" stroke="#bde0fe" d="M 855.0,1100.0 Q 956.6,1117.5 747.4,1172.8"/>
+<path class="spoke family-edge" stroke="#bde0fe" d="M 855.0,1100.0 Q 954.8,1100.0 740.0,1100.0"/>
+<path class="spoke family-edge" stroke="#bde0fe" d="M 855.0,1100.0 Q 956.6,1082.5 747.4,1027.2"/>
+<path class="spoke family-edge" stroke="#bde0fe" d="M 855.0,1100.0 Q 936.1,1100.0 662.0,1100.0"/>
+<path class="spoke family-edge" stroke="#caffbf" d="M 926.8,926.8 Q 986.2,1010.9 799.2,902.2"/>
+<path class="spoke family-edge" stroke="#caffbf" d="M 926.8,926.8 Q 997.3,997.3 845.4,845.4"/>
+<path class="spoke family-edge" stroke="#caffbf" d="M 926.8,926.8 Q 1010.9,986.2 902.2,799.2"/>
+<path class="spoke family-edge" stroke="#caffbf" d="M 926.8,926.8 Q 970.6,1000.7 734.1,859.3"/>
+<path class="spoke family-edge" stroke="#caffbf" d="M 926.8,926.8 Q 984.1,984.1 790.3,790.3"/>
+<path class="spoke family-edge" stroke="#caffbf" d="M 926.8,926.8 Q 1000.7,970.6 859.3,734.1"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1100.0,740.0 Q 1045.1,806.2 910.8,446.8"/>
+<path class="spoke" stroke="#a9def9" d="M 1400.8,902.2 Q 1282.4,869.9 1428.1,504.4"/>
+<path class="spoke" stroke="#a9def9" d="M 1027.2,1452.6 Q 1182.0,1034.2 1455.7,520.4"/>
+<path class="spoke" stroke="#a9def9" d="M 1027.2,1452.6 Q 1189.8,1039.2 1482.5,537.8"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1027.2,747.4 Q 1033.0,806.0 941.7,438.7"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1027.2,747.4 Q 1042.0,804.0 972.9,432.0"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1021.5,590.0 Q 1049.5,756.9 1004.5,426.7"/>
+<path class="spoke" stroke="#ffadad" d="M 1172.8,1452.6 Q 1174.6,1392.0 1284.6,1754.5"/>
+<path class="spoke" stroke="#cdb4db" d="M 1529.0,1011.4 Q 1414.2,1020.8 1754.5,915.4"/>
+<path class="spoke" stroke="#cdb4db" d="M 1529.0,1011.4 Q 1417.1,1032.5 1764.5,955.7"/>
+<path class="spoke" stroke="#cdb4db" d="M 1538.0,1100.0 Q 1421.9,1070.0 1772.1,996.6"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1178.5,590.0 Q 1104.3,755.8 1036.2,423.0"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1178.5,590.0 Q 1113.5,755.1 1068.1,420.8"/>
+<path class="spoke" stroke="#caffbf" d="M 734.1,859.3 Q 821.1,935.1 504.4,771.9"/>
+<path class="spoke" stroke="#caffbf" d="M 734.1,859.3 Q 825.8,927.1 520.4,744.3"/>
+<path class="spoke" stroke="#caffbf" d="M 734.1,859.3 Q 830.8,919.3 537.8,717.5"/>
+<path class="spoke" stroke="#bde0fe" d="M 662.0,1100.0 Q 783.6,1154.9 446.8,1289.2"/>
+<path class="spoke" stroke="#caffbf" d="M 799.2,902.2 Q 855.1,924.2 556.4,691.5"/>
+<path class="spoke" stroke="#caffbf" d="M 845.4,845.4 Q 874.3,900.4 576.2,666.4"/>
+<path class="spoke" stroke="#caffbf" d="M 1100.0,1460.0 Q 954.2,1071.7 597.1,642.3"/>
+<path class="spoke" stroke="#caffbf" d="M 1100.0,1460.0 Q 960.6,1065.0 619.2,619.2"/>
+<path class="spoke" stroke="#caffbf" d="M 1100.0,1460.0 Q 967.3,1058.6 642.3,597.1"/>
+<path class="spoke" stroke="#bde0fe" d="M 747.4,1172.8 Q 806.0,1167.0 438.7,1258.3"/>
+<path class="spoke" stroke="#bde0fe" d="M 740.0,1100.0 Q 801.9,1136.8 432.0,1227.1"/>
+<path class="spoke" stroke="#bde0fe" d="M 747.4,1027.2 Q 802.5,1106.6 426.7,1195.5"/>
+<path class="spoke" stroke="#bde0fe" d="M 662.0,1100.0 Q 776.7,1118.5 423.0,1163.8"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1100.0,662.0 Q 1100.0,775.8 1100.0,420.0"/>
+<path class="spoke" stroke="#bde0fe" d="M 662.0,1100.0 Q 776.0,1109.3 420.8,1131.9"/>
+<path class="spoke" stroke="#bde0fe" d="M 1027.2,1452.6 Q 881.7,1202.2 420.0,1100.0"/>
+<path class="spoke" stroke="#bde0fe" d="M 1027.2,1452.6 Q 881.9,1193.0 420.8,1068.1"/>
+<path class="spoke" stroke="#caffbf" d="M 734.1,859.3 Q 868.1,878.3 666.4,576.2"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1178.5,590.0 Q 1132.0,755.1 1131.9,420.8"/>
+<path class="spoke" stroke="#a9def9" d="M 1297.8,799.2 Q 1275.8,855.1 1508.5,556.4"/>
+<path class="spoke" stroke="#ffd6a5" d="M 1297.8,1400.8 Q 1328.7,1284.9 1690.7,1436.8"/>
+<path class="spoke" stroke="#fdffb6" d="M 790.3,1409.7 Q 914.3,1362.1 769.4,1694.2"/>
+<path class="spoke" stroke="#caffbf" d="M 902.2,799.2 Q 924.2,855.1 691.5,556.4"/>
+<path class="spoke" stroke="#bde0fe" d="M 662.0,1100.0 Q 776.7,1081.5 423.0,1036.2"/>
+<path class="spoke" stroke="#fdffb6" d="M 799.2,1297.8 Q 907.5,1324.1 736.9,1675.0"/>
+<path class="spoke" stroke="#fdffb6" d="M 799.2,1297.8 Q 898.4,1318.0 705.6,1653.9"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1188.6,671.0 Q 1144.2,779.3 1163.8,423.0"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1188.6,671.0 Q 1153.4,780.4 1195.5,426.7"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1188.6,671.0 Q 1162.5,781.9 1227.1,432.0"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1172.8,747.4 Q 1167.0,806.0 1258.3,438.7"/>
+<path class="spoke" stroke="#fdffb6" d="M 859.3,1465.9 Q 907.1,1360.2 675.4,1631.2"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1100.0,740.0 Q 1154.9,806.2 1289.2,446.8"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1100.0,740.0 Q 1036.8,773.9 882.1,335.5"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1172.8,747.4 Q 1070.3,772.9 924.9,324.5"/>
+<path class="spoke" stroke="#ffadad" d="M 1172.8,1452.6 Q 1163.0,1395.0 1244.3,1764.5"/>
+<path class="spoke" stroke="#ffadad" d="M 1172.8,1452.6 Q 1151.1,1397.1 1203.4,1772.1"/>
+<path class="spoke" stroke="#ffadad" d="M 1172.8,1452.6 Q 1139.2,1398.6 1162.2,1777.1"/>
+<path class="spoke" stroke="#ffd6a5" d="M 1409.7,1409.7 Q 1353.2,1300.3 1663.3,1480.9"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1021.5,590.0 Q 1039.0,724.7 968.2,316.0"/>
+<path class="spoke" stroke="#caffbf" d="M 1172.8,1452.6 Q 1010.2,1039.2 717.5,537.8"/>
+<path class="spoke" stroke="#caffbf" d="M 1354.6,845.4 Q 1070.7,858.1 744.3,520.4"/>
+<path class="spoke" stroke="#a9def9" d="M 1400.8,902.2 Q 1313.0,890.7 1533.6,576.2"/>
+<path class="spoke" stroke="#ffadad" d="M 1172.8,1452.6 Q 1127.1,1399.4 1120.8,1779.7"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1172.8,747.4 Q 1095.6,768.6 1011.9,309.9"/>
+<path class="spoke" stroke="#a9def9" d="M 1340.7,734.1 Q 1302.5,848.0 1557.7,597.1"/>
+<path class="spoke" stroke="#ffd6a5" d="M 1297.8,1400.8 Q 1311.8,1309.8 1632.6,1522.7"/>
+<path class="spoke" stroke="#fdffb6" d="M 902.2,1400.8 Q 911.1,1334.2 646.6,1606.8"/>
+<path class="spoke" stroke="#bde0fe" d="M 902.2,799.2 Q 847.4,985.1 426.7,1004.5"/>
+<path class="spoke" stroke="#cdb4db" d="M 1529.0,1011.4 Q 1420.8,1056.3 1777.1,1037.8"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1011.4,671.0 Q 1061.5,745.4 1055.9,306.2"/>
+<path class="spoke" stroke="#ffadad" d="M 1033.4,1532.9 Q 1074.7,1422.6 1079.2,1779.7"/>
+<path class="spoke" stroke="#ffadad" d="M 1033.4,1532.9 Q 1062.6,1421.9 1037.8,1777.1"/>
+<path class="spoke" stroke="#caffbf" d="M 845.4,845.4 Q 931.0,853.4 771.9,504.4"/>
+<path class="spoke" stroke="#ffd6a5" d="M 1354.6,1354.6 Q 1318.5,1307.8 1598.8,1562.1"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1178.5,590.0 Q 1122.8,721.6 1100.0,305.0"/>
+<path class="spoke" stroke="#caffbf" d="M 799.2,902.2 Q 826.8,906.3 458.9,629.9"/>
+<path class="spoke" stroke="#a9def9" d="M 1297.8,799.2 Q 1296.8,873.3 1580.8,619.2"/>
+<path class="spoke" stroke="#cdb4db" d="M 1452.6,1027.2 Q 1399.4,1072.9 1779.7,1079.2"/>
+<path class="spoke" stroke="#fdffb6" d="M 902.2,1400.8 Q 903.2,1326.7 619.2,1580.8"/>
+<path class="spoke" stroke="#ffd6a5" d="M 1400.8,1297.8 Q 1321.2,1302.0 1562.1,1598.8"/>
+<path class="spoke" stroke="#a9def9" d="M 1178.5,590.0 Q 1268.6,819.4 1602.9,642.3"/>
+<path class="spoke" stroke="#a9def9" d="M 1354.6,845.4 Q 1325.7,900.4 1623.8,666.4"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1178.5,590.0 Q 1135.6,721.9 1144.1,306.2"/>
+<path class="spoke" stroke="#ffd6a5" d="M 1409.7,1409.7 Q 1312.4,1344.3 1522.7,1632.6"/>
+<path class="spoke" stroke="#ffadad" d="M 1033.4,1532.9 Q 1050.7,1420.4 996.6,1772.1"/>
+<path class="spoke" stroke="#fdffb6" d="M 902.2,1400.8 Q 895.7,1318.7 593.2,1553.4"/>
+<path class="spoke" stroke="#a9def9" d="M 1400.8,902.2 Q 1344.9,924.2 1643.6,691.5"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1178.5,590.0 Q 1148.3,723.0 1188.1,309.9"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1178.5,590.0 Q 1161.0,724.7 1231.8,316.0"/>
+<path class="spoke" stroke="#a9def9" d="M 1027.2,747.4 Q 1241.9,886.8 1662.2,717.5"/>
+<path class="spoke" stroke="#bde0fe" d="M 1340.7,734.1 Q 976.1,957.0 432.0,972.9"/>
+<path class="spoke" stroke="#bde0fe" d="M 1297.8,799.2 Q 965.6,966.9 438.7,941.7"/>
+<path class="spoke" stroke="#bde0fe" d="M 845.4,1354.6 Q 836.8,1119.0 446.8,910.8"/>
+<path class="spoke" stroke="#ffd6a5" d="M 1400.8,1297.8 Q 1297.7,1320.7 1480.9,1663.3"/>
+<path class="spoke" stroke="#bde0fe" d="M 1400.8,1297.8 Q 962.7,1209.7 325.8,1280.5"/>
+<path class="spoke" stroke="#bde0fe" d="M 1460.0,1100.0 Q 974.5,1117.6 307.3,1160.6"/>
+<path class="spoke" stroke="#ffd6a5" d="M 1409.7,1409.7 Q 1287.5,1361.1 1436.8,1690.7"/>
+<path class="spoke" stroke="#a9def9" d="M 1465.9,859.3 Q 1374.2,927.1 1679.6,744.3"/>
+<path class="spoke" stroke="#cdb4db" d="M 1538.0,1100.0 Q 1424.1,1106.0 1779.7,1120.8"/>
+<path class="spoke" stroke="#fdffb6" d="M 845.4,1354.6 Q 872.1,1296.9 568.8,1524.6"/>
+<path class="spoke" stroke="#fdffb6" d="M 859.3,1465.9 Q 869.6,1320.5 546.1,1494.4"/>
+<path class="spoke" stroke="#fdffb6" d="M 799.2,1297.8 Q 846.0,1262.7 525.0,1463.1"/>
+<path class="spoke" stroke="#cdb4db" d="M 1529.0,1188.6 Q 1420.8,1143.7 1777.1,1162.2"/>
+<path class="spoke" stroke="#fdffb6" d="M 734.1,1340.7 Q 821.6,1265.7 505.8,1430.6"/>
+<path class="spoke" stroke="#a9def9" d="M 1409.7,790.3 Q 1362.5,915.0 1695.6,771.9"/>
+<path class="spoke" stroke="#caffbf" d="M 902.2,799.2 Q 906.3,826.8 629.9,458.9"/>
+<path class="spoke" stroke="#cdb4db" d="M 1452.6,1172.8 Q 1397.1,1151.1 1772.1,1203.4"/>
+<path class="spoke" stroke="#a9def9" d="M 1465.9,859.3 Q 1342.5,844.3 1570.1,458.9"/>
+<path class="spoke" stroke="#bde0fe" d="M 1400.8,1297.8 Q 957.3,1139.8 307.3,1039.4"/>
+<path class="spoke" stroke="#ffadad" d="M 1166.6,1532.9 Q 1077.5,1418.3 955.7,1764.5"/>
+<path class="spoke" stroke="#bde0fe" d="M 859.3,734.1 Q 805.7,941.5 325.8,919.5"/>
+<path class="spoke" stroke="#cdb4db" d="M 1460.0,1100.0 Q 1397.1,1141.8 1764.5,1244.3"/>
+<path class="spoke" stroke="#cdb4db" d="M 1452.6,1027.2 Q 1392.0,1132.4 1754.5,1284.6"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1027.2,747.4 Q 1129.7,772.9 1275.1,324.5"/>
+<path class="spoke" stroke="#a9def9" d="M 1297.8,799.2 Q 1343.3,876.4 1741.1,629.9"/>
+<path class="spoke" stroke="#ffadad" d="M 1100.0,1460.0 Q 1046.5,1394.2 915.4,1754.5"/>
+<path class="spoke" stroke="#8bd3dd" d="M 1100.0,662.0 Q 1163.2,751.3 1317.9,335.5"/>
+<a href="../MATHEMATICAL_GIST.md"><circle class="node family-node" cx="1100" cy="1100" r="122" fill="#111936"/><title>Open the Mathematical Gist</title></a>
+<text class="heart" x="1100" y="1067">♥</text>
+<text class="title" x="1100" y="1109">OBSERVATION</text>
+<text class="subtitle" x="1100" y="1138">need → move → equation</text>
+<a href="../MATHEMATICAL_MOVES.md#map-of-the-moves"><circle class="node family-node" cx="1100.0" cy="855.0" r="70" fill="#8bd3dd" fill-opacity=".14"/><title>What kind of thing is this, and how do its pieces stay addressable?</title><text class="family-label" x="1100.0" y="844.0">Name &amp;</text><text class="family-label" x="1100.0" y="865.0">Organize</text><text class="subtitle" x="1100.0" y="889.0">24 equations</text></a>
+<a href="../MATHEMATICAL_MOVES.md#map-of-the-moves"><circle class="node family-node" cx="1273.2" cy="926.8" r="70" fill="#a9def9" fill-opacity=".14"/><title>What changed, how far apart are two observations, and what direction survives?</title><text class="family-label" x="1273.2" y="915.8">Compare &amp;</text><text class="family-label" x="1273.2" y="936.8">Measure</text><text class="subtitle" x="1273.2" y="960.8">15 equations</text></a>
+<a href="../MATHEMATICAL_MOVES.md#map-of-the-moves"><circle class="node family-node" cx="1345.0" cy="1100.0" r="70" fill="#cdb4db" fill-opacity=".14"/><title>Which contributions belong in one answer, and which relationships must interact?</title><text class="family-label" x="1345.0" y="1089.0">Combine</text><text class="family-label" x="1345.0" y="1110.0">Evidence</text><text class="subtitle" x="1345.0" y="1134.0">10 equations</text></a>
+<a href="../MATHEMATICAL_MOVES.md#map-of-the-moves"><circle class="node family-node" cx="1273.2" cy="1273.2" r="70" fill="#ffd6a5" fill-opacity=".14"/><title>How do totals become fair shares, averages, or comparable scales?</title><text class="family-label" x="1273.2" y="1262.2">Share &amp;</text><text class="family-label" x="1273.2" y="1283.2">Normalize</text><text class="subtitle" x="1273.2" y="1307.2">8 equations</text></a>
+<a href="../MATHEMATICAL_MOVES.md#map-of-the-moves"><circle class="node family-node" cx="1100.0" cy="1345.0" r="70" fill="#ffadad" fill-opacity=".14"/><title>How can scale change without discarding the relationship we care about?</title><text class="family-label" x="1100.0" y="1334.0">Reshape</text><text class="family-label" x="1100.0" y="1355.0">Scale</text><text class="subtitle" x="1100.0" y="1379.0">10 equations</text></a>
+<a href="../MATHEMATICAL_MOVES.md#map-of-the-moves"><circle class="node family-node" cx="926.8" cy="1273.2" r="70" fill="#fdffb6" fill-opacity=".14"/><title>Which candidate wins, and which possibilities remain allowed?</title><text class="family-label" x="926.8" y="1262.2">Choose &amp;</text><text class="family-label" x="926.8" y="1283.2">Constrain</text><text class="subtitle" x="926.8" y="1307.2">11 equations</text></a>
+<a href="../MATHEMATICAL_MOVES.md#map-of-the-moves"><circle class="node family-node" cx="855.0" cy="1100.0" r="70" fill="#bde0fe" fill-opacity=".14"/><title>If this changes slightly, what moves downstream and by how much?</title><text class="family-label" x="855.0" y="1089.0">Describe</text><text class="family-label" x="855.0" y="1110.0">Sensitivity</text><text class="subtitle" x="855.0" y="1134.0">17 equations</text></a>
+<a href="../MATHEMATICAL_MOVES.md#map-of-the-moves"><circle class="node family-node" cx="926.8" cy="926.8" r="70" fill="#caffbf" fill-opacity=".14"/><title>Which possibilities remain alive, and how strongly should each count?</title><text class="family-label" x="926.8" y="915.8">Reason Under</text><text class="family-label" x="926.8" y="936.8">Uncertainty</text><text class="subtitle" x="926.8" y="960.8">15 equations</text></a>
+<a href="../MATHEMATICAL_MOVES.md#equals"><rect class="node move-node" x="993.2" y="732.4" width="68.0" height="30" rx="15" stroke="#8bd3dd"/><title>Open the equals mental model</title><text class="move-label" x="1027.2" y="751.4">equals</text></a>
+<a href="../MATHEMATICAL_MOVES.md#brackets"><rect class="node move-node" x="1062.0" y="725.0" width="76.0" height="30" rx="15" stroke="#8bd3dd"/><title>Open the brackets mental model</title><text class="move-label" x="1100.0" y="744.0">brackets</text></a>
+<a href="../MATHEMATICAL_MOVES.md#indices"><rect class="node move-node" x="1138.3" y="732.4" width="69.0" height="30" rx="15" stroke="#8bd3dd"/><title>Open the indices mental model</title><text class="move-label" x="1172.8" y="751.4">indices</text></a>
+<a href="../MATHEMATICAL_MOVES.md#symbol-decorations"><rect class="node move-node" x="938.4" y="656.0" width="146.0" height="30" rx="15" stroke="#8bd3dd"/><title>Open the symbol decorations mental model</title><text class="move-label" x="1011.4" y="675.0">symbol decorations</text></a>
+<a href="../MATHEMATICAL_MOVES.md#cardinality"><rect class="node move-node" x="1051.5" y="647.0" width="97.0" height="30" rx="15" stroke="#8bd3dd"/><title>Open the cardinality mental model</title><text class="move-label" x="1100.0" y="666.0">cardinality</text></a>
+<a href="../MATHEMATICAL_MOVES.md#membership"><rect class="node move-node" x="1143.6" y="656.0" width="90.0" height="30" rx="15" stroke="#8bd3dd"/><title>Open the membership mental model</title><text class="move-label" x="1188.6" y="675.0">membership</text></a>
+<a href="../MATHEMATICAL_MOVES.md#arrows"><rect class="node move-node" x="987.5" y="575.0" width="68.0" height="30" rx="15" stroke="#8bd3dd"/><title>Open the arrows mental model</title><text class="move-label" x="1021.5" y="594.0">arrows</text></a>
+<a href="../MATHEMATICAL_MOVES.md#function-application"><rect class="node move-node" x="1098.5" y="575.0" width="160.0" height="30" rx="15" stroke="#8bd3dd"/><title>Open the function application mental model</title><text class="move-label" x="1178.5" y="594.0">function application</text></a>
+<a href="../MATHEMATICAL_MOVES.md#subtraction"><rect class="node move-node" x="1249.3" y="784.2" width="97.0" height="30" rx="15" stroke="#a9def9"/><title>Open the subtraction mental model</title><text class="move-label" x="1297.8" y="803.2">subtraction</text></a>
+<a href="../MATHEMATICAL_MOVES.md#absolute-value"><rect class="node move-node" x="1295.6" y="830.4" width="118.0" height="30" rx="15" stroke="#a9def9"/><title>Open the absolute value mental model</title><text class="move-label" x="1354.6" y="849.4">absolute value</text></a>
+<a href="../MATHEMATICAL_MOVES.md#powers"><rect class="node move-node" x="1366.8" y="887.2" width="68.0" height="30" rx="15" stroke="#a9def9"/><title>Open the powers mental model</title><text class="move-label" x="1400.8" y="906.2">powers</text></a>
+<a href="../MATHEMATICAL_MOVES.md#square-root"><rect class="node move-node" x="1292.2" y="719.1" width="97.0" height="30" rx="15" stroke="#a9def9"/><title>Open the square root mental model</title><text class="move-label" x="1340.7" y="738.1">square root</text></a>
+<a href="../MATHEMATICAL_MOVES.md#inequalities"><rect class="node move-node" x="1357.7" y="775.3" width="104.0" height="30" rx="15" stroke="#a9def9"/><title>Open the inequalities mental model</title><text class="move-label" x="1409.7" y="794.3">inequalities</text></a>
+<a href="../MATHEMATICAL_MOVES.md#approximation"><rect class="node move-node" x="1410.4" y="844.3" width="111.0" height="30" rx="15" stroke="#a9def9"/><title>Open the approximation mental model</title><text class="move-label" x="1465.9" y="863.3">approximation</text></a>
+<a href="../MATHEMATICAL_MOVES.md#addition"><rect class="node move-node" x="1414.6" y="1012.2" width="76.0" height="30" rx="15" stroke="#cdb4db"/><title>Open the addition mental model</title><text class="move-label" x="1452.6" y="1031.2">addition</text></a>
+<a href="../MATHEMATICAL_MOVES.md#summation"><rect class="node move-node" x="1418.5" y="1085.0" width="83.0" height="30" rx="15" stroke="#cdb4db"/><title>Open the summation mental model</title><text class="move-label" x="1460.0" y="1104.0">summation</text></a>
+<a href="../MATHEMATICAL_MOVES.md#multiplication"><rect class="node move-node" x="1393.6" y="1157.8" width="118.0" height="30" rx="15" stroke="#cdb4db"/><title>Open the multiplication mental model</title><text class="move-label" x="1452.6" y="1176.8">multiplication</text></a>
+<a href="../MATHEMATICAL_MOVES.md#dot-product"><rect class="node move-node" x="1480.5" y="996.4" width="97.0" height="30" rx="15" stroke="#cdb4db"/><title>Open the dot product mental model</title><text class="move-label" x="1529.0" y="1015.4">dot product</text></a>
+<a href="../MATHEMATICAL_MOVES.md#concatenation"><rect class="node move-node" x="1482.5" y="1085.0" width="111.0" height="30" rx="15" stroke="#cdb4db"/><title>Open the concatenation mental model</title><text class="move-label" x="1538.0" y="1104.0">concatenation</text></a>
+<a href="../MATHEMATICAL_MOVES.md#function-composition"><rect class="node move-node" x="1449.0" y="1173.6" width="160.0" height="30" rx="15" stroke="#cdb4db"/><title>Open the function composition mental model</title><text class="move-label" x="1529.0" y="1192.6">function composition</text></a>
+<a href="../MATHEMATICAL_MOVES.md#division"><rect class="node move-node" x="1362.8" y="1282.8" width="76.0" height="30" rx="15" stroke="#ffd6a5"/><title>Open the division mental model</title><text class="move-label" x="1400.8" y="1301.8">division</text></a>
+<a href="../MATHEMATICAL_MOVES.md#mean"><rect class="node move-node" x="1320.6" y="1339.6" width="68.0" height="30" rx="15" stroke="#ffd6a5"/><title>Open the mean mental model</title><text class="move-label" x="1354.6" y="1358.6">mean</text></a>
+<a href="../MATHEMATICAL_MOVES.md#norm"><rect class="node move-node" x="1263.8" y="1385.8" width="68.0" height="30" rx="15" stroke="#ffd6a5"/><title>Open the norm mental model</title><text class="move-label" x="1297.8" y="1404.8">norm</text></a>
+<a href="../MATHEMATICAL_MOVES.md#proportionality"><rect class="node move-node" x="1347.2" y="1394.7" width="125.0" height="30" rx="15" stroke="#ffd6a5"/><title>Open the proportionality mental model</title><text class="move-label" x="1409.7" y="1413.7">proportionality</text></a>
+<a href="../MATHEMATICAL_MOVES.md#exponential"><rect class="node move-node" x="1124.3" y="1437.6" width="97.0" height="30" rx="15" stroke="#ffadad"/><title>Open the exponential mental model</title><text class="move-label" x="1172.8" y="1456.6">exponential</text></a>
+<a href="../MATHEMATICAL_MOVES.md#logarithm"><rect class="node move-node" x="1058.5" y="1445.0" width="83.0" height="30" rx="15" stroke="#ffadad"/><title>Open the logarithm mental model</title><text class="move-label" x="1100.0" y="1464.0">logarithm</text></a>
+<a href="../MATHEMATICAL_MOVES.md#negative-sign"><rect class="node move-node" x="971.7" y="1437.6" width="111.0" height="30" rx="15" stroke="#ffadad"/><title>Open the negative sign mental model</title><text class="move-label" x="1027.2" y="1456.6">negative sign</text></a>
+<a href="../MATHEMATICAL_MOVES.md#cosine"><rect class="node move-node" x="1132.6" y="1517.9" width="68.0" height="30" rx="15" stroke="#ffadad"/><title>Open the cosine mental model</title><text class="move-label" x="1166.6" y="1536.9">cosine</text></a>
+<a href="../MATHEMATICAL_MOVES.md#rounding"><rect class="node move-node" x="995.4" y="1517.9" width="76.0" height="30" rx="15" stroke="#ffadad"/><title>Open the rounding mental model</title><text class="move-label" x="1033.4" y="1536.9">rounding</text></a>
+<a href="../MATHEMATICAL_MOVES.md#maximum"><rect class="node move-node" x="867.7" y="1385.8" width="69.0" height="30" rx="15" stroke="#fdffb6"/><title>Open the maximum mental model</title><text class="move-label" x="902.2" y="1404.8">maximum</text></a>
+<a href="../MATHEMATICAL_MOVES.md#minimum"><rect class="node move-node" x="810.9" y="1339.6" width="69.0" height="30" rx="15" stroke="#fdffb6"/><title>Open the minimum mental model</title><text class="move-label" x="845.4" y="1358.6">minimum</text></a>
+<a href="../MATHEMATICAL_MOVES.md#arg-max"><rect class="node move-node" x="764.7" y="1282.8" width="69.0" height="30" rx="15" stroke="#fdffb6"/><title>Open the arg max mental model</title><text class="move-label" x="799.2" y="1301.8">arg max</text></a>
+<a href="../MATHEMATICAL_MOVES.md#cases"><rect class="node move-node" x="825.3" y="1450.9" width="68.0" height="30" rx="15" stroke="#fdffb6"/><title>Open the cases mental model</title><text class="move-label" x="859.3" y="1469.9">cases</text></a>
+<a href="../MATHEMATICAL_MOVES.md#union"><rect class="node move-node" x="756.3" y="1394.7" width="68.0" height="30" rx="15" stroke="#fdffb6"/><title>Open the union mental model</title><text class="move-label" x="790.3" y="1413.7">union</text></a>
+<a href="../MATHEMATICAL_MOVES.md#intersection"><rect class="node move-node" x="682.1" y="1325.7" width="104.0" height="30" rx="15" stroke="#fdffb6"/><title>Open the intersection mental model</title><text class="move-label" x="734.1" y="1344.7">intersection</text></a>
+<a href="../MATHEMATICAL_MOVES.md#limit"><rect class="node move-node" x="713.4" y="1157.8" width="68.0" height="30" rx="15" stroke="#bde0fe"/><title>Open the limit mental model</title><text class="move-label" x="747.4" y="1176.8">limit</text></a>
+<a href="../MATHEMATICAL_MOVES.md#derivative"><rect class="node move-node" x="695.0" y="1085.0" width="90.0" height="30" rx="15" stroke="#bde0fe"/><title>Open the derivative mental model</title><text class="move-label" x="740.0" y="1104.0">derivative</text></a>
+<a href="../MATHEMATICAL_MOVES.md#partial-derivative"><rect class="node move-node" x="674.4" y="1012.2" width="146.0" height="30" rx="15" stroke="#bde0fe"/><title>Open the partial derivative mental model</title><text class="move-label" x="747.4" y="1031.2">partial derivative</text></a>
+<a href="../MATHEMATICAL_MOVES.md#gradient"><rect class="node move-node" x="624.0" y="1085.0" width="76.0" height="30" rx="15" stroke="#bde0fe"/><title>Open the gradient mental model</title><text class="move-label" x="662.0" y="1104.0">gradient</text></a>
+<a href="../MATHEMATICAL_MOVES.md#probability"><rect class="node move-node" x="750.7" y="887.2" width="97.0" height="30" rx="15" stroke="#caffbf"/><title>Open the probability mental model</title><text class="move-label" x="799.2" y="906.2">probability</text></a>
+<a href="../MATHEMATICAL_MOVES.md#conditional-bar"><rect class="node move-node" x="782.9" y="830.4" width="125.0" height="30" rx="15" stroke="#caffbf"/><title>Open the conditional bar mental model</title><text class="move-label" x="845.4" y="849.4">conditional bar</text></a>
+<a href="../MATHEMATICAL_MOVES.md#expectation"><rect class="node move-node" x="853.7" y="784.2" width="97.0" height="30" rx="15" stroke="#caffbf"/><title>Open the expectation mental model</title><text class="move-label" x="902.2" y="803.2">expectation</text></a>
+<a href="../MATHEMATICAL_MOVES.md#variance"><rect class="node move-node" x="696.1" y="844.3" width="76.0" height="30" rx="15" stroke="#caffbf"/><title>Open the variance mental model</title><text class="move-label" x="734.1" y="863.3">variance</text></a>
+<a href="../MATHEMATICAL_MOVES.md#covariance"><rect class="node move-node" x="745.3" y="775.3" width="90.0" height="30" rx="15" stroke="#caffbf"/><title>Open the covariance mental model</title><text class="move-label" x="790.3" y="794.3">covariance</text></a>
+<a href="../MATHEMATICAL_MOVES.md#trace"><rect class="node move-node" x="825.3" y="719.1" width="68.0" height="30" rx="15" stroke="#caffbf"/><title>Open the trace mental model</title><text class="move-label" x="859.3" y="738.1">trace</text></a>
+<a href="../excavations/002-vectors/README.md"><circle class="node equation-node" cx="910.8" cy="446.8" r="16" fill="#8bd3dd"/><title>Excavation 002 — Vectors — \mathbf{x}=[x_1,x_2,\ldots,x_n] — moves: brackets, indices, equals</title><text class="eq-label" x="910.8" y="446.8">002</text></a>
+<a href="../excavations/003-distance/README.md"><circle class="node equation-node" cx="1428.1" cy="504.4" r="16" fill="#a9def9"/><title>Excavation 003 — Distance — d(\mathbf{x},\mathbf{y}) =\sqrt{(x_1-y_1)^2+(x_2-y_2)^2+\cdots+(x_n-y_n)^2} — moves: subtraction, powers, summation, square root</title><text class="eq-label" x="1428.1" y="504.4">003</text></a>
+<a href="../excavations/004-vectors-as-change/README.md"><circle class="node equation-node" cx="1455.7" cy="520.4" r="16" fill="#a9def9"/><title>Excavation 004 — Vectors as Change — \Delta=\mathbf{b}-\mathbf{a}=[7-2,1-3]=[5,-2] — moves: subtraction, negative sign, addition</title><text class="eq-label" x="1455.7" y="520.4">004.1</text></a>
+<a href="../excavations/004-vectors-as-change/README.md"><circle class="node equation-node" cx="1482.5" cy="537.8" r="16" fill="#a9def9"/><title>Excavation 004 — Vectors as Change — \mathbf{a}+\Delta=\mathbf{b} — moves: subtraction, negative sign, addition</title><text class="eq-label" x="1482.5" y="537.8">004.2</text></a>
+<a href="../excavations/005-matrices/README.md"><circle class="node equation-node" cx="941.7" cy="438.7" r="16" fill="#8bd3dd"/><title>Excavation 005 — Matrices — \text{threat score}=2(4)+3(5)=23 — moves: multiplication, addition, equals</title><text class="eq-label" x="941.7" y="438.7">005.1</text></a>
+<a href="../excavations/005-matrices/README.md"><circle class="node equation-node" cx="972.9" cy="432.0" r="16" fill="#8bd3dd"/><title>Excavation 005 — Matrices — \text{chase score}=0(4)+4(5)=20 — moves: multiplication, addition, equals</title><text class="eq-label" x="972.9" y="432.0">005.2</text></a>
+<a href="../excavations/007-embeddings/README.md"><circle class="node equation-node" cx="1004.5" cy="426.7" r="16" fill="#8bd3dd"/><title>Excavation 007 — A Place for Meaning to Live — \text{token}\longrightarrow \mathbf{e}\in\mathbb{R}^d — moves: arrows, membership, powers</title><text class="eq-label" x="1004.5" y="426.7">007</text></a>
+<a href="../excavations/009-softmax/README.md"><circle class="node equation-node" cx="1284.6" cy="1754.5" r="16" fill="#ffadad"/><title>Excavation 009 — From Scores to Attention — \mathrm{softmax}(s_i)=\frac{e^{s_i}}{\sum_j e^{s_j}} — moves: exponential, summation, division</title><text class="eq-label" x="1284.6" y="1754.5">009</text></a>
+<a href="../excavations/010-query-key-value/README.md"><circle class="node equation-node" cx="1754.5" cy="915.4" r="16" fill="#cdb4db"/><title>Excavation 010 — Query, Key, and Value — s_{ij}=\mathbf{q}_i\cdot\mathbf{k}_j =\sum_r q_{ir}k_{jr} — moves: dot product, multiplication, summation</title><text class="eq-label" x="1754.5" y="915.4">010.1</text></a>
+<a href="../excavations/010-query-key-value/README.md"><circle class="node equation-node" cx="1764.5" cy="955.7" r="16" fill="#cdb4db"/><title>Excavation 010 — Query, Key, and Value — \mathbf{o}_i=\sum_j \alpha_{ij}\mathbf{v}_j — moves: dot product, multiplication, summation</title><text class="eq-label" x="1764.5" y="955.7">010.2</text></a>
+<a href="../excavations/011-multi-head-attention/README.md"><circle class="node equation-node" cx="1772.1" cy="996.6" r="16" fill="#cdb4db"/><title>Excavation 011 — Multi-Head Attention — \mathrm{MultiHead}(X) =\mathrm{Concat}(\text{head}_1,\ldots,\text{head}_H)W_O — moves: concatenation, multiplication</title><text class="eq-label" x="1772.1" y="996.6">011</text></a>
+<a href="../excavations/012-feed-forward-networks/README.md"><circle class="node equation-node" cx="1036.2" cy="423.0" r="16" fill="#8bd3dd"/><title>Excavation 012 — Feed-Forward Networks — \mathrm{FFN}(\mathbf{x}) =W_2 \sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2 — moves: multiplication, addition, function application</title><text class="eq-label" x="1036.2" y="423.0">012</text></a>
+<a href="../excavations/013-residual-connections/README.md"><circle class="node equation-node" cx="1068.1" cy="420.8" r="16" fill="#8bd3dd"/><title>Excavation 013 — Residual Connections — \mathbf{y}=\mathbf{x}+F(\mathbf{x}) — moves: addition, function application</title><text class="eq-label" x="1068.1" y="420.8">013</text></a>
+<a href="../excavations/014-layer-normalization/README.md"><circle class="node equation-node" cx="504.4" cy="771.9" r="16" fill="#caffbf"/><title>Excavation 014 — Layer Normalization — \mu=\frac1d\sum_i x_i, — moves: mean, subtraction, variance, square root, division, addition</title><text class="eq-label" x="504.4" y="771.9">014.1</text></a>
+<a href="../excavations/014-layer-normalization/README.md"><circle class="node equation-node" cx="520.4" cy="744.3" r="16" fill="#caffbf"/><title>Excavation 014 — Layer Normalization — \sigma^2=\frac1d\sum_i(x_i-\mu)^2 — moves: mean, subtraction, variance, square root, division, addition</title><text class="eq-label" x="520.4" y="744.3">014.2</text></a>
+<a href="../excavations/014-layer-normalization/README.md"><circle class="node equation-node" cx="537.8" cy="717.5" r="16" fill="#caffbf"/><title>Excavation 014 — Layer Normalization — \widehat{x}_i=\frac{x_i-\mu}{\sqrt{\sigma^2+\epsilon}} — moves: mean, subtraction, variance, square root, division, addition</title><text class="eq-label" x="537.8" y="717.5">014.3</text></a>
+<a href="../excavations/015-learning/README.md"><circle class="node equation-node" cx="446.8" cy="1289.2" r="16" fill="#bde0fe"/><title>Excavation 015 — How a Dead Brain Learns — \theta\leftarrow\theta-\eta\nabla L — moves: gradient, negative sign, multiplication, arrows</title><text class="eq-label" x="446.8" y="1289.2">015</text></a>
+<a href="../excavations/017-probability/README.md"><circle class="node equation-node" cx="556.4" cy="691.5" r="16" fill="#caffbf"/><title>Excavation 017 — Probability — Counting What We Do Not Know — P(A)=\frac{\text{times }A\text{ occurred}}{\text{comparable observations}} — moves: division, probability</title><text class="eq-label" x="556.4" y="691.5">017</text></a>
+<a href="../excavations/018-likelihood/README.md"><circle class="node equation-node" cx="576.2" cy="666.4" r="16" fill="#caffbf"/><title>Excavation 018 — Likelihood — Which Hidden Story Produced This Evidence? — \mathcal{L}(\theta\mid x)=P(x\mid\theta) — moves: conditional bar, equals</title><text class="eq-label" x="576.2" y="666.4">018</text></a>
+<a href="../excavations/019-information/README.md"><circle class="node equation-node" cx="597.1" cy="642.3" r="16" fill="#caffbf"/><title>Excavation 019 — Information — Why Surprise Needs a Number — I(x)=-\log P(x) — moves: logarithm, negative sign</title><text class="eq-label" x="597.1" y="642.3">019</text></a>
+<a href="../excavations/020-entropy/README.md"><circle class="node equation-node" cx="619.2" cy="619.2" r="16" fill="#caffbf"/><title>Excavation 020 — Entropy — Measuring the Uncertainty of a Whole Situation — H(P)=-\sum_i p_i\log p_i — moves: multiplication, summation, logarithm, negative sign</title><text class="eq-label" x="619.2" y="619.2">020</text></a>
+<a href="../excavations/021-cross-entropy/README.md"><circle class="node equation-node" cx="642.3" cy="597.1" r="16" fill="#caffbf"/><title>Excavation 021 — Cross-Entropy — Paying for Confidently Wrong Predictions — H(P,Q)=-\sum_i p_i\log q_i — moves: logarithm, multiplication, summation</title><text class="eq-label" x="642.3" y="597.1">021</text></a>
+<a href="../excavations/022-derivatives/README.md"><circle class="node equation-node" cx="438.7" cy="1258.3" r="16" fill="#bde0fe"/><title>Excavation 022 — Derivatives — Asking One Weight What It Changed — \frac{dL}{dw}=\lim_{\epsilon\to0}\frac{L(w+\epsilon)-L(w)}{\epsilon} — moves: subtraction, division, limit</title><text class="eq-label" x="438.7" y="1258.3">022</text></a>
+<a href="../excavations/023-chain-rule/README.md"><circle class="node equation-node" cx="432.0" cy="1227.1" r="16" fill="#bde0fe"/><title>Excavation 023 — The Chain Rule — Following One Change Through Many Machines — \frac{dL}{dw}=\frac{dL}{dy}\frac{dy}{dx}\frac{dx}{dw} — moves: derivative, multiplication</title><text class="eq-label" x="432.0" y="1227.1">023</text></a>
+<a href="../excavations/024-backpropagation/README.md"><circle class="node equation-node" cx="426.7" cy="1195.5" r="16" fill="#bde0fe"/><title>Excavation 024 — Backpropagation — Reusing Blame Instead of Recomputing It — \bar{x}=\sum_{y\in children(x)}\bar{y}\frac{\partial y}{\partial x} — moves: partial derivative, multiplication, summation</title><text class="eq-label" x="426.7" y="1195.5">024</text></a>
+<a href="../excavations/025-gradient-descent/README.md"><circle class="node equation-node" cx="423.0" cy="1163.8" r="16" fill="#bde0fe"/><title>Excavation 025 — Gradient Descent — Teaching a Tiny Network — \theta_{t+1}=\theta_t-\eta\nabla_\theta L — moves: indices, gradient, negative sign, multiplication</title><text class="eq-label" x="423.0" y="1163.8">025</text></a>
+<a href="../excavations/026-mini-batches/README.md"><circle class="node equation-node" cx="1100.0" cy="420.0" r="16" fill="#8bd3dd"/><title>Excavation 026 — Mini-Batches — Learning from More Than One Example — g_B=\frac{1}{|B|}\sum_{i\in B}\nabla_\theta L_i — moves: summation, division, membership, cardinality</title><text class="eq-label" x="1100.0" y="420.0">026</text></a>
+<a href="../excavations/027-learning-rate/README.md"><circle class="node equation-node" cx="420.8" cy="1131.9" r="16" fill="#bde0fe"/><title>Excavation 027 — Learning Rate — How Large Should the Next Step Be? — \theta_{t+1}=\theta_t-\eta_t g_t — moves: gradient, multiplication, negative sign</title><text class="eq-label" x="420.8" y="1131.9">027</text></a>
+<a href="../excavations/028-momentum/README.md"><circle class="node equation-node" cx="420.0" cy="1100.0" r="16" fill="#bde0fe"/><title>Excavation 028 — Momentum — Remembering Which Way Downhill Persists — v_t=\beta v_{t-1}+g_t — moves: multiplication, addition, negative sign</title><text class="eq-label" x="420.0" y="1100.0">028.1</text></a>
+<a href="../excavations/028-momentum/README.md"><circle class="node equation-node" cx="420.8" cy="1068.1" r="16" fill="#bde0fe"/><title>Excavation 028 — Momentum — Remembering Which Way Downhill Persists — \theta_{t+1}=\theta_t-\eta v_t — moves: multiplication, addition, negative sign</title><text class="eq-label" x="420.8" y="1068.1">028.2</text></a>
+<a href="../excavations/029-initialization/README.md"><circle class="node equation-node" cx="666.4" cy="576.2" r="16" fill="#caffbf"/><title>Excavation 029 — Initialization — Where Should Learning Begin? — \mathrm{Var}(w)\approx\frac{1}{n_{\text{in}}} — moves: variance, division, approximation, equals</title><text class="eq-label" x="666.4" y="576.2">029</text></a>
+<a href="../excavations/030-activation-functions/README.md"><circle class="node equation-node" cx="1131.9" cy="420.8" r="16" fill="#8bd3dd"/><title>Excavation 030 — Activation Functions — Why a Network Must Bend — h=\phi(Wx+b) — moves: multiplication, addition, function application</title><text class="eq-label" x="1131.9" y="420.8">030</text></a>
+<a href="../excavations/031-overfitting/README.md"><circle class="node equation-node" cx="1508.5" cy="556.4" r="16" fill="#a9def9"/><title>Excavation 031 — Overfitting — When Perfect Memory Pretends to Be Intelligence — \text{generalization gap}=L_{\text{unseen}}-L_{\text{train}} — moves: subtraction</title><text class="eq-label" x="1508.5" y="556.4">031</text></a>
+<a href="../excavations/032-regularization/README.md"><circle class="node equation-node" cx="1690.7" cy="1436.8" r="16" fill="#ffd6a5"/><title>Excavation 032 — Regularization — Making Memorization More Expensive — L_{\text{total}}=L_{\text{data}}+\lambda\lVert\theta\rVert^2 — moves: addition, norm, multiplication</title><text class="eq-label" x="1690.7" y="1436.8">032</text></a>
+<a href="../excavations/033-validation/README.md"><circle class="node equation-node" cx="769.4" cy="1694.2" r="16" fill="#fdffb6"/><title>Excavation 033 — Validation — Testing Without Peeking at the Final Exam — D=D_{\text{train}}\cup D_{\text{validation}}\cup D_{\text{test}} — moves: union</title><text class="eq-label" x="769.4" y="1694.2">033</text></a>
+<a href="../excavations/034-generalization/README.md"><circle class="node equation-node" cx="691.5" cy="556.4" r="16" fill="#caffbf"/><title>Excavation 034 — Generalization — What Should Survive Beyond the Dataset? — R(\theta)=\mathbb{E}_{(x,y)\sim P_{\text{future}}}[L(f_\theta(x),y)] — moves: expectation, function application</title><text class="eq-label" x="691.5" y="556.4">034</text></a>
+<a href="../excavations/035-tiny-neural-network/README.md"><circle class="node equation-node" cx="423.0" cy="1036.2" r="16" fill="#bde0fe"/><title>Excavation 035 — A Tiny Neural Network — Assemble the Entire Learning Loop — x\to Wx+b\to\phi(\cdot)\to\hat y\to L\to\nabla_\theta L\to\theta^\prime — moves: arrows, gradient</title><text class="eq-label" x="423.0" y="1036.2">035</text></a>
+<a href="../excavations/036-tokenization/README.md"><circle class="node equation-node" cx="736.9" cy="1675.0" r="16" fill="#fdffb6"/><title>Excavation 036 — Tokenization: What Can a Language Model See? — c(a,b)=\text{number of adjacent occurrences of }(a,b) — moves: equals, arg max, symbol decorations</title><text class="eq-label" x="736.9" y="1675.0">036.1</text></a>
+<a href="../excavations/036-tokenization/README.md"><circle class="node equation-node" cx="705.6" cy="1653.9" r="16" fill="#fdffb6"/><title>Excavation 036 — Tokenization: What Can a Language Model See? — (a^*,b^*)=\underset{(a,b)}{\text{arg max}} c(a,b) — moves: equals, arg max, symbol decorations</title><text class="eq-label" x="705.6" y="1653.9">036.2</text></a>
+<a href="../excavations/037-input-embeddings/README.md"><circle class="node equation-node" cx="1163.8" cy="423.0" r="16" fill="#8bd3dd"/><title>Excavation 037 — Input Embeddings: Giving Tokens Learnable Coordinates — E\in\mathbb{R}^{|V|\times d} — moves: membership, indices, multiplication</title><text class="eq-label" x="1163.8" y="423.0">037.1</text></a>
+<a href="../excavations/037-input-embeddings/README.md"><circle class="node equation-node" cx="1195.5" cy="426.7" r="16" fill="#8bd3dd"/><title>Excavation 037 — Input Embeddings: Giving Tokens Learnable Coordinates — \mathbf{x}_i=E[i] — moves: membership, indices, multiplication</title><text class="eq-label" x="1195.5" y="426.7">037.2</text></a>
+<a href="../excavations/037-input-embeddings/README.md"><circle class="node equation-node" cx="1227.1" cy="432.0" r="16" fill="#8bd3dd"/><title>Excavation 037 — Input Embeddings: Giving Tokens Learnable Coordinates — \mathbf{x}_i=\mathbf{e}_iE — moves: membership, indices, multiplication</title><text class="eq-label" x="1227.1" y="432.0">037.3</text></a>
+<a href="../excavations/038-position/README.md"><circle class="node equation-node" cx="1258.3" cy="438.7" r="16" fill="#8bd3dd"/><title>Excavation 038 — Position — Why Order Must Enter the Model — z_i=E[token_i]+P_i — moves: addition, indices</title><text class="eq-label" x="1258.3" y="438.7">038</text></a>
+<a href="../excavations/039-causal-mask/README.md"><circle class="node equation-node" cx="675.4" cy="1631.2" r="16" fill="#fdffb6"/><title>Excavation 039 — Causal Masking — Preventing the Future from Leaking Backward — M_{ij}=\begin{cases}0&amp;j\le i\\-\infty&amp;j&gt;i\end{cases} — moves: cases, inequalities, negative sign</title><text class="eq-label" x="675.4" y="1631.2">039</text></a>
+<a href="../excavations/040-next-token-examples/README.md"><circle class="node equation-node" cx="1289.2" cy="446.8" r="16" fill="#8bd3dd"/><title>Excavation 040 — Next-Token Examples — One Sentence Becomes Many Lessons — x=(t_0,\ldots,t_{n-1}) — moves: brackets, indices</title><text class="eq-label" x="1289.2" y="446.8">040.1</text></a>
+<a href="../excavations/040-next-token-examples/README.md"><circle class="node equation-node" cx="882.1" cy="335.5" r="16" fill="#8bd3dd"/><title>Excavation 040 — Next-Token Examples — One Sentence Becomes Many Lessons — y=(t_1,\ldots,t_n) — moves: brackets, indices</title><text class="eq-label" x="882.1" y="335.5">040.2</text></a>
+<a href="../excavations/041-logits/README.md"><circle class="node equation-node" cx="924.9" cy="324.5" r="16" fill="#8bd3dd"/><title>Excavation 041 — Logits — Let Every Vocabulary Token Compete — \ell_i=hW_{\text{vocab}}+b — moves: multiplication, addition, indices</title><text class="eq-label" x="924.9" y="324.5">041</text></a>
+<a href="../excavations/042-vocabulary-probabilities/README.md"><circle class="node equation-node" cx="1244.3" cy="1764.5" r="16" fill="#ffadad"/><title>Excavation 042 — Vocabulary Probabilities — Turning Scores into a Prediction — p_i=\frac{e^{\ell_i}}{\sum_j e^{\ell_j}} — moves: exponential, summation, division, logarithm, negative sign</title><text class="eq-label" x="1244.3" y="1764.5">042.1</text></a>
+<a href="../excavations/042-vocabulary-probabilities/README.md"><circle class="node equation-node" cx="1203.4" cy="1772.1" r="16" fill="#ffadad"/><title>Excavation 042 — Vocabulary Probabilities — Turning Scores into a Prediction — L=-\log p_y — moves: exponential, summation, division, logarithm, negative sign</title><text class="eq-label" x="1203.4" y="1772.1">042.2</text></a>
+<a href="../excavations/043-sampling/README.md"><circle class="node equation-node" cx="1162.2" cy="1777.1" r="16" fill="#ffadad"/><title>Excavation 043 — Sampling — Choosing Without Always Taking the Maximum — p_i(T)=\frac{e^{\ell_i/T}}{\sum_j e^{\ell_j/T}} — moves: division, exponential, summation</title><text class="eq-label" x="1162.2" y="1777.1">043</text></a>
+<a href="../excavations/044-context-window/README.md"><circle class="node equation-node" cx="1663.3" cy="1480.9" r="16" fill="#ffd6a5"/><title>Excavation 044 — Context Windows — How Much Past Can the Model Carry? — \text{attention cost}\propto n^2 — moves: proportionality, powers</title><text class="eq-label" x="1663.3" y="1480.9">044</text></a>
+<a href="../excavations/045-tiny-gpt/README.md"><circle class="node equation-node" cx="968.2" cy="316.0" r="16" fill="#8bd3dd"/><title>Excavation 045 — A Tiny GPT — Close the Prediction Loop — tokens\to embeddings\to blocks\to logits\to loss\to update\to sample — moves: arrows</title><text class="eq-label" x="968.2" y="316.0">045</text></a>
+<a href="../excavations/046-perplexity/README.md"><circle class="node equation-node" cx="717.5" cy="537.8" r="16" fill="#caffbf"/><title>Excavation 046 — Perplexity — How Surprised Is the Model? — \mathrm{PPL}=\exp\left(-\frac{1}{n}\sum_{i=1}^{n}\log p(t_i\mid t_{&lt;i})\right) — moves: logarithm, summation, division, negative sign, exponential</title><text class="eq-label" x="717.5" y="537.8">046</text></a>
+<a href="../excavations/049-calibration/README.md"><circle class="node equation-node" cx="744.3" cy="520.4" r="16" fill="#caffbf"/><title>Excavation 049 — Calibration — Does 80% Confidence Mean Eight Out of Ten? — \mathrm{ECE}=\sum_b\frac{|B_b|}{n}\left|\mathrm{accuracy}(B_b)-\mathrm{confidence}(B_b)\right| — moves: subtraction, absolute value, multiplication, summation</title><text class="eq-label" x="744.3" y="520.4">049</text></a>
+<a href="../excavations/051-scaling-laws/README.md"><circle class="node equation-node" cx="1533.6" cy="576.2" r="16" fill="#a9def9"/><title>Excavation 051 — Scaling Laws — What Improves When We Add More? — L(N)=A N^{-\alpha}+B — moves: powers, multiplication, addition</title><text class="eq-label" x="1533.6" y="576.2">051</text></a>
+<a href="../excavations/053-preference-learning/README.md"><circle class="node equation-node" cx="1120.8" cy="1779.7" r="16" fill="#ffadad"/><title>Excavation 053 — Preference Learning — When Several Answers Are Correct but Not Equally Helpful — P(A\succ B)=\frac{1}{1+\exp(-(r_A-r_B))} — moves: subtraction, negative sign, exponential, division</title><text class="eq-label" x="1120.8" y="1779.7">053</text></a>
+<a href="../excavations/077-convolution/README.md"><circle class="node equation-node" cx="1011.9" cy="309.9" r="16" fill="#8bd3dd"/><title>Excavation 077 — Convolution — Reusing the Same Local Detector — y_i=\sum_{j=0}^{k-1}x_{i+j}w_j — moves: multiplication, summation, indices</title><text class="eq-label" x="1011.9" y="309.9">077</text></a>
+<a href="../excavations/084-diffusion/README.md"><circle class="node equation-node" cx="1557.7" cy="597.1" r="16" fill="#a9def9"/><title>Excavation 084 — Diffusion — Learning by Destroying — x_t=\sqrt{\bar\alpha_t}x_0+\sqrt{1-\bar\alpha_t}\epsilon — moves: multiplication, addition, square root</title><text class="eq-label" x="1557.7" y="597.1">084</text></a>
+<a href="../excavations/085-denoising/README.md"><circle class="node equation-node" cx="1632.6" cy="1522.7" r="16" fill="#ffd6a5"/><title>Excavation 085 — Denoising — Predicting What the Noise Hid — L=\mathbb{E}\left[\lVert\epsilon-\epsilon_\theta(x_t,t)\rVert^2\right] — moves: subtraction, norm, expectation</title><text class="eq-label" x="1632.6" y="1522.7">085</text></a>
+<a href="../excavations/089-q-learning/README.md"><circle class="node equation-node" cx="646.6" cy="1606.8" r="16" fill="#fdffb6"/><title>Excavation 089 — Q-Learning — Improving Values from Experience — \text{target}=r+\gamma\max_{a^\prime}Q(s^\prime,a^\prime) — moves: addition, multiplication, maximum</title><text class="eq-label" x="646.6" y="1606.8">089</text></a>
+<a href="../excavations/090-policy-gradients/README.md"><circle class="node equation-node" cx="426.7" cy="1004.5" r="16" fill="#bde0fe"/><title>Excavation 090 — Policy Gradients — Improving the Choices Directly — \nabla_\theta J=\mathbb{E}\left[G\nabla_\theta\log\pi_\theta(a\mid s)\right] — moves: logarithm, multiplication, expectation</title><text class="eq-label" x="426.7" y="1004.5">090</text></a>
+<a href="../excavations/092-contrastive-learning/README.md"><circle class="node equation-node" cx="1777.1" cy="1037.8" r="16" fill="#cdb4db"/><title>Excavation 092 — Contrastive Learning — L_i=-\log\frac{\exp(z_i\cdot t_i/T)}{\sum_j\exp(z_i\cdot t_j/T)} — moves: dot product, division, exponential, summation, logarithm</title><text class="eq-label" x="1777.1" y="1037.8">092</text></a>
+<a href="../excavations/094-lora/README.md"><circle class="node equation-node" cx="1055.9" cy="306.2" r="16" fill="#8bd3dd"/><title>Excavation 094 — Low-Rank Adaptation — W^\prime=W+BA — moves: multiplication, addition, symbol decorations</title><text class="eq-label" x="1055.9" y="306.2">094</text></a>
+<a href="../excavations/095-quantization/README.md"><circle class="node equation-node" cx="1079.2" cy="1779.7" r="16" fill="#ffadad"/><title>Excavation 095 — Quantization — q=\mathrm{round}(w/s) — moves: division, rounding, multiplication, symbol decorations</title><text class="eq-label" x="1079.2" y="1779.7">095.1</text></a>
+<a href="../excavations/095-quantization/README.md"><circle class="node equation-node" cx="1037.8" cy="1777.1" r="16" fill="#ffadad"/><title>Excavation 095 — Quantization — \widehat w=sq — moves: division, rounding, multiplication, symbol decorations</title><text class="eq-label" x="1037.8" y="1777.1">095.2</text></a>
+<a href="../excavations/102-bayesian-updating/README.md"><circle class="node equation-node" cx="771.9" cy="504.4" r="16" fill="#caffbf"/><title>Excavation 102 — Bayesian Updating — P(H\mid E)=\frac{P(E\mid H)P(H)}{\sum_j P(E\mid H_j)P(H_j)} — moves: multiplication, summation, division, conditional bar</title><text class="eq-label" x="771.9" y="504.4">102</text></a>
+<a href="../excavations/115-tree-search/README.md"><circle class="node equation-node" cx="1598.8" cy="1562.1" r="16" fill="#ffd6a5"/><title>Excavation 115 — Tree Search — \mathrm{score}(a)=\overline R_a+c\sqrt{\frac{\log N}{n_a}} — moves: symbol decorations, mean, logarithm, division, square root, multiplication, addition</title><text class="eq-label" x="1598.8" y="1562.1">115</text></a>
+<a href="../excavations/119-graph-neural-networks/README.md"><circle class="node equation-node" cx="1100.0" cy="305.0" r="16" fill="#8bd3dd"/><title>Excavation 119 — Graph Neural Networks — h_v^\prime=U\left(h_v,\sum_{u\in N(v)}M(h_v,h_u)\right) — moves: function application, summation</title><text class="eq-label" x="1100.0" y="305.0">119</text></a>
+<a href="../excavations/122-differential-privacy/README.md"><circle class="node equation-node" cx="458.9" cy="629.9" r="16" fill="#caffbf"/><title>Excavation 122 — Differential Privacy — P(M(D)\in S)\le e^\epsilon P(M(D^\prime)\in S) — moves: probability, membership, exponential, inequalities</title><text class="eq-label" x="458.9" y="629.9">122</text></a>
+<a href="../excavations/151-reproducible-baseline/README.md"><circle class="node equation-node" cx="1580.8" cy="619.2" r="16" fill="#a9def9"/><title>Excavation 151 — A Reproducible Baseline — Improve Something That Actually Exists — \Delta m=m_{\text{candidate}}-m_{\text{baseline}} — moves: subtraction</title><text class="eq-label" x="1580.8" y="619.2">151</text></a>
+<a href="../excavations/152-profiling/README.md"><circle class="node equation-node" cx="1779.7" cy="1079.2" r="16" fill="#cdb4db"/><title>Excavation 152 — Profiling — Measure Where the Time Went — T_{\text{step}}=T_{\text{data}}+T_{\text{compute}}+T_{\text{communication}}+T_{\text{idle}} — moves: addition</title><text class="eq-label" x="1779.7" y="1079.2">152</text></a>
+<a href="../excavations/153-input-pipeline/README.md"><circle class="node equation-node" cx="619.2" cy="1580.8" r="16" fill="#fdffb6"/><title>Excavation 153 — The Input Pipeline — Stop Making the Accelerator Wait — T_{\text{overlapped}}\approx\max(T_{\text{data}},T_{\text{compute}}) — moves: maximum, approximation</title><text class="eq-label" x="619.2" y="1580.8">153</text></a>
+<a href="../excavations/154-sequence-packing/README.md"><circle class="node equation-node" cx="1562.1" cy="1598.8" r="16" fill="#ffd6a5"/><title>Excavation 154 — Sequence Packing — Stop Training on Empty Space — \eta_{\text{pack}}=\frac{N_{\text{real tokens}}}{N_{\text{allocated positions}}} — moves: division</title><text class="eq-label" x="1562.1" y="1598.8">154</text></a>
+<a href="../excavations/155-rotary-position/README.md"><circle class="node equation-node" cx="1602.9" cy="642.3" r="16" fill="#a9def9"/><title>Excavation 155 — Rotary Position Embeddings — Let Distance Enter the Match — R(p\theta)=\begin{bmatrix}\cos(p\theta)&amp;-\sin(p\theta)\\\sin(p\theta)&amp;\cos(p\theta)\end{bmatrix} — moves: function application, multiplication, addition</title><text class="eq-label" x="1602.9" y="642.3">155</text></a>
+<a href="../excavations/156-relative-position-bias/README.md"><circle class="node equation-node" cx="1623.8" cy="666.4" r="16" fill="#a9def9"/><title>Excavation 156 — Relative Position Bias — What Should Happen Beyond the Seen Window? — s_{ij}^{\prime}=s_{ij}-m\lvert i-j\rvert — moves: subtraction, absolute value, multiplication</title><text class="eq-label" x="1623.8" y="666.4">156</text></a>
+<a href="../excavations/157-kv-cache/README.md"><circle class="node equation-node" cx="1144.1" cy="306.2" r="16" fill="#8bd3dd"/><title>Excavation 157 — The KV Cache — Stop Re-reading the Entire Past — K_{1:t}=\mathrm{append}(K_{1:t-1},k_t) — moves: function application, addition</title><text class="eq-label" x="1144.1" y="306.2">157</text></a>
+<a href="../excavations/158-multi-query-attention/README.md"><circle class="node equation-node" cx="1522.7" cy="1632.6" r="16" fill="#ffd6a5"/><title>Excavation 158 — Multi-Query Attention — Why Cache Separate Copies for Every Head? — M_{\text{KV}}\propto L H_{\text{KV}} d_h — moves: multiplication, proportionality</title><text class="eq-label" x="1522.7" y="1632.6">158</text></a>
+<a href="../excavations/159-grouped-query-attention/README.md"><circle class="node equation-node" cx="996.6" cy="1772.1" r="16" fill="#ffadad"/><title>Excavation 159 — Grouped-Query Attention — Recover Some Specialist Memory — g(h)=\left\lfloor\frac{hH_{\text{KV}}}{H_Q}\right\rfloor — moves: multiplication, division, rounding</title><text class="eq-label" x="996.6" y="1772.1">159</text></a>
+<a href="../excavations/160-flash-attention/README.md"><circle class="node equation-node" cx="593.2" cy="1553.4" r="16" fill="#fdffb6"/><title>Excavation 160 — FlashAttention — The Arithmetic Was Not the Bottleneck — m^{\prime}=\max(m,\max_j s_j) — moves: maximum, symbol decorations</title><text class="eq-label" x="593.2" y="1553.4">160</text></a>
+<a href="../excavations/161-rmsnorm/README.md"><circle class="node equation-node" cx="1643.6" cy="691.5" r="16" fill="#a9def9"/><title>Excavation 161 — RMSNorm — Do We Need to Subtract the Centre? — \mathrm{RMS}(x)=\sqrt{\frac1d\sum_{i=1}^{d}x_i^2} — moves: powers, summation, division, square root</title><text class="eq-label" x="1643.6" y="691.5">161</text></a>
+<a href="../excavations/162-pre-normalization/README.md"><circle class="node equation-node" cx="1188.1" cy="309.9" r="16" fill="#8bd3dd"/><title>Excavation 162 — Pre-Normalization — Protect the Residual Highway — x_{\ell+1}=x_\ell+F(\mathrm{RMSNorm}(x_\ell)) — moves: function application, addition</title><text class="eq-label" x="1188.1" y="309.9">162</text></a>
+<a href="../excavations/163-swiglu/README.md"><circle class="node equation-node" cx="1231.8" cy="316.0" r="16" fill="#8bd3dd"/><title>Excavation 163 — SwiGLU — Let One Learned Path Gate Another — \mathrm{SwiGLU}(x)=\mathrm{SiLU}(xW_g)\odot(xW_v) — moves: function application, multiplication</title><text class="eq-label" x="1231.8" y="316.0">163</text></a>
+<a href="../excavations/164-weight-tying/README.md"><circle class="node equation-node" cx="1662.2" cy="717.5" r="16" fill="#a9def9"/><title>Excavation 164 — Weight Tying — Use One Word Geometry Twice — W_{\text{out}}=E^{\mathsf T} — moves: equals</title><text class="eq-label" x="1662.2" y="717.5">164</text></a>
+<a href="../excavations/165-adam/README.md"><circle class="node equation-node" cx="432.0" cy="972.9" r="16" fill="#bde0fe"/><title>Excavation 165 — Adam — Give Each Parameter Its Own Step Scale — \theta_{t+1}=\theta_t-\eta\frac{\widehat m_t}{\sqrt{\widehat v_t}+\epsilon} — moves: division, square root, subtraction</title><text class="eq-label" x="432.0" y="972.9">165</text></a>
+<a href="../excavations/166-adamw/README.md"><circle class="node equation-node" cx="438.7" cy="941.7" r="16" fill="#bde0fe"/><title>Excavation 166 — AdamW — Keep Shrinkage Separate from Adaptation — \theta_{t+1}=(1-\eta\lambda)\theta_t-\eta\frac{\widehat m_t}{\sqrt{\widehat v_t}+\epsilon} — moves: multiplication, subtraction</title><text class="eq-label" x="438.7" y="941.7">166</text></a>
+<a href="../excavations/167-gradient-clipping/README.md"><circle class="node equation-node" cx="446.8" cy="910.8" r="16" fill="#bde0fe"/><title>Excavation 167 — Gradient Clipping — Stop One Shock from Becoming a Catastrophe — g^{\prime}=g\min\left(1,\frac{c}{\lVert g\rVert}\right) — moves: division, minimum, multiplication</title><text class="eq-label" x="446.8" y="910.8">167</text></a>
+<a href="../excavations/168-mixed-precision/README.md"><circle class="node equation-node" cx="1480.9" cy="1663.3" r="16" fill="#ffd6a5"/><title>Excavation 168 — Mixed Precision — Stop Storing Every Number with Unneeded Detail — M=\frac{N b}{8}\ \text{bytes} — moves: multiplication, division</title><text class="eq-label" x="1480.9" y="1663.3">168</text></a>
+<a href="../excavations/169-loss-scaling/README.md"><circle class="node equation-node" cx="325.8" cy="1280.5" r="16" fill="#bde0fe"/><title>Excavation 169 — Loss Scaling — Rescue Gradients Too Small to Represent — g=\frac{1}{S}\nabla_\theta(SL) — moves: multiplication, division</title><text class="eq-label" x="325.8" y="1280.5">169</text></a>
+<a href="../excavations/170-gradient-accumulation/README.md"><circle class="node equation-node" cx="307.3" cy="1160.6" r="16" fill="#bde0fe"/><title>Excavation 170 — Gradient Accumulation — Build a Large Batch That Does Not Fit — g_{\text{effective}}=\frac1K\sum_{k=1}^{K}g_k — moves: summation, division</title><text class="eq-label" x="307.3" y="1160.6">170</text></a>
+<a href="../excavations/171-activation-checkpointing/README.md"><circle class="node equation-node" cx="1436.8" cy="1690.7" r="16" fill="#ffd6a5"/><title>Excavation 171 — Activation Checkpointing — Remember Less, Recompute Exactly — M_{\text{activations}}=O(\sqrt{L}) — moves: square root, proportionality</title><text class="eq-label" x="1436.8" y="1690.7">171</text></a>
+<a href="../excavations/172-zero-sharding/README.md"><circle class="node equation-node" cx="1679.6" cy="744.3" r="16" fill="#a9def9"/><title>Excavation 172 — ZeRO — Stop Replicating the Same Training State — M_{\text{state per device}}\approx\frac{M_{\text{total state}}}{P} — moves: division, approximation</title><text class="eq-label" x="1679.6" y="744.3">172</text></a>
+<a href="../excavations/173-tensor-parallelism/README.md"><circle class="node equation-node" cx="1779.7" cy="1120.8" r="16" fill="#cdb4db"/><title>Excavation 173 — Tensor Parallelism — Split One Matrix That No Device Can Hold — Y_p=XW_p,\quad Y=[Y_1,Y_2,\ldots,Y_P] — moves: concatenation, multiplication</title><text class="eq-label" x="1779.7" y="1120.8">173</text></a>
+<a href="../excavations/174-speculative-decoding/README.md"><circle class="node equation-node" cx="568.8" cy="1524.6" r="16" fill="#fdffb6"/><title>Excavation 174 — Speculative Decoding — Let a Small Model Propose, Never Decide — a(x)=\min\left(1,\frac{p(x)}{q(x)}\right) — moves: division, minimum</title><text class="eq-label" x="568.8" y="1524.6">174</text></a>
+<a href="../excavations/177-document-boundaries/README.md"><circle class="node equation-node" cx="546.1" cy="1494.4" r="16" fill="#fdffb6"/><title>Excavation 177 — Document Boundaries — Keep One Story from Leaking into Another — A_{ij}=\begin{cases}1&amp;\text{tokens }i,j\text{ share a document}\\0&amp;\text{otherwise}\end{cases} — moves: cases, equals</title><text class="eq-label" x="546.1" y="1494.4">177</text></a>
+<a href="../excavations/178-language-identification/README.md"><circle class="node equation-node" cx="525.0" cy="1463.1" r="16" fill="#fdffb6"/><title>Excavation 178 — Language Identification — Do Not Confuse Familiar Script with Familiar Language — \ell^*=\underset{\ell\in\mathcal L}{\mathrm{argmax}}\ p(\ell\mid d) — moves: conditional bar, arg max</title><text class="eq-label" x="525.0" y="1463.1">178</text></a>
+<a href="../excavations/179-exact-deduplication/README.md"><circle class="node equation-node" cx="1777.1" cy="1162.2" r="16" fill="#cdb4db"/><title>Excavation 179 — Exact Deduplication — Stop Paying Twice for the Same Document — h(d)=H(N(d)) — moves: function composition, equals</title><text class="eq-label" x="1777.1" y="1162.2">179</text></a>
+<a href="../excavations/180-near-deduplication/README.md"><circle class="node equation-node" cx="505.8" cy="1430.6" r="16" fill="#fdffb6"/><title>Excavation 180 — Near Deduplication — When a Copy Changes a Few Words — J(A,B)=\frac{\lvert A\cap B\rvert}{\lvert A\cup B\rvert} — moves: intersection, union, cardinality, division</title><text class="eq-label" x="505.8" y="1430.6">180</text></a>
+<a href="../excavations/184-data-mixtures/README.md"><circle class="node equation-node" cx="1695.6" cy="771.9" r="16" fill="#a9def9"/><title>Excavation 184 — Data Mixtures — Decide Which Worlds Receive a Voice — \sum_{d=1}^{D}w_d=1,\quad w_d\ge 0 — moves: summation, equals, inequalities</title><text class="eq-label" x="1695.6" y="771.9">184</text></a>
+<a href="../excavations/185-mixture-sampling/README.md"><circle class="node equation-node" cx="629.9" cy="458.9" r="16" fill="#caffbf"/><title>Excavation 185 — Mixture Sampling — Turn Planned Shares into a Reproducible Stream — E[n_d]=Nw_d — moves: multiplication, expectation</title><text class="eq-label" x="629.9" y="458.9">185</text></a>
+<a href="../excavations/186-token-budget/README.md"><circle class="node equation-node" cx="1772.1" cy="1203.4" r="16" fill="#cdb4db"/><title>Excavation 186 — The Token Budget — Convert a Training Plan into a Count of Lessons — N_{\text{tokens}}=T B_{\text{tokens}} — moves: multiplication</title><text class="eq-label" x="1772.1" y="1203.4">186</text></a>
+<a href="../excavations/187-compute-optimal-allocation/README.md"><circle class="node equation-node" cx="1570.1" cy="458.9" r="16" fill="#a9def9"/><title>Excavation 187 — Compute-Optimal Allocation — Buy a Larger Memory or More Experience? — C\approx 6PD — moves: multiplication, approximation</title><text class="eq-label" x="1570.1" y="458.9">187</text></a>
+<a href="../excavations/188-learning-rate-warmup/README.md"><circle class="node equation-node" cx="307.3" cy="1039.4" r="16" fill="#bde0fe"/><title>Excavation 188 — Learning-Rate Warmup — Let Adam Learn the Terrain Before Running — \eta_t=\eta_{\text{peak}}\frac{t}{T_{\text{warm}}}\quad(0\le t\le T_{\text{warm}}) — moves: division, multiplication</title><text class="eq-label" x="307.3" y="1039.4">188</text></a>
+<a href="../excavations/189-cosine-decay/README.md"><circle class="node equation-node" cx="955.7" cy="1764.5" r="16" fill="#ffadad"/><title>Excavation 189 — Cosine Decay — Make Late Corrections Smaller Without a Cliff — \eta_t=\eta_{\min}+\frac{\eta_{\max}-\eta_{\min}}{2}\left(1+\cos\frac{\pi t}{T}\right) — moves: subtraction, division, cosine</title><text class="eq-label" x="955.7" y="1764.5">189</text></a>
+<a href="../excavations/190-gradient-noise-scale/README.md"><circle class="node equation-node" cx="325.8" cy="919.5" r="16" fill="#bde0fe"/><title>Excavation 190 — Gradient Noise Scale — When More Examples Stop Buying More Direction — G=\frac{\mathrm{tr}(\mathrm{Cov}[g_i])}{\lVert E[g_i]\rVert^2} — moves: covariance, trace, division</title><text class="eq-label" x="325.8" y="919.5">190</text></a>
+<a href="../excavations/191-data-parallelism/README.md"><circle class="node equation-node" cx="1764.5" cy="1244.3" r="16" fill="#cdb4db"/><title>Excavation 191 — Data Parallelism — Let Several Workers Observe Different Evidence — g=\frac1P\sum_{p=1}^{P}g_p — moves: summation, division</title><text class="eq-label" x="1764.5" y="1244.3">191</text></a>
+<a href="../excavations/192-pipeline-parallelism/README.md"><circle class="node equation-node" cx="1754.5" cy="1284.6" r="16" fill="#cdb4db"/><title>Excavation 192 — Pipeline Parallelism — Stop Waiting for the Whole Model to Cross One Device at a Time — U=\frac{m}{m+p-1} — moves: addition, division</title><text class="eq-label" x="1754.5" y="1284.6">192</text></a>
+<a href="../excavations/193-three-dimensional-parallelism/README.md"><circle class="node equation-node" cx="1275.1" cy="324.5" r="16" fill="#8bd3dd"/><title>Excavation 193 — Three-Dimensional Parallelism — Give Each Memory Wall Its Own Axis — P_{\text{total}}=P_{\text{tensor}}P_{\text{pipeline}}P_{\text{data}} — moves: multiplication, equals</title><text class="eq-label" x="1275.1" y="324.5">193</text></a>
+<a href="../excavations/196-loss-spike-recovery/README.md"><circle class="node equation-node" cx="1741.1" cy="629.9" r="16" fill="#a9def9"/><title>Excavation 196 — Loss Spikes — Distinguish One Hard Batch from a Run Leaving the Road — z_t=\frac{L_t-\mu_t}{\sigma_t} — moves: subtraction, division</title><text class="eq-label" x="1741.1" y="629.9">196</text></a>
+<a href="../excavations/197-validation-stream/README.md"><circle class="node equation-node" cx="915.4" cy="1754.5" r="16" fill="#ffadad"/><title>Excavation 197 — A Validation Stream — Ask Whether Learning Survives Outside the Current Batch — L_{\text{val}}=-\frac1N\sum_{i=1}^{N}\log p_\theta(x_i\mid x_{&lt;i}) — moves: logarithm, negative sign, summation, division</title><text class="eq-label" x="915.4" y="1754.5">197</text></a>
+<a href="../excavations/198-memorization-audit/README.md"><circle class="node equation-node" cx="1317.9" cy="335.5" r="16" fill="#8bd3dd"/><title>Excavation 198 — A Memorization Audit — Did the Model Learn a Pattern or Store a Passage? — \mathrm{exposure}=\log_2\lvert\mathcal R\rvert-\log_2\mathrm{rank} — moves: cardinality, logarithm, subtraction</title><text class="eq-label" x="1317.9" y="335.5">198</text></a>
+<g transform="translate(70 2055)">
+<text class="legend-strong" x="0" y="0">How to read the mandala</text>
+<text class="legend" x="0" y="25">centre: lived observation · inner petals: mathematical jobs · middle petals: reusable moves · outer petals: equations</text>
+<text class="legend" x="0" y="48">colored spokes: an equation uses this move · faint gold thread: the next equation in discovery order · every node is a link</text>
+<text class="legend" x="0" y="71">110 equations · 98 excavations · 45 reusable moves · generated from the chapters</text>
+</g>
+</svg>

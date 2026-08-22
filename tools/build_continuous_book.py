@@ -148,6 +148,9 @@ For equation-focused review after deriving the ideas, use the
 For a reusable understanding of why a formula adds, multiplies, divides,
 squares, exponentiates, logs, maximizes, or differentiates, use
 [Mathematical Moves](../MATHEMATICAL_MOVES.md).
+
+To see every earned equation as one connected memory, enter the
+[living Mathematical Mandala](../math-mandala/README.md).
 """
     return result
 
