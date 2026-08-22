@@ -35,6 +35,23 @@ class MathematicalMandalaTests(unittest.TestCase):
         for move in data["operations"]:
             self.assertIn(f'<a id="{move["anchor"]}"></a>', move_source)
 
+    def test_published_view_has_individual_chapter_links(self):
+        page = (ROOT / "math-mandala" / "index.html").read_text()
+        self.assertIn("https://github.com/kleem-labs/AI-Archaeology/blob/main", page)
+        self.assertIn("Open excavation", page)
+        self.assertIn('openPage(github+"/"+d.path)', page)
+        self.assertIn('openPage(github+"/MATHEMATICAL_MOVES.md#"+d.anchor)', page)
+        self.assertNotIn("github.com/deep2810", page)
+
+    def test_readme_offers_live_and_script_free_clickable_views(self):
+        readme = (ROOT / "README.md").read_text()
+        self.assertIn("https://kleem-labs.github.io/AI-Archaeology/", readme)
+        self.assertIn(
+            "https://raw.githubusercontent.com/kleem-labs/AI-Archaeology/main/"
+            "math-mandala/math-mandala.svg",
+            readme,
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

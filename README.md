@@ -35,7 +35,15 @@ why an operation was needed. Follow the faint gold thread outward to see which
 equation the book discovered next. Every numbered node opens its excavation,
 and the map grows automatically when future chapters earn new equations.
 
-[![AI Archaeology Mathematical Mandala](math-mandala/math-mandala.svg)](math-mandala/README.md)
+[**Open the living, clickable mandala →**](https://kleem-labs.github.io/AI-Archaeology/)
+
+[![AI Archaeology Mathematical Mandala](math-mandala/math-mandala.svg)](https://kleem-labs.github.io/AI-Archaeology/)
+
+GitHub treats the picture above as one preview, so its internal nodes cannot
+receive clicks inside the README. Open the living mandala first; there, clicking
+an equation opens its excavation and clicking a mathematical move opens its
+explanation. Until the first Pages deployment completes, use the
+[direct clickable SVG](https://raw.githubusercontent.com/kleem-labs/AI-Archaeology/main/math-mandala/math-mandala.svg).
 
 This book does not begin with formulas. It begins with a person facing reality without inherited mathematics.
 

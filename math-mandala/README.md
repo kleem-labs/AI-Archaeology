@@ -3,9 +3,14 @@
 This is not a poster placed on top of the mathematics. It is a memory of how
 the mathematics grew.
 
-[![The AI Archaeology Mathematical Mandala](math-mandala.svg)](math-mandala.svg)
+[**Open the living, clickable mandala →**](https://kleem-labs.github.io/AI-Archaeology/)
 
-Open the image and click a node:
+[![The AI Archaeology Mathematical Mandala](math-mandala.svg)](https://kleem-labs.github.io/AI-Archaeology/)
+
+GitHub displays an SVG inside Markdown as one image. That preview cannot pass a
+click through to an individual node. The link above opens the living mandala,
+where every node has its own destination. If GitHub Pages has not finished its
+first deployment, use the [direct clickable SVG](https://raw.githubusercontent.com/kleem-labs/AI-Archaeology/main/math-mandala/math-mandala.svg).
 
 - the **heart** opens the [Mathematical Gist](../MATHEMATICAL_GIST.md), where the equations remain in discovery order;
 - a **mathematical job** opens the map of [Mathematical Moves](../MATHEMATICAL_MOVES.md#map-of-the-moves);

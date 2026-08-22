@@ -16,6 +16,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).parents[1]
 OUTPUT = ROOT / "math-mandala"
+GITHUB_ROOT = "https://github.com/kleem-labs/AI-Archaeology/blob/main"
+MANDALA_URL = "https://kleem-labs.github.io/AI-Archaeology/"
+RAW_MANDALA_URL = "https://raw.githubusercontent.com/kleem-labs/AI-Archaeology/main/math-mandala/math-mandala.svg"
 EQUATION = re.compile(r"\$\$(.*?)\$\$", re.S)
 MOVE_LINK = re.compile(r"MATHEMATICAL_MOVES\.md#([a-z0-9-]+)")
 
@@ -290,10 +293,12 @@ def svg_document(data: dict) -> str:
         )
 
     out.extend([
-        '<a href="../MATHEMATICAL_GIST.md"><circle class="node family-node" cx="1100" cy="1100" r="122" fill="#111936"/><title>Open the Mathematical Gist</title></a>',
+        f'<a href="{GITHUB_ROOT}/MATHEMATICAL_GIST.md">',
+        '<circle class="node family-node" cx="1100" cy="1100" r="122" fill="#111936"/><title>Open the Mathematical Gist</title>',
         '<text class="heart" x="1100" y="1067">♥</text>',
         '<text class="title" x="1100" y="1109">OBSERVATION</text>',
         '<text class="subtitle" x="1100" y="1138">need → move → equation</text>',
+        '</a>',
     ])
 
     for family in FAMILIES:
@@ -301,7 +306,7 @@ def svg_document(data: dict) -> str:
         count = sum(n["family"] == family["id"] for n in data["equations"])
         first_line, second_line = family_label_lines(family["name"])
         out.append(
-            f'<a href="../MATHEMATICAL_MOVES.md#map-of-the-moves">'
+            f'<a href="{GITHUB_ROOT}/MATHEMATICAL_MOVES.md#map-of-the-moves">'
             f'<circle class="node family-node" cx="{x:.1f}" cy="{y:.1f}" r="70" '
             f'fill="{family["color"]}" fill-opacity=".14"/>'
             f'<title>{html.escape(family["question"])}</title>'
@@ -317,7 +322,7 @@ def svg_document(data: dict) -> str:
         color = FAMILY_LOOKUP[move["family"]]["color"]
         width = max(68, len(move["name"]) * 7 + 20)
         out.append(
-            f'<a href="../{move["path"]}"><rect class="node move-node" '
+            f'<a href="{GITHUB_ROOT}/{move["path"]}"><rect class="node move-node" '
             f'x="{x - width / 2:.1f}" y="{y - 15:.1f}" width="{width:.1f}" '
             f'height="30" rx="15" stroke="{color}"/>'
             f'<title>Open the {html.escape(move["name"])} mental model</title>'
@@ -331,7 +336,7 @@ def svg_document(data: dict) -> str:
         moves = ", ".join(display_move(move) for move in node["moves"]) or "notation"
         tooltip = f'{node["title"]} — {node["equation"]} — moves: {moves}'
         out.append(
-            f'<a href="../{node["path"]}"><circle class="node equation-node" '
+            f'<a href="{GITHUB_ROOT}/{node["path"]}"><circle class="node equation-node" '
             f'cx="{x:.1f}" cy="{y:.1f}" r="16" fill="{color}"/>'
             f'<title>{html.escape(tooltip)}</title>'
             f'<text class="eq-label" x="{x:.1f}" y="{y:.1f}">'
@@ -356,9 +361,14 @@ def markdown_page(data: dict) -> str:
 This is not a poster placed on top of the mathematics. It is a memory of how
 the mathematics grew.
 
-[![The AI Archaeology Mathematical Mandala](math-mandala.svg)](math-mandala.svg)
+[**Open the living, clickable mandala →**]({MANDALA_URL})
 
-Open the image and click a node:
+[![The AI Archaeology Mathematical Mandala](math-mandala.svg)]({MANDALA_URL})
+
+GitHub displays an SVG inside Markdown as one image. That preview cannot pass a
+click through to an individual node. The link above opens the living mandala,
+where every node has its own destination. If GitHub Pages has not finished its
+first deployment, use the [direct clickable SVG]({RAW_MANDALA_URL}).
 
 - the **heart** opens the [Mathematical Gist](../MATHEMATICAL_GIST.md), where the equations remain in discovery order;
 - a **mathematical job** opens the map of [Mathematical Moves](../MATHEMATICAL_MOVES.md#map-of-the-moves);
@@ -527,10 +537,11 @@ def interactive_fragment(data: dict) -> str:
       svg.selectAll(".equation").classed("dim",function(n){return !light.has(n.id)}).classed("lit",function(n){return light.has(n.id)});
       svg.selectAll(".relation").classed("dim",function(r){return !((r.family&&light.has(r.family))||(r.move&&light.has(r.move))||(r.equation&&light.has(r.equation))||(r.a&&light.has(r.a))||(r.b&&light.has(r.b)))}).classed("lit",function(r){return (r.family&&light.has(r.family))||(r.move&&light.has(r.move))||(r.equation&&light.has(r.equation))});
     }
-    families.on("mouseenter",function(event,d){highlight(d,"family");show(d,"family")}).on("click",function(event,d){event.stopPropagation();highlight(d,"family");show(d,"family")});
-    moves.on("mouseenter",function(event,d){highlight(d,"move");show(d,"move")}).on("click",function(event,d){event.stopPropagation();highlight(d,"move");show(d,"move")});
-    equations.on("mouseenter",function(event,d){highlight(d,"equation");show(d,"equation")}).on("click",function(event,d){event.stopPropagation();highlight(d,"equation");show(d,"equation")});
-    centre.on("click",function(){reset();show(null,"centre")});
+    function openPage(path){window.open(path,"_blank","noopener,noreferrer")}
+    families.on("mouseenter",function(event,d){highlight(d,"family");show(d,"family")}).on("click",function(event,d){event.stopPropagation();openPage(github+"/MATHEMATICAL_MOVES.md#map-of-the-moves")});
+    moves.on("mouseenter",function(event,d){highlight(d,"move");show(d,"move")}).on("click",function(event,d){event.stopPropagation();openPage(github+"/MATHEMATICAL_MOVES.md#"+d.anchor)});
+    equations.on("mouseenter",function(event,d){highlight(d,"equation");show(d,"equation")}).on("click",function(event,d){event.stopPropagation();openPage(github+"/"+d.path)});
+    centre.on("click",function(event){event.stopPropagation();openPage(github+"/MATHEMATICAL_GIST.md")});
     svg.on("click",function(){reset();show(null,"centre")});
     input.addEventListener("input",function(){
       var q=input.value.trim().toLowerCase();if(!q){reset();return}
@@ -545,8 +556,29 @@ def interactive_fragment(data: dict) -> str:
 """
     payload = json.dumps(data, ensure_ascii=False).replace("</", "<\\/")
     return template.replace("__DATA__", payload).replace(
-        "__GITHUB__", "https://github.com/deep2810/AI-Archaeology/blob/main"
+        "__GITHUB__", GITHUB_ROOT
     )
+
+
+def standalone_document(data: dict) -> str:
+    """Wrap the explorer for GitHub Pages."""
+    return """<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The living mathematical memory map of AI Archaeology">
+  <title>AI Archaeology — Mathematical Mandala</title>
+  <style>
+    html,body{margin:0;min-height:100%;background:#080c1d}
+    body{padding:clamp(8px,2vw,24px)}
+  </style>
+</head>
+<body>
+""" + interactive_fragment(data) + """
+</body>
+</html>
+"""
 
 
 def generated_files(data: dict) -> dict[Path, str]:
@@ -554,6 +586,7 @@ def generated_files(data: dict) -> dict[Path, str]:
         OUTPUT / "data.json": json.dumps(data, indent=2, ensure_ascii=False) + "\n",
         OUTPUT / "math-mandala.svg": svg_document(data),
         OUTPUT / "README.md": markdown_page(data),
+        OUTPUT / "index.html": standalone_document(data),
     }
 
 
