@@ -56,3 +56,5 @@ In “The animal did not cross the street because it was flooded,” identify wh
 The relevance scores may be negative, huge, or expressed on unstable scales. Before they can mix information, they must become usable weights.
 
 [Next: Softmax](../009-softmax/README.md)
+
+<!-- book-prose-v2 -->

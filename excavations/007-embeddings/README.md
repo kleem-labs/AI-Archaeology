@@ -116,11 +116,11 @@ Every part now has a job you already understand:
 - The coordinates need not have private names. A relationship can be spread
   across several of them.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [The arrow](../../MATHEMATICAL_MOVES.md#arrows) means “represent this token as,” not equality: a word and its numerical representation are different kinds of object.
-- [The membership sign](../../MATHEMATICAL_MOVES.md#membership) says the embedding is allowed to live among d-coordinate real vectors.
-- [The superscript d](../../MATHEMATICAL_MOVES.md#powers) counts coordinate slots here; it is dimension, not an instruction to raise each number to a power.
+[The arrow](../../MATHEMATICAL_MOVES.md#arrows) means “represent this token as,” not equality: a word and its numerical representation are different kinds of object.
+[The membership sign](../../MATHEMATICAL_MOVES.md#membership) says the embedding is allowed to live among d-coordinate real vectors.
+[The superscript d](../../MATHEMATICAL_MOVES.md#powers) counts coordinate slots here; it is dimension, not an instruction to raise each number to a power.
 
 Only now is the compact notation useful:
 
@@ -169,9 +169,11 @@ preserve and what it cannot. Finally, describe in ordinary language how the
 sentence “the dog chased the cat” should pull the learned positions. Do not use
 the word *embedding* until your procedure has already created one.
 
-- [Mistakes worth preserving](mistakes.md)
-- [Diagram](diagram.md)
-- [Pure Python → NumPy → PyTorch](implementation/README.md)
-- [References](references.md)
+[Mistakes worth preserving](mistakes.md)
+[Diagram](diagram.md)
+[Pure Python → NumPy → PyTorch](implementation/README.md)
+[References](references.md)
 
 [Next: Why Attention Had to Exist](../008-attention/README.md)
+
+<!-- book-prose-v2 -->

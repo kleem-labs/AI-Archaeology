@@ -58,3 +58,5 @@ For deciding whether an animal will reach camp soon, choose three useful feature
 With thousands of animals and many features, separate facts become difficult to store and manipulate. We need one object that keeps their meaning through an agreed order.
 
 [Next: Vectors](../002-vectors/README.md)
+
+<!-- book-prose-v2 -->

@@ -36,11 +36,11 @@ That question—not a symbol—is the derivative. It measures sensitivity. All t
 
 Only now does the update rule earn its place:
 
-## The arithmetic we have earned
+## The calculation hidden inside how a dead brain learns
 
 A tiger alarm has one adjustable dial: how strongly a stripe should raise danger. The dial is currently 8, but repeated verified encounters suggest 3 would fit better. Its present squared mistake is 25, and a tiny upward test reveals that increasing the dial makes error rise with sensitivity 10. Reversing one tenth of that uphill suggestion moves the dial from 8 to 7 and lowers the mistake to 16.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - **θ** is the current collection of learnable weights.
 - **L** is the measured prediction failure.
@@ -51,14 +51,14 @@ A tiger alarm has one adjustable dial: how strongly a stripe should raise danger
 
 $\theta$ is the current state of the weights, $\nabla L$ is a vector of advised change, and $\eta$ controls how large a step to take.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [The gradient](../../MATHEMATICAL_MOVES.md#gradient) collects one local loss sensitivity for every adjustable weight so the whole parameter state receives coordinated advice.
-- [The minus sign](../../MATHEMATICAL_MOVES.md#negative-sign) reverses the gradient because the gradient points toward increasing loss and learning wants the locally decreasing direction.
-- [Multiplying by η](../../MATHEMATICAL_MOVES.md#multiplication) chooses how much of that direction to trust. Without η, the gradient's magnitude would dictate the whole step even when it is too large or too small.
+[The gradient](../../MATHEMATICAL_MOVES.md#gradient) collects one local loss sensitivity for every adjustable weight so the whole parameter state receives coordinated advice.
+[The minus sign](../../MATHEMATICAL_MOVES.md#negative-sign) reverses the gradient because the gradient points toward increasing loss and learning wants the locally decreasing direction.
+[Multiplying by η](../../MATHEMATICAL_MOVES.md#multiplication) chooses how much of that direction to trust. Without η, the gradient's magnitude would dictate the whole step even when it is too large or too small.
 - The update arrow means “replace the old parameter state with this new one”; it is an action, not symmetric equality. See [arrows](../../MATHEMATICAL_MOVES.md#arrows).
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 \theta\leftarrow\theta-\eta\nabla L
@@ -85,3 +85,5 @@ Explain derivative, gradient, and backpropagation without using their formulas: 
 Why should next-token prediction produce grammar, facts, abstraction, or reasoning at all? The answer lies behind the visible words.
 
 [Next: Emergence](../016-emergence/README.md)
+
+<!-- book-prose-v2 -->

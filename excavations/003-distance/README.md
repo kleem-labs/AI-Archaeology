@@ -42,7 +42,7 @@ Why take the root? The direct line across a space is not the sum of its side len
 
 Only after the reasoning is complete does the notation help:
 
-## The arithmetic we have earned
+## The calculation hidden inside distance
 
 Tiger A has weight 220 kg, speed 65 km/h, and age 6 years.
 
@@ -67,7 +67,7 @@ total                                      = 27
 
 The total is in squared differences. Its square root gives one ordinary separation: about 5.20.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - **x** is only a nickname for Tiger A's ordered measurements.
 - **y** is only a nickname for Tiger B's ordered measurements.
@@ -78,14 +78,14 @@ The total is in squared differences. Its square root gives one ordinary separati
 - The root changes total 27 into distance 5.20.
 - **d(x,y)** merely names “the one separation between these two tigers.”
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [Subtracting](../../MATHEMATICAL_MOVES.md#subtraction) tiger height from tiger height and tiger speed from tiger speed isolates each like-for-like disagreement. Adding would measure a total, not a gap.
-- [Squaring](../../MATHEMATICAL_MOVES.md#powers) stops a smaller and larger feature from cancelling and makes a large mismatch count more strongly. Absolute value could stop cancellation too, but would produce a different geometry in which many small misses and one large miss trade differently.
-- [Adding the squared disagreements](../../MATHEMATICAL_MOVES.md#summation) lets every retained feature contribute to one separation. Multiplying would let one perfect feature match erase all other disagreement by making the product zero.
-- [The square root](../../MATHEMATICAL_MOVES.md#square-root) returns the accumulated squared separation to the features' ordinary scale; it is omitted when squared distance itself is all an algorithm needs.
+[Subtracting](../../MATHEMATICAL_MOVES.md#subtraction) tiger height from tiger height and tiger speed from tiger speed isolates each like-for-like disagreement. Adding would measure a total, not a gap.
+[Squaring](../../MATHEMATICAL_MOVES.md#powers) stops a smaller and larger feature from cancelling and makes a large mismatch count more strongly. Absolute value could stop cancellation too, but would produce a different geometry in which many small misses and one large miss trade differently.
+[Adding the squared disagreements](../../MATHEMATICAL_MOVES.md#summation) lets every retained feature contribute to one separation. Multiplying would let one perfect feature match erase all other disagreement by making the product zero.
+[The square root](../../MATHEMATICAL_MOVES.md#square-root) returns the accumulated squared separation to the features' ordinary scale; it is omitted when squared distance itself is all an algorithm needs.
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 d(\mathbf{x},\mathbf{y})
@@ -111,3 +111,5 @@ Then test your prediction in the [Tiger Distance Field Lab](../../labs/01_distan
 So far a vector has described where an object is in feature space. But an arrow can also describe how something changes. That second meaning will lead us toward transformations.
 
 [Next: Vectors as Change](../004-vectors-as-change/README.md)
+
+<!-- book-prose-v2 -->

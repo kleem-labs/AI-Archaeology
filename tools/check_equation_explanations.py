@@ -8,6 +8,7 @@ derivation_headings = (
     "## Build each piece from what just happened",
     "## The arithmetic we have earned",
     "## Let the symbols arrive last",
+    "## The calculation hidden inside",
 )
 failures = []
 checked = 0

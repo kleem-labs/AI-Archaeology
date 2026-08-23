@@ -35,11 +35,11 @@ Each question needs a row of weights:
 
 Stacking the questions creates a **matrix**. Only after that idea is clear do we calculate:
 
-## The arithmetic we have earned
+## The calculation hidden inside matrices
 
 A ranger must turn two observations—how heavy an animal looks and how fast it moves—into two decisions: danger and whether pursuit is possible. For danger she counts the weight clue twice and the speed clue three times. For pursuit she ignores weight and counts speed four times. Writing the two recipes as rows lets one reusable machine apply both judgments to every animal report.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - The right-hand vector **[4,5]** is shorthand for weight signal 4 and speed signal 5.
 - Each matrix row describes one output; each row needs one weight per input.
@@ -49,13 +49,13 @@ A ranger must turn two observations—how heavy an animal looks and how fast it 
 
 Row-by-column multiplication is not a ritual. Each row is one output asking how much every input should contribute.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) lets each clue's importance scale that clue. A zero weight silences it; a weight of three makes it count three times.
-- [Addition](../../MATHEMATICAL_MOVES.md#addition) combines the scaled clues because they are separate contributions to the same judgment. Multiplying them would make any zero clue erase the entire decision and would claim interaction we never asked for.
-- [Each equals sign](../../MATHEMATICAL_MOVES.md#equals) records that the verbal judgment, its arithmetic recipe, and its final score are three descriptions of the same result.
+[Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) lets each clue's importance scale that clue. A zero weight silences it; a weight of three makes it count three times.
+[Addition](../../MATHEMATICAL_MOVES.md#addition) combines the scaled clues because they are separate contributions to the same judgment. Multiplying them would make any zero clue erase the entire decision and would claim interaction we never asked for.
+[Each equals sign](../../MATHEMATICAL_MOVES.md#equals) records that the verbal judgment, its arithmetic recipe, and its final score are three descriptions of the same result.
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 \text{threat score}=2(4)+3(5)=23
@@ -90,3 +90,5 @@ Design a two-row matrix for an animal vector `[weight, speed]`. Let the first ou
 We can transform measurable properties. Language gives us a harder object: a word whose meaning is not available from any physical measuring instrument.
 
 [Next: Meaning](../006-meaning/README.md)
+
+<!-- book-prose-v2 -->

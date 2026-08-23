@@ -1,31 +1,43 @@
 # Excavation 112 — Causal Inference
 
+<!-- book-prose-v2 -->
+
 A world model predicts future observations. Prediction from recorded correlations cannot answer what would happen if the agent deliberately intervened and changed one cause.
 
-Using what we have, we treat every correlation as a controllable cause.
+If the old idea can be stretched one step farther, we should treat every correlation as a controllable cause.
 
-The trouble appears immediately: hot weather raises both; changing one does not necessarily change the other.
+If the proposal works on every relevant case, causal inference is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
 
-Now we can see what is missing: we must represent plausible causal structure and distinguish observing a variable from intervening on it.
+Now keep that rule fixed and let the difficult case enter: the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other.
 
-## Let the case decide
+Nothing magical creates causal inference. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+
+The lost distinction tells us what to build: represent plausible causal structure and distinguish observing a variable from intervening on it.
+
+This boundary between the failed rule and its repair is the subject later work calls **Causal Inference**. Naming it adds nothing; the discovery happened when the lost information became visible.
+
+Do not memorize causal inference; try to break it by subtraction. Remove the part that knows how to represent plausible causal structure and distinguish observing a variable from intervening on it, leaving only the attempt to treat every correlation as a controllable cause. What returns is not a vague weakness but the original contradiction: the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other. The removed responsibility therefore has an observable job.
+
+A name can make an invention feel inevitable, but this control removes that illusion. The rule to treat every correlation as a controllable cause receives the same test as the rule to represent plausible causal structure and distinguish observing a variable from intervening on it. Their different outcomes reveal what causal inference contributes without asking the reader to trust historical convention.
+
+## Understanding causal inference
 
 Observing umbrellas predicts rain; forcing umbrellas open does not cause rain.
 
-## The boundary of the discovery
+Hold the setting, evidence, and desired outcome fixed while testing causal inference. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
+
+## Where causal inference runs out
 
 Causal conclusions require assumptions not recoverable from correlations alone.
 
-## Enter the laboratory
+This is where causal inference runs out for a causal reason. We gave it enough structure to represent plausible causal structure and distinguish observing a variable from intervening on it, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
 
-Follow [Pure Python → NumPy → PyTorch](implementation/README.md).
+## Take causal inference to the workbench
 
-## Carry the discovery forward
+A mathematical story about causal inference earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running causal inference, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
 
-- [Invention challenges](exercises.md)
-- [Mistakes](mistakes.md)
-- [Diagram](diagram.md)
-- [References](references.md)
-- [Visual brief](images/README.md)
+Explain the causal inference result once without terminology, then once with the precise symbols or state transitions the implementation used.
+
+The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 [Next: Excavation 113](../113-counterfactuals/README.md)

@@ -21,6 +21,29 @@ Every finished chapter must contain:
 9. A limitation that creates the next excavation.
 10. Direct links to code, lab, mistakes, exercises, and references.
 
+## Narrative gate
+
+A chapter may satisfy every item above and still read like assembled notes. It
+is book-ready only when:
+
+1. The previous excavation creates the opening pressure for this one.
+2. Observation, attempt, counterexample, and repair form one uninterrupted
+   causal argument rather than a repeated lesson template.
+3. The reader can remove the proposed repair, watch the original failure
+   return, restore only the missing responsibility, and thereby test why the
+   invention is necessary.
+4. Section headings describe this chapter's actual question; generic headings
+   such as “Problem,” “Naive Attempt,” and “Mathematics Emerges” are authoring
+   scaffolds and do not appear in finished prose.
+5. Term definitions and operation choices read as connected sentences. A
+   glossary or checklist may support the narrative, but may not replace it.
+6. A displayed equation arrives only after a named case has supplied every
+   object, value, sign, and operation in that equation.
+7. The limitation follows causally from what the method receives and does. It
+   is not a detached warning added at the end.
+8. Repeated editorial sentences are treated as a defect even when the facts
+   inside each chapter differ. The book has one voice, not one template.
+
 ## Laboratory gate
 
 Every executable mathematical chapter must provide:

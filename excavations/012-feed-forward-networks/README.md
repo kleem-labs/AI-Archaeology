@@ -26,11 +26,11 @@ A simple gate such as ReLU turns negative signals off and leaves positive ones a
 
 Only now does the familiar expression describe an understood machine:
 
-## The arithmetic we have earned
+## The calculation hidden inside feed-forward networks
 
 Attention tells the word *tiger* what the rest of the sentence said. Now imagine several small workshops inside that token: one notices whether an animal is dangerous, another recognizes whether it is acting or being described. A gate closes workshops whose evidence is negative and leaves useful ones open. A second mixing step combines only the surviving discoveries. Without the gate, the two mixing steps collapse into one fixed recipe and no conditional workshop can exist.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - **x** is one token after communication.
 - **W₁x+b₁** expands it into candidate features; b₁ lets a feature activate without forcing the boundary through zero.
@@ -47,13 +47,13 @@ feed-forward: what do I make of what I heard?
 
 The phrase “feed-forward” can sound like the entire model. Here it means the position-wise transformation inside each Transformer block.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [Each matrix multiplication](../../MATHEMATICAL_MOVES.md#multiplication) lets learned weights decide how strongly one incoming feature should affect each hidden or outgoing feature.
-- [Adding a bias](../../MATHEMATICAL_MOVES.md#addition) lets a detector have a baseline threshold even when all incoming features are zero; multiplication alone must always map zero input to zero output.
-- [The activation function](../../MATHEMATICAL_MOVES.md#function-application) bends the intermediate result. Without that nonlinearity, the two matrix stages collapse into one linear transformation.
+[Each matrix multiplication](../../MATHEMATICAL_MOVES.md#multiplication) lets learned weights decide how strongly one incoming feature should affect each hidden or outgoing feature.
+[Adding a bias](../../MATHEMATICAL_MOVES.md#addition) lets a detector have a baseline threshold even when all incoming features are zero; multiplication alone must always map zero input to zero output.
+[The activation function](../../MATHEMATICAL_MOVES.md#function-application) bends the intermediate result. Without that nonlinearity, the two matrix stages collapse into one linear transformation.
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 \mathrm{FFN}(\mathbf{x})
@@ -69,3 +69,5 @@ Explain why two linear transformations in succession can still act like one line
 If every workshop completely replaces its input, useful information can be damaged as it passes through many layers. We need a safer way to build depth.
 
 [Next: Residual Connections](../013-residual-connections/README.md)
+
+<!-- book-prose-v2 -->

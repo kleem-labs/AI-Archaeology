@@ -71,3 +71,5 @@ With no dictionary, what can one sentence teach you, and what requires repeated 
 We need a geometry that can move symbols toward representations satisfying many contextual constraints at once.
 
 [Next: Embeddings](../007-embeddings/README.md)
+
+<!-- book-prose-v2 -->

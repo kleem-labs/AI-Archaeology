@@ -38,11 +38,11 @@ Averaging would erase which expert supplied which coordinates before the model c
 
 Only now does the compact expression earn its place:
 
-## The arithmetic we have earned
+## The calculation hidden inside multi-head attention
 
 In “The tiger that chased the deer was tired,” one reader follows grammar to discover what *was tired* describes, while another follows reference to keep tiger separate from deer. Averaging their notes too early destroys which evidence came from which question. Keeping the two notes side by side lets a later learned map decide how much grammar and reference the sentence needs.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - **X** is the shared sequence of token representations.
 - Each **headₕ** is an independent Q/K/V retrieval space, needed because relationships should not compete in one distribution.
@@ -54,12 +54,12 @@ Each head is the query–key–value mechanism from the previous excavation with
 
 The analogy has limits. Heads do not always become clean, human-readable professions. Some overlap; some are difficult to interpret. The architectural point is parallel relationship spaces, not a promise of tidy labels.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [Concatenation](../../MATHEMATICAL_MOVES.md#concatenation) keeps the grammar expert, reference expert, and distance expert side by side. Adding them immediately would erase which head supplied which evidence.
-- [Multiplication by the output matrix](../../MATHEMATICAL_MOVES.md#multiplication) lets the model learn how those preserved expert coordinates should interact; a fixed sum would impose the same mixture everywhere.
+[Concatenation](../../MATHEMATICAL_MOVES.md#concatenation) keeps the grammar expert, reference expert, and distance expert side by side. Adding them immediately would erase which head supplied which evidence.
+[Multiplication by the output matrix](../../MATHEMATICAL_MOVES.md#multiplication) lets the model learn how those preserved expert coordinates should interact; a fixed sum would impose the same mixture everywhere.
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 \mathrm{MultiHead}(X)
@@ -75,3 +75,5 @@ Give two different relationships needed to understand “The keys to the cabinet
 The experts have exchanged information. Each token must now transform what it received into new internal knowledge.
 
 [Next: Feed-Forward Networks](../012-feed-forward-networks/README.md)
+
+<!-- book-prose-v2 -->

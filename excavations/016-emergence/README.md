@@ -77,3 +77,5 @@ Observations became features. Features became vectors. Vectors became geometry a
 No equation began the journey. Each one appeared only after a problem made it necessary.
 
 The reconstruction leaves one danger unresolved. A rustle, a footprint, or a sentence can support several hidden stories at once. If the model chooses one and calls it certain, inference becomes guessing with confidence. The next excavation must let several possibilities remain alive and give each only the share of belief the evidence has earned.
+
+<!-- book-prose-v2 -->

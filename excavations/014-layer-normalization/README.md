@@ -21,11 +21,11 @@ The transformation `[1, 2, 3]` and `[10, 20, 30]` then produces the same normali
 
 Only after this procedure feels natural do we compress it:
 
-## The arithmetic we have earned
+## The calculation hidden inside layer normalization
 
 Three microphones hear the same roar at volumes 1, 2, and 3 because one sits closer to the tiger. Their shared centre is 2. Subtracting it leaves the pattern `[-1, 0, 1]`: quieter, typical, louder. Dividing by the pattern's spread makes that relative shape comparable with another set recorded by more sensitive microphones. A tiny safety amount is needed when all microphones report the same value and the spread is zero.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - **xᵢ** is one feature of a token and **d** is its number of features.
 - Summing and dividing by d creates μ, the token's average level.
@@ -41,15 +41,15 @@ Forcing every representation to remain permanently standardized would itself be 
 
 Layer normalization is not intelligence and does not create meaning. It creates stable numerical conditions in which learned transformations can operate.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [Summing and dividing by d](../../MATHEMATICAL_MOVES.md#mean) finds the token's average feature level. A raw sum would grow merely because the representation has more coordinates.
-- [Subtracting the mean](../../MATHEMATICAL_MOVES.md#subtraction) asks how each feature differs from this token's centre; addition would move the whole pattern farther from centre.
-- [Squaring and averaging those differences](../../MATHEMATICAL_MOVES.md#variance) measures spread without quieter and louder features cancelling each other.
-- [The square root](../../MATHEMATICAL_MOVES.md#square-root) returns variance to ordinary feature scale, and [division by that spread](../../MATHEMATICAL_MOVES.md#division) removes arbitrary volume while preserving relative shape.
+[Summing and dividing by d](../../MATHEMATICAL_MOVES.md#mean) finds the token's average feature level. A raw sum would grow merely because the representation has more coordinates.
+[Subtracting the mean](../../MATHEMATICAL_MOVES.md#subtraction) asks how each feature differs from this token's centre; addition would move the whole pattern farther from centre.
+[Squaring and averaging those differences](../../MATHEMATICAL_MOVES.md#variance) measures spread without quieter and louder features cancelling each other.
+[The square root](../../MATHEMATICAL_MOVES.md#square-root) returns variance to ordinary feature scale, and [division by that spread](../../MATHEMATICAL_MOVES.md#division) removes arbitrary volume while preserving relative shape.
 - Adding ε is a safety floor: when every feature is identical, spread is zero and division would be undefined. See [addition](../../MATHEMATICAL_MOVES.md#addition) and [division](../../MATHEMATICAL_MOVES.md#division).
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 \mu=\frac1d\sum_i x_i,
@@ -72,3 +72,5 @@ Without calculating exact decimals, predict why `[1, 2, 3]` and `[100, 200, 300]
 We now have the parts of a Transformer, but every matrix begins random. Architecture provides a brain-shaped machine, not knowledge.
 
 [Next: Learning](../015-learning/README.md)
+
+<!-- book-prose-v2 -->

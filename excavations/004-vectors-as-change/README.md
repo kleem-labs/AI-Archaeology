@@ -20,24 +20,24 @@ Suppose a traveler starts at `[2, 3]` and ends at `[7, 1]`. We can discover the 
 
 Only now is an equation useful:
 
-## The arithmetic we have earned
+## The calculation hidden inside vectors as change
 
 A rescue party marks its camp on a paper map. It walks five kilometres east and two kilometres south to reach an injured ranger. Those instructions still work if a second party begins from another camp: move five east and two south. Only after the route has a meaning do we record east–west and north–south change as `[5, -2]`.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - **a** is the starting state and **b** the observed destination.
 - Subtraction is forced because we need the change that remains after removing the start.
 - **Δ** names that reusable change, including its signs and directions.
 - Adding Δ back to a must recover b; this second equation checks the meaning of the first.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [Destination minus starting point](../../MATHEMATICAL_MOVES.md#subtraction) is forced because we want the change that would carry **a** to **b**, not their combined location.
-- [A negative coordinate](../../MATHEMATICAL_MOVES.md#negative-sign) keeps direction: −2 means move two units opposite that axis, not that the movement has an impossible size.
-- [Adding the change back](../../MATHEMATICAL_MOVES.md#addition) is the check: starting place plus the discovered movement must recover the destination.
+[Destination minus starting point](../../MATHEMATICAL_MOVES.md#subtraction) is forced because we want the change that would carry **a** to **b**, not their combined location.
+[A negative coordinate](../../MATHEMATICAL_MOVES.md#negative-sign) keeps direction: −2 means move two units opposite that axis, not that the movement has an impossible size.
+[Adding the change back](../../MATHEMATICAL_MOVES.md#addition) is the check: starting place plus the discovered movement must recover the destination.
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 \Delta=\mathbf{b}-\mathbf{a}=[7-2,1-3]=[5,-2]
@@ -78,3 +78,5 @@ Explain why `[5, 0]` can represent the same change from many starting points but
 One fixed change is useful. We now want a machine that receives any vector and produces an appropriate new vector consistently.
 
 [Next: Matrices](../005-matrices/README.md)
+
+<!-- book-prose-v2 -->

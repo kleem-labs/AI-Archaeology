@@ -23,11 +23,11 @@ This reconnects directly with Excavation 004: a vector can describe a state, and
 
 Only now do we need the compact rule:
 
-## The arithmetic we have earned
+## The calculation hidden inside residual connections
 
 A cartographer already has a useful map of the forest. A new survey reports that one trail bends half a kilometre east and one kilometre south. Replacing the whole map with that small report would destroy everything known; adding it as a correction preserves the map and changes only the trail. If the survey discovers nothing useful, adding a zero correction leaves the original untouched.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - **x** is the representation worth preserving.
 - **F(x)** is only the transformation's proposed correction, not a complete replacement.
@@ -40,12 +40,12 @@ This direct route also gives learning signals a path that does not depend entire
 
 Addition requires the input and proposal to have the same shape. That is why attention and feed-forward sublayers return to the model's shared width before joining the residual stream.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [Addition](../../MATHEMATICAL_MOVES.md#addition) preserves the old message **x** and treats the block as a proposed change **F(x)**. Replacing x would force every block to reconstruct all useful old information.
-- [F(x)](../../MATHEMATICAL_MOVES.md#function-application) says the proposed change depends on this exact incoming representation rather than being one fixed correction for every token.
+[Addition](../../MATHEMATICAL_MOVES.md#addition) preserves the old message **x** and treats the block as a proposed change **F(x)**. Replacing x would force every block to reconstruct all useful old information.
+[F(x)](../../MATHEMATICAL_MOVES.md#function-application) says the proposed change depends on this exact incoming representation rather than being one fixed correction for every token.
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 \mathbf{y}=\mathbf{x}+F(\mathbf{x})
@@ -60,3 +60,5 @@ If the best transformation for one layer is â€œleave this representation alone,â
 Repeated transformations and additions can make some representations numerically huge and others tiny. The next block needs a more stable working scale.
 
 [Next: Layer Normalization](../014-layer-normalization/README.md)
+
+<!-- book-prose-v2 -->

@@ -33,11 +33,11 @@ If both sides care strongly about the same feature, the contribution is large. I
 
 Only now do we write the operation you rediscovered—the dot product:
 
-## The arithmetic we have earned
+## The calculation hidden inside query, key, and value
 
 A librarian hears, “Find me the book about a striped predator.” The request emphasizes *animal* and *stripes*. A catalogue card advertises the same properties; matching request-property to catalogue-property produces relevance. If that card wins three quarters of the attention, three quarters of the book's stored content—not three quarters of its catalogue description—travels into the answer. The request becomes the query, the catalogue becomes the key, and the retrievable content becomes the value only after those jobs are distinct.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - **qᵢ** states what receiving token i needs; **kⱼ** states what source j offers.
 - Multiplying matching coordinates rewards aligned needs and offers; opposite signs become negative evidence.
@@ -48,13 +48,13 @@ A librarian hears, “Find me the book about a striped predator.” The request 
 
 Learned matrices create query, key, and value views from each current representation. Their formulas record three roles we already needed; they are not arbitrary symmetry.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [The dot product](../../MATHEMATICAL_MOVES.md#dot-product) multiplies query height-need by key height-offer, stripe-need by stripe-offer, and so on, then adds those aligned agreements into one relevance score.
-- [Multiplication inside the dot product](../../MATHEMATICAL_MOVES.md#multiplication) is required because a query feature should matter only when the matching key feature is present too; addition would reward a key for merely being large on unrelated features.
-- [The first sum](../../MATHEMATICAL_MOVES.md#summation) combines feature-level evidence into one match. The second sum combines each source's value after its attention weight scales how loudly that source contributes.
+[The dot product](../../MATHEMATICAL_MOVES.md#dot-product) multiplies query height-need by key height-offer, stripe-need by stripe-offer, and so on, then adds those aligned agreements into one relevance score.
+[Multiplication inside the dot product](../../MATHEMATICAL_MOVES.md#multiplication) is required because a query feature should matter only when the matching key feature is present too; addition would reward a key for merely being large on unrelated features.
+[The first sum](../../MATHEMATICAL_MOVES.md#summation) combines feature-level evidence into one match. The second sum combines each source's value after its attention weight scales how loudly that source contributes.
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 s_{ij}=\mathbf{q}_i\cdot\mathbf{k}_j
@@ -95,3 +95,5 @@ Make those three jobs visible in the [Attention Field Lab](../../labs/03_attenti
 One relevance system can pursue one mixture of relationships. Language needs several kinds of relevance at the same time.
 
 [Next: Multi-Head Attention](../011-multi-head-attention/README.md)
+
+<!-- book-prose-v2 -->

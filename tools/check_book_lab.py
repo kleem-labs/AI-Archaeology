@@ -1,6 +1,6 @@
 """Report whether the repository meets the book-and-laboratory completion gate."""
 from pathlib import Path
-from rebuild_narrative_continuity import ATTEMPT_LEADS, CARRY
+from rebuild_narrative_continuity import CARRY
 
 root = Path(__file__).parents[1]
 chapters = sorted((root / "excavations").glob("*/README.md"))
@@ -14,7 +14,7 @@ for chapter in chapters:
         if not (folder / name).exists():
             failures.append(f"{folder}: missing {name}")
     text = chapter.read_text()
-    invites_reader = number < 17 or (CARRY[number] in text and any(marker in text for marker in ATTEMPT_LEADS))
+    invites_reader = number < 17 or (CARRY[number] in text and "<!-- book-prose-v2 -->" in text)
     if not invites_reader:
         failures.append(f"{chapter}: reader is not asked to propose the first move")
 

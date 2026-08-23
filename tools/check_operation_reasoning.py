@@ -15,7 +15,7 @@ for path in sorted((ROOT / "excavations").glob("*/README.md")):
         continue
     number = int(path.parent.name[:3])
     equation_numbers.add(number)
-    heading = "### Why these operations are forced"
+    heading = "### Why no cheaper operation does the same job"
     if text.count(heading) != 1:
         failures.append(f"{path}: expected exactly one operation-reasoning section")
         continue
@@ -29,7 +29,8 @@ for path in sorted((ROOT / "excavations").glob("*/README.md")):
         if anchor not in anchors:
             failures.append(f"{path}: links to missing Mathematical Moves anchor #{anchor}")
     alternatives = re.search(
-        r"\b(?:would|without|rather than|instead|not |because|forced|omitted|removing|different)\b",
+        r"\b(?:would|without|rather than|instead|not |because|forced|omitted|removing|different|"
+        r"prevent(?:s|ing|ed)?|but|cannot|avoids?)\b",
         section,
         re.I,
     )

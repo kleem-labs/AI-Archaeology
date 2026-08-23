@@ -58,11 +58,11 @@ Nearby locations can represent similar objects. A movie can be located by humor,
 
 We already understand the object, so notation can compress it:
 
-## The arithmetic we have earned
+## The calculation hidden inside vectors
 
 A tiger recorded as weight 220, speed 65, and age 6 becomes [220, 65, 6]. The first slot must always mean weight; otherwise [220, 65, 6] could describe nonsense.
 
-### Only now do the symbols earn names
+### Names for pieces we have already used
 
 - **x** is the object we needed to carry as one package.
 - **x₁ through xₙ** are its agreed measurements; subscripts preserve which feature is which.
@@ -71,13 +71,13 @@ A tiger recorded as weight 220, speed 65, and age 6 becomes [220, 65, 6]. The fi
 
 This says only: one object carries an ordered measurement for each of $n$ agreed features.
 
-### Why these operations are forced
+### Why no cheaper operation does the same job
 
-- [Brackets](../../MATHEMATICAL_MOVES.md#brackets) keep tiger weight, speed, and age together without pretending they should be added; each observation must remain recoverable.
-- [Subscripts](../../MATHEMATICAL_MOVES.md#indices) give each retained feature an address. The dots mean the same pattern continues until feature n; they do not hide another operation.
-- [The equals sign](../../MATHEMATICAL_MOVES.md#equals) says that **x** is our short name for this complete ordered list.
+[Brackets](../../MATHEMATICAL_MOVES.md#brackets) keep tiger weight, speed, and age together without pretending they should be added; each observation must remain recoverable.
+[Subscripts](../../MATHEMATICAL_MOVES.md#indices) give each retained feature an address. The dots mean the same pattern continues until feature n; they do not hide another operation.
+[The equals sign](../../MATHEMATICAL_MOVES.md#equals) says that **x** is our short name for this complete ordered list.
 
-Only now can we compress that reasoning:
+The notation is finally shorter than the story that created it:
 
 $$
 \mathbf{x}=[x_1,x_2,\ldots,x_n]
@@ -92,3 +92,5 @@ Two vectors contain the same numbers in different orders. Are they the same repr
 A thousand feature differences still give a thousand answers. To say which animal is closest, we need those differences to become one number.
 
 [Next: Distance](../003-distance/README.md)
+
+<!-- book-prose-v2 -->

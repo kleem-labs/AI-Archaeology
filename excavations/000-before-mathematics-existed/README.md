@@ -59,3 +59,5 @@ Imagine that you know the pattern “tiger means danger,” but nothing more. Wh
 We have more observations than memory can hold, and more questions than a name can answer. We need to decide which properties of an experience deserve to be kept.
 
 [Next: Why Features Exist](../001-why-features-exist/README.md)
+
+<!-- book-prose-v2 -->
