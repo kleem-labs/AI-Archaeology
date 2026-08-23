@@ -3,9 +3,9 @@
 This is not a poster placed on top of the mathematics. It is a memory of how
 the mathematics grew.
 
-[**Open the living, clickable mandala →**](https://kleem-labs.github.io/AI-Archaeology/)
+[**Open the living, clickable mandala →**](https://kleem-labs.github.io/AI-Archaeology/math-mandala/)
 
-[![The AI Archaeology Mathematical Mandala](math-mandala.svg)](https://kleem-labs.github.io/AI-Archaeology/)
+[![The AI Archaeology Mathematical Mandala](math-mandala.svg)](https://kleem-labs.github.io/AI-Archaeology/math-mandala/)
 
 GitHub displays an SVG inside Markdown as one image. That preview cannot pass a
 click through to an individual node. The link above opens the living mandala,

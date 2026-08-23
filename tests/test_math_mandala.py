@@ -45,7 +45,10 @@ class MathematicalMandalaTests(unittest.TestCase):
 
     def test_readme_offers_live_and_script_free_clickable_views(self):
         readme = (ROOT / "README.md").read_text()
-        self.assertIn("https://kleem-labs.github.io/AI-Archaeology/", readme)
+        self.assertIn(
+            "https://kleem-labs.github.io/AI-Archaeology/math-mandala/",
+            readme,
+        )
         self.assertIn(
             "https://raw.githubusercontent.com/kleem-labs/AI-Archaeology/main/"
             "math-mandala/math-mandala.svg",

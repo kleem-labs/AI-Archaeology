@@ -1,4 +1,4 @@
-name: Deploy the Mathematical Mandala
+name: Deploy the AI Archaeology Book and Mandala
 
 on:
   push:
@@ -12,7 +12,7 @@ permissions:
   id-token: write
 
 concurrency:
-  group: mathematical-mandala-pages
+  group: ai-archaeology-pages
   cancel-in-progress: true
 
 jobs:
@@ -28,11 +28,17 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
 
-      - name: Upload the mandala
+      - name: Build the book and mandala
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - name: Upload the complete site
         uses: actions/upload-pages-artifact@v4
         with:
-          path: math-mandala
+          path: ./_site
 
-      - name: Publish the mandala
+      - name: Publish the complete site
         id: deployment
         uses: actions/deploy-pages@v4

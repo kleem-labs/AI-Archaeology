@@ -35,9 +35,9 @@ why an operation was needed. Follow the faint gold thread outward to see which
 equation the book discovered next. Every numbered node opens its excavation,
 and the map grows automatically when future chapters earn new equations.
 
-[**Open the living, clickable mandala →**](https://kleem-labs.github.io/AI-Archaeology/)
+[**Open the living, clickable mandala →**](https://kleem-labs.github.io/AI-Archaeology/math-mandala/)
 
-[![AI Archaeology Mathematical Mandala](math-mandala/math-mandala.svg)](https://kleem-labs.github.io/AI-Archaeology/)
+[![AI Archaeology Mathematical Mandala](math-mandala/math-mandala.svg)](https://kleem-labs.github.io/AI-Archaeology/math-mandala/)
 
 GitHub treats the picture above as one preview, so its internal nodes cannot
 receive clicks inside the README. Open the living mandala first; there, clicking

@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).parents[1]
 OUTPUT = ROOT / "math-mandala"
 GITHUB_ROOT = "https://github.com/kleem-labs/AI-Archaeology/blob/main"
-MANDALA_URL = "https://kleem-labs.github.io/AI-Archaeology/"
+MANDALA_URL = "https://kleem-labs.github.io/AI-Archaeology/math-mandala/"
 RAW_MANDALA_URL = "https://raw.githubusercontent.com/kleem-labs/AI-Archaeology/main/math-mandala/math-mandala.svg"
 EQUATION = re.compile(r"\$\$(.*?)\$\$", re.S)
 MOVE_LINK = re.compile(r"MATHEMATICAL_MOVES\.md#([a-z0-9-]+)")
@@ -448,7 +448,7 @@ def interactive_fragment(data: dict) -> str:
   </div>
   <div class="mm-tools"><input aria-label="Find an excavation or mathematical move" placeholder="Find distance, softmax, gradient, logarithm…"></div>
   <div class="mm-stage"><svg viewBox="0 0 900 900" aria-label="Interactive mathematical mandala"></svg><aside class="mm-card" aria-live="polite"></aside></div>
-  <div class="mm-help">Begin at the heart. Hover to reveal relationships; click to keep one selected. The gold thread preserves discovery order.</div>
+  <div class="mm-help">Begin at the heart. Hover to reveal relationships; click a node to open its excavation or mathematical explanation. The gold thread preserves discovery order.</div>
   <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
   <script>
   (function(){
