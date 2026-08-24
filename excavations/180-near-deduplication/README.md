@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 Exact deduplication removes byte-equivalent documents. The copied article with a new banner, reordered footer, or one edited sentence still survives as apparently new evidence.
 
 Inside the Archive Foundry, every old tool is given one honest chance. The archivist-engineer sets the chain-of-custody ledger between the evidence and the desired answer, then tries to lowercase both documents and demand that every remaining word match.

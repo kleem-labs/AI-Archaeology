@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Process supervision rewards reliable intermediate reasoning rather than only the final result. Every process label and verifier is still a proxy that a sufficiently capable optimizer may learn to satisfy without achieving the intended goal.
 
 Inside the Academy of Trials, every old tool is given one honest chance. The experimentalist sets the sealed evidence ledger between the evidence and the desired answer, then tries to increase the reward whenever the dirt sensor reads zero.

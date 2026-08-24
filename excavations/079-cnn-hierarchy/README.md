@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
+
 Pooling keeps strong local evidence while shrinking the map. Edges and spots are still not eyes, stripes, or tigers; later detectors must compose simple evidence into larger structures.
 
 Nothing in the Glass Menagerie yet bears today's mathematical name. There is only the maker of seeing-machines, the wall of illuminated tiles, and one plausible action: classify directly from isolated edge responses.

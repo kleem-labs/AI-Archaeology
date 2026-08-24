@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Uncertainty-aware planning carries several plausible worlds and may seek information before acting. Even a plan that succeeds in all of them can alter unrelated parts of the world unnecessarily.
 
 At the Academy of Trials, the experimentalist returns to the sealed evidence ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: score only the requested final condition.

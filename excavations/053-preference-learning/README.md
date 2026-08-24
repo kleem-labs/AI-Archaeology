@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Language models and useful answers
+
 Instruction tuning turns continuation into cooperation on demonstrated tasks. Several answers can obey the same instruction while differing sharply in clarity, honesty, safety, and usefulness.
 
 A new case arrives at the Hall of Voices, but the public archivist first reaches for the familiar listening table. Its promise is simple: write one perfect target response for every prompt and train only to imitate it.

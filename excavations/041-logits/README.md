@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Language models and useful answers
+
 Shifted inputs and targets create one lesson at every position. The Transformer answers each lesson with a contextual vector, but a vector is not yet a competition among words such as tiger, river, or sleeps.
 
 Morning reaches the Clockwork Scriptorium before anyone has a name for today's difficulty. Beside the sentence-wheel, the mechanist tries the smallest continuation of what already works: choose the nearest input embedding directly.

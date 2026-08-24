@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 Superposition explains how limited dimensions can carry more features than individual neurons. A readable direction may still be a bystander; only changing it and observing behavior can test whether it is causally used.
 
 Night gathers around the Living Watchgarden. Under the light of the weathered observation slate, the field naturalist refuses to invent prematurely and begins with the plain rule: assume correlation with output proves causation.

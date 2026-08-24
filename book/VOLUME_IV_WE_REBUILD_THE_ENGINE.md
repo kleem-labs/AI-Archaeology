@@ -26,6 +26,10 @@ The bounded loop gives us permission to improve—not permission to guess. We fr
 
 ### Excavation 151 — A Reproducible Baseline — Improve Something That Actually Exists
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Model systems and engine optimization
+
 The bounded loop can approve a candidate, but approval is meaningless if nobody can reconstruct the system it is supposed to improve.
 
 Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: keep the final score and the model file; those should be enough to compare the next idea.
@@ -96,6 +100,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 152 — Profiling — Measure Where the Time Went
 
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Model systems and engine optimization
+
 A reproducible baseline gives us a trustworthy before-state. Its first run is too slow for the ranger station, but a total runtime does not identify the guilty stage.
 
 At the Engine Cavern, the enginewright returns to the brass reference machine. Yesterday's instrument still lies open, so the first move asks for no new magic: optimize the largest-looking matrix because attention is famous for being expensive.
@@ -164,6 +172,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 153 — The Input Pipeline — Stop Making the Accelerator Wait
 
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Profiling reveals that the accelerator repeatedly waits for the next token batch. The model is ready, but its evidence is still being read and prepared.
 
 Morning reaches the Engine Cavern before anyone has a name for today's difficulty. Beside the brass reference machine, the enginewright tries the smallest continuation of what already works: load a batch, wait until loading finishes, compute it, and only then begin loading the next one.
@@ -228,6 +240,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 154 — Sequence Packing — Stop Training on Empty Space
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
 
 The input pipeline now keeps the device busy. Inspection shows that many of the tokens occupying each fixed rectangle are padding rather than language.
 
@@ -295,6 +311,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 155 — Rotary Position Embeddings — Let Distance Enter the Match
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Packed training supplies dense sequences, but the learned absolute position cards from our first GPT bind each slot to a private identity rather than making relative displacement part of the query-key match.
 
 Night gathers around the Engine Cavern. Under the light of the brass reference machine, the enginewright refuses to invent prematurely and begins with the plain rule: learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples.
@@ -361,6 +381,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 156 — Relative Position Bias — What Should Happen Beyond the Seen Window?
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Rotary position makes displacement visible inside the attention match. When the station tests much longer sequences, the model must rank relationships at separations absent from training.
 
 Inside the Engine Cavern, every old tool is given one honest chance. The enginewright sets the brass reference machine between the evidence and the desired answer, then tries to trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.
@@ -426,6 +450,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 157 — The KV Cache — Stop Re-reading the Entire Past
+
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Model systems and engine optimization
 
 Relative position now behaves predictably, but autoregressive generation still reruns the Transformer over the full prefix after appending each token.
 
@@ -497,6 +525,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 158 — Multi-Query Attention — Why Cache Separate Copies for Every Head?
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Caching turns repeated arithmetic into memory reads. Profiling now shows decoding limited by loading separate key and value histories for every attention head.
 
 The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections.
@@ -565,6 +597,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 159 — Grouped-Query Attention — Recover Some Specialist Memory
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Model systems and engine optimization
+
 One shared KV head makes decoding light enough for the station, but evaluation finds a quality loss on relationships that benefited from distinct catalogs.
 
 Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: return immediately to one KV head per query head.
@@ -629,6 +665,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 160 — FlashAttention — The Arithmetic Was Not the Bottleneck
+
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Model systems and engine optimization
 
 Grouped-query attention makes generation economical, yet training long packed sequences still materializes a large attention-score matrix in slow device memory.
 
@@ -696,6 +736,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 161 — RMSNorm — Do We Need to Subtract the Centre?
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
+
 FlashAttention removes one systems bottleneck, making smaller repeated operations visible. Layer normalization calculates both a mean and a spread at every token and layer.
 
 Morning reaches the Engine Cavern before anyone has a name for today's difficulty. Beside the brass reference machine, the enginewright tries the smallest continuation of what already works: delete normalization because each individual operation appears cheap.
@@ -762,6 +806,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 162 — Pre-Normalization — Protect the Residual Highway
 
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Model systems and engine optimization
+
 The block is cheaper, but making it deeper reveals unstable early gradients when normalization follows each residual addition.
 
 The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: keep post-normalization because each block's output then looks standardized before the next block.
@@ -827,6 +875,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 163 — SwiGLU — Let One Learned Path Gate Another
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
 
 Pre-normalization lets gradients reach deep blocks, but the ordinary feed-forward network applies one fixed activation independently to one projection.
 
@@ -898,6 +950,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 164 — Weight Tying — Use One Word Geometry Twice
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
+
 SwiGLU improves the block, but the model stores one large table for input embeddings and another large matrix for scoring the same vocabulary at output.
 
 Inside the Engine Cavern, every old tool is given one honest chance. The enginewright sets the brass reference machine between the evidence and the desired answer, then tries to let both matrices learn independently because reading a token and predicting it are different jobs.
@@ -964,6 +1020,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 165 — Adam — Give Each Parameter Its Own Step Scale
 
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Weight tying concentrates more roles in shared parameters. During training, some coordinates receive frequent large gradients while rare-token coordinates receive sparse small ones.
 
 A new case arrives at the Engine Cavern, but the enginewright first reaches for the familiar brass reference machine. Its promise is simple: use the same raw gradient step scale for every parameter.
@@ -1028,6 +1088,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 166 — AdamW — Keep Shrinkage Separate from Adaptation
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
 
 Adam trains the block, but adding an L2 penalty to the loss sends shrinkage through the optimizer's coordinate-wise rescaling.
 
@@ -1095,6 +1159,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 167 — Gradient Clipping — Stop One Shock from Becoming a Catastrophe
 
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Most steps are stable, but a rare batch produces an enormous global gradient norm and overwhelms Adam's still-developing moment estimates.
 
 Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: discard the entire batch whenever any gradient coordinate looks large.
@@ -1161,6 +1229,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 168 — Mixed Precision — Stop Storing Every Number with Unneeded Detail
 
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Stable gradients now expose the physical bill: weights, activations, and gradients are stored and moved as wide numbers even when many operations tolerate fewer bits.
 
 At the Engine Cavern, the enginewright returns to the brass reference machine. Yesterday's instrument still lies open, so the first move asks for no new magic: convert every value and every update permanently to half precision.
@@ -1226,6 +1298,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 169 — Loss Scaling — Rescue Gradients Too Small to Represent
+
+> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
 
 The forward pass looks correct, but some half-precision gradients round to zero before the optimizer can use them.
 
@@ -1297,6 +1373,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 170 — Gradient Accumulation — Build a Large Batch That Does Not Fit
 
+> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
+
 The optimizer needs a less noisy effective batch, but all its examples and activations cannot coexist on one device.
 
 The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: reduce the batch until it fits and change nothing else.
@@ -1365,6 +1445,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 171 — Activation Checkpointing — Remember Less, Recompute Exactly
 
+> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Only one micro-batch is resident, yet backpropagation retains every layer's intermediate values until their gradients are computed.
 
 Night gathers around the Engine Cavern. Under the light of the brass reference machine, the enginewright refuses to invent prematurely and begins with the plain rule: delete all activations after the forward pass.
@@ -1429,6 +1513,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 172 — ZeRO — Stop Replicating the Same Training State
+
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Model systems and engine optimization
 
 Recomputation makes the forward graph fit, but AdamW stores parameters, gradients, first moments, and second moments. Ordinary data parallelism copies all of them onto every device.
 
@@ -1496,6 +1584,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 173 — Tensor Parallelism — Split One Matrix That No Device Can Hold
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Sharded parameters can be gathered for computation, but the largest matrix itself becomes too large to materialize or multiply on one worker.
 
 A new case arrives at the Engine Cavern, but the enginewright first reaches for the familiar brass reference machine. Its promise is simple: assign whole layers to different devices and pass every activation through them sequentially.
@@ -1562,6 +1654,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 174 — Speculative Decoding — Let a Small Model Propose, Never Decide
 
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Model systems and engine optimization
+
 Tensor parallelism makes one target-model step possible, but autoregressive dependence still serializes token generation.
 
 The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: let a cheap draft model emit several tokens and return them directly.
@@ -1627,6 +1723,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 175 — A Modern Tiny Language Model — Assemble the Measured Engine
+
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Model systems and engine optimization
 
 Speculative decoding accelerates the final serial loop. We now have many locally useful repairs, but a pile of optimizations is not yet one reproducible model.
 

@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Adversarial robustness tests whether behavior survives hostile changes. The system can now run experiments on itself, but open-ended discovery becomes unsafe if it can rewrite objectives, evidence standards, or deployment authority.
 
 A new case arrives at the Hall of Possible Worlds, but the keeper of unfinished questions first reaches for the familiar table of mirrored maps. Its promise is simple: let it generate experiments, change itself, and deploy improvements automatically.

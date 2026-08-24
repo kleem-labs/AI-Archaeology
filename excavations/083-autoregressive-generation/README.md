@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
+
 A meaningful latent space gives images coordinates we can navigate. To create a new image, the system still needs a procedure that turns an uncertain starting state into a complete arrangement of pixels.
 
 Night gathers around the Glass Menagerie. Under the light of the wall of illuminated tiles, the maker of seeing-machines refuses to invent prematurely and begins with the plain rule: predict all pixels independently.

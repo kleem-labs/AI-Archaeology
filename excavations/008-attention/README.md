@@ -59,3 +59,8 @@ The relevance scores may be negative, huge, or expressed on unstable scales. Bef
 
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
+
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Foundations and representation

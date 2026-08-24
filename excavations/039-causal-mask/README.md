@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Language models and useful answers
+
 Position marks make order visible. During next-token training, however, the correct answer is sitting to the right inside the same sentence, where an unrestricted attention mechanism can simply look at it.
 
 Nothing in the Clockwork Scriptorium yet bears today's mathematical name. There is only the mechanist, the sentence-wheel, and one plausible action: train each prefix in a separate forward pass.

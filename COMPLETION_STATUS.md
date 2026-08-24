@@ -5,6 +5,10 @@ This page prevents a large repository from looking more finished than it is.
 ## What is genuinely in place
 
 - 201 linked excavations with the observation → attempt → failure → discovery discipline.
+- 201 mathematical-lineage labels and a clickable Mathematics Atlas for
+  studying the same journey by linear algebra, calculus, probability,
+  information theory, optimization, discrete mathematics, numerical analysis,
+  dynamical systems, causality, graphs, and mathematical measurement.
 - Companions beside every relevant chapter: mistakes, diagrams, exercises, references, and three implementation stages.
 - Automated checks for guided discovery and equations introduced only after their concrete pieces.
 - Passing behavior tests for the original laboratories and the complete Part XII engine arc.

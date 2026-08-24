@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Agents and reliable action
+
 Verification compares the intended effect with reality. When the evidence is absent because a request timed out, trying again may repeat an action that actually succeeded the first time.
 
 The doors of the Gatehouse of Consequences close against the wind. On the iron threshold, the gatekeeper writes the cheapest rule that might still be true: retry the action whenever a response is missing.

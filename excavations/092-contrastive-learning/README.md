@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 Multimodal alignment places an image near its matching caption. Pulling pairs together alone permits every pair to collapse to the same point; meaning appears only when the correct match wins against plausible alternatives.
 
 Inside the Road of Consequences, every old tool is given one honest chance. The expedition leader sets the map of branching journeys between the evidence and the desired answer, then tries to pull every observed pair together without negatives.

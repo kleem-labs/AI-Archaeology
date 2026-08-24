@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Language models and useful answers
+
 Causal masking prevents the learner from reading future answers. The model still needs to turn one sentence into all the honest prediction questions hidden inside it.
 
 At the Clockwork Scriptorium, the mechanist returns to the sentence-wheel. Yesterday's instrument still lies open, so the first move asks for no new magic: treat an entire sentence as one training example with one answer.

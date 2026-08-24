@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
+
 Convolution slides one local detector across the whole image. The resulting activation maps preserve every detected location and quickly become too large for deeper processing.
 
 The doors of the Glass Menagerie close against the wind. On the wall of illuminated tiles, the maker of seeing-machines writes the cheapest rule that might still be true: keep every activation at full resolution through every layer.

@@ -24,3 +24,7 @@ To see every earned equation as one connected memory, enter the
 To remember the recurring places and mathematical motions that bind the five
 volumes into one imaginative journey, begin with
 [The Living Mathematics](../THE_LIVING_MATHEMATICS.md).
+
+To revisit the chapters as calculus, probability, linear algebra, information
+theory, optimization, discrete mathematics, numerical analysis, and their
+neighboring families, use the [Mathematics Atlas](../MATHEMATICS_ATLAS.md).

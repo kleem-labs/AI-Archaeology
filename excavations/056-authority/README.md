@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Agents and reliable action
+
 > **PART VI — TRUSTING AN ACTING MACHINE**
 >
 > The model no longer merely answers. Its words can cause actions, and every action creates questions of authority and proof.

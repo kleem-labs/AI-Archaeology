@@ -178,3 +178,8 @@ the word *embedding* until your procedure has already created one.
 
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
+
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Foundations and representation

@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Language models and useful answers
+
 > **PART IV — BUILDING A TINY GPT**
 >
 > You have built a learner. Now place language in its hands and discover every mechanism required to make one token predict another.

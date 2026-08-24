@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Model systems and engine optimization
+
 The block is cheaper, but making it deeper reveals unstable early gradients when normalization follows each residual addition.
 
 The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: keep post-normalization because each block's output then looks standardized before the next block.

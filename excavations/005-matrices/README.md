@@ -96,6 +96,11 @@ We can transform measurable properties. Language gives us a harder object: a wor
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Foundations and representation
+
 ## The first constellation
 
 The valley began with unnamed observations. A feature kept one distinction; a vector kept several; distance turned disagreement into separation; a matrix turned several judgments into one reusable machine. None was a separate school subject. Each was the shape left behind when the earlier tool broke.

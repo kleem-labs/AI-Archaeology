@@ -30,6 +30,10 @@ Our tiny GPT speaks. That is an achievement, but it is not yet a reason to belie
 
 ### Excavation 046 — Perplexity — How Surprised Is the Model?
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Language models and useful answers
+
 The loop closes and the tiny GPT produces fluent-looking text. Fluency is easy to admire and hard to compare, so two trained models still need a common test on text neither was allowed to study.
 
 The doors of the Hall of Voices close against the wind. On the listening table, the public archivist writes the cheapest rule that might still be true: count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree.
@@ -95,6 +99,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 047 — Evaluation — What Does “Better” Actually Mean?
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Language models and useful answers
+
 Perplexity measures how surprised a model is by held-out language. A lower surprise does not automatically mean a safer answer, a truer claim, or a more useful assistant.
 
 Nothing in the Hall of Voices yet bears today's mathematical name. There is only the public archivist, the listening table, and one plausible action: choose one benchmark score and call it intelligence.
@@ -141,6 +149,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 048 — Hallucination — When Fluent Prediction Outruns Evidence
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Language models and useful answers
+
 Evaluation therefore begins with the job the system is supposed to perform. On that job, a disturbing failure remains: the model can produce a beautifully fluent answer even when no evidence supports it.
 
 At the Hall of Voices, the public archivist returns to the listening table. Yesterday's instrument still lies open, so the first move asks for no new magic: trust fluent language because uncertainty should sound hesitant.
@@ -186,6 +198,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 049 — Calibration — Does 80% Confidence Mean Eight Out of Ten?
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Language models and useful answers
 
 Grounding exposes unsupported claims, but the assistant also reports confidence. If “80% certain” is wrong half the time, users cannot use that number to decide when to trust or verify it.
 
@@ -253,6 +269,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 050 — Data Quality — What Lessons Did the Model Actually Receive?
 
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Language models and useful answers
+
 Calibration compares stated confidence with observed reliability. When those diverge, the cause often lies upstream in the lessons the model received—duplication, errors, missing groups, or misleading correlations.
 
 The listening table at the Hall of Voices still carries the marks of the previous discovery. The public archivist follows them as far as they seem willing to go: collect as much text as possible and assume scale washes out bad examples.
@@ -302,6 +322,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 051 — Scaling Laws — What Improves When We Add More?
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Language models and useful answers
 
 Data quality asks what patterns the training process actually repeated. Once the lessons are trustworthy, the builders must decide whether the next unit of computation should buy more data, a larger model, or longer training.
 
@@ -371,6 +395,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 052 — Instruction Tuning — From Continuation to Cooperation
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Language models and useful answers
+
 Scaling laws reveal regular trends as resources grow. A larger next-token predictor is still a predictor; nothing in scale alone tells it that a user's instruction should govern the continuation.
 
 Inside the Hall of Voices, every old tool is given one honest chance. The public archivist sets the listening table between the evidence and the desired answer, then tries to prompt more forcefully and hope next-token prediction infers the desired interaction.
@@ -415,6 +443,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 053 — Preference Learning — When Several Answers Are Correct but Not Equally Helpful
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Language models and useful answers
 
 Instruction tuning turns continuation into cooperation on demonstrated tasks. Several answers can obey the same instruction while differing sharply in clarity, honesty, safety, and usefulness.
 
@@ -482,6 +514,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 054 — Retrieval-Augmented Generation — Let the Model Look Before It Speaks
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Language models and useful answers
+
 Preference learning lets reviewers distinguish answers that are all technically possible. Even the preferred answer may rely on stale memory when the question asks about a document or fact that changed after training.
 
 The doors of the Hall of Voices close against the wind. On the listening table, the public archivist writes the cheapest rule that might still be true: retrain the whole model whenever one document changes.
@@ -527,6 +563,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 055 — Tool-Using Agents — When Words Must Cause Verified Actions
+
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Language models and useful answers
 
 Retrieval lets the assistant look for evidence before speaking. Some requests require more than words: send a message, query a database, reserve equipment, or change real state.
 
@@ -580,6 +620,10 @@ A model that only writes can be wrong. A model with tools can make its mistake r
 
 ### Excavation 056 — Authority — What Is the Agent Allowed to Do?
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Agents and reliable action
+
 Tools let language cause external effects. The moment an answer can act, capability must be separated from permission: what may this agent do without asking again?
 
 At the Gatehouse of Consequences, the gatekeeper returns to the iron threshold. Yesterday's instrument still lies open, so the first move asks for no new magic: give every available tool to the model and treat user intent as unlimited permission.
@@ -630,6 +674,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 057 — Prompt Injection — When Evidence Tries to Become an Instruction
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Agents and reliable action
+
 An authority boundary prevents the agent from inventing permission. Retrieved pages and tool output now create another threat: untrusted evidence can contain sentences that pretend to be new instructions.
 
 Morning reaches the Gatehouse of Consequences before anyone has a name for today's difficulty. Beside the iron threshold, the gatekeeper tries the smallest continuation of what already works: place tool results directly into the prompt and let the model obey whichever instruction sounds strongest.
@@ -676,6 +724,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 058 — Planning — Turning a Goal into Checkable Steps
+
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Agents and reliable action
 
 Prompt-injection defenses keep evidence from silently becoming authority. A safe tool call can still be the wrong step in a long task unless the goal is decomposed into checkable dependencies.
 
@@ -725,6 +777,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 059 — Memory — What Should Survive After the Context Ends?
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Agents and reliable action
+
 Planning turns a goal into steps the agent can inspect and revise. A plan that outlives the current context needs selected facts and decisions to survive without preserving every irrelevant token forever.
 
 Night gathers around the Gatehouse of Consequences. Under the light of the iron threshold, the gatekeeper refuses to invent prematurely and begins with the plain rule: store every message forever and paste all history into every new prompt.
@@ -773,6 +829,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 060 — State Machines — Knowing What Has Actually Happened
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Agents and reliable action
+
 Memory carries chosen information across contexts. Remembering that an email was intended does not establish that it was sent; real workflows need an authoritative account of which events actually changed state.
 
 Inside the Gatehouse of Consequences, every old tool is given one honest chance. The gatekeeper sets the iron threshold between the evidence and the desired answer, then tries to let the conversation prose serve as the workflow state.
@@ -820,6 +880,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 061 — Verification — How Does the Agent Know It Succeeded?
+
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Agents and reliable action
 
 A state machine records what transitions are allowed and which events occurred. Reaching a state named `done` is still only a claim unless observable evidence proves the requested outcome in the outside world.
 
@@ -873,6 +937,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 062 — Retries and Idempotency — Trying Again Without Doing It Twice
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Agents and reliable action
+
 Verification compares the intended effect with reality. When the evidence is absent because a request timed out, trying again may repeat an action that actually succeeded the first time.
 
 The doors of the Gatehouse of Consequences close against the wind. On the iron threshold, the gatekeeper writes the cheapest rule that might still be true: retry the action whenever a response is missing.
@@ -923,6 +991,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 063 — Multi-Agent Coordination — When Should Work Be Divided?
 
+> **Mathematical roots:** [Graphs & Relational Structures](../MATHEMATICS_ATLAS.md#graphs) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Agents and reliable action
+
 Idempotent retries make repetition safe. A large goal can nevertheless overwhelm one agent's context and tools, raising the question of when division of work reduces risk rather than multiplying it.
 
 Nothing in the Gatehouse of Consequences yet bears today's mathematical name. There is only the gatekeeper, the iron threshold, and one plausible action: create many agents for every problem and let them freely edit shared state.
@@ -969,6 +1041,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 064 — Observability — Seeing Why an Agent Failed
+
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Agents and reliable action
 
 Multi-agent coordination divides work and introduces new boundaries, shared resources, and failure modes. When the result is wrong, the team needs enough trace to locate which assumption, handoff, or tool effect failed.
 
@@ -1017,6 +1093,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 065 — Bounded Autonomy — Building an Agent That Can Be Trusted
+
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Agents and reliable action
 
 Observability makes a failure inspectable after it occurs. Trust requires more than postmortems: the agent's possible actions must remain inside an explicit operating envelope before anything goes wrong.
 
@@ -1082,6 +1162,10 @@ The bounded assistant enters the world, and the world does not stand still. Its 
 
 ### Excavation 066 — Feedback Loops
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 The field assistant is now bounded, observable, and deployed. Its recommendations change what people see and choose, so today's behavior alters the data that will be treated as evidence tomorrow.
 
 The weathered observation slate at the Living Watchgarden still carries the marks of the previous discovery. The field naturalist follows them as far as they seem willing to go: treat every click as independent evidence of natural preference.
@@ -1132,6 +1216,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 067 — Online Learning
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 A feedback loop reveals that deployment is part of the data-generating process. When the world changes for legitimate reasons, a frozen model grows stale and needs a controlled way to learn online.
 
 Night gathers around the Living Watchgarden. Under the light of the weathered observation slate, the field naturalist refuses to invent prematurely and begins with the plain rule: retrain immediately on every new labeled event.
@@ -1180,6 +1268,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 068 — Distribution Drift
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 Online learning adapts quickly and can also absorb noise or attack just as quickly. The system must first distinguish ordinary variation from a genuine change in the source producing its inputs.
 
 Inside the Living Watchgarden, every old tool is given one honest chance. The field naturalist sets the weathered observation slate between the evidence and the desired answer, then tries to assume training accuracy remains valid forever.
@@ -1224,6 +1316,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 069 — Controlled Experiments
+
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics)
+>
+> **Applied territory:** Learning in the world and interpretability
 
 Drift detection says that the input or outcome distribution moved. It does not say whether a new model, a holiday, a policy change, or chance caused the observed performance difference.
 
@@ -1270,6 +1366,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 070 — Bandits — Learning While Choosing
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Learning in the world and interpretability
 
 Controlled experiments isolate causal effects by holding alternatives steady. In a live recommender, withholding every uncertain choice until a long experiment ends sacrifices opportunities to learn while serving users.
 
@@ -1319,6 +1419,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 071 — Features Inside Networks
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 Bandit strategies balance present reward with the value of exploring uncertain choices. Once deployed, their decisions still emerge from internal representations whose meaning and failure modes remain hidden.
 
 Nothing in the Living Watchgarden yet bears today's mathematical name. There is only the field naturalist, the weathered observation slate, and one plausible action: search for one neuron dedicated to each human concept.
@@ -1364,6 +1468,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 072 — Linear Probes
+
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Learning in the world and interpretability
 
 Internal-feature analysis asks what distinctions a hidden layer already makes. A simple probe may decode “tiger” from that layer, but decodability does not prove the original model uses that information.
 
@@ -1415,6 +1523,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 073 — Attribution
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 Linear probes reveal information available to a simple reader. To understand one prediction, we must trace which input evidence actually influenced the output rather than merely existing somewhere inside.
 
 Morning reaches the Living Watchgarden before anyone has a name for today's difficulty. Beside the weathered observation slate, the field naturalist tries the smallest continuation of what already works: remove each word and treat output change as complete explanation.
@@ -1463,6 +1575,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 074 — Superposition
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 Attribution assigns influence to inputs or internal components. The investigation soon finds that one neuron can participate in many features and one feature can be distributed across many neurons.
 
 The weathered observation slate at the Living Watchgarden still carries the marks of the previous discovery. The field naturalist follows them as far as they seem willing to go: demand one feature per coordinate.
@@ -1509,6 +1625,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 075 — Causal Interventions
+
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics)
+>
+> **Applied territory:** Learning in the world and interpretability
 
 Superposition explains how limited dimensions can carry more features than individual neurons. A readable direction may still be a bystander; only changing it and observing behavior can test whether it is causally used.
 
@@ -1572,6 +1692,10 @@ Language is only one trace of the valley. Cameras bring grids of colored light, 
 
 ### Excavation 076 — Pixels — Turning Light into Numbers
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
+
 Causal interventions turn interpretation into an experiment. The field system can now inspect language reasoning, but its users also need it to understand the camera's raw grid of colored light.
 
 Inside the Glass Menagerie, every old tool is given one honest chance. The maker of seeing-machines sets the wall of illuminated tiles between the evidence and the desired answer, then tries to assign one label to the entire raw byte sequence.
@@ -1617,6 +1741,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 077 — Convolution — Reusing the Same Local Detector
+
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
 
 Pixels preserve local color and position without yet revealing edges, stripes, or animals. The same small visual pattern may appear anywhere in the image, so relearning a detector at every location wastes both data and parameters.
 
@@ -1693,6 +1821,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 078 — Pooling — Keeping Evidence While Shrinking the Map
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
+
 Convolution slides one local detector across the whole image. The resulting activation maps preserve every detected location and quickly become too large for deeper processing.
 
 The doors of the Glass Menagerie close against the wind. On the wall of illuminated tiles, the maker of seeing-machines writes the cheapest rule that might still be true: keep every activation at full resolution through every layer.
@@ -1741,6 +1873,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 079 — CNN Hierarchies
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
+
 Pooling keeps strong local evidence while shrinking the map. Edges and spots are still not eyes, stripes, or tigers; later detectors must compose simple evidence into larger structures.
 
 Nothing in the Glass Menagerie yet bears today's mathematical name. There is only the maker of seeing-machines, the wall of illuminated tiles, and one plausible action: classify directly from isolated edge responses.
@@ -1788,6 +1924,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 080 — Vision Transformers
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
+
 A convolutional hierarchy builds local parts into objects. Some decisions depend on distant regions that a fixed local pathway connects only after many layers, inviting the image patches to communicate directly.
 
 At the Glass Menagerie, the maker of seeing-machines returns to the wall of illuminated tiles. Yesterday's instrument still lies open, so the first move asks for no new magic: treat every pixel as a token.
@@ -1833,6 +1973,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 081 — Autoencoders — Compressing and Rebuilding
+
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Vision and generative models
 
 Vision Transformers let distant patches attend to one another. Classification uses the representation once; reconstruction asks whether a smaller internal code can preserve enough of the image to rebuild it.
 
@@ -1882,6 +2026,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 082 — Latent Space — Coordinates for Hidden Causes
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Vision and generative models
+
 An autoencoder learns to compress and reconstruct. Its bottleneck is only a list of numbers until changes in those coordinates correspond to useful hidden causes such as pose, lighting, or identity.
 
 The wall of illuminated tiles at the Glass Menagerie still carries the marks of the previous discovery. The maker of seeing-machines follows them as far as they seem willing to go: assume any compressed coordinates form a smooth useful space.
@@ -1927,6 +2075,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 083 — Autoregressive Generation Beyond Text
+
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
 
 A meaningful latent space gives images coordinates we can navigate. To create a new image, the system still needs a procedure that turns an uncertain starting state into a complete arrangement of pixels.
 
@@ -1979,6 +2131,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 084 — Diffusion — Learning by Destroying
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
 
 Autoregressive image generation chooses one piece after another, making an arbitrary generation order part of the model. Diffusion offers another route: destroy a complete image gradually so that generation can learn to reverse each small corruption.
 
@@ -2052,6 +2208,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 085 — Denoising — Predicting What the Noise Hid
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Vision and generative models
 
 The forward diffusion process tells us exactly how clean image and noise combine at every step. Generation now depends on a network that can inspect the corrupted image and infer what the noise hid.
 
@@ -2139,6 +2299,10 @@ The system can describe and create, but action supplies no correct next token. I
 
 ### Excavation 086 — Rewards — Learning Without Correct Answers
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 Denoising closes the image-generation loop. The field system can predict words and images, but an acting agent often receives no correct action label—only eventual success, damage, or failure.
 
 The doors of the Road of Consequences close against the wind. On the map of branching journeys, the expedition leader writes the cheapest rule that might still be true: label the correct action at every moment.
@@ -2185,6 +2349,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 087 — States, Actions, and Transitions
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 A reward says how an outcome turned out. To learn from it, the agent must preserve the situation it occupied, the action it chose, and the situation that followed.
 
 Nothing in the Road of Consequences yet bears today's mathematical name. There is only the expedition leader, the map of branching journeys, and one plausible action: store only action and final reward.
@@ -2230,6 +2398,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 088 — Value — Estimating Future Consequences
+
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
 
 State–action–transition records make experience explicit. Immediate reward still cannot distinguish a move toward a distant rescue from a move into a dead end when neither pays off yet.
 
@@ -2282,6 +2454,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 089 — Q-Learning — Improving Values from Experience
+
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
 
 A value estimate represents future consequences from a state. Experience must now revise those estimates without waiting to rediscover every long future from scratch.
 
@@ -2356,6 +2532,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 090 — Policy Gradients — Improving the Choices Directly
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 Q-learning estimates the value of each action and then still needs a policy for choosing among them. We can instead ask how reward should directly change the probabilities of the choices the agent actually made.
 
 The map of branching journeys at the Road of Consequences still carries the marks of the previous discovery. The expedition leader follows them as far as they seem willing to go: always choose the highest estimated action.
@@ -2426,6 +2606,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 091 — Multimodal Alignment
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 Policy gradients let consequences reshape action probabilities. The field system's words, images, and actions still live in separate representational worlds unless paired observations can teach them to meet.
 
 Night gathers around the Road of Consequences. Under the light of the map of branching journeys, the expedition leader refuses to invent prematurely and begins with the plain rule: compare raw pixels directly with token IDs.
@@ -2473,6 +2657,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 092 — Contrastive Learning
+
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
 
 Multimodal alignment places an image near its matching caption. Pulling pairs together alone permits every pair to collapse to the same point; meaning appears only when the correct match wins against plausible alternatives.
 
@@ -2547,6 +2735,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 093 — Speech and Audio
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 Contrastive learning creates that relative competition. Sound introduces another modality whose pressure waveform is long, continuous, and shifted in time even when a listener hears the same event.
 
 A new case arrives at the Road of Consequences, but the expedition leader first reaches for the familiar map of branching journeys. Its promise is simple: treat every raw sample as an independent token.
@@ -2594,6 +2786,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 094 — Low-Rank Adaptation
+
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
 
 Audio models extend the assistant's senses and enlarge the already expensive system. Adapting the whole model for each ranger station, language, or task would duplicate billions of parameters.
 
@@ -2668,6 +2864,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 095 — Quantization
+
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
 
 Low-rank adaptation learns a small correction while preserving the base model. The unchanged base weights still consume memory and arithmetic every time the adapted model answers.
 
@@ -2746,6 +2946,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 096 — Distributed Training
 
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 Quantization reduces the precision and footprint of those weights. Training the largest systems still exceeds the memory and computation of one machine, forcing the work and state to be divided.
 
 At the Road of Consequences, the expedition leader returns to the map of branching journeys. Yesterday's instrument still lies open, so the first move asks for no new magic: let many machines train independent copies and combine them occasionally.
@@ -2790,6 +2994,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 097 — Inference Serving
+
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
 
 Distributed training lets many machines construct one model. Deployment reverses the pressure: thousands of users now expect that model to answer with low latency, bounded cost, and consistent state.
 
@@ -2836,6 +3044,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 098 — Red Teaming
+
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
 
 Inference serving turns a trained artifact into a live service. Ordinary validation rarely includes adversarial prompts, unusual tool sequences, resource exhaustion, or users deliberately searching for failure.
 
@@ -2885,6 +3097,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 099 — Governance — Who Decides and Who Is Accountable?
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 Red teaming discovers failures before ordinary traffic does. Deciding which risks are acceptable, who may approve deployment, and who is accountable cannot be delegated to the model being evaluated.
 
 Night gathers around the Road of Consequences. Under the light of the map of branching journeys, the expedition leader refuses to invent prematurely and begins with the plain rule: let builders decide every acceptable use because they understand the system.
@@ -2930,6 +3146,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 100 — The Complete AI System — From Observation to Responsible Action
+
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
 
 Governance assigns legitimate decisions and responsibility around the technology. We can finally assemble data, models, tools, evaluation, operations, and authority into one complete AI system rather than treating the model as the whole product.
 

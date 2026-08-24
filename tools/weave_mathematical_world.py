@@ -12,6 +12,7 @@ from pathlib import Path
 import argparse
 import re
 import subprocess
+import sys
 
 from deepen_chapter_prose import OPENINGS, PRESSURE, REPAIRS, compact, title_parts
 
@@ -603,6 +604,9 @@ def main() -> None:
             path.write_text(source)
         changed += weave(path)
     print(f"Wove mathematical world, visual journey, and returning motifs into {changed} chapters.")
+    atlas_builder = ROOT / "tools" / "build_mathematics_atlas.py"
+    if atlas_builder.exists():
+        subprocess.run([sys.executable, str(atlas_builder)], cwd=ROOT, check=True)
 
 
 if __name__ == "__main__":

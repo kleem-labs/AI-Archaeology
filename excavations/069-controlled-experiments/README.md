@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 Drift detection says that the input or outcome distribution moved. It does not say whether a new model, a holiday, a policy change, or chance caused the observed performance difference.
 
 A new case arrives at the Living Watchgarden, but the field naturalist first reaches for the familiar weathered observation slate. Its promise is simple: compare this week with last week.

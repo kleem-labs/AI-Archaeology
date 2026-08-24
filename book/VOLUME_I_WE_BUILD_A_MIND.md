@@ -77,6 +77,10 @@ The equation, when one finally appears, will be the last step: a compressed reco
 
 We have more observations than memory can hold, and more questions than a name can answer. We need to decide which properties of an experience deserve to be kept.
 
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Foundations and representation
+
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/000-before-mathematics-existed/README.md).*
 
 ---
@@ -133,6 +137,10 @@ We have turned an animal into an organized set of comparable measurements. No fo
 Features do not arrive objectively. Kilograms can overwhelm a binary stripe value simply because the numeric scales differ. A useful representation may omit an important clue or preserve a misleading one. Mathematics can only operate on what we decide to record.
 
 With thousands of animals and many features, separate facts become difficult to store and manipulate. We need one object that keeps their meaning through an agreed order.
+
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Foundations and representation
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/001-why-features-exist/README.md).*
 
@@ -224,6 +232,10 @@ $$
 $$
 
 A thousand feature differences still give a thousand answers. To say which animal is closest, we need those differences to become one number.
+
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Foundations and representation
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/002-vectors/README.md).*
 
@@ -335,6 +347,10 @@ Distance also answers **similarity**, not every kind of relationship. That disti
 
 So far a vector has described where an object is in feature space. But an arrow can also describe how something changes. That second meaning will lead us toward transformations.
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Foundations and representation
+
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/003-distance/README.md).*
 
 ---
@@ -413,6 +429,10 @@ Distance says how much separation exists but discards direction. Many destinatio
 This distinction matters in learning. A model's current parameters are a state. Training must say which weights to increase, which to decrease, and by how much. That instruction is a vector of change.
 
 One fixed change is useful. We now want a machine that receives any vector and produces an appropriate new vector consistently.
+
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Foundations and representation
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/004-vectors-as-change/README.md).*
 
@@ -505,6 +525,10 @@ A neural network layer repeatedly does this: receive one representation, mix its
 
 We can transform measurable properties. Language gives us a harder object: a word whose meaning is not available from any physical measuring instrument.
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Foundations and representation
+
 #### The first constellation
 
 The valley began with unnamed observations. A feature kept one distinction; a vector kept several; distance turned disagreement into separation; a matrix turned several judgments into one reusable machine. None was a separate school subject. Each was the shape left behind when the earlier tool broke.
@@ -586,6 +610,10 @@ The words are identical; the relationships differ. Order and wider context must 
 Meaning is therefore not a secret definition stored inside a word. It emerges from a network of usage, order, and relationships. Text alone reveals linguistic structure; grounding it fully in lived reality is a deeper problem we should not pretend has vanished.
 
 We need a geometry that can move symbols toward representations satisfying many contextual constraints at once.
+
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Foundations and representation
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/006-meaning/README.md).*
 
@@ -809,6 +837,10 @@ At this stage we deliberately avoid the famous attention equation. We have not e
 
 The relevance scores may be negative, huge, or expressed on unstable scales. Before they can mix information, they must become usable weights.
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Foundations and representation
+
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/008-attention/README.md).*
 
 ---
@@ -888,6 +920,10 @@ $$
 We now know **who matters**, but weights are not knowledge. If a historian receives weight `0.90`, what does the historian actually say? That distinction leads to values.
 
 We must derive both the relevance scores and the information being mixed. Those are different jobs.
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Foundations and representation
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/009-softmax/README.md).*
 
@@ -983,6 +1019,10 @@ $$
 
 One relevance system can pursue one mixture of relationships. Language needs several kinds of relevance at the same time.
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Foundations and representation
+
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/010-query-key-value/README.md).*
 
 ---
@@ -1059,6 +1099,10 @@ $$
 
 The experts have exchanged information. Each token must now transform what it received into new internal knowledge.
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Foundations and representation
+
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/011-multi-head-attention/README.md).*
 
 ---
@@ -1129,6 +1173,10 @@ $$
 
 If every workshop completely replaces its input, useful information can be damaged as it passes through many layers. We need a safer way to build depth.
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Foundations and representation
+
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/012-feed-forward-networks/README.md).*
 
 ---
@@ -1189,6 +1237,10 @@ $$
 $$
 
 Repeated transformations and additions can make some representations numerically huge and others tiny. The next block needs a more stable working scale.
+
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Foundations and representation
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/013-residual-connections/README.md).*
 
@@ -1262,6 +1314,10 @@ $$
 $$
 
 We now have the parts of a Transformer, but every matrix begins random. Architecture provides a brain-shaped machine, not knowledge.
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Foundations and representation
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/014-layer-normalization/README.md).*
 
@@ -1349,6 +1405,10 @@ Repeated over enormous amounts of text, small corrections reshape the entire web
 
 Why should next-token prediction produce grammar, facts, abstraction, or reasoning at all? The answer lies behind the visible words.
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Foundations and representation
+
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/015-learning/README.md).*
 
 ---
@@ -1429,6 +1489,10 @@ No equation began the journey. Each one appeared only after a problem made it ne
 
 The reconstruction leaves one danger unresolved. A rustle, a footprint, or a sentence can support several hidden stories at once. If the model chooses one and calls it certain, inference becomes guessing with confidence. The next excavation must let several possibilities remain alive and give each only the share of belief the evidence has earned.
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Foundations and representation
+
 #### When measurements learned to listen
 
 The instruments of Part I have changed character. Vectors no longer describe only bodies; they hold fragments of meaning. A dot product is no longer only geometry; it becomes relevance. Weighted sums become attention, and layered corrections become a Transformer. The old mathematics did not disappear. It learned a new song.
@@ -1450,6 +1514,10 @@ The Transformer can construct a useful interpretation, but it cannot honestly pr
 ---
 
 ### Excavation 017 — Probability — Counting What We Do Not Know
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 The Transformer has begun to infer hidden causes from the footprints of language. But inference without certainty is dangerous: the same rustle may have been made by a tiger, a deer, or only the wind.
 
@@ -1526,6 +1594,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 018 — Likelihood — Which Hidden Story Produced This Evidence?
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 Probability lets the trackers preserve several possible outcomes instead of pretending to know. Now they face the reverse problem: one footprint has arrived, and several hidden animals could have produced it.
 
 The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: ask which story is generally more believable.
@@ -1595,6 +1667,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 019 — Information — Why Surprise Needs a Number
+
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 Likelihood ranks hidden stories against the evidence in front of us. Yet two clues can favor the same story by very different amounts, and the trackers need to know how much each clue actually taught them.
 
@@ -1668,6 +1744,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 020 — Entropy — Measuring the Uncertainty of a Whole Situation
+
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 Information gives one surprising observation a numerical weight. Before opening the next envelope, however, the community needs to compare the uncertainty of entire situations, not only the surprise of one event after it happens.
 
@@ -1743,6 +1823,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 021 — Cross-Entropy — Paying for Confidently Wrong Predictions
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 Entropy measures how uncertain reality itself is. A learning machine introduces a second distribution—its own proposed beliefs—and can be far more certain than the evidence deserves.
 
 A new case arrives at the Lantern Observatory, but the keeper of uncertain stories first reaches for the familiar ring of glass lanterns. Its promise is simple: use zero for correct and one for wrong.
@@ -1815,6 +1899,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 022 — Derivatives — Asking One Weight What It Changed
+
+> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 Cross-entropy turns the model's misplaced confidence into one loss. One number can announce that the whole machine is wrong, but it cannot yet tell any particular weight whether moving up or down would help.
 
@@ -1895,6 +1983,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 023 — The Chain Rule — Following One Change Through Many Machines
 
+> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 A derivative can question one weight when its effect on loss is direct. Inside the network, that weight first changes a hidden signal, then a score, then a probability, and only then the loss.
 
 Nothing in the Lantern Observatory yet bears today's mathematical name. There is only the keeper of uncertain stories, the ring of glass lanterns, and one plausible action: measure only the first effect or only the final effect.
@@ -1969,6 +2061,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 024 — Backpropagation — Reusing Blame Instead of Recomputing It
 
+> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Graphs & Relational Structures](../MATHEMATICS_ATLAS.md#graphs) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 The chain rule follows responsibility through one sequence of machines. A real network is a branching graph with shared intermediate results, so tracing every route independently repeats the same downstream work.
 
 At the Lantern Observatory, the keeper of uncertain stories returns to the ring of glass lanterns. Yesterday's instrument still lies open, so the first move asks for no new magic: perturb each weight and rerun the model.
@@ -2041,6 +2137,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 025 — Gradient Descent — Teaching a Tiny Network
+
+> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 Backpropagation can now return one local sensitivity to every adjustable weight. Sensitivity is advice, not learning: the network still needs a rule that turns millions of local directions into a new parameter state.
 
@@ -2123,6 +2223,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 026 — Mini-Batches — Learning from More Than One Example
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 Gradient descent can update the network after one example. One muddy footprint can now steer every weight, and the next unusual footprint can pull the whole machine back again.
 
 The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: use one example per update.
@@ -2193,6 +2297,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 027 — Learning Rate — How Large Should the Next Step Be?
 
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 A mini-batch replaces one noisy witness with the average advice of a small council. The council can point downhill, but its vote still says nothing about how far the network should move.
 
 Night gathers around the Lantern Observatory. Under the light of the ring of glass lanterns, the keeper of uncertain stories refuses to invent prematurely and begins with the plain rule: always take a huge step: leap across the valley and oscillate.
@@ -2261,6 +2369,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 028 — Momentum — Remembering Which Way Downhill Persists
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 The learning rate controls the size of each step. Mini-batches nevertheless disagree sideways from one update to the next, hiding the direction that persists across their noise.
 
@@ -2340,6 +2452,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 029 — Initialization — Where Should Learning Begin?
 
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 Momentum remembers persistent direction and damps contradictory wobble. Before any of these learning rules can act, though, every weight needs a starting value that allows different neurons to learn different things without exploding or falling silent.
 
 A new case arrives at the Lantern Observatory, but the keeper of uncertain stories first reaches for the familiar ring of glass lanterns. Its promise is simple: set every weight to zero.
@@ -2412,6 +2528,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 030 — Activation Functions — Why a Network Must Bend
 
+> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 Careful initialization keeps early signals alive and breaks symmetry. But a tower made only from linear transformations still collapses algebraically into one linear transformation, no matter how many layers we stack.
 
 The doors of the Lantern Observatory close against the wind. On the ring of glass lanterns, the keeper of uncertain stories writes the cheapest rule that might still be true: add more linear layers.
@@ -2478,6 +2598,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 031 — Overfitting — When Perfect Memory Pretends to Be Intelligence
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 Activation gates let the network bend and build conditional internal paths. That flexibility also makes a new deception possible: the machine can reproduce every training example without learning what should survive beyond them.
 
@@ -2546,6 +2670,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 032 — Regularization — Making Memorization More Expensive
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 Overfitting reveals that low training error can be perfect memory wearing the costume of intelligence. The learner therefore needs pressure against fragile, unnecessarily extreme explanations.
 
@@ -2616,6 +2744,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 033 — Validation — Testing Without Peeking at the Final Exam
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 Regularization changes which fitted explanation the learner prefers. Choosing its strength by repeatedly checking the final exam would quietly turn that exam into more training data.
 
 Morning reaches the Lantern Observatory before anyone has a name for today's difficulty. Beside the ring of glass lanterns, the keeper of uncertain stories tries the smallest continuation of what already works: use training loss for every choice; it rewards memorization.
@@ -2681,6 +2813,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 034 — Generalization — What Should Survive Beyond the Dataset?
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 Validation lets us choose among models without opening the sealed test set. Even an honest test can come from yesterday's hospital, dialect, season, or camera while tomorrow arrives from somewhere else.
 
@@ -2755,6 +2891,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 035 — A Tiny Neural Network — Assemble the Entire Learning Loop
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Learning from uncertainty and error
 
 Generalization is the property we actually wanted: useful structure that survives new cases. We have derived its pieces separately; now they must become one visible machine whose prediction, loss, blame, and update form a complete loop.
 
@@ -2842,6 +2982,10 @@ The learner can change its weights when examples are already numerical. Real lan
 
 ### Excavation 036 — Tokenization: What Can a Language Model See?
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Language models and useful answers
+
 The tiny neural network now learns from numbered examples. People do not speak in fixed numerical columns; they produce an open stream of words, punctuation, names, code, and writing systems.
 
 Inside the Clockwork Scriptorium, every old tool is given one honest chance. The mechanist sets the sentence-wheel between the evidence and the desired answer, then tries to give every complete word one ID.
@@ -2924,6 +3068,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 037 — Input Embeddings: Giving Tokens Learnable Coordinates
+
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Language models and useful answers
 
 Tokenization gives the machine repeatable pieces and assigns each piece an address. An address distinguishes tokens but says nothing about how their meanings should begin.
 
@@ -3027,6 +3175,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 038 — Position — Why Order Must Enter the Model
 
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Language models and useful answers
+
 An embedding table gives every token a learned starting description. The sentences “dog bites man” and “man bites dog” still contain the same three descriptions, so the machine cannot tell who did what.
 
 The doors of the Clockwork Scriptorium close against the wind. On the sentence-wheel, the mechanist writes the cheapest rule that might still be true: sort tokens by ID or trust their array slot without exposing it to the model.
@@ -3097,6 +3249,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 039 — Causal Masking — Preventing the Future from Leaking Backward
+
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Language models and useful answers
 
 Position marks make order visible. During next-token training, however, the correct answer is sitting to the right inside the same sentence, where an unrestricted attention mechanism can simply look at it.
 
@@ -3173,6 +3329,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 040 — Next-Token Examples — One Sentence Becomes Many Lessons
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Language models and useful answers
+
 Causal masking prevents the learner from reading future answers. The model still needs to turn one sentence into all the honest prediction questions hidden inside it.
 
 At the Clockwork Scriptorium, the mechanist returns to the sentence-wheel. Yesterday's instrument still lies open, so the first move asks for no new magic: treat an entire sentence as one training example with one answer.
@@ -3247,6 +3407,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 041 — Logits — Let Every Vocabulary Token Compete
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Language models and useful answers
+
 Shifted inputs and targets create one lesson at every position. The Transformer answers each lesson with a contextual vector, but a vector is not yet a competition among words such as tiger, river, or sleeps.
 
 Morning reaches the Clockwork Scriptorium before anyone has a name for today's difficulty. Beside the sentence-wheel, the mechanist tries the smallest continuation of what already works: choose the nearest input embedding directly.
@@ -3316,6 +3480,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 042 — Vocabulary Probabilities — Turning Scores into a Prediction
+
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Language models and useful answers
 
 The output head lets every vocabulary token present a raw compatibility score. Those logits may be negative, enormous, or shifted together; neither the reader nor the loss can treat them as comparable beliefs yet.
 
@@ -3392,6 +3560,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 043 — Sampling — Choosing Without Always Taking the Maximum
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Language models and useful answers
+
 Softmax turns vocabulary scores into a distribution. Generation now faces a choice that training did not settle: should the machine always take the winner or sometimes follow another plausible continuation?
 
 Night gathers around the Clockwork Scriptorium. Under the light of the sentence-wheel, the mechanist refuses to invent prematurely and begins with the plain rule: always use argmax.
@@ -3463,6 +3635,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 044 — Context Windows — How Much Past Can the Model Carry?
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Language models and useful answers
+
 Sampling allows several plausible futures instead of one repetitive path. Every chosen token is appended to the past, so the amount of history available to attention grows until computation or memory reaches a boundary.
 
 Inside the Clockwork Scriptorium, every old tool is given one honest chance. The mechanist sets the sentence-wheel between the evidence and the desired answer, then tries to attend to the entire history forever.
@@ -3532,6 +3708,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 045 — A Tiny GPT — Close the Prediction Loop
+
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Language models and useful answers
 
 A context window bounds how much past the model can carry. We have now earned every part of a tiny GPT; the remaining question is whether those parts actually cooperate in one prediction-and-generation loop.
 

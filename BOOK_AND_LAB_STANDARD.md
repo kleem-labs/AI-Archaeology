@@ -20,6 +20,9 @@ Every finished chapter must contain:
    [Mathematical Moves](MATHEMATICAL_MOVES.md).
 9. A limitation that creates the next excavation.
 10. Direct links to code, lab, mistakes, exercises, and references.
+11. A compact mathematical-lineage label linking the excavation to every
+    genuinely relevant family in the Mathematics Atlas. Labels describe real
+    dependencies; they are not added merely to fill three positions.
 
 ## Narrative gate
 

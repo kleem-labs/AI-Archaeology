@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Learning from uncertainty and error
+
 > **PART III — LEARNING FROM ERROR**
 >
 > The machine can move information. It still cannot admit uncertainty, measure a mistake, or use that mistake to change itself.

@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 Attribution assigns influence to inputs or internal components. The investigation soon finds that one neuron can participate in many features and one feature can be distributed across many neurons.
 
 The weathered observation slate at the Living Watchgarden still carries the marks of the previous discovery. The field naturalist follows them as far as they seem willing to go: demand one feature per coordinate.

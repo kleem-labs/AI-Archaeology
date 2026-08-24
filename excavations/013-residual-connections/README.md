@@ -65,3 +65,8 @@ Repeated transformations and additions can make some representations numerically
 
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
+
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Foundations and representation

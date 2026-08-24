@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Language models and useful answers
+
 Scaling laws reveal regular trends as resources grow. A larger next-token predictor is still a predictor; nothing in scale alone tells it that a user's instruction should govern the continuation.
 
 Inside the Hall of Voices, every old tool is given one honest chance. The public archivist sets the listening table between the evidence and the desired answer, then tries to prompt more forcefully and hope next-token prediction infers the desired interaction.

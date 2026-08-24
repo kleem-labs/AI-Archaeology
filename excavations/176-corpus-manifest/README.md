@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 > **PART XIII — A PRETRAINING FACTORY WE CAN ACCOUNT FOR**
 >
 > The engine can run. Now every document, update, shard, interruption, and release claim must leave enough evidence to reconstruct the same experiment.

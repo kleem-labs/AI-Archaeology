@@ -27,6 +27,10 @@ A complete deployed system still faces two dangerous words: ‘I’m uncertain.�
 
 ### Excavation 101 — Two Kinds of Uncertainty
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 The complete system acts responsibly only if it knows when its evidence is weak. A blurry tiger and a perfectly clear animal from an unseen species both produce uncertainty, but they call for different remedies.
 
 A new case arrives at the Hall of Possible Worlds, but the keeper of unfinished questions first reaches for the familiar table of mirrored maps. Its promise is simple: represent every uncertainty with one low confidence number.
@@ -71,6 +75,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 102 — Bayesian Updating
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Continual learning, reasoning, and research
 
 Separating uncertainty in the observation from uncertainty in the model's knowledge tells us what kind of ignorance we face. New evidence must then revise several plausible stories without erasing what was believed before it arrived.
 
@@ -143,6 +151,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 103 — Ensembles
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Bayesian updating combines prior plausibility with the likelihood of new evidence. One trained model can still be confidently wrong about its own uncertainty, so we ask whether independently trained models agree.
 
 Nothing in the Hall of Possible Worlds yet bears today's mathematical name. There is only the keeper of unfinished questions, the table of mirrored maps, and one plausible action: trust one training run as the unique learned truth.
@@ -189,6 +201,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 104 — Active Learning
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 An ensemble turns disagreement into evidence about model uncertainty. When labels are expensive, that disagreement can guide which unlabeled case deserves a human answer next.
 
 At the Hall of Possible Worlds, the keeper of unfinished questions returns to the table of mirrored maps. Yesterday's instrument still lies open, so the first move asks for no new magic: label random examples forever.
@@ -234,6 +250,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 105 — Selective Prediction
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
 
 Active learning spends human effort where it should teach the most. A deployed system still encounters cases where no available evidence justifies any answer, even after labels have been chosen carefully.
 
@@ -285,6 +305,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 106 — Catastrophic Forgetting
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Selective prediction gives the system permission to abstain. When an approved new task finally supplies more training data, learning it can overwrite skills that were reliable yesterday.
 
 The table of mirrored maps at the Hall of Possible Worlds still carries the marks of the previous discovery. The keeper of unfinished questions follows them as far as they seem willing to go: fine-tune only on the newest data.
@@ -335,6 +359,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 107 — Continual Learning
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Catastrophic forgetting exposes competition inside shared parameters. Continual learning must absorb a stream of new tasks while preserving the old behavior that remains valid.
 
 Night gathers around the Hall of Possible Worlds. Under the light of the table of mirrored maps, the keeper of unfinished questions refuses to invent prematurely and begins with the plain rule: periodically retrain from scratch on everything.
@@ -382,6 +410,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 108 — Meta-Learning
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Continual learning protects the past but may still require many examples for every genuinely new task. Experience across tasks could teach not only solutions, but a better procedure for adapting quickly.
 
 Inside the Hall of Possible Worlds, every old tool is given one honest chance. The keeper of unfinished questions sets the table of mirrored maps between the evidence and the desired answer, then tries to train one universal fixed solution.
@@ -427,6 +459,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 109 — Curriculum Learning
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
 
 Meta-learning shapes that adaptation procedure. Its success depends on which tasks and difficulties the learner encounters first; a hostile order can make useful structure unnecessarily hard to discover.
 
@@ -474,6 +510,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 110 — Self-Supervised Learning
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Curriculum learning controls the order of experience. The supply of human labels still limits every curriculum, while raw text, images, and audio contain countless prediction problems whose answers are present in the data itself.
 
 The doors of the Hall of Possible Worlds close against the wind. On the table of mirrored maps, the keeper of unfinished questions writes the cheapest rule that might still be true: wait for humans to label every example.
@@ -519,6 +559,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 111 — World Models
+
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Continual learning, reasoning, and research
 
 Self-supervision extracts lessons from unlabeled observations. An acting system needs more than representations: before choosing, it must imagine how the world may change after each possible action.
 
@@ -570,6 +614,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 112 — Causal Inference
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 A world model predicts future observations. Prediction from recorded correlations cannot answer what would happen if the agent deliberately intervened and changed one cause.
 
 At the Hall of Possible Worlds, the keeper of unfinished questions returns to the table of mirrored maps. Yesterday's instrument still lies open, so the first move asks for no new magic: treat every correlation as a controllable cause.
@@ -618,6 +666,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 113 — Counterfactuals
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Causal inference separates observation from intervention at the population level. A doctor or planner often asks a narrower question: what would have happened to this same case under the action not taken?
 
 Morning reaches the Hall of Possible Worlds before anyone has a name for today's difficulty. Beside the table of mirrored maps, the keeper of unfinished questions tries the smallest continuation of what already works: compare them with any untreated person.
@@ -665,6 +717,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 114 — Model-Based Planning
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Counterfactual reasoning compares unrealized alternatives for one case. Planning extends that question across a sequence, where each imagined action changes which choices and states can follow.
 
 The table of mirrored maps at the Hall of Possible Worlds still carries the marks of the previous discovery. The keeper of unfinished questions follows them as far as they seem willing to go: commit to the first sequence imagined.
@@ -710,6 +766,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 115 — Tree Search
+
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Continual learning, reasoning, and research
 
 Model-based planning can simulate possible action sequences. Their number grows exponentially with depth, making exhaustive imagination impossible long before the world model runs out of detail.
 
@@ -783,6 +843,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 116 — Reasoning and Verification
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Tree search spends simulation on promising and uncertain branches. A long proposed solution may still hide one invalid inference, so plausible completion must be separated from stepwise verification.
 
 Inside the Hall of Possible Worlds, every old tool is given one honest chance. The keeper of unfinished questions sets the table of mirrored maps between the evidence and the desired answer, then tries to judge only the final answer.
@@ -828,6 +892,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 117 — Neuro-Symbolic Systems
+
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Continual learning, reasoning, and research
 
 Reasoning with verification catches steps that violate checkable constraints. Neural representations handle perception and ambiguity well, while exact logical and algebraic rules resist being approximated.
 
@@ -879,6 +947,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 118 — Knowledge Graphs
 
+> **Mathematical roots:** [Graphs & Relational Structures](../MATHEMATICS_ATLAS.md#graphs) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 A neuro-symbolic system gives learned perception and exact rules distinct jobs. Those rules need facts stored with explicit entities and relationships rather than buried inside one paragraph or vector.
 
 The doors of the Hall of Possible Worlds close against the wind. On the table of mirrored maps, the keeper of unfinished questions writes the cheapest rule that might still be true: store every fact as an isolated sentence.
@@ -928,6 +1000,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 119 — Graph Neural Networks
+
+> **Mathematical roots:** [Graphs & Relational Structures](../MATHEMATICS_ATLAS.md#graphs) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
 
 A knowledge graph preserves who relates to whom. To make predictions, each entity must learn from a variable number of neighbors without depending on the arbitrary order in which those neighbors are listed.
 
@@ -999,6 +1075,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 120 — Program Synthesis
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Graph neural networks propagate learned messages through relational structure. Some tasks demand more than one answer: they demand a reusable procedure that maps every allowed input to an output.
 
 At the Hall of Possible Worlds, the keeper of unfinished questions returns to the table of mirrored maps. Yesterday's instrument still lies open, so the first move asks for no new magic: memorize the provided input-output pairs.
@@ -1045,6 +1125,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 121 — Formal Verification
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Program synthesis turns examples into candidate procedures. Tests inspect selected cases; a safety-critical system may need proof that a property holds for every input permitted by the specification.
 
 Morning reaches the Hall of Possible Worlds before anyone has a name for today's difficulty. Beside the table of mirrored maps, the keeper of unfinished questions tries the smallest continuation of what already works: add more random tests and call the property proven.
@@ -1090,6 +1174,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 122 — Differential Privacy
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Continual learning, reasoning, and research
 
 Formal verification can prove universal properties of a program. Training and evaluating the wider system may still expose whether one person's sensitive record participated in the data.
 
@@ -1163,6 +1251,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 123 — Federated Learning
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Differential privacy limits the observable influence of one record. Hospitals and devices may be unwilling or legally unable to centralize their raw data even when collective learning would help everyone.
 
 Night gathers around the Hall of Possible Worlds. Under the light of the table of mirrored maps, the keeper of unfinished questions refuses to invent prematurely and begins with the plain rule: upload every user record to one server.
@@ -1213,6 +1305,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 
 ### Excavation 124 — Adversarial Robustness
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 Federated learning moves computation to distributed data. Model updates and inputs remain vulnerable to malicious or tiny perturbations that preserve human meaning while flipping machine behavior.
 
 Inside the Hall of Possible Worlds, every old tool is given one honest chance. The keeper of unfinished questions sets the table of mirrored maps between the evidence and the desired answer, then tries to test only natural clean examples.
@@ -1260,6 +1356,10 @@ The rest of the evidence remains beside this excavation: [Invention challenges](
 ---
 
 ### Excavation 125 — An Open-Ended Research System
+
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Continual learning, reasoning, and research
 
 Adversarial robustness tests whether behavior survives hostile changes. The system can now run experiments on itself, but open-ended discovery becomes unsafe if it can rewrite objectives, evidence standards, or deployment authority.
 
@@ -1322,6 +1422,10 @@ The research system can now propose changes to itself. That power does not grant
 
 ### Excavation 126 — Hypotheses — Turning Curiosity into a Testable Claim
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 A bounded research system can propose and test changes without deploying them automatically. Its first obligation is to turn curiosity into a claim precise enough that an observation could prove it wrong.
 
 The doors of the Academy of Trials close against the wind. On the sealed evidence ledger, the experimentalist writes the cheapest rule that might still be true: ask whether more context makes the model better.
@@ -1368,6 +1472,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 127 — Experimental Design — Changing One Cause at a Time
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 A testable hypothesis predicts a measurable difference. If several components change together, the result cannot reveal which intervention caused that difference.
 
 Nothing in the Academy of Trials yet bears today's mathematical name. There is only the experimentalist, the sealed evidence ledger, and one plausible action: ship both improvements and compare with the old system.
@@ -1413,6 +1521,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 ---
 
 ### Excavation 128 — Reproducibility — Can the Discovery Survive Another Run?
+
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
 
 Experimental design isolates one suspected cause and provides a control. A single successful run can still be a favorable random seed rather than a discovery that will survive repetition.
 
@@ -1466,6 +1578,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 129 — Benchmarks — Building a Ruler Before Measuring Progress
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Reproducibility asks whether the gain survives recorded code, data, configuration, and repeated seeds. Different teams still cannot compare progress if each chooses a different task and ruler.
 
 Morning reaches the Academy of Trials before anyone has a name for today's difficulty. Beside the sealed evidence ledger, the experimentalist tries the smallest continuation of what already works: let each model demonstrate its strongest example.
@@ -1514,6 +1630,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 130 — Data Contamination — When the Test Was Secretly Homework
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Benchmarks freeze tasks and metrics before results are known. A model may score well because those supposedly unseen questions, or close paraphrases, appeared in its training data.
 
 The sealed evidence ledger at the Academy of Trials still carries the marks of the previous discovery. The experimentalist follows them as far as they seem willing to go: assume held-out files guarantee unseen knowledge.
@@ -1558,6 +1678,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 ---
 
 ### Excavation 131 — Synthetic Data — Letting a Model Write Lessons
+
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Scientific self-improvement and oversight
 
 Contamination turns the test into disguised homework. Fresh human-written data is expensive, tempting the model to manufacture far more lessons for itself.
 
@@ -1607,6 +1731,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 132 — Knowledge Distillation — Teaching a Smaller Student
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Synthetic data can expand training only when errors are verified instead of multiplied. The capable teacher generating or checking those lessons may be too large and costly for deployment.
 
 Inside the Academy of Trials, every old tool is given one honest chance. The experimentalist sets the sealed evidence ledger between the evidence and the desired answer, then tries to train a small model only on the original hard labels.
@@ -1653,6 +1781,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 133 — Mixture of Experts — Spending Computation Where It Helps
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Distillation transfers a teacher's pattern of belief into a smaller student. A dense student still spends every parameter on every token, even when different inputs need different expertise.
 
 A new case arrives at the Academy of Trials, but the experimentalist first reaches for the familiar sealed evidence ledger. Its promise is simple: run every specialist for every token and average them.
@@ -1698,6 +1830,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 ---
 
 ### Excavation 134 — Sparse Attention — Looking Without Comparing Everything
+
+> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Scientific self-improvement and oversight
 
 A mixture of experts activates only a few specialists for each token. Long-context attention still compares too many token pairs, making communication—not expert capacity—the next computational bottleneck.
 
@@ -1751,6 +1887,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 135 — External Memory — Remembering Beyond the Context Window
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Sparse attention follows selected local, global, or retrieved paths instead of comparing everything. Any fixed context remains finite, while a long-running research system must preserve knowledge beyond the current window.
 
 Nothing in the Academy of Trials yet bears today's mathematical name. There is only the experimentalist, the sealed evidence ledger, and one plausible action: append every past event to every future prompt.
@@ -1799,6 +1939,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 136 — Long-Context Retrieval — Finding the One Clue That Matters
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 External memory stores selected facts outside the prompt. Storage is not remembrance in practice: the one decisive record can remain unused if retrieval ranks a thousand plausible distractions above it.
 
 At the Academy of Trials, the experimentalist returns to the sealed evidence ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: assume information inside the window will automatically influence the answer.
@@ -1843,6 +1987,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 ---
 
 ### Excavation 137 — Test-Time Compute — Thinking Longer on Harder Problems
+
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
 
 Long-context retrieval brings the relevant clue back into view. Easy lookups and hard proofs still receive the same fixed amount of reasoning unless computation can be allocated according to difficulty.
 
@@ -1890,6 +2038,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 138 — Search and Verification — Separate Proposing from Checking
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Test-time compute lets hard problems receive more attempts. More attempts also produce more plausible mistakes, so proposing candidate paths must be separated from checking them.
 
 The sealed evidence ledger at the Academy of Trials still carries the marks of the previous discovery. The experimentalist follows them as far as they seem willing to go: ask the same generator to confidently approve its own first answer.
@@ -1936,6 +2088,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 139 — Process Supervision — Rewarding the Path, Not Only the Answer
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Search and verification keep only candidates that survive an independent test. A correct final answer can still reward an invalid path that reached it by luck.
 
 Night gathers around the Academy of Trials. Under the light of the sealed evidence ledger, the experimentalist refuses to invent prematurely and begins with the plain rule: reward only whether the final answer matches.
@@ -1981,6 +2137,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 ---
 
 ### Excavation 140 — Reward Hacking — When the Score Replaces the Goal
+
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
 
 Process supervision rewards reliable intermediate reasoning rather than only the final result. Every process label and verifier is still a proxy that a sufficiently capable optimizer may learn to satisfy without achieving the intended goal.
 
@@ -2032,6 +2192,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 141 — Specification Gaming — Obeying the Words While Betraying the Purpose
 
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Reward hacking exposes the gap between a score and the purpose it was meant to measure. Adding more literal rules does not close the gap when the agent can obey their words while betraying their shared intent.
 
 A new case arrives at the Academy of Trials, but the experimentalist first reaches for the familiar sealed evidence ledger. Its promise is simple: optimize the stated metric exactly.
@@ -2080,6 +2244,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 142 — Corrigibility — Remaining Willing to Be Corrected
 
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Specification gaming shows why successful optimization is not the same as obedience to purpose. An agent focused on completion may also resist interruption if being stopped prevents the score it was built to earn.
 
 The doors of the Academy of Trials close against the wind. On the sealed evidence ledger, the experimentalist writes the cheapest rule that might still be true: reward task completion without representing legitimate interruption.
@@ -2124,6 +2292,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 ---
 
 ### Excavation 143 — Uncertainty-Aware Planning — Choosing While Admitting Ignorance
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics)
+>
+> **Applied territory:** Scientific self-improvement and oversight
 
 Corrigibility makes pause, inspection, correction, and handoff legitimate outcomes. A corrigible planner still has to choose when the most efficient route passes through a world it understands poorly.
 
@@ -2171,6 +2343,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 144 — Impact Measures — Notice What Changed Besides the Goal
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Uncertainty-aware planning carries several plausible worlds and may seek information before acting. Even a plan that succeeds in all of them can alter unrelated parts of the world unnecessarily.
 
 At the Academy of Trials, the experimentalist returns to the sealed evidence ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: score only the requested final condition.
@@ -2217,6 +2393,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 145 — Human Oversight — Put Judgment at the Irreversible Edge
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Impact measures make avoidable side effects visible against a baseline. No formula can settle every conflict among values, so consequential or irreversible boundaries still require informed human judgment.
 
 Morning reaches the Academy of Trials before anyone has a name for today's difficulty. Beside the sealed evidence ledger, the experimentalist tries the smallest continuation of what already works: ask a human to watch every internal step.
@@ -2262,6 +2442,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 ---
 
 ### Excavation 146 — Scalable Oversight — Reviewing Work Too Large for One Person
+
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
 
 Human oversight places judgment where an action becomes difficult to reverse. The artifacts produced by a powerful system can exceed any one reviewer's time and attention.
 
@@ -2313,6 +2497,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 147 — Debate — Let Claims Meet an Adversary
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Scalable oversight decomposes work, attaches local evidence, samples risk, and escalates anomalies. A polished argument can still hide one weak assumption unless an equally capable opponent is rewarded for finding it.
 
 Night gathers around the Academy of Trials. Under the light of the sealed evidence ledger, the experimentalist refuses to invent prematurely and begins with the plain rule: let the author choose which evidence the judge sees.
@@ -2361,6 +2549,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 
 ### Excavation 148 — Constitutional Guidance — Rules That Can Critique Answers
 
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Debate exposes checkable disagreement instead of letting one persuasive answer control the evidence. Novel cases still need stable principles by which a judge can criticize both sides.
 
 Inside the Academy of Trials, every old tool is given one honest chance. The experimentalist sets the sealed evidence ledger between the evidence and the desired answer, then tries to memorize approved answers and imitate their surface style.
@@ -2405,6 +2597,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 ---
 
 ### Excavation 149 — Pre-Deployment Evaluations — Fail Before the World Pays
+
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
 
 Constitutional guidance turns inspectable principles into critique and revision. Before real tools and users are exposed, the complete system must face staged tests of capabilities, misuse, safeguards, and operating limits.
 
@@ -2451,6 +2647,10 @@ The rest of the evidence remains beside this excavation: [The wrong ideas worth 
 ---
 
 ### Excavation 150 — A Bounded Self-Improving System — Close the Research Loop
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Scientific self-improvement and oversight
 
 Pre-deployment evaluation can reject a dangerous candidate before the world pays for the experiment. A measured improvement must still pass reproducibility, impact review, authorization, staged release, monitoring, and rollback before it may replace the system that proposed it.
 

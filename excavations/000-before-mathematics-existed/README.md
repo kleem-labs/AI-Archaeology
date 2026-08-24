@@ -62,3 +62,8 @@ We have more observations than memory can hold, and more questions than a name c
 
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
+
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Foundations and representation

@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 > **PART IX — ACTING AND SCALING**
 >
 > Correct answers disappear. The learner must act, wait for consequences, share machines, and remain accountable at scale.

@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Decision-making, scaling, and accountable systems
+
 Quantization reduces the precision and footprint of those weights. Training the largest systems still exceeds the memory and computation of one machine, forcing the work and state to be divided.
 
 At the Road of Consequences, the expedition leader returns to the map of branching journeys. Yesterday's instrument still lies open, so the first move asks for no new magic: let many machines train independent copies and combine them occasionally.

@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 > **PART XI — EARNING THE RIGHT TO IMPROVE**
 >
 > Discovery is no longer enough. Every proposed improvement must survive evidence, opposition, authority, and the possibility of reversal.

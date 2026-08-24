@@ -74,3 +74,8 @@ We need a geometry that can move symbols toward representations satisfying many 
 
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
+
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Foundations and representation

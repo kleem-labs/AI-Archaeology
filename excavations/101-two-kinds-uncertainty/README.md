@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Continual learning, reasoning, and research
+
 > **PART X — LEARNING WHAT WE STILL DO NOT KNOW**
 >
 > The complete system now meets the frontier: ignorance, changing tasks, causal questions, proofs, attacks, and open-ended research.

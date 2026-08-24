@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
+>
+> **Applied territory:** Vision and generative models
+
 Vision Transformers let distant patches attend to one another. Classification uses the representation once; reconstruction asks whether a smaller internal code can preserve enough of the image to rebuild it.
 
 Morning reaches the Glass Menagerie before anyone has a name for today's difficulty. Beside the wall of illuminated tiles, the maker of seeing-machines tries the smallest continuation of what already works: copy the input through an unrestricted hidden layer.

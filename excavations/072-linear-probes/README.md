@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 Internal-feature analysis asks what distinctions a hidden layer already makes. A simple probe may decode “tiger” from that layer, but decodability does not prove the original model uses that information.
 
 At the Living Watchgarden, the field naturalist returns to the weathered observation slate. Yesterday's instrument still lies open, so the first move asks for no new magic: train a powerful classifier on hidden states and call any success evidence.

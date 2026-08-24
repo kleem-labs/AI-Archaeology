@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 Linear probes reveal information available to a simple reader. To understand one prediction, we must trace which input evidence actually influenced the output rather than merely existing somewhere inside.
 
 Morning reaches the Living Watchgarden before anyone has a name for today's difficulty. Beside the weathered observation slate, the field naturalist tries the smallest continuation of what already works: remove each word and treat output change as complete explanation.

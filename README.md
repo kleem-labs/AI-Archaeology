@@ -32,6 +32,12 @@ multiplication, division, powers, roots, exponentials, logarithms, derivatives,
 expectations, and notation preserve; why a different move would answer a
 different question; and where each move is useful elsewhere.
 
+To study the same chapters by traditional mathematical family rather than by
+discovery order, use the [Mathematics Atlas](MATHEMATICS_ATLAS.md). It clusters
+every excavation under linear algebra, calculus, probability, information
+theory, optimization, discrete mathematics, graphs, numerical analysis,
+dynamical systems, causality, and mathematical measurement.
+
 ## The mathematics as one living mandala
 
 The [Mathematical Mandala](math-mandala/README.md) gathers every equation around

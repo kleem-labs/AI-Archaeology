@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Model systems and engine optimization
+
 > **PART XII — REBUILDING THE ENGINE WITHOUT BREAKING THE SYSTEM**
 >
 > The research loop is bounded. We may now improve the model—but every faster path must preserve a reference path and earn its evidence.

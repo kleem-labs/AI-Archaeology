@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Language models and useful answers
+
 > **PART V — MAKING ANSWERS USEFUL**
 >
 > A machine that speaks is not necessarily a machine that knows, helps, or deserves belief.

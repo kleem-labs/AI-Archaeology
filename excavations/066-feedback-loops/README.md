@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Learning in the world and interpretability
+
 > **PART VII — LEARNING AFTER DEPLOYMENT**
 >
 > The laboratory door opens onto a changing world. Now the system influences the very evidence from which it learns.

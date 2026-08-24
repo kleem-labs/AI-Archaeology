@@ -26,6 +26,10 @@ The model is modern but still empty of trustworthy experience. We follow one nam
 
 ### Excavation 176 — A Corpus Manifest — Know What Entered the Run
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 The modern tiny language-model engine preserves a reference path through training and serving. It still cannot explain which documents will shape its weights, because no corpus has been frozen as part of the experiment.
 
 At the Archive Foundry, the archivist-engineer returns to the chain-of-custody ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: copy every available text file into one large folder and begin tokenizing.
@@ -70,6 +74,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 177 — Document Boundaries — Keep One Story from Leaking into Another
+
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
 
 The manifest fixes which source documents belong to the run. Tokenization can still concatenate them into a stream where the ending of one document predicts the beginning of an unrelated one.
 
@@ -133,6 +141,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 178 — Language Identification — Do Not Confuse Familiar Script with Familiar Language
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 Document boundaries now preserve honest local context. The manifest still mixes languages, code, names, and corrupted text, so a declared English run cannot yet tell what language evidence it actually contains.
 
 The chain-of-custody ledger at the Archive Foundry still carries the marks of the previous discovery. The archivist-engineer follows them as far as they seem willing to go: keep documents containing mostly familiar Latin characters and discard the rest.
@@ -195,6 +207,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 179 — Exact Deduplication — Stop Paying Twice for the Same Document
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 Language labels make the intended corpus measurable. Counting the accepted files now reveals identical reports mirrored across archives and repeated under new filenames.
 
 Night gathers around the Archive Foundry. Under the light of the chain-of-custody ledger, the archivist-engineer refuses to invent prematurely and begins with the plain rule: leave duplicates in place because more training examples should always help.
@@ -256,6 +272,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 180 — Near Deduplication — When a Copy Changes a Few Words
+
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
 
 Exact deduplication removes byte-equivalent documents. The copied article with a new banner, reordered footer, or one edited sentence still survives as apparently new evidence.
 
@@ -325,6 +345,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 181 — Quality Filtering — Remove Noise Without Defining Humanity Away
 
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 Near-deduplication leaves a corpus with more distinct documents, not necessarily better ones. Some are navigation fragments, keyword piles, machine corruption, or adversarial spam.
 
 A new case arrives at the Archive Foundry, but the archivist-engineer first reaches for the familiar chain-of-custody ledger. Its promise is simple: keep only documents that resemble one prestigious encyclopedia.
@@ -373,6 +397,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 182 — Data Provenance — Keep the Path Back to Every Source
 
+> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 Quality filtering produces an accepted set and a rejected set. Without a trace through each transformation, neither set can explain how a source document reached its decision.
 
 The doors of the Archive Foundry close against the wind. On the chain-of-custody ledger, the archivist-engineer writes the cheapest rule that might still be true: save only the final cleaned text because intermediate metadata costs storage.
@@ -417,6 +445,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 183 — PII Redaction — Do Not Turn Accidental Secrets into Lessons
+
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Data and pretraining operations
 
 Provenance can locate every retained document. Inspection now finds phone numbers, email addresses, account identifiers, and private-looking text embedded in otherwise useful pages.
 
@@ -463,6 +495,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 184 — Data Mixtures — Decide Which Worlds Receive a Voice
+
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
 
 Redaction reduces one preventable privacy risk. The clean sources still differ enormously in size: web pages could drown out books, code, science, and the station's rare field reports.
 
@@ -528,6 +564,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 185 — Mixture Sampling — Turn Planned Shares into a Reproducible Stream
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Data and pretraining operations
+
 The mixture weights state which domains should be heard. They do not yet produce a finite ordered token stream that every resumed worker can reconstruct.
 
 Morning reaches the Archive Foundry before anyone has a name for today's difficulty. Beside the chain-of-custody ledger, the archivist-engineer tries the smallest continuation of what already works: round each domain's desired share independently and concatenate the resulting blocks.
@@ -591,6 +631,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 186 — The Token Budget — Convert a Training Plan into a Count of Lessons
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
+>
+> **Applied territory:** Data and pretraining operations
 
 Seeded mixture sampling can produce an ordered stream. The run still says “train for a while,” so neither cost nor source exposure is bounded.
 
@@ -660,6 +704,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 187 — Compute-Optimal Allocation — Buy a Larger Memory or More Experience?
 
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
+>
+> **Applied territory:** Data and pretraining operations
+
 The token budget fixes how much evidence the model will see. A fixed compute allowance still permits a wider model trained on fewer tokens or a smaller model trained on more.
 
 Night gathers around the Archive Foundry. Under the light of the chain-of-custody ledger, the archivist-engineer refuses to invent prematurely and begins with the plain rule: spend nearly the entire budget on parameter count because a larger model can store more patterns.
@@ -726,6 +774,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 188 — Learning-Rate Warmup — Let Adam Learn the Terrain Before Running
 
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 Compute allocation chooses the model and token horizon. At the first update, Adam's moment memories contain almost no history, while randomly initialized activations and gradients are changing fastest.
 
 Inside the Archive Foundry, every old tool is given one honest chance. The archivist-engineer sets the chain-of-custody ledger between the evidence and the desired answer, then tries to begin immediately at the peak learning rate chosen for the stable middle of training.
@@ -788,6 +840,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 189 — Cosine Decay — Make Late Corrections Smaller Without a Cliff
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
 
 Warmup protects the optimizer's first steps. Keeping the peak rate for the entire token budget makes late updates as aggressive as early ones even when the model is refining rather than discovering broad structure.
 
@@ -853,6 +909,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 190 — Gradient Noise Scale — When More Examples Stop Buying More Direction
 
+> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Data and pretraining operations
+
 The schedule controls how far one global update moves. We still do not know how many examples should vote in that update before extra devices mostly repeat the same directional evidence.
 
 The doors of the Archive Foundry close against the wind. On the chain-of-custody ledger, the archivist-engineer writes the cheapest rule that might still be true: make the global batch as large as the cluster permits.
@@ -917,6 +977,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 191 — Data Parallelism — Let Several Workers Observe Different Evidence
 
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 Gradient noise measurements choose a useful global batch. One device cannot process that batch quickly enough, even though the modern model and optimizer state now fit through sharding.
 
 Nothing in the Archive Foundry yet bears today's mathematical name. There is only the archivist-engineer, the chain-of-custody ledger, and one plausible action: send the same mini-batch to every worker and average their gradients.
@@ -980,6 +1044,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 192 — Pipeline Parallelism — Stop Waiting for the Whole Model to Cross One Device at a Time
+
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
 
 Data parallel workers process different examples, but each replica still needs the model's sequential layers. Splitting those layers across devices makes only one device active if a whole batch traverses the stages at once.
 
@@ -1049,6 +1117,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 193 — Three-Dimensional Parallelism — Give Each Memory Wall Its Own Axis
 
+> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
+>
+> **Applied territory:** Data and pretraining operations
+
 Pipeline micro-batches keep layer stages busy. A large run may still exceed memory inside one layer, require more independent data witnesses, and contain too many layers for one device group.
 
 Morning reaches the Archive Foundry before anyone has a name for today's difficulty. Beside the chain-of-custody ledger, the archivist-engineer tries the smallest continuation of what already works: increase whichever parallel technique was introduced most recently until the model fits.
@@ -1115,6 +1187,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 194 — Sharded Checkpoints — Save One Recoverable State Without Gathering It
 
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Data and pretraining operations
+
 Three-dimensional parallelism spreads parameters, moments, gradients, and progress across many owners. Asking one coordinator to gather everything before saving can exceed its memory and stall the cluster.
 
 The chain-of-custody ledger at the Archive Foundry still carries the marks of the previous discovery. The archivist-engineer follows them as far as they seem willing to go: let every worker write its local tensors and call the directory a checkpoint.
@@ -1159,6 +1235,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 195 — Deterministic Resume — Continue the Same Experiment, Not a Similar One
+
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics)
+>
+> **Applied territory:** Data and pretraining operations
 
 The sharded checkpoint can reconstruct every distributed tensor. If it omits the sampler cursor, random-number generators, scheduler phase, or overflow state, restart follows a different future.
 
@@ -1205,6 +1285,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 196 — Loss Spikes — Distinguish One Hard Batch from a Run Leaving the Road
+
+> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
 
 Deterministic resume makes failures reproducible. During a long run, the observed loss sometimes jumps; automatically rewinding every jump wastes compute, while ignoring a sustained instability can destroy the model.
 
@@ -1270,6 +1354,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 197 — A Validation Stream — Ask Whether Learning Survives Outside the Current Batch
 
+> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 Loss-spike monitoring protects the training process from obvious instability. A smooth training curve can still improve mainly on repeated or overrepresented training domains.
 
 A new case arrives at the Archive Foundry, but the archivist-engineer first reaches for the familiar chain-of-custody ledger. Its promise is simple: evaluate only the next training batch because it is already available.
@@ -1333,6 +1421,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 198 — A Memorization Audit — Did the Model Learn a Pattern or Store a Passage?
+
+> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Data and pretraining operations
 
 Held-out validation shows whether prediction improves outside current batches. It does not reveal whether rare or repeated training sequences can be extracted verbatim from the model.
 
@@ -1402,6 +1494,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 
 ### Excavation 199 — The Training Report — Preserve the Decisions, Not Only the Weights
 
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
+>
+> **Applied territory:** Data and pretraining operations
+
 Memorization auditing adds one essential limitation to the evaluation record. A released checkpoint still cannot explain its corpus, mixture, compute, interruptions, exclusions, intended uses, or known failures by inspecting weight tensors.
 
 Nothing in the Archive Foundry yet bears today's mathematical name. There is only the archivist-engineer, the chain-of-custody ledger, and one plausible action: publish the final benchmark table and assume the configuration files explain the rest.
@@ -1449,6 +1545,10 @@ The rest of the evidence remains beside this excavation: [Mistakes worth preserv
 ---
 
 ### Excavation 200 — A Tiny Pretraining Factory — Close the Accountable Training Loop
+
+> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
+>
+> **Applied territory:** Data and pretraining operations
 
 The training report can explain one finished run. We have now earned all the mechanisms needed to make the next run reconstructable from source documents to final artifact rather than relying on memory and scattered scripts.
 

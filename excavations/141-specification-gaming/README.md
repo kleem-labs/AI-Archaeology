@@ -4,6 +4,11 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- mathematical-lineage-v1 -->
+> **Mathematical roots:** [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
+>
+> **Applied territory:** Scientific self-improvement and oversight
+
 Reward hacking exposes the gap between a score and the purpose it was meant to measure. Adding more literal rules does not close the gap when the agent can obey their words while betraying their shared intent.
 
 A new case arrives at the Academy of Trials, but the experimentalist first reaches for the familiar sealed evidence ledger. Its promise is simple: optimize the stated metric exactly.

@@ -115,6 +115,7 @@ def chapter_for_book(path):
     text = re.sub(r"^(#{1,4}) ", lambda m: "#" * (len(m.group(1)) + 2) + " ", text, flags=re.M)
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     text = text.replace("../../MATHEMATICAL_MOVES.md", "../MATHEMATICAL_MOVES.md")
+    text = text.replace("../../MATHEMATICS_ATLAS.md", "../MATHEMATICS_ATLAS.md")
     link = path.relative_to(ROOT).as_posix()
     return text + f"\n\n*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../{link}).*"
 
@@ -171,6 +172,10 @@ To see every earned equation as one connected memory, enter the
 To remember the recurring places and mathematical motions that bind the five
 volumes into one imaginative journey, begin with
 [The Living Mathematics](../THE_LIVING_MATHEMATICS.md).
+
+To revisit the chapters as calculus, probability, linear algebra, information
+theory, optimization, discrete mathematics, numerical analysis, and their
+neighboring families, use the [Mathematics Atlas](../MATHEMATICS_ATLAS.md).
 """
     return result
 
