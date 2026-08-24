@@ -5,3 +5,9 @@
 3. Explain why every operation in the equation is necessary.
 4. Change one assumption and identify what stops working.
 5. **Build it yourself:** complete Pure Python before opening NumPy or PyTorch.
+
+<!-- memory-film-v1:start -->
+## Close-book memory test
+
+Close every file. Reconstruct the five frames beginning only from **the cross-entropy bridge mounted on the ring of glass lanterns**. Explain the failure before naming the accepted idea; perform this gesture while recovering the repair: Touch the cross-entropy bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance. If the formal name arrives before the necessity, replay the scene more slowly.
+<!-- memory-film-v1:end -->

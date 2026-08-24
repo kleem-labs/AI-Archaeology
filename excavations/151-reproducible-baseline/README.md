@@ -41,6 +41,28 @@ So the brass reference machine is altered in exactly one way: freeze the model s
 
 The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and reproducible baseline looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made. The Engine Cavern lets reproducible baseline change speed, memory, or scale while the brass reference machine guards meaning. Equality here is not decoration; it is a promise that the optimized path performs the same mathematical responsibility by another physical route.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we keep the final score and the model file; those should be enough to compare the next idea?
+
+## When the chamber changes
+
+Keep the formal name A Reproducible Baseline covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The mirror follows the tempting path—keep the final score and the model file; those should be enough to compare the next idea. Then the evidence answers: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied.
+
+Now let the chamber move: The enginewright changes one moving part. The mirror can now freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline.
+
+The object that should remain after the terminology disappears is **the reproducible baseline mirror mounted on the brass reference machine**.
+
+> **Memory seal — A Reproducible Baseline**
+>
+> A Reproducible Baseline keeps the missing power: freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline.
+
+Give the idea a bodily path: Touch the reproducible baseline mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Improve Something That Actually Exists
 
 Run the same tiny tiger-language model twice from the recorded seed. Only after its loss curve and held-out score agree do we permit one component to change.

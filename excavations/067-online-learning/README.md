@@ -35,6 +35,28 @@ So the weathered observation slate is altered in exactly one way: we need to upd
 
 The weathered observation slate has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and online learning looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we retrain immediately on every new labeled event?
+
+## When the chamber changes
+
+The Online Learning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The lantern follows the tempting path—retrain immediately on every new labeled event. Then the evidence answers: the trouble appears immediately: one mislabeled transaction can move the model before anyone notices.
+
+Now let the chamber move: The field naturalist changes one moving part. The lantern can now update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
+
+The object that should remain after the terminology disappears is **the online learning lantern mounted on the weathered observation slate**.
+
+> **Memory seal — Online Learning**
+>
+> Online Learning keeps the missing power: update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
+
+Give the idea a bodily path: Touch the online learning lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Understanding online learning
 
 A new batch reduces recent fraud loss but doubles errors on the stable validation set; the update is rejected.

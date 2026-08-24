@@ -33,6 +33,28 @@ The evidence permits one narrow invention: use a calibrated language classifier,
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—keep documents containing mostly familiar Latin characters and discard the rest? The answer remains spanish and Vietnamese are mistaken for English, transliterated languages disappear, and English code or identifier lists pass despite containing little natural language. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we keep documents containing mostly familiar Latin characters and discard the rest?
+
+## When the chamber changes
+
+Before leaving Language Identification, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The key follows the tempting path—keep documents containing mostly familiar Latin characters and discard the rest. Then the evidence answers: spanish and Vietnamese are mistaken for English, transliterated languages disappear, and English code or identifier lists pass despite containing little natural language.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The key can now use a calibrated language classifier, retain its confidence and model version, and route uncertain documents to an explicit unknown bucket rather than forcing a label.
+
+The object that should remain after the terminology disappears is **the language identification key mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Language Identification**
+>
+> Language Identification keeps the missing power: use a calibrated language classifier, retain its confidence and model version, and route uncertain documents to an explicit unknown bucket rather than forcing a label.
+
+Give the idea a bodily path: Touch the language identification key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Do Not Confuse Familiar Script with Familiar Language
 
 A field report receives English 0.93, Spanish 0.05, and unknown 0.02. The pipeline keeps English only because its score clears the recorded threshold; a 0.44/0.41 split is quarantined.

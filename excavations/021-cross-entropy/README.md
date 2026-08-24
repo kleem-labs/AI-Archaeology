@@ -33,6 +33,28 @@ Only the missing distinction is restored: charge the information cost assigned b
 
 The keeper of uncertain stories does not memorize cross-entropy. Instead, the keeper of uncertain stories memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we use zero for correct and one for wrong?
+
+## When the chamber changes
+
+Keep the formal name Cross-Entropy covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The bridge follows the tempting path—use zero for correct and one for wrong. Then the evidence answers: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The bridge can now charge the information cost assigned by the predicted distribution to the outcome that actually occurred.
+
+The object that should remain after the terminology disappears is **the cross-entropy bridge mounted on the ring of glass lanterns**.
+
+> **Memory seal — Cross-Entropy**
+>
+> Cross-Entropy keeps the missing power: charge the information cost assigned by the predicted distribution to the outcome that actually occurred.
+
+Give the idea a bodily path: Touch the cross-entropy bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside cross-entropy
 
 The keeper of uncertain stories carries the cross-entropy scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

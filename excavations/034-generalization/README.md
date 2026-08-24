@@ -37,6 +37,28 @@ The evidence permits one narrow invention: state the deployment world, test mean
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—assume all future observations come from exactly the same source as training? The answer remains or demand good performance on every imaginable world, which no finite evidence can guarantee. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What Should Survive Beyond the Dataset?
+
+## When the chamber changes
+
+The mathematical name Generalization can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The key follows the tempting path—assume all future observations come from exactly the same source as training. Then the evidence answers: or demand good performance on every imaginable world, which no finite evidence can guarantee.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The key can now state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
+
+The object that should remain after the terminology disappears is **the generalization key mounted on the ring of glass lanterns**.
+
+> **Memory seal — Generalization**
+>
+> Generalization keeps the missing power: state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
+
+Give the idea a bodily path: Touch the generalization key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside generalization
 
 The keeper of uncertain stories carries the generalization scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

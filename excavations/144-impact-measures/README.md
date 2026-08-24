@@ -33,6 +33,28 @@ The experimentalist changes only that one responsibility: compare the resulting 
 
 The sealed evidence ledger keeps both histories. Its older mark still says, ‘score only the requested final condition’; beside it, the newer mark says, ‘compare the resulting world with a reasonable baseline and penalize avoidable side effects.’ The distance between those sentences is the exact shape of impact measures: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we score only the requested final condition?
+
+## When the chamber changes
+
+The mathematical name Impact Measures can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The seal follows the tempting path—score only the requested final condition. Then the evidence answers: unnecessary irreversible changes remain invisible to the goal score.
+
+Now let the chamber move: The experimentalist changes one moving part. The seal can now compare the resulting world with a reasonable baseline and penalize avoidable side effects.
+
+The object that should remain after the terminology disappears is **the impact measures seal mounted on the sealed evidence ledger**.
+
+> **Memory seal — Impact Measures**
+>
+> Impact Measures keeps the missing power: compare the resulting world with a reasonable baseline and penalize avoidable side effects.
+
+Give the idea a bodily path: Touch the impact measures seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Notice What Changed Besides the Goal
 
 Cleaning the spill changes one patch of floor; moving every chair and deleting files changes unrelated state.

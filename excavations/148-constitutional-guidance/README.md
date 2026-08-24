@@ -32,6 +32,28 @@ The evidence permits one narrow invention: write inspectable principles, use the
 
 What changed on the sealed evidence ledger can be said without symbols. Before, the method could only memorize approved answers and imitate their surface style; now it can also write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we memorize approved answers and imitate their surface style?
+
+## When the chamber changes
+
+Before leaving Constitutional Guidance, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The compass follows the tempting path—memorize approved answers and imitate their surface style. Then the evidence answers: a novel case has no matching example, and style does not reveal the governing reason.
+
+Now let the chamber move: The experimentalist changes one moving part. The compass can now write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change.
+
+The object that should remain after the terminology disappears is **the constitutional guidance compass mounted on the sealed evidence ledger**.
+
+> **Memory seal — Constitutional Guidance**
+>
+> Constitutional Guidance keeps the missing power: write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change.
+
+Give the idea a bodily path: Touch the constitutional guidance compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Rules That Can Critique Answers
 
 A draft exposes private data; the critique identifies the privacy rule and produces a redacted answer.

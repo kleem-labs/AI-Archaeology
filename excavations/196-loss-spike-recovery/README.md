@@ -33,6 +33,28 @@ The evidence permits one narrow invention: compare current loss and gradient nor
 
 What changed on the chain-of-custody ledger can be said without symbols. Before, the method could only declare any loss larger than the previous loss a failure and restore immediately; now it can also compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we declare any loss larger than the previous loss a failure and restore immediately?
+
+## When the chamber changes
+
+Keep the formal name Loss Spikes covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The compass follows the tempting path—declare any loss larger than the previous loss a failure and restore immediately. Then the evidence answers: ordinary batches vary, so healthy learning triggers constant rollbacks. A slow divergence can rise without one dramatic step and escape the rule.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The compass can now compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response.
+
+The object that should remain after the terminology disappears is **the loss spikes compass mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Loss Spikes**
+>
+> Loss Spikes keeps the missing power: compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response.
+
+Give the idea a bodily path: Touch the loss spikes compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Distinguish One Hard Batch from a Run Leaving the Road
 
 Recent clean validation losses center near 2.0 with spread 0.1. One batch reaches 2.35 and then returns; another run stays above 2.5 while gradient norm grows. Only the persistent, corroborated event triggers recovery.

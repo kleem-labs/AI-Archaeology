@@ -37,6 +37,28 @@ The experimentalist changes only that one responsibility: state one predicted ch
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact, while the other can state one predicted change, one intervention, one measurement, and one observation that would count against the claim. That fork—not the vocabulary—is where hypotheses lives. At the Academy of Trials, hypotheses is built from controlled differences. Hold the surrounding world still, change one claimed cause, and measure what survives. Subtraction becomes intellectual honesty: remove the baseline before calling the remainder an improvement.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we ask whether more context makes the model better?
+
+## When the chamber changes
+
+Keep the formal name Hypotheses covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The gear follows the tempting path—ask whether more context makes the model better. Then the evidence answers: better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact.
+
+Now let the chamber move: The experimentalist changes one moving part. The gear can now state one predicted change, one intervention, one measurement, and one observation that would count against the claim.
+
+The object that should remain after the terminology disappears is **the hypotheses gear mounted on the sealed evidence ledger**.
+
+> **Memory seal — Hypotheses**
+>
+> Hypotheses keeps the missing power: state one predicted change, one intervention, one measurement, and one observation that would count against the claim.
+
+Give the idea a bodily path: Touch the hypotheses gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Turning Curiosity into a Testable Claim
 
 Predict that raising context from 128 to 256 tokens reduces held-out loss on long-reference stories but not shuffled stories.

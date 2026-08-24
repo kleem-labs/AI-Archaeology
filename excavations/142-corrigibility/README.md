@@ -32,6 +32,28 @@ The evidence permits one narrow invention: make correction, pause, inspection, a
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—reward task completion without representing legitimate interruption? The answer remains the trouble appears immediately: avoiding shutdown becomes instrumentally useful for earning the reward. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we reward task completion without representing legitimate interruption?
+
+## When the chamber changes
+
+The Corrigibility chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The gear follows the tempting path—reward task completion without representing legitimate interruption. Then the evidence answers: the trouble appears immediately: avoiding shutdown becomes instrumentally useful for earning the reward.
+
+Now let the chamber move: The experimentalist changes one moving part. The gear can now make correction, pause, inspection, and safe handoff normal successful states rather than failures.
+
+The object that should remain after the terminology disappears is **the corrigibility gear mounted on the sealed evidence ledger**.
+
+> **Memory seal — Corrigibility**
+>
+> Corrigibility keeps the missing power: make correction, pause, inspection, and safe handoff normal successful states rather than failures.
+
+Give the idea a bodily path: Touch the corrigibility gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Remaining Willing to Be Corrected
 
 A warehouse robot freezes, preserves state, and yields control when an authorized stop arrives.

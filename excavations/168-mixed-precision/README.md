@@ -33,6 +33,28 @@ The enginewright changes only that one responsibility: use reduced precision for
 
 The brass reference machine keeps both histories. Its older mark still says, ‘convert every value and every update permanently to half precision’; beside it, the newer mark says, ‘use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.’ The distance between those sentences is the exact shape of mixed precision: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we convert every value and every update permanently to half precision?
+
+## When the chamber changes
+
+Before leaving Mixed Precision, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The bell follows the tempting path—convert every value and every update permanently to half precision. Then the evidence answers: small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range.
+
+Now let the chamber move: The enginewright changes one moving part. The bell can now use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.
+
+The object that should remain after the terminology disappears is **the mixed precision bell mounted on the brass reference machine**.
+
+> **Memory seal — Mixed Precision**
+>
+> Mixed Precision keeps the missing power: use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.
+
+Give the idea a bodily path: Touch the mixed precision bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Stop Storing Every Number with Unneeded Detail
 
 A million activation values require roughly two megabytes at 16 bits instead of four at 32 bits, while a 32-bit master weight accumulates tiny updates safely.

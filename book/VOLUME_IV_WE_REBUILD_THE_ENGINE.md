@@ -58,6 +58,25 @@ So the brass reference machine is altered in exactly one way: freeze the model s
 
 The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and reproducible baseline looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made. The Engine Cavern lets reproducible baseline change speed, memory, or scale while the brass reference machine guards meaning. Equality here is not decoration; it is a promise that the optimized path performs the same mathematical responsibility by another physical route.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we keep the final score and the model file; those should be enough to compare the next idea?
+
+#### When the chamber changes
+
+Keep the formal name A Reproducible Baseline covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The mirror follows the tempting path—keep the final score and the model file; those should be enough to compare the next idea. Then the evidence answers: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied.
+
+Now let the chamber move: The enginewright changes one moving part. The mirror can now freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline.
+
+The object that should remain after the terminology disappears is **the reproducible baseline mirror mounted on the brass reference machine**.
+
+> **Memory seal — A Reproducible Baseline**
+>
+> A Reproducible Baseline keeps the missing power: freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline.
+
+Give the idea a bodily path: Touch the reproducible baseline mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Improve Something That Actually Exists
 
 Run the same tiny tiger-language model twice from the recorded seed. Only after its loss curve and held-out score agree do we permit one component to change.
@@ -87,12 +106,6 @@ $$
 Reproducibility makes differences attributable; it does not tell us which component is worth changing.
 
 The brass reference machine answers today's question and falls silent at the next. That silence is precise: Reproducible Baseline was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the brass reference machine
-
-Rebuild the reproducible baseline scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/151-reproducible-baseline/README.md).*
 
@@ -130,6 +143,25 @@ The repair can now be stated without mystery: measure data loading, computation,
 
 One boundary in the room is now sharper. On one side lies the promise to optimize the largest-looking matrix because attention is famous for being expensive; on the other lies the observed fact that the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. The bridge called profiling has exactly the planks needed to measure data loading, computation, communication, and idle time separately before choosing a repair.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we optimize the largest-looking matrix because attention is famous for being expensive?
+
+#### When the chamber changes
+
+The Profiling chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The bell follows the tempting path—optimize the largest-looking matrix because attention is famous for being expensive. Then the evidence answers: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock.
+
+Now let the chamber move: The enginewright changes one moving part. The bell can now measure data loading, computation, communication, and idle time separately before choosing a repair.
+
+The object that should remain after the terminology disappears is **the profiling bell mounted on the brass reference machine**.
+
+> **Memory seal — Profiling**
+>
+> Profiling keeps the missing power: measure data loading, computation, communication, and idle time separately before choosing a repair.
+
+Give the idea a bodily path: Touch the profiling bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Measure Where the Time Went
 
 A 100 ms step contains 35 ms of loading, 45 ms of compute, 10 ms of communication, and 10 ms idle. The first engineering question is now visible in numbers.
@@ -159,12 +191,6 @@ $$
 A profile describes this workload on this hardware; changing sequence length or batch size can move the bottleneck.
 
 A final test reaches beyond the new instrument. It does not refute Profiling; it reveals the edge of what was constructed. The enginewright carries that edge into the following room.
-
-#### Return to the brass reference machine
-
-Rebuild the profiling scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/152-profiling/README.md).*
 
@@ -199,6 +225,25 @@ Only the missing distinction is restored: prepare the next batch while the curre
 
 The enginewright does not memorize input pipeline. Instead, the enginewright memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. The formal name merely lets that motion be shared.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we load a batch, wait until loading finishes, compute it, and only then begin loading the next one?
+
+#### When the chamber changes
+
+Before leaving The Input Pipeline, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The vessel follows the tempting path—load a batch, wait until loading finishes, compute it, and only then begin loading the next one. Then the evidence answers: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle.
+
+Now let the chamber move: The enginewright changes one moving part. The vessel can now prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering.
+
+The object that should remain after the terminology disappears is **the input pipeline vessel mounted on the brass reference machine**.
+
+> **Memory seal — The Input Pipeline**
+>
+> The Input Pipeline keeps the missing power: prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering.
+
+Give the idea a bodily path: Touch the input pipeline vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Stop Making the Accelerator Wait
 
 If loading takes 35 ms and compute 45 ms, serial work costs 80 ms. Once overlapped, a steady-state step is governed mainly by the slower 45 ms stage.
@@ -228,12 +273,6 @@ $$
 Prefetching can hide latency, not unlimited data cost; workers, memory, or storage bandwidth can become the next limit.
 
 One unsolved mark remains on the brass reference machine. None of the responsibilities inside Input Pipeline can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the brass reference machine
-
-Rebuild the input pipeline scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/153-input-pipeline/README.md).*
 
@@ -269,6 +308,25 @@ The evidence permits one narrow invention: pack several short examples into each
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste? The answer remains the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste?
+
+#### When the chamber changes
+
+The mathematical name Sequence Packing can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The gate follows the tempting path—pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste. Then the evidence answers: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions.
+
+Now let the chamber move: The enginewright changes one moving part. The gate can now pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another.
+
+The object that should remain after the terminology disappears is **the sequence packing gate mounted on the brass reference machine**.
+
+> **Memory seal — Sequence Packing**
+>
+> Sequence Packing keeps the missing power: pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another.
+
+Give the idea a bodily path: Touch the sequence packing gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Stop Training on Empty Space
 
 Lengths 6, 5, 3, and 2 fill two rows of length 8 exactly. Padding falls from 16 allocated positions with 6 empty to 16 positions with none empty.
@@ -298,12 +356,6 @@ $$
 Packing improves utilization only if masks and position resets prevent cross-example contamination.
 
 The sequence packing repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the brass reference machine
-
-Rebuild the sequence packing scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/154-sequence-packing/README.md).*
 
@@ -339,6 +391,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the brass reference machine form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. rotary position embeddings is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples?
+
+#### When the chamber changes
+
+The Rotary Position Embeddings room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The wheel follows the tempting path—learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples. Then the evidence answers: moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged.
+
+Now let the chamber move: The enginewright changes one moving part. The wheel can now rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference.
+
+The object that should remain after the terminology disappears is **the rotary position embeddings wheel mounted on the brass reference machine**.
+
+> **Memory seal — Rotary Position Embeddings**
+>
+> Rotary Position Embeddings keeps the missing power: rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference.
+
+Give the idea a bodily path: Touch the rotary position embeddings wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Let Distance Enter the Match
 
 Rotate the two coordinates of tiger by angle mθ and river by nθ. Their match depends on (m−n)θ, so shifting both tokens together preserves their separation signal.
@@ -368,12 +439,6 @@ $$
 RoPE supplies structured relative position, but distances far beyond training still produce unfamiliar phases.
 
 Here the new path ends honestly. Rotary Position Embeddings can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the brass reference machine
-
-Rebuild the rotary position embeddings scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/155-rotary-position/README.md).*
 
@@ -409,6 +474,25 @@ The enginewright changes only that one responsibility: add an explicit distance-
 
 The brass reference machine keeps both histories. Its older mark still says, ‘trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there’; beside it, the newer mark says, ‘add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.’ The distance between those sentences is the exact shape of relative position bias: no larger than the failure required, and no smaller than reality permits.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What Should Happen Beyond the Seen Window?
+
+#### When the chamber changes
+
+Keep the formal name Relative Position Bias covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The map follows the tempting path—trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there. Then the evidence answers: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations.
+
+Now let the chamber move: The enginewright changes one moving part. The map can now add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.
+
+The object that should remain after the terminology disappears is **the relative position bias map mounted on the brass reference machine**.
+
+> **Memory seal — Relative Position Bias**
+>
+> Relative Position Bias keeps the missing power: add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.
+
+Give the idea a bodily path: Touch the relative position bias map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### What Should Happen Beyond the Seen Window
 
 For one head with slope 0.1, a key 2 places back receives −0.2 while a key 20 places back receives −2.0 before softmax. Content can overcome the penalty, but distance has a predictable cost.
@@ -438,12 +522,6 @@ $$
 A fixed distance preference can suppress a decisive remote clue and is an architectural bias, not universal truth.
 
 At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Relative Position Bias has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the brass reference machine
-
-Rebuild the relative position bias scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/156-relative-position-bias/README.md).*
 
@@ -483,6 +561,25 @@ So the brass reference machine is altered in exactly one way: store each layer's
 
 Nothing is erased from the brass reference machine. The failed path remains visible beneath the repair, because kv cache is easier to remember when its scar remains attached to it. The scar reads, ‘past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added’; the new line exists only to keep that loss from happening again.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we at step t, recompute keys and values for positions 1 through t because the prefix is presented again?
+
+#### When the chamber changes
+
+The The KV Cache chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The scale follows the tempting path—at step t, recompute keys and values for positions 1 through t because the prefix is presented again. Then the evidence answers: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added.
+
+Now let the chamber move: The enginewright changes one moving part. The scale can now store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache.
+
+The object that should remain after the terminology disappears is **the kv cache scale mounted on the brass reference machine**.
+
+> **Memory seal — The KV Cache**
+>
+> The KV Cache keeps the missing power: store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache.
+
+Give the idea a bodily path: Touch the kv cache scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Stop Re-reading the Entire Past
 
 Generating token 101 computes one new key and value, then reads the 100 cached pairs. It does not rebuild pairs 1 through 100.
@@ -512,12 +609,6 @@ $$
 Because every past key and value must remain available, saved computation becomes growing memory and memory-bandwidth cost, especially for long contexts and many users.
 
 The brass reference machine answers today's question and falls silent at the next. That silence is precise: KV Cache was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the brass reference machine
-
-Rebuild the kv cache scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/157-kv-cache/README.md).*
 
@@ -555,6 +646,25 @@ The repair can now be stated without mystery: keep many query heads but share on
 
 A thread now runs backward from multi-query attention through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** Why Cache Separate Copies for Every Head?
+
+#### When the chamber changes
+
+Before leaving Multi-Query Attention, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The gear follows the tempting path—preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections. Then the evidence answers: the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token.
+
+Now let the chamber move: The enginewright changes one moving part. The gear can now keep many query heads but share one key head and one value head across them.
+
+The object that should remain after the terminology disappears is **the multi-query attention gear mounted on the brass reference machine**.
+
+> **Memory seal — Multi-Query Attention**
+>
+> Multi-Query Attention keeps the missing power: keep many query heads but share one key head and one value head across them.
+
+Give the idea a bodily path: Touch the multi-query attention gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Why Cache Separate Copies for Every Head
 
 Eight query experts ask eight different questions of the same cached catalog. Cache entries fall from eight key-value pairs per token to one pair per token.
@@ -584,12 +694,6 @@ $$
 A single shared catalog can remove distinctions that genuinely need different key-value spaces.
 
 A final test reaches beyond the new instrument. It does not refute Multi-Query Attention; it reveals the edge of what was constructed. The enginewright carries that edge into the following room.
-
-#### Return to the brass reference machine
-
-Rebuild the multi-query attention scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/158-multi-query-attention/README.md).*
 
@@ -624,6 +728,25 @@ Only the missing distinction is restored: partition query heads into groups; que
 
 The enginewright places a finger over the new distinction. At once the two cases collapse and quality recovers, but so does the full cache and bandwidth cost that forced sharing. Lifting the finger restores only this capacity: partition query heads into groups; queries remain distinct while each group shares one key-value head. That tiny reversible motion is the chapter's proof of necessity.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we return immediately to one KV head per query head?
+
+#### When the chamber changes
+
+The mathematical name Grouped-Query Attention can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The prism follows the tempting path—return immediately to one KV head per query head. Then the evidence answers: quality recovers, but so does the full cache and bandwidth cost that forced sharing.
+
+Now let the chamber move: The enginewright changes one moving part. The prism can now partition query heads into groups; queries remain distinct while each group shares one key-value head.
+
+The object that should remain after the terminology disappears is **the grouped-query attention prism mounted on the brass reference machine**.
+
+> **Memory seal — Grouped-Query Attention**
+>
+> Grouped-Query Attention keeps the missing power: partition query heads into groups; queries remain distinct while each group shares one key-value head.
+
+Give the idea a bodily path: Touch the grouped-query attention prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Recover Some Specialist Memory
 
 Eight query heads arranged into two KV groups preserve two catalogs. The cache is twice MQA's size but one quarter of ordinary eight-head KV storage.
@@ -653,12 +776,6 @@ $$
 Because sharing deliberately removes independent KV views, the number and assignment of groups remain empirical design choices whose quality must be measured.
 
 One unsolved mark remains on the brass reference machine. None of the responsibilities inside Grouped-Query Attention can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the brass reference machine
-
-Rebuild the grouped-query attention scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/159-grouped-query-attention/README.md).*
 
@@ -694,6 +811,25 @@ The evidence permits one narrow invention: tile queries, keys, and values into f
 
 What changed on the brass reference machine can be said without symbols. Before, the method could only reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost; now it can also tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost?
+
+#### When the chamber changes
+
+The FlashAttention room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The seal follows the tempting path—reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost. Then the evidence answers: approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them.
+
+Now let the chamber move: The enginewright changes one moving part. The seal can now tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once.
+
+The object that should remain after the terminology disappears is **the flashattention seal mounted on the brass reference machine**.
+
+> **Memory seal — FlashAttention**
+>
+> FlashAttention keeps the missing power: tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once.
+
+Give the idea a bodily path: Touch the flashattention seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### The Arithmetic Was Not the Bottleneck
 
 Process two score tiles. Carry only the running maximum, normalized denominator, and weighted value total into the next tile; the final answer matches ordinary softmax attention.
@@ -723,12 +859,6 @@ $$
 FlashAttention removes avoidable memory traffic, not quadratic pairwise arithmetic itself.
 
 The flashattention repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the brass reference machine
-
-Rebuild the flashattention scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/160-flash-attention/README.md).*
 
@@ -764,6 +894,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In rmsnorm, that memory takes a precise form: whenever deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work, preserve enough structure to keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we delete normalization because each individual operation appears cheap?
+
+#### When the chamber changes
+
+Keep the formal name RMSNorm covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The lens follows the tempting path—delete normalization because each individual operation appears cheap. Then the evidence answers: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work.
+
+Now let the chamber move: The enginewright changes one moving part. The lens can now keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
+
+The object that should remain after the terminology disappears is **the rmsnorm lens mounted on the brass reference machine**.
+
+> **Memory seal — RMSNorm**
+>
+> RMSNorm keeps the missing power: keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
+
+Give the idea a bodily path: Touch the rmsnorm lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Do We Need to Subtract the Centre
 
 Vectors [3,4] and [30,40] become the same relative pattern after division by their RMS, although neither has its mean subtracted.
@@ -793,12 +942,6 @@ $$
 RMSNorm does not guarantee that recentering is unimportant for every architecture or task.
 
 Here the new path ends honestly. RMSNorm can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the brass reference machine
-
-Rebuild the rmsnorm scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/161-rmsnorm/README.md).*
 
@@ -834,6 +977,25 @@ The enginewright changes only that one responsibility: normalize only the input 
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve, while the other can normalize only the input to the changing branch and let the identity stream pass around it unchanged. That fork—not the vocabulary—is where pre-normalization lives.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we keep post-normalization because each block's output then looks standardized before the next block?
+
+#### When the chamber changes
+
+The Pre-Normalization chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The key follows the tempting path—keep post-normalization because each block's output then looks standardized before the next block. Then the evidence answers: the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve.
+
+Now let the chamber move: The enginewright changes one moving part. The key can now normalize only the input to the changing branch and let the identity stream pass around it unchanged.
+
+The object that should remain after the terminology disappears is **the pre-normalization key mounted on the brass reference machine**.
+
+> **Memory seal — Pre-Normalization**
+>
+> Pre-Normalization keeps the missing power: normalize only the input to the changing branch and let the identity stream pass around it unchanged.
+
+Give the idea a bodily path: Touch the pre-normalization key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Protect the Residual Highway
 
 A block computes a normalized proposal F, then adds that proposal to the untouched x. If F initially contributes little, the block can behave almost like identity.
@@ -863,12 +1025,6 @@ $$
 Pre-normalization improves gradient behavior but changes representation scale and does not eliminate every deep-training instability.
 
 At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Pre-Normalization has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the brass reference machine
-
-Rebuild the pre-normalization scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/162-pre-normalization/README.md).*
 
@@ -908,6 +1064,25 @@ So the brass reference machine is altered in exactly one way: create one content
 
 The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and swiglu looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we make the hidden layer merely wider and trust more coordinates to express every conditional interaction?
+
+#### When the chamber changes
+
+Before leaving SwiGLU, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The lantern follows the tempting path—make the hidden layer merely wider and trust more coordinates to express every conditional interaction. Then the evidence answers: width adds capacity but still asks one projection both to create content and decide when that content matters.
+
+Now let the chamber move: The enginewright changes one moving part. The lantern can now create one content projection and one gate projection; use the smooth gate to scale content feature by feature.
+
+The object that should remain after the terminology disappears is **the swiglu lantern mounted on the brass reference machine**.
+
+> **Memory seal — SwiGLU**
+>
+> SwiGLU keeps the missing power: create one content projection and one gate projection; use the smooth gate to scale content feature by feature.
+
+Give the idea a bodily path: Touch the swiglu lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Let One Learned Path Gate Another
 
 For a token describing a river bank, one path proposes financial features while the gate suppresses them; in a money context the same content path can be opened.
@@ -937,12 +1112,6 @@ $$
 Gating improves useful capacity but increases projection parameters and does not explain what every hidden feature means.
 
 The brass reference machine answers today's question and falls silent at the next. That silence is precise: SwiGLU was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the brass reference machine
-
-Rebuild the swiglu scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/163-swiglu/README.md).*
 
@@ -980,6 +1149,25 @@ The repair can now be stated without mystery: reuse the embedding table transpos
 
 One boundary in the room is now sharper. On one side lies the promise to let both matrices learn independently because reading a token and predicting it are different jobs; on the other lies the observed fact that the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places. The bridge called weight tying has exactly the planks needed to reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we let both matrices learn independently because reading a token and predicting it are different jobs?
+
+#### When the chamber changes
+
+The mathematical name Weight Tying can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The compass follows the tempting path—let both matrices learn independently because reading a token and predicting it are different jobs. Then the evidence answers: the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places.
+
+Now let the chamber move: The enginewright changes one moving part. The compass can now reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
+
+The object that should remain after the terminology disappears is **the weight tying compass mounted on the brass reference machine**.
+
+> **Memory seal — Weight Tying**
+>
+> Weight Tying keeps the missing power: reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
+
+Give the idea a bodily path: Touch the weight tying compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Use One Word Geometry Twice
 
 The tiger vector used to enter the model also becomes the direction a final hidden state must align with to predict tiger.
@@ -1007,12 +1195,6 @@ $$
 Tying reduces parameters and imposes a useful constraint, but separate input and output roles may sometimes benefit from extra freedom.
 
 A final test reaches beyond the new instrument. It does not refute Weight Tying; it reveals the edge of what was constructed. The enginewright carries that edge into the following room.
-
-#### Return to the brass reference machine
-
-Rebuild the weight tying scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/164-weight-tying/README.md).*
 
@@ -1047,6 +1229,25 @@ Only the missing distinction is restored: keep fading memories of gradient direc
 
 The enginewright does not memorize adam. Instead, the enginewright memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. The formal name merely lets that motion be shared.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we use the same raw gradient step scale for every parameter?
+
+#### When the chamber changes
+
+The Adam room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The bridge follows the tempting path—use the same raw gradient step scale for every parameter. Then the evidence answers: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable.
+
+Now let the chamber move: The enginewright changes one moving part. The bridge can now keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude.
+
+The object that should remain after the terminology disappears is **the adam bridge mounted on the brass reference machine**.
+
+> **Memory seal — Adam**
+>
+> Adam keeps the missing power: keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude.
+
+Give the idea a bodily path: Touch the adam bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Give Each Parameter Its Own Step Scale
 
 A frequently noisy weight builds a large second-moment estimate and receives a smaller normalized step; a consistently directed sparse weight can still move.
@@ -1076,12 +1277,6 @@ $$
 Adaptive scaling can generalize differently from SGD and introduces extra state for every parameter.
 
 One unsolved mark remains on the brass reference machine. None of the responsibilities inside Adam can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the brass reference machine
-
-Rebuild the adam scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/165-adam/README.md).*
 
@@ -1117,6 +1312,25 @@ The evidence permits one narrow invention: apply Adam's adaptive data update and
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—treat penalty gradients and data gradients identically because both appear in one total loss? The answer remains coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we treat penalty gradients and data gradients identically because both appear in one total loss?
+
+#### When the chamber changes
+
+Keep the formal name AdamW covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The thread follows the tempting path—treat penalty gradients and data gradients identically because both appear in one total loss. Then the evidence answers: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate.
+
+Now let the chamber move: The enginewright changes one moving part. The thread can now apply Adam's adaptive data update and parameter decay as separate operations.
+
+The object that should remain after the terminology disappears is **the adamw thread mounted on the brass reference machine**.
+
+> **Memory seal — AdamW**
+>
+> AdamW keeps the missing power: apply Adam's adaptive data update and parameter decay as separate operations.
+
+Give the idea a bodily path: Touch the adamw thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Keep Shrinkage Separate from Adaptation
 
 Two equal weights with different gradient histories receive different Adam steps but the same proportional decay.
@@ -1146,12 +1360,6 @@ $$
 Decoupled decay still requires choosing which parameters to decay and how strongly.
 
 The adamw repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the brass reference machine
-
-Rebuild the adamw scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/166-adamw/README.md).*
 
@@ -1187,6 +1395,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the brass reference machine form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. gradient clipping is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we discard the entire batch whenever any gradient coordinate looks large?
+
+#### When the chamber changes
+
+The Gradient Clipping chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The mirror follows the tempting path—discard the entire batch whenever any gradient coordinate looks large. Then the evidence answers: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector.
+
+Now let the chamber move: The enginewright changes one moving part. The mirror can now preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling.
+
+The object that should remain after the terminology disappears is **the gradient clipping mirror mounted on the brass reference machine**.
+
+> **Memory seal — Gradient Clipping**
+>
+> Gradient Clipping keeps the missing power: preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling.
+
+Give the idea a bodily path: Touch the gradient clipping mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Stop One Shock from Becoming a Catastrophe
 
 A gradient of length 20 with ceiling 5 is multiplied by one quarter. A gradient of length 3 passes unchanged.
@@ -1216,12 +1443,6 @@ $$
 Clipping limits damage; it can hide a broken loss, corrupt data, or an unsuitable learning rate if used without diagnosis.
 
 Here the new path ends honestly. Gradient Clipping can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the brass reference machine
-
-Rebuild the gradient clipping scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/167-gradient-clipping/README.md).*
 
@@ -1257,6 +1478,25 @@ The enginewright changes only that one responsibility: use reduced precision for
 
 The brass reference machine keeps both histories. Its older mark still says, ‘convert every value and every update permanently to half precision’; beside it, the newer mark says, ‘use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.’ The distance between those sentences is the exact shape of mixed precision: no larger than the failure required, and no smaller than reality permits.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we convert every value and every update permanently to half precision?
+
+#### When the chamber changes
+
+Before leaving Mixed Precision, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The bell follows the tempting path—convert every value and every update permanently to half precision. Then the evidence answers: small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range.
+
+Now let the chamber move: The enginewright changes one moving part. The bell can now use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.
+
+The object that should remain after the terminology disappears is **the mixed precision bell mounted on the brass reference machine**.
+
+> **Memory seal — Mixed Precision**
+>
+> Mixed Precision keeps the missing power: use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.
+
+Give the idea a bodily path: Touch the mixed precision bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Stop Storing Every Number with Unneeded Detail
 
 A million activation values require roughly two megabytes at 16 bits instead of four at 32 bits, while a 32-bit master weight accumulates tiny updates safely.
@@ -1286,12 +1526,6 @@ $$
 Mixed precision reduces representation cost, but numeric range—not only bit count—still threatens small gradients.
 
 At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Mixed Precision has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the brass reference machine
-
-Rebuild the mixed precision scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/168-mixed-precision/README.md).*
 
@@ -1331,6 +1565,25 @@ So the brass reference machine is altered in exactly one way: multiply the loss 
 
 Nothing is erased from the brass reference machine. The failed path remains visible beneath the repair, because loss scaling is easier to remember when its scar remains attached to it. The scar reads, ‘the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update’; the new line exists only to keep that loss from happening again.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we increase the learning rate so small updates become visible?
+
+#### When the chamber changes
+
+The mathematical name Loss Scaling can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The vessel follows the tempting path—increase the learning rate so small updates become visible. Then the evidence answers: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update.
+
+Now let the chamber move: The enginewright changes one moving part. The vessel can now multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating.
+
+The object that should remain after the terminology disappears is **the loss scaling vessel mounted on the brass reference machine**.
+
+> **Memory seal — Loss Scaling**
+>
+> Loss Scaling keeps the missing power: multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating.
+
+Give the idea a bodily path: Touch the loss scaling vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Rescue Gradients Too Small to Represent
 
 A gradient 0.000001 becomes 0.001 when loss scale is 1000, survives backpropagation, and returns to 0.000001 after unscaling.
@@ -1360,12 +1613,6 @@ $$
 A scale large enough to prevent underflow can cause overflow, so practical systems adjust it dynamically.
 
 The brass reference machine answers today's question and falls silent at the next. That silence is precise: Loss Scaling was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the brass reference machine
-
-Rebuild the loss scaling scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/169-loss-scaling/README.md).*
 
@@ -1403,6 +1650,25 @@ The repair can now be stated without mystery: run several micro-batches, sum the
 
 A thread now runs backward from gradient accumulation through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we reduce the batch until it fits and change nothing else?
+
+#### When the chamber changes
+
+The Gradient Accumulation room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The gate follows the tempting path—reduce the batch until it fits and change nothing else. Then the evidence answers: the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together.
+
+Now let the chamber move: The enginewright changes one moving part. The gate can now run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step.
+
+The object that should remain after the terminology disappears is **the gradient accumulation gate mounted on the brass reference machine**.
+
+> **Memory seal — Gradient Accumulation**
+>
+> Gradient Accumulation keeps the missing power: run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step.
+
+Give the idea a bodily path: Touch the gradient accumulation gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Build a Large Batch That Does Not Fit
 
 Four micro-batches of eight examples create one effective batch of thirty-two while only eight examples' activations are resident at a time.
@@ -1432,12 +1698,6 @@ $$
 Accumulation lowers activation memory but adds serial work and does not reduce parameter or optimizer-state memory.
 
 A final test reaches beyond the new instrument. It does not refute Gradient Accumulation; it reveals the edge of what was constructed. The enginewright carries that edge into the following room.
-
-#### Return to the brass reference machine
-
-Rebuild the gradient accumulation scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/170-gradient-accumulation/README.md).*
 
@@ -1472,6 +1732,25 @@ Only the missing distinction is restored: keep selected checkpoint activations a
 
 The enginewright places a finger over the new distinction. At once the two cases collapse and backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly. Lifting the finger restores only this capacity: keep selected checkpoint activations and recompute the missing segments once when backward reaches them. That tiny reversible motion is the chapter's proof of necessity.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we delete all activations after the forward pass?
+
+#### When the chamber changes
+
+Keep the formal name Activation Checkpointing covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The wheel follows the tempting path—delete all activations after the forward pass. Then the evidence answers: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly.
+
+Now let the chamber move: The enginewright changes one moving part. The wheel can now keep selected checkpoint activations and recompute the missing segments once when backward reaches them.
+
+The object that should remain after the terminology disappears is **the activation checkpointing wheel mounted on the brass reference machine**.
+
+> **Memory seal — Activation Checkpointing**
+>
+> Activation Checkpointing keeps the missing power: keep selected checkpoint activations and recompute the missing segments once when backward reaches them.
+
+Give the idea a bodily path: Touch the activation checkpointing wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Remember Less, Recompute Exactly
 
 In a nine-layer chain, retain boundaries around three-layer segments. Backward rebuilds one segment at a time instead of storing all nine layers.
@@ -1501,12 +1780,6 @@ $$
 Checkpointing buys memory with extra computation; a poor partition can save little or recompute too much.
 
 One unsolved mark remains on the brass reference machine. None of the responsibilities inside Activation Checkpointing can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the brass reference machine
-
-Rebuild the activation checkpointing scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/171-activation-checkpointing/README.md).*
 
@@ -1542,6 +1815,25 @@ The evidence permits one narrow invention: partition optimizer states, gradients
 
 What changed on the brass reference machine can be said without symbols. Before, the method could only add devices and replicate the full training state on each one; now it can also partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we add devices and replicate the full training state on each one?
+
+#### When the chamber changes
+
+The ZeRO chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The map follows the tempting path—add devices and replicate the full training state on each one. Then the evidence answers: compute capacity grows while per-device model-state memory remains almost unchanged, so the same memory wall returns.
+
+Now let the chamber move: The enginewright changes one moving part. The map can now partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them.
+
+The object that should remain after the terminology disappears is **the zero map mounted on the brass reference machine**.
+
+> **Memory seal — ZeRO**
+>
+> ZeRO keeps the missing power: partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them.
+
+Give the idea a bodily path: Touch the zero map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Stop Replicating the Same Training State
 
 Four workers each keep roughly one quarter of a large moment vector rather than four complete copies, then cooperate for the update.
@@ -1571,12 +1863,6 @@ $$
 Because a worker no longer owns a complete state by itself, sharding trades redundant memory for communication and makes recovery and state ownership more complex.
 
 The zero repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the brass reference machine
-
-Rebuild the zero scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/172-zero-sharding/README.md).*
 
@@ -1612,6 +1898,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In tensor parallelism, that memory takes a precise form: whenever one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work, preserve enough structure to split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we assign whole layers to different devices and pass every activation through them sequentially?
+
+#### When the chamber changes
+
+Before leaving Tensor Parallelism, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The scale follows the tempting path—assign whole layers to different devices and pass every activation through them sequentially. Then the evidence answers: one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work.
+
+Now let the chamber move: The enginewright changes one moving part. The scale can now split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output.
+
+The object that should remain after the terminology disappears is **the tensor parallelism scale mounted on the brass reference machine**.
+
+> **Memory seal — Tensor Parallelism**
+>
+> Tensor Parallelism keeps the missing power: split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output.
+
+Give the idea a bodily path: Touch the tensor parallelism scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Split One Matrix That No Device Can Hold
 
 Divide one vocabulary projection into four column blocks. Each device scores one quarter of the vocabulary from the same hidden state; concatenation restores the full logits.
@@ -1641,12 +1946,6 @@ $$
 Tensor parallelism introduces communication inside every layer, so a slow interconnect can erase its benefit.
 
 Here the new path ends honestly. Tensor Parallelism can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the brass reference machine
-
-Rebuild the tensor parallelism scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/173-tensor-parallelism/README.md).*
 
@@ -1682,6 +1981,25 @@ The enginewright changes only that one responsibility: let the draft propose a s
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because speed improves by silently replacing the trusted target distribution with a weaker model's distribution, while the other can let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. That fork—not the vocabulary—is where speculative decoding lives.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we let a cheap draft model emit several tokens and return them directly?
+
+#### When the chamber changes
+
+The mathematical name Speculative Decoding can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The gear follows the tempting path—let a cheap draft model emit several tokens and return them directly. Then the evidence answers: speed improves by silently replacing the trusted target distribution with a weaker model's distribution.
+
+Now let the chamber move: The enginewright changes one moving part. The gear can now let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling.
+
+The object that should remain after the terminology disappears is **the speculative decoding gear mounted on the brass reference machine**.
+
+> **Memory seal — Speculative Decoding**
+>
+> Speculative Decoding keeps the missing power: let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling.
+
+Give the idea a bodily path: Touch the speculative decoding gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Let a Small Model Propose, Never Decide
 
 The draft proposes “the tiger sleeps.” One target call verifies all three positions; an unsupported token is rejected and sampling resumes from the corrected target distribution.
@@ -1711,12 +2029,6 @@ $$
 Speed depends on draft agreement and hardware utilization; poor proposals add work instead of removing it.
 
 At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Speculative Decoding has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the brass reference machine
-
-Rebuild the speculative decoding scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/174-speculative-decoding/README.md).*
 
@@ -1756,6 +2068,25 @@ So the brass reference machine is altered in exactly one way: assemble the engin
 
 The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and modern tiny language model looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we enable every technique at once and celebrate if the program runs?
+
+#### When the chamber changes
+
+The A Modern Tiny Language Model room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The prism follows the tempting path—enable every technique at once and celebrate if the program runs. Then the evidence answers: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries.
+
+Now let the chamber move: The enginewright changes one moving part. The prism can now assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains.
+
+The object that should remain after the terminology disappears is **the modern tiny language model prism mounted on the brass reference machine**.
+
+> **Memory seal — A Modern Tiny Language Model**
+>
+> A Modern Tiny Language Model keeps the missing power: assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains.
+
+Give the idea a bodily path: Touch the modern tiny language model prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Assemble the Measured Engine
 
 Train one tiny model with packed examples, RoPE, GQA, exact tiled attention, pre-RMSNorm, SwiGLU, tied embeddings, AdamW, clipping, mixed precision, accumulation, and checkpointing; then serve it with a KV cache and verified draft proposals.
@@ -1775,11 +2106,5 @@ reference ──preserved meaning──▶ optimized engine
 ```
 
 The trail called *the old mind inside the new engine* is what remains when one necessity becomes another.
-
-#### Return to the brass reference machine
-
-Rebuild the modern tiny language model scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/175-modern-tiny-llm/README.md).*

@@ -40,6 +40,28 @@ One boundary in the room is now sharper. On one side lies the promise to keep th
 
 Before leaving the sealed evidence ledger, the experimentalist tests the new idea backward. Remove the ability to record code, data, configuration, environment, seeds, and variation across repeated runs, and the method falls back to this tempting instruction: keep the best checkpoint and report its score. The old consequence returns—changing only the random seed makes the gain disappear. Restore the missing ability and that particular contradiction disappears. This reversible test is why reproducibility belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we keep the best checkpoint and report its score?
+
+## When the chamber changes
+
+Before leaving Reproducibility, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The seal follows the tempting path—keep the best checkpoint and report its score. Then the evidence answers: changing only the random seed makes the gain disappear.
+
+Now let the chamber move: The experimentalist changes one moving part. The seal can now record code, data, configuration, environment, seeds, and variation across repeated runs.
+
+The object that should remain after the terminology disappears is **the reproducibility seal mounted on the sealed evidence ledger**.
+
+> **Memory seal — Reproducibility**
+>
+> Reproducibility keeps the missing power: record code, data, configuration, environment, seeds, and variation across repeated runs.
+
+Give the idea a bodily path: Touch the reproducibility seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Can the Discovery Survive Another Run
 
 Run five seeds; compare the distribution of gains rather than celebrating the luckiest one.

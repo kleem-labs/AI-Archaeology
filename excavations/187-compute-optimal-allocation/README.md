@@ -35,6 +35,28 @@ So the chain-of-custody ledger is altered in exactly one way: estimate candidate
 
 The chain-of-custody ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and compute-optimal allocation looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we spend nearly the entire budget on parameter count because a larger model can store more patterns?
+
+## When the chamber changes
+
+The Compute-Optimal Allocation chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The wheel follows the tempting path—spend nearly the entire budget on parameter count because a larger model can store more patterns. Then the evidence answers: the large model is stopped after too little experience and remains undertrained, while much of its expensive capacity never receives enough varied evidence.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The wheel can now estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone.
+
+The object that should remain after the terminology disappears is **the compute-optimal allocation wheel mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Compute-Optimal Allocation**
+>
+> Compute-Optimal Allocation keeps the missing power: estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone.
+
+Give the idea a bodily path: Touch the compute-optimal allocation wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Buy a Larger Memory or More Experience
 
 The station compares doubling parameters while halving tokens with keeping the smaller model and doubling tokens. Because both alter the same compute bill, held-out scaling runs decide which balance learns more.

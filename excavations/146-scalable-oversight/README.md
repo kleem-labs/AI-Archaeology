@@ -37,6 +37,28 @@ The repair can now be stated without mystery: decompose the work, attach local e
 
 A thread now runs backward from scalable oversight through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the review exceeds human attention and hidden failures survive. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we ask one expert to approve the entire artifact?
+
+## When the chamber changes
+
+Keep the formal name Scalable Oversight covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The key follows the tempting path—ask one expert to approve the entire artifact. Then the evidence answers: the review exceeds human attention and hidden failures survive.
+
+Now let the chamber move: The experimentalist changes one moving part. The key can now decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions.
+
+The object that should remain after the terminology disappears is **the scalable oversight key mounted on the sealed evidence ledger**.
+
+> **Memory seal — Scalable Oversight**
+>
+> Scalable Oversight keeps the missing power: decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions.
+
+Give the idea a bodily path: Touch the scalable oversight key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Reviewing Work Too Large for One Person
 
 Review module contracts, run integration properties, and deeply inspect anomalous diffs.

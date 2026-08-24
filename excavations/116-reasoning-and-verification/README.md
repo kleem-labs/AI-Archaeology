@@ -33,6 +33,28 @@ The repair can now be stated without mystery: represent intermediate claims and 
 
 One boundary in the room is now sharper. On one side lies the promise to judge only the final answer; on the other lies the observed fact that a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan. The bridge called reasoning and verification has exactly the planks needed to represent intermediate claims and verify each with an appropriate checker or evidence source.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we judge only the final answer?
+
+## When the chamber changes
+
+Keep the formal name Reasoning and Verification covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The compass follows the tempting path—judge only the final answer. Then the evidence answers: a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The compass can now represent intermediate claims and verify each with an appropriate checker or evidence source.
+
+The object that should remain after the terminology disappears is **the reasoning and verification compass mounted on the table of mirrored maps**.
+
+> **Memory seal — Reasoning and Verification**
+>
+> Reasoning and Verification keeps the missing power: represent intermediate claims and verify each with an appropriate checker or evidence source.
+
+Give the idea a bodily path: Touch the reasoning and verification compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Understanding reasoning and verification
 
 A geometry solution checks every equality before accepting the final area.

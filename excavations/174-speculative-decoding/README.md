@@ -33,6 +33,28 @@ The enginewright changes only that one responsibility: let the draft propose a s
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because speed improves by silently replacing the trusted target distribution with a weaker model's distribution, while the other can let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. That fork—not the vocabulary—is where speculative decoding lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we let a cheap draft model emit several tokens and return them directly?
+
+## When the chamber changes
+
+The mathematical name Speculative Decoding can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The gear follows the tempting path—let a cheap draft model emit several tokens and return them directly. Then the evidence answers: speed improves by silently replacing the trusted target distribution with a weaker model's distribution.
+
+Now let the chamber move: The enginewright changes one moving part. The gear can now let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling.
+
+The object that should remain after the terminology disappears is **the speculative decoding gear mounted on the brass reference machine**.
+
+> **Memory seal — Speculative Decoding**
+>
+> Speculative Decoding keeps the missing power: let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling.
+
+Give the idea a bodily path: Touch the speculative decoding gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Let a Small Model Propose, Never Decide
 
 The draft proposes “the tiger sleeps.” One target call verifies all three positions; an unsupported token is rejected and sampling resumes from the corrected target distribution.

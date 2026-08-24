@@ -32,6 +32,28 @@ Only the missing distinction is restored: keep selected checkpoint activations a
 
 The enginewright places a finger over the new distinction. At once the two cases collapse and backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly. Lifting the finger restores only this capacity: keep selected checkpoint activations and recompute the missing segments once when backward reaches them. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we delete all activations after the forward pass?
+
+## When the chamber changes
+
+Keep the formal name Activation Checkpointing covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The wheel follows the tempting path—delete all activations after the forward pass. Then the evidence answers: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly.
+
+Now let the chamber move: The enginewright changes one moving part. The wheel can now keep selected checkpoint activations and recompute the missing segments once when backward reaches them.
+
+The object that should remain after the terminology disappears is **the activation checkpointing wheel mounted on the brass reference machine**.
+
+> **Memory seal — Activation Checkpointing**
+>
+> Activation Checkpointing keeps the missing power: keep selected checkpoint activations and recompute the missing segments once when backward reaches them.
+
+Give the idea a bodily path: Touch the activation checkpointing wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Remember Less, Recompute Exactly
 
 In a nine-layer chain, retain boundaries around three-layer segments. Backward rebuilds one segment at a time instead of storing all nine layers.

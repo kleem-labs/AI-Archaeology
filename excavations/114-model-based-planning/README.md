@@ -33,6 +33,28 @@ The keeper of unfinished questions changes only that one responsibility: simulat
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because one forecast may exploit model error or miss better branches, while the other can simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. That fork—not the vocabulary—is where model-based planning lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we commit to the first sequence imagined?
+
+## When the chamber changes
+
+The mathematical name Model-Based Planning can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The key follows the tempting path—commit to the first sequence imagined. Then the evidence answers: one forecast may exploit model error or miss better branches.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The key can now simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.
+
+The object that should remain after the terminology disappears is **the model-based planning key mounted on the table of mirrored maps**.
+
+> **Memory seal — Model-Based Planning**
+>
+> Model-Based Planning keeps the missing power: simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.
+
+Give the idea a bodily path: Touch the model-based planning key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Understanding model-based planning
 
 A robot simulates left-right paths, takes one safe step, then updates after detecting an obstacle.

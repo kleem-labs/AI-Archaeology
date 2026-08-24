@@ -35,6 +35,28 @@ The evidence permits one narrow invention: represent plausible causal structure 
 
 What changed on the table of mirrored maps can be said without symbols. Before, the method could only treat every correlation as a controllable cause; now it can also represent plausible causal structure and distinguish observing a variable from intervening on it. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we treat every correlation as a controllable cause?
+
+## When the chamber changes
+
+The Causal Inference chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The seal follows the tempting path—treat every correlation as a controllable cause. Then the evidence answers: the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The seal can now represent plausible causal structure and distinguish observing a variable from intervening on it.
+
+The object that should remain after the terminology disappears is **the causal inference seal mounted on the table of mirrored maps**.
+
+> **Memory seal — Causal Inference**
+>
+> Causal Inference keeps the missing power: represent plausible causal structure and distinguish observing a variable from intervening on it.
+
+Give the idea a bodily path: Touch the causal inference seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Understanding causal inference
 
 Observing umbrellas predicts rain; forcing umbrellas open does not cause rain.

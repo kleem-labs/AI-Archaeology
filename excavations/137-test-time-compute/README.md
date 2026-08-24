@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In test-time compute, that memory takes a precise form: whenever the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing, preserve enough structure to allocate extra attempts or steps only when uncertainty and verification justify their cost.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we make every model response extremely long?
+
+## When the chamber changes
+
+The Test-Time Compute chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The vessel follows the tempting path—make every model response extremely long. Then the evidence answers: the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing.
+
+Now let the chamber move: The experimentalist changes one moving part. The vessel can now allocate extra attempts or steps only when uncertainty and verification justify their cost.
+
+The object that should remain after the terminology disappears is **the test-time compute vessel mounted on the sealed evidence ledger**.
+
+> **Memory seal — Test-Time Compute**
+>
+> Test-Time Compute keeps the missing power: allocate extra attempts or steps only when uncertainty and verification justify their cost.
+
+Give the idea a bodily path: Touch the test-time compute vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Thinking Longer on Harder Problems
 
 Answer 2+2 immediately, but generate and check several candidate routes for a scheduling puzzle.

@@ -53,6 +53,25 @@ The repair can now be stated without mystery: create an immutable manifest that 
 
 One boundary in the room is now sharper. On one side lies the promise to copy every available text file into one large folder and begin tokenizing; on the other lies the observed fact that a file is replaced upstream, another is silently skipped, and a third appears twice under different paths. The same training command now describes a different body of evidence. The bridge called corpus manifest has exactly the planks needed to create an immutable manifest that records each source, version, content hash, license or usage basis, processing stage, and document count before any training shard exists. In the Archive Foundry, corpus manifest joins mathematics to memory. Sets identify what must be present, hashes preserve identity, counts bound exposure, and arrows keep every transformation attached to its source. A model may forget its documents internally; the factory must not forget them externally.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we copy every available text file into one large folder and begin tokenizing?
+
+#### When the chamber changes
+
+Keep the formal name A Corpus Manifest covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The seal follows the tempting path—copy every available text file into one large folder and begin tokenizing. Then the evidence answers: a file is replaced upstream, another is silently skipped, and a third appears twice under different paths. The same training command now describes a different body of evidence.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The seal can now create an immutable manifest that records each source, version, content hash, license or usage basis, processing stage, and document count before any training shard exists.
+
+The object that should remain after the terminology disappears is **the corpus manifest seal mounted on the chain-of-custody ledger**.
+
+> **Memory seal — A Corpus Manifest**
+>
+> A Corpus Manifest keeps the missing power: create an immutable manifest that records each source, version, content hash, license or usage basis, processing stage, and document count before any training shard exists.
+
+Give the idea a bodily path: Touch the corpus manifest seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Know What Entered the Run
 
 The ranger station records `field-reports/v3`, its retrieval date, 8,412 documents, and the hash of its manifest. A later run can prove whether it used the same evidence.
@@ -62,12 +81,6 @@ The ranger station records `field-reports/v3`, its retrieval date, 8,412 documen
 A manifest makes the corpus accountable; it cannot prove that every recorded document is suitable, lawful, accurate, or harmless.
 
 A final test reaches beyond the new instrument. It does not refute Corpus Manifest; it reveals the edge of what was constructed. The archivist-engineer carries that edge into the following room.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the corpus manifest scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/176-corpus-manifest/README.md).*
 
@@ -103,6 +116,25 @@ Only the missing distinction is restored: mark document ends, reset position whe
 
 The archivist-engineer does not memorize document boundaries. Instead, the archivist-engineer memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended. The formal name merely lets that motion be shared.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width?
+
+#### When the chamber changes
+
+The Document Boundaries chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The lens follows the tempting path—join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width. Then the evidence answers: a ranger report ending with “tiger tracks near” is trained to predict the first word of an unrelated software license. The model receives a relationship that never existed in either document.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The lens can now mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended.
+
+The object that should remain after the terminology disappears is **the document boundaries lens mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Document Boundaries**
+>
+> Document Boundaries keeps the missing power: mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended.
+
+Give the idea a bodily path: Touch the document boundaries lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Keep One Story from Leaking into Another
 
 Two short documents share one packed row, but a boundary mask lets each token read only tokens from its own document. The empty hardware space is saved without inventing a false continuation.
@@ -128,12 +160,6 @@ $$
 Boundary isolation prevents accidental cross-document lessons; it cannot decide whether two paragraphs really belong to the same source document.
 
 One unsolved mark remains on the chain-of-custody ledger. None of the responsibilities inside Document Boundaries can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the document boundaries scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/177-document-boundaries/README.md).*
 
@@ -169,6 +195,25 @@ The evidence permits one narrow invention: use a calibrated language classifier,
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—keep documents containing mostly familiar Latin characters and discard the rest? The answer remains spanish and Vietnamese are mistaken for English, transliterated languages disappear, and English code or identifier lists pass despite containing little natural language. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we keep documents containing mostly familiar Latin characters and discard the rest?
+
+#### When the chamber changes
+
+Before leaving Language Identification, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The key follows the tempting path—keep documents containing mostly familiar Latin characters and discard the rest. Then the evidence answers: spanish and Vietnamese are mistaken for English, transliterated languages disappear, and English code or identifier lists pass despite containing little natural language.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The key can now use a calibrated language classifier, retain its confidence and model version, and route uncertain documents to an explicit unknown bucket rather than forcing a label.
+
+The object that should remain after the terminology disappears is **the language identification key mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Language Identification**
+>
+> Language Identification keeps the missing power: use a calibrated language classifier, retain its confidence and model version, and route uncertain documents to an explicit unknown bucket rather than forcing a label.
+
+Give the idea a bodily path: Touch the language identification key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Do Not Confuse Familiar Script with Familiar Language
 
 A field report receives English 0.93, Spanish 0.05, and unknown 0.02. The pipeline keeps English only because its score clears the recorded threshold; a 0.44/0.41 split is quarantined.
@@ -194,12 +239,6 @@ $$
 Because the classifier learned from finite examples and reduces a mixed document to one distribution, language identification remains probabilistic and domain-sensitive; short, multilingual, and code-heavy documents are especially difficult.
 
 The language identification repair holds, but the world asks for something it was never given. At the Archive Foundry, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the language identification scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/178-language-identification/README.md).*
 
@@ -235,6 +274,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the chain-of-custody ledger form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. exact deduplication is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we leave duplicates in place because more training examples should always help?
+
+#### When the chamber changes
+
+The mathematical name Exact Deduplication can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The lantern follows the tempting path—leave duplicates in place because more training examples should always help. Then the evidence answers: one press release copied to a thousand sites receives a thousand votes, while a rare field observation receives one. Compute is spent memorizing repetition rather than encountering new evidence.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The lantern can now normalize only irrelevant formatting, hash the resulting document, and keep one accountable representative for each identical hash while preserving duplicate counts in the ledger.
+
+The object that should remain after the terminology disappears is **the exact deduplication lantern mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Exact Deduplication**
+>
+> Exact Deduplication keeps the missing power: normalize only irrelevant formatting, hash the resulting document, and keep one accountable representative for each identical hash while preserving duplicate counts in the ledger.
+
+Give the idea a bodily path: Touch the exact deduplication lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Stop Paying Twice for the Same Document
 
 Three files differ only in line endings and trailing spaces. After recorded normalization they produce the same fingerprint, so one enters training and the manifest records three original locations.
@@ -260,12 +318,6 @@ $$
 Because a cryptographic hash reacts to any retained content change, exact hashes catch identical normalized text but give a copied article with one inserted advertisement a different fingerprint.
 
 Here the new path ends honestly. Exact Deduplication can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the exact deduplication scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/179-exact-deduplication/README.md).*
 
@@ -305,6 +357,25 @@ The archivist-engineer changes only that one responsibility: represent each docu
 
 The chain-of-custody ledger keeps both histories. Its older mark still says, ‘lowercase both documents and demand that every remaining word match’; beside it, the newer mark says, ‘represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale.’ The distance between those sentences is the exact shape of near deduplication: no larger than the failure required, and no smaller than reality permits.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** When a Copy Changes a Few Words?
+
+#### When the chamber changes
+
+The Near Deduplication room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The compass follows the tempting path—lowercase both documents and demand that every remaining word match. Then the evidence answers: one inserted advertisement defeats the rule, while independently written short notices can match by accident. Exact sequence equality is too brittle for disguised copies.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The compass can now represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale.
+
+The object that should remain after the terminology disappears is **the near deduplication compass mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Near Deduplication**
+>
+> Near Deduplication keeps the missing power: represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale.
+
+Give the idea a bodily path: Touch the near deduplication compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### When a Copy Changes a Few Words
 
 The original report has ten shingles; its mirrored copy shares eight and introduces two. Their intersection has eight shingles and their union has twelve, giving similarity 8/12 rather than pretending the documents are either perfectly equal or wholly unrelated.
@@ -332,12 +403,6 @@ $$
 Near-deduplication depends on shingle size and threshold; aggressive settings can erase legitimate quotations, templates, or independent accounts.
 
 At the Archive Foundry, the archivist-engineer leaves a blank beneath the new mark. Near Deduplication has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the near deduplication scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/180-near-deduplication/README.md).*
 
@@ -375,6 +440,25 @@ So the chain-of-custody ledger is altered in exactly one way: combine transparen
 
 Nothing is erased from the chain-of-custody ledger. The failed path remains visible beneath the repair, because quality filtering is easier to remember when its scar remains attached to it. The scar reads, ‘the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference’; the new line exists only to keep that loss from happening again.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we keep only documents that resemble one prestigious encyclopedia?
+
+#### When the chamber changes
+
+Keep the formal name Quality Filtering covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The bridge follows the tempting path—keep only documents that resemble one prestigious encyclopedia. Then the evidence answers: the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The bridge can now combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter.
+
+The object that should remain after the terminology disappears is **the quality filtering bridge mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Quality Filtering**
+>
+> Quality Filtering keeps the missing power: combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter.
+
+Give the idea a bodily path: Touch the quality filtering bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Remove Noise Without Defining Humanity Away
 
 The station rejects a page with 70 percent repeated navigation and no sentences, but manually audits samples near the threshold and notices that short emergency bulletins need a different rule from essays.
@@ -384,12 +468,6 @@ The station rejects a page with 70 percent repeated navigation and no sentences,
 Every quality filter encodes values and domain assumptions; measured downstream gains do not prove that excluded voices were unimportant.
 
 The chain-of-custody ledger answers today's question and falls silent at the next. That silence is precise: Quality Filtering was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the quality filtering scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/181-quality-filtering/README.md).*
 
@@ -424,6 +502,25 @@ The repair can now be stated without mystery: assign stable document identities 
 
 A thread now runs backward from data provenance through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we save only the final cleaned text because intermediate metadata costs storage?
+
+#### When the chamber changes
+
+The Data Provenance chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The thread follows the tempting path—save only the final cleaned text because intermediate metadata costs storage. Then the evidence answers: a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The thread can now assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard.
+
+The object that should remain after the terminology disappears is **the data provenance thread mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Data Provenance**
+>
+> Data Provenance keeps the missing power: assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard.
+
+Give the idea a bodily path: Touch the data provenance thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Keep the Path Back to Every Source
 
 Document `river-0042` points to its source URL, retrieval time, raw hash, language decision, duplicate cluster, quality audit, redaction record, and final shard offset.
@@ -433,12 +530,6 @@ Document `river-0042` points to its source URL, retrieval time, raw hash, langua
 Provenance makes decisions inspectable; it cannot repair a source that was collected without sufficient rights, consent, or context.
 
 A final test reaches beyond the new instrument. It does not refute Data Provenance; it reveals the edge of what was constructed. The archivist-engineer carries that edge into the following room.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the data provenance scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/182-data-provenance/README.md).*
 
@@ -474,6 +565,25 @@ Only the missing distinction is restored: detect candidate spans with several me
 
 The archivist-engineer places a finger over the new distinction. At once the two cases collapse and one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span. Lifting the finger restores only this capacity: detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision. That tiny reversible motion is the chapter's proof of necessity.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we remove any entire document containing a sequence that resembles personal information?
+
+#### When the chamber changes
+
+Before leaving PII Redaction, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The mirror follows the tempting path—remove any entire document containing a sequence that resembles personal information. Then the evidence answers: one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The mirror can now detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision.
+
+The object that should remain after the terminology disappears is **the pii redaction mirror mounted on the chain-of-custody ledger**.
+
+> **Memory seal — PII Redaction**
+>
+> PII Redaction keeps the missing power: detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision.
+
+Give the idea a bodily path: Touch the pii redaction mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Do Not Turn Accidental Secrets into Lessons
 
 The sentence “Call Maya at 555-0142 about the injured tiger” becomes “Call [PERSON] at [PHONE] about the injured tiger”; the grammatical lesson survives while the direct identifier does not.
@@ -483,12 +593,6 @@ The sentence “Call Maya at 555-0142 about the injured tiger” becomes “Call
 Redaction has false positives and false negatives, and public availability does not by itself settle privacy, consent, or appropriate use.
 
 One unsolved mark remains on the chain-of-custody ledger. None of the responsibilities inside PII Redaction can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the pii redaction scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/183-pii-redaction/README.md).*
 
@@ -524,6 +628,25 @@ The evidence permits one narrow invention: choose and publish a probability weig
 
 What changed on the chain-of-custody ledger can be said without symbols. Before, the method could only concatenate every accepted source and let its raw token count determine how often it appears; now it can also choose and publish a probability weight for each domain, treating the mixture as an explicit modeling decision that must be tested on per-domain validation streams. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we concatenate every accepted source and let its raw token count determine how often it appears?
+
+#### When the chamber changes
+
+The mathematical name Data Mixtures can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The bell follows the tempting path—concatenate every accepted source and let its raw token count determine how often it appears. Then the evidence answers: the largest crawl silently becomes the curriculum. A source ten thousand times smaller may almost never reach a batch even when it carries relationships absent from the web.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The bell can now choose and publish a probability weight for each domain, treating the mixture as an explicit modeling decision that must be tested on per-domain validation streams.
+
+The object that should remain after the terminology disappears is **the data mixtures bell mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Data Mixtures**
+>
+> Data Mixtures keeps the missing power: choose and publish a probability weight for each domain, treating the mixture as an explicit modeling decision that must be tested on per-domain validation streams.
+
+Give the idea a bodily path: Touch the data mixtures bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Decide Which Worlds Receive a Voice
 
 The station assigns 0.50 to curated web text, 0.20 to science, 0.15 to code, 0.10 to books, and 0.05 to field reports. The five shares exhaust one draw without pretending the sources are equally large or equally important.
@@ -551,12 +674,6 @@ $$
 Mixture weights redistribute attention but cannot make a poor or missing domain representative, accurate, or safe.
 
 The data mixtures repair holds, but the world asks for something it was never given. At the Archive Foundry, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the data mixtures scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/184-data-mixtures/README.md).*
 
@@ -592,6 +709,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In mixture sampling, that memory takes a precise form: whenever independent rounding can exceed the budget, and long blocks make training order depend on domain. A small domain may vanish when its expected count rounds to zero, preserve enough structure to use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we round each domain's desired share independently and concatenate the resulting blocks?
+
+#### When the chamber changes
+
+The Mixture Sampling room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The vessel follows the tempting path—round each domain's desired share independently and concatenate the resulting blocks. Then the evidence answers: independent rounding can exceed the budget, and long blocks make training order depend on domain. A small domain may vanish when its expected count rounds to zero.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The vessel can now use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source.
+
+The object that should remain after the terminology disappears is **the mixture sampling vessel mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Mixture Sampling**
+>
+> Mixture Sampling keeps the missing power: use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source.
+
+Give the idea a bodily path: Touch the mixture sampling vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Turn Planned Shares into a Reproducible Stream
 
 For 1,000 document draws, a 0.05 field-report weight expects about 50 selections. The seeded schedule interleaves those reports with other domains and records the actual count rather than promising exact equality by chance.
@@ -619,12 +755,6 @@ $$
 Sampling realizes probabilities only approximately in a finite run, and replacement can repeat scarce documents enough to increase memorization.
 
 Here the new path ends honestly. Mixture Sampling can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the mixture sampling scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/185-mixture-sampling/README.md).*
 
@@ -664,6 +794,25 @@ The archivist-engineer changes only that one responsibility: define the run by o
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence, while the other can define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute. That fork—not the vocabulary—is where token budget lives.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we stop when the wall clock reaches an affordable date?
+
+#### When the chamber changes
+
+Keep the formal name The Token Budget covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The gate follows the tempting path—stop when the wall clock reaches an affordable date. Then the evidence answers: faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The gate can now define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute.
+
+The object that should remain after the terminology disappears is **the token budget gate mounted on the chain-of-custody ledger**.
+
+> **Memory seal — The Token Budget**
+>
+> The Token Budget keeps the missing power: define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute.
+
+Give the idea a bodily path: Touch the token budget gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Convert a Training Plan into a Count of Lessons
 
 A tiny run uses 2,000 updates with 32 sequences of 128 real tokens each. Every update carries 4,096 lessons, so the complete plan exposes 8,192,000 tokens.
@@ -691,12 +840,6 @@ $$
 Equal token counts do not imply equal compute when model size, sequence length, sparsity, or hardware efficiency differs.
 
 At the Archive Foundry, the archivist-engineer leaves a blank beneath the new mark. Token Budget has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the token budget scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/186-token-budget/README.md).*
 
@@ -734,6 +877,25 @@ So the chain-of-custody ledger is altered in exactly one way: estimate candidate
 
 The chain-of-custody ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and compute-optimal allocation looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we spend nearly the entire budget on parameter count because a larger model can store more patterns?
+
+#### When the chamber changes
+
+The Compute-Optimal Allocation chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The wheel follows the tempting path—spend nearly the entire budget on parameter count because a larger model can store more patterns. Then the evidence answers: the large model is stopped after too little experience and remains undertrained, while much of its expensive capacity never receives enough varied evidence.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The wheel can now estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone.
+
+The object that should remain after the terminology disappears is **the compute-optimal allocation wheel mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Compute-Optimal Allocation**
+>
+> Compute-Optimal Allocation keeps the missing power: estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone.
+
+Give the idea a bodily path: Touch the compute-optimal allocation wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Buy a Larger Memory or More Experience
 
 The station compares doubling parameters while halving tokens with keeping the smaller model and doubling tokens. Because both alter the same compute bill, held-out scaling runs decide which balance learns more.
@@ -761,12 +923,6 @@ $$
 Compute-optimal estimates are empirical and depend on architecture, data quality, optimizer, and the inference cost the project can afford afterward.
 
 The chain-of-custody ledger answers today's question and falls silent at the next. That silence is precise: Compute-Optimal Allocation was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the compute-optimal allocation scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/187-compute-optimal-allocation/README.md).*
 
@@ -801,6 +957,25 @@ The repair can now be stated without mystery: increase the learning rate gradual
 
 One boundary in the room is now sharper. On one side lies the promise to begin immediately at the peak learning rate chosen for the stable middle of training; on the other lies the observed fact that the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused. The bridge called learning-rate warmup has exactly the planks needed to increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we begin immediately at the peak learning rate chosen for the stable middle of training?
+
+#### When the chamber changes
+
+Before leaving Learning-Rate Warmup, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The map follows the tempting path—begin immediately at the peak learning rate chosen for the stable middle of training. Then the evidence answers: the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The map can now increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
+
+The object that should remain after the terminology disappears is **the learning-rate warmup map mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Learning-Rate Warmup**
+>
+> Learning-Rate Warmup keeps the missing power: increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
+
+Give the idea a bodily path: Touch the learning-rate warmup map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Let Adam Learn the Terrain Before Running
 
 With peak rate 0.001 and 100 warmup updates, update 25 receives 0.00025, update 50 receives 0.0005, and update 100 finally reaches 0.001.
@@ -828,12 +1003,6 @@ $$
 Warmup reduces early shock but cannot rescue an unsuitable peak rate, broken initialization, corrupt batch, or incorrect optimizer state.
 
 A final test reaches beyond the new instrument. It does not refute Learning-Rate Warmup; it reveals the edge of what was constructed. The archivist-engineer carries that edge into the following room.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the learning-rate warmup scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/188-learning-rate-warmup/README.md).*
 
@@ -869,6 +1038,25 @@ Only the missing distinction is restored: decay smoothly from the peak toward a 
 
 The archivist-engineer does not memorize cosine decay. Instead, the archivist-engineer memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. The formal name merely lets that motion be shared.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we drop the rate abruptly near the end of training?
+
+#### When the chamber changes
+
+The mathematical name Cosine Decay can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The scale follows the tempting path—drop the rate abruptly near the end of training. Then the evidence answers: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The scale can now decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state.
+
+The object that should remain after the terminology disappears is **the cosine decay scale mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Cosine Decay**
+>
+> Cosine Decay keeps the missing power: decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state.
+
+Give the idea a bodily path: Touch the cosine decay scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Make Late Corrections Smaller Without a Cliff
 
 Halfway through decay, cosine is zero, so the rate sits halfway between its peak and minimum. At the final planned update, cosine reaches negative one and the rate reaches the minimum without a jump.
@@ -896,12 +1084,6 @@ $$
 Cosine decay assumes a known horizon and is not automatically optimal when training is unexpectedly extended.
 
 One unsolved mark remains on the chain-of-custody ledger. None of the responsibilities inside Cosine Decay can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the cosine decay scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/189-cosine-decay/README.md).*
 
@@ -937,6 +1119,25 @@ The evidence permits one narrow invention: measure disagreement among micro-batc
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—make the global batch as large as the cluster permits? The answer remains early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** When More Examples Stop Buying More Direction?
+
+#### When the chamber changes
+
+The Gradient Noise Scale room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The gear follows the tempting path—make the global batch as large as the cluster permits. Then the evidence answers: early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The gear can now measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target.
+
+The object that should remain after the terminology disappears is **the gradient noise scale gear mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Gradient Noise Scale**
+>
+> Gradient Noise Scale keeps the missing power: measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target.
+
+Give the idea a bodily path: Touch the gradient noise scale gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### When More Examples Stop Buying More Direction
 
 Three named micro-batches question the same two weights: the field reports propose [2.0,1.0], science proposes [2.1,0.9], and books propose [1.9,1.1]. The first number is advice to the tiger-before-river weight; the second is advice to a punctuation weight. Their mean [2.0,1.0] is strong and their disagreement around it is small. If the witnesses instead propose [4,−2], [0,4], and [2,1], disagreement is large relative to the same broad direction, so a larger batch can still buy useful certainty.
@@ -964,12 +1165,6 @@ $$
 Gradient noise scale is an empirical guide, not a universal batch-size law; it changes during training and with the task and optimizer.
 
 The gradient noise scale repair holds, but the world asks for something it was never given. At the Archive Foundry, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the gradient noise scale scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/190-gradient-noise-scale/README.md).*
 
@@ -1005,6 +1200,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the chain-of-custody ledger form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. data parallelism is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we send the same mini-batch to every worker and average their gradients?
+
+#### When the chamber changes
+
+Keep the formal name Data Parallelism covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The prism follows the tempting path—send the same mini-batch to every worker and average their gradients. Then the evidence answers: all workers repeat the same computation and return the same evidence, so hardware cost rises without increasing batch diversity or reducing step time meaningfully.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The prism can now replicate the current model view, give each worker a different slice of the global batch, average their gradients, and apply one logically shared update.
+
+The object that should remain after the terminology disappears is **the data parallelism prism mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Data Parallelism**
+>
+> Data Parallelism keeps the missing power: replicate the current model view, give each worker a different slice of the global batch, average their gradients, and apply one logically shared update.
+
+Give the idea a bodily path: Touch the data parallelism prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Let Several Workers Observe Different Evidence
 
 Four workers each read eight different sequences. Their four average gradients become one average over thirty-two sequences before any worker advances the parameters.
@@ -1032,12 +1246,6 @@ $$
 Because one shared update cannot proceed until every worker's evidence has joined the average, synchronous data parallelism waits for the slowest worker and communicates a full update's worth of gradient information.
 
 Here the new path ends honestly. Data Parallelism can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the data parallelism scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/191-data-parallelism/README.md).*
 
@@ -1077,6 +1285,25 @@ The archivist-engineer changes only that one responsibility: split the batch int
 
 The chain-of-custody ledger keeps both histories. Its older mark still says, ‘send one complete batch through stage one, then stage two, then stage three’; beside it, the newer mark says, ‘split the batch into micro-batches and stagger them through the layer stages so different stages work on different micro-batches concurrently.’ The distance between those sentences is the exact shape of pipeline parallelism: no larger than the failure required, and no smaller than reality permits.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we send one complete batch through stage one, then stage two, then stage three?
+
+#### When the chamber changes
+
+The Pipeline Parallelism chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The seal follows the tempting path—send one complete batch through stage one, then stage two, then stage three. Then the evidence answers: while stage two works, stage one and stage three wait. The model fits, but most devices are idle for most of the step.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The seal can now split the batch into micro-batches and stagger them through the layer stages so different stages work on different micro-batches concurrently.
+
+The object that should remain after the terminology disappears is **the pipeline parallelism seal mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Pipeline Parallelism**
+>
+> Pipeline Parallelism keeps the missing power: split the batch into micro-batches and stagger them through the layer stages so different stages work on different micro-batches concurrently.
+
+Give the idea a bodily path: Touch the pipeline parallelism seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Stop Waiting for the Whole Model to Cross One Device at a Time
 
 With four pipeline stages and eight micro-batches, the first few clock slots fill the pipeline, eight slots carry useful work, and the last few drain it. More micro-batches shrink the idle fraction.
@@ -1104,12 +1331,6 @@ $$
 Because sequential layer dependencies require the pipeline to fill and drain, pipeline parallelism introduces bubbles and activation transfers; making micro-batches too small can then reduce the efficiency of each matrix operation.
 
 At the Archive Foundry, the archivist-engineer leaves a blank beneath the new mark. Pipeline Parallelism has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the pipeline parallelism scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/192-pipeline-parallelism/README.md).*
 
@@ -1147,6 +1368,25 @@ So the chain-of-custody ledger is altered in exactly one way: compose tensor par
 
 Nothing is erased from the chain-of-custody ledger. The failed path remains visible beneath the repair, because three-dimensional parallelism is easier to remember when its scar remains attached to it. The scar reads, ‘more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently’; the new line exists only to keep that loss from happening again.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we increase whichever parallel technique was introduced most recently until the model fits?
+
+#### When the chamber changes
+
+Before leaving Three-Dimensional Parallelism, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The lens follows the tempting path—increase whichever parallel technique was introduced most recently until the model fits. Then the evidence answers: more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The lens can now compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost.
+
+The object that should remain after the terminology disappears is **the three-dimensional parallelism lens mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Three-Dimensional Parallelism**
+>
+> Three-Dimensional Parallelism keeps the missing power: compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost.
+
+Give the idea a bodily path: Touch the three-dimensional parallelism lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Give Each Memory Wall Its Own Axis
 
 Two tensor workers form each layer, four pipeline stages hold the depth, and three data replicas see different examples. The run uses 2×4×3=24 workers with each axis performing one named job.
@@ -1174,12 +1414,6 @@ $$
 Three-dimensional parallelism increases coordination and configuration complexity; a poor mapping to the physical network can spend more time communicating than computing.
 
 The chain-of-custody ledger answers today's question and falls silent at the next. That silence is precise: Three-Dimensional Parallelism was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the three-dimensional parallelism scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/193-three-dimensional-parallelism/README.md).*
 
@@ -1214,6 +1448,25 @@ The repair can now be stated without mystery: write versioned shards to temporar
 
 A thread now runs backward from sharded checkpoints through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we let every worker write its local tensors and call the directory a checkpoint?
+
+#### When the chamber changes
+
+The mathematical name Sharded Checkpoints can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The key follows the tempting path—let every worker write its local tensors and call the directory a checkpoint. Then the evidence answers: a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The key can now write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable.
+
+The object that should remain after the terminology disappears is **the sharded checkpoints key mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Sharded Checkpoints**
+>
+> Sharded Checkpoints keeps the missing power: write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable.
+
+Give the idea a bodily path: Touch the sharded checkpoints key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Save One Recoverable State Without Gathering It
 
 Twenty-four workers save step 8,000. The manifest expects twenty-four parameter shards, optimizer shards, scheduler state, RNG state, and data cursors; the checkpoint becomes eligible for recovery only when every recorded hash verifies.
@@ -1223,12 +1476,6 @@ Twenty-four workers save step 8,000. The manifest expects twenty-four parameter 
 A complete checkpoint limits lost work but consumes storage and I/O bandwidth; frequent synchronous saves can dominate training time.
 
 A final test reaches beyond the new instrument. It does not refute Sharded Checkpoints; it reveals the edge of what was constructed. The archivist-engineer carries that edge into the following room.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the sharded checkpoints scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/194-sharded-checkpoints/README.md).*
 
@@ -1264,6 +1511,25 @@ Only the missing distinction is restored: checkpoint every state variable that i
 
 The archivist-engineer places a finger over the new distinction. At once the two cases collapse and adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run. Lifting the finger restores only this capacity: checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps. That tiny reversible motion is the chapter's proof of necessity.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we restore model weights and let every other component start fresh?
+
+#### When the chamber changes
+
+The Deterministic Resume room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The lantern follows the tempting path—restore model weights and let every other component start fresh. Then the evidence answers: adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The lantern can now checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps.
+
+The object that should remain after the terminology disappears is **the deterministic resume lantern mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Deterministic Resume**
+>
+> Deterministic Resume keeps the missing power: checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps.
+
+Give the idea a bodily path: Touch the deterministic resume lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Continue the Same Experiment, Not a Similar One
 
 The station stops after update 200, restores weights, Adam moments, schedule position, scaler, RNG streams, and each data cursor, then reproduces updates 201 through 205 byte for byte on the reference implementation.
@@ -1273,12 +1539,6 @@ The station stops after update 200, restores weights, Adam moments, schedule pos
 Exact replay can still fail across nondeterministic kernels, changed hardware, libraries, or distributed timing; the required reproducibility level must be stated.
 
 One unsolved mark remains on the chain-of-custody ledger. None of the responsibilities inside Deterministic Resume can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the deterministic resume scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/195-deterministic-resume/README.md).*
 
@@ -1314,6 +1574,25 @@ The evidence permits one narrow invention: compare current loss and gradient nor
 
 What changed on the chain-of-custody ledger can be said without symbols. Before, the method could only declare any loss larger than the previous loss a failure and restore immediately; now it can also compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we declare any loss larger than the previous loss a failure and restore immediately?
+
+#### When the chamber changes
+
+Keep the formal name Loss Spikes covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The compass follows the tempting path—declare any loss larger than the previous loss a failure and restore immediately. Then the evidence answers: ordinary batches vary, so healthy learning triggers constant rollbacks. A slow divergence can rise without one dramatic step and escape the rule.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The compass can now compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response.
+
+The object that should remain after the terminology disappears is **the loss spikes compass mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Loss Spikes**
+>
+> Loss Spikes keeps the missing power: compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response.
+
+Give the idea a bodily path: Touch the loss spikes compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Distinguish One Hard Batch from a Run Leaving the Road
 
 Recent clean validation losses center near 2.0 with spread 0.1. One batch reaches 2.35 and then returns; another run stays above 2.5 while gradient norm grows. Only the persistent, corroborated event triggers recovery.
@@ -1341,12 +1620,6 @@ $$
 Thresholds detect symptoms, not causes; corrupt data, overflow, optimizer settings, hardware faults, and architectural instability require different repairs.
 
 The loss spikes repair holds, but the world asks for something it was never given. At the Archive Foundry, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the loss spikes scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/196-loss-spike-recovery/README.md).*
 
@@ -1382,6 +1655,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In validation stream, that memory takes a precise form: whenever the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse, preserve enough structure to maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we evaluate only the next training batch because it is already available?
+
+#### When the chamber changes
+
+The A Validation Stream chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The bridge follows the tempting path—evaluate only the next training batch because it is already available. Then the evidence answers: the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The bridge can now maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights.
+
+The object that should remain after the terminology disappears is **the validation stream bridge mounted on the chain-of-custody ledger**.
+
+> **Memory seal — A Validation Stream**
+>
+> A Validation Stream keeps the missing power: maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights.
+
+Give the idea a bodily path: Touch the validation stream bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Ask Whether Learning Survives Outside the Current Batch
 
 After every million training tokens, the station measures held-out field reports, science, books, code, and web text separately. A lower global average cannot hide that field-report loss rose.
@@ -1409,12 +1701,6 @@ $$
 Validation detects only the distributions and behaviors represented in its finite streams; repeatedly tuning against it can eventually overfit it.
 
 Here the new path ends honestly. Validation Stream can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the validation stream scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/197-validation-stream/README.md).*
 
@@ -1454,6 +1740,25 @@ The archivist-engineer changes only that one responsibility: plant consented syn
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because a model has no reliable introspective inventory of its training examples, and ordinary prompts may miss strings that an adversarial sampling strategy can recover, while the other can plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts. That fork—not the vocabulary—is where memorization audit lives.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we ask the model whether it remembers private text and trust its answer?
+
+#### When the chamber changes
+
+Before leaving A Memorization Audit, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The thread follows the tempting path—ask the model whether it remembers private text and trust its answer. Then the evidence answers: a model has no reliable introspective inventory of its training examples, and ordinary prompts may miss strings that an adversarial sampling strategy can recover.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The thread can now plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts.
+
+The object that should remain after the terminology disappears is **the memorization audit thread mounted on the chain-of-custody ledger**.
+
+> **Memory seal — A Memorization Audit**
+>
+> A Memorization Audit keeps the missing power: plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts.
+
+Give the idea a bodily path: Touch the memorization audit thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Did the Model Learn a Pattern or Store a Passage
 
 The station inserts one synthetic radio code once and another code one hundred times. If the repeated code becomes far easier to rank and complete, the audit exposes the relationship between repetition and extractable memory without using a real secret.
@@ -1481,12 +1786,6 @@ $$
 A canary audit samples possible attacks and strings; passing it does not prove that no training data can be extracted.
 
 At the Archive Foundry, the archivist-engineer leaves a blank beneath the new mark. Memorization Audit has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the memorization audit scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/198-memorization-audit/README.md).*
 
@@ -1524,6 +1823,25 @@ So the chain-of-custody ledger is altered in exactly one way: generate a trainin
 
 The chain-of-custody ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and training report looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we publish the final benchmark table and assume the configuration files explain the rest?
+
+#### When the chamber changes
+
+The mathematical name The Training Report can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The mirror follows the tempting path—publish the final benchmark table and assume the configuration files explain the rest. Then the evidence answers: a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The mirror can now generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions.
+
+The object that should remain after the terminology disappears is **the training report mirror mounted on the chain-of-custody ledger**.
+
+> **Memory seal — The Training Report**
+>
+> The Training Report keeps the missing power: generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions.
+
+Give the idea a bodily path: Touch the training report mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Preserve the Decisions, Not Only the Weights
 
 The station's report names corpus and code versions, tokens seen, mixture shares, compute, checkpoint recoveries, per-domain validation, memorization probes, excluded sources, and the exact model artifact hash.
@@ -1533,12 +1851,6 @@ The station's report names corpus and code versions, tokens seen, mixture shares
 Documentation improves accountability but can be incomplete, outdated, misleading, or ignored; claims still require inspectable evidence.
 
 The chain-of-custody ledger answers today's question and falls silent at the next. That silence is precise: Training Report was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the training report scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/199-training-report/README.md).*
 
@@ -1573,6 +1885,25 @@ The repair can now be stated without mystery: assemble signed stage manifests, b
 
 One boundary in the room is now sharper. On one side lies the promise to connect every tool into one automatic pipeline and trust any run that reaches the final stage; on the other lies the observed fact that automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness. The bridge called tiny pretraining factory has exactly the planks needed to assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory.
 
+> **Memory realm 13 of 18 — [Archive Foundry](../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we connect every tool into one automatic pipeline and trust any run that reaches the final stage?
+
+#### When the chamber changes
+
+The A Tiny Pretraining Factory room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The bell follows the tempting path—connect every tool into one automatic pipeline and trust any run that reaches the final stage. Then the evidence answers: automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The bell can now assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory.
+
+The object that should remain after the terminology disappears is **the tiny pretraining factory bell mounted on the chain-of-custody ledger**.
+
+> **Memory seal — A Tiny Pretraining Factory**
+>
+> A Tiny Pretraining Factory keeps the missing power: assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory.
+
+Give the idea a bodily path: Touch the tiny pretraining factory bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Close the Accountable Training Loop
 
 A tiny run begins from ten named documents, records every acceptance and removal, trains a reproducible model, survives an intentional interruption, reproduces its next updates, generates its report, and refuses release when the memorization gate fails.
@@ -1592,11 +1923,5 @@ observation → need → mathematics → machine → consequence → observation
 ```
 
 The trail called *the mandala returns to observation* is what remains when one necessity becomes another.
-
-#### Return to the chain-of-custody ledger
-
-Rebuild the tiny pretraining factory scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/200-tiny-pretraining-factory/README.md).*

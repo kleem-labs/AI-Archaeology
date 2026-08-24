@@ -32,6 +32,28 @@ The keeper of uncertain stories changes only that one responsibility: reverse th
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge, while the other can reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. That fork—not the vocabulary—is where likelihood lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** Which Hidden Story Produced This Evidence?
+
+## When the chamber changes
+
+Before leaving Likelihood, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The key follows the tempting path—ask which story is generally more believable. Then the evidence answers: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The key can now reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
+
+The object that should remain after the terminology disappears is **the likelihood key mounted on the ring of glass lanterns**.
+
+> **Memory seal — Likelihood**
+>
+> Likelihood keeps the missing power: reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
+
+Give the idea a bodily path: Touch the likelihood key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside likelihood
 
 The keeper of uncertain stories carries the likelihood scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

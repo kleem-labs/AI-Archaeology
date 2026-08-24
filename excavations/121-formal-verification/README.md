@@ -33,6 +33,28 @@ So the table of mirrored maps is altered in exactly one way: state assumptions a
 
 Nothing is erased from the table of mirrored maps. The failed path remains visible beneath the repair, because formal verification is easier to remember when its scar remains attached to it. The scar reads, ‘an untested edge case can remain’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we add more random tests and call the property proven?
+
+## When the chamber changes
+
+Keep the formal name Formal Verification covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The vessel follows the tempting path—add more random tests and call the property proven. Then the evidence answers: an untested edge case can remain.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The vessel can now state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them.
+
+The object that should remain after the terminology disappears is **the formal verification vessel mounted on the table of mirrored maps**.
+
+> **Memory seal — Formal Verification**
+>
+> Formal Verification keeps the missing power: state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them.
+
+Give the idea a bodily path: Touch the formal verification vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Understanding formal verification
 
 Prove a refund state machine can issue at most one payment per idempotency key.

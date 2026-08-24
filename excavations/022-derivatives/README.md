@@ -37,6 +37,28 @@ The evidence permits one narrow invention: nudge the weight by a tiny amount, ob
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—try a large jump and keep it if loss falls? The answer remains large jumps can leap over improvements. Try every possible value; there are infinitely many. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we try a large jump and keep it if loss falls?
+
+## When the chamber changes
+
+The Derivatives chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The thread follows the tempting path—try a large jump and keep it if loss falls. Then the evidence answers: large jumps can leap over improvements. Try every possible value; there are infinitely many.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The thread can now nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
+
+The object that should remain after the terminology disappears is **the derivatives thread mounted on the ring of glass lanterns**.
+
+> **Memory seal — Derivatives**
+>
+> Derivatives keeps the missing power: nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
+
+Give the idea a bodily path: Touch the derivatives thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside derivatives
 
 The keeper of uncertain stories carries the derivatives scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

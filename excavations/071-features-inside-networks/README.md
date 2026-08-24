@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the weathered observation slate form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. features inside networks is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we search for one neuron dedicated to each human concept?
+
+## When the chamber changes
+
+Keep the formal name Features Inside Networks covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The mirror follows the tempting path—search for one neuron dedicated to each human concept. Then the evidence answers: the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
+
+Now let the chamber move: The field naturalist changes one moving part. The mirror can now treat representations as distributed directions and test them across varied examples.
+
+The object that should remain after the terminology disappears is **the features inside networks mirror mounted on the weathered observation slate**.
+
+> **Memory seal — Features Inside Networks**
+>
+> Features Inside Networks keeps the missing power: treat representations as distributed directions and test them across varied examples.
+
+Give the idea a bodily path: Touch the features inside networks mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Understanding features inside networks
 
 Tiger and zebra activate overlapping patterns; subtracting ordinary cats isolates a stripe-related direction better than one cell.

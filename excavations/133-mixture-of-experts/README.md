@@ -33,6 +33,28 @@ So the sealed evidence ledger is altered in exactly one way: learn a router that
 
 Nothing is erased from the sealed evidence ledger. The failed path remains visible beneath the repair, because mixture of experts is easier to remember when its scar remains attached to it. The scar reads, ‘most computation is wasted on specialists irrelevant to the current token’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we run every specialist for every token and average them?
+
+## When the chamber changes
+
+Before leaving Mixture of Experts, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The bridge follows the tempting path—run every specialist for every token and average them. Then the evidence answers: most computation is wasted on specialists irrelevant to the current token.
+
+Now let the chamber move: The experimentalist changes one moving part. The bridge can now learn a router that sends each token to a small number of experts while balancing their workload.
+
+The object that should remain after the terminology disappears is **the mixture of experts bridge mounted on the sealed evidence ledger**.
+
+> **Memory seal — Mixture of Experts**
+>
+> Mixture of Experts keeps the missing power: learn a router that sends each token to a small number of experts while balancing their workload.
+
+Give the idea a bodily path: Touch the mixture of experts bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Spending Computation Where It Helps
 
 Route a code token toward syntax experts and a biology token toward scientific-language experts, then combine only selected outputs.

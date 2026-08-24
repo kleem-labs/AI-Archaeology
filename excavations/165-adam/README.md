@@ -32,6 +32,28 @@ Only the missing distinction is restored: keep fading memories of gradient direc
 
 The enginewright does not memorize adam. Instead, the enginewright memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we use the same raw gradient step scale for every parameter?
+
+## When the chamber changes
+
+The Adam room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The bridge follows the tempting path—use the same raw gradient step scale for every parameter. Then the evidence answers: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable.
+
+Now let the chamber move: The enginewright changes one moving part. The bridge can now keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude.
+
+The object that should remain after the terminology disappears is **the adam bridge mounted on the brass reference machine**.
+
+> **Memory seal — Adam**
+>
+> Adam keeps the missing power: keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude.
+
+Give the idea a bodily path: Touch the adam bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Give Each Parameter Its Own Step Scale
 
 A frequently noisy weight builds a large second-moment estimate and receives a smaller normalized step; a consistently directed sparse weight can still move.

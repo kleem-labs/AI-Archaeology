@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In preference learning, that memory takes a precise form: whenever many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer, preserve enough structure to collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** When Several Answers Are Correct but Not Equally Helpful?
+
+## When the chamber changes
+
+Before leaving Preference Learning, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The bridge follows the tempting path—write one perfect target response for every prompt and train only to imitate it. Then the evidence answers: many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer.
+
+Now let the chamber move: The public archivist changes one moving part. The bridge can now collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
+
+The object that should remain after the terminology disappears is **the preference learning bridge mounted on the listening table**.
+
+> **Memory seal — Preference Learning**
+>
+> Preference Learning keeps the missing power: collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
+
+Give the idea a bodily path: Touch the preference learning bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside preference learning
 
 The public archivist carries the preference learning scene to the listening table. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

@@ -33,6 +33,28 @@ The repair can now be stated without mystery: add a cost for large weights, remo
 
 One boundary in the room is now sharper. On one side lies the promise to forbid complexity by making the model too small; it may lose real structure too; on the other lies the observed fact that stop training at an arbitrary time without observing unseen performance. The bridge called regularization has exactly the planks needed to add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we forbid complexity by making the model too small; it may lose real structure too?
+
+## When the chamber changes
+
+The Regularization chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The seal follows the tempting path—forbid complexity by making the model too small; it may lose real structure too. Then the evidence answers: stop training at an arbitrary time without observing unseen performance.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The seal can now add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
+
+The object that should remain after the terminology disappears is **the regularization seal mounted on the ring of glass lanterns**.
+
+> **Memory seal — Regularization**
+>
+> Regularization keeps the missing power: add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
+
+Give the idea a bodily path: Touch the regularization seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside regularization
 
 The keeper of uncertain stories carries the regularization scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

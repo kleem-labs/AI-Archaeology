@@ -33,6 +33,28 @@ The keeper of unfinished questions changes only that one responsibility: search 
 
 The table of mirrored maps keeps both histories. Its older mark still says, ‘memorize the provided input-output pairs’; beside it, the newer mark says, ‘search or generate candidate programs, execute them, and keep those satisfying examples and constraints.’ The distance between those sentences is the exact shape of program synthesis: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we memorize the provided input-output pairs?
+
+## When the chamber changes
+
+The Program Synthesis room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The bell follows the tempting path—memorize the provided input-output pairs. Then the evidence answers: a new input exposes the absence of an underlying algorithm.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The bell can now search or generate candidate programs, execute them, and keep those satisfying examples and constraints.
+
+The object that should remain after the terminology disappears is **the program synthesis bell mounted on the table of mirrored maps**.
+
+> **Memory seal — Program Synthesis**
+>
+> Program Synthesis keeps the missing power: search or generate candidate programs, execute them, and keep those satisfying examples and constraints.
+
+Give the idea a bodily path: Touch the program synthesis bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Understanding program synthesis
 
 Examples 2→4 and 3→6 suggest multiply by two; testing 5 distinguishes it from memorized lookup.

@@ -35,6 +35,28 @@ The marks on the table of mirrored maps form a small constellation: one point fo
 
 Before leaving the table of mirrored maps, the keeper of unfinished questions tests the new idea backward. Remove the ability to detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together, and the method falls back to this tempting instruction: periodically retrain from scratch on everything. The old consequence returns—the trouble appears immediately: storage and compute grow forever, and old raw data may be unavailable. Restore the missing ability and that particular contradiction disappears. This reversible test is why continual learning belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we periodically retrain from scratch on everything?
+
+## When the chamber changes
+
+The Continual Learning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The wheel follows the tempting path—periodically retrain from scratch on everything. Then the evidence answers: the trouble appears immediately: storage and compute grow forever, and old raw data may be unavailable.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The wheel can now detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together.
+
+The object that should remain after the terminology disappears is **the continual learning wheel mounted on the table of mirrored maps**.
+
+> **Memory seal — Continual Learning**
+>
+> Continual Learning keeps the missing power: detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together.
+
+Give the idea a bodily path: Touch the continual learning wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Understanding continual learning
 
 A seasonal model adapts its demand head while preserving reusable product representations.

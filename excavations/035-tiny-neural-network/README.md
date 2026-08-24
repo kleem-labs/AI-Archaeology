@@ -35,6 +35,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the ring of glass lanterns form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. tiny neural network is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we hide everything behind a framework call?
+
+## When the chamber changes
+
+The A Tiny Neural Network room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The lantern follows the tempting path—hide everything behind a framework call. Then the evidence answers: the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The lantern can now build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
+
+The object that should remain after the terminology disappears is **the tiny neural network lantern mounted on the ring of glass lanterns**.
+
+> **Memory seal — A Tiny Neural Network**
+>
+> A Tiny Neural Network keeps the missing power: build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
+
+Give the idea a bodily path: Touch the tiny neural network lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside a tiny neural network
 
 The keeper of uncertain stories carries the tiny neural network scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

@@ -32,6 +32,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In logits, that memory takes a precise form: whenever that restricts the scoring rule and hides how every vocabulary candidate should compete, preserve enough structure to use a learned linear map to produce one raw score for every vocabulary item.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
+>
+> **The question carried into this chamber:** What fails if we choose the nearest input embedding directly?
+
+## When the chamber changes
+
+Keep the formal name Logits covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The vessel follows the tempting path—choose the nearest input embedding directly. Then the evidence answers: that restricts the scoring rule and hides how every vocabulary candidate should compete.
+
+Now let the chamber move: The mechanist changes one moving part. The vessel can now use a learned linear map to produce one raw score for every vocabulary item.
+
+The object that should remain after the terminology disappears is **the logits vessel mounted on the sentence-wheel**.
+
+> **Memory seal — Logits**
+>
+> Logits keeps the missing power: use a learned linear map to produce one raw score for every vocabulary item.
+
+Give the idea a bodily path: Touch the logits vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside logits
 
 The mechanist carries the logits scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

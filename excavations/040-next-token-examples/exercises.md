@@ -5,3 +5,9 @@
 3. Derive every operation in the equation verbally.
 4. Implement the failure and repair in Pure Python.
 5. State which limitation forces the next excavation.
+
+<!-- memory-film-v1:start -->
+## Close-book memory test
+
+Close every file. Reconstruct the five frames beginning only from **the next-token examples bell mounted on the sentence-wheel**. Explain the failure before naming the accepted idea; perform this gesture while recovering the repair: Touch the next-token examples bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path. If the formal name arrives before the necessity, replay the scene more slowly.
+<!-- memory-film-v1:end -->

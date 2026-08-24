@@ -37,6 +37,28 @@ Only the missing distinction is restored: we need to send model updates to devic
 
 The keeper of unfinished questions places a finger over the new distinction. At once the two cases collapse and central collection increases privacy and governance risk. Lifting the finger restores only this capacity: send model updates to devices, train locally, aggregate protected updates, and return a shared model. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we upload every user record to one server?
+
+## When the chamber changes
+
+Before leaving Federated Learning, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The wheel follows the tempting path—upload every user record to one server. Then the evidence answers: central collection increases privacy and governance risk.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The wheel can now send model updates to devices, train locally, aggregate protected updates, and return a shared model.
+
+The object that should remain after the terminology disappears is **the federated learning wheel mounted on the table of mirrored maps**.
+
+> **Memory seal — Federated Learning**
+>
+> Federated Learning keeps the missing power: send model updates to devices, train locally, aggregate protected updates, and return a shared model.
+
+Give the idea a bodily path: Touch the federated learning wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Understanding federated learning
 
 Phones compute keyboard gradients locally; the server receives an aggregate, not typed messages.

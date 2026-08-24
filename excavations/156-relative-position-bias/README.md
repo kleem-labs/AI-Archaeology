@@ -33,6 +33,28 @@ The enginewright changes only that one responsibility: add an explicit distance-
 
 The brass reference machine keeps both histories. Its older mark still says, ‘trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there’; beside it, the newer mark says, ‘add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.’ The distance between those sentences is the exact shape of relative position bias: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What Should Happen Beyond the Seen Window?
+
+## When the chamber changes
+
+Keep the formal name Relative Position Bias covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The map follows the tempting path—trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there. Then the evidence answers: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations.
+
+Now let the chamber move: The enginewright changes one moving part. The map can now add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.
+
+The object that should remain after the terminology disappears is **the relative position bias map mounted on the brass reference machine**.
+
+> **Memory seal — Relative Position Bias**
+>
+> Relative Position Bias keeps the missing power: add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.
+
+Give the idea a bodily path: Touch the relative position bias map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## What Should Happen Beyond the Seen Window
 
 For one head with slope 0.1, a key 2 places back receives −0.2 while a key 20 places back receives −2.0 before softmax. Content can overcome the penalty, but distance has a predictable cost.

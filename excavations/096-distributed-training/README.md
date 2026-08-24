@@ -32,6 +32,28 @@ The expedition leader changes only that one responsibility: partition data or mo
 
 The map of branching journeys keeps both histories. Its older mark still says, ‘let many machines train independent copies and combine them occasionally’; beside it, the newer mark says, ‘partition data or model work, synchronize required results, and preserve one coherent update.’ The distance between those sentences is the exact shape of distributed training: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we let many machines train independent copies and combine them occasionally?
+
+## When the chamber changes
+
+Keep the formal name Distributed Training covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The seal follows the tempting path—let many machines train independent copies and combine them occasionally. Then the evidence answers: their parameters drift and duplicated work wastes computation.
+
+Now let the chamber move: The expedition leader changes one moving part. The seal can now partition data or model work, synchronize required results, and preserve one coherent update.
+
+The object that should remain after the terminology disappears is **the distributed training seal mounted on the map of branching journeys**.
+
+> **Memory seal — Distributed Training**
+>
+> Distributed Training keeps the missing power: partition data or model work, synchronize required results, and preserve one coherent update.
+
+Give the idea a bodily path: Touch the distributed training seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Understanding distributed training
 
 Two workers compute gradients on different batches, average them, then apply the same update.

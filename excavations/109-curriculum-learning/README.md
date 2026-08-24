@@ -33,6 +33,28 @@ So the table of mirrored maps is altered in exactly one way: order or weight exa
 
 Nothing is erased from the table of mirrored maps. The failed path remains visible beneath the repair, because curriculum learning is easier to remember when its scar remains attached to it. The scar reads, ‘early gradients from unsolved complex cases are noisy and provide little structure’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we shuffle all examples uniformly from the beginning?
+
+## When the chamber changes
+
+The mathematical name Curriculum Learning can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The scale follows the tempting path—shuffle all examples uniformly from the beginning. Then the evidence answers: early gradients from unsolved complex cases are noisy and provide little structure.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The scale can now order or weight examples so mastered foundations support harder cases, while revisiting earlier skills.
+
+The object that should remain after the terminology disappears is **the curriculum learning scale mounted on the table of mirrored maps**.
+
+> **Memory seal — Curriculum Learning**
+>
+> Curriculum Learning keeps the missing power: order or weight examples so mastered foundations support harder cases, while revisiting earlier skills.
+
+Give the idea a bodily path: Touch the curriculum learning scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Understanding curriculum learning
 
 Learn clear single-animal images before crowded camouflage scenes.

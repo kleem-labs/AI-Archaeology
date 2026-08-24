@@ -36,6 +36,28 @@ The evidence permits one narrow invention: score the probability assigned to eve
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree? The answer remains the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token. The new construction earns its permanence by answering that old question without pretending it was foolish to ask. In the Hall of Voices, perplexity inherits the mathematics of honest comparison: measure on the same evidence, separate memory from observation, and preserve uncertainty until a source can resolve it. Fluent words do not repeal those older obligations.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** How Surprised Is the Model?
+
+## When the chamber changes
+
+Keep the formal name Perplexity covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The gear follows the tempting path—count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree. Then the evidence answers: the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token.
+
+Now let the chamber move: The public archivist changes one moving part. The gear can now score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale.
+
+The object that should remain after the terminology disappears is **the perplexity gear mounted on the listening table**.
+
+> **Memory seal — Perplexity**
+>
+> Perplexity keeps the missing power: score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale.
+
+Give the idea a bodily path: Touch the perplexity gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside perplexity
 
 The public archivist carries the perplexity scene to the listening table. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the listening table form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. evaluation is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What Does “Better” Actually Mean?
+
+## When the chamber changes
+
+The Evaluation chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The prism follows the tempting path—choose one benchmark score and call it intelligence. Then the evidence answers: the trouble appears immediately: a calculator can ace arithmetic while failing conversation; a fluent model can pass style tests while inventing facts. One number silently chooses which failures do not matter.
+
+Now let the chamber move: The public archivist changes one moving part. The prism can now name the intended job, create separate tests for its required abilities and risks, and inspect real failures rather than averaging them away.
+
+The object that should remain after the terminology disappears is **the evaluation prism mounted on the listening table**.
+
+> **Memory seal — Evaluation**
+>
+> Evaluation keeps the missing power: name the intended job, create separate tests for its required abilities and risks, and inspect real failures rather than averaging them away.
+
+Give the idea a bodily path: Touch the evaluation prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## What Does “Better” Actually Mean
 
 For a travel assistant, test factual date retrieval, instruction following, refusal when information is missing, citation accuracy, latency, and cost separately. A single average must not let perfect tone hide fabricated flight times.

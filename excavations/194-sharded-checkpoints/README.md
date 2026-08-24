@@ -32,6 +32,28 @@ The repair can now be stated without mystery: write versioned shards to temporar
 
 A thread now runs backward from sharded checkpoints through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we let every worker write its local tensors and call the directory a checkpoint?
+
+## When the chamber changes
+
+The mathematical name Sharded Checkpoints can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The key follows the tempting path—let every worker write its local tensors and call the directory a checkpoint. Then the evidence answers: a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The key can now write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable.
+
+The object that should remain after the terminology disappears is **the sharded checkpoints key mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Sharded Checkpoints**
+>
+> Sharded Checkpoints keeps the missing power: write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable.
+
+Give the idea a bodily path: Touch the sharded checkpoints key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Save One Recoverable State Without Gathering It
 
 Twenty-four workers save step 8,000. The manifest expects twenty-four parameter shards, optimizer shards, scheduler state, RNG state, and data cursors; the checkpoint becomes eligible for recovery only when every recorded hash verifies.

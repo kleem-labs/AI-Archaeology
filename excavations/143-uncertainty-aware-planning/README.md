@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the sealed evidence ledger form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. uncertainty-aware planning is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we plan using only the single most likely world?
+
+## When the chamber changes
+
+Before leaving Uncertainty-Aware Planning, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The prism follows the tempting path—plan using only the single most likely world. Then the evidence answers: a small chance of bridge failure dominates the consequence but disappears from the chosen story.
+
+Now let the chamber move: The experimentalist changes one moving part. The prism can now carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision.
+
+The object that should remain after the terminology disappears is **the uncertainty-aware planning prism mounted on the sealed evidence ledger**.
+
+> **Memory seal — Uncertainty-Aware Planning**
+>
+> Uncertainty-Aware Planning keeps the missing power: carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision.
+
+Give the idea a bodily path: Touch the uncertainty-aware planning prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Choosing While Admitting Ignorance
 
 Compare detouring now with first sending a cheap inspection drone.

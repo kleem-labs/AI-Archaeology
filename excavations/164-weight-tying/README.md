@@ -35,6 +35,28 @@ The repair can now be stated without mystery: reuse the embedding table transpos
 
 One boundary in the room is now sharper. On one side lies the promise to let both matrices learn independently because reading a token and predicting it are different jobs; on the other lies the observed fact that the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places. The bridge called weight tying has exactly the planks needed to reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we let both matrices learn independently because reading a token and predicting it are different jobs?
+
+## When the chamber changes
+
+The mathematical name Weight Tying can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The compass follows the tempting path—let both matrices learn independently because reading a token and predicting it are different jobs. Then the evidence answers: the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places.
+
+Now let the chamber move: The enginewright changes one moving part. The compass can now reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
+
+The object that should remain after the terminology disappears is **the weight tying compass mounted on the brass reference machine**.
+
+> **Memory seal — Weight Tying**
+>
+> Weight Tying keeps the missing power: reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
+
+Give the idea a bodily path: Touch the weight tying compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Use One Word Geometry Twice
 
 The tiger vector used to enter the model also becomes the direction a final hidden state must align with to predict tiger.

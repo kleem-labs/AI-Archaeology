@@ -37,6 +37,28 @@ The archivist-engineer changes only that one responsibility: split the batch int
 
 The chain-of-custody ledger keeps both histories. Its older mark still says, ‘send one complete batch through stage one, then stage two, then stage three’; beside it, the newer mark says, ‘split the batch into micro-batches and stagger them through the layer stages so different stages work on different micro-batches concurrently.’ The distance between those sentences is the exact shape of pipeline parallelism: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we send one complete batch through stage one, then stage two, then stage three?
+
+## When the chamber changes
+
+The Pipeline Parallelism chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The seal follows the tempting path—send one complete batch through stage one, then stage two, then stage three. Then the evidence answers: while stage two works, stage one and stage three wait. The model fits, but most devices are idle for most of the step.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The seal can now split the batch into micro-batches and stagger them through the layer stages so different stages work on different micro-batches concurrently.
+
+The object that should remain after the terminology disappears is **the pipeline parallelism seal mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Pipeline Parallelism**
+>
+> Pipeline Parallelism keeps the missing power: split the batch into micro-batches and stagger them through the layer stages so different stages work on different micro-batches concurrently.
+
+Give the idea a bodily path: Touch the pipeline parallelism seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Stop Waiting for the Whole Model to Cross One Device at a Time
 
 With four pipeline stages and eight micro-batches, the first few clock slots fill the pipeline, eight slots carry useful work, and the last few drain it. More micro-batches shrink the idle fraction.

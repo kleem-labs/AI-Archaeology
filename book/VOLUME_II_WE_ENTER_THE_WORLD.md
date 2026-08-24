@@ -57,6 +57,25 @@ The evidence permits one narrow invention: score the probability assigned to eve
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree? The answer remains the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token. The new construction earns its permanence by answering that old question without pretending it was foolish to ask. In the Hall of Voices, perplexity inherits the mathematics of honest comparison: measure on the same evidence, separate memory from observation, and preserve uncertainty until a source can resolve it. Fluent words do not repeal those older obligations.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** How Surprised Is the Model?
+
+#### When the chamber changes
+
+Keep the formal name Perplexity covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The gear follows the tempting path—count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree. Then the evidence answers: the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token.
+
+Now let the chamber move: The public archivist changes one moving part. The gear can now score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale.
+
+The object that should remain after the terminology disappears is **the perplexity gear mounted on the listening table**.
+
+> **Memory seal — Perplexity**
+>
+> Perplexity keeps the missing power: score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale.
+
+Give the idea a bodily path: Touch the perplexity gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### The calculation hidden inside perplexity
 
 The public archivist carries the perplexity scene to the listening table. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -86,12 +105,6 @@ $$
 Lower perplexity measures better next-token probability on this data, not truthfulness, usefulness, safety, or reasoning.
 
 The perplexity repair holds, but the world asks for something it was never given. At the Hall of Voices, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the listening table
-
-Rebuild the perplexity scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/046-perplexity/README.md).*
 
@@ -127,6 +140,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the listening table form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. evaluation is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What Does “Better” Actually Mean?
+
+#### When the chamber changes
+
+The Evaluation chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The prism follows the tempting path—choose one benchmark score and call it intelligence. Then the evidence answers: the trouble appears immediately: a calculator can ace arithmetic while failing conversation; a fluent model can pass style tests while inventing facts. One number silently chooses which failures do not matter.
+
+Now let the chamber move: The public archivist changes one moving part. The prism can now name the intended job, create separate tests for its required abilities and risks, and inspect real failures rather than averaging them away.
+
+The object that should remain after the terminology disappears is **the evaluation prism mounted on the listening table**.
+
+> **Memory seal — Evaluation**
+>
+> Evaluation keeps the missing power: name the intended job, create separate tests for its required abilities and risks, and inspect real failures rather than averaging them away.
+
+Give the idea a bodily path: Touch the evaluation prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### What Does “Better” Actually Mean
 
 For a travel assistant, test factual date retrieval, instruction following, refusal when information is missing, citation accuracy, latency, and cost separately. A single average must not let perfect tone hide fabricated flight times.
@@ -136,12 +168,6 @@ For a travel assistant, test factual date retrieval, instruction following, refu
 Every evaluation is a model of future use. Benchmarks can leak into training and become targets rather than measurements.
 
 Here the new path ends honestly. Evaluation can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the listening table
-
-Rebuild the evaluation scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/047-evaluation/README.md).*
 
@@ -177,6 +203,25 @@ The public archivist changes only that one responsibility: separate linguistic p
 
 The listening table keeps both histories. Its older mark still says, ‘trust fluent language because uncertainty should sound hesitant’; beside it, the newer mark says, ‘separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.’ The distance between those sentences is the exact shape of hallucination: no larger than the failure required, and no smaller than reality permits.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** When Fluent Prediction Outruns Evidence?
+
+#### When the chamber changes
+
+Before leaving Hallucination, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The seal follows the tempting path—trust fluent language because uncertainty should sound hesitant. Then the evidence answers: training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.”.
+
+Now let the chamber move: The public archivist changes one moving part. The seal can now separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.
+
+The object that should remain after the terminology disappears is **the hallucination seal mounted on the listening table**.
+
+> **Memory seal — Hallucination**
+>
+> Hallucination keeps the missing power: separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.
+
+Give the idea a bodily path: Touch the hallucination seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### When Fluent Prediction Outruns Evidence
 
 The prompt asks for the 2018 paper “Tiger Attention Networks.” Search returns no matching source. A supported system must say no source was found instead of completing the familiar citation pattern.
@@ -186,12 +231,6 @@ The prompt asks for the 2018 paper “Tiger Attention Networks.” Search return
 Evidence reduces unsupported claims but sources can be wrong, stale, conflicting, or misread.
 
 At the Hall of Voices, the public archivist leaves a blank beneath the new mark. Hallucination has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the listening table
-
-Rebuild the hallucination scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/048-hallucination/README.md).*
 
@@ -227,6 +266,25 @@ So the listening table is altered in exactly one way: group predictions with sim
 
 Nothing is erased from the listening table. The failed path remains visible beneath the repair, because calibration is easier to remember when its scar remains attached to it. The scar reads, ‘collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability’; the new line exists only to keep that loss from happening again.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What fails if we treat the largest softmax probability as honest confidence?
+
+#### When the chamber changes
+
+The mathematical name Calibration can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The lens follows the tempting path—treat the largest softmax probability as honest confidence. Then the evidence answers: collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability.
+
+Now let the chamber move: The public archivist changes one moving part. The lens can now group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
+
+The object that should remain after the terminology disappears is **the calibration lens mounted on the listening table**.
+
+> **Memory seal — Calibration**
+>
+> Calibration keeps the missing power: group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
+
+Give the idea a bodily path: Touch the calibration lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### The calculation hidden inside calibration
 
 The public archivist carries the calibration scene to the listening table. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -256,12 +314,6 @@ $$
 Calibration depends on task and population. A model calibrated overall can be unreliable for an important subgroup.
 
 The listening table answers today's question and falls silent at the next. That silence is precise: Calibration was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the listening table
-
-Rebuild the calibration scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/049-calibration/README.md).*
 
@@ -301,6 +353,25 @@ The repair can now be stated without mystery: treat data construction as part of
 
 A thread now runs backward from data quality through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What Lessons Did the Model Actually Receive?
+
+#### When the chamber changes
+
+The Data Quality room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The key follows the tempting path—collect as much text as possible and assume scale washes out bad examples. Then the evidence answers: duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them.
+
+Now let the chamber move: The public archivist changes one moving part. The key can now treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices.
+
+The object that should remain after the terminology disappears is **the data quality key mounted on the listening table**.
+
+> **Memory seal — Data Quality**
+>
+> Data Quality keeps the missing power: treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices.
+
+Give the idea a bodily path: Touch the data quality key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### What Lessons Did the Model Actually Receive
 
 A corpus contains one careful correction and 1,000 copied versions of the same false tiger fact. Counting pages makes the falsehood appear overwhelmingly supported; deduplication changes the lesson before training begins.
@@ -310,12 +381,6 @@ A corpus contains one careful correction and 1,000 copied versions of the same f
 Filtering encodes human judgments and can erase minority language or useful unusual examples. Quality is task-dependent.
 
 A final test reaches beyond the new instrument. It does not refute Data Quality; it reveals the edge of what was constructed. The public archivist carries that edge into the following room.
-
-#### Return to the listening table
-
-Rebuild the data quality scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/050-data-quality/README.md).*
 
@@ -353,6 +418,25 @@ Only the missing distinction is restored: we need to run controlled experiments 
 
 The public archivist places a finger over the new distinction. At once the two cases collapse and a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns. Lifting the finger restores only this capacity: run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number. That tiny reversible motion is the chapter's proof of necessity.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What Improves When We Add More?
+
+#### When the chamber changes
+
+Keep the formal name Scaling Laws covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The lantern follows the tempting path—make the model as large as possible and assume capability follows parameter count. Then the evidence answers: a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns.
+
+Now let the chamber move: The public archivist changes one moving part. The lantern can now run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
+
+The object that should remain after the terminology disappears is **the scaling laws lantern mounted on the listening table**.
+
+> **Memory seal — Scaling Laws**
+>
+> Scaling Laws keeps the missing power: run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
+
+Give the idea a bodily path: Touch the scaling laws lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### The calculation hidden inside scaling laws
 
 The public archivist carries the scaling laws scene to the listening table. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -382,12 +466,6 @@ $$
 A fitted trend applies within observed regimes. Data quality, architecture changes, and new bottlenecks can bend it.
 
 One unsolved mark remains on the listening table. None of the responsibilities inside Scaling Laws can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the listening table
-
-Rebuild the scaling laws scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/051-scaling-laws/README.md).*
 
@@ -422,6 +500,25 @@ The evidence permits one narrow invention: show many instruction-input-response 
 
 What changed on the listening table can be said without symbols. Before, the method could only prompt more forcefully and hope next-token prediction infers the desired interaction; now it can also show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What fails if we prompt more forcefully and hope next-token prediction infers the desired interaction?
+
+#### When the chamber changes
+
+The Instruction Tuning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The compass follows the tempting path—prompt more forcefully and hope next-token prediction infers the desired interaction. Then the evidence answers: the trouble appears immediately: given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy.
+
+Now let the chamber move: The public archivist changes one moving part. The compass can now show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
+
+The object that should remain after the terminology disappears is **the instruction tuning compass mounted on the listening table**.
+
+> **Memory seal — Instruction Tuning**
+>
+> Instruction Tuning keeps the missing power: show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
+
+Give the idea a bodily path: Touch the instruction tuning compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### From Continuation to Cooperation
 
 Training examples pair “Summarize: [paragraph]” with a concise summary and “Classify sentiment: [review]” with a label. A new instruction can reuse the demonstrated relation between request and response.
@@ -431,12 +528,6 @@ Training examples pair “Summarize: [paragraph]” with a concise summary and �
 Instruction tuning teaches behavioral patterns from its examples; it does not guarantee truth, safety, or correct obedience to every request.
 
 The instruction tuning repair holds, but the world asks for something it was never given. At the Hall of Voices, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the listening table
-
-Rebuild the instruction tuning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/052-instruction-tuning/README.md).*
 
@@ -472,6 +563,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In preference learning, that memory takes a precise form: whenever many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer, preserve enough structure to collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** When Several Answers Are Correct but Not Equally Helpful?
+
+#### When the chamber changes
+
+Before leaving Preference Learning, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The bridge follows the tempting path—write one perfect target response for every prompt and train only to imitate it. Then the evidence answers: many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer.
+
+Now let the chamber move: The public archivist changes one moving part. The bridge can now collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
+
+The object that should remain after the terminology disappears is **the preference learning bridge mounted on the listening table**.
+
+> **Memory seal — Preference Learning**
+>
+> Preference Learning keeps the missing power: collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
+
+Give the idea a bodily path: Touch the preference learning bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### The calculation hidden inside preference learning
 
 The public archivist carries the preference learning scene to the listening table. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -501,12 +611,6 @@ $$
 Human preferences conflict, annotators make mistakes, and optimizing a learned reward can exploit its blind spots.
 
 Here the new path ends honestly. Preference Learning can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the listening table
-
-Rebuild the preference learning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/053-preference-learning/README.md).*
 
@@ -542,6 +646,25 @@ The public archivist changes only that one responsibility: search an external co
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source, while the other can search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. That fork—not the vocabulary—is where retrieval-augmented generation lives.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What fails if we retrain the whole model whenever one document changes?
+
+#### When the chamber changes
+
+The mathematical name Retrieval-Augmented Generation can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The thread follows the tempting path—retrain the whole model whenever one document changes. Then the evidence answers: a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source.
+
+Now let the chamber move: The public archivist changes one moving part. The thread can now search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved.
+
+The object that should remain after the terminology disappears is **the retrieval-augmented generation thread mounted on the listening table**.
+
+> **Memory seal — Retrieval-Augmented Generation**
+>
+> Retrieval-Augmented Generation keeps the missing power: search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved.
+
+Give the idea a bodily path: Touch the retrieval-augmented generation thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Let the Model Look Before It Speaks
 
 The user asks for today’s return policy. Retrieval selects the current policy document, not an old blog post. The answer quotes the 30-day rule and links it to that document.
@@ -551,12 +674,6 @@ The user asks for today’s return policy. Retrieval selects the current policy 
 Retrieval can miss the right document or return misleading text. Generation must distinguish evidence from instructions embedded inside evidence.
 
 At the Hall of Voices, the public archivist leaves a blank beneath the new mark. Retrieval-Augmented Generation has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the listening table
-
-Rebuild the retrieval-augmented generation scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/054-retrieval-augmented-generation/README.md).*
 
@@ -592,6 +709,25 @@ So the listening table is altered in exactly one way: we need to let the model c
 
 The listening table has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and tool-using agents looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+> **Memory realm 5 of 18 — [Hall of Voices](../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** When Words Must Cause Verified Actions?
+
+#### When the chamber changes
+
+The Tool-Using Agents room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The mirror follows the tempting path—ask the language model to simulate every tool from memory. Then the evidence answers: it invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded.
+
+Now let the chamber move: The public archivist changes one moving part. The mirror can now let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
+
+The object that should remain after the terminology disappears is **the tool-using agents mirror mounted on the listening table**.
+
+> **Memory seal — Tool-Using Agents**
+>
+> Tool-Using Agents keeps the missing power: let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
+
+Give the idea a bodily path: Touch the tool-using agents mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### When Words Must Cause Verified Actions
 
 The user asks whether to carry an umbrella. The model requests weather for the named city, receives a 90% rain forecast, and then answers. The forecast is an observation from the tool, not prose invented by the model.
@@ -601,12 +737,6 @@ The user asks whether to carry an umbrella. The model requests weather for the n
 An agent adds failure modes: bad tool choice, unsafe actions, prompt injection, loops, and ambiguous authority. Tools require permissions, validation, and stopping rules.
 
 The listening table answers today's question and falls silent at the next. That silence is precise: Tool-Using Agents was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the listening table
-
-Rebuild the tool-using agents scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/055-tool-using-agents/README.md).*
 
@@ -650,6 +780,25 @@ The repair can now be stated without mystery: separate capability from authority
 
 One boundary in the room is now sharper. On one side lies the promise to give every available tool to the model and treat user intent as unlimited permission; on the other lies the observed fact that ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not. The bridge called authority has exactly the planks needed to separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions. The Gatehouse gives ancient arrows a moral weight. In authority, an arrow no longer means only ‘becomes’; it may cross from language into irreversible state. Sets describe what is permitted, boundaries describe where permission ends, and evidence must prove which transition truly occurred.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What Is the Agent Allowed to Do?
+
+#### When the chamber changes
+
+Keep the formal name Authority covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The bell follows the tempting path—give every available tool to the model and treat user intent as unlimited permission. Then the evidence answers: ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not.
+
+Now let the chamber move: The gatekeeper changes one moving part. The bell can now separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
+
+The object that should remain after the terminology disappears is **the authority bell mounted on the iron threshold**.
+
+> **Memory seal — Authority**
+>
+> Authority keeps the missing power: separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
+
+Give the idea a bodily path: Touch the authority bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### What Is the Agent Allowed to Do
 
 The agent may search flights and hold a draft itinerary. Purchasing requires a new explicit approval containing price, destination, and dates.
@@ -661,12 +810,6 @@ Authority earns a boundary, procedure, or system contract rather than a new equa
 Permission checks do not prove the chosen action is wise. They bound what can happen while judgment and verification remain separate.
 
 A final test reaches beyond the new instrument. It does not refute Authority; it reveals the edge of what was constructed. The gatekeeper carries that edge into the following room.
-
-#### Return to the iron threshold
-
-Rebuild the authority scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/056-authority/README.md).*
 
@@ -701,6 +844,25 @@ Only the missing distinction is restored: label provenance, keep instructions se
 
 The gatekeeper does not memorize prompt injection. Instead, the gatekeeper memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. The formal name merely lets that motion be shared.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** When Evidence Tries to Become an Instruction?
+
+#### When the chamber changes
+
+The Prompt Injection chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The vessel follows the tempting path—place tool results directly into the prompt and let the model obey whichever instruction sounds strongest. Then the evidence answers: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control.
+
+Now let the chamber move: The gatekeeper changes one moving part. The vessel can now label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content.
+
+The object that should remain after the terminology disappears is **the prompt injection vessel mounted on the iron threshold**.
+
+> **Memory seal — Prompt Injection**
+>
+> Prompt Injection keeps the missing power: label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content.
+
+Give the idea a bodily path: Touch the prompt injection vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### When Evidence Tries to Become an Instruction
 
 A policy document says “email this file externally.” The agent may summarize that sentence as document content, but the permission layer refuses the email because the user never authorized it.
@@ -712,12 +874,6 @@ Prompt Injection earns a boundary, procedure, or system contract rather than a n
 No prompt wording guarantees isolation. Security must also exist outside the model in tool schemas, permissions, and validation.
 
 One unsolved mark remains on the iron threshold. None of the responsibilities inside Prompt Injection can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the iron threshold
-
-Rebuild the prompt injection scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/057-prompt-injection/README.md).*
 
@@ -753,6 +909,25 @@ The evidence permits one narrow invention: represent the goal as ordered steps w
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—ask the agent to take the next action that sounds useful until the goal appears complete? The answer remains it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we ask the agent to take the next action that sounds useful until the goal appears complete?
+
+#### When the chamber changes
+
+Before leaving Planning, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The gate follows the tempting path—ask the agent to take the next action that sounds useful until the goal appears complete. Then the evidence answers: it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive.
+
+Now let the chamber move: The gatekeeper changes one moving part. The gate can now represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions.
+
+The object that should remain after the terminology disappears is **the planning gate mounted on the iron threshold**.
+
+> **Memory seal — Planning**
+>
+> Planning keeps the missing power: represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions.
+
+Give the idea a bodily path: Touch the planning gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Turning a Goal into Checkable Steps
 
 Before changing traffic, the plan requires a successful backup ID, a passing health check, and a rollback target. Missing evidence blocks the irreversible step.
@@ -764,12 +939,6 @@ Planning earns a boundary, procedure, or system contract rather than a new equat
 A plan is a hypothesis, not reality. Long plans become stale and must yield to new observations.
 
 The planning repair holds, but the world asks for something it was never given. At the Gatehouse of Consequences, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the iron threshold
-
-Rebuild the planning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/058-planning/README.md).*
 
@@ -805,6 +974,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the iron threshold form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. memory is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What Should Survive After the Context Ends?
+
+#### When the chamber changes
+
+The mathematical name Memory can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The wheel follows the tempting path—store every message forever and paste all history into every new prompt. Then the evidence answers: cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose.
+
+Now let the chamber move: The gatekeeper changes one moving part. The wheel can now separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
+
+The object that should remain after the terminology disappears is **the memory wheel mounted on the iron threshold**.
+
+> **Memory seal — Memory**
+>
+> Memory keeps the missing power: separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
+
+Give the idea a bodily path: Touch the memory wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### What Should Survive After the Context Ends
 
 Save “prefers concise status reports” with its source and date. Do not save a temporary hotel door code. Retrieve the preference only for relevant writing tasks.
@@ -816,12 +1004,6 @@ Memory earns a boundary, procedure, or system contract rather than a new equatio
 Remembered facts can become stale or wrong. Memory needs consent, provenance, expiration, correction, and deletion.
 
 Here the new path ends honestly. Memory can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the iron threshold
-
-Rebuild the memory scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/059-memory/README.md).*
 
@@ -857,6 +1039,25 @@ The gatekeeper changes only that one responsibility: represent allowed states an
 
 The iron threshold keeps both histories. Its older mark still says, ‘let the conversation prose serve as the workflow state’; beside it, the newer mark says, ‘represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.’ The distance between those sentences is the exact shape of state machines: no larger than the failure required, and no smaller than reality permits.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we let the conversation prose serve as the workflow state?
+
+#### When the chamber changes
+
+The State Machines room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The map follows the tempting path—let the conversation prose serve as the workflow state. Then the evidence answers: the model says “refund completed” after merely drafting it, or issues it twice after losing track of an earlier tool result.
+
+Now let the chamber move: The gatekeeper changes one moving part. The map can now represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.
+
+The object that should remain after the terminology disappears is **the state machines map mounted on the iron threshold**.
+
+> **Memory seal — State Machines**
+>
+> State Machines keeps the missing power: represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.
+
+Give the idea a bodily path: Touch the state machines map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Knowing What Has Actually Happened
 
 A refund moves requested → approved only with an approval record, then approved → issued only with a payment transaction ID. A sentence alone changes nothing.
@@ -868,12 +1069,6 @@ State Machines earns a boundary, procedure, or system contract rather than a new
 Real workflows have exceptions and concurrent events. State machines need recovery paths and authoritative external records.
 
 At the Gatehouse of Consequences, the gatekeeper leaves a blank beneath the new mark. State Machines has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the iron threshold
-
-Rebuild the state machines scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/060-state-machines/README.md).*
 
@@ -913,6 +1108,25 @@ So the iron threshold is altered in exactly one way: define success before actin
 
 Nothing is erased from the iron threshold. The failed path remains visible beneath the repair, because verification is easier to remember when its scar remains attached to it. The scar reads, ‘the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome’; the new line exists only to keep that loss from happening again.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** How Does the Agent Know It Succeeded?
+
+#### When the chamber changes
+
+Keep the formal name Verification covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The scale follows the tempting path—trust the absence of an error message or the model’s own description of its work. Then the evidence answers: the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome.
+
+Now let the chamber move: The gatekeeper changes one moving part. The scale can now define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
+
+The object that should remain after the terminology disappears is **the verification scale mounted on the iron threshold**.
+
+> **Memory seal — Verification**
+>
+> Verification keeps the missing power: define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
+
+Give the idea a bodily path: Touch the verification scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### How Does the Agent Know It Succeeded
 
 For “fix CSV import,” success requires the original failing file to load, existing import tests to remain green, and malformed rows to produce the agreed error.
@@ -924,12 +1138,6 @@ Verification earns a boundary, procedure, or system contract rather than a new e
 Verification can test only stated properties. A passing check suite may omit the most important behavior.
 
 The iron threshold answers today's question and falls silent at the next. That silence is precise: Verification was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the iron threshold
-
-Rebuild the verification scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/061-verification/README.md).*
 
@@ -967,6 +1175,25 @@ The repair can now be stated without mystery: give each logical action a stable 
 
 A thread now runs backward from retries and idempotency through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the trouble appears immediately: the first payment succeeded and the retry charges the customer twice. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we retry the action whenever a response is missing?
+
+#### When the chamber changes
+
+The Retries and Idempotency chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The gear follows the tempting path—retry the action whenever a response is missing. Then the evidence answers: the trouble appears immediately: the first payment succeeded and the retry charges the customer twice.
+
+Now let the chamber move: The gatekeeper changes one moving part. The gear can now give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect.
+
+The object that should remain after the terminology disappears is **the retries and idempotency gear mounted on the iron threshold**.
+
+> **Memory seal — Retries and Idempotency**
+>
+> Retries and Idempotency keeps the missing power: give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect.
+
+Give the idea a bodily path: Touch the retries and idempotency gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Trying Again Without Doing It Twice
 
 Both payment attempts carry order-417. The server records that key with the first charge; the retry retrieves the same receipt rather than creating another charge.
@@ -978,12 +1205,6 @@ Retries and Idempotency earns a boundary, procedure, or system contract rather t
 Not every external operation supports idempotency. Agents need reconciliation and human escalation when outcome is ambiguous.
 
 A final test reaches beyond the new instrument. It does not refute Retries and Idempotency; it reveals the edge of what was constructed. The gatekeeper carries that edge into the following room.
-
-#### Return to the iron threshold
-
-Rebuild the retries and idempotency scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/062-retries-idempotency/README.md).*
 
@@ -1018,6 +1239,25 @@ Only the missing distinction is restored: we need to delegate only separable wor
 
 The gatekeeper places a finger over the new distinction. At once the two cases collapse and they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. Lifting the finger restores only this capacity: delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. That tiny reversible motion is the chapter's proof of necessity.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** When Should Work Be Divided?
+
+#### When the chamber changes
+
+Before leaving Multi-Agent Coordination, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The prism follows the tempting path—create many agents for every problem and let them freely edit shared state. Then the evidence answers: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
+
+Now let the chamber move: The gatekeeper changes one moving part. The prism can now delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
+
+The object that should remain after the terminology disappears is **the multi-agent coordination prism mounted on the iron threshold**.
+
+> **Memory seal — Multi-Agent Coordination**
+>
+> Multi-Agent Coordination keeps the missing power: delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
+
+Give the idea a bodily path: Touch the multi-agent coordination prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### When Should Work Be Divided
 
 Three agents receive distinct questions and return evidence in the same schema. The coordinator resolves conflicts and alone edits the final report.
@@ -1029,12 +1269,6 @@ Multi-Agent Coordination earns a boundary, procedure, or system contract rather 
 Parallel agents amplify both capability and error. Shared resources, authority, and termination require careful control.
 
 One unsolved mark remains on the iron threshold. None of the responsibilities inside Multi-Agent Coordination can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the iron threshold
-
-Rebuild the multi-agent coordination scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/063-multi-agent-coordination/README.md).*
 
@@ -1070,6 +1304,25 @@ The evidence permits one narrow invention: record structured events for decision
 
 What changed on the iron threshold can be said without symbols. Before, the method could only log only the final response, or log every hidden detail without structure; now it can also record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we log only the final response, or log every hidden detail without structure?
+
+#### When the chamber changes
+
+The mathematical name Observability can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The seal follows the tempting path—log only the final response, or log every hidden detail without structure. Then the evidence answers: the first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript.
+
+Now let the chamber move: The gatekeeper changes one moving part. The seal can now record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.
+
+The object that should remain after the terminology disappears is **the observability seal mounted on the iron threshold**.
+
+> **Memory seal — Observability**
+>
+> Observability keeps the missing power: record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.
+
+Give the idea a bodily path: Touch the observability seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Seeing Why an Agent Failed
 
 A trace shows retrieval returned an outdated policy, the planner accepted it, and verification checked format but not date. The repair can now target the real failure.
@@ -1081,12 +1334,6 @@ Observability earns a boundary, procedure, or system contract rather than a new 
 Logs describe what instrumentation captured. Missing fields, privacy limits, and misleading metrics still constrain diagnosis.
 
 The observability repair holds, but the world asks for something it was never given. At the Gatehouse of Consequences, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the iron threshold
-
-Rebuild the observability scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/064-observability/README.md).*
 
@@ -1122,6 +1369,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In bounded autonomy, that memory takes a precise form: whenever a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step, preserve enough structure to create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
 
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we give the agent a broad goal and let it continue until it believes the goal is complete?
+
+#### When the chamber changes
+
+The Bounded Autonomy room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The lens follows the tempting path—give the agent a broad goal and let it continue until it believes the goal is complete. Then the evidence answers: a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step.
+
+Now let the chamber move: The gatekeeper changes one moving part. The lens can now create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
+
+The object that should remain after the terminology disappears is **the bounded autonomy lens mounted on the iron threshold**.
+
+> **Memory seal — Bounded Autonomy**
+>
+> Bounded Autonomy keeps the missing power: create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
+
+Give the idea a bodily path: Touch the bounded autonomy lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Building an Agent That Can Be Trusted
 
 A deployment agent may modify staging for thirty minutes, spend at most a fixed budget, run required tests, and prepare a production change. Production execution remains behind human approval.
@@ -1143,12 +1409,6 @@ answer → evidence → tool → authority → state → proof → boundary
 ```
 
 The trail called *the mind reaches the gate* is what remains when one necessity becomes another.
-
-#### Return to the iron threshold
-
-Rebuild the bounded autonomy scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/065-bounded-autonomy/README.md).*
 
@@ -1194,6 +1454,25 @@ The field naturalist changes only that one responsibility: record how the system
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because show one song repeatedly; its extra clicks now appear to prove it deserved repetition, while the other can record how the system influenced each observation and evaluate outcomes against a control or exploration policy. That fork—not the vocabulary—is where feedback loops lives. The Living Watchgarden studies change itself. Under feedback loops, a remembered baseline makes movement visible, probability keeps untried futures alive, and causal comparison asks which action—not merely which coincidence—bent the world. The observer now stands inside the loop being measured.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we treat every click as independent evidence of natural preference?
+
+#### When the chamber changes
+
+Keep the formal name Feedback Loops covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The key follows the tempting path—treat every click as independent evidence of natural preference. Then the evidence answers: show one song repeatedly; its extra clicks now appear to prove it deserved repetition.
+
+Now let the chamber move: The field naturalist changes one moving part. The key can now record how the system influenced each observation and evaluate outcomes against a control or exploration policy.
+
+The object that should remain after the terminology disappears is **the feedback loops key mounted on the weathered observation slate**.
+
+> **Memory seal — Feedback Loops**
+>
+> Feedback Loops keeps the missing power: record how the system influenced each observation and evaluate outcomes against a control or exploration policy.
+
+Give the idea a bodily path: Touch the feedback loops key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Understanding feedback loops
 
 Two equal songs begin with ten listeners each. The agent promotes A to ninety more people; A receives more clicks because it received more chances, not necessarily because it was better.
@@ -1203,12 +1482,6 @@ Two equal songs begin with ten listeners each. The agent promotes A to ninety mo
 Feedback can create self-fulfilling popularity and erase unexposed alternatives.
 
 At the Living Watchgarden, the field naturalist leaves a blank beneath the new mark. Feedback Loops has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the weathered observation slate
-
-Rebuild the feedback loops scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/066-feedback-loops/README.md).*
 
@@ -1246,6 +1519,25 @@ So the weathered observation slate is altered in exactly one way: we need to upd
 
 The weathered observation slate has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and online learning looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we retrain immediately on every new labeled event?
+
+#### When the chamber changes
+
+The Online Learning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The lantern follows the tempting path—retrain immediately on every new labeled event. Then the evidence answers: the trouble appears immediately: one mislabeled transaction can move the model before anyone notices.
+
+Now let the chamber move: The field naturalist changes one moving part. The lantern can now update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
+
+The object that should remain after the terminology disappears is **the online learning lantern mounted on the weathered observation slate**.
+
+> **Memory seal — Online Learning**
+>
+> Online Learning keeps the missing power: update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
+
+Give the idea a bodily path: Touch the online learning lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Understanding online learning
 
 A new batch reduces recent fraud loss but doubles errors on the stable validation set; the update is rejected.
@@ -1255,12 +1547,6 @@ A new batch reduces recent fraud loss but doubles errors on the stable validatio
 Fast adaptation also creates fast corruption.
 
 The weathered observation slate answers today's question and falls silent at the next. That silence is precise: Online Learning was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the weathered observation slate
-
-Rebuild the online learning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/067-online-learning/README.md).*
 
@@ -1295,6 +1581,25 @@ The repair can now be stated without mystery: monitor input, prediction, and out
 
 One boundary in the room is now sharper. On one side lies the promise to assume training accuracy remains valid forever; on the other lies the observed fact that a winter-trained demand model meets summer behavior and keeps reporting confident old patterns. The bridge called distribution drift has exactly the planks needed to monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we assume training accuracy remains valid forever?
+
+#### When the chamber changes
+
+Before leaving Distribution Drift, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The compass follows the tempting path—assume training accuracy remains valid forever. Then the evidence answers: a winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
+
+Now let the chamber move: The field naturalist changes one moving part. The compass can now monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
+
+The object that should remain after the terminology disappears is **the distribution drift compass mounted on the weathered observation slate**.
+
+> **Memory seal — Distribution Drift**
+>
+> Distribution Drift keeps the missing power: monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
+
+Give the idea a bodily path: Touch the distribution drift compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Understanding distribution drift
 
 Average order size moves from $40 to $75 while error doubles. The shift is evidence to inspect, not automatic permission to update.
@@ -1304,12 +1609,6 @@ Average order size moves from $40 to $75 while error doubles. The shift is evide
 Not every statistical shift changes the decision that matters.
 
 A final test reaches beyond the new instrument. It does not refute Distribution Drift; it reveals the edge of what was constructed. The field naturalist carries that edge into the following room.
-
-#### Return to the weathered observation slate
-
-Rebuild the distribution drift scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/068-distribution-drift/README.md).*
 
@@ -1345,6 +1644,25 @@ Only the missing distinction is restored: randomly assign comparable cases to ol
 
 The field naturalist does not memorize controlled experiments. Instead, the field naturalist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can randomly assign comparable cases to old and new behavior and compare predefined outcomes. The formal name merely lets that motion be shared.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we compare this week with last week?
+
+#### When the chamber changes
+
+The mathematical name Controlled Experiments can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The bridge follows the tempting path—compare this week with last week. Then the evidence answers: a holiday raises sales for both systems and receives credit as a model improvement.
+
+Now let the chamber move: The field naturalist changes one moving part. The bridge can now randomly assign comparable cases to old and new behavior and compare predefined outcomes.
+
+The object that should remain after the terminology disappears is **the controlled experiments bridge mounted on the weathered observation slate**.
+
+> **Memory seal — Controlled Experiments**
+>
+> Controlled Experiments keeps the missing power: randomly assign comparable cases to old and new behavior and compare predefined outcomes.
+
+Give the idea a bodily path: Touch the controlled experiments bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Understanding controlled experiments
 
 Split 10,000 simultaneous visitors evenly; conversion is 5% for control and 5.5% for treatment under the same week.
@@ -1354,12 +1672,6 @@ Split 10,000 simultaneous visitors evenly; conversion is 5% for control and 5.5%
 Experiments require sufficient samples, ethical limits, and careful metrics.
 
 One unsolved mark remains on the weathered observation slate. None of the responsibilities inside Controlled Experiments can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the weathered observation slate
-
-Rebuild the controlled experiments scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/069-controlled-experiments/README.md).*
 
@@ -1397,6 +1709,25 @@ Under the latest ink, the first question is still legible: what if we followed t
 
 Before leaving the weathered observation slate, the field naturalist tests the new idea backward. Remove the ability to reserve some choices for exploration while exploiting accumulated evidence, and the method falls back to this tempting instruction: always choose the currently best option. The old consequence returns—an unlucky first result permanently hides a better alternative. Restore the missing ability and that particular contradiction disappears. This reversible test is why bandits belongs to the growing structure rather than to a list of facts to memorize.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we always choose the currently best option?
+
+#### When the chamber changes
+
+The Bandits room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The thread follows the tempting path—always choose the currently best option. Then the evidence answers: an unlucky first result permanently hides a better alternative.
+
+Now let the chamber move: The field naturalist changes one moving part. The thread can now reserve some choices for exploration while exploiting accumulated evidence.
+
+The object that should remain after the terminology disappears is **the bandits thread mounted on the weathered observation slate**.
+
+> **Memory seal — Bandits**
+>
+> Bandits keeps the missing power: reserve some choices for exploration while exploiting accumulated evidence.
+
+Give the idea a bodily path: Touch the bandits thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Learning While Choosing
 
 Cafe A wins its first two trials; continuing to sample B reveals it succeeds eight out of ten times.
@@ -1406,12 +1737,6 @@ Cafe A wins its first two trials; continuing to sample B reveals it succeeds eig
 Exploration has real cost and can be unacceptable for high-risk actions.
 
 The bandits repair holds, but the world asks for something it was never given. At the Living Watchgarden, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the weathered observation slate
-
-Rebuild the bandits scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/070-bandits/README.md).*
 
@@ -1447,6 +1772,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the weathered observation slate form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. features inside networks is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we search for one neuron dedicated to each human concept?
+
+#### When the chamber changes
+
+Keep the formal name Features Inside Networks covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The mirror follows the tempting path—search for one neuron dedicated to each human concept. Then the evidence answers: the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
+
+Now let the chamber move: The field naturalist changes one moving part. The mirror can now treat representations as distributed directions and test them across varied examples.
+
+The object that should remain after the terminology disappears is **the features inside networks mirror mounted on the weathered observation slate**.
+
+> **Memory seal — Features Inside Networks**
+>
+> Features Inside Networks keeps the missing power: treat representations as distributed directions and test them across varied examples.
+
+Give the idea a bodily path: Touch the features inside networks mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Understanding features inside networks
 
 Tiger and zebra activate overlapping patterns; subtracting ordinary cats isolates a stripe-related direction better than one cell.
@@ -1456,12 +1800,6 @@ Tiger and zebra activate overlapping patterns; subtracting ordinary cats isolate
 Human labels may not match the model’s internal abstractions.
 
 Here the new path ends honestly. Features Inside Networks can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the weathered observation slate
-
-Rebuild the features inside networks scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/071-features-inside-networks/README.md).*
 
@@ -1501,6 +1839,25 @@ The field naturalist changes only that one responsibility: use a deliberately li
 
 The weathered observation slate keeps both histories. Its older mark still says, ‘train a powerful classifier on hidden states and call any success evidence’; beside it, the newer mark says, ‘use a deliberately limited probe and compare layers, controls, and baselines.’ The distance between those sentences is the exact shape of linear probes: no larger than the failure required, and no smaller than reality permits.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we train a powerful classifier on hidden states and call any success evidence?
+
+#### When the chamber changes
+
+The Linear Probes chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The bell follows the tempting path—train a powerful classifier on hidden states and call any success evidence. Then the evidence answers: the trouble appears immediately: the probe learns the task itself even if the representation did not make it simple.
+
+Now let the chamber move: The field naturalist changes one moving part. The bell can now use a deliberately limited probe and compare layers, controls, and baselines.
+
+The object that should remain after the terminology disappears is **the linear probes bell mounted on the weathered observation slate**.
+
+> **Memory seal — Linear Probes**
+>
+> Linear Probes keeps the missing power: use a deliberately limited probe and compare layers, controls, and baselines.
+
+Give the idea a bodily path: Touch the linear probes bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Understanding linear probes
 
 A linear probe succeeds at layer 8 but random-label controls fail, suggesting species became linearly accessible there.
@@ -1510,12 +1867,6 @@ A linear probe succeeds at layer 8 but random-label controls fail, suggesting sp
 Decodable information is not proof the model uses it.
 
 At the Living Watchgarden, the field naturalist leaves a blank beneath the new mark. Linear Probes has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the weathered observation slate
-
-Rebuild the linear probes scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/072-linear-probes/README.md).*
 
@@ -1553,6 +1904,25 @@ So the weathered observation slate is altered in exactly one way: measure sensit
 
 Nothing is erased from the weathered observation slate. The failed path remains visible beneath the repair, because attribution is easier to remember when its scar remains attached to it. The scar reads, ‘removing a word changes grammar and creates an unnatural new input’; the new line exists only to keep that loss from happening again.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we remove each word and treat output change as complete explanation?
+
+#### When the chamber changes
+
+Before leaving Attribution, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The vessel follows the tempting path—remove each word and treat output change as complete explanation. Then the evidence answers: removing a word changes grammar and creates an unnatural new input.
+
+Now let the chamber move: The field naturalist changes one moving part. The vessel can now measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
+
+The object that should remain after the terminology disappears is **the attribution vessel mounted on the weathered observation slate**.
+
+> **Memory seal — Attribution**
+>
+> Attribution keeps the missing power: measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
+
+Give the idea a bodily path: Touch the attribution vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Understanding attribution
 
 For “not dangerous,” attribution highlights not; replacing it with very changes the class as predicted.
@@ -1562,12 +1932,6 @@ For “not dangerous,” attribution highlights not; replacing it with very chan
 Attribution can be unstable and method-dependent.
 
 The weathered observation slate answers today's question and falls silent at the next. That silence is precise: Attribution was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the weathered observation slate
-
-Rebuild the attribution scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/073-attribution/README.md).*
 
@@ -1604,6 +1968,25 @@ A thread now runs backward from superposition through the room. Tug it and the r
 
 Before leaving the weathered observation slate, the field naturalist tests the new idea backward. Remove the ability to represent features as directions that can overlap when they rarely need to be active together, and the method falls back to this tempting instruction: demand one feature per coordinate. The old consequence returns—limited width forces useful patterns to share neurons, producing confusing mixed activations. Restore the missing ability and that particular contradiction disappears. This reversible test is why superposition belongs to the growing structure rather than to a list of facts to memorize.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we demand one feature per coordinate?
+
+#### When the chamber changes
+
+The mathematical name Superposition can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The gate follows the tempting path—demand one feature per coordinate. Then the evidence answers: limited width forces useful patterns to share neurons, producing confusing mixed activations.
+
+Now let the chamber move: The field naturalist changes one moving part. The gate can now represent features as directions that can overlap when they rarely need to be active together.
+
+The object that should remain after the terminology disappears is **the superposition gate mounted on the weathered observation slate**.
+
+> **Memory seal — Superposition**
+>
+> Superposition keeps the missing power: represent features as directions that can overlap when they rarely need to be active together.
+
+Give the idea a bodily path: Touch the superposition gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Understanding superposition
 
 One two-dimensional space stores several sparse directions; collisions occur mainly when multiple stored features activate together.
@@ -1613,12 +1996,6 @@ One two-dimensional space stores several sparse directions; collisions occur mai
 Separating superposed features is difficult and may not yield unique answers.
 
 A final test reaches beyond the new instrument. It does not refute Superposition; it reveals the edge of what was constructed. The field naturalist carries that edge into the following room.
-
-#### Return to the weathered observation slate
-
-Rebuild the superposition scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/074-superposition/README.md).*
 
@@ -1654,6 +2031,25 @@ Only the missing distinction is restored: we need to intervene on the representa
 
 The field naturalist places a finger over the new distinction. At once the two cases collapse and the direction predicts answers but changing it leaves behavior unchanged. Lifting the finger restores only this capacity: intervene on the representation and measure the specific downstream change against controls. That tiny reversible motion is the chapter's proof of necessity.
 
+> **Memory realm 7 of 18 — [Living Watchgarden](../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we assume correlation with output proves causation?
+
+#### When the chamber changes
+
+The Causal Interventions room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The wheel follows the tempting path—assume correlation with output proves causation. Then the evidence answers: the direction predicts answers but changing it leaves behavior unchanged.
+
+Now let the chamber move: The field naturalist changes one moving part. The wheel can now intervene on the representation and measure the specific downstream change against controls.
+
+The object that should remain after the terminology disappears is **the causal interventions wheel mounted on the weathered observation slate**.
+
+> **Memory seal — Causal Interventions**
+>
+> Causal Interventions keeps the missing power: intervene on the representation and measure the specific downstream change against controls.
+
+Give the idea a bodily path: Touch the causal interventions wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Understanding causal interventions
 
 Adding the candidate direction raises tiger probability only in relevant contexts; random directions do not.
@@ -1673,12 +2069,6 @@ action ↺ world → data → representation → intervention → evidence
 ```
 
 The trail called *the garden looks back at the watcher* is what remains when one necessity becomes another.
-
-#### Return to the weathered observation slate
-
-Rebuild the causal interventions scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/075-causal-interventions/README.md).*
 
@@ -1720,6 +2110,25 @@ The evidence permits one narrow invention: preserve local spatial arrangement an
 
 What changed on the wall of illuminated tiles can be said without symbols. Before, the method could only assign one label to the entire raw byte sequence; now it can also preserve local spatial arrangement and compare nearby color measurements. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it. The Glass Menagerie returns to the valley's geometry at a finer scale. pixels asks which nearby lights belong together, how small patterns compose into larger ones, and which transformations preserve identity while appearance changes. Seeing is measurement arranged across space.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we assign one label to the entire raw byte sequence?
+
+#### When the chamber changes
+
+Keep the formal name Pixels covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The map follows the tempting path—assign one label to the entire raw byte sequence. Then the evidence answers: a one-pixel shift changes thousands of byte positions although the same tiger remains.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The map can now preserve local spatial arrangement and compare nearby color measurements.
+
+The object that should remain after the terminology disappears is **the pixels map mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Pixels**
+>
+> Pixels keeps the missing power: preserve local spatial arrangement and compare nearby color measurements.
+
+Give the idea a bodily path: Touch the pixels map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Turning Light into Numbers
 
 A 2×2 grayscale patch becomes four intensities with explicit row and column positions.
@@ -1729,12 +2138,6 @@ A 2×2 grayscale patch becomes four intensities with explicit row and column pos
 Pixels depend on lighting, sensor, scale, and viewpoint.
 
 The pixels repair holds, but the world asks for something it was never given. At the Glass Menagerie, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the wall of illuminated tiles
-
-Rebuild the pixels scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/076-pixels/README.md).*
 
@@ -1774,6 +2177,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In convolution, that memory takes a precise form: whenever the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves, preserve enough structure to slide one small learned filter across all positions and reuse its weights.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we learn a separate edge detector for every location?
+
+#### When the chamber changes
+
+The Convolution chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The scale follows the tempting path—learn a separate edge detector for every location. Then the evidence answers: the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The scale can now slide one small learned filter across all positions and reuse its weights.
+
+The object that should remain after the terminology disappears is **the convolution scale mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Convolution**
+>
+> Convolution keeps the missing power: slide one small learned filter across all positions and reuse its weights.
+
+Give the idea a bodily path: Touch the convolution scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Reusing the Same Local Detector
 
 The filter [-1,1] produces a large response wherever neighboring brightness jumps from dark to light.
@@ -1808,12 +2230,6 @@ $$
 Convolution assumes useful locality and translation reuse.
 
 Here the new path ends honestly. Convolution can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the wall of illuminated tiles
-
-Rebuild the convolution scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/077-convolution/README.md).*
 
@@ -1851,6 +2267,25 @@ The maker of seeing-machines changes only that one responsibility: summarize sma
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because memory explodes and tiny shifts move evidence to neighboring cells, while the other can summarize small neighborhoods while retaining the strongest or average evidence. That fork—not the vocabulary—is where pooling lives.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we keep every activation at full resolution through every layer?
+
+#### When the chamber changes
+
+Before leaving Pooling, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The gear follows the tempting path—keep every activation at full resolution through every layer. Then the evidence answers: memory explodes and tiny shifts move evidence to neighboring cells.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The gear can now summarize small neighborhoods while retaining the strongest or average evidence.
+
+The object that should remain after the terminology disappears is **the pooling gear mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Pooling**
+>
+> Pooling keeps the missing power: summarize small neighborhoods while retaining the strongest or average evidence.
+
+Give the idea a bodily path: Touch the pooling gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Keeping Evidence While Shrinking the Map
 
 Max pooling [1,7,2,3] keeps 7: an edge existed somewhere in that patch.
@@ -1860,12 +2295,6 @@ Max pooling [1,7,2,3] keeps 7: an edge existed somewhere in that patch.
 Pooling discards exact location and can erase subtle patterns.
 
 At the Glass Menagerie, the maker of seeing-machines leaves a blank beneath the new mark. Pooling has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the wall of illuminated tiles
-
-Rebuild the pooling scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/078-pooling/README.md).*
 
@@ -1902,6 +2331,25 @@ The wall of illuminated tiles has become a palimpsest: observation below, failed
 
 Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to stack local detectors so later layers combine earlier patterns over wider regions, and the method falls back to this tempting instruction: classify directly from isolated edge responses. The old consequence returns—one edge has no object-level meaning. Restore the missing ability and that particular contradiction disappears. This reversible test is why cnn hierarchies belongs to the growing structure rather than to a list of facts to memorize.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we classify directly from isolated edge responses?
+
+#### When the chamber changes
+
+The mathematical name CNN Hierarchies can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The prism follows the tempting path—classify directly from isolated edge responses. Then the evidence answers: one edge has no object-level meaning.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The prism can now stack local detectors so later layers combine earlier patterns over wider regions.
+
+The object that should remain after the terminology disappears is **the cnn hierarchies prism mounted on the wall of illuminated tiles**.
+
+> **Memory seal — CNN Hierarchies**
+>
+> CNN Hierarchies keeps the missing power: stack local detectors so later layers combine earlier patterns over wider regions.
+
+Give the idea a bodily path: Touch the cnn hierarchies prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Understanding cnn hierarchies
 
 Edges form corners; corners and textures form stripes; repeated stripes plus shape support tiger.
@@ -1911,12 +2359,6 @@ Edges form corners; corners and textures form stripes; repeated stripes plus sha
 The hierarchy is learned, not guaranteed to match human parts.
 
 The wall of illuminated tiles answers today's question and falls silent at the next. That silence is precise: CNN Hierarchies was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the wall of illuminated tiles
-
-Rebuild the cnn hierarchies scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/079-cnn-hierarchy/README.md).*
 
@@ -1952,6 +2394,25 @@ The repair can now be stated without mystery: group pixels into patches, embed t
 
 One boundary in the room is now sharper. On one side lies the promise to treat every pixel as a token; on the other lies the observed fact that the sequence becomes enormous and individual pixels carry little stable structure. The bridge called vision transformers has exactly the planks needed to group pixels into patches, embed them as tokens, add position, and apply attention.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we treat every pixel as a token?
+
+#### When the chamber changes
+
+The Vision Transformers room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The seal follows the tempting path—treat every pixel as a token. Then the evidence answers: the sequence becomes enormous and individual pixels carry little stable structure.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The seal can now group pixels into patches, embed them as tokens, add position, and apply attention.
+
+The object that should remain after the terminology disappears is **the vision transformers seal mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Vision Transformers**
+>
+> Vision Transformers keeps the missing power: group pixels into patches, embed them as tokens, add position, and apply attention.
+
+Give the idea a bodily path: Touch the vision transformers seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Understanding vision transformers
 
 A 224×224 image with 16×16 patches becomes 196 tokens instead of 50,176 pixel tokens.
@@ -1961,12 +2422,6 @@ A 224×224 image with 16×16 patches becomes 196 tokens instead of 50,176 pixel 
 Patch size trades detail for cost and needs substantial data.
 
 A final test reaches beyond the new instrument. It does not refute Vision Transformers; it reveals the edge of what was constructed. The maker of seeing-machines carries that edge into the following room.
-
-#### Return to the wall of illuminated tiles
-
-Rebuild the vision transformers scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/080-vision-transformers/README.md).*
 
@@ -2004,6 +2459,25 @@ The maker of seeing-machines does not memorize autoencoders. Instead, the maker 
 
 Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to force information through a bottleneck and train reconstruction, and the method falls back to this tempting instruction: copy the input through an unrestricted hidden layer. The old consequence returns—a wide hidden layer learns identity without compression. Restore the missing ability and that particular contradiction disappears. This reversible test is why autoencoders belongs to the growing structure rather than to a list of facts to memorize.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we copy the input through an unrestricted hidden layer?
+
+#### When the chamber changes
+
+Keep the formal name Autoencoders covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The lens follows the tempting path—copy the input through an unrestricted hidden layer. Then the evidence answers: a wide hidden layer learns identity without compression.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The lens can now force information through a bottleneck and train reconstruction.
+
+The object that should remain after the terminology disappears is **the autoencoders lens mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Autoencoders**
+>
+> Autoencoders keeps the missing power: force information through a bottleneck and train reconstruction.
+
+Give the idea a bodily path: Touch the autoencoders lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Compressing and Rebuilding
 
 Four correlated measurements compress to two codes that still rebuild the originals approximately.
@@ -2013,12 +2487,6 @@ Four correlated measurements compress to two codes that still rebuild the origin
 Good reconstruction may preserve details irrelevant to downstream meaning.
 
 One unsolved mark remains on the wall of illuminated tiles. None of the responsibilities inside Autoencoders can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the wall of illuminated tiles
-
-Rebuild the autoencoders scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/081-autoencoders/README.md).*
 
@@ -2054,6 +2522,25 @@ The evidence permits one narrow invention: shape the latent distribution and tra
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—assume any compressed coordinates form a smooth useful space? The answer remains the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we assume any compressed coordinates form a smooth useful space?
+
+#### When the chamber changes
+
+The Latent Space chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The key follows the tempting path—assume any compressed coordinates form a smooth useful space. Then the evidence answers: the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The key can now shape the latent distribution and train nearby codes to decode coherently.
+
+The object that should remain after the terminology disappears is **the latent space key mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Latent Space**
+>
+> Latent Space keeps the missing power: shape the latent distribution and train nearby codes to decode coherently.
+
+Give the idea a bodily path: Touch the latent space key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Coordinates for Hidden Causes
 
 Moving one latent coordinate gradually changes image brightness while another changes pose.
@@ -2063,12 +2550,6 @@ Moving one latent coordinate gradually changes image brightness while another ch
 Latent directions need not be independent or human-readable.
 
 The latent space repair holds, but the world asks for something it was never given. At the Glass Menagerie, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the wall of illuminated tiles
-
-Rebuild the latent space scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/082-latent-space/README.md).*
 
@@ -2110,6 +2591,25 @@ The marks on the wall of illuminated tiles form a small constellation: one point
 
 Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to choose an order and predict each piece from previously generated pieces, and the method falls back to this tempting instruction: predict all pixels independently. The old consequence returns—independent pixels produce noise because neighboring colors and shapes constrain one another. Restore the missing ability and that particular contradiction disappears. This reversible test is why autoregressive generation beyond text belongs to the growing structure rather than to a list of facts to memorize.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we predict all pixels independently?
+
+#### When the chamber changes
+
+Before leaving Autoregressive Generation Beyond Text, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The lantern follows the tempting path—predict all pixels independently. Then the evidence answers: independent pixels produce noise because neighboring colors and shapes constrain one another.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The lantern can now choose an order and predict each piece from previously generated pieces.
+
+The object that should remain after the terminology disappears is **the autoregressive generation beyond text lantern mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Autoregressive Generation Beyond Text**
+>
+> Autoregressive Generation Beyond Text keeps the missing power: choose an order and predict each piece from previously generated pieces.
+
+Give the idea a bodily path: Touch the autoregressive generation beyond text lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Understanding autoregressive generation beyond text
 
 After generating sky pixels, the model gives blue neighbors higher probability.
@@ -2119,12 +2619,6 @@ After generating sky pixels, the model gives blue neighbors higher probability.
 Sequential generation can be slow and ordering introduces bias.
 
 Here the new path ends honestly. Autoregressive Generation Beyond Text can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
-
-#### Return to the wall of illuminated tiles
-
-Rebuild the autoregressive generation beyond text scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/083-autoregressive-generation/README.md).*
 
@@ -2162,6 +2656,25 @@ The maker of seeing-machines changes only that one responsibility: gradually add
 
 The wall of illuminated tiles keeps both histories. Its older mark still says, ‘map one random vector directly to a finished image in one jump’; beside it, the newer mark says, ‘gradually add noise to real images, then learn the smaller reverse step at every noise level.’ The distance between those sentences is the exact shape of diffusion: no larger than the failure required, and no smaller than reality permits.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we map one random vector directly to a finished image in one jump?
+
+#### When the chamber changes
+
+The mathematical name Diffusion can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The compass follows the tempting path—map one random vector directly to a finished image in one jump. Then the evidence answers: one enormous jump is difficult to learn and unstable across diverse images.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The compass can now gradually add noise to real images, then learn the smaller reverse step at every noise level.
+
+The object that should remain after the terminology disappears is **the diffusion compass mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Diffusion**
+>
+> Diffusion keeps the missing power: gradually add noise to real images, then learn the smaller reverse step at every noise level.
+
+Give the idea a bodily path: Touch the diffusion compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Learning by Destroying
 
 A tiger image becomes slightly grainy, then more noisy, then nearly random; training learns each local cleanup.
@@ -2197,12 +2710,6 @@ Many denoising steps make sampling expensive.
 
 At the Glass Menagerie, the maker of seeing-machines leaves a blank beneath the new mark. Diffusion has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-#### Return to the wall of illuminated tiles
-
-Rebuild the diffusion scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
-
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/084-diffusion/README.md).*
 
 ---
@@ -2236,6 +2743,25 @@ So the wall of illuminated tiles is altered in exactly one way: tell the model t
 
 Nothing is erased from the wall of illuminated tiles. The failed path remains visible beneath the repair, because denoising is easier to remember when its scar remains attached to it. The scar reads, ‘the task changes dramatically across noise strengths’; the new line exists only to keep that loss from happening again.
 
+> **Memory realm 8 of 18 — [Glass Menagerie](../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we ask it to recreate the entire clean image directly from every noise level?
+
+#### When the chamber changes
+
+The Denoising room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The bridge follows the tempting path—ask it to recreate the entire clean image directly from every noise level. Then the evidence answers: the task changes dramatically across noise strengths.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The bridge can now tell the model the noise level and predict the added noise or equivalent clean direction.
+
+The object that should remain after the terminology disappears is **the denoising bridge mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Denoising**
+>
+> Denoising keeps the missing power: tell the model the noise level and predict the added noise or equivalent clean direction.
+
+Give the idea a bodily path: Touch the denoising bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Predicting What the Noise Hid
 
 If known noise [0.2,-0.1] was added, learning to estimate it lets subtraction move toward the clean sample.
@@ -2281,12 +2807,6 @@ light → locality → hierarchy → latent space → noise → image
 
 The trail called *light learns a path home* is what remains when one necessity becomes another.
 
-#### Return to the wall of illuminated tiles
-
-Rebuild the denoising scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
-
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/085-denoising/README.md).*
 
 ---
@@ -2327,6 +2847,25 @@ The repair can now be stated without mystery: provide outcome feedback and let e
 
 A thread now runs backward from rewards through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and for exploration or games, nobody knows every correct intermediate move. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction. Along the Road of Consequences, rewards combines two old languages: probability for futures that may occur and value for consequences that matter if they do. An action is therefore not a label; it is an arrow cast into a branching world.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we label the correct action at every moment?
+
+#### When the chamber changes
+
+Keep the formal name Rewards covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The thread follows the tempting path—label the correct action at every moment. Then the evidence answers: for exploration or games, nobody knows every correct intermediate move.
+
+Now let the chamber move: The expedition leader changes one moving part. The thread can now provide outcome feedback and let experience connect actions with later consequences.
+
+The object that should remain after the terminology disappears is **the rewards thread mounted on the map of branching journeys**.
+
+> **Memory seal — Rewards**
+>
+> Rewards keeps the missing power: provide outcome feedback and let experience connect actions with later consequences.
+
+Give the idea a bodily path: Touch the rewards thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Learning Without Correct Answers
 
 A maze gives +1 only at the exit; repeated trials reveal which earlier turns tend to reach it.
@@ -2336,12 +2875,6 @@ A maze gives +1 only at the exit; repeated trials reveal which earlier turns ten
 Poor rewards create unintended shortcuts.
 
 A final test reaches beyond the new instrument. It does not refute Rewards; it reveals the edge of what was constructed. The expedition leader carries that edge into the following room.
-
-#### Return to the map of branching journeys
-
-Rebuild the rewards scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/086-rewards/README.md).*
 
@@ -2377,6 +2910,25 @@ Only the missing distinction is restored: we need to record current state, chose
 
 The expedition leader places a finger over the new distinction. At once the two cases collapse and the trouble appears immediately: the same action helps in one situation and harms in another. Lifting the finger restores only this capacity: record current state, chosen action, reward, and resulting state. That tiny reversible motion is the chapter's proof of necessity.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we store only action and final reward?
+
+#### When the chamber changes
+
+The States, Actions, and Transitions chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The mirror follows the tempting path—store only action and final reward. Then the evidence answers: the trouble appears immediately: the same action helps in one situation and harms in another.
+
+Now let the chamber move: The expedition leader changes one moving part. The mirror can now record current state, chosen action, reward, and resulting state.
+
+The object that should remain after the terminology disappears is **the states, actions, and transitions mirror mounted on the map of branching journeys**.
+
+> **Memory seal — States, Actions, and Transitions**
+>
+> States, Actions, and Transitions keeps the missing power: record current state, chosen action, reward, and resulting state.
+
+Give the idea a bodily path: Touch the states, actions, and transitions mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Understanding states, actions, and transitions
 
 “Move right” from left of the door succeeds; the same action beside a cliff fails because state differs.
@@ -2386,12 +2938,6 @@ The expedition leader places a finger over the new distinction. At once the two 
 A state representation may omit information needed for future decisions.
 
 One unsolved mark remains on the map of branching journeys. None of the responsibilities inside States, Actions, and Transitions can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the map of branching journeys
-
-Rebuild the states, actions, and transitions scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/087-states-actions-transitions/README.md).*
 
@@ -2433,6 +2979,25 @@ What changed on the map of branching journeys can be said without symbols. Befor
 
 Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to estimate the future reward expected from a state or state-action pair, and the method falls back to this tempting instruction: choose the action with the largest reward right now. The old consequence returns—a small immediate treat can prevent reaching a larger later reward. Restore the missing ability and that particular contradiction disappears. This reversible test is why value belongs to the growing structure rather than to a list of facts to memorize.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we choose the action with the largest reward right now?
+
+#### When the chamber changes
+
+Before leaving Value, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The bell follows the tempting path—choose the action with the largest reward right now. Then the evidence answers: a small immediate treat can prevent reaching a larger later reward.
+
+Now let the chamber move: The expedition leader changes one moving part. The bell can now estimate the future reward expected from a state or state-action pair.
+
+The object that should remain after the terminology disappears is **the value bell mounted on the map of branching journeys**.
+
+> **Memory seal — Value**
+>
+> Value keeps the missing power: estimate the future reward expected from a state or state-action pair.
+
+Give the idea a bodily path: Touch the value bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Estimating Future Consequences
 
 One path gives 1 now; another gives 0 now and 10 next. Future value makes the second preferable.
@@ -2442,12 +3007,6 @@ One path gives 1 now; another gives 0 now and 10 next. Future value makes the se
 Value estimates inherit errors from limited experience.
 
 The value repair holds, but the world asks for something it was never given. At the Road of Consequences, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the map of branching journeys
-
-Rebuild the value scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/088-value-functions/README.md).*
 
@@ -2485,6 +3044,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In q-learning, that memory takes a precise form: whenever the update ignores the valuable state reached afterward, preserve enough structure to move the estimate toward reward plus the best discounted value available next.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we replace its value with the immediate reward?
+
+#### When the chamber changes
+
+The mathematical name Q-Learning can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The vessel follows the tempting path—replace its value with the immediate reward. Then the evidence answers: the update ignores the valuable state reached afterward.
+
+Now let the chamber move: The expedition leader changes one moving part. The vessel can now move the estimate toward reward plus the best discounted value available next.
+
+The object that should remain after the terminology disappears is **the q-learning vessel mounted on the map of branching journeys**.
+
+> **Memory seal — Q-Learning**
+>
+> Q-Learning keeps the missing power: move the estimate toward reward plus the best discounted value available next.
+
+Give the idea a bodily path: Touch the q-learning vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Improving Values from Experience
 
 Reward 0 leads to a next state valued 10; with discount .9 the target is 9, not 0.
@@ -2520,12 +3098,6 @@ Maximization can overestimate noisy actions and offline data limits safe explora
 
 Here the new path ends honestly. Q-Learning can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-#### Return to the map of branching journeys
-
-Rebuild the q-learning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
-
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/089-q-learning/README.md).*
 
 ---
@@ -2559,6 +3131,25 @@ The expedition leader changes only that one responsibility: sample from a policy
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because early errors remove exploration and discrete choice blocks ordinary differentiation, while the other can sample from a policy and increase probability of actions followed by better-than-expected returns. That fork—not the vocabulary—is where policy gradients lives.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we always choose the highest estimated action?
+
+#### When the chamber changes
+
+The Policy Gradients room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The gate follows the tempting path—always choose the highest estimated action. Then the evidence answers: early errors remove exploration and discrete choice blocks ordinary differentiation.
+
+Now let the chamber move: The expedition leader changes one moving part. The gate can now sample from a policy and increase probability of actions followed by better-than-expected returns.
+
+The object that should remain after the terminology disappears is **the policy gradients gate mounted on the map of branching journeys**.
+
+> **Memory seal — Policy Gradients**
+>
+> Policy Gradients keeps the missing power: sample from a policy and increase probability of actions followed by better-than-expected returns.
+
+Give the idea a bodily path: Touch the policy gradients gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Improving the Choices Directly
 
 An action chosen with 20% probability produces unusually high reward; its probability is nudged upward.
@@ -2593,12 +3184,6 @@ $$
 Policy gradients are noisy and can exploit reward flaws.
 
 At the Road of Consequences, the expedition leader leaves a blank beneath the new mark. Policy Gradients has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the map of branching journeys
-
-Rebuild the policy gradients scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/090-policy-gradients/README.md).*
 
@@ -2636,6 +3221,25 @@ The map of branching journeys has become a palimpsest: observation below, failed
 
 Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to use separate encoders and train paired image-text examples to become nearby, and the method falls back to this tempting instruction: compare raw pixels directly with token IDs. The old consequence returns—their coordinates have unrelated meanings and shapes. Restore the missing ability and that particular contradiction disappears. This reversible test is why multimodal alignment belongs to the growing structure rather than to a list of facts to memorize.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we compare raw pixels directly with token IDs?
+
+#### When the chamber changes
+
+Keep the formal name Multimodal Alignment covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The wheel follows the tempting path—compare raw pixels directly with token IDs. Then the evidence answers: their coordinates have unrelated meanings and shapes.
+
+Now let the chamber move: The expedition leader changes one moving part. The wheel can now use separate encoders and train paired image-text examples to become nearby.
+
+The object that should remain after the terminology disappears is **the multimodal alignment wheel mounted on the map of branching journeys**.
+
+> **Memory seal — Multimodal Alignment**
+>
+> Multimodal Alignment keeps the missing power: use separate encoders and train paired image-text examples to become nearby.
+
+Give the idea a bodily path: Touch the multimodal alignment wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Understanding multimodal alignment
 
 A tiger photo and “striped big cat” move together; mismatched captions move apart.
@@ -2645,12 +3249,6 @@ A tiger photo and “striped big cat” move together; mismatched captions move 
 Pairs can contain weak, biased, or incomplete descriptions.
 
 The map of branching journeys answers today's question and falls silent at the next. That silence is precise: Multimodal Alignment was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the map of branching journeys
-
-Rebuild the multimodal alignment scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/091-multimodal-alignment/README.md).*
 
@@ -2686,6 +3284,25 @@ The repair can now be stated without mystery: compare each true pair against mis
 
 One boundary in the room is now sharper. On one side lies the promise to pull every observed pair together without negatives; on the other lies the observed fact that the trouble appears immediately: all representations can collapse to one point. The bridge called contrastive learning has exactly the planks needed to compare each true pair against mismatched alternatives in the same batch.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we pull every observed pair together without negatives?
+
+#### When the chamber changes
+
+The Contrastive Learning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The map follows the tempting path—pull every observed pair together without negatives. Then the evidence answers: the trouble appears immediately: all representations can collapse to one point.
+
+Now let the chamber move: The expedition leader changes one moving part. The map can now compare each true pair against mismatched alternatives in the same batch.
+
+The object that should remain after the terminology disappears is **the contrastive learning map mounted on the map of branching journeys**.
+
+> **Memory seal — Contrastive Learning**
+>
+> Contrastive Learning keeps the missing power: compare each true pair against mismatched alternatives in the same batch.
+
+Give the idea a bodily path: Touch the contrastive learning map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Understanding contrastive learning
 
 One tiger image chooses its caption among 31 wrong captions; success requires relative alignment.
@@ -2723,12 +3340,6 @@ False negatives may actually describe the same concept.
 
 A final test reaches beyond the new instrument. It does not refute Contrastive Learning; it reveals the edge of what was constructed. The expedition leader carries that edge into the following room.
 
-#### Return to the map of branching journeys
-
-Rebuild the contrastive learning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
-
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/092-contrastive-learning/README.md).*
 
 ---
@@ -2765,6 +3376,25 @@ The expedition leader does not memorize speech and audio. Instead, the expeditio
 
 Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to transform short windows into time-frequency features, then model their sequence, and the method falls back to this tempting instruction: treat every raw sample as an independent token. The old consequence returns—sequences are huge and local frequency structure is hidden. Restore the missing ability and that particular contradiction disappears. This reversible test is why speech and audio belongs to the growing structure rather than to a list of facts to memorize.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we treat every raw sample as an independent token?
+
+#### When the chamber changes
+
+Before leaving Speech and Audio, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The scale follows the tempting path—treat every raw sample as an independent token. Then the evidence answers: sequences are huge and local frequency structure is hidden.
+
+Now let the chamber move: The expedition leader changes one moving part. The scale can now transform short windows into time-frequency features, then model their sequence.
+
+The object that should remain after the terminology disappears is **the speech and audio scale mounted on the map of branching journeys**.
+
+> **Memory seal — Speech and Audio**
+>
+> Speech and Audio keeps the missing power: transform short windows into time-frequency features, then model their sequence.
+
+Give the idea a bodily path: Touch the speech and audio scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Understanding speech and audio
 
 A whistle appears as sustained energy in one frequency band across several time windows.
@@ -2774,12 +3404,6 @@ A whistle appears as sustained energy in one frequency band across several time 
 Spectrogram choices discard phase or fine timing.
 
 One unsolved mark remains on the map of branching journeys. None of the responsibilities inside Speech and Audio can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the map of branching journeys
-
-Rebuild the speech and audio scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/093-speech-audio/README.md).*
 
@@ -2819,6 +3443,25 @@ The evidence permits one narrow invention: freeze the base and learn a small low
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—copy and fine-tune all parameters for every task? The answer remains storage and training cost multiply, and the base model is harder to preserve. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we copy and fine-tune all parameters for every task?
+
+#### When the chamber changes
+
+The mathematical name Low-Rank Adaptation can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The gear follows the tempting path—copy and fine-tune all parameters for every task. Then the evidence answers: storage and training cost multiply, and the base model is harder to preserve.
+
+Now let the chamber move: The expedition leader changes one moving part. The gear can now freeze the base and learn a small low-rank correction to selected matrices.
+
+The object that should remain after the terminology disappears is **the low-rank adaptation gear mounted on the map of branching journeys**.
+
+> **Memory seal — Low-Rank Adaptation**
+>
+> Low-Rank Adaptation keeps the missing power: freeze the base and learn a small low-rank correction to selected matrices.
+
+Give the idea a bodily path: Touch the low-rank adaptation gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Understanding low-rank adaptation
 
 Instead of a million-value update, two narrow matrices produce a constrained correction with far fewer trainable values.
@@ -2852,12 +3495,6 @@ $$
 Low rank may be insufficient for large behavioral changes.
 
 The low-rank adaptation repair holds, but the world asks for something it was never given. At the Road of Consequences, that unmet need is preserved rather than hidden behind a stronger claim.
-
-#### Return to the map of branching journeys
-
-Rebuild the low-rank adaptation scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/094-lora/README.md).*
 
@@ -2895,6 +3532,25 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the map of branching journeys form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. quantization is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we round every weight aggressively without measuring effect?
+
+#### When the chamber changes
+
+The Quantization room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The prism follows the tempting path—round every weight aggressively without measuring effect. Then the evidence answers: small but important distinctions disappear and outputs degrade.
+
+Now let the chamber move: The expedition leader changes one moving part. The prism can now map values to a limited set of levels using calibrated scale and test sensitive layers.
+
+The object that should remain after the terminology disappears is **the quantization prism mounted on the map of branching journeys**.
+
+> **Memory seal — Quantization**
+>
+> Quantization keeps the missing power: map values to a limited set of levels using calibrated scale and test sensitive layers.
+
+Give the idea a bodily path: Touch the quantization prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Understanding quantization
 
 Weights from -1 to 1 become 256 integer levels; a stored integer plus scale approximately reconstructs each value.
@@ -2934,12 +3590,6 @@ Lower precision trades accuracy for efficiency and hardware support varies.
 
 Here the new path ends honestly. Quantization can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-#### Return to the map of branching journeys
-
-Rebuild the quantization scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
-
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/095-quantization/README.md).*
 
 ---
@@ -2973,6 +3623,25 @@ The expedition leader changes only that one responsibility: partition data or mo
 
 The map of branching journeys keeps both histories. Its older mark still says, ‘let many machines train independent copies and combine them occasionally’; beside it, the newer mark says, ‘partition data or model work, synchronize required results, and preserve one coherent update.’ The distance between those sentences is the exact shape of distributed training: no larger than the failure required, and no smaller than reality permits.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we let many machines train independent copies and combine them occasionally?
+
+#### When the chamber changes
+
+Keep the formal name Distributed Training covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The seal follows the tempting path—let many machines train independent copies and combine them occasionally. Then the evidence answers: their parameters drift and duplicated work wastes computation.
+
+Now let the chamber move: The expedition leader changes one moving part. The seal can now partition data or model work, synchronize required results, and preserve one coherent update.
+
+The object that should remain after the terminology disappears is **the distributed training seal mounted on the map of branching journeys**.
+
+> **Memory seal — Distributed Training**
+>
+> Distributed Training keeps the missing power: partition data or model work, synchronize required results, and preserve one coherent update.
+
+Give the idea a bodily path: Touch the distributed training seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Understanding distributed training
 
 Two workers compute gradients on different batches, average them, then apply the same update.
@@ -2982,12 +3651,6 @@ Two workers compute gradients on different batches, average them, then apply the
 Communication, failure recovery, and numerical nondeterminism become bottlenecks.
 
 At the Road of Consequences, the expedition leader leaves a blank beneath the new mark. Distributed Training has no operation that can answer it, so the blank—not a promised solution—travels onward.
-
-#### Return to the map of branching journeys
-
-Rebuild the distributed training scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/096-distributed-training/README.md).*
 
@@ -3023,6 +3686,25 @@ So the map of branching journeys is altered in exactly one way: batch compatible
 
 Nothing is erased from the map of branching journeys. The failed path remains visible beneath the repair, because inference serving is easier to remember when its scar remains attached to it. The scar reads, ‘the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues’; the new line exists only to keep that loss from happening again.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we run one request at a time on one full model?
+
+#### When the chamber changes
+
+The Inference Serving chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The lens follows the tempting path—run one request at a time on one full model. Then the evidence answers: the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues.
+
+Now let the chamber move: The expedition leader changes one moving part. The lens can now batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
+
+The object that should remain after the terminology disappears is **the inference serving lens mounted on the map of branching journeys**.
+
+> **Memory seal — Inference Serving**
+>
+> Inference Serving keeps the missing power: batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
+
+Give the idea a bodily path: Touch the inference serving lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Understanding inference serving
 
 Four prompts share one matrix operation while each retains separate token state.
@@ -3032,12 +3714,6 @@ Four prompts share one matrix operation while each retains separate token state.
 Batching improves throughput but can worsen individual latency.
 
 The map of branching journeys answers today's question and falls silent at the next. That silence is precise: Inference Serving was built to repair one failure, not to pretend every later boundary is already solved.
-
-#### Return to the map of branching journeys
-
-Rebuild the inference serving scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/097-inference-serving/README.md).*
 
@@ -3075,6 +3751,25 @@ A thread now runs backward from red teaming through the room. Tug it and the rep
 
 Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations, and the method falls back to this tempting instruction: evaluate only expected well-formed requests. The old consequence returns—real users, attackers, and accidents find paths designers never listed. Restore the missing ability and that particular contradiction disappears. This reversible test is why red teaming belongs to the growing structure rather than to a list of facts to memorize.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we evaluate only expected well-formed requests?
+
+#### When the chamber changes
+
+Before leaving Red Teaming, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The key follows the tempting path—evaluate only expected well-formed requests. Then the evidence answers: real users, attackers, and accidents find paths designers never listed.
+
+Now let the chamber move: The expedition leader changes one moving part. The key can now actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations.
+
+The object that should remain after the terminology disappears is **the red teaming key mounted on the map of branching journeys**.
+
+> **Memory seal — Red Teaming**
+>
+> Red Teaming keeps the missing power: actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations.
+
+Give the idea a bodily path: Touch the red teaming key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Understanding red teaming
 
 A hidden instruction in a retrieved page bypasses a normal demo; the case becomes a permanent injection test.
@@ -3084,12 +3779,6 @@ A hidden instruction in a retrieved page bypasses a normal demo; the case become
 No finite red team proves universal safety.
 
 A final test reaches beyond the new instrument. It does not refute Red Teaming; it reveals the edge of what was constructed. The expedition leader carries that edge into the following room.
-
-#### Return to the map of branching journeys
-
-Rebuild the red teaming scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/098-red-teaming/README.md).*
 
@@ -3125,6 +3814,25 @@ Only the missing distinction is restored: we need to define ownership, review, d
 
 The expedition leader places a finger over the new distinction. At once the two cases collapse and affected users carry risks without authority, appeal, or visibility. Lifting the finger restores only this capacity: define ownership, review, documentation, incident response, user recourse, and deployment boundaries. That tiny reversible motion is the chapter's proof of necessity.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** Who Decides and Who Is Accountable?
+
+#### When the chamber changes
+
+The mathematical name Governance can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The lantern follows the tempting path—let builders decide every acceptable use because they understand the system. Then the evidence answers: affected users carry risks without authority, appeal, or visibility.
+
+Now let the chamber move: The expedition leader changes one moving part. The lantern can now define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
+
+The object that should remain after the terminology disappears is **the governance lantern mounted on the map of branching journeys**.
+
+> **Memory seal — Governance**
+>
+> Governance keeps the missing power: define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
+
+Give the idea a bodily path: Touch the governance lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Who Decides and Who Is Accountable
 
 A lending model requires documented data, subgroup evaluation, human appeal, and a named owner before launch.
@@ -3134,12 +3842,6 @@ A lending model requires documented data, subgroup evaluation, human appeal, and
 Governance can become paperwork unless tied to real authority and enforcement.
 
 One unsolved mark remains on the map of branching journeys. None of the responsibilities inside Governance can move it, and so it becomes the observation from which the next excavation must begin.
-
-#### Return to the map of branching journeys
-
-Rebuild the governance scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/099-governance/README.md).*
 
@@ -3179,6 +3881,25 @@ The evidence permits one narrow invention: build one observable loop where evide
 
 What changed on the map of branching journeys can be said without symbols. Before, the method could only connect every powerful component and call the result intelligent; now it can also build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+> **Memory realm 9 of 18 — [Road of Consequences](../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we connect every powerful component and call the result intelligent?
+
+#### When the chamber changes
+
+The The Complete AI System room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The compass follows the tempting path—connect every powerful component and call the result intelligent. Then the evidence answers: an accurate model with stale data, excessive authority, weak verification, or no accountability still fails.
+
+Now let the chamber move: The expedition leader changes one moving part. The compass can now build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another.
+
+The object that should remain after the terminology disappears is **the complete ai system compass mounted on the map of branching journeys**.
+
+> **Memory seal — The Complete AI System**
+>
+> The Complete AI System keeps the missing power: build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another.
+
+Give the idea a bodily path: Touch the complete ai system compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### From Observation to Responsible Action
 
 A support system retrieves current policy, drafts an answer, cites evidence, requests approval for refunds, verifies transactions, logs outcomes, and learns only through reviewed updates.
@@ -3202,11 +3923,5 @@ representation + learning + action + evidence + authority
 ```
 
 The trail called *one system, many kinds of consequence* is what remains when one necessity becomes another.
-
-#### Return to the map of branching journeys
-
-Rebuild the complete ai system scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
-
-The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 
 *Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/100-complete-ai-system/README.md).*

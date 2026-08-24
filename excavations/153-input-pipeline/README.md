@@ -32,6 +32,28 @@ Only the missing distinction is restored: prepare the next batch while the curre
 
 The enginewright does not memorize input pipeline. Instead, the enginewright memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we load a batch, wait until loading finishes, compute it, and only then begin loading the next one?
+
+## When the chamber changes
+
+Before leaving The Input Pipeline, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The vessel follows the tempting path—load a batch, wait until loading finishes, compute it, and only then begin loading the next one. Then the evidence answers: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle.
+
+Now let the chamber move: The enginewright changes one moving part. The vessel can now prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering.
+
+The object that should remain after the terminology disappears is **the input pipeline vessel mounted on the brass reference machine**.
+
+> **Memory seal — The Input Pipeline**
+>
+> The Input Pipeline keeps the missing power: prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering.
+
+Give the idea a bodily path: Touch the input pipeline vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Stop Making the Accelerator Wait
 
 If loading takes 35 ms and compute 45 ms, serial work costs 80 ms. Once overlapped, a steady-state step is governed mainly by the slower 45 ms stage.

@@ -35,6 +35,28 @@ The repair can now be stated without mystery: keep many query heads but share on
 
 A thread now runs backward from multi-query attention through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** Why Cache Separate Copies for Every Head?
+
+## When the chamber changes
+
+Before leaving Multi-Query Attention, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The gear follows the tempting path—preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections. Then the evidence answers: the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token.
+
+Now let the chamber move: The enginewright changes one moving part. The gear can now keep many query heads but share one key head and one value head across them.
+
+The object that should remain after the terminology disappears is **the multi-query attention gear mounted on the brass reference machine**.
+
+> **Memory seal — Multi-Query Attention**
+>
+> Multi-Query Attention keeps the missing power: keep many query heads but share one key head and one value head across them.
+
+Give the idea a bodily path: Touch the multi-query attention gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Why Cache Separate Copies for Every Head
 
 Eight query experts ask eight different questions of the same cached catalog. Cache entries fall from eight key-value pairs per token to one pair per token.

@@ -35,6 +35,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the ring of glass lanterns form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. chain rule is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we measure only the first effect or only the final effect?
+
+## When the chamber changes
+
+Before leaving The Chain Rule, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The mirror follows the tempting path—measure only the first effect or only the final effect. Then the evidence answers: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The mirror can now multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
+
+The object that should remain after the terminology disappears is **the chain rule mirror mounted on the ring of glass lanterns**.
+
+> **Memory seal — The Chain Rule**
+>
+> The Chain Rule keeps the missing power: multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
+
+Give the idea a bodily path: Touch the chain rule mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside the chain rule
 
 The keeper of uncertain stories carries the chain rule scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

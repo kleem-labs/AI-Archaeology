@@ -35,6 +35,28 @@ Only the missing distinction is restored: freeze representative tasks, inputs, m
 
 The experimentalist does not memorize benchmarks. Instead, the experimentalist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can freeze representative tasks, inputs, metrics, and scoring rules before seeing results. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we let each model demonstrate its strongest example?
+
+## When the chamber changes
+
+The mathematical name Benchmarks can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The lens follows the tempting path—let each model demonstrate its strongest example. Then the evidence answers: a showcase cannot support comparison because difficulty and scoring move with the contestant.
+
+Now let the chamber move: The experimentalist changes one moving part. The lens can now freeze representative tasks, inputs, metrics, and scoring rules before seeing results.
+
+The object that should remain after the terminology disappears is **the benchmarks lens mounted on the sealed evidence ledger**.
+
+> **Memory seal — Benchmarks**
+>
+> Benchmarks keeps the missing power: freeze representative tasks, inputs, metrics, and scoring rules before seeing results.
+
+Give the idea a bodily path: Touch the benchmarks lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Building a Ruler Before Measuring Progress
 
 Give three navigation agents the same maps, action budget, and success definition.

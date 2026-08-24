@@ -33,6 +33,28 @@ So the table of mirrored maps is altered in exactly one way: we need to balance 
 
 The table of mirrored maps has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and tree search looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we expand every branch equally?
+
+## When the chamber changes
+
+The Tree Search room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The lantern follows the tempting path—expand every branch equally. Then the evidence answers: most computation is wasted on obviously poor branches.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The lantern can now balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.
+
+The object that should remain after the terminology disappears is **the tree search lantern mounted on the table of mirrored maps**.
+
+> **Memory seal — Tree Search**
+>
+> Tree Search keeps the missing power: balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.
+
+Give the idea a bodily path: Touch the tree search lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Understanding tree search
 
 A game search revisits a move that won often while still testing a less explored alternative.

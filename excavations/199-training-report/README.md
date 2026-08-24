@@ -35,6 +35,28 @@ So the chain-of-custody ledger is altered in exactly one way: generate a trainin
 
 The chain-of-custody ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and training report looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we publish the final benchmark table and assume the configuration files explain the rest?
+
+## When the chamber changes
+
+The mathematical name The Training Report can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The mirror follows the tempting path—publish the final benchmark table and assume the configuration files explain the rest. Then the evidence answers: a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The mirror can now generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions.
+
+The object that should remain after the terminology disappears is **the training report mirror mounted on the chain-of-custody ledger**.
+
+> **Memory seal — The Training Report**
+>
+> The Training Report keeps the missing power: generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions.
+
+Give the idea a bodily path: Touch the training report mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Preserve the Decisions, Not Only the Weights
 
 The station's report names corpus and code versions, tokens seen, mixture shares, compute, checkpoint recoveries, per-domain validation, memorization probes, excluded sources, and the exact model artifact hash.

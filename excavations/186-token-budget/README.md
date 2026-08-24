@@ -37,6 +37,28 @@ The archivist-engineer changes only that one responsibility: define the run by o
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence, while the other can define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute. That fork—not the vocabulary—is where token budget lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we stop when the wall clock reaches an affordable date?
+
+## When the chamber changes
+
+Keep the formal name The Token Budget covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The gate follows the tempting path—stop when the wall clock reaches an affordable date. Then the evidence answers: faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The gate can now define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute.
+
+The object that should remain after the terminology disappears is **the token budget gate mounted on the chain-of-custody ledger**.
+
+> **Memory seal — The Token Budget**
+>
+> The Token Budget keeps the missing power: define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute.
+
+Give the idea a bodily path: Touch the token budget gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Convert a Training Plan into a Count of Lessons
 
 A tiny run uses 2,000 updates with 32 sequences of 128 real tokens each. Every update carries 4,096 lessons, so the complete plan exposes 8,192,000 tokens.

@@ -33,6 +33,28 @@ Only the missing distinction is restored: we need to intervene on the representa
 
 The field naturalist places a finger over the new distinction. At once the two cases collapse and the direction predicts answers but changing it leaves behavior unchanged. Lifting the finger restores only this capacity: intervene on the representation and measure the specific downstream change against controls. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we assume correlation with output proves causation?
+
+## When the chamber changes
+
+The Causal Interventions room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The wheel follows the tempting path—assume correlation with output proves causation. Then the evidence answers: the direction predicts answers but changing it leaves behavior unchanged.
+
+Now let the chamber move: The field naturalist changes one moving part. The wheel can now intervene on the representation and measure the specific downstream change against controls.
+
+The object that should remain after the terminology disappears is **the causal interventions wheel mounted on the weathered observation slate**.
+
+> **Memory seal — Causal Interventions**
+>
+> Causal Interventions keeps the missing power: intervene on the representation and measure the specific downstream change against controls.
+
+Give the idea a bodily path: Touch the causal interventions wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Understanding causal interventions
 
 Adding the candidate direction raises tiger probability only in relevant contexts; random directions do not.

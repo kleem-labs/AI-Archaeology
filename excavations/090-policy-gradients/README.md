@@ -32,6 +32,28 @@ The expedition leader changes only that one responsibility: sample from a policy
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because early errors remove exploration and discrete choice blocks ordinary differentiation, while the other can sample from a policy and increase probability of actions followed by better-than-expected returns. That fork—not the vocabulary—is where policy gradients lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we always choose the highest estimated action?
+
+## When the chamber changes
+
+The Policy Gradients room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The gate follows the tempting path—always choose the highest estimated action. Then the evidence answers: early errors remove exploration and discrete choice blocks ordinary differentiation.
+
+Now let the chamber move: The expedition leader changes one moving part. The gate can now sample from a policy and increase probability of actions followed by better-than-expected returns.
+
+The object that should remain after the terminology disappears is **the policy gradients gate mounted on the map of branching journeys**.
+
+> **Memory seal — Policy Gradients**
+>
+> Policy Gradients keeps the missing power: sample from a policy and increase probability of actions followed by better-than-expected returns.
+
+Give the idea a bodily path: Touch the policy gradients gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Improving the Choices Directly
 
 An action chosen with 20% probability produces unusually high reward; its probability is nudged upward.

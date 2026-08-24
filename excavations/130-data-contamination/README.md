@@ -32,6 +32,28 @@ The evidence permits one narrow invention: track provenance, search for semantic
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—assume held-out files guarantee unseen knowledge? The answer remains the same questions appeared online in training data with small formatting changes. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** When the Test Was Secretly Homework?
+
+## When the chamber changes
+
+The Data Contamination room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The key follows the tempting path—assume held-out files guarantee unseen knowledge. Then the evidence answers: the same questions appeared online in training data with small formatting changes.
+
+Now let the chamber move: The experimentalist changes one moving part. The key can now track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations.
+
+The object that should remain after the terminology disappears is **the data contamination key mounted on the sealed evidence ledger**.
+
+> **Memory seal — Data Contamination**
+>
+> Data Contamination keeps the missing power: track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations.
+
+Give the idea a bodily path: Touch the data contamination key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## When the Test Was Secretly Homework
 
 A supposedly unseen riddle shares its distinctive answer phrase with a training document; remove the overlap and retest.

@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In pre-deployment evaluations, that memory takes a precise form: whenever the first realistic discovery of a dangerous capability harms actual users, preserve enough structure to test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we deploy broadly and learn from production incidents?
+
+## When the chamber changes
+
+The mathematical name Pre-Deployment Evaluations can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The bridge follows the tempting path—deploy broadly and learn from production incidents. Then the evidence answers: the first realistic discovery of a dangerous capability harms actual users.
+
+Now let the chamber move: The experimentalist changes one moving part. The bridge can now test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
+
+The object that should remain after the terminology disappears is **the pre-deployment evaluations bridge mounted on the sealed evidence ledger**.
+
+> **Memory seal — Pre-Deployment Evaluations**
+>
+> Pre-Deployment Evaluations keeps the missing power: test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
+
+Give the idea a bodily path: Touch the pre-deployment evaluations bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Fail Before the World Pays
 
 A sandboxed email agent faces prompt injection, ambiguous recipients, retries, and irreversible-send boundaries.

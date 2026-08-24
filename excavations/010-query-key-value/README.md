@@ -86,6 +86,28 @@ $$
 \mathbf{o}_i=\sum_j \alpha_{ij}\mathbf{v}_j
 $$
 
+<!-- memory-film-v1:start -->
+> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
+>
+> **The question carried into this chamber:** Why must asking, matching, and contributing be three different jobs?
+
+## When the chamber changes
+
+The Query, Key, and Value room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: Using one description for every job confuses what is sought, how relevance is tested, and what information is finally carried.
+
+Now let the chamber move: The word passes through three masks: one asks, one advertises, and one contributes.
+
+The object that should remain after the terminology disappears is **three masks labeled query, key, and value hanging above one word**.
+
+> **Memory seal — Query, Key, and Value**
+>
+> Query, key, and value separate the question, the match, and the knowledge that travels.
+
+Give the idea a bodily path: Point toward yourself, touch two fingertips together, then offer an open palm.
+<!-- memory-film-v1:end -->
+
 ## Challenge
 
 For a library search, identify the query, the key-like catalog information, and the value-like content returned. Explain why catalog fields and book contents should not be the same object.

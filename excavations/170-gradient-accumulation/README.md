@@ -35,6 +35,28 @@ The repair can now be stated without mystery: run several micro-batches, sum the
 
 A thread now runs backward from gradient accumulation through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we reduce the batch until it fits and change nothing else?
+
+## When the chamber changes
+
+The Gradient Accumulation room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The gate follows the tempting path—reduce the batch until it fits and change nothing else. Then the evidence answers: the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together.
+
+Now let the chamber move: The enginewright changes one moving part. The gate can now run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step.
+
+The object that should remain after the terminology disappears is **the gradient accumulation gate mounted on the brass reference machine**.
+
+> **Memory seal — Gradient Accumulation**
+>
+> Gradient Accumulation keeps the missing power: run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step.
+
+Give the idea a bodily path: Touch the gradient accumulation gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Build a Large Batch That Does Not Fit
 
 Four micro-batches of eight examples create one effective batch of thirty-two while only eight examples' activations are resident at a time.

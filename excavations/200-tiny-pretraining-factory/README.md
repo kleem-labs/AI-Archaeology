@@ -32,6 +32,28 @@ The repair can now be stated without mystery: assemble signed stage manifests, b
 
 One boundary in the room is now sharper. On one side lies the promise to connect every tool into one automatic pipeline and trust any run that reaches the final stage; on the other lies the observed fact that automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness. The bridge called tiny pretraining factory has exactly the planks needed to assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we connect every tool into one automatic pipeline and trust any run that reaches the final stage?
+
+## When the chamber changes
+
+The A Tiny Pretraining Factory room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The bell follows the tempting path—connect every tool into one automatic pipeline and trust any run that reaches the final stage. Then the evidence answers: automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The bell can now assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory.
+
+The object that should remain after the terminology disappears is **the tiny pretraining factory bell mounted on the chain-of-custody ledger**.
+
+> **Memory seal — A Tiny Pretraining Factory**
+>
+> A Tiny Pretraining Factory keeps the missing power: assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory.
+
+Give the idea a bodily path: Touch the tiny pretraining factory bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Close the Accountable Training Loop
 
 A tiny run begins from ten named documents, records every acceptance and removal, trains a reproducible model, survives an intentional interruption, reproduces its next updates, generates its report, and refuses release when the memorization gate fails.

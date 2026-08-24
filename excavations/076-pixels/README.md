@@ -37,6 +37,28 @@ The evidence permits one narrow invention: preserve local spatial arrangement an
 
 What changed on the wall of illuminated tiles can be said without symbols. Before, the method could only assign one label to the entire raw byte sequence; now it can also preserve local spatial arrangement and compare nearby color measurements. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it. The Glass Menagerie returns to the valley's geometry at a finer scale. pixels asks which nearby lights belong together, how small patterns compose into larger ones, and which transformations preserve identity while appearance changes. Seeing is measurement arranged across space.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we assign one label to the entire raw byte sequence?
+
+## When the chamber changes
+
+Keep the formal name Pixels covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The map follows the tempting path—assign one label to the entire raw byte sequence. Then the evidence answers: a one-pixel shift changes thousands of byte positions although the same tiger remains.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The map can now preserve local spatial arrangement and compare nearby color measurements.
+
+The object that should remain after the terminology disappears is **the pixels map mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Pixels**
+>
+> Pixels keeps the missing power: preserve local spatial arrangement and compare nearby color measurements.
+
+Give the idea a bodily path: Touch the pixels map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Turning Light into Numbers
 
 A 2×2 grayscale patch becomes four intensities with explicit row and column positions.

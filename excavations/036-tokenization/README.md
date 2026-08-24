@@ -37,6 +37,28 @@ The mechanist changes only that one responsibility: use characters. Any new spel
 
 The sentence-wheel keeps both histories. Its older mark still says, ‘give every complete word one ID’; beside it, the newer mark says, ‘use characters. Any new spelling can now be represented.’ The distance between those sentences is the exact shape of tokenization: no larger than the failure required, and no smaller than reality permits. The sentence-wheel turns with machinery earned long before language: indices retrieve, vectors carry features, dot products compare directions, and weighted sums gather context. tokenization changes what travels through the machine, not why those operations exist.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
+>
+> **The question carried into this chamber:** What Can a Language Model See?
+
+## When the chamber changes
+
+Keep the formal name Tokenization covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The compass follows the tempting path—give every complete word one ID. Then the evidence answers: spaces appear to provide the boundaries.
+
+Now let the chamber move: The mechanist changes one moving part. The compass can now use characters. Any new spelling can now be represented.
+
+The object that should remain after the terminology disappears is **the tokenization compass mounted on the sentence-wheel**.
+
+> **Memory seal — Tokenization**
+>
+> Tokenization keeps the missing power: use characters. Any new spelling can now be represented.
+
+Give the idea a bodily path: Touch the tokenization compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside tokenization
 
 The mechanist carries the tokenization scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

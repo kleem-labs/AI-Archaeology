@@ -24,6 +24,10 @@ connected realms whose objects, failures, transformations, and memory seals can
 be replayed like a movie. The
 [living Undercroft](mathematical-roots/README.md) makes that walk interactive.
 
+That same cinematic method now spans the complete book. Enter the
+[226-Chamber Memory Palace](MEMORY_PALACE.md) to walk every excavation as a
+question, physical object, visible failure, transformation, and memory seal.
+
 Read it as a book through the [fourteen-part reading path](PARTS.md). Work with it
 as a laboratory through the [field-lab protocol](labs/README.md). The
 [completion status](COMPLETION_STATUS.md) distinguishes finished depth from

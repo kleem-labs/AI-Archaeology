@@ -33,6 +33,28 @@ The gatekeeper changes only that one responsibility: represent allowed states an
 
 The iron threshold keeps both histories. Its older mark still says, ‘let the conversation prose serve as the workflow state’; beside it, the newer mark says, ‘represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.’ The distance between those sentences is the exact shape of state machines: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we let the conversation prose serve as the workflow state?
+
+## When the chamber changes
+
+The State Machines room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The map follows the tempting path—let the conversation prose serve as the workflow state. Then the evidence answers: the model says “refund completed” after merely drafting it, or issues it twice after losing track of an earlier tool result.
+
+Now let the chamber move: The gatekeeper changes one moving part. The map can now represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.
+
+The object that should remain after the terminology disappears is **the state machines map mounted on the iron threshold**.
+
+> **Memory seal — State Machines**
+>
+> State Machines keeps the missing power: represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.
+
+Give the idea a bodily path: Touch the state machines map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Knowing What Has Actually Happened
 
 A refund moves requested → approved only with an approval record, then approved → issued only with a payment transaction ID. A sentence alone changes nothing.

@@ -26,6 +26,9 @@ To walk the five cinematic realms beneath Volume VI, enter
 [The Mathematical Roots](../MATHEMATICAL_ROOTS.md) or the
 [living Undercroft](../mathematical-roots/README.md).
 
+To replay the complete book as eighteen connected visual realms, enter the
+[226-Chamber Memory Palace](../MEMORY_PALACE.md).
+
 To remember the recurring places and mathematical motions that bind the six
 volumes into one imaginative journey, begin with
 [The Living Mathematics](../THE_LIVING_MATHEMATICS.md).

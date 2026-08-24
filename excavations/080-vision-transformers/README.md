@@ -33,6 +33,28 @@ The repair can now be stated without mystery: group pixels into patches, embed t
 
 One boundary in the room is now sharper. On one side lies the promise to treat every pixel as a token; on the other lies the observed fact that the sequence becomes enormous and individual pixels carry little stable structure. The bridge called vision transformers has exactly the planks needed to group pixels into patches, embed them as tokens, add position, and apply attention.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we treat every pixel as a token?
+
+## When the chamber changes
+
+The Vision Transformers room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The seal follows the tempting path—treat every pixel as a token. Then the evidence answers: the sequence becomes enormous and individual pixels carry little stable structure.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The seal can now group pixels into patches, embed them as tokens, add position, and apply attention.
+
+The object that should remain after the terminology disappears is **the vision transformers seal mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Vision Transformers**
+>
+> Vision Transformers keeps the missing power: group pixels into patches, embed them as tokens, add position, and apply attention.
+
+Give the idea a bodily path: Touch the vision transformers seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Understanding vision transformers
 
 A 224×224 image with 16×16 patches becomes 196 tokens instead of 50,176 pixel tokens.

@@ -32,6 +32,28 @@ Only the missing distinction is restored: we need to delegate only separable wor
 
 The gatekeeper places a finger over the new distinction. At once the two cases collapse and they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. Lifting the finger restores only this capacity: delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** When Should Work Be Divided?
+
+## When the chamber changes
+
+Before leaving Multi-Agent Coordination, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The prism follows the tempting path—create many agents for every problem and let them freely edit shared state. Then the evidence answers: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
+
+Now let the chamber move: The gatekeeper changes one moving part. The prism can now delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
+
+The object that should remain after the terminology disappears is **the multi-agent coordination prism mounted on the iron threshold**.
+
+> **Memory seal — Multi-Agent Coordination**
+>
+> Multi-Agent Coordination keeps the missing power: delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
+
+Give the idea a bodily path: Touch the multi-agent coordination prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## When Should Work Be Divided
 
 Three agents receive distinct questions and return evidence in the same schema. The coordinator resolves conflicts and alone edits the final report.

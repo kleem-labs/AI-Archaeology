@@ -36,6 +36,28 @@ The map of branching journeys has become a palimpsest: observation below, failed
 
 Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to use separate encoders and train paired image-text examples to become nearby, and the method falls back to this tempting instruction: compare raw pixels directly with token IDs. The old consequence returns—their coordinates have unrelated meanings and shapes. Restore the missing ability and that particular contradiction disappears. This reversible test is why multimodal alignment belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we compare raw pixels directly with token IDs?
+
+## When the chamber changes
+
+Keep the formal name Multimodal Alignment covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The wheel follows the tempting path—compare raw pixels directly with token IDs. Then the evidence answers: their coordinates have unrelated meanings and shapes.
+
+Now let the chamber move: The expedition leader changes one moving part. The wheel can now use separate encoders and train paired image-text examples to become nearby.
+
+The object that should remain after the terminology disappears is **the multimodal alignment wheel mounted on the map of branching journeys**.
+
+> **Memory seal — Multimodal Alignment**
+>
+> Multimodal Alignment keeps the missing power: use separate encoders and train paired image-text examples to become nearby.
+
+Give the idea a bodily path: Touch the multimodal alignment wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Understanding multimodal alignment
 
 A tiger photo and “striped big cat” move together; mismatched captions move apart.

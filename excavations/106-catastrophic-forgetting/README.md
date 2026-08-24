@@ -38,6 +38,28 @@ Under the latest ink, the first question is still legible: what if we followed t
 
 Before leaving the table of mirrored maps, the keeper of unfinished questions tests the new idea backward. Remove the ability to rehearse old evidence, protect important parameters, or allocate new capacity, and the method falls back to this tempting instruction: fine-tune only on the newest data. The old consequence returns—updates useful for B overwrite weights carrying A. Restore the missing ability and that particular contradiction disappears. This reversible test is why catastrophic forgetting belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we fine-tune only on the newest data?
+
+## When the chamber changes
+
+Keep the formal name Catastrophic Forgetting covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The gate follows the tempting path—fine-tune only on the newest data. Then the evidence answers: updates useful for B overwrite weights carrying A.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The gate can now rehearse old evidence, protect important parameters, or allocate new capacity.
+
+The object that should remain after the terminology disappears is **the catastrophic forgetting gate mounted on the table of mirrored maps**.
+
+> **Memory seal — Catastrophic Forgetting**
+>
+> Catastrophic Forgetting keeps the missing power: rehearse old evidence, protect important parameters, or allocate new capacity.
+
+Give the idea a bodily path: Touch the catastrophic forgetting gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Understanding catastrophic forgetting
 
 Learning birds after mammals drops mammal accuracy; mixing a small mammal replay set preserves both.

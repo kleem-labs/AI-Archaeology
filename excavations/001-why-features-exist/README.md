@@ -45,6 +45,28 @@ That word—*similar*—is essential. Weight must be compared with weight, speed
 
 We have turned an animal into an organized set of comparable measurements. No formula was needed. The structure came first.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 1 of 18 — [Valley of First Measures](../../MEMORY_PALACE.md#realm-1)**
+>
+> **The question carried into this chamber:** Which parts of an animal must we preserve to judge whether it threatens the camp?
+
+## When the chamber changes
+
+Keep the formal name Features covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: A zebra passes the stripe test, while a three-legged tiger fails the four-leg test.
+
+Now let the chamber move: The tokens separate, and only observations relevant to the danger decision remain on the table.
+
+The object that should remain after the terminology disappears is **five carved tiger tokens: weight, speed, teeth, stripes, and direction**.
+
+> **Memory seal — Features**
+>
+> A feature is a chosen observation that preserves a distinction needed by a question.
+
+Give the idea a bodily path: Touch five fingertips in turn, naming one observable property with each touch.
+<!-- memory-film-v1:end -->
+
 ## A serious limitation
 
 Features do not arrive objectively. Kilograms can overwhelm a binary stripe value simply because the numeric scales differ. A useful representation may omit an important clue or preserve a misleading one. Mathematics can only operate on what we decide to record.

@@ -33,6 +33,28 @@ The experimentalist changes only that one responsibility: generate diverse candi
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because the error that shaped the proposal also shapes its self-justification, while the other can generate diverse candidates, check them with independent evidence, and keep only paths that survive. That fork—not the vocabulary—is where search and verification lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we ask the same generator to confidently approve its own first answer?
+
+## When the chamber changes
+
+Before leaving Search and Verification, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The gate follows the tempting path—ask the same generator to confidently approve its own first answer. Then the evidence answers: the error that shaped the proposal also shapes its self-justification.
+
+Now let the chamber move: The experimentalist changes one moving part. The gate can now generate diverse candidates, check them with independent evidence, and keep only paths that survive.
+
+The object that should remain after the terminology disappears is **the search and verification gate mounted on the sealed evidence ledger**.
+
+> **Memory seal — Search and Verification**
+>
+> Search and Verification keeps the missing power: generate diverse candidates, check them with independent evidence, and keep only paths that survive.
+
+Give the idea a bodily path: Touch the search and verification gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Separate Proposing from Checking
 
 Propose five programs for a specification and run hidden tests before selecting one.

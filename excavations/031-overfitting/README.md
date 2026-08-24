@@ -33,6 +33,28 @@ So the ring of glass lanterns is altered in exactly one way: we need to reserve 
 
 The ring of glass lanterns has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and overfitting looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** When Perfect Memory Pretends to Be Intelligence?
+
+## When the chamber changes
+
+Keep the formal name Overfitting covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The prism follows the tempting path—celebrate zero training error. Then the evidence answers: the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The prism can now reserve unseen cases and compare training success with performance outside the training memory.
+
+The object that should remain after the terminology disappears is **the overfitting prism mounted on the ring of glass lanterns**.
+
+> **Memory seal — Overfitting**
+>
+> Overfitting keeps the missing power: reserve unseen cases and compare training success with performance outside the training memory.
+
+Give the idea a bodily path: Touch the overfitting prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside overfitting
 
 The keeper of uncertain stories carries the overfitting scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

@@ -71,6 +71,28 @@ Distance says how much separation exists but discards direction. Many destinatio
 
 This distinction matters in learning. A model's current parameters are a state. Training must say which weights to increase, which to decrease, and by how much. That instruction is a vector of change.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 1 of 18 — [Valley of First Measures](../../MEMORY_PALACE.md#realm-1)**
+>
+> **The question carried into this chamber:** How can a vector describe not only what exists, but what changed?
+
+## When the chamber changes
+
+The mathematical name Change Vectors can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: Two isolated position stones reveal locations but hide the movement connecting them.
+
+Now let the chamber move: The stones remain while a directed arrow grows from the earlier position to the later one.
+
+The object that should remain after the terminology disappears is **an arrow laid from yesterday's tiger position to today's**.
+
+> **Memory seal — Change Vectors**
+>
+> A change vector remembers both how far the world moved and in which direction.
+
+Give the idea a bodily path: Point to one place, then sweep the same finger toward a second place.
+<!-- memory-film-v1:end -->
+
 ## Challenge
 
 Explain why `[5, 0]` can represent the same change from many starting points but cannot represent one absolute destination without more information.

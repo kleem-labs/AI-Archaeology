@@ -33,6 +33,28 @@ The repair can now be stated without mystery: choose a maximum context, train wi
 
 One boundary in the room is now sharper. On one side lies the promise to attend to the entire history forever; on the other lies the observed fact that computation and memory grow, and the model eventually exceeds positions it was trained to handle. The bridge called context windows has exactly the planks needed to choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
+>
+> **The question carried into this chamber:** How Much Past Can the Model Carry?
+
+## When the chamber changes
+
+The mathematical name Context Windows can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The map follows the tempting path—attend to the entire history forever. Then the evidence answers: computation and memory grow, and the model eventually exceeds positions it was trained to handle.
+
+Now let the chamber move: The mechanist changes one moving part. The map can now choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
+
+The object that should remain after the terminology disappears is **the context windows map mounted on the sentence-wheel**.
+
+> **Memory seal — Context Windows**
+>
+> Context Windows keeps the missing power: choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
+
+Give the idea a bodily path: Touch the context windows map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside context windows
 
 The mechanist carries the context windows scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

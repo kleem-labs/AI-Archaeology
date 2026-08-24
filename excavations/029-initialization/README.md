@@ -35,6 +35,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In initialization, that memory takes a precise form: whenever neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate, preserve enough structure to draw small random weights whose scale depends on how many inputs feed the neuron.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** Where Should Learning Begin?
+
+## When the chamber changes
+
+The mathematical name Initialization can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The scale follows the tempting path—set every weight to zero. Then the evidence answers: neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The scale can now draw small random weights whose scale depends on how many inputs feed the neuron.
+
+The object that should remain after the terminology disappears is **the initialization scale mounted on the ring of glass lanterns**.
+
+> **Memory seal — Initialization**
+>
+> Initialization keeps the missing power: draw small random weights whose scale depends on how many inputs feed the neuron.
+
+Give the idea a bodily path: Touch the initialization scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside initialization
 
 The keeper of uncertain stories carries the initialization scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

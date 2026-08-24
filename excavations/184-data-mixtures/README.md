@@ -33,6 +33,28 @@ The evidence permits one narrow invention: choose and publish a probability weig
 
 What changed on the chain-of-custody ledger can be said without symbols. Before, the method could only concatenate every accepted source and let its raw token count determine how often it appears; now it can also choose and publish a probability weight for each domain, treating the mixture as an explicit modeling decision that must be tested on per-domain validation streams. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we concatenate every accepted source and let its raw token count determine how often it appears?
+
+## When the chamber changes
+
+The mathematical name Data Mixtures can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The bell follows the tempting path—concatenate every accepted source and let its raw token count determine how often it appears. Then the evidence answers: the largest crawl silently becomes the curriculum. A source ten thousand times smaller may almost never reach a batch even when it carries relationships absent from the web.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The bell can now choose and publish a probability weight for each domain, treating the mixture as an explicit modeling decision that must be tested on per-domain validation streams.
+
+The object that should remain after the terminology disappears is **the data mixtures bell mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Data Mixtures**
+>
+> Data Mixtures keeps the missing power: choose and publish a probability weight for each domain, treating the mixture as an explicit modeling decision that must be tested on per-domain validation streams.
+
+Give the idea a bodily path: Touch the data mixtures bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Decide Which Worlds Receive a Voice
 
 The station assigns 0.50 to curated web text, 0.20 to science, 0.15 to code, 0.10 to books, and 0.05 to field reports. The five shares exhaust one draw without pretending the sources are equally large or equally important.

@@ -37,6 +37,28 @@ Only the missing distinction is restored: assemble token and position embeddings
 
 The mechanist does not memorize tiny gpt. Instead, the mechanist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
+>
+> **The question carried into this chamber:** What fails if we call a framework Transformer and hide the causal chain?
+
+## When the chamber changes
+
+The A Tiny GPT room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The scale follows the tempting path—call a framework Transformer and hide the causal chain. Then the evidence answers: or connect the parts without checking shapes, leakage, and target alignment.
+
+Now let the chamber move: The mechanist changes one moving part. The scale can now assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
+
+The object that should remain after the terminology disappears is **the tiny gpt scale mounted on the sentence-wheel**.
+
+> **Memory seal — A Tiny GPT**
+>
+> A Tiny GPT keeps the missing power: assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
+
+Give the idea a bodily path: Touch the tiny gpt scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside a tiny gpt
 
 The mechanist carries the tiny gpt scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

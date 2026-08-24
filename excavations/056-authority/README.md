@@ -39,6 +39,28 @@ The repair can now be stated without mystery: separate capability from authority
 
 One boundary in the room is now sharper. On one side lies the promise to give every available tool to the model and treat user intent as unlimited permission; on the other lies the observed fact that ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not. The bridge called authority has exactly the planks needed to separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions. The Gatehouse gives ancient arrows a moral weight. In authority, an arrow no longer means only ‘becomes’; it may cross from language into irreversible state. Sets describe what is permitted, boundaries describe where permission ends, and evidence must prove which transition truly occurred.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What Is the Agent Allowed to Do?
+
+## When the chamber changes
+
+Keep the formal name Authority covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The bell follows the tempting path—give every available tool to the model and treat user intent as unlimited permission. Then the evidence answers: ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not.
+
+Now let the chamber move: The gatekeeper changes one moving part. The bell can now separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
+
+The object that should remain after the terminology disappears is **the authority bell mounted on the iron threshold**.
+
+> **Memory seal — Authority**
+>
+> Authority keeps the missing power: separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions.
+
+Give the idea a bodily path: Touch the authority bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## What Is the Agent Allowed to Do
 
 The agent may search flights and hold a draft itinerary. Purchasing requires a new explicit approval containing price, destination, and dates.

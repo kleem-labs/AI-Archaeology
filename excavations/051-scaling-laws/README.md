@@ -35,6 +35,28 @@ Only the missing distinction is restored: we need to run controlled experiments 
 
 The public archivist places a finger over the new distinction. At once the two cases collapse and a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns. Lifting the finger restores only this capacity: run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What Improves When We Add More?
+
+## When the chamber changes
+
+Keep the formal name Scaling Laws covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The lantern follows the tempting path—make the model as large as possible and assume capability follows parameter count. Then the evidence answers: a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns.
+
+Now let the chamber move: The public archivist changes one moving part. The lantern can now run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
+
+The object that should remain after the terminology disappears is **the scaling laws lantern mounted on the listening table**.
+
+> **Memory seal — Scaling Laws**
+>
+> Scaling Laws keeps the missing power: run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
+
+Give the idea a bodily path: Touch the scaling laws lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside scaling laws
 
 The public archivist carries the scaling laws scene to the listening table. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

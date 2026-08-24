@@ -62,6 +62,28 @@ The words are identical; the relationships differ. Order and wider context must 
 
 Meaning is therefore not a secret definition stored inside a word. It emerges from a network of usage, order, and relationships. Text alone reveals linguistic structure; grounding it fully in lived reality is a deeper problem we should not pretend has vanished.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
+>
+> **The question carried into this chamber:** If a dictionary cannot contain every use of a word, where does meaning come from?
+
+## When the chamber changes
+
+Keep the formal name Meaning covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: Cutting tiger from its sentences leaves a label whose living uses have disappeared.
+
+Now let the chamber move: Threads reconnect it to hunt, stripes, jungle, fear, and many contrasting contexts.
+
+The object that should remain after the terminology disappears is **the word tiger suspended in a web of neighboring word-threads**.
+
+> **Memory seal — Meaning**
+>
+> Meaning is not hidden inside a word; it is constrained by the relationships in which the word participates.
+
+Give the idea a bodily path: Pinch an imaginary word, then open both hands outward into a web.
+<!-- memory-film-v1:end -->
+
 ## Challenge
 
 With no dictionary, what can one sentence teach you, and what requires repeated sentences? Keep “similar behavior” separate from “known real-world meaning.”

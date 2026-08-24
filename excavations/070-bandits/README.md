@@ -36,6 +36,28 @@ Under the latest ink, the first question is still legible: what if we followed t
 
 Before leaving the weathered observation slate, the field naturalist tests the new idea backward. Remove the ability to reserve some choices for exploration while exploiting accumulated evidence, and the method falls back to this tempting instruction: always choose the currently best option. The old consequence returns—an unlucky first result permanently hides a better alternative. Restore the missing ability and that particular contradiction disappears. This reversible test is why bandits belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we always choose the currently best option?
+
+## When the chamber changes
+
+The Bandits room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The thread follows the tempting path—always choose the currently best option. Then the evidence answers: an unlucky first result permanently hides a better alternative.
+
+Now let the chamber move: The field naturalist changes one moving part. The thread can now reserve some choices for exploration while exploiting accumulated evidence.
+
+The object that should remain after the terminology disappears is **the bandits thread mounted on the weathered observation slate**.
+
+> **Memory seal — Bandits**
+>
+> Bandits keeps the missing power: reserve some choices for exploration while exploiting accumulated evidence.
+
+Give the idea a bodily path: Touch the bandits thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Learning While Choosing
 
 Cafe A wins its first two trials; continuing to sample B reveals it succeeds eight out of ten times.

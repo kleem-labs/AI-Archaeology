@@ -33,6 +33,28 @@ Only the missing distinction is restored: mark document ends, reset position whe
 
 The archivist-engineer does not memorize document boundaries. Instead, the archivist-engineer memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width?
+
+## When the chamber changes
+
+The Document Boundaries chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The lens follows the tempting path—join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width. Then the evidence answers: a ranger report ending with “tiger tracks near” is trained to predict the first word of an unrelated software license. The model receives a relationship that never existed in either document.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The lens can now mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended.
+
+The object that should remain after the terminology disappears is **the document boundaries lens mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Document Boundaries**
+>
+> Document Boundaries keeps the missing power: mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended.
+
+Give the idea a bodily path: Touch the document boundaries lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Keep One Story from Leaking into Another
 
 Two short documents share one packed row, but a boundary mask lets each token read only tokens from its own document. The empty hardware space is saved without inventing a false continuation.

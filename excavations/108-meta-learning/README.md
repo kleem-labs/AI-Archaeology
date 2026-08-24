@@ -33,6 +33,28 @@ The keeper of unfinished questions changes only that one responsibility: optimiz
 
 The table of mirrored maps keeps both histories. Its older mark still says, ‘train one universal fixed solution’; beside it, the newer mark says, ‘optimize prior parameters or an update rule so a few new examples produce useful adaptation.’ The distance between those sentences is the exact shape of meta-learning: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we train one universal fixed solution?
+
+## When the chamber changes
+
+Before leaving Meta-Learning, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The map follows the tempting path—train one universal fixed solution. Then the evidence answers: a new task with different labels requires many examples and broad retraining.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The map can now optimize prior parameters or an update rule so a few new examples produce useful adaptation.
+
+The object that should remain after the terminology disappears is **the meta-learning map mounted on the table of mirrored maps**.
+
+> **Memory seal — Meta-Learning**
+>
+> Meta-Learning keeps the missing power: optimize prior parameters or an update rule so a few new examples produce useful adaptation.
+
+Give the idea a bodily path: Touch the meta-learning map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Understanding meta-learning
 
 After many two-class tasks, five labeled examples are enough to separate two unseen animal species.

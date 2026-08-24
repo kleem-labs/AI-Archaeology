@@ -5,3 +5,9 @@
 3. Construct the smallest counterexample.
 4. State the missing requirement before naming the repair.
 5. Implement both mechanisms and compare evidence.
+
+<!-- memory-film-v1:start -->
+## Close-book memory test
+
+Close every file. Reconstruct the five frames beginning only from **the continual learning wheel mounted on the table of mirrored maps**. Explain the failure before naming the accepted idea; perform this gesture while recovering the repair: Touch the continual learning wheel in imagination: close one fist around the lost information, then open it as the repair restores that information. If the formal name arrives before the necessity, replay the scene more slowly.
+<!-- memory-film-v1:end -->

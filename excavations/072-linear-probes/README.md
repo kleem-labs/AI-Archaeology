@@ -37,6 +37,28 @@ The field naturalist changes only that one responsibility: use a deliberately li
 
 The weathered observation slate keeps both histories. Its older mark still says, ‘train a powerful classifier on hidden states and call any success evidence’; beside it, the newer mark says, ‘use a deliberately limited probe and compare layers, controls, and baselines.’ The distance between those sentences is the exact shape of linear probes: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we train a powerful classifier on hidden states and call any success evidence?
+
+## When the chamber changes
+
+The Linear Probes chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The bell follows the tempting path—train a powerful classifier on hidden states and call any success evidence. Then the evidence answers: the trouble appears immediately: the probe learns the task itself even if the representation did not make it simple.
+
+Now let the chamber move: The field naturalist changes one moving part. The bell can now use a deliberately limited probe and compare layers, controls, and baselines.
+
+The object that should remain after the terminology disappears is **the linear probes bell mounted on the weathered observation slate**.
+
+> **Memory seal — Linear Probes**
+>
+> Linear Probes keeps the missing power: use a deliberately limited probe and compare layers, controls, and baselines.
+
+Give the idea a bodily path: Touch the linear probes bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Understanding linear probes
 
 A linear probe succeeds at layer 8 but random-label controls fail, suggesting species became linearly accessible there.

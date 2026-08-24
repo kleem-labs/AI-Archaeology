@@ -37,6 +37,28 @@ The repair can now be stated without mystery: provide outcome feedback and let e
 
 A thread now runs backward from rewards through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and for exploration or games, nobody knows every correct intermediate move. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction. Along the Road of Consequences, rewards combines two old languages: probability for futures that may occur and value for consequences that matter if they do. An action is therefore not a label; it is an arrow cast into a branching world.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we label the correct action at every moment?
+
+## When the chamber changes
+
+Keep the formal name Rewards covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The thread follows the tempting path—label the correct action at every moment. Then the evidence answers: for exploration or games, nobody knows every correct intermediate move.
+
+Now let the chamber move: The expedition leader changes one moving part. The thread can now provide outcome feedback and let experience connect actions with later consequences.
+
+The object that should remain after the terminology disappears is **the rewards thread mounted on the map of branching journeys**.
+
+> **Memory seal — Rewards**
+>
+> Rewards keeps the missing power: provide outcome feedback and let experience connect actions with later consequences.
+
+Give the idea a bodily path: Touch the rewards thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Learning Without Correct Answers
 
 A maze gives +1 only at the exit; repeated trials reveal which earlier turns tend to reach it.

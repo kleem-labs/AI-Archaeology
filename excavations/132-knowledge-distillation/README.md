@@ -33,6 +33,28 @@ The experimentalist changes only that one responsibility: let the student imitat
 
 The sealed evidence ledger keeps both histories. Its older mark still says, ‘train a small model only on the original hard labels’; beside it, the newer mark says, ‘let the student imitate the teacher's probability pattern as well as the observed answer.’ The distance between those sentences is the exact shape of knowledge distillation: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we train a small model only on the original hard labels?
+
+## When the chamber changes
+
+The Knowledge Distillation chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The compass follows the tempting path—train a small model only on the original hard labels. Then the evidence answers: the trouble appears immediately: the labels reveal the winner but discard how the teacher distributed doubt among alternatives.
+
+Now let the chamber move: The experimentalist changes one moving part. The compass can now let the student imitate the teacher's probability pattern as well as the observed answer.
+
+The object that should remain after the terminology disappears is **the knowledge distillation compass mounted on the sealed evidence ledger**.
+
+> **Memory seal — Knowledge Distillation**
+>
+> Knowledge Distillation keeps the missing power: let the student imitate the teacher's probability pattern as well as the observed answer.
+
+Give the idea a bodily path: Touch the knowledge distillation compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Teaching a Smaller Student
 
 For an animal image, 0.55 tiger, 0.40 leopard, 0.05 car teaches similarity that the label tiger hides.

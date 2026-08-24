@@ -27,3 +27,7 @@ you. That surprise is the excavation.
 Before Part XIV, walk through [The Mathematical Roots](MATHEMATICAL_ROOTS.md).
 Its five realms make the final volume spatial and replayable without replacing
 the causal chapter order.
+
+To replay every part as one connected visual journey, use the
+[226-Chamber Memory Palace](MEMORY_PALACE.md). It gives all 226 excavations a
+retrievable scene without replacing their full reasoning, code, or laboratory.

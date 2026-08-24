@@ -35,6 +35,28 @@ So the chain-of-custody ledger is altered in exactly one way: compose tensor par
 
 Nothing is erased from the chain-of-custody ledger. The failed path remains visible beneath the repair, because three-dimensional parallelism is easier to remember when its scar remains attached to it. The scar reads, ‘more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we increase whichever parallel technique was introduced most recently until the model fits?
+
+## When the chamber changes
+
+Before leaving Three-Dimensional Parallelism, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The lens follows the tempting path—increase whichever parallel technique was introduced most recently until the model fits. Then the evidence answers: more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The lens can now compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost.
+
+The object that should remain after the terminology disappears is **the three-dimensional parallelism lens mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Three-Dimensional Parallelism**
+>
+> Three-Dimensional Parallelism keeps the missing power: compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost.
+
+Give the idea a bodily path: Touch the three-dimensional parallelism lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Give Each Memory Wall Its Own Axis
 
 Two tensor workers form each layer, four pipeline stages hold the depth, and three data replicas see different examples. The run uses 2×4×3=24 workers with each axis performing one named job.

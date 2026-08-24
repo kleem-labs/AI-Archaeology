@@ -33,6 +33,28 @@ So the ring of glass lanterns is altered in exactly one way: we need rare events
 
 The ring of glass lanterns has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and information looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** Why Surprise Needs a Number?
+
+## When the chamber changes
+
+The mathematical name Information can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The lantern follows the tempting path—measure information by message length. Then the evidence answers: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The lantern can now rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs.
+
+The object that should remain after the terminology disappears is **the information lantern mounted on the ring of glass lanterns**.
+
+> **Memory seal — Information**
+>
+> Information keeps the missing power: rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs.
+
+Give the idea a bodily path: Touch the information lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside information
 
 The keeper of uncertain stories carries the information scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

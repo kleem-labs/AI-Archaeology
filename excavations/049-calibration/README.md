@@ -33,6 +33,28 @@ So the listening table is altered in exactly one way: group predictions with sim
 
 Nothing is erased from the listening table. The failed path remains visible beneath the repair, because calibration is easier to remember when its scar remains attached to it. The scar reads, ‘collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What fails if we treat the largest softmax probability as honest confidence?
+
+## When the chamber changes
+
+The mathematical name Calibration can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The lens follows the tempting path—treat the largest softmax probability as honest confidence. Then the evidence answers: collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability.
+
+Now let the chamber move: The public archivist changes one moving part. The lens can now group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
+
+The object that should remain after the terminology disappears is **the calibration lens mounted on the listening table**.
+
+> **Memory seal — Calibration**
+>
+> Calibration keeps the missing power: group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
+
+Give the idea a bodily path: Touch the calibration lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside calibration
 
 The public archivist carries the calibration scene to the listening table. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

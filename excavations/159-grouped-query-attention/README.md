@@ -32,6 +32,28 @@ Only the missing distinction is restored: partition query heads into groups; que
 
 The enginewright places a finger over the new distinction. At once the two cases collapse and quality recovers, but so does the full cache and bandwidth cost that forced sharing. Lifting the finger restores only this capacity: partition query heads into groups; queries remain distinct while each group shares one key-value head. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we return immediately to one KV head per query head?
+
+## When the chamber changes
+
+The mathematical name Grouped-Query Attention can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The prism follows the tempting path—return immediately to one KV head per query head. Then the evidence answers: quality recovers, but so does the full cache and bandwidth cost that forced sharing.
+
+Now let the chamber move: The enginewright changes one moving part. The prism can now partition query heads into groups; queries remain distinct while each group shares one key-value head.
+
+The object that should remain after the terminology disappears is **the grouped-query attention prism mounted on the brass reference machine**.
+
+> **Memory seal — Grouped-Query Attention**
+>
+> Grouped-Query Attention keeps the missing power: partition query heads into groups; queries remain distinct while each group shares one key-value head.
+
+Give the idea a bodily path: Touch the grouped-query attention prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Recover Some Specialist Memory
 
 Eight query heads arranged into two KV groups preserve two catalogs. The cache is twice MQA's size but one quarter of ordinary eight-head KV storage.

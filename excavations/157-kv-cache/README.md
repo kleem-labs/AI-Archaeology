@@ -37,6 +37,28 @@ So the brass reference machine is altered in exactly one way: store each layer's
 
 Nothing is erased from the brass reference machine. The failed path remains visible beneath the repair, because kv cache is easier to remember when its scar remains attached to it. The scar reads, ‘past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we at step t, recompute keys and values for positions 1 through t because the prefix is presented again?
+
+## When the chamber changes
+
+The The KV Cache chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The scale follows the tempting path—at step t, recompute keys and values for positions 1 through t because the prefix is presented again. Then the evidence answers: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added.
+
+Now let the chamber move: The enginewright changes one moving part. The scale can now store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache.
+
+The object that should remain after the terminology disappears is **the kv cache scale mounted on the brass reference machine**.
+
+> **Memory seal — The KV Cache**
+>
+> The KV Cache keeps the missing power: store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache.
+
+Give the idea a bodily path: Touch the kv cache scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Stop Re-reading the Entire Past
 
 Generating token 101 computes one new key and value, then reads the 100 cached pairs. It does not rebuild pairs 1 through 100.

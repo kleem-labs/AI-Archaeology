@@ -33,6 +33,28 @@ Only the missing distinction is restored: we need to define ownership, review, d
 
 The expedition leader places a finger over the new distinction. At once the two cases collapse and affected users carry risks without authority, appeal, or visibility. Lifting the finger restores only this capacity: define ownership, review, documentation, incident response, user recourse, and deployment boundaries. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** Who Decides and Who Is Accountable?
+
+## When the chamber changes
+
+The mathematical name Governance can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The lantern follows the tempting path—let builders decide every acceptable use because they understand the system. Then the evidence answers: affected users carry risks without authority, appeal, or visibility.
+
+Now let the chamber move: The expedition leader changes one moving part. The lantern can now define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
+
+The object that should remain after the terminology disappears is **the governance lantern mounted on the map of branching journeys**.
+
+> **Memory seal — Governance**
+>
+> Governance keeps the missing power: define ownership, review, documentation, incident response, user recourse, and deployment boundaries.
+
+Give the idea a bodily path: Touch the governance lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Who Decides and Who Is Accountable
 
 A lending model requires documented data, subgroup evaluation, human appeal, and a named owner before launch.

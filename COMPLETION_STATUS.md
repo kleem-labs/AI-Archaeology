@@ -19,6 +19,10 @@ This page prevents a large repository from looking more finished than it is.
   excavation.
 - Automated memory-integrity checks that prevent those films from collapsing
   back into abstract definitions during future regeneration.
+- The same cinematic method now spans all 226 excavations in eighteen connected
+  realms. Chapters 000–016 have individually authored foundation scenes;
+  Chapters 017–200 inherit films from their actual failed attempts and repairs;
+  Chapters 201–225 retain their handcrafted mathematical-root chambers.
 
 ## What “present” does not yet mean
 

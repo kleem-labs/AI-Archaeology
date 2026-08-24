@@ -36,6 +36,28 @@ The marks on the sealed evidence ledger form a small constellation: one point fo
 
 Before leaving the sealed evidence ledger, the experimentalist tests the new idea backward. Remove the ability to generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry, and the method falls back to this tempting instruction: generate millions of answers and train on all of them. The old consequence returns—confident errors are copied, multiplied, and eventually treated as truth. Restore the missing ability and that particular contradiction disappears. This reversible test is why synthetic data belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we generate millions of answers and train on all of them?
+
+## When the chamber changes
+
+Keep the formal name Synthetic Data covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The lantern follows the tempting path—generate millions of answers and train on all of them. Then the evidence answers: confident errors are copied, multiplied, and eventually treated as truth.
+
+Now let the chamber move: The experimentalist changes one moving part. The lantern can now generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry.
+
+The object that should remain after the terminology disappears is **the synthetic data lantern mounted on the sealed evidence ledger**.
+
+> **Memory seal — Synthetic Data**
+>
+> Synthetic Data keeps the missing power: generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry.
+
+Give the idea a bodily path: Touch the synthetic data lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Letting a Model Write Lessons
 
 Produce arithmetic problems, execute each answer, reject failures, and retain difficulty-balanced examples.

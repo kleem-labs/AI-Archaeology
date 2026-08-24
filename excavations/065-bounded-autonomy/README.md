@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In bounded autonomy, that memory takes a precise form: whenever a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step, preserve enough structure to create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we give the agent a broad goal and let it continue until it believes the goal is complete?
+
+## When the chamber changes
+
+The Bounded Autonomy room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The lens follows the tempting path—give the agent a broad goal and let it continue until it believes the goal is complete. Then the evidence answers: a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step.
+
+Now let the chamber move: The gatekeeper changes one moving part. The lens can now create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
+
+The object that should remain after the terminology disappears is **the bounded autonomy lens mounted on the iron threshold**.
+
+> **Memory seal — Bounded Autonomy**
+>
+> Bounded Autonomy keeps the missing power: create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
+
+Give the idea a bodily path: Touch the bounded autonomy lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Building an Agent That Can Be Trusted
 
 A deployment agent may modify staging for thirty minutes, spend at most a fixed budget, run required tests, and prepare a production change. Production execution remains behind human approval.

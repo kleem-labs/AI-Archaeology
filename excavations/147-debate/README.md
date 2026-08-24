@@ -35,6 +35,28 @@ Only the missing distinction is restored: we need to give an opposing investigat
 
 The experimentalist places a finger over the new distinction. At once the two cases collapse and the trouble appears immediately: selective presentation makes eloquence look like correctness. Lifting the finger restores only this capacity: give an opposing investigator equal access and reward exposing checkable disagreements for a judge. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we let the author choose which evidence the judge sees?
+
+## When the chamber changes
+
+The Debate chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The lantern follows the tempting path—let the author choose which evidence the judge sees. Then the evidence answers: the trouble appears immediately: selective presentation makes eloquence look like correctness.
+
+Now let the chamber move: The experimentalist changes one moving part. The lantern can now give an opposing investigator equal access and reward exposing checkable disagreements for a judge.
+
+The object that should remain after the terminology disappears is **the debate lantern mounted on the sealed evidence ledger**.
+
+> **Memory seal — Debate**
+>
+> Debate keeps the missing power: give an opposing investigator equal access and reward exposing checkable disagreements for a judge.
+
+Give the idea a bodily path: Touch the debate lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Let Claims Meet an Adversary
 
 One side proposes a medical claim; the other points to the exact unsupported causal step and both reveal sources.

@@ -83,6 +83,28 @@ Shape is the contract between what the machine expects and what it produces.
 
 A neural network layer repeatedly does this: receive one representation, mix its features according to learned weights, and produce another representation. The matrix is a transformation machine. Training will eventually decide the weights; for now we only needed a coherent way to express all interactions together.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 1 of 18 — [Valley of First Measures](../../MEMORY_PALACE.md#realm-1)**
+>
+> **The question carried into this chamber:** How can many output judgments reuse the same collection of input features?
+
+## When the chamber changes
+
+The Matrices room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: Separate handwritten rules repeatedly fetch the same features and silently change their ordering.
+
+Now let the chamber move: The rules lock into one grid; each row combines the same ordered input into one named output.
+
+The object that should remain after the terminology disappears is **a brass grid whose rows are judges and columns are tiger features**.
+
+> **Memory seal — Matrices**
+>
+> A matrix is a reusable arrangement of transformations that lets inputs interact consistently.
+
+Give the idea a bodily path: Hold one hand as vertical rows and cross it with the other as horizontal columns.
+<!-- memory-film-v1:end -->
+
 ## Challenge
 
 Design a two-row matrix for an animal vector `[weight, speed]`. Let the first output depend only on weight and the second depend on both. Explain each row in words before multiplying.

@@ -35,6 +35,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In q-learning, that memory takes a precise form: whenever the update ignores the valuable state reached afterward, preserve enough structure to move the estimate toward reward plus the best discounted value available next.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we replace its value with the immediate reward?
+
+## When the chamber changes
+
+The mathematical name Q-Learning can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The vessel follows the tempting path—replace its value with the immediate reward. Then the evidence answers: the update ignores the valuable state reached afterward.
+
+Now let the chamber move: The expedition leader changes one moving part. The vessel can now move the estimate toward reward plus the best discounted value available next.
+
+The object that should remain after the terminology disappears is **the q-learning vessel mounted on the map of branching journeys**.
+
+> **Memory seal — Q-Learning**
+>
+> Q-Learning keeps the missing power: move the estimate toward reward plus the best discounted value available next.
+
+Give the idea a bodily path: Touch the q-learning vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Improving Values from Experience
 
 Reward 0 leads to a next state valued 10; with discount .9 the target is 9, not 0.

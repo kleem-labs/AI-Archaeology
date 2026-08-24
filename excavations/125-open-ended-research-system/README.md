@@ -32,6 +32,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In open-ended research system, that memory takes a precise form: whenever a flawed metric or experiment compounds through self-modification before external review, preserve enough structure to separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we let it generate experiments, change itself, and deploy improvements automatically?
+
+## When the chamber changes
+
+The An Open-Ended Research System room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The scale follows the tempting path—let it generate experiments, change itself, and deploy improvements automatically. Then the evidence answers: a flawed metric or experiment compounds through self-modification before external review.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The scale can now separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
+
+The object that should remain after the terminology disappears is **the open-ended research system scale mounted on the table of mirrored maps**.
+
+> **Memory seal — An Open-Ended Research System**
+>
+> An Open-Ended Research System keeps the missing power: separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
+
+Give the idea a bodily path: Touch the open-ended research system scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Understanding an open-ended research system
 
 The system proposes a tokenizer change, tests it in isolation, reproduces gains, checks regressions, and submits evidence for human approval.

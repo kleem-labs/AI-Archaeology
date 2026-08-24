@@ -32,6 +32,28 @@ The evidence permits one narrow invention: show many instruction-input-response 
 
 What changed on the listening table can be said without symbols. Before, the method could only prompt more forcefully and hope next-token prediction infers the desired interaction; now it can also show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What fails if we prompt more forcefully and hope next-token prediction infers the desired interaction?
+
+## When the chamber changes
+
+The Instruction Tuning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The compass follows the tempting path—prompt more forcefully and hope next-token prediction infers the desired interaction. Then the evidence answers: the trouble appears immediately: given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy.
+
+Now let the chamber move: The public archivist changes one moving part. The compass can now show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
+
+The object that should remain after the terminology disappears is **the instruction tuning compass mounted on the listening table**.
+
+> **Memory seal — Instruction Tuning**
+>
+> Instruction Tuning keeps the missing power: show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
+
+Give the idea a bodily path: Touch the instruction tuning compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## From Continuation to Cooperation
 
 Training examples pair “Summarize: [paragraph]” with a concise summary and “Classify sentiment: [review]” with a label. A new instruction can reuse the demonstrated relation between request and response.

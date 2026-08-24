@@ -78,6 +78,28 @@ predict → measure loss → trace responsibility backward → nudge weights
 
 Repeated over enormous amounts of text, small corrections reshape the entire web.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
+>
+> **The question carried into this chamber:** How can a machine use an error to change the internal decisions that produced it?
+
+## When the chamber changes
+
+The Learning room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The machine can measure that its answer was wrong but the judgment leaves no mark on its internal weights.
+
+Now let the chamber move: The error chisel travels backward, assigning each adjustable surface a small responsibility and reshaping it.
+
+The object that should remain after the terminology disappears is **a clay brain beside a prediction stone and an error chisel**.
+
+> **Memory seal — Learning**
+>
+> Learning begins when observed error can alter the decisions that created it.
+
+Give the idea a bodily path: Tap your forehead lightly, trace backward through the air, then make a tiny turning motion.
+<!-- memory-film-v1:end -->
+
 ## Challenge
 
 Explain derivative, gradient, and backpropagation without using their formulas: sensitivity, direction, and blame assignment should remain distinct.

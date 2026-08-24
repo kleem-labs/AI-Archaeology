@@ -33,6 +33,28 @@ The repair can now be stated without mystery: limit how much any one record can 
 
 A thread now runs backward from differential privacy through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the trouble appears immediately: rare combinations and model outputs can re-identify individuals. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we remove names and assume records are anonymous?
+
+## When the chamber changes
+
+The Differential Privacy chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The gate follows the tempting path—remove names and assume records are anonymous. Then the evidence answers: the trouble appears immediately: rare combinations and model outputs can re-identify individuals.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The gate can now limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
+
+The object that should remain after the terminology disappears is **the differential privacy gate mounted on the table of mirrored maps**.
+
+> **Memory seal — Differential Privacy**
+>
+> Differential Privacy keeps the missing power: limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
+
+Give the idea a bodily path: Touch the differential privacy gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Understanding differential privacy
 
 Two datasets differing by one patient produce nearly indistinguishable released statistics.

@@ -53,6 +53,28 @@ $$
 \mathbf{y}=\mathbf{x}+F(\mathbf{x})
 $$
 
+<!-- memory-film-v1:start -->
+> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
+>
+> **The question carried into this chamber:** How can a deep stack learn a change without erasing the useful state it already has?
+
+## When the chamber changes
+
+Before leaving Residual Connections, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: Every new layer replaces the whole state, so a poor transformation can destroy information and gradients struggle to return.
+
+Now let the chamber move: The old road remains open while the new branch contributes only its proposed change.
+
+The object that should remain after the terminology disappears is **a stone bridge with an old road running beneath a newly built arch**.
+
+> **Memory seal — Residual Connections**
+>
+> A residual connection preserves the old state while allowing a layer to add a correction.
+
+Give the idea a bodily path: Hold one hand steady while the other makes a small motion and joins it.
+<!-- memory-film-v1:end -->
+
 ## Challenge
 
 If the best transformation for one layer is “leave this representation alone,” compare what a replacement block must learn with what a residual block must output.

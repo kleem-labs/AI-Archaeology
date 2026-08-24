@@ -37,6 +37,28 @@ Only the missing distinction is restored: we need to learn a compact model that 
 
 The keeper of unfinished questions places a finger over the new distinction. At once the two cases collapse and the agent cannot imagine untried sequences or reuse physical regularities. Lifting the finger restores only this capacity: learn a compact model that predicts next state and reward from current state and action. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we learn only which action was rewarded in previously visited situations?
+
+## When the chamber changes
+
+Keep the formal name World Models covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The prism follows the tempting path—learn only which action was rewarded in previously visited situations. Then the evidence answers: the agent cannot imagine untried sequences or reuse physical regularities.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The prism can now learn a compact model that predicts next state and reward from current state and action.
+
+The object that should remain after the terminology disappears is **the world models prism mounted on the table of mirrored maps**.
+
+> **Memory seal — World Models**
+>
+> World Models keeps the missing power: learn a compact model that predicts next state and reward from current state and action.
+
+Give the idea a bodily path: Touch the world models prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Understanding world models
 
 From ball position and push direction, predict where the ball will move before choosing the push.

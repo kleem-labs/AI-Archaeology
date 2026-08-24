@@ -35,6 +35,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the map of branching journeys form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. quantization is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we round every weight aggressively without measuring effect?
+
+## When the chamber changes
+
+The Quantization room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The prism follows the tempting path—round every weight aggressively without measuring effect. Then the evidence answers: small but important distinctions disappear and outputs degrade.
+
+Now let the chamber move: The expedition leader changes one moving part. The prism can now map values to a limited set of levels using calibrated scale and test sensitive layers.
+
+The object that should remain after the terminology disappears is **the quantization prism mounted on the map of branching journeys**.
+
+> **Memory seal — Quantization**
+>
+> Quantization keeps the missing power: map values to a limited set of levels using calibrated scale and test sensitive layers.
+
+Give the idea a bodily path: Touch the quantization prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Understanding quantization
 
 Weights from -1 to 1 become 256 integer levels; a stored integer plus scale approximately reconstructs each value.

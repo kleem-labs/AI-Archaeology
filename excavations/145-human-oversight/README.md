@@ -33,6 +33,28 @@ So the sealed evidence ledger is altered in exactly one way: automate reversible
 
 Nothing is erased from the sealed evidence ledger. The failed path remains visible beneath the repair, because human oversight is easier to remember when its scar remains attached to it. The scar reads, ‘constant review overwhelms attention, so approval becomes automatic ceremony’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we ask a human to watch every internal step?
+
+## When the chamber changes
+
+The Human Oversight room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The lens follows the tempting path—ask a human to watch every internal step. Then the evidence answers: constant review overwhelms attention, so approval becomes automatic ceremony.
+
+Now let the chamber move: The experimentalist changes one moving part. The lens can now automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries.
+
+The object that should remain after the terminology disappears is **the human oversight lens mounted on the sealed evidence ledger**.
+
+> **Memory seal — Human Oversight**
+>
+> Human Oversight keeps the missing power: automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries.
+
+Give the idea a bodily path: Touch the human oversight lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Put Judgment at the Irreversible Edge
 
 The agent drafts, cites sources, and highlights uncertainty; a lawyer controls submission.

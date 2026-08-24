@@ -33,6 +33,28 @@ The repair can now be stated without mystery: add a position-specific vector to 
 
 A thread now runs backward from position through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the first invents arbitrary order; the second stores position outside the computation. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
+>
+> **The question carried into this chamber:** Why Order Must Enter the Model?
+
+## When the chamber changes
+
+Before leaving Position, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The thread follows the tempting path—sort tokens by ID or trust their array slot without exposing it to the model. Then the evidence answers: the first invents arbitrary order; the second stores position outside the computation.
+
+Now let the chamber move: The mechanist changes one moving part. The thread can now add a position-specific vector to each token vector before attention. Content says what; position says where.
+
+The object that should remain after the terminology disappears is **the position thread mounted on the sentence-wheel**.
+
+> **Memory seal — Position**
+>
+> Position keeps the missing power: add a position-specific vector to each token vector before attention. Content says what; position says where.
+
+Give the idea a bodily path: Touch the position thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside position
 
 The mechanist carries the position scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

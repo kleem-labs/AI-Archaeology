@@ -32,6 +32,28 @@ The evidence permits one narrow invention: test whether the clue can be located,
 
 What changed on the sealed evidence ledger can be said without symbols. Before, the method could only assume information inside the window will automatically influence the answer; now it can also test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we assume information inside the window will automatically influence the answer?
+
+## When the chamber changes
+
+Keep the formal name Long-Context Retrieval covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The bell follows the tempting path—assume information inside the window will automatically influence the answer. Then the evidence answers: availability is not retrieval; distracting passages dominate the relevant line.
+
+Now let the chamber move: The experimentalist changes one moving part. The bell can now test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning.
+
+The object that should remain after the terminology disappears is **the long-context retrieval bell mounted on the sealed evidence ledger**.
+
+> **Memory seal — Long-Context Retrieval**
+>
+> Long-Context Retrieval keeps the missing power: test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning.
+
+Give the idea a bodily path: Touch the long-context retrieval bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Finding the One Clue That Matters
 
 Hide a changed contract date among repeated boilerplate and trace whether the model selects the exact clause.

@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the iron threshold form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. memory is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What Should Survive After the Context Ends?
+
+## When the chamber changes
+
+The mathematical name Memory can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The wheel follows the tempting path—store every message forever and paste all history into every new prompt. Then the evidence answers: cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose.
+
+Now let the chamber move: The gatekeeper changes one moving part. The wheel can now separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
+
+The object that should remain after the terminology disappears is **the memory wheel mounted on the iron threshold**.
+
+> **Memory seal — Memory**
+>
+> Memory keeps the missing power: separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
+
+Give the idea a bodily path: Touch the memory wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## What Should Survive After the Context Ends
 
 Save “prefers concise status reports” with its source and date. Do not save a temporary hotel door code. Retrieve the preference only for relevant writing tasks.

@@ -33,6 +33,28 @@ The repair can now be stated without mystery: ask for labels where the model is 
 
 One boundary in the room is now sharper. On one side lies the promise to label random examples forever; on the other lies the observed fact that thousands of easy repeated cases consume effort while the decision boundary remains unclear. The bridge called active learning has exactly the planks needed to ask for labels where the model is uncertain or where examples add new coverage.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we label random examples forever?
+
+## When the chamber changes
+
+The mathematical name Active Learning can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The bell follows the tempting path—label random examples forever. Then the evidence answers: thousands of easy repeated cases consume effort while the decision boundary remains unclear.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The bell can now ask for labels where the model is uncertain or where examples add new coverage.
+
+The object that should remain after the terminology disappears is **the active learning bell mounted on the table of mirrored maps**.
+
+> **Memory seal — Active Learning**
+>
+> Active Learning keeps the missing power: ask for labels where the model is uncertain or where examples add new coverage.
+
+Give the idea a bodily path: Touch the active learning bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Understanding active learning
 
 The model knows obvious cats and dogs but splits 50–50 on one fox-like animal; labeling it teaches more than another obvious cat.

@@ -40,6 +40,28 @@ The marks on the wall of illuminated tiles form a small constellation: one point
 
 Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to choose an order and predict each piece from previously generated pieces, and the method falls back to this tempting instruction: predict all pixels independently. The old consequence returns—independent pixels produce noise because neighboring colors and shapes constrain one another. Restore the missing ability and that particular contradiction disappears. This reversible test is why autoregressive generation beyond text belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we predict all pixels independently?
+
+## When the chamber changes
+
+Before leaving Autoregressive Generation Beyond Text, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The lantern follows the tempting path—predict all pixels independently. Then the evidence answers: independent pixels produce noise because neighboring colors and shapes constrain one another.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The lantern can now choose an order and predict each piece from previously generated pieces.
+
+The object that should remain after the terminology disappears is **the autoregressive generation beyond text lantern mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Autoregressive Generation Beyond Text**
+>
+> Autoregressive Generation Beyond Text keeps the missing power: choose an order and predict each piece from previously generated pieces.
+
+Give the idea a bodily path: Touch the autoregressive generation beyond text lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Understanding autoregressive generation beyond text
 
 After generating sky pixels, the model gives blue neighbors higher probability.

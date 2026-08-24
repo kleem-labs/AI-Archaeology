@@ -35,6 +35,28 @@ So the chain-of-custody ledger is altered in exactly one way: combine transparen
 
 Nothing is erased from the chain-of-custody ledger. The failed path remains visible beneath the repair, because quality filtering is easier to remember when its scar remains attached to it. The scar reads, ‘the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we keep only documents that resemble one prestigious encyclopedia?
+
+## When the chamber changes
+
+Keep the formal name Quality Filtering covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The bridge follows the tempting path—keep only documents that resemble one prestigious encyclopedia. Then the evidence answers: the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The bridge can now combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter.
+
+The object that should remain after the terminology disappears is **the quality filtering bridge mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Quality Filtering**
+>
+> Quality Filtering keeps the missing power: combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter.
+
+Give the idea a bodily path: Touch the quality filtering bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Remove Noise Without Defining Humanity Away
 
 The station rejects a page with 70 percent repeated navigation and no sentences, but manually audits samples near the threshold and notices that short emergency bulletins need a different rule from essays.

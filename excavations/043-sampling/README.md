@@ -33,6 +33,28 @@ So the sentence-wheel is altered in exactly one way: we need to control the dist
 
 The sentence-wheel has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and sampling looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
+>
+> **The question carried into this chamber:** What fails if we always use argmax?
+
+## When the chamber changes
+
+Before leaving Sampling, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The wheel follows the tempting path—always use argmax. Then the evidence answers: the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
+
+Now let the chamber move: The mechanist changes one moving part. The wheel can now control the distribution with temperature and optionally restrict it to a credible top set before sampling.
+
+The object that should remain after the terminology disappears is **the sampling wheel mounted on the sentence-wheel**.
+
+> **Memory seal — Sampling**
+>
+> Sampling keeps the missing power: control the distribution with temperature and optionally restrict it to a credible top set before sampling.
+
+Give the idea a bodily path: Touch the sampling wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside sampling
 
 The mechanist carries the sampling scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

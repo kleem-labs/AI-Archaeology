@@ -35,6 +35,28 @@ The repair can now be stated without mystery: give each logical action a stable 
 
 A thread now runs backward from retries and idempotency through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the trouble appears immediately: the first payment succeeded and the retry charges the customer twice. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we retry the action whenever a response is missing?
+
+## When the chamber changes
+
+The Retries and Idempotency chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The gear follows the tempting path—retry the action whenever a response is missing. Then the evidence answers: the trouble appears immediately: the first payment succeeded and the retry charges the customer twice.
+
+Now let the chamber move: The gatekeeper changes one moving part. The gear can now give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect.
+
+The object that should remain after the terminology disappears is **the retries and idempotency gear mounted on the iron threshold**.
+
+> **Memory seal — Retries and Idempotency**
+>
+> Retries and Idempotency keeps the missing power: give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect.
+
+Give the idea a bodily path: Touch the retries and idempotency gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Trying Again Without Doing It Twice
 
 Both payment attempts carry order-417. The server records that key with the first charge; the retry retrieves the same receipt rather than creating another charge.

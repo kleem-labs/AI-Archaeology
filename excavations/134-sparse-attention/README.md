@@ -40,6 +40,28 @@ A thread now runs backward from sparse attention through the room. Tug it and th
 
 Before leaving the sealed evidence ledger, the experimentalist tests the new idea backward. Remove the ability to preserve a small pattern of local, global, or retrieved connections that matches the task's information paths, and the method falls back to this tempting instruction: keep full attention and buy more hardware. The old consequence returns—doubling length roughly quadruples pairwise comparisons. Restore the missing ability and that particular contradiction disappears. This reversible test is why sparse attention belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we keep full attention and buy more hardware?
+
+## When the chamber changes
+
+The mathematical name Sparse Attention can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The thread follows the tempting path—keep full attention and buy more hardware. Then the evidence answers: doubling length roughly quadruples pairwise comparisons.
+
+Now let the chamber move: The experimentalist changes one moving part. The thread can now preserve a small pattern of local, global, or retrieved connections that matches the task's information paths.
+
+The object that should remain after the terminology disappears is **the sparse attention thread mounted on the sealed evidence ledger**.
+
+> **Memory seal — Sparse Attention**
+>
+> Sparse Attention keeps the missing power: preserve a small pattern of local, global, or retrieved connections that matches the task's information paths.
+
+Give the idea a bodily path: Touch the sparse attention thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Looking Without Comparing Everything
 
 A document token attends nearby sentences plus section headings instead of every word in the book.

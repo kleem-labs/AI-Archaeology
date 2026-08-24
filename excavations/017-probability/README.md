@@ -39,6 +39,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In probability, that memory takes a precise form: whenever this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act, preserve enough structure to keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total. Every lantern in probability remembers an older operation. Probability keeps several stories lit; logarithms turn compounded uncertainty into steps; summation lets separate surprises form one account. Learning begins when those lights can alter the machine that reads them.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we choose the most common cause and declare certainty?
+
+## When the chamber changes
+
+The Probability chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The lens follows the tempting path—choose the most common cause and declare certainty. Then the evidence answers: this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The lens can now keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total.
+
+The object that should remain after the terminology disappears is **the probability lens mounted on the ring of glass lanterns**.
+
+> **Memory seal — Probability**
+>
+> Probability keeps the missing power: keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total.
+
+Give the idea a bodily path: Touch the probability lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside probability
 
 The keeper of uncertain stories carries the probability scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

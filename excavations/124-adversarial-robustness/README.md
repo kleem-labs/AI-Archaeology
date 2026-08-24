@@ -35,6 +35,28 @@ The evidence permits one narrow invention: search for worst-case permitted pertu
 
 What changed on the table of mirrored maps can be said without symbols. Before, the method could only test only natural clean examples; now it can also search for worst-case permitted perturbations, train against them, and bound behavior where possible. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we test only natural clean examples?
+
+## When the chamber changes
+
+The mathematical name Adversarial Robustness can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The map follows the tempting path—test only natural clean examples. Then the evidence answers: an attacker follows the model’s sensitivity into a brittle direction.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The map can now search for worst-case permitted perturbations, train against them, and bound behavior where possible.
+
+The object that should remain after the terminology disappears is **the adversarial robustness map mounted on the table of mirrored maps**.
+
+> **Memory seal — Adversarial Robustness**
+>
+> Adversarial Robustness keeps the missing power: search for worst-case permitted perturbations, train against them, and bound behavior where possible.
+
+Give the idea a bodily path: Touch the adversarial robustness map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Understanding adversarial robustness
 
 Changing a few pixel values turns tiger into toaster for the model while looking unchanged to a human.

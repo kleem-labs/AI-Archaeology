@@ -32,6 +32,28 @@ The repair can now be stated without mystery: monitor input, prediction, and out
 
 One boundary in the room is now sharper. On one side lies the promise to assume training accuracy remains valid forever; on the other lies the observed fact that a winter-trained demand model meets summer behavior and keeps reporting confident old patterns. The bridge called distribution drift has exactly the planks needed to monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we assume training accuracy remains valid forever?
+
+## When the chamber changes
+
+Before leaving Distribution Drift, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The compass follows the tempting path—assume training accuracy remains valid forever. Then the evidence answers: a winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
+
+Now let the chamber move: The field naturalist changes one moving part. The compass can now monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
+
+The object that should remain after the terminology disappears is **the distribution drift compass mounted on the weathered observation slate**.
+
+> **Memory seal — Distribution Drift**
+>
+> Distribution Drift keeps the missing power: monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
+
+Give the idea a bodily path: Touch the distribution drift compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Understanding distribution drift
 
 Average order size moves from $40 to $75 while error doubles. The shift is evidence to inspect, not automatic permission to update.

@@ -33,6 +33,28 @@ The repair can now be stated without mystery: hide or transform part of an obser
 
 A thread now runs backward from self-supervised learning through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and labels are expensive and discard most structure already inside observations. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we wait for humans to label every example?
+
+## When the chamber changes
+
+The Self-Supervised Learning room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The gear follows the tempting path—wait for humans to label every example. Then the evidence answers: labels are expensive and discard most structure already inside observations.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The gear can now hide or transform part of an observation and train the model to recover the missing relation.
+
+The object that should remain after the terminology disappears is **the self-supervised learning gear mounted on the table of mirrored maps**.
+
+> **Memory seal — Self-Supervised Learning**
+>
+> Self-Supervised Learning keeps the missing power: hide or transform part of an observation and train the model to recover the missing relation.
+
+Give the idea a bodily path: Touch the self-supervised learning gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Understanding self-supervised learning
 
 Mask one image patch and predict it from neighbors; no human label is needed.

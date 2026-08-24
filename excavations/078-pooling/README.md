@@ -35,6 +35,28 @@ The maker of seeing-machines changes only that one responsibility: summarize sma
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because memory explodes and tiny shifts move evidence to neighboring cells, while the other can summarize small neighborhoods while retaining the strongest or average evidence. That fork—not the vocabulary—is where pooling lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we keep every activation at full resolution through every layer?
+
+## When the chamber changes
+
+Before leaving Pooling, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The gear follows the tempting path—keep every activation at full resolution through every layer. Then the evidence answers: memory explodes and tiny shifts move evidence to neighboring cells.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The gear can now summarize small neighborhoods while retaining the strongest or average evidence.
+
+The object that should remain after the terminology disappears is **the pooling gear mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Pooling**
+>
+> Pooling keeps the missing power: summarize small neighborhoods while retaining the strongest or average evidence.
+
+Give the idea a bodily path: Touch the pooling gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Keeping Evidence While Shrinking the Map
 
 Max pooling [1,7,2,3] keeps 7: an edge existed somewhere in that patch.

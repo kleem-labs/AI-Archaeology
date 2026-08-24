@@ -33,6 +33,28 @@ The repair can now be stated without mystery: average the information of every p
 
 One boundary in the room is now sharper. On one side lies the promise to count the number of outcomes; on the other lies the observed fact that both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution. The bridge called entropy has exactly the planks needed to average the information of every possible outcome, weighted by how often that outcome occurs.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we count the number of outcomes?
+
+## When the chamber changes
+
+The Entropy room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The compass follows the tempting path—count the number of outcomes. Then the evidence answers: both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The compass can now average the information of every possible outcome, weighted by how often that outcome occurs.
+
+The object that should remain after the terminology disappears is **the entropy compass mounted on the ring of glass lanterns**.
+
+> **Memory seal — Entropy**
+>
+> Entropy keeps the missing power: average the information of every possible outcome, weighted by how often that outcome occurs.
+
+Give the idea a bodily path: Touch the entropy compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside entropy
 
 The keeper of uncertain stories carries the entropy scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

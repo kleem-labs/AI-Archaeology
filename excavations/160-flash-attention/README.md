@@ -33,6 +33,28 @@ The evidence permits one narrow invention: tile queries, keys, and values into f
 
 What changed on the brass reference machine can be said without symbols. Before, the method could only reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost; now it can also tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost?
+
+## When the chamber changes
+
+The FlashAttention room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The seal follows the tempting path—reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost. Then the evidence answers: approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them.
+
+Now let the chamber move: The enginewright changes one moving part. The seal can now tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once.
+
+The object that should remain after the terminology disappears is **the flashattention seal mounted on the brass reference machine**.
+
+> **Memory seal — FlashAttention**
+>
+> FlashAttention keeps the missing power: tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once.
+
+Give the idea a bodily path: Touch the flashattention seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## The Arithmetic Was Not the Bottleneck
 
 Process two score tiles. Carry only the running maximum, normalized denominator, and weighted value total into the next tile; the final answer matches ordinary softmax attention.

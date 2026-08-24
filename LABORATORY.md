@@ -14,10 +14,12 @@ python3 tools/check_operation_reasoning.py
 python3 tools/check_latex_portability.py
 python3 tools/check_reasoned_limits.py
 python3 tools/check_human_math_examples.py
+python3 tools/check_memory_palace.py
 python3 tools/check_mathematical_roots_memory.py
 python3 tools/build_mathematical_gist.py --check
 python3 tools/build_math_mandala.py --check
 python3 tools/build_mathematical_roots_palace.py --check
+python3 tools/build_memory_palace.py --check
 python3 tools/build_continuous_book.py --check
 python3 tools/check_book_lab.py
 ~~~
@@ -39,6 +41,11 @@ Before opening the roots lab, walk through [the living Mathematical
 Undercroft](mathematical-roots/README.md). Its five-frame chambers give each
 abstract root a physical object, a visible failure, a transformation, and a
 memory seal. The lab then lets you test whether the promise survives numbers.
+
+For the whole book, begin at the [226-Chamber Memory
+Palace](memory-palace/README.md). Recall the film before running the code; use
+the laboratory to test whether the remembered repair survives numbers and
+counterexamples.
 
 Each lab prints intermediate values and contains assertions for the failure it
 was designed to expose. Read the linked excavation first; the lab is evidence,

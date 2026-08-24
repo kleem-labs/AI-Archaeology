@@ -33,6 +33,28 @@ The evidence permits one narrow invention: apply Adam's adaptive data update and
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—treat penalty gradients and data gradients identically because both appear in one total loss? The answer remains coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we treat penalty gradients and data gradients identically because both appear in one total loss?
+
+## When the chamber changes
+
+Keep the formal name AdamW covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The thread follows the tempting path—treat penalty gradients and data gradients identically because both appear in one total loss. Then the evidence answers: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate.
+
+Now let the chamber move: The enginewright changes one moving part. The thread can now apply Adam's adaptive data update and parameter decay as separate operations.
+
+The object that should remain after the terminology disappears is **the adamw thread mounted on the brass reference machine**.
+
+> **Memory seal — AdamW**
+>
+> AdamW keeps the missing power: apply Adam's adaptive data update and parameter decay as separate operations.
+
+Give the idea a bodily path: Touch the adamw thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Keep Shrinkage Separate from Adaptation
 
 Two equal weights with different gradient histories receive different Adam steps but the same proportional decay.

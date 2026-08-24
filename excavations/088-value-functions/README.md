@@ -40,6 +40,28 @@ What changed on the map of branching journeys can be said without symbols. Befor
 
 Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to estimate the future reward expected from a state or state-action pair, and the method falls back to this tempting instruction: choose the action with the largest reward right now. The old consequence returns—a small immediate treat can prevent reaching a larger later reward. Restore the missing ability and that particular contradiction disappears. This reversible test is why value belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we choose the action with the largest reward right now?
+
+## When the chamber changes
+
+Before leaving Value, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The bell follows the tempting path—choose the action with the largest reward right now. Then the evidence answers: a small immediate treat can prevent reaching a larger later reward.
+
+Now let the chamber move: The expedition leader changes one moving part. The bell can now estimate the future reward expected from a state or state-action pair.
+
+The object that should remain after the terminology disappears is **the value bell mounted on the map of branching journeys**.
+
+> **Memory seal — Value**
+>
+> Value keeps the missing power: estimate the future reward expected from a state or state-action pair.
+
+Give the idea a bodily path: Touch the value bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Estimating Future Consequences
 
 One path gives 1 now; another gives 0 now and 10 next. Future value makes the second preferable.

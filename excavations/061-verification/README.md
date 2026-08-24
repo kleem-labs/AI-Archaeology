@@ -37,6 +37,28 @@ So the iron threshold is altered in exactly one way: define success before actin
 
 Nothing is erased from the iron threshold. The failed path remains visible beneath the repair, because verification is easier to remember when its scar remains attached to it. The scar reads, ‘the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** How Does the Agent Know It Succeeded?
+
+## When the chamber changes
+
+Keep the formal name Verification covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The scale follows the tempting path—trust the absence of an error message or the model’s own description of its work. Then the evidence answers: the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome.
+
+Now let the chamber move: The gatekeeper changes one moving part. The scale can now define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
+
+The object that should remain after the terminology disappears is **the verification scale mounted on the iron threshold**.
+
+> **Memory seal — Verification**
+>
+> Verification keeps the missing power: define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
+
+Give the idea a bodily path: Touch the verification scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## How Does the Agent Know It Succeeded
 
 For “fix CSV import,” success requires the original failing file to load, existing import tests to remain green, and malformed rows to produce the agreed error.

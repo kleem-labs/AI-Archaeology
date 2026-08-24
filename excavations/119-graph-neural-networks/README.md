@@ -32,6 +32,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the table of mirrored maps form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. graph neural networks is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we assign a fixed input slot to every possible neighbor?
+
+## When the chamber changes
+
+The mathematical name Graph Neural Networks can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The mirror follows the tempting path—assign a fixed input slot to every possible neighbor. Then the evidence answers: graphs vary in size and neighbor order should not change meaning.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The mirror can now apply the same message rule to each edge and aggregate neighbor messages without depending on order.
+
+The object that should remain after the terminology disappears is **the graph neural networks mirror mounted on the table of mirrored maps**.
+
+> **Memory seal — Graph Neural Networks**
+>
+> Graph Neural Networks keeps the missing power: apply the same message rule to each edge and aggregate neighbor messages without depending on order.
+
+Give the idea a bodily path: Touch the graph neural networks mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Understanding graph neural networks
 
 A molecule atom receives messages from bonded atoms, sums them, then updates its representation.

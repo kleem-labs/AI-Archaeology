@@ -35,6 +35,28 @@ The maker of seeing-machines changes only that one responsibility: gradually add
 
 The wall of illuminated tiles keeps both histories. Its older mark still says, ‘map one random vector directly to a finished image in one jump’; beside it, the newer mark says, ‘gradually add noise to real images, then learn the smaller reverse step at every noise level.’ The distance between those sentences is the exact shape of diffusion: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we map one random vector directly to a finished image in one jump?
+
+## When the chamber changes
+
+The mathematical name Diffusion can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The compass follows the tempting path—map one random vector directly to a finished image in one jump. Then the evidence answers: one enormous jump is difficult to learn and unstable across diverse images.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The compass can now gradually add noise to real images, then learn the smaller reverse step at every noise level.
+
+The object that should remain after the terminology disappears is **the diffusion compass mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Diffusion**
+>
+> Diffusion keeps the missing power: gradually add noise to real images, then learn the smaller reverse step at every noise level.
+
+Give the idea a bodily path: Touch the diffusion compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Learning by Destroying
 
 A tiger image becomes slightly grainy, then more noisy, then nearly random; training learns each local cleanup.

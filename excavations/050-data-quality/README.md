@@ -37,6 +37,28 @@ The repair can now be stated without mystery: treat data construction as part of
 
 A thread now runs backward from data quality through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** What Lessons Did the Model Actually Receive?
+
+## When the chamber changes
+
+The Data Quality room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The key follows the tempting path—collect as much text as possible and assume scale washes out bad examples. Then the evidence answers: duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them.
+
+Now let the chamber move: The public archivist changes one moving part. The key can now treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices.
+
+The object that should remain after the terminology disappears is **the data quality key mounted on the listening table**.
+
+> **Memory seal — Data Quality**
+>
+> Data Quality keeps the missing power: treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices.
+
+Give the idea a bodily path: Touch the data quality key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## What Lessons Did the Model Actually Receive
 
 A corpus contains one careful correction and 1,000 copied versions of the same false tiger fact. Counting pages makes the falsehood appear overwhelmingly supported; deduplication changes the lesson before training begins.

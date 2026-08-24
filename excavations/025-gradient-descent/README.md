@@ -33,6 +33,28 @@ So the ring of glass lanterns is altered in exactly one way: move every paramete
 
 Nothing is erased from the ring of glass lanterns. The failed path remains visible beneath the repair, because gradient descent is easier to remember when its scar remains attached to it. The scar reads, ‘take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we jump directly opposite the gradient with no step control; the model may overshoot and diverge?
+
+## When the chamber changes
+
+The Gradient Descent room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The vessel follows the tempting path—jump directly opposite the gradient with no step control; the model may overshoot and diverge. Then the evidence answers: take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The vessel can now move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress.
+
+The object that should remain after the terminology disappears is **the gradient descent vessel mounted on the ring of glass lanterns**.
+
+> **Memory seal — Gradient Descent**
+>
+> Gradient Descent keeps the missing power: move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress.
+
+Give the idea a bodily path: Touch the gradient descent vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside gradient descent
 
 The keeper of uncertain stories carries the gradient descent scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

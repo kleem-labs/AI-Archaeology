@@ -33,6 +33,28 @@ The evidence permits one narrow invention: pack several short examples into each
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste? The answer remains the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste?
+
+## When the chamber changes
+
+The mathematical name Sequence Packing can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The gate follows the tempting path—pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste. Then the evidence answers: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions.
+
+Now let the chamber move: The enginewright changes one moving part. The gate can now pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another.
+
+The object that should remain after the terminology disappears is **the sequence packing gate mounted on the brass reference machine**.
+
+> **Memory seal — Sequence Packing**
+>
+> Sequence Packing keeps the missing power: pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another.
+
+Give the idea a bodily path: Touch the sequence packing gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Stop Training on Empty Space
 
 Lengths 6, 5, 3, and 2 fill two rows of length 8 exactly. Padding falls from 16 allocated positions with 6 empty to 16 positions with none empty.

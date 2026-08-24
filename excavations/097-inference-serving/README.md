@@ -33,6 +33,28 @@ So the map of branching journeys is altered in exactly one way: batch compatible
 
 Nothing is erased from the map of branching journeys. The failed path remains visible beneath the repair, because inference serving is easier to remember when its scar remains attached to it. The scar reads, ‘the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we run one request at a time on one full model?
+
+## When the chamber changes
+
+The Inference Serving chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The lens follows the tempting path—run one request at a time on one full model. Then the evidence answers: the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues.
+
+Now let the chamber move: The expedition leader changes one moving part. The lens can now batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
+
+The object that should remain after the terminology disappears is **the inference serving lens mounted on the map of branching journeys**.
+
+> **Memory seal — Inference Serving**
+>
+> Inference Serving keeps the missing power: batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
+
+Give the idea a bodily path: Touch the inference serving lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Understanding inference serving
 
 Four prompts share one matrix operation while each retains separate token state.

@@ -32,6 +32,28 @@ So the wall of illuminated tiles is altered in exactly one way: tell the model t
 
 Nothing is erased from the wall of illuminated tiles. The failed path remains visible beneath the repair, because denoising is easier to remember when its scar remains attached to it. The scar reads, ‘the task changes dramatically across noise strengths’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we ask it to recreate the entire clean image directly from every noise level?
+
+## When the chamber changes
+
+The Denoising room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The bridge follows the tempting path—ask it to recreate the entire clean image directly from every noise level. Then the evidence answers: the task changes dramatically across noise strengths.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The bridge can now tell the model the noise level and predict the added noise or equivalent clean direction.
+
+The object that should remain after the terminology disappears is **the denoising bridge mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Denoising**
+>
+> Denoising keeps the missing power: tell the model the noise level and predict the added noise or equivalent clean direction.
+
+Give the idea a bodily path: Touch the denoising bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Predicting What the Noise Hid
 
 If known noise [0.2,-0.1] was added, learning to estimate it lets subtraction move toward the clean sample.

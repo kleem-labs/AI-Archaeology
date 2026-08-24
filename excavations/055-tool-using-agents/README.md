@@ -33,6 +33,28 @@ So the listening table is altered in exactly one way: we need to let the model c
 
 The listening table has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and tool-using agents looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** When Words Must Cause Verified Actions?
+
+## When the chamber changes
+
+The Tool-Using Agents room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The mirror follows the tempting path—ask the language model to simulate every tool from memory. Then the evidence answers: it invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded.
+
+Now let the chamber move: The public archivist changes one moving part. The mirror can now let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
+
+The object that should remain after the terminology disappears is **the tool-using agents mirror mounted on the listening table**.
+
+> **Memory seal — Tool-Using Agents**
+>
+> Tool-Using Agents keeps the missing power: let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
+
+Give the idea a bodily path: Touch the tool-using agents mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## When Words Must Cause Verified Actions
 
 The user asks whether to carry an umbrella. The model requests weather for the named city, receives a 90% rain forecast, and then answers. The forecast is an observation from the tool, not prose invented by the model.

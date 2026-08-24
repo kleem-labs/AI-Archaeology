@@ -33,6 +33,28 @@ Only the missing distinction is restored: split data by role: training changes w
 
 The keeper of uncertain stories does not memorize validation. Instead, the keeper of uncertain stories memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we use training loss for every choice; it rewards memorization?
+
+## When the chamber changes
+
+Before leaving Validation, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The lens follows the tempting path—use training loss for every choice; it rewards memorization. Then the evidence answers: check the test set repeatedly; every decision leaks test information back into development.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The lens can now split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
+
+The object that should remain after the terminology disappears is **the validation lens mounted on the ring of glass lanterns**.
+
+> **Memory seal — Validation**
+>
+> Validation keeps the missing power: split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
+
+Give the idea a bodily path: Touch the validation lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside validation
 
 The keeper of uncertain stories carries the validation scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

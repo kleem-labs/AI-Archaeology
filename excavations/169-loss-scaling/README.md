@@ -37,6 +37,28 @@ So the brass reference machine is altered in exactly one way: multiply the loss 
 
 Nothing is erased from the brass reference machine. The failed path remains visible beneath the repair, because loss scaling is easier to remember when its scar remains attached to it. The scar reads, ‘the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we increase the learning rate so small updates become visible?
+
+## When the chamber changes
+
+The mathematical name Loss Scaling can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The vessel follows the tempting path—increase the learning rate so small updates become visible. Then the evidence answers: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update.
+
+Now let the chamber move: The enginewright changes one moving part. The vessel can now multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating.
+
+The object that should remain after the terminology disappears is **the loss scaling vessel mounted on the brass reference machine**.
+
+> **Memory seal — Loss Scaling**
+>
+> Loss Scaling keeps the missing power: multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating.
+
+Give the idea a bodily path: Touch the loss scaling vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Rescue Gradients Too Small to Represent
 
 A gradient 0.000001 becomes 0.001 when loss scale is 1000, survives backpropagation, and returns to 0.000001 after unscaling.

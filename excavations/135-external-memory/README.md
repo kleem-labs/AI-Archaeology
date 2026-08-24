@@ -35,6 +35,28 @@ Only the missing distinction is restored: we need to write selected facts to add
 
 The experimentalist places a finger over the new distinction. At once the two cases collapse and cost grows forever and important facts drown in irrelevant history. Lifting the finger restores only this capacity: write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we append every past event to every future prompt?
+
+## When the chamber changes
+
+The External Memory room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The mirror follows the tempting path—append every past event to every future prompt. Then the evidence answers: cost grows forever and important facts drown in irrelevant history.
+
+Now let the chamber move: The experimentalist changes one moving part. The mirror can now write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules.
+
+The object that should remain after the terminology disappears is **the external memory mirror mounted on the sealed evidence ledger**.
+
+> **Memory seal — External Memory**
+>
+> External Memory keeps the missing power: write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules.
+
+Give the idea a bodily path: Touch the external memory mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Remembering Beyond the Context Window
 
 Store the user's chosen unit system once, retrieve it for calculations, and retain when and why it was recorded.

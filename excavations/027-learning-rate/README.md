@@ -33,6 +33,28 @@ Only the missing distinction is restored: we need to multiply the gradient by a 
 
 The keeper of uncertain stories places a finger over the new distinction. At once the two cases collapse and always take a microscopic step: improve so slowly that the expedition ends first. Lifting the finger restores only this capacity: multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** How Large Should the Next Step Be?
+
+## When the chamber changes
+
+The Learning Rate chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The wheel follows the tempting path—always take a huge step: leap across the valley and oscillate. Then the evidence answers: always take a microscopic step: improve so slowly that the expedition ends first.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The wheel can now multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
+
+The object that should remain after the terminology disappears is **the learning rate wheel mounted on the ring of glass lanterns**.
+
+> **Memory seal — Learning Rate**
+>
+> Learning Rate keeps the missing power: multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
+
+Give the idea a bodily path: Touch the learning rate wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside learning rate
 
 The keeper of uncertain stories carries the learning rate scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

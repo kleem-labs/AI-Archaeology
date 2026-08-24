@@ -33,6 +33,28 @@ Only the missing distinction is restored: detect candidate spans with several me
 
 The archivist-engineer places a finger over the new distinction. At once the two cases collapse and one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span. Lifting the finger restores only this capacity: detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we remove any entire document containing a sequence that resembles personal information?
+
+## When the chamber changes
+
+Before leaving PII Redaction, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The mirror follows the tempting path—remove any entire document containing a sequence that resembles personal information. Then the evidence answers: one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The mirror can now detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision.
+
+The object that should remain after the terminology disappears is **the pii redaction mirror mounted on the chain-of-custody ledger**.
+
+> **Memory seal — PII Redaction**
+>
+> PII Redaction keeps the missing power: detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision.
+
+Give the idea a bodily path: Touch the pii redaction mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Do Not Turn Accidental Secrets into Lessons
 
 The sentence “Call Maya at 555-0142 about the injured tiger” becomes “Call [PERSON] at [PHONE] about the injured tiger”; the grammatical lesson survives while the direct identifier does not.

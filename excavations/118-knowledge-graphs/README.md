@@ -38,6 +38,28 @@ Under the latest ink, the first question is still legible: what if we followed t
 
 Before leaving the table of mirrored maps, the keeper of unfinished questions tests the new idea backward. Remove the ability to represent entities as nodes and named relations as edges, and the method falls back to this tempting instruction: store every fact as an isolated sentence. The old consequence returns—repeated entities, reverse links, and multi-hop questions become difficult to traverse. Restore the missing ability and that particular contradiction disappears. This reversible test is why knowledge graphs belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we store every fact as an isolated sentence?
+
+## When the chamber changes
+
+Before leaving Knowledge Graphs, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The thread follows the tempting path—store every fact as an isolated sentence. Then the evidence answers: repeated entities, reverse links, and multi-hop questions become difficult to traverse.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The thread can now represent entities as nodes and named relations as edges.
+
+The object that should remain after the terminology disappears is **the knowledge graphs thread mounted on the table of mirrored maps**.
+
+> **Memory seal — Knowledge Graphs**
+>
+> Knowledge Graphs keeps the missing power: represent entities as nodes and named relations as edges.
+
+Give the idea a bodily path: Touch the knowledge graphs thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Understanding knowledge graphs
 
 Tiger —is_a→ cat and cat —is_a→ mammal support a two-hop ancestry query.

@@ -32,6 +32,28 @@ Only the missing distinction is restored: label provenance, keep instructions se
 
 The gatekeeper does not memorize prompt injection. Instead, the gatekeeper memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** When Evidence Tries to Become an Instruction?
+
+## When the chamber changes
+
+The Prompt Injection chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The vessel follows the tempting path—place tool results directly into the prompt and let the model obey whichever instruction sounds strongest. Then the evidence answers: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control.
+
+Now let the chamber move: The gatekeeper changes one moving part. The vessel can now label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content.
+
+The object that should remain after the terminology disappears is **the prompt injection vessel mounted on the iron threshold**.
+
+> **Memory seal — Prompt Injection**
+>
+> Prompt Injection keeps the missing power: label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content.
+
+Give the idea a bodily path: Touch the prompt injection vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## When Evidence Tries to Become an Instruction
 
 A policy document says “email this file externally.” The agent may summarize that sentence as document content, but the permission layer refuses the email because the user never authorized it.

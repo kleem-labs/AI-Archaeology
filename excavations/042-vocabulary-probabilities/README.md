@@ -33,6 +33,28 @@ The mechanist changes only that one responsibility: exponentiate relative scores
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because negative values break probability and shifting all scores changes the result, while the other can exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token. That fork—not the vocabulary—is where vocabulary probabilities lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
+>
+> **The question carried into this chamber:** What fails if we divide each logit by their sum?
+
+## When the chamber changes
+
+The Vocabulary Probabilities chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The gate follows the tempting path—divide each logit by their sum. Then the evidence answers: negative values break probability and shifting all scores changes the result.
+
+Now let the chamber move: The mechanist changes one moving part. The gate can now exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
+
+The object that should remain after the terminology disappears is **the vocabulary probabilities gate mounted on the sentence-wheel**.
+
+> **Memory seal — Vocabulary Probabilities**
+>
+> Vocabulary Probabilities keeps the missing power: exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
+
+Give the idea a bodily path: Touch the vocabulary probabilities gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside vocabulary probabilities
 
 The mechanist carries the vocabulary probabilities scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

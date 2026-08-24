@@ -33,6 +33,28 @@ The repair can now be stated without mystery: average the evidence from a small 
 
 A thread now runs backward from mini-batches through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we use one example per update?
+
+## When the chamber changes
+
+Keep the formal name Mini-Batches covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The gate follows the tempting path—use one example per update. Then the evidence answers: it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The gate can now average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently.
+
+The object that should remain after the terminology disappears is **the mini-batches gate mounted on the ring of glass lanterns**.
+
+> **Memory seal — Mini-Batches**
+>
+> Mini-Batches keeps the missing power: average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently.
+
+Give the idea a bodily path: Touch the mini-batches gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside mini-batches
 
 The keeper of uncertain stories carries the mini-batches scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

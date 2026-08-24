@@ -174,6 +174,28 @@ the word *embedding* until your procedure has already created one.
 [Pure Python → NumPy → PyTorch](implementation/README.md)
 [References](references.md)
 
+<!-- memory-film-v1:start -->
+> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
+>
+> **The question carried into this chamber:** How can a machine give that web of meaning a place where relationships can move?
+
+## When the chamber changes
+
+The Embeddings chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: Private one-hot pedestals keep every word equally far from every other word.
+
+Now let the chamber move: The pedestals dissolve and training moves stars through a shared geometric sky.
+
+The object that should remain after the terminology disappears is **a constellation in which tiger and lion stars can drift nearer while tiger and bicycle drift apart**.
+
+> **Memory seal — Embeddings**
+>
+> An embedding is a learned place where useful relationships become available as geometry.
+
+Give the idea a bodily path: Hold three fingers far apart, then bring two together while leaving the third away.
+<!-- memory-film-v1:end -->
+
 [Next: Why Attention Had to Exist](../008-attention/README.md)
 
 <!-- book-prose-v2 -->

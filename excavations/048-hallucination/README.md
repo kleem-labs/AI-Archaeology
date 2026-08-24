@@ -33,6 +33,28 @@ The public archivist changes only that one responsibility: separate linguistic p
 
 The listening table keeps both histories. Its older mark still says, ‘trust fluent language because uncertainty should sound hesitant’; beside it, the newer mark says, ‘separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.’ The distance between those sentences is the exact shape of hallucination: no larger than the failure required, and no smaller than reality permits.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
+>
+> **The question carried into this chamber:** When Fluent Prediction Outruns Evidence?
+
+## When the chamber changes
+
+Before leaving Hallucination, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The seal follows the tempting path—trust fluent language because uncertainty should sound hesitant. Then the evidence answers: training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.”.
+
+Now let the chamber move: The public archivist changes one moving part. The seal can now separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.
+
+The object that should remain after the terminology disappears is **the hallucination seal mounted on the listening table**.
+
+> **Memory seal — Hallucination**
+>
+> Hallucination keeps the missing power: separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.
+
+Give the idea a bodily path: Touch the hallucination seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## When Fluent Prediction Outruns Evidence
 
 The prompt asks for the 2018 paper “Tiger Attention Networks.” Search returns no matching source. A supported system must say no source was found instead of completing the familiar citation pattern.

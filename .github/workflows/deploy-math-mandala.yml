@@ -1,4 +1,4 @@
-name: Deploy the AI Archaeology Book, Mandala, and Undercroft
+name: Deploy the AI Archaeology Book and Memory Palaces
 
 on:
   push:
@@ -28,7 +28,7 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v6
 
-      - name: Build the book, mandala, and Undercroft
+      - name: Build the book, mandala, and memory palaces
         uses: actions/jekyll-build-pages@v1
         with:
           source: ./

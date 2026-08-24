@@ -37,6 +37,28 @@ Only the missing distinction is restored: we need to process all positions toget
 
 The mechanist places a finger over the new distinction. At once the two cases collapse and it prevents cheating but repeats nearly identical work. Lifting the finger restores only this capacity: process all positions together while blocking attention from position i to every later position j. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
+>
+> **The question carried into this chamber:** What fails if we train each prefix in a separate forward pass?
+
+## When the chamber changes
+
+The mathematical name Causal Masking can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The mirror follows the tempting path—train each prefix in a separate forward pass. Then the evidence answers: it prevents cheating but repeats nearly identical work.
+
+Now let the chamber move: The mechanist changes one moving part. The mirror can now process all positions together while blocking attention from position i to every later position j.
+
+The object that should remain after the terminology disappears is **the causal masking mirror mounted on the sentence-wheel**.
+
+> **Memory seal — Causal Masking**
+>
+> Causal Masking keeps the missing power: process all positions together while blocking attention from position i to every later position j.
+
+Give the idea a bodily path: Touch the causal masking mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside causal masking
 
 The mechanist carries the causal masking scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

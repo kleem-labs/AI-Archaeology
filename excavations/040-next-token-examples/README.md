@@ -35,6 +35,28 @@ The evidence permits one narrow invention: shift the sequence by one position so
 
 What changed on the sentence-wheel can be said without symbols. Before, the method could only treat an entire sentence as one training example with one answer; now it can also shift the sequence by one position so every visible prefix predicts the token immediately following it. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
+>
+> **The question carried into this chamber:** What fails if we treat an entire sentence as one training example with one answer?
+
+## When the chamber changes
+
+The Next-Token Examples room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The bell follows the tempting path—treat an entire sentence as one training example with one answer. Then the evidence answers: most of its transitions provide no learning signal.
+
+Now let the chamber move: The mechanist changes one moving part. The bell can now shift the sequence by one position so every visible prefix predicts the token immediately following it.
+
+The object that should remain after the terminology disappears is **the next-token examples bell mounted on the sentence-wheel**.
+
+> **Memory seal — Next-Token Examples**
+>
+> Next-Token Examples keeps the missing power: shift the sequence by one position so every visible prefix predicts the token immediately following it.
+
+Give the idea a bodily path: Touch the next-token examples bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside next-token examples
 
 The mechanist carries the next-token examples scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

@@ -33,6 +33,28 @@ Only the missing distinction is restored: randomly assign comparable cases to ol
 
 The field naturalist does not memorize controlled experiments. Instead, the field naturalist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can randomly assign comparable cases to old and new behavior and compare predefined outcomes. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we compare this week with last week?
+
+## When the chamber changes
+
+The mathematical name Controlled Experiments can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The bridge follows the tempting path—compare this week with last week. Then the evidence answers: a holiday raises sales for both systems and receives credit as a model improvement.
+
+Now let the chamber move: The field naturalist changes one moving part. The bridge can now randomly assign comparable cases to old and new behavior and compare predefined outcomes.
+
+The object that should remain after the terminology disappears is **the controlled experiments bridge mounted on the weathered observation slate**.
+
+> **Memory seal — Controlled Experiments**
+>
+> Controlled Experiments keeps the missing power: randomly assign comparable cases to old and new behavior and compare predefined outcomes.
+
+Give the idea a bodily path: Touch the controlled experiments bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Understanding controlled experiments
 
 Split 10,000 simultaneous visitors evenly; conversion is 5% for control and 5.5% for treatment under the same week.

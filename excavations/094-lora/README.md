@@ -37,6 +37,28 @@ The evidence permits one narrow invention: freeze the base and learn a small low
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—copy and fine-tune all parameters for every task? The answer remains storage and training cost multiply, and the base model is harder to preserve. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we copy and fine-tune all parameters for every task?
+
+## When the chamber changes
+
+The mathematical name Low-Rank Adaptation can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The gear follows the tempting path—copy and fine-tune all parameters for every task. Then the evidence answers: storage and training cost multiply, and the base model is harder to preserve.
+
+Now let the chamber move: The expedition leader changes one moving part. The gear can now freeze the base and learn a small low-rank correction to selected matrices.
+
+The object that should remain after the terminology disappears is **the low-rank adaptation gear mounted on the map of branching journeys**.
+
+> **Memory seal — Low-Rank Adaptation**
+>
+> Low-Rank Adaptation keeps the missing power: freeze the base and learn a small low-rank correction to selected matrices.
+
+Give the idea a bodily path: Touch the low-rank adaptation gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Understanding low-rank adaptation
 
 Instead of a million-value update, two narrow matrices produce a constrained correction with far fewer trainable values.

@@ -36,6 +36,28 @@ A thread now runs backward from red teaming through the room. Tug it and the rep
 
 Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations, and the method falls back to this tempting instruction: evaluate only expected well-formed requests. The old consequence returns—real users, attackers, and accidents find paths designers never listed. Restore the missing ability and that particular contradiction disappears. This reversible test is why red teaming belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we evaluate only expected well-formed requests?
+
+## When the chamber changes
+
+Before leaving Red Teaming, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The key follows the tempting path—evaluate only expected well-formed requests. Then the evidence answers: real users, attackers, and accidents find paths designers never listed.
+
+Now let the chamber move: The expedition leader changes one moving part. The key can now actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations.
+
+The object that should remain after the terminology disappears is **the red teaming key mounted on the map of branching journeys**.
+
+> **Memory seal — Red Teaming**
+>
+> Red Teaming keeps the missing power: actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations.
+
+Give the idea a bodily path: Touch the red teaming key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Understanding red teaming
 
 A hidden instruction in a retrieved page bypasses a normal demo; the case becomes a permanent injection test.

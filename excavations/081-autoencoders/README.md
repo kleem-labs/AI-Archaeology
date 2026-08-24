@@ -36,6 +36,28 @@ The maker of seeing-machines does not memorize autoencoders. Instead, the maker 
 
 Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to force information through a bottleneck and train reconstruction, and the method falls back to this tempting instruction: copy the input through an unrestricted hidden layer. The old consequence returns—a wide hidden layer learns identity without compression. Restore the missing ability and that particular contradiction disappears. This reversible test is why autoencoders belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we copy the input through an unrestricted hidden layer?
+
+## When the chamber changes
+
+Keep the formal name Autoencoders covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The lens follows the tempting path—copy the input through an unrestricted hidden layer. Then the evidence answers: a wide hidden layer learns identity without compression.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The lens can now force information through a bottleneck and train reconstruction.
+
+The object that should remain after the terminology disappears is **the autoencoders lens mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Autoencoders**
+>
+> Autoencoders keeps the missing power: force information through a bottleneck and train reconstruction.
+
+Give the idea a bodily path: Touch the autoencoders lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Compressing and Rebuilding
 
 Four correlated measurements compress to two codes that still rebuild the originals approximately.

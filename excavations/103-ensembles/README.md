@@ -33,6 +33,28 @@ So the table of mirrored maps is altered in exactly one way: we need to train se
 
 The table of mirrored maps has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and ensembles looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we trust one training run as the unique learned truth?
+
+## When the chamber changes
+
+Before leaving Ensembles, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The mirror follows the tempting path—trust one training run as the unique learned truth. Then the evidence answers: different initialization and data order produce different boundaries.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The mirror can now train several diverse models and combine predictions while inspecting disagreement.
+
+The object that should remain after the terminology disappears is **the ensembles mirror mounted on the table of mirrored maps**.
+
+> **Memory seal — Ensembles**
+>
+> Ensembles keeps the missing power: train several diverse models and combine predictions while inspecting disagreement.
+
+Give the idea a bodily path: Touch the ensembles mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Understanding ensembles
 
 Five models vote tiger probabilities .9,.85,.88,.3,.25; the average is moderate and disagreement warns of model uncertainty.

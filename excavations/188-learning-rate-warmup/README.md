@@ -32,6 +32,28 @@ The repair can now be stated without mystery: increase the learning rate gradual
 
 One boundary in the room is now sharper. On one side lies the promise to begin immediately at the peak learning rate chosen for the stable middle of training; on the other lies the observed fact that the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused. The bridge called learning-rate warmup has exactly the planks needed to increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we begin immediately at the peak learning rate chosen for the stable middle of training?
+
+## When the chamber changes
+
+Before leaving Learning-Rate Warmup, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The map follows the tempting path—begin immediately at the peak learning rate chosen for the stable middle of training. Then the evidence answers: the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The map can now increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
+
+The object that should remain after the terminology disappears is **the learning-rate warmup map mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Learning-Rate Warmup**
+>
+> Learning-Rate Warmup keeps the missing power: increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
+
+Give the idea a bodily path: Touch the learning-rate warmup map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Let Adam Learn the Terrain Before Running
 
 With peak rate 0.001 and 100 warmup updates, update 25 receives 0.00025, update 50 receives 0.0005, and update 100 finally reaches 0.001.

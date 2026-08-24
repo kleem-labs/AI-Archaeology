@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In rmsnorm, that memory takes a precise form: whenever deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work, preserve enough structure to keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we delete normalization because each individual operation appears cheap?
+
+## When the chamber changes
+
+Keep the formal name RMSNorm covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The lens follows the tempting path—delete normalization because each individual operation appears cheap. Then the evidence answers: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work.
+
+Now let the chamber move: The enginewright changes one moving part. The lens can now keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
+
+The object that should remain after the terminology disappears is **the rmsnorm lens mounted on the brass reference machine**.
+
+> **Memory seal — RMSNorm**
+>
+> RMSNorm keeps the missing power: keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
+
+Give the idea a bodily path: Touch the rmsnorm lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Do We Need to Subtract the Centre
 
 Vectors [3,4] and [30,40] become the same relative pattern after division by their RMS, although neither has its mean subtracted.

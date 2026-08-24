@@ -222,21 +222,26 @@ def outputs() -> dict[Path, str]:
     }
 
 
-parser = argparse.ArgumentParser()
-parser.add_argument("--check", action="store_true")
-args = parser.parse_args()
-generated = outputs()
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--check", action="store_true")
+    args = parser.parse_args()
+    generated = outputs()
 
-if args.check:
-    stale = [
-        str(path) for path, content in generated.items()
-        if not path.exists() or path.read_text() != content
-    ]
-    if stale:
-        raise SystemExit("Mathematical Roots palace is stale:\n" + "\n".join(stale))
-    print("Mathematical Roots palace matches all 25 memory films.")
-else:
-    OUTPUT.mkdir(exist_ok=True)
-    for path, content in generated.items():
-        path.write_text(content)
-    print("Built the five-realm Mathematical Roots memory palace.")
+    if args.check:
+        stale = [
+            str(path) for path, content in generated.items()
+            if not path.exists() or path.read_text() != content
+        ]
+        if stale:
+            raise SystemExit("Mathematical Roots palace is stale:\n" + "\n".join(stale))
+        print("Mathematical Roots palace matches all 25 memory films.")
+    else:
+        OUTPUT.mkdir(exist_ok=True)
+        for path, content in generated.items():
+            path.write_text(content)
+        print("Built the five-realm Mathematical Roots memory palace.")
+
+
+if __name__ == "__main__":
+    main()

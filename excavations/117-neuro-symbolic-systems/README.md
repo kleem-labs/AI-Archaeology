@@ -37,6 +37,28 @@ Only the missing distinction is restored: let neural components propose symbols 
 
 The keeper of unfinished questions does not memorize neuro-symbolic systems. Instead, the keeper of unfinished questions memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can let neural components propose symbols or scores and symbolic components enforce explicit relations. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we force fuzzy perception into rigid rules or exact rules into learned approximation?
+
+## When the chamber changes
+
+The Neuro-Symbolic Systems chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The bridge follows the tempting path—force fuzzy perception into rigid rules or exact rules into learned approximation. Then the evidence answers: the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The bridge can now let neural components propose symbols or scores and symbolic components enforce explicit relations.
+
+The object that should remain after the terminology disappears is **the neuro-symbolic systems bridge mounted on the table of mirrored maps**.
+
+> **Memory seal — Neuro-Symbolic Systems**
+>
+> Neuro-Symbolic Systems keeps the missing power: let neural components propose symbols or scores and symbolic components enforce explicit relations.
+
+Give the idea a bodily path: Touch the neuro-symbolic systems bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Understanding neuro-symbolic systems
 
 Vision detects board pieces; a chess engine enforces legal moves.

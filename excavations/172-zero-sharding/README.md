@@ -33,6 +33,28 @@ The evidence permits one narrow invention: partition optimizer states, gradients
 
 What changed on the brass reference machine can be said without symbols. Before, the method could only add devices and replicate the full training state on each one; now it can also partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we add devices and replicate the full training state on each one?
+
+## When the chamber changes
+
+The ZeRO chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The map follows the tempting path—add devices and replicate the full training state on each one. Then the evidence answers: compute capacity grows while per-device model-state memory remains almost unchanged, so the same memory wall returns.
+
+Now let the chamber move: The enginewright changes one moving part. The map can now partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them.
+
+The object that should remain after the terminology disappears is **the zero map mounted on the brass reference machine**.
+
+> **Memory seal — ZeRO**
+>
+> ZeRO keeps the missing power: partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them.
+
+Give the idea a bodily path: Touch the zero map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Stop Replicating the Same Training State
 
 Four workers each keep roughly one quarter of a large moment vector rather than four complete copies, then cooperate for the update.

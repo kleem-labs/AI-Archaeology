@@ -32,6 +32,28 @@ The repair can now be stated without mystery: assign stable document identities 
 
 A thread now runs backward from data provenance through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we save only the final cleaned text because intermediate metadata costs storage?
+
+## When the chamber changes
+
+The Data Provenance chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The thread follows the tempting path—save only the final cleaned text because intermediate metadata costs storage. Then the evidence answers: a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The thread can now assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard.
+
+The object that should remain after the terminology disappears is **the data provenance thread mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Data Provenance**
+>
+> Data Provenance keeps the missing power: assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard.
+
+Give the idea a bodily path: Touch the data provenance thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Keep the Path Back to Every Source
 
 Document `river-0042` points to its source URL, retrieval time, raw hash, language decision, duplicate cluster, quality audit, redaction record, and final shard offset.

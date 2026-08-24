@@ -35,6 +35,28 @@ The room has gained no magical instrument. It has gained a memory of where the o
 
 Before leaving the table of mirrored maps, the keeper of unfinished questions tests the new idea backward. Remove the ability to construct a comparable alternative world using causal assumptions and matched evidence, and the method falls back to this tempting instruction: compare them with any untreated person. The old consequence returns—differences in age and illness confound the comparison. Restore the missing ability and that particular contradiction disappears. This reversible test is why counterfactuals belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we compare them with any untreated person?
+
+## When the chamber changes
+
+Before leaving Counterfactuals, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The lens follows the tempting path—compare them with any untreated person. Then the evidence answers: differences in age and illness confound the comparison.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The lens can now construct a comparable alternative world using causal assumptions and matched evidence.
+
+The object that should remain after the terminology disappears is **the counterfactuals lens mounted on the table of mirrored maps**.
+
+> **Memory seal — Counterfactuals**
+>
+> Counterfactuals keeps the missing power: construct a comparable alternative world using causal assumptions and matched evidence.
+
+Give the idea a bodily path: Touch the counterfactuals lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Understanding counterfactuals
 
 Compare patients with the same relevant history except treatment, then estimate the missing outcome.

@@ -33,6 +33,28 @@ The keeper of unfinished questions changes only that one responsibility: combine
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because the trouble appears immediately: one noisy footprint can overpower years of evidence, while the other can combine prior plausibility with how expected the clue is under each story, then normalize across stories. That fork—not the vocabulary—is where bayesian updating lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we discard the old belief and use only the newest clue?
+
+## When the chamber changes
+
+The Bayesian Updating chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The thread follows the tempting path—discard the old belief and use only the newest clue. Then the evidence answers: the trouble appears immediately: one noisy footprint can overpower years of evidence.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The thread can now combine prior plausibility with how expected the clue is under each story, then normalize across stories.
+
+The object that should remain after the terminology disappears is **the bayesian updating thread mounted on the table of mirrored maps**.
+
+> **Memory seal — Bayesian Updating**
+>
+> Bayesian Updating keeps the missing power: combine prior plausibility with how expected the clue is under each story, then normalize across stories.
+
+Give the idea a bodily path: Touch the bayesian updating thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Understanding bayesian updating
 
 Tiger starts at 10%, but a deep paw print is far more likely under tiger than wind; the belief rises without becoming certainty.

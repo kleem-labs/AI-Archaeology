@@ -72,6 +72,28 @@ $$
 
 We now know **who matters**, but weights are not knowledge. If a historian receives weight `0.90`, what does the historian actually say? That distinction leads to values.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
+>
+> **The question carried into this chamber:** How can raw relevance scores become shares that are positive and together form one whole?
+
+## When the chamber changes
+
+The mathematical name Softmax can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: Raw scores include negatives and arbitrary scales, so they cannot say how much of the single vessel each clue receives.
+
+Now let the chamber move: Every channel becomes positive, then the common vessel divides the water into comparable shares summing to one.
+
+The object that should remain after the terminology disappears is **three attention bowls receiving water from scored channels**.
+
+> **Memory seal — Softmax**
+>
+> Softmax turns competing scores into a conserved distribution of attention.
+
+Give the idea a bodily path: Raise three fingers at different heights, then lower them into one balanced open palm.
+<!-- memory-film-v1:end -->
+
 ## Challenge
 
 Explain why squaring `[-5, 1]` violates the meaning of a negative relevance score, and why exponentiation does not.

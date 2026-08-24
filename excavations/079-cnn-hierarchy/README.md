@@ -35,6 +35,28 @@ The wall of illuminated tiles has become a palimpsest: observation below, failed
 
 Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to stack local detectors so later layers combine earlier patterns over wider regions, and the method falls back to this tempting instruction: classify directly from isolated edge responses. The old consequence returns—one edge has no object-level meaning. Restore the missing ability and that particular contradiction disappears. This reversible test is why cnn hierarchies belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we classify directly from isolated edge responses?
+
+## When the chamber changes
+
+The mathematical name CNN Hierarchies can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The prism follows the tempting path—classify directly from isolated edge responses. Then the evidence answers: one edge has no object-level meaning.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The prism can now stack local detectors so later layers combine earlier patterns over wider regions.
+
+The object that should remain after the terminology disappears is **the cnn hierarchies prism mounted on the wall of illuminated tiles**.
+
+> **Memory seal — CNN Hierarchies**
+>
+> CNN Hierarchies keeps the missing power: stack local detectors so later layers combine earlier patterns over wider regions.
+
+Give the idea a bodily path: Touch the cnn hierarchies prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Understanding cnn hierarchies
 
 Edges form corners; corners and textures form stripes; repeated stripes plus shape support tiger.

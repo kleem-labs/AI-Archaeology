@@ -33,6 +33,28 @@ So the sealed evidence ledger is altered in exactly one way: we need to evaluate
 
 The sealed evidence ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and process supervision looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we reward only whether the final answer matches?
+
+## When the chamber changes
+
+The mathematical name Process Supervision can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The wheel follows the tempting path—reward only whether the final answer matches. Then the evidence answers: lucky shortcuts receive the same credit as reliable reasoning.
+
+Now let the chamber move: The experimentalist changes one moving part. The wheel can now evaluate checkable intermediate claims and train the system to prefer valid paths.
+
+The object that should remain after the terminology disappears is **the process supervision wheel mounted on the sealed evidence ledger**.
+
+> **Memory seal — Process Supervision**
+>
+> Process Supervision keeps the missing power: evaluate checkable intermediate claims and train the system to prefer valid paths.
+
+Give the idea a bodily path: Touch the process supervision wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Rewarding the Path, Not Only the Answer
 
 Mark each algebraic transformation valid or invalid before judging the final result.

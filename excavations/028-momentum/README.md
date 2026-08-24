@@ -37,6 +37,28 @@ The evidence permits one narrow invention: keep a fading memory of past gradient
 
 What changed on the ring of glass lanterns can be said without symbols. Before, the method could only obey only the newest gradient; now it can also keep a fading memory of past gradients and combine it with the new one. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
+>
+> **The question carried into this chamber:** What fails if we obey only the newest gradient?
+
+## When the chamber changes
+
+Before leaving Momentum, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The map follows the tempting path—obey only the newest gradient. Then the evidence answers: sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
+
+Now let the chamber move: The keeper of uncertain stories changes one moving part. The map can now keep a fading memory of past gradients and combine it with the new one.
+
+The object that should remain after the terminology disappears is **the momentum map mounted on the ring of glass lanterns**.
+
+> **Memory seal — Momentum**
+>
+> Momentum keeps the missing power: keep a fading memory of past gradients and combine it with the new one.
+
+Give the idea a bodily path: Touch the momentum map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## The calculation hidden inside momentum
 
 The keeper of uncertain stories carries the momentum scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.

@@ -33,6 +33,28 @@ The repair can now be stated without mystery: compare each true pair against mis
 
 One boundary in the room is now sharper. On one side lies the promise to pull every observed pair together without negatives; on the other lies the observed fact that the trouble appears immediately: all representations can collapse to one point. The bridge called contrastive learning has exactly the planks needed to compare each true pair against mismatched alternatives in the same batch.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we pull every observed pair together without negatives?
+
+## When the chamber changes
+
+The Contrastive Learning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The map follows the tempting path—pull every observed pair together without negatives. Then the evidence answers: the trouble appears immediately: all representations can collapse to one point.
+
+Now let the chamber move: The expedition leader changes one moving part. The map can now compare each true pair against mismatched alternatives in the same batch.
+
+The object that should remain after the terminology disappears is **the contrastive learning map mounted on the map of branching journeys**.
+
+> **Memory seal — Contrastive Learning**
+>
+> Contrastive Learning keeps the missing power: compare each true pair against mismatched alternatives in the same batch.
+
+Give the idea a bodily path: Touch the contrastive learning map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
+<!-- memory-film-v1:end -->
+
 ## Understanding contrastive learning
 
 One tiger image chooses its caption among 31 wrong captions; success requires relative alignment.

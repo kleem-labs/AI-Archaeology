@@ -33,6 +33,28 @@ Only the missing distinction is restored: we need to record current state, chose
 
 The expedition leader places a finger over the new distinction. At once the two cases collapse and the trouble appears immediately: the same action helps in one situation and harms in another. Lifting the finger restores only this capacity: record current state, chosen action, reward, and resulting state. That tiny reversible motion is the chapter's proof of necessity.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
+>
+> **The question carried into this chamber:** What fails if we store only action and final reward?
+
+## When the chamber changes
+
+The States, Actions, and Transitions chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The mirror follows the tempting path—store only action and final reward. Then the evidence answers: the trouble appears immediately: the same action helps in one situation and harms in another.
+
+Now let the chamber move: The expedition leader changes one moving part. The mirror can now record current state, chosen action, reward, and resulting state.
+
+The object that should remain after the terminology disappears is **the states, actions, and transitions mirror mounted on the map of branching journeys**.
+
+> **Memory seal — States, Actions, and Transitions**
+>
+> States, Actions, and Transitions keeps the missing power: record current state, chosen action, reward, and resulting state.
+
+Give the idea a bodily path: Touch the states, actions, and transitions mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Understanding states, actions, and transitions
 
 “Move right” from left of the door succeeds; the same action beside a cliff fails because state differs.

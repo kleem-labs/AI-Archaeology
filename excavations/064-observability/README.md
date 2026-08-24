@@ -33,6 +33,28 @@ The evidence permits one narrow invention: record structured events for decision
 
 What changed on the iron threshold can be said without symbols. Before, the method could only log only the final response, or log every hidden detail without structure; now it can also record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we log only the final response, or log every hidden detail without structure?
+
+## When the chamber changes
+
+The mathematical name Observability can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The seal follows the tempting path—log only the final response, or log every hidden detail without structure. Then the evidence answers: the first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript.
+
+Now let the chamber move: The gatekeeper changes one moving part. The seal can now record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.
+
+The object that should remain after the terminology disappears is **the observability seal mounted on the iron threshold**.
+
+> **Memory seal — Observability**
+>
+> Observability keeps the missing power: record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.
+
+Give the idea a bodily path: Touch the observability seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Seeing Why an Agent Failed
 
 A trace shows retrieval returned an outdated policy, the planner accepted it, and verification checked format but not date. The repair can now target the real failure.

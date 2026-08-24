@@ -33,6 +33,28 @@ The enginewright changes only that one responsibility: normalize only the input 
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve, while the other can normalize only the input to the changing branch and let the identity stream pass around it unchanged. That fork—not the vocabulary—is where pre-normalization lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we keep post-normalization because each block's output then looks standardized before the next block?
+
+## When the chamber changes
+
+The Pre-Normalization chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The key follows the tempting path—keep post-normalization because each block's output then looks standardized before the next block. Then the evidence answers: the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve.
+
+Now let the chamber move: The enginewright changes one moving part. The key can now normalize only the input to the changing branch and let the identity stream pass around it unchanged.
+
+The object that should remain after the terminology disappears is **the pre-normalization key mounted on the brass reference machine**.
+
+> **Memory seal — Pre-Normalization**
+>
+> Pre-Normalization keeps the missing power: normalize only the input to the changing branch and let the identity stream pass around it unchanged.
+
+Give the idea a bodily path: Touch the pre-normalization key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Protect the Residual Highway
 
 A block computes a normalized proposal F, then adds that proposal to the untouched x. If F initially contributes little, the block can behave almost like identity.

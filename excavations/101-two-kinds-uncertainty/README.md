@@ -36,6 +36,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In two kinds of uncertainty, that memory takes a precise form: whenever a clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome, preserve enough structure to separate uncertainty in the observation from uncertainty in the model’s knowledge. The mirrored maps beneath two kinds of uncertainty preserve a discipline learned from distance: compare like with like and keep the relevant difference visible. Here the compared objects are possible worlds, causes, proofs, memories, or programs rather than animal measurements.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we represent every uncertainty with one low confidence number?
+
+## When the chamber changes
+
+Keep the formal name Two Kinds of Uncertainty covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The bridge follows the tempting path—represent every uncertainty with one low confidence number. Then the evidence answers: a clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The bridge can now separate uncertainty in the observation from uncertainty in the model’s knowledge.
+
+The object that should remain after the terminology disappears is **the two kinds of uncertainty bridge mounted on the table of mirrored maps**.
+
+> **Memory seal — Two Kinds of Uncertainty**
+>
+> Two Kinds of Uncertainty keeps the missing power: separate uncertainty in the observation from uncertainty in the model’s knowledge.
+
+Give the idea a bodily path: Touch the two kinds of uncertainty bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Understanding two kinds of uncertainty
 
 A foggy known tiger remains ambiguous even for an expert; a clear pangolin confuses a tiger-only learner for a different reason.

@@ -33,6 +33,28 @@ The experimentalist changes only that one responsibility: separate proposal, san
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor, while the other can separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. That fork—not the vocabulary—is where bounded self-improving system lives.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we let every measured gain replace the current system automatically?
+
+## When the chamber changes
+
+The A Bounded Self-Improving System room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The thread follows the tempting path—let every measured gain replace the current system automatically. Then the evidence answers: contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor.
+
+Now let the chamber move: The experimentalist changes one moving part. The thread can now separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback.
+
+The object that should remain after the terminology disappears is **the bounded self-improving system thread mounted on the sealed evidence ledger**.
+
+> **Memory seal — A Bounded Self-Improving System**
+>
+> A Bounded Self-Improving System keeps the missing power: separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback.
+
+Give the idea a bodily path: Touch the bounded self-improving system thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
+<!-- memory-film-v1:end -->
+
 ## Close the Research Loop
 
 A tokenizer change advances only after repeated clean tests, safety checks, signed approval, a small canary release, and monitored rollback criteria.

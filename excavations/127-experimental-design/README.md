@@ -33,6 +33,28 @@ So the sealed evidence ledger is altered in exactly one way: we need to hold eve
 
 The sealed evidence ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and experimental design looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we ship both improvements and compare with the old system?
+
+## When the chamber changes
+
+The Experimental Design chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The prism follows the tempting path—ship both improvements and compare with the old system. Then the evidence answers: the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit.
+
+Now let the chamber move: The experimentalist changes one moving part. The prism can now hold everything fixed except the suspected cause, and include a control that receives no intervention.
+
+The object that should remain after the terminology disappears is **the experimental design prism mounted on the sealed evidence ledger**.
+
+> **Memory seal — Experimental Design**
+>
+> Experimental Design keeps the missing power: hold everything fixed except the suspected cause, and include a control that receives no intervention.
+
+Give the idea a bodily path: Touch the experimental design prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Changing One Cause at a Time
 
 Train four tiny models: old/new tokenizer crossed with small/large width; the four cells separate both effects and their interaction.

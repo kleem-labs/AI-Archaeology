@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the chain-of-custody ledger form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. data parallelism is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we send the same mini-batch to every worker and average their gradients?
+
+## When the chamber changes
+
+Keep the formal name Data Parallelism covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The prism follows the tempting path—send the same mini-batch to every worker and average their gradients. Then the evidence answers: all workers repeat the same computation and return the same evidence, so hardware cost rises without increasing batch diversity or reducing step time meaningfully.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The prism can now replicate the current model view, give each worker a different slice of the global batch, average their gradients, and apply one logically shared update.
+
+The object that should remain after the terminology disappears is **the data parallelism prism mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Data Parallelism**
+>
+> Data Parallelism keeps the missing power: replicate the current model view, give each worker a different slice of the global batch, average their gradients, and apply one logically shared update.
+
+Give the idea a bodily path: Touch the data parallelism prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Let Several Workers Observe Different Evidence
 
 Four workers each read eight different sequences. Their four average gradients become one average over thirty-two sequences before any worker advances the parameters.

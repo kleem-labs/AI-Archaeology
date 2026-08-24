@@ -33,6 +33,28 @@ The evidence permits one narrow invention: represent the goal as ordered steps w
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—ask the agent to take the next action that sounds useful until the goal appears complete? The answer remains it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
+>
+> **The question carried into this chamber:** What fails if we ask the agent to take the next action that sounds useful until the goal appears complete?
+
+## When the chamber changes
+
+Before leaving Planning, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The gate follows the tempting path—ask the agent to take the next action that sounds useful until the goal appears complete. Then the evidence answers: it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive.
+
+Now let the chamber move: The gatekeeper changes one moving part. The gate can now represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions.
+
+The object that should remain after the terminology disappears is **the planning gate mounted on the iron threshold**.
+
+> **Memory seal — Planning**
+>
+> Planning keeps the missing power: represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions.
+
+Give the idea a bodily path: Touch the planning gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Turning a Goal into Checkable Steps
 
 Before changing traffic, the plan requires a successful backup ID, a passing health check, and a rollback target. Missing evidence blocks the irreversible step.

@@ -33,6 +33,28 @@ Only the missing distinction is restored: decay smoothly from the peak toward a 
 
 The archivist-engineer does not memorize cosine decay. Instead, the archivist-engineer memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we drop the rate abruptly near the end of training?
+
+## When the chamber changes
+
+The mathematical name Cosine Decay can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The scale follows the tempting path—drop the rate abruptly near the end of training. Then the evidence answers: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The scale can now decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state.
+
+The object that should remain after the terminology disappears is **the cosine decay scale mounted on the chain-of-custody ledger**.
+
+> **Memory seal — Cosine Decay**
+>
+> Cosine Decay keeps the missing power: decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state.
+
+Give the idea a bodily path: Touch the cosine decay scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Make Late Corrections Smaller Without a Cliff
 
 Halfway through decay, cosine is zero, so the rate sits halfway between its peak and minimum. At the final planned update, cosine reaches negative one and the rate reaches the minimum without a jump.

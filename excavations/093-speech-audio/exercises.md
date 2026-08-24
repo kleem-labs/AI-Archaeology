@@ -5,3 +5,9 @@
 3. Change one fact so it fails.
 4. State the missing requirement before naming the repair.
 5. Build both versions and compare their outputs or traces.
+
+<!-- memory-film-v1:start -->
+## Close-book memory test
+
+Close every file. Reconstruct the five frames beginning only from **the speech and audio scale mounted on the map of branching journeys**. Explain the failure before naming the accepted idea; perform this gesture while recovering the repair: Touch the speech and audio scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance. If the formal name arrives before the necessity, replay the scene more slowly.
+<!-- memory-film-v1:end -->

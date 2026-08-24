@@ -37,6 +37,28 @@ So the brass reference machine is altered in exactly one way: assemble the engin
 
 The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and modern tiny language model looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we enable every technique at once and celebrate if the program runs?
+
+## When the chamber changes
+
+The A Modern Tiny Language Model room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The prism follows the tempting path—enable every technique at once and celebrate if the program runs. Then the evidence answers: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries.
+
+Now let the chamber move: The enginewright changes one moving part. The prism can now assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains.
+
+The object that should remain after the terminology disappears is **the modern tiny language model prism mounted on the brass reference machine**.
+
+> **Memory seal — A Modern Tiny Language Model**
+>
+> A Modern Tiny Language Model keeps the missing power: assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains.
+
+Give the idea a bodily path: Touch the modern tiny language model prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Assemble the Measured Engine
 
 Train one tiny model with packed examples, RoPE, GQA, exact tiled attention, pre-RMSNorm, SwiGLU, tied embeddings, AdamW, clipping, mixed precision, accumulation, and checkpointing; then serve it with a KV cache and verified draft proposals.

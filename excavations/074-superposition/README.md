@@ -35,6 +35,28 @@ A thread now runs backward from superposition through the room. Tug it and the r
 
 Before leaving the weathered observation slate, the field naturalist tests the new idea backward. Remove the ability to represent features as directions that can overlap when they rarely need to be active together, and the method falls back to this tempting instruction: demand one feature per coordinate. The old consequence returns—limited width forces useful patterns to share neurons, producing confusing mixed activations. Restore the missing ability and that particular contradiction disappears. This reversible test is why superposition belongs to the growing structure rather than to a list of facts to memorize.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we demand one feature per coordinate?
+
+## When the chamber changes
+
+The mathematical name Superposition can now rest. What matters is whether its transformation remains visible.
+
+First hold the failed picture still: The gate follows the tempting path—demand one feature per coordinate. Then the evidence answers: limited width forces useful patterns to share neurons, producing confusing mixed activations.
+
+Now let the chamber move: The field naturalist changes one moving part. The gate can now represent features as directions that can overlap when they rarely need to be active together.
+
+The object that should remain after the terminology disappears is **the superposition gate mounted on the weathered observation slate**.
+
+> **Memory seal — Superposition**
+>
+> Superposition keeps the missing power: represent features as directions that can overlap when they rarely need to be active together.
+
+Give the idea a bodily path: Touch the superposition gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Understanding superposition
 
 One two-dimensional space stores several sparse directions; collisions occur mainly when multiple stored features activate together.

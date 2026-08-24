@@ -35,6 +35,28 @@ The repair can now be stated without mystery: measure data loading, computation,
 
 One boundary in the room is now sharper. On one side lies the promise to optimize the largest-looking matrix because attention is famous for being expensive; on the other lies the observed fact that the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. The bridge called profiling has exactly the planks needed to measure data loading, computation, communication, and idle time separately before choosing a repair.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we optimize the largest-looking matrix because attention is famous for being expensive?
+
+## When the chamber changes
+
+The Profiling chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The bell follows the tempting path—optimize the largest-looking matrix because attention is famous for being expensive. Then the evidence answers: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock.
+
+Now let the chamber move: The enginewright changes one moving part. The bell can now measure data loading, computation, communication, and idle time separately before choosing a repair.
+
+The object that should remain after the terminology disappears is **the profiling bell mounted on the brass reference machine**.
+
+> **Memory seal — Profiling**
+>
+> Profiling keeps the missing power: measure data loading, computation, communication, and idle time separately before choosing a repair.
+
+Give the idea a bodily path: Touch the profiling bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Measure Where the Time Went
 
 A 100 ms step contains 35 ms of loading, 45 ms of compute, 10 ms of communication, and 10 ms idle. The first engineering question is now visible in numbers.

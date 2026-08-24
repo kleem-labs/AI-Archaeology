@@ -41,6 +41,28 @@ The field naturalist changes only that one responsibility: record how the system
 
 The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because show one song repeatedly; its extra clicks now appear to prove it deserved repetition, while the other can record how the system influenced each observation and evaluate outcomes against a control or exploration policy. That fork—not the vocabulary—is where feedback loops lives. The Living Watchgarden studies change itself. Under feedback loops, a remembered baseline makes movement visible, probability keeps untried futures alive, and causal comparison asks which action—not merely which coincidence—bent the world. The observer now stands inside the loop being measured.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we treat every click as independent evidence of natural preference?
+
+## When the chamber changes
+
+Keep the formal name Feedback Loops covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The key follows the tempting path—treat every click as independent evidence of natural preference. Then the evidence answers: show one song repeatedly; its extra clicks now appear to prove it deserved repetition.
+
+Now let the chamber move: The field naturalist changes one moving part. The key can now record how the system influenced each observation and evaluate outcomes against a control or exploration policy.
+
+The object that should remain after the terminology disappears is **the feedback loops key mounted on the weathered observation slate**.
+
+> **Memory seal — Feedback Loops**
+>
+> Feedback Loops keeps the missing power: record how the system influenced each observation and evaluate outcomes against a control or exploration policy.
+
+Give the idea a bodily path: Touch the feedback loops key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Understanding feedback loops
 
 Two equal songs begin with ten listeners each. The agent promotes A to ninety more people; A receives more clicks because it received more chances, not necessarily because it was better.

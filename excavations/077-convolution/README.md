@@ -37,6 +37,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In convolution, that memory takes a precise form: whenever the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves, preserve enough structure to slide one small learned filter across all positions and reuse its weights.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we learn a separate edge detector for every location?
+
+## When the chamber changes
+
+The Convolution chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The scale follows the tempting path—learn a separate edge detector for every location. Then the evidence answers: the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The scale can now slide one small learned filter across all positions and reuse its weights.
+
+The object that should remain after the terminology disappears is **the convolution scale mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Convolution**
+>
+> Convolution keeps the missing power: slide one small learned filter across all positions and reuse its weights.
+
+Give the idea a bodily path: Touch the convolution scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Reusing the Same Local Detector
 
 The filter [-1,1] produces a large response wherever neighboring brightness jumps from dark to light.

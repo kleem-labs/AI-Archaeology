@@ -24,6 +24,16 @@ def build():
     equation_count = 0
     for path in sorted((ROOT / "excavations").glob("*/README.md")):
         text = path.read_text()
+        # The complete book's cinematic recall film belongs to the chapter,
+        # not to the equation-only spine. In the earliest excavations an
+        # equation precedes the first H2, so remove the film before finding
+        # that prefix as well as before collecting equation sections.
+        text = re.sub(
+            r"\n?<!-- memory-film-v1:start -->.*?<!-- memory-film-v1:end -->\n?",
+            "\n",
+            text,
+            flags=re.S,
+        )
         if "$$" not in text:
             continue
         title_match = re.search(r"^# (.+)$", text, re.M)

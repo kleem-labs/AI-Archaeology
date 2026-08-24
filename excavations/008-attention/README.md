@@ -47,6 +47,28 @@ At this stage we deliberately avoid the famous attention equation. We have not e
 3. relevance depends on the pair;
 4. selected sources must contribute information to a new representation.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
+>
+> **The question carried into this chamber:** When a word is surrounded by many others, how can it retrieve only what matters now?
+
+## When the chamber changes
+
+Before leaving Attention, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: One fixed summary blends river, animal, and action until the word bank cannot choose its active meaning.
+
+Now let the chamber move: The lantern sends a different beam from each word toward the contextual clues relevant to this occurrence.
+
+The object that should remain after the terminology disappears is **a movable lantern above a sentence carved around a circular table**.
+
+> **Memory seal — Attention**
+>
+> Attention lets each occurrence gather the evidence that matters to its present question.
+
+Give the idea a bodily path: Shade your eyes, then point a narrow beam from one imagined word to another.
+<!-- memory-film-v1:end -->
+
 ## Challenge
 
 In “The animal did not cross the street because it was flooded,” identify what *it* should retrieve. Then change only the final word to *tired* and explain why the retrieval should change.

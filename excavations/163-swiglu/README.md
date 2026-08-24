@@ -37,6 +37,28 @@ So the brass reference machine is altered in exactly one way: create one content
 
 The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and swiglu looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we make the hidden layer merely wider and trust more coordinates to express every conditional interaction?
+
+## When the chamber changes
+
+Before leaving SwiGLU, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The lantern follows the tempting path—make the hidden layer merely wider and trust more coordinates to express every conditional interaction. Then the evidence answers: width adds capacity but still asks one projection both to create content and decide when that content matters.
+
+Now let the chamber move: The enginewright changes one moving part. The lantern can now create one content projection and one gate projection; use the smooth gate to scale content feature by feature.
+
+The object that should remain after the terminology disappears is **the swiglu lantern mounted on the brass reference machine**.
+
+> **Memory seal — SwiGLU**
+>
+> SwiGLU keeps the missing power: create one content projection and one gate projection; use the smooth gate to scale content feature by feature.
+
+Give the idea a bodily path: Touch the swiglu lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
+<!-- memory-film-v1:end -->
+
 ## Let One Learned Path Gate Another
 
 For a token describing a river bank, one path proposes financial features while the gate suppresses them; in a money context the same content path can be opened.

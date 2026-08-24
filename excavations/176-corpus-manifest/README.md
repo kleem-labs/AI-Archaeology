@@ -36,6 +36,28 @@ The repair can now be stated without mystery: create an immutable manifest that 
 
 One boundary in the room is now sharper. On one side lies the promise to copy every available text file into one large folder and begin tokenizing; on the other lies the observed fact that a file is replaced upstream, another is silently skipped, and a third appears twice under different paths. The same training command now describes a different body of evidence. The bridge called corpus manifest has exactly the planks needed to create an immutable manifest that records each source, version, content hash, license or usage basis, processing stage, and document count before any training shard exists. In the Archive Foundry, corpus manifest joins mathematics to memory. Sets identify what must be present, hashes preserve identity, counts bound exposure, and arrows keep every transformation attached to its source. A model may forget its documents internally; the factory must not forget them externally.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
+>
+> **The question carried into this chamber:** What fails if we copy every available text file into one large folder and begin tokenizing?
+
+## When the chamber changes
+
+Keep the formal name A Corpus Manifest covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The seal follows the tempting path—copy every available text file into one large folder and begin tokenizing. Then the evidence answers: a file is replaced upstream, another is silently skipped, and a third appears twice under different paths. The same training command now describes a different body of evidence.
+
+Now let the chamber move: The archivist-engineer changes one moving part. The seal can now create an immutable manifest that records each source, version, content hash, license or usage basis, processing stage, and document count before any training shard exists.
+
+The object that should remain after the terminology disappears is **the corpus manifest seal mounted on the chain-of-custody ledger**.
+
+> **Memory seal — A Corpus Manifest**
+>
+> A Corpus Manifest keeps the missing power: create an immutable manifest that records each source, version, content hash, license or usage basis, processing stage, and document count before any training shard exists.
+
+Give the idea a bodily path: Touch the corpus manifest seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
+<!-- memory-film-v1:end -->
+
 ## Know What Entered the Run
 
 The ranger station records `field-reports/v3`, its retrieval date, 8,412 documents, and the hash of its manifest. A later run can prove whether it used the same evidence.

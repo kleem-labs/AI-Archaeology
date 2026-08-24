@@ -33,6 +33,28 @@ The evidence permits one narrow invention: shape the latent distribution and tra
 
 Under the latest ink, the first question is still legible: what if we followed the tempting rule—assume any compressed coordinates form a smooth useful space? The answer remains the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
+>
+> **The question carried into this chamber:** What fails if we assume any compressed coordinates form a smooth useful space?
+
+## When the chamber changes
+
+The Latent Space chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The key follows the tempting path—assume any compressed coordinates form a smooth useful space. Then the evidence answers: the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs.
+
+Now let the chamber move: The maker of seeing-machines changes one moving part. The key can now shape the latent distribution and train nearby codes to decode coherently.
+
+The object that should remain after the terminology disappears is **the latent space key mounted on the wall of illuminated tiles**.
+
+> **Memory seal — Latent Space**
+>
+> Latent Space keeps the missing power: shape the latent distribution and train nearby codes to decode coherently.
+
+Give the idea a bodily path: Touch the latent space key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
+<!-- memory-film-v1:end -->
+
 ## Coordinates for Hidden Causes
 
 Moving one latent coordinate gradually changes image brightness while another changes pose.

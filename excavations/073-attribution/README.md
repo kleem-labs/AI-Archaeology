@@ -35,6 +35,28 @@ So the weathered observation slate is altered in exactly one way: measure sensit
 
 Nothing is erased from the weathered observation slate. The failed path remains visible beneath the repair, because attribution is easier to remember when its scar remains attached to it. The scar reads, ‘removing a word changes grammar and creates an unnatural new input’; the new line exists only to keep that loss from happening again.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
+>
+> **The question carried into this chamber:** What fails if we remove each word and treat output change as complete explanation?
+
+## When the chamber changes
+
+Before leaving Attribution, replay the discovery as motion rather than as a definition.
+
+First hold the failed picture still: The vessel follows the tempting path—remove each word and treat output change as complete explanation. Then the evidence answers: removing a word changes grammar and creates an unnatural new input.
+
+Now let the chamber move: The field naturalist changes one moving part. The vessel can now measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
+
+The object that should remain after the terminology disappears is **the attribution vessel mounted on the weathered observation slate**.
+
+> **Memory seal — Attribution**
+>
+> Attribution keeps the missing power: measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
+
+Give the idea a bodily path: Touch the attribution vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Understanding attribution
 
 For “not dangerous,” attribution highlights not; replacing it with very changes the class as predicted.

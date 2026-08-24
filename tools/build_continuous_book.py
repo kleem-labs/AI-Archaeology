@@ -91,6 +91,7 @@ def chapter_for_book(path):
     text = re.sub(r"^\[(?:Previous|Next|Continue|Return to the living Math Mandala)[^\n]*$", "", text, flags=re.M)
     for heading in SUPPORT_HEADINGS:
         text = re.sub(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", "", text, flags=re.M | re.S)
+    text = re.sub(r"^## Return to [^\n]+\n.*?(?=^## |\Z)", "", text, flags=re.M | re.S)
     # In the dig-site edition these labels help readers find a derivation or
     # limit quickly. In the continuous edition they expose the lesson template,
     # so the prose is allowed to flow without them.
@@ -108,6 +109,7 @@ def chapter_for_book(path):
     )
     text = text.replace("(../../MATHEMATICAL_MOVES.md", "(../MATHEMATICAL_MOVES.md")
     text = text.replace("(../../MATHEMATICAL_ROOTS.md", "(../MATHEMATICAL_ROOTS.md")
+    text = text.replace("(../../MEMORY_PALACE.md", "(../MEMORY_PALACE.md")
     text = text.replace("(../../math-mandala/README.md", "(../math-mandala/README.md")
     text = re.sub(r"\(\.\./(\d{3}-[^/)]+)/README\.md", r"(../excavations/\1/README.md", text)
     text = text.replace(
@@ -128,6 +130,7 @@ def chapter_for_book(path):
     text = text.replace("../../MATHEMATICAL_MOVES.md", "../MATHEMATICAL_MOVES.md")
     text = text.replace("../../MATHEMATICS_ATLAS.md", "../MATHEMATICS_ATLAS.md")
     text = text.replace("../../MATHEMATICAL_ROOTS.md", "../MATHEMATICAL_ROOTS.md")
+    text = text.replace("../../MEMORY_PALACE.md", "../MEMORY_PALACE.md")
     link = path.relative_to(ROOT).as_posix()
     return text + f"\n\n*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../{link}).*"
 
@@ -185,6 +188,9 @@ To see every earned equation as one connected memory, enter the
 To walk the five cinematic realms beneath Volume VI, enter
 [The Mathematical Roots](../MATHEMATICAL_ROOTS.md) or the
 [living Undercroft](../mathematical-roots/README.md).
+
+To replay the complete book as eighteen connected visual realms, enter the
+[226-Chamber Memory Palace](../MEMORY_PALACE.md).
 
 To remember the recurring places and mathematical motions that bind the six
 volumes into one imaginative journey, begin with

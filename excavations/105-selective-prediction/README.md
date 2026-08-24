@@ -37,6 +37,28 @@ Only the missing distinction is restored: allow abstention and choose a coverage
 
 The keeper of unfinished questions does not memorize selective prediction. Instead, the keeper of unfinished questions memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can allow abstention and choose a coverage level whose retained answers meet a risk target. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
+>
+> **The question carried into this chamber:** What fails if we always return the highest-scoring answer?
+
+## When the chamber changes
+
+The Selective Prediction room does not ask you to memorize its name. It asks you to watch one object change.
+
+First hold the failed picture still: The vessel follows the tempting path—always return the highest-scoring answer. Then the evidence answers: a forced answer converts uncertainty into confident-looking error.
+
+Now let the chamber move: The keeper of unfinished questions changes one moving part. The vessel can now allow abstention and choose a coverage level whose retained answers meet a risk target.
+
+The object that should remain after the terminology disappears is **the selective prediction vessel mounted on the table of mirrored maps**.
+
+> **Memory seal — Selective Prediction**
+>
+> Selective Prediction keeps the missing power: allow abstention and choose a coverage level whose retained answers meet a risk target.
+
+Give the idea a bodily path: Touch the selective prediction vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
+<!-- memory-film-v1:end -->
+
 ## Understanding selective prediction
 
 The system answers 80 of 100 cases and is correct on 78; the other 20 go to a human rather than becoming guesses.

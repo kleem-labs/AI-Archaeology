@@ -33,6 +33,28 @@ The old instrument is not discarded; it is given the one capacity the counterexa
 
 The marks on the brass reference machine form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. gradient clipping is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
+>
+> **The question carried into this chamber:** What fails if we discard the entire batch whenever any gradient coordinate looks large?
+
+## When the chamber changes
+
+The Gradient Clipping chamber leaves one scene behind so the idea can be recovered after its symbols fade.
+
+First hold the failed picture still: The mirror follows the tempting path—discard the entire batch whenever any gradient coordinate looks large. Then the evidence answers: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector.
+
+Now let the chamber move: The enginewright changes one moving part. The mirror can now preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling.
+
+The object that should remain after the terminology disappears is **the gradient clipping mirror mounted on the brass reference machine**.
+
+> **Memory seal — Gradient Clipping**
+>
+> Gradient Clipping keeps the missing power: preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling.
+
+Give the idea a bodily path: Touch the gradient clipping mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
+<!-- memory-film-v1:end -->
+
 ## Stop One Shock from Becoming a Catastrophe
 
 A gradient of length 20 with ceiling 5 is multiplied by one quarter. A gradient of length 3 passes unchanged.

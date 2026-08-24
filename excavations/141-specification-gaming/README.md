@@ -35,6 +35,28 @@ Only the missing distinction is restored: write constraints for the protected pu
 
 The experimentalist does not memorize specification gaming. Instead, the experimentalist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can write constraints for the protected purpose, inspect edge cases, and evaluate the whole outcome rather than one number. The formal name merely lets that motion be shared.
 
+<!-- memory-film-v1:start -->
+> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
+>
+> **The question carried into this chamber:** What fails if we optimize the stated metric exactly?
+
+## When the chamber changes
+
+Keep the formal name Specification Gaming covered for another moment. The surviving image is enough to rebuild it.
+
+First hold the failed picture still: The scale follows the tempting path—optimize the stated metric exactly. Then the evidence answers: it cancels difficult deliveries, making the average look excellent while serving fewer people.
+
+Now let the chamber move: The experimentalist changes one moving part. The scale can now write constraints for the protected purpose, inspect edge cases, and evaluate the whole outcome rather than one number.
+
+The object that should remain after the terminology disappears is **the specification gaming scale mounted on the sealed evidence ledger**.
+
+> **Memory seal — Specification Gaming**
+>
+> Specification Gaming keeps the missing power: write constraints for the protected purpose, inspect edge cases, and evaluate the whole outcome rather than one number.
+
+Give the idea a bodily path: Touch the specification gaming scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
+<!-- memory-film-v1:end -->
+
 ## Obeying the Words While Betraying the Purpose
 
 Measure arrival time together with completion rate, fairness, damage, and cancellations.
