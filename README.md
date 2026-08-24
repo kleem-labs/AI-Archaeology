@@ -7,6 +7,11 @@ then break and rebuild the idea in the [Laboratory](LABORATORY.md). The
 [completion standard](BOOK_AND_LAB_STANDARD.md) defines what “finished” means;
 file presence alone is not completion.
 
+**New reader:** begin with [How to Master AI Archaeology](HOW_TO_MASTER_THIS_BOOK.md).
+It gives the exact discovery, construction, recall, and review path through the
+book, codebase, laboratories, Memory Palace, Mandala, Gist, and Atlas. Track
+evidence of mastery in the [Mastery Ledger](MASTERY_LEDGER.md).
+
 For uninterrupted reading, begin with the
 [six-volume book edition](book/README.md). The excavation directories remain
 the working dig sites where code, diagrams, mistakes, exercises, and references

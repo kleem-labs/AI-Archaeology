@@ -2,6 +2,8 @@
 
 This is the cinematic index to the complete AI Archaeology journey. It does not replace the chapters. It gives every chapter a retrievable place in imagination.
 
+Use it during the retrieval passage described in [How to Master AI Archaeology](HOW_TO_MASTER_THIS_BOOK.md), after first reconstructing the chapter's discovery.
+
 [**Enter the living, clickable Memory Palace →**](https://kleem-labs.github.io/AI-Archaeology/memory-palace/)
 
 Every chamber preserves the same causal film:

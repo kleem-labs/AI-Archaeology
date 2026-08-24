@@ -310,6 +310,8 @@ def guide(data: dict) -> str:
         "",
         "This is the cinematic index to the complete AI Archaeology journey. It does not replace the chapters. It gives every chapter a retrievable place in imagination.",
         "",
+        "Use it during the retrieval passage described in [How to Master AI Archaeology](HOW_TO_MASTER_THIS_BOOK.md), after first reconstructing the chapter's discovery.",
+        "",
         "[**Enter the living, clickable Memory Palace →**](https://kleem-labs.github.io/AI-Archaeology/memory-palace/)",
         "",
         "Every chamber preserves the same causal film:",
@@ -347,7 +349,7 @@ def outputs(data: dict) -> dict[Path, str]:
     return {
         ROOT / "MEMORY_PALACE.md": guide(data),
         OUTPUT / "data.json": json.dumps(data, ensure_ascii=False, indent=2) + "\n",
-        OUTPUT / "README.md": "# The Living 226-Chamber Memory Palace\n\n[Enter the complete clickable journey.](https://kleem-labs.github.io/AI-Archaeology/memory-palace/)\n\nFor the script-free index, use [MEMORY_PALACE.md](../MEMORY_PALACE.md).\n",
+        OUTPUT / "README.md": "# The Living 226-Chamber Memory Palace\n\n[Enter the complete clickable journey.](https://kleem-labs.github.io/AI-Archaeology/memory-palace/)\n\nUse the palace during the retrieval passage in [How to Master AI Archaeology](../HOW_TO_MASTER_THIS_BOOK.md). For the script-free index, use [MEMORY_PALACE.md](../MEMORY_PALACE.md).\n",
         OUTPUT / "index.html": palace_html(data),
     }
 

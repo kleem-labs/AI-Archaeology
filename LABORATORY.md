@@ -3,6 +3,10 @@
 The book asks why an idea must exist. The laboratory lets you break and rebuild
 it.
 
+The laboratory is Passage II of the complete method. Read [How to Master AI
+Archaeology](HOW_TO_MASTER_THIS_BOOK.md) before treating successful execution
+as evidence of understanding.
+
 Run every dependency-free experiment:
 
 ~~~bash
@@ -14,6 +18,7 @@ python3 tools/check_operation_reasoning.py
 python3 tools/check_latex_portability.py
 python3 tools/check_reasoned_limits.py
 python3 tools/check_human_math_examples.py
+python3 tools/check_mastery_guide.py
 python3 tools/check_memory_palace.py
 python3 tools/check_mathematical_roots_memory.py
 python3 tools/build_mathematical_gist.py --check

@@ -38,6 +38,9 @@ def readme(data: dict) -> str:
         "",
         "This is the cinematic memory palace for Excavations 201–225.",
         "",
+        "Use it during the retrieval passage in [How to Master AI "
+        "Archaeology](../HOW_TO_MASTER_THIS_BOOK.md).",
+        "",
         f"[**Enter the living, clickable Undercroft →**]({URL})",
         "",
         "A root is remembered as a five-frame transformation:",

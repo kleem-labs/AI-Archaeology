@@ -3,6 +3,11 @@
 A list of 226 chapters feels like a file index. A book needs a journey. Each
 part below ends where a new kind of failure makes the next part necessary.
 
+Before beginning Part I, read [How to Master AI
+Archaeology](HOW_TO_MASTER_THIS_BOOK.md). It explains how to move through each
+part three times—discovery, construction, then retrieval and transfer—without
+turning the journey into formula memorization.
+
 | Part | Excavations | Human question |
 |---|---:|---|
 | I — Measuring Reality | 000–005 | How can observations become objects we can compare and transform? |

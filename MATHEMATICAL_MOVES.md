@@ -3,6 +3,10 @@
 Mathematics has a small collection of moves. The symbols are only their short
 names.
 
+Use this guide during the connection stage—not before attempting the chapter's
+derivation. The complete learning sequence is in [How to Master AI
+Archaeology](HOW_TO_MASTER_THIS_BOOK.md).
+
 Imagine three rangers reporting on one tiger. One reports its weight, one its
 speed, and one its distance from camp. Before writing any formula, decide what
 job you are trying to perform:

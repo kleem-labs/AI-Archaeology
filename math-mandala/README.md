@@ -3,6 +3,9 @@
 This is not a poster placed on top of the mathematics. It is a memory of how
 the mathematics grew.
 
+Use the Mandala only after reconstructing a chapter. The complete order is in
+[How to Master AI Archaeology](../HOW_TO_MASTER_THIS_BOOK.md).
+
 [**Open the living, clickable mandala →**](https://kleem-labs.github.io/AI-Archaeology/math-mandala/)
 
 [![The AI Archaeology Mathematical Mandala](math-mandala.svg)](https://kleem-labs.github.io/AI-Archaeology/math-mandala/)

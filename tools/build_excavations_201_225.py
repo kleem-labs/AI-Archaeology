@@ -990,6 +990,10 @@ def roots_guide() -> str:
         "about belonging, connection, direction, change, uncertainty, choice, or "
         "calculation. The equation is the final inscription on that promise.",
         "",
+        "Use this palace during the retrieval passage in [How to Master AI "
+        "Archaeology](HOW_TO_MASTER_THIS_BOOK.md), after first allowing the chapter "
+        "to make the root necessary.",
+        "",
         "The Undercroft is arranged as a movie because memory keeps transformations "
         "more naturally than definitions. In every chamber, watch the same five frames:",
         "",

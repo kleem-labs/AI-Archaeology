@@ -58,6 +58,8 @@ def build():
         "",
         "Use it after reading an excavation, or to revisit the chain of",
         "mathematical inventions without rereading the entire narrative.",
+        "The complete discovery and review order is in",
+        "[How to Master AI Archaeology](HOW_TO_MASTER_THIS_BOOK.md).",
         "For the reusable meaning of an operation, follow its link into the",
         "[Mathematical Moves guide](MATHEMATICAL_MOVES.md).",
         "To remember where an equation belongs and what it connects to, enter",

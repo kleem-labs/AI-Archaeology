@@ -260,6 +260,8 @@ def atlas(chapters: list[tuple[int, str, Path, tuple[str, ...]]]) -> str:
         "",
         "The book order answers **why did the next idea become necessary?** This atlas answers a different question: **which mathematical family am I learning?** Keep the excavation order for discovery; use these clusters for revision, comparison, and building a traditional mathematics map in your mind.",
         "",
+        "The Atlas belongs to the connection stage, after a chapter has been derived. [How to Master AI Archaeology](HOW_TO_MASTER_THIS_BOOK.md) explains when to use each map without letting it replace discovery.",
+        "",
         "A chapter may appear in several families because real AI does not respect classroom walls. Attention is simultaneously geometry, probability, and information; backpropagation is calculus moving through a computational graph; diffusion joins probability, differential change, and numerical approximation.",
         "",
         "For the cinematic route through the final foundations volume, use [The Mathematical Roots](MATHEMATICAL_ROOTS.md). The atlas supplies academic families; the Undercroft supplies physical objects, visible transformations, and memory seals.",
