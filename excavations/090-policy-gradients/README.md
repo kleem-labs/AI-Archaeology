@@ -2,33 +2,38 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Q-learning estimates the value of each action and then still needs a policy for choosing among them. We can instead ask how reward should directly change the probabilities of the choices the agent actually made.
 
-The obvious economy is to always choose the highest estimated action.
+The map of branching journeys at the Road of Consequences still carries the marks of the previous discovery. The expedition leader follows them as far as they seem willing to go: always choose the highest estimated action.
 
-The proposal deserves a fair hearing. For policy gradients, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: early errors remove exploration and discrete choice blocks ordinary differentiation. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-Its hidden assumption becomes visible as soon as we observe that early errors remove exploration and discrete choice blocks ordinary differentiation.
+*The expedition leader sketches the break before changing it:*
 
-The failure changes the question behind policy gradients. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+OLD PATH:  request ──▶ always choose the highest estimated… ──▶ early errors remove exploration and…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ sample from a policy and increase… ──▶ accountable result
+```
 
-The required repair is now narrow enough to state: sample from a policy and increase probability of actions followed by better-than-expected returns.
+The expedition leader lays two translucent sheets over the map of branching journeys. The first is inscribed, “always choose the highest estimated action.” Its path ends where early errors remove exploration and discrete choice blocks ordinary differentiation. The second receives the same evidence but is allowed to sample from a policy and increase probability of actions followed by better-than-expected returns. Held to the light, the sheets separate at exactly one decision.
 
-Only at this point does the inherited name **Policy Gradients** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+No one reaches for a policy gradients formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Test the necessity of policy gradients by mentally removing the repair. We fall back to the proposal to always choose the highest estimated action; then early errors remove exploration and discrete choice blocks ordinary differentiation. Restore only the ability to sample from a policy and increase probability of actions followed by better-than-expected returns, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+The expedition leader changes only that one responsibility: sample from a policy and increase probability of actions followed by better-than-expected returns. When the ink dries, the name **Policy Gradients** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to always choose the highest estimated action to requiring the system to sample from a policy and increase probability of actions followed by better-than-expected returns. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to policy gradients.
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because early errors remove exploration and discrete choice blocks ordinary differentiation, while the other can sample from a policy and increase probability of actions followed by better-than-expected returns. That fork—not the vocabulary—is where policy gradients lives.
 
 ## Improving the Choices Directly
 
 An action chosen with 20% probability produces unusually high reward; its probability is nudged upward.
 
-Put the old procedure beside policy gradients. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## The calculation hidden inside policy gradients
 
-Do not read the coming Policy Gradients line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The expedition leader carries the policy gradients scene to the map of branching journeys. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 A rescue robot sometimes chooses the river path and sometimes the ridge path. On one trip it samples the ridge with probability 0.30 and eventually reaches the hiker safely, earning a strong return. The learning signal should make that sampled choice somewhat more likely. On a failed trip, the return reverses the pressure. The policy gradient is the bookkeeping rule that connects how the trip ended to how the probability of the chosen action should change.
 
@@ -37,13 +42,15 @@ Its log converts repeated action probabilities into additive learning signals.
 Return G says how the chosen action eventually turned out.
 The gradient changes θ in the direction that makes above-average rewarded actions more likely.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [The policy log](../../MATHEMATICAL_MOVES.md#logarithm) turns a product of action probabilities along a trajectory into additive terms and yields a convenient relative sensitivity: how a small parameter change alters chosen-action probability.
 [Multiplying by return G](../../MATHEMATICAL_MOVES.md#multiplication) makes successful sampled actions more influential and harmful ones push the opposite way; adding G would shift advice without scaling responsibility.
 [Expectation](../../MATHEMATICAL_MOVES.md#expectation) averages this noisy sampled advice across trajectories according to how often the policy produces them.
 
-Every symbol in Policy Gradients can now be read back into an action already performed. The whole procedure fits in one line:
+Three old motions cast new shadows here: **the spiral stair**—compounded chances become steps that can be accumulated; **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the council of possible worlds**—each future speaks in proportion to how often it may arrive. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
+
+Every mark needed for policy gradients is now visible on the map of branching journeys. The symbols do not add an idea; they bind the discovered moves into one line:
 
 $$
 \nabla_\theta J=\mathbb{E}\left[G\nabla_\theta\log\pi_\theta(a\mid s)\right]
@@ -53,13 +60,11 @@ $$
 
 Policy gradients are noisy and can exploit reward flaws.
 
-The limit follows from the job assigned to policy gradients. Its repair knows how to sample from a policy and increase probability of actions followed by better-than-expected returns. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Road of Consequences, the expedition leader leaves a blank beneath the new mark. Policy Gradients has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take policy gradients to the workbench
+## Return to the map of branching journeys
 
-A claim about policy gradients now exists on the page; the laboratory must be able to contradict it. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running policy gradients, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the policy gradients result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the policy gradients scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

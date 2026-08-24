@@ -2,45 +2,49 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 > **PART VIII — SEEING AND CREATING**
 >
 > Language was only one trace of reality. Light, space, sound, and noise demand new forms of the discoveries you already made.
 
 Causal interventions turn interpretation into an experiment. The field system can now inspect language reasoning, but its users also need it to understand the camera's raw grid of colored light.
 
-If the old idea can be stretched one step farther, we should assign one label to the entire raw byte sequence.
+Inside the Glass Menagerie, every old tool is given one honest chance. The maker of seeing-machines sets the wall of illuminated tiles between the evidence and the desired answer, then tries to assign one label to the entire raw byte sequence.
 
-If the proposal works on every relevant case, pixels is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The maker of seeing-machines repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: a one-pixel shift changes thousands of byte positions although the same tiger remains. The failure is stable enough to become evidence.
 
-The proposal breaks for a specific reason, not by authority: a one-pixel shift changes thousands of byte positions although the same tiger remains.
+*The maker of seeing-machines sketches the break before changing it:*
 
-Nothing magical creates pixels. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+reference evidence ──▶ shortcut: assign one label to the entire raw…
+                         │
+                         └── mismatch: a one-pixel shift changes thousands…
 
-The lost distinction tells us what to build: preserve local spatial arrangement and compare nearby color measurements.
+reference evidence ──▶ measured repair: preserve local spatial arrangement…
+```
 
-This boundary between the failed rule and its repair is the subject later work calls **Pixels**. Naming it adds nothing; the discovery happened when the lost information became visible.
+Across the wall of illuminated tiles, the old path and the repaired path run side by side. One carries “assign one label to the entire raw byte sequence”; the other knows how to preserve local spatial arrangement and compare nearby color measurements. When the failure—a one-pixel shift changes thousands of byte positions although the same tiger remains—arrives, only one path still possesses a place to record the missing distinction.
 
-Do not memorize pixels; try to break it by subtraction. Remove the part that knows how to preserve local spatial arrangement and compare nearby color measurements, leaving only the attempt to assign one label to the entire raw byte sequence. What returns is not a vague weakness but the original contradiction: a one-pixel shift changes thousands of byte positions although the same tiger remains. The removed responsibility therefore has an observable job.
+The failure is no longer an embarrassment to pixels. It is a compass: it points directly toward the information the next construction must retain.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to assign one label to the entire raw byte sequence receives the same test as the rule to preserve local spatial arrangement and compare nearby color measurements. Their different outcomes reveal what pixels contributes without asking the reader to trust historical convention.
+The evidence permits one narrow invention: preserve local spatial arrangement and compare nearby color measurements. This problem and its repair will travel under the name **Pixels**, but the name carries no knowledge the scene has not earned.
+
+What changed on the wall of illuminated tiles can be said without symbols. Before, the method could only assign one label to the entire raw byte sequence; now it can also preserve local spatial arrangement and compare nearby color measurements. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it. The Glass Menagerie returns to the valley's geometry at a finer scale. pixels asks which nearby lights belong together, how small patterns compose into larger ones, and which transformations preserve identity while appearance changes. Seeing is measurement arranged across space.
 
 ## Turning Light into Numbers
 
 A 2×2 grayscale patch becomes four intensities with explicit row and column positions.
 
-Hold the setting, evidence, and desired outcome fixed while testing pixels. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## Where pixels runs out
 
 Pixels depend on lighting, sensor, scale, and viewpoint.
 
-This is where pixels runs out for a causal reason. We gave it enough structure to preserve local spatial arrangement and compare nearby color measurements, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The pixels repair holds, but the world asks for something it was never given. At the Glass Menagerie, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take pixels to the workbench
+## Return to the wall of illuminated tiles
 
-A mathematical story about pixels earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running pixels, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the pixels result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the pixels scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

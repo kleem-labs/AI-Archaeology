@@ -2,43 +2,51 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Packed training supplies dense sequences, but the learned absolute position cards from our first GPT bind each slot to a private identity rather than making relative displacement part of the query-key match.
 
-The previous discovery seems almost sufficient: we could learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples.
+Night gathers around the Engine Cavern. Under the light of the brass reference machine, the enginewright refuses to invent prematurely and begins with the plain rule: learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples.
 
-The shortcut appears to retain everything rotary position embeddings needs. The next observation must test that belief, not merely assert that a textbook prefers another method.
+At the edge of the brass reference machine, the shortcut produces its consequence: moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged. That consequence, not a textbook, earns the next move.
 
-Then a case arrives in which convenience and truth separate: moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged.
+*The enginewright sketches the break before changing it:*
 
-The counterexample teaches rotary position embeddings. It reveals which sameness was false, which difference matters, and therefore what the replacement has to make visible.
+```text
+possible road A ─┐
+                 ├── old map: learn an unrelated vector for every…
+possible road B ─┘              └── loses: moving the same phrase from positions…
 
-Only one extra responsibility has been earned: rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference.
+same roads ──▶ repaired map ──▶ rotate pairs of query and key…
+```
 
-Now—and not earlier—we may introduce **Rotary Position Embeddings**. The words label the problem-and-repair pair whose necessity the reader can already test.
+The enginewright covers the new mark and the old contradiction returns: moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged. The cover is lifted, restoring the ability to rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason rotary position embeddings exists.
 
-The invention can now defend itself. Without it, our best available move is to learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples, and the case answers that moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged. With the narrow repair—to rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference—the method can express the distinction reality demanded. That before-and-after comparison is the proof of need.
+What must change for rotary position embeddings is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
 
-The logic would be weaker if the repaired method were tested on an easier scene. It is not. Rotary Position Embeddings returns to the same counterexample, replaces the attempt to learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples with the responsibility to rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference, and must succeed where the shortcut failed.
+The old instrument is not discarded; it is given the one capacity the counterexample demanded: rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference. That threshold is where **Rotary Position Embeddings** enters the story.
+
+The marks on the brass reference machine form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. rotary position embeddings is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
 ## Let Distance Enter the Match
 
 Rotate the two coordinates of tiger by angle mθ and river by nθ. Their match depends on (m−n)θ, so shifting both tokens together preserves their separation signal.
 
-A formula for rotary position embeddings is not yet needed. The experiment is already mathematical: we controlled what remained fixed, identified what changed, and demanded an observable consequence from that change.
-
 ## The calculation hidden inside rotary position embeddings
 
-Before Rotary Position Embeddings receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The enginewright carries the rotary position embeddings scene to the brass reference machine. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Imagine the pair of coordinates as a clock hand beginning at [1,0]. At position one, a quarter-turn sends it to [0,1]; at position two, another quarter-turn sends it to [−1,0]. The hand's length never changes—only its angle does. Multiplying position p by the chosen turn theta tells us the total angle; the four cosine-and-sine entries record how any starting pair must contribute to its two rotated coordinates.
 
 p is token position, theta is one rotation frequency, and R rotates one coordinate pair without changing its length.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Function application](../../MATHEMATICAL_MOVES.md#function-application) applies the same rotation rule at each position. [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) mixes the two coordinates according to cosine and sine; [addition](../../MATHEMATICAL_MOVES.md#addition) combines their signed contributions. Squaring or adding p would change magnitude instead of encoding position as an angle whose differences survive a shared shift.
 
-Every symbol in Rotary Position Embeddings can now be read back into an action already performed. The whole procedure fits in one line:
+The symbols are about to change costume, but their work has appeared before: **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the joining river**—separate contributions meet without losing where they came from. This is how distant excavations begin to sound like variations of one melody.
+
+The brass reference machine already contains the complete rotary position embeddings mechanism. Mathematics gives that mechanism a form small enough to carry:
 
 $$
 R(p\theta)=\begin{bmatrix}\cos(p\theta)&-\sin(p\theta)\\\sin(p\theta)&\cos(p\theta)\end{bmatrix}
@@ -48,13 +56,11 @@ $$
 
 RoPE supplies structured relative position, but distances far beyond training still produce unfamiliar phases.
 
-The boundary can be predicted from the construction itself. Rotary Position Embeddings performs the repair to rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference; the additional problem names a job outside that construction. Recognizing that edge prevents one successful equation or procedure from pretending to be a complete intelligence.
+Here the new path ends honestly. Rotary Position Embeddings can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-## Take rotary position embeddings to the workbench
+## Return to the brass reference machine
 
-Move rotary position embeddings from imagination to evidence by making the shortcut fail under controlled inputs. Reproduce the waste first, then apply the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running rotary position embeddings, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the rotary position embeddings result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the rotary position embeddings scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

@@ -2,23 +2,30 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Idempotent retries make repetition safe. A large goal can nevertheless overwhelm one agent's context and tools, raising the question of when division of work reduces risk rather than multiplying it.
 
-The machinery already in our hands suggests that we create many agents for every problem and let them freely edit shared state.
+Nothing in the Gatehouse of Consequences yet bears today's mathematical name. There is only the gatekeeper, the iron threshold, and one plausible action: create many agents for every problem and let them freely edit shared state.
 
-This is how multi-agent coordination ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. What looked like simplicity is revealed as a missing distinction.
 
-One counterexample is enough to expose the missing job: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
+*The gatekeeper sketches the break before changing it:*
 
-The wrong answer makes the need for multi-agent coordination inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+OLD PATH:  request ──▶ create many agents for every problem… ──▶ they duplicate searches, contradict…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ we need to delegate only separable… ──▶ accountable result
+```
 
-We can now repair the procedure without guessing: we need to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
+The gatekeeper turns the iron threshold toward the light. Through the old engraving, create many agents for every problem and let them freely edit shared state, the evidence ends in the same contradiction: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. A second engraving adds only the power to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Multi-Agent Coordination**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The gatekeeper circles the place where the two multi-agent coordination cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to create many agents for every problem and let them freely edit shared state produces the observed failure: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. Starting with the repaired demand to we need to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result preserves the information the shortcut lost. The subject of multi-agent coordination lives in the difference between those two causal stories.
+Only the missing distinction is restored: we need to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. The gatekeeper writes **Multi-Agent Coordination** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to we need to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result instead of merely trying to create many agents for every problem and let them freely edit shared state. That controlled contrast is what turns a plausible explanation of multi-agent coordination into an understandable derivation.
+The gatekeeper places a finger over the new distinction. At once the two cases collapse and they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. Lifting the finger restores only this capacity: delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. That tiny reversible motion is the chapter's proof of necessity.
 
 ## When Should Work Be Divided
 
@@ -26,19 +33,15 @@ Three agents receive distinct questions and return evidence in the same schema. 
 
 Multi-Agent Coordination earns a boundary, procedure, or system contract rather than a new equation. Symbols here would decorate the decision instead of clarifying it.
 
-There are now two histories of this multi-agent coordination case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where multi-agent coordination runs out
 
 Parallel agents amplify both capability and error. Shared resources, authority, and termination require careful control.
 
-Look back at what multi-agent coordination actually preserves: it can we need to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the iron threshold. None of the responsibilities inside Multi-Agent Coordination can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take multi-agent coordination to the workbench
+## Return to the iron threshold
 
-The reader has reconstructed multi-agent coordination in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running multi-agent coordination, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the multi-agent coordination result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the multi-agent coordination scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

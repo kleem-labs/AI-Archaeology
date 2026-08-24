@@ -24,20 +24,22 @@ Only now is an equation useful:
 
 A rescue party marks its camp on a paper map. It walks five kilometres east and two kilometres south to reach an injured ranger. Those instructions still work if a second party begins from another camp: move five east and two south. Only after the route has a meaning do we record east–west and north–south change as `[5, -2]`.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 - **a** is the starting state and **b** the observed destination.
 - Subtraction is forced because we need the change that remains after removing the start.
 - **Δ** names that reusable change, including its signs and directions.
 - Adding Δ back to a must recover b; this second equation checks the meaning of the first.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Destination minus starting point](../../MATHEMATICAL_MOVES.md#subtraction) is forced because we want the change that would carry **a** to **b**, not their combined location.
 [A negative coordinate](../../MATHEMATICAL_MOVES.md#negative-sign) keeps direction: −2 means move two units opposite that axis, not that the movement has an impossible size.
 [Adding the change back](../../MATHEMATICAL_MOVES.md#addition) is the check: starting place plus the discovered movement must recover the destination.
 
-The notation is finally shorter than the story that created it:
+Inside vectors as change, familiar operations return with stricter duties: **the chisel**—what is shared is removed so the remaining change can be seen; **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the joining river**—separate contributions meet without losing where they came from. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
+
+Cover the prose about vectors as change and each mark can still be recovered from the case. Only now is the compressed form safe to write:
 
 $$
 \Delta=\mathbf{b}-\mathbf{a}=[7-2,1-3]=[5,-2]
@@ -80,3 +82,4 @@ One fixed change is useful. We now want a machine that receives any vector and p
 [Next: Matrices](../005-matrices/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

@@ -2,40 +2,58 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Speculative decoding accelerates the final serial loop. We now have many locally useful repairs, but a pile of optimizations is not yet one reproducible model.
 
-Before naming anything new, try to enable every technique at once and celebrate if the program runs.
+Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: enable every technique at once and celebrate if the program runs.
 
-Its appeal is not ignorance but economy. A Modern Tiny Language Model should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries. More confidence cannot repair information that never entered the rule.
 
-One counterexample is enough to expose the missing job: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries.
+*The enginewright sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for a modern tiny language model. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+observation
+    │
+    ▼
+[enable every technique at once and…]
+    │
+    ╳  when quality or speed changes, no one…
+    │
+    ▼
+[assemble the engine in dependency…]
+```
 
-So the new mechanism must do one additional job: assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains.
+Two trails now cross the brass reference machine. The pale trail bears the instruction “enable every technique at once and celebrate if the program runs.” It disappears into the observed failure: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries. The darker trail carries one additional capacity—to assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **A Modern Tiny Language Model**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed modern tiny language model mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace a modern tiny language model with the old instruction to enable every technique at once and celebrate if the program runs. The result is again that when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries. Put back only the requirement to assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the brass reference machine is altered in exactly one way: assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. Much later, people will call this territory **A Modern Tiny Language Model**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when a modern tiny language model is introduced. The same evidence that defeated the attempt to enable every technique at once and celebrate if the program runs is presented again. Only the ability to assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains changes, so the repaired conclusion cannot be credited to a conveniently different example.
+The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and modern tiny language model looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
 ## Assemble the Measured Engine
 
 Train one tiny model with packed examples, RoPE, GQA, exact tiled attention, pre-RMSNorm, SwiGLU, tied embeddings, AdamW, clipping, mixed precision, accumulation, and checkpointing; then serve it with a KV cache and verified draft proposals.
 
-Run the a modern tiny language model scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where a modern tiny language model runs out
 
 The engine is modern, not final. New hardware, data, and observations will create new bottlenecks, and every proposed repair must re-enter the bounded loop from Excavation 150.
 
-Why does that boundary remain? A Modern Tiny Language Model was built for one responsibility: assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The brass reference machine answers today's question and falls silent at the next. That silence is precise: Modern Tiny Language Model was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take a modern tiny language model to the workbench
+## The old mind inside the new engine
 
-The argument for a modern tiny language model is still provisional until a runnable case can make it fail. Reproduce the waste first, then apply the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running a modern tiny language model, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
+The engine has changed its position system, cache, attention kernel, normalization, gate, optimizer, precision, memory plan, and distribution across machines. Yet the reference path remains beside it like a tuning fork: every faster mechanism must still produce the mathematical responsibility first derived in the valley.
 
-Explain the a modern tiny language model result once without terminology, then once with the precise symbols or state transitions the implementation used.
+```text
+reference ──preserved meaning──▶ optimized engine
+```
+
+The trail called *the old mind inside the new engine* is what remains when one necessity becomes another.
+
+## Return to the brass reference machine
+
+Rebuild the modern tiny language model scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).

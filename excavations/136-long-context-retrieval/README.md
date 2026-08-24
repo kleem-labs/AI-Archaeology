@@ -2,41 +2,44 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 External memory stores selected facts outside the prompt. Storage is not remembrance in practice: the one decisive record can remain unused if retrieval ranks a thousand plausible distractions above it.
 
-If the old idea can be stretched one step farther, we should assume information inside the window will automatically influence the answer.
+At the Academy of Trials, the experimentalist returns to the sealed evidence ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: assume information inside the window will automatically influence the answer.
 
-If the proposal works on every relevant case, long-context retrieval is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The experimentalist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: availability is not retrieval; distracting passages dominate the relevant line. The failure is stable enough to become evidence.
 
-Now keep that rule fixed and let the difficult case enter: availability is not retrieval; distracting passages dominate the relevant line.
+*The experimentalist sketches the break before changing it:*
 
-Nothing magical creates long-context retrieval. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+OLD PATH:  request ──▶ assume information inside the window… ──▶ availability is not retrieval;…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ test whether the clue can be located,… ──▶ accountable result
+```
 
-The lost distinction tells us what to build: test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning.
+Across the sealed evidence ledger, the old path and the repaired path run side by side. One carries “assume information inside the window will automatically influence the answer”; the other knows how to test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. When the failure—availability is not retrieval; distracting passages dominate the relevant line—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Long-Context Retrieval**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to long-context retrieval. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize long-context retrieval; try to break it by subtraction. Remove the part that knows how to test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning, leaving only the attempt to assume information inside the window will automatically influence the answer. What returns is not a vague weakness but the original contradiction: availability is not retrieval; distracting passages dominate the relevant line. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. This problem and its repair will travel under the name **Long-Context Retrieval**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to assume information inside the window will automatically influence the answer receives the same test as the rule to test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. Their different outcomes reveal what long-context retrieval contributes without asking the reader to trust historical convention.
+What changed on the sealed evidence ledger can be said without symbols. Before, the method could only assume information inside the window will automatically influence the answer; now it can also test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
 ## Finding the One Clue That Matters
 
 Hide a changed contract date among repeated boilerplate and trace whether the model selects the exact clause.
 
-Hold the setting, evidence, and desired outcome fixed while testing long-context retrieval. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## Where long-context retrieval runs out
 
 Retrieval success does not guarantee correct reasoning over what was retrieved.
 
-This is where long-context retrieval runs out for a causal reason. We gave it enough structure to test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The long-context retrieval repair holds, but the world asks for something it was never given. At the Academy of Trials, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take long-context retrieval to the workbench
+## Return to the sealed evidence ledger
 
-A mathematical story about long-context retrieval earns trust only when the failed and repaired paths can both be reproduced. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running long-context retrieval, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the long-context retrieval result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the long-context retrieval scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

@@ -2,43 +2,51 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Adam trains the block, but adding an L2 penalty to the loss sends shrinkage through the optimizer's coordinate-wise rescaling.
 
-We can postpone invention if we simply treat penalty gradients and data gradients identically because both appear in one total loss.
+The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: treat penalty gradients and data gradients identically because both appear in one total loss.
 
-If the proposal works on every relevant case, adamw is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The enginewright repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate. The failure is stable enough to become evidence.
 
-The decisive test is this: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate.
+*The enginewright sketches the break before changing it:*
 
-Nothing magical creates adamw. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ treat penalty gradients and data… ──▶ blurred: coordinates with different gradient…
+      │
+      └── new lens ──▶ apply Adam's adaptive data update and… ──▶ distinction survives
+```
 
-The lost distinction tells us what to build: apply Adam's adaptive data update and parameter decay as separate operations.
+Across the brass reference machine, the old path and the repaired path run side by side. One carries “treat penalty gradients and data gradients identically because both appear in one total loss”; the other knows how to apply Adam's adaptive data update and parameter decay as separate operations. When the failure—coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **AdamW**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to adamw. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize adamw; try to break it by subtraction. Remove the part that knows how to apply Adam's adaptive data update and parameter decay as separate operations, leaving only the attempt to treat penalty gradients and data gradients identically because both appear in one total loss. What returns is not a vague weakness but the original contradiction: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: apply Adam's adaptive data update and parameter decay as separate operations. This problem and its repair will travel under the name **AdamW**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to treat penalty gradients and data gradients identically because both appear in one total loss receives the same test as the rule to apply Adam's adaptive data update and parameter decay as separate operations. Their different outcomes reveal what adamw contributes without asking the reader to trust historical convention.
+Under the latest ink, the first question is still legible: what if we followed the tempting rule—treat penalty gradients and data gradients identically because both appear in one total loss? The answer remains coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
 ## Keep Shrinkage Separate from Adaptation
 
 Two equal weights with different gradient histories receive different Adam steps but the same proportional decay.
 
-Hold the setting, evidence, and desired outcome fixed while testing adamw. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## The calculation hidden inside adamw
 
-Do not read the coming AdamW line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The enginewright carries the adamw scene to the brass reference machine. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Suppose two weights both equal 2, although their gradient histories differ. If decay means 'remove one tenth of one percent of the present weight this step,' both should lose the same proportion before their evidence-driven Adam movements differ. Multiplying theta by 1−eta lambda performs that direct shrink. The separate subtraction then applies Adam's learned direction, preventing gradient history from secretly changing the intended decay rule.
 
 lambda is decay strength; the first term shrinks the old parameter directly; the second is Adam's data-driven update.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) by 1−eta lambda makes decay proportional to current parameter size: a zero weight stays zero and doubling a weight doubles shrinkage. [Subtraction](../../MATHEMATICAL_MOVES.md#subtraction) then applies the independently adapted loss step. Hiding decay inside m and v would mix two jobs the formula deliberately separates.
 
-Every symbol in AdamW can now be read back into an action already performed. The whole procedure fits in one line:
+The mandala has curved back upon itself. In this chamber we meet **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chisel**—what is shared is removed so the remaining change can be seen. What seemed like a new formula is older mathematical instinct arranged around a new need.
+
+Cover the prose about adamw and each mark can still be recovered from the case. Only now is the compressed form safe to write:
 
 $$
 \theta_{t+1}=(1-\eta\lambda)\theta_t-\eta\frac{\widehat m_t}{\sqrt{\widehat v_t}+\epsilon}
@@ -48,13 +56,11 @@ $$
 
 Decoupled decay still requires choosing which parameters to decay and how strongly.
 
-This is where adamw runs out for a causal reason. We gave it enough structure to apply Adam's adaptive data update and parameter decay as separate operations, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The adamw repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take adamw to the workbench
+## Return to the brass reference machine
 
-A mathematical story about adamw earns trust only when the failed and repaired paths can both be reproduced. Reproduce the waste first, then apply the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running adamw, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the adamw result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the adamw scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

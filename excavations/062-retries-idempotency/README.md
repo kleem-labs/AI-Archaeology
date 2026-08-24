@@ -2,23 +2,33 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Verification compares the intended effect with reality. When the evidence is absent because a request timed out, trying again may repeat an action that actually succeeded the first time.
 
-Nothing yet appears to demand a new invention. We can retry the action whenever a response is missing.
+The doors of the Gatehouse of Consequences close against the wind. On the iron threshold, the gatekeeper writes the cheapest rule that might still be true: retry the action whenever a response is missing.
 
-There is a real principle behind this restraint: the complexity of retries and idempotency must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: the trouble appears immediately: the first payment succeeded and the retry charges the customer twice. The iron threshold now holds two situations the old rule cannot keep apart.
 
-The decisive test is this: the trouble appears immediately: the first payment succeeded and the retry charges the customer twice.
+*The gatekeeper sketches the break before changing it:*
 
-That distinction is the hinge on which retries and idempotency turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   retry the action whenever a response… the trouble appears immediately: the…
+            \        /
+             \      /
+              give each logical action a stable…
+```
 
-What survives the counterexample is this requirement: give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect.
+The iron threshold is divided down the middle. Left side: “retry the action whenever a response is missing.” Its final mark records the trouble appears immediately: the first payment succeeded and the retry charges the customer twice. Right side: the same starting evidence, now allowed to give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect. The difference is narrow enough to see and important enough to change the ending.
 
-We have earned the chapter's shorter name: **Retries and Idempotency**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The broken rule has given retries and idempotency a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-A reader can check that retries and idempotency is necessary rather than decorative. Delete its new responsibility and use the earlier plan to retry the action whenever a response is missing. Immediately, the trouble appears immediately: the first payment succeeded and the retry charges the customer twice. Reintroduce the single job to give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The repair can now be stated without mystery: give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect. The name **Retries and Idempotency** arrives afterward, like a title given to a path whose stones are already underfoot.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect. Because the old plan to retry the action whenever a response is missing is the only displaced piece, the reader can locate exactly where retries and idempotency changes the outcome.
+A thread now runs backward from retries and idempotency through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the trouble appears immediately: the first payment succeeded and the retry charges the customer twice. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
 ## Trying Again Without Doing It Twice
 
@@ -26,19 +36,15 @@ Both payment attempts carry order-417. The server records that key with the firs
 
 Retries and Idempotency earns a boundary, procedure, or system contract rather than a new equation. Symbols here would decorate the decision instead of clarifying it.
 
-The name retries and idempotency is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## Where retries and idempotency runs out
 
 Not every external operation supports idempotency. Agents need reconciliation and human escalation when outcome is ambiguous.
 
-The weakness is not an accidental footnote. Every operation in retries and idempotency serves the narrower purpose to give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Retries and Idempotency; it reveals the edge of what was constructed. The gatekeeper carries that edge into the following room.
 
-## Take retries and idempotency to the workbench
+## Return to the iron threshold
 
-Understanding retries and idempotency now means predicting its intermediate results before asking software for an answer. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running retries and idempotency, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the retries and idempotency result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the retries and idempotency scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 The sharded checkpoint can reconstruct every distributed tensor. If it omits the sampler cursor, random-number generators, scheduler phase, or overflow state, restart follows a different future.
 
-The machinery already in our hands suggests that we restore model weights and let every other component start fresh.
+Night gathers around the Archive Foundry. Under the light of the chain-of-custody ledger, the archivist-engineer refuses to invent prematurely and begins with the plain rule: restore model weights and let every other component start fresh.
 
-This is how deterministic resume ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run. What looked like simplicity is revealed as a missing distinction.
 
-Then a case arrives in which convenience and truth separate: adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run.
+*The archivist-engineer sketches the break before changing it:*
 
-The wrong answer makes the need for deterministic resume inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ restore model weights and let every… ──▶ blurred: adam forgets its moments, warmup may…
+      │
+      └── new lens ──▶ checkpoint every state variable that… ──▶ distinction survives
+```
 
-We can now repair the procedure without guessing: checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps.
+The archivist-engineer turns the chain-of-custody ledger toward the light. Through the old engraving, restore model weights and let every other component start fresh, the evidence ends in the same contradiction: adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run. A second engraving adds only the power to checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Deterministic Resume**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The archivist-engineer circles the place where the two deterministic resume cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to restore model weights and let every other component start fresh produces the observed failure: adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run. Starting with the repaired demand to checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps preserves the information the shortcut lost. The subject of deterministic resume lives in the difference between those two causal stories.
+Only the missing distinction is restored: checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps. The archivist-engineer writes **Deterministic Resume** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps instead of merely trying to restore model weights and let every other component start fresh. That controlled contrast is what turns a plausible explanation of deterministic resume into an understandable derivation.
+The archivist-engineer places a finger over the new distinction. At once the two cases collapse and adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run. Lifting the finger restores only this capacity: checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps. That tiny reversible motion is the chapter's proof of necessity.
 
 ## Continue the Same Experiment, Not a Similar One
 
 The station stops after update 200, restores weights, Adam moments, schedule position, scaler, RNG streams, and each data cursor, then reproduces updates 201 through 205 byte for byte on the reference implementation.
 
-There are now two histories of this deterministic resume case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where deterministic resume runs out
 
 Exact replay can still fail across nondeterministic kernels, changed hardware, libraries, or distributed timing; the required reproducibility level must be stated.
 
-Look back at what deterministic resume actually preserves: it can checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the chain-of-custody ledger. None of the responsibilities inside Deterministic Resume can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take deterministic resume to the workbench
+## Return to the chain-of-custody ledger
 
-The reader has reconstructed deterministic resume in words; the workbench tests whether those words specify a real procedure. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running deterministic resume, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the deterministic resume result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the deterministic resume scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

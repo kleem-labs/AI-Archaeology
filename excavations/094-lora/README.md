@@ -2,33 +2,43 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Audio models extend the assistant's senses and enlarge the already expensive system. Adapting the whole model for each ranger station, language, or task would duplicate billions of parameters.
 
-We can postpone invention if we simply copy and fine-tune all parameters for every task.
+The doors of the Road of Consequences close against the wind. On the map of branching journeys, the expedition leader writes the cheapest rule that might still be true: copy and fine-tune all parameters for every task.
 
-If the proposal works on every relevant case, low-rank adaptation is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The expedition leader repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: storage and training cost multiply, and the base model is harder to preserve. The failure is stable enough to become evidence.
 
-The decisive test is this: storage and training cost multiply, and the base model is harder to preserve.
+*The expedition leader sketches the break before changing it:*
 
-Nothing magical creates low-rank adaptation. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+observation
+    │
+    ▼
+[copy and fine-tune all parameters for…]
+    │
+    ╳  storage and training cost multiply,…
+    │
+    ▼
+[freeze the base and learn a small…]
+```
 
-The lost distinction tells us what to build: freeze the base and learn a small low-rank correction to selected matrices.
+Across the map of branching journeys, the old path and the repaired path run side by side. One carries “copy and fine-tune all parameters for every task”; the other knows how to freeze the base and learn a small low-rank correction to selected matrices. When the failure—storage and training cost multiply, and the base model is harder to preserve—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Low-Rank Adaptation**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to low-rank adaptation. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize low-rank adaptation; try to break it by subtraction. Remove the part that knows how to freeze the base and learn a small low-rank correction to selected matrices, leaving only the attempt to copy and fine-tune all parameters for every task. What returns is not a vague weakness but the original contradiction: storage and training cost multiply, and the base model is harder to preserve. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: freeze the base and learn a small low-rank correction to selected matrices. This problem and its repair will travel under the name **Low-Rank Adaptation**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to copy and fine-tune all parameters for every task receives the same test as the rule to freeze the base and learn a small low-rank correction to selected matrices. Their different outcomes reveal what low-rank adaptation contributes without asking the reader to trust historical convention.
+Under the latest ink, the first question is still legible: what if we followed the tempting rule—copy and fine-tune all parameters for every task? The answer remains storage and training cost multiply, and the base model is harder to preserve. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
 ## Understanding low-rank adaptation
 
 Instead of a million-value update, two narrow matrices produce a constrained correction with far fewer trainable values.
 
-Hold the setting, evidence, and desired outcome fixed while testing low-rank adaptation. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## The calculation hidden inside low-rank adaptation
 
-Do not read the coming Low-Rank Adaptation line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The expedition leader carries the low-rank adaptation scene to the map of branching journeys. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 A large language model already knows general English, but a park service needs it to understand a small set of ranger report conventions. Copying and changing its entire transformation matrix would be expensive. Instead, freeze the original map and learn two narrow maps: one compresses a report into a few adaptation directions, and the other expands those directions back into a correction with the original shape. Adding that correction preserves the base map while bending it toward ranger language.
 
@@ -37,12 +47,14 @@ A and B are the two narrow trainable matrices.
 Their product BA creates a full-shaped correction while using far fewer values.
 Addition preserves the base behavior and applies only the learned adaptation.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [BA](../../MATHEMATICAL_MOVES.md#multiplication) composes two narrow learned transformations, forcing the correction through a low-dimensional bottleneck instead of learning every entry of a full matrix.
 [Adding that correction to W](../../MATHEMATICAL_MOVES.md#addition) preserves the pretrained base and treats adaptation as a change. [The prime on W](../../MATHEMATICAL_MOVES.md#symbol-decorations) marks the adapted version; replacing W would discard the knowledge we intended to keep.
 
-Every symbol in Low-Rank Adaptation can now be read back into an action already performed. The whole procedure fits in one line:
+The mandala has curved back upon itself. In this chamber we meet **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the joining river**—separate contributions meet without losing where they came from. What seemed like a new formula is older mathematical instinct arranged around a new need.
+
+Cover the prose about low-rank adaptation and each mark can still be recovered from the case. Only now is the compressed form safe to write:
 
 $$
 W^\prime=W+BA
@@ -52,13 +64,11 @@ $$
 
 Low rank may be insufficient for large behavioral changes.
 
-This is where low-rank adaptation runs out for a causal reason. We gave it enough structure to freeze the base and learn a small low-rank correction to selected matrices, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The low-rank adaptation repair holds, but the world asks for something it was never given. At the Road of Consequences, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take low-rank adaptation to the workbench
+## Return to the map of branching journeys
 
-A mathematical story about low-rank adaptation earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running low-rank adaptation, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the low-rank adaptation result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the low-rank adaptation scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

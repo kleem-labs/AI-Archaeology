@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Corrigibility makes pause, inspection, correction, and handoff legitimate outcomes. A corrigible planner still has to choose when the most efficient route passes through a world it understands poorly.
 
-The previous discovery seems almost sufficient: we could plan using only the single most likely world.
+Nothing in the Academy of Trials yet bears today's mathematical name. There is only the experimentalist, the sealed evidence ledger, and one plausible action: plan using only the single most likely world.
 
-The shortcut appears to retain everything uncertainty-aware planning needs. The next observation must test that belief, not merely assert that a textbook prefers another method.
+At the edge of the sealed evidence ledger, the shortcut produces its consequence: a small chance of bridge failure dominates the consequence but disappears from the chosen story. That consequence, not a textbook, earns the next move.
 
-One counterexample is enough to expose the missing job: a small chance of bridge failure dominates the consequence but disappears from the chosen story.
+*The experimentalist sketches the break before changing it:*
 
-The counterexample teaches uncertainty-aware planning. It reveals which sameness was false, which difference matters, and therefore what the replacement has to make visible.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ plan using only the single most… ──▶ blurred: a small chance of bridge failure…
+      │
+      └── new lens ──▶ we need to carry multiple plausible… ──▶ distinction survives
+```
 
-Only one extra responsibility has been earned: we need to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision.
+The experimentalist covers the new mark and the old contradiction returns: a small chance of bridge failure dominates the consequence but disappears from the chosen story. The cover is lifted, restoring the ability to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason uncertainty-aware planning exists.
 
-Now—and not earlier—we may introduce **Uncertainty-Aware Planning**. The words label the problem-and-repair pair whose necessity the reader can already test.
+What must change for uncertainty-aware planning is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
 
-The invention can now defend itself. Without it, our best available move is to plan using only the single most likely world, and the case answers that a small chance of bridge failure dominates the consequence but disappears from the chosen story. With the narrow repair—to we need to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision—the method can express the distinction reality demanded. That before-and-after comparison is the proof of need.
+The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision. That threshold is where **Uncertainty-Aware Planning** enters the story.
 
-The logic would be weaker if the repaired method were tested on an easier scene. It is not. Uncertainty-Aware Planning returns to the same counterexample, replaces the attempt to plan using only the single most likely world with the responsibility to we need to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision, and must succeed where the shortcut failed.
+The marks on the sealed evidence ledger form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. uncertainty-aware planning is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
 ## Choosing While Admitting Ignorance
 
 Compare detouring now with first sending a cheap inspection drone.
 
-A formula for uncertainty-aware planning is not yet needed. The experiment is already mathematical: we controlled what remained fixed, identified what changed, and demanded an observable consequence from that change.
-
 ## Where uncertainty-aware planning runs out
 
 Probabilities and consequence values may both be poorly estimated.
 
-The boundary can be predicted from the construction itself. Uncertainty-Aware Planning performs the repair to we need to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision; the additional problem names a job outside that construction. Recognizing that edge prevents one successful equation or procedure from pretending to be a complete intelligence.
+Here the new path ends honestly. Uncertainty-Aware Planning can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-## Take uncertainty-aware planning to the workbench
+## Return to the sealed evidence ledger
 
-Move uncertainty-aware planning from imagination to evidence by making the shortcut fail under controlled inputs. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running uncertainty-aware planning, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the uncertainty-aware planning result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the uncertainty-aware planning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

@@ -2,43 +2,51 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Tensor parallelism makes one target-model step possible, but autoregressive dependence still serializes token generation.
 
-The obvious economy is to let a cheap draft model emit several tokens and return them directly.
+The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: let a cheap draft model emit several tokens and return them directly.
 
-The proposal deserves a fair hearing. For speculative decoding, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: speed improves by silently replacing the trusted target distribution with a weaker model's distribution. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-The decisive test is this: speed improves by silently replacing the trusted target distribution with a weaker model's distribution.
+*The enginewright sketches the break before changing it:*
 
-The failure changes the question behind speculative decoding. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+reference evidence ──▶ shortcut: let a cheap draft model emit several…
+                         │
+                         └── mismatch: speed improves by silently replacing…
 
-The required repair is now narrow enough to state: let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling.
+reference evidence ──▶ measured repair: let the draft propose a short…
+```
 
-Only at this point does the inherited name **Speculative Decoding** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “let a cheap draft model emit several tokens and return them directly.” Its path ends where speed improves by silently replacing the trusted target distribution with a weaker model's distribution. The second receives the same evidence but is allowed to let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. Held to the light, the sheets separate at exactly one decision.
 
-Test the necessity of speculative decoding by mentally removing the repair. We fall back to the proposal to let a cheap draft model emit several tokens and return them directly; then speed improves by silently replacing the trusted target distribution with a weaker model's distribution. Restore only the ability to let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+No one reaches for a speculative decoding formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to let a cheap draft model emit several tokens and return them directly to requiring the system to let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to speculative decoding.
+The enginewright changes only that one responsibility: let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. When the ink dries, the name **Speculative Decoding** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
+
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because speed improves by silently replacing the trusted target distribution with a weaker model's distribution, while the other can let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. That fork—not the vocabulary—is where speculative decoding lives.
 
 ## Let a Small Model Propose, Never Decide
 
 The draft proposes “the tiger sleeps.” One target call verifies all three positions; an unsupported token is rejected and sampling resumes from the corrected target distribution.
 
-Put the old procedure beside speculative decoding. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## The calculation hidden inside speculative decoding
 
-Do not read the coming Speculative Decoding line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The enginewright carries the speculative decoding scene to the brass reference machine. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 If the draft assigns tiger probability 0.8 but the target assigns 0.4, only half of those proposals have target support: 0.4/0.8=0.5. If the draft assigns 0.4 and the target 0.8, the ratio is 2, but acceptance cannot be 200 percent, so it stops at 1. The function a(x) names this capped acceptance chance for proposed token x.
 
 q(x) is draft probability, p(x) is target probability, and a(x) is the probability of accepting the draft token under the correction step.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Division](../../MATHEMATICAL_MOVES.md#division) compares target support per unit of draft support. [Minimum](../../MATHEMATICAL_MOVES.md#minimum) caps acceptance at one because probabilities cannot exceed certainty. Simply taking max or always accepting would change the target distribution; the ratio corrects proposals that the draft overproduces.
 
-Every symbol in Speculative Decoding can now be read back into an action already performed. The whole procedure fits in one line:
+The mandala has curved back upon itself. In this chamber we meet **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; and **the narrow gate**—the smaller allowance prevents a promise from exceeding its boundary. What seemed like a new formula is older mathematical instinct arranged around a new need.
+
+Every mark needed for speculative decoding is now visible on the brass reference machine. The symbols do not add an idea; they bind the discovered moves into one line:
 
 $$
 a(x)=\min\left(1,\frac{p(x)}{q(x)}\right)
@@ -48,13 +56,11 @@ $$
 
 Speed depends on draft agreement and hardware utilization; poor proposals add work instead of removing it.
 
-The limit follows from the job assigned to speculative decoding. Its repair knows how to let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Speculative Decoding has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take speculative decoding to the workbench
+## Return to the brass reference machine
 
-A claim about speculative decoding now exists on the page; the laboratory must be able to contradict it. Reproduce the waste first, then apply the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running speculative decoding, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the speculative decoding result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the speculative decoding scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

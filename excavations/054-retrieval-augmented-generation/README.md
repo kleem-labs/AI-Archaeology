@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Preference learning lets reviewers distinguish answers that are all technically possible. Even the preferred answer may rely on stale memory when the question asks about a document or fact that changed after training.
 
-The obvious economy is to retrain the whole model whenever one document changes.
+The doors of the Hall of Voices close against the wind. On the listening table, the public archivist writes the cheapest rule that might still be true: retrain the whole model whenever one document changes.
 
-The proposal deserves a fair hearing. For retrieval-augmented generation, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-The decisive test is this: a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source.
+*The public archivist sketches the break before changing it:*
 
-The failure changes the question behind retrieval-augmented generation. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+possible road A ─┐
+                 ├── old map: retrain the whole model whenever one…
+possible road B ─┘              └── loses: a price changes today, a policy…
 
-The required repair is now narrow enough to state: search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved.
+same roads ──▶ repaired map ──▶ search an external collection for…
+```
 
-Only at this point does the inherited name **Retrieval-Augmented Generation** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+The public archivist lays two translucent sheets over the listening table. The first is inscribed, “retrain the whole model whenever one document changes.” Its path ends where a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source. The second receives the same evidence but is allowed to search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. Held to the light, the sheets separate at exactly one decision.
 
-Test the necessity of retrieval-augmented generation by mentally removing the repair. We fall back to the proposal to retrain the whole model whenever one document changes; then a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source. Restore only the ability to search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+No one reaches for a retrieval-augmented generation formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to retrain the whole model whenever one document changes to requiring the system to search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to retrieval-augmented generation.
+The public archivist changes only that one responsibility: search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. When the ink dries, the name **Retrieval-Augmented Generation** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
+
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source, while the other can search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. That fork—not the vocabulary—is where retrieval-augmented generation lives.
 
 ## Let the Model Look Before It Speaks
 
 The user asks for today’s return policy. Retrieval selects the current policy document, not an old blog post. The answer quotes the 30-day rule and links it to that document.
 
-Put the old procedure beside retrieval-augmented generation. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## Where retrieval-augmented generation runs out
 
 Retrieval can miss the right document or return misleading text. Generation must distinguish evidence from instructions embedded inside evidence.
 
-The limit follows from the job assigned to retrieval-augmented generation. Its repair knows how to search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Hall of Voices, the public archivist leaves a blank beneath the new mark. Retrieval-Augmented Generation has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take retrieval-augmented generation to the workbench
+## Return to the listening table
 
-A claim about retrieval-augmented generation now exists on the page; the laboratory must be able to contradict it. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running retrieval-augmented generation, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the retrieval-augmented generation result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the retrieval-augmented generation scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

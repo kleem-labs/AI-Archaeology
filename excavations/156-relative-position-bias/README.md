@@ -2,43 +2,51 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Rotary position makes displacement visible inside the attention match. When the station tests much longer sequences, the model must rank relationships at separations absent from training.
 
-The least expensive next move is to trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.
+Inside the Engine Cavern, every old tool is given one honest chance. The enginewright sets the brass reference machine between the evidence and the desired answer, then tries to trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.
 
-The proposal deserves a fair hearing. For relative position bias, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-The proposal breaks for a specific reason, not by authority: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations.
+*The enginewright sketches the break before changing it:*
 
-The failure changes the question behind relative position bias. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+reference evidence ──▶ shortcut: trust every unseen distance to behave…
+                         │
+                         └── mismatch: a mathematically defined position is…
 
-The required repair is now narrow enough to state: add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.
+reference evidence ──▶ measured repair: add an explicit distance-dependent…
+```
 
-Only at this point does the inherited name **Relative Position Bias** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.” Its path ends where a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations. The second receives the same evidence but is allowed to add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. Held to the light, the sheets separate at exactly one decision.
 
-Test the necessity of relative position bias by mentally removing the repair. We fall back to the proposal to trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there; then a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations. Restore only the ability to add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+No one reaches for a relative position bias formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there to requiring the system to add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to relative position bias.
+The enginewright changes only that one responsibility: add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. When the ink dries, the name **Relative Position Bias** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
+
+The brass reference machine keeps both histories. Its older mark still says, ‘trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there’; beside it, the newer mark says, ‘add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.’ The distance between those sentences is the exact shape of relative position bias: no larger than the failure required, and no smaller than reality permits.
 
 ## What Should Happen Beyond the Seen Window
 
 For one head with slope 0.1, a key 2 places back receives −0.2 while a key 20 places back receives −2.0 before softmax. Content can overcome the penalty, but distance has a predictable cost.
 
-Put the old procedure beside relative position bias. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## The calculation hidden inside relative position bias
 
-Do not read the coming Relative Position Bias line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The enginewright carries the relative position bias scene to the brass reference machine. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Suppose tiger matches one key with content score 3.0. The key is two places away, and we decide that each place should cost 0.1, so distance contributes 2×0.1=0.2. Removing that cost leaves 2.8. A key twenty places away pays 20×0.1=2.0 and keeps 1.0. We now name the original content score s_ij, the price per place m, and the adjusted result s-prime.
 
 s_ij is the content match, |i−j| is token separation, m is this head's nonnegative distance slope, and s-prime is the adjusted score.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Subtraction](../../MATHEMATICAL_MOVES.md#subtraction) lowers rather than raises distant matches. [Absolute value](../../MATHEMATICAL_MOVES.md#absolute-value) keeps separation size while discarding left-versus-right direction in this bias. [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) lets slope m control the price per position; adding a fixed m would not make farther tokens cost more.
 
-Every symbol in Relative Position Bias can now be read back into an action already performed. The whole procedure fits in one line:
+Inside relative position bias, familiar operations return with stricter duties: **the chisel**—what is shared is removed so the remaining change can be seen; and **the lock and key**—one influence matters through another, and either missing factor can close the path. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
+
+Every mark needed for relative position bias is now visible on the brass reference machine. The symbols do not add an idea; they bind the discovered moves into one line:
 
 $$
 s_{ij}^{\prime}=s_{ij}-m\lvert i-j\rvert
@@ -48,13 +56,11 @@ $$
 
 A fixed distance preference can suppress a decisive remote clue and is an architectural bias, not universal truth.
 
-The limit follows from the job assigned to relative position bias. Its repair knows how to add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Relative Position Bias has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take relative position bias to the workbench
+## Return to the brass reference machine
 
-A claim about relative position bias now exists on the page; the laboratory must be able to contradict it. Reproduce the waste first, then apply the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running relative position bias, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the relative position bias result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the relative position bias scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

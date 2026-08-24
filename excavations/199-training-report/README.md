@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Memorization auditing adds one essential limitation to the evaluation record. A released checkpoint still cannot explain its corpus, mixture, compute, interruptions, exclusions, intended uses, or known failures by inspecting weight tensors.
 
-Before naming anything new, try to publish the final benchmark table and assume the configuration files explain the rest.
+Nothing in the Archive Foundry yet bears today's mathematical name. There is only the archivist-engineer, the chain-of-custody ledger, and one plausible action: publish the final benchmark table and assume the configuration files explain the rest.
 
-Its appeal is not ignorance but economy. The Training Report should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested. More confidence cannot repair information that never entered the rule.
 
-One counterexample is enough to expose the missing job: a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested.
+*The archivist-engineer sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for the training report. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   publish the final benchmark table and… a score has no visible data lineage,…
+            \        /
+             \      /
+              generate a training report from…
+```
 
-So the new mechanism must do one additional job: generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions.
+Two trails now cross the chain-of-custody ledger. The pale trail bears the instruction “publish the final benchmark table and assume the configuration files explain the rest.” It disappears into the observed failure: a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested. The darker trail carries one additional capacity—to generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **The Training Report**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed training report mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace the training report with the old instruction to publish the final benchmark table and assume the configuration files explain the rest. The result is again that a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested. Put back only the requirement to generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the chain-of-custody ledger is altered in exactly one way: generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions. Much later, people will call this territory **The Training Report**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when the training report is introduced. The same evidence that defeated the attempt to publish the final benchmark table and assume the configuration files explain the rest is presented again. Only the ability to generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions changes, so the repaired conclusion cannot be credited to a conveniently different example.
+The chain-of-custody ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and training report looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
 ## Preserve the Decisions, Not Only the Weights
 
 The station's report names corpus and code versions, tokens seen, mixture shares, compute, checkpoint recoveries, per-domain validation, memorization probes, excluded sources, and the exact model artifact hash.
 
-Run the the training report scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where the training report runs out
 
 Documentation improves accountability but can be incomplete, outdated, misleading, or ignored; claims still require inspectable evidence.
 
-Why does that boundary remain? The Training Report was built for one responsibility: generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The chain-of-custody ledger answers today's question and falls silent at the next. That silence is precise: Training Report was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take the training report to the workbench
+## Return to the chain-of-custody ledger
 
-The argument for the training report is still provisional until a runnable case can make it fail. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running the training report, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the the training report result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the training report scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

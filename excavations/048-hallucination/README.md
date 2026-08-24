@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Evaluation therefore begins with the job the system is supposed to perform. On that job, a disturbing failure remains: the model can produce a beautifully fluent answer even when no evidence supports it.
 
-The least expensive next move is to trust fluent language because uncertainty should sound hesitant.
+At the Hall of Voices, the public archivist returns to the listening table. Yesterday's instrument still lies open, so the first move asks for no new magic: trust fluent language because uncertainty should sound hesitant.
 
-The proposal deserves a fair hearing. For hallucination, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.”. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-Now keep that rule fixed and let the difficult case enter: training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.”.
+*The public archivist sketches the break before changing it:*
 
-The failure changes the question behind hallucination. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+possible road A ─┐
+                 ├── old map: trust fluent language because…
+possible road B ─┘              └── loses: training rewards plausible…
 
-The required repair is now narrow enough to state: separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.
+same roads ──▶ repaired map ──▶ separate linguistic plausibility from…
+```
 
-Only at this point does the inherited name **Hallucination** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+The public archivist lays two translucent sheets over the listening table. The first is inscribed, “trust fluent language because uncertainty should sound hesitant.” Its path ends where training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.”. The second receives the same evidence but is allowed to separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source. Held to the light, the sheets separate at exactly one decision.
 
-Test the necessity of hallucination by mentally removing the repair. We fall back to the proposal to trust fluent language because uncertainty should sound hesitant; then training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.”. Restore only the ability to separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+No one reaches for a hallucination formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to trust fluent language because uncertainty should sound hesitant to requiring the system to separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to hallucination.
+The public archivist changes only that one responsibility: separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source. When the ink dries, the name **Hallucination** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
+
+The listening table keeps both histories. Its older mark still says, ‘trust fluent language because uncertainty should sound hesitant’; beside it, the newer mark says, ‘separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source.’ The distance between those sentences is the exact shape of hallucination: no larger than the failure required, and no smaller than reality permits.
 
 ## When Fluent Prediction Outruns Evidence
 
 The prompt asks for the 2018 paper “Tiger Attention Networks.” Search returns no matching source. A supported system must say no source was found instead of completing the familiar citation pattern.
 
-Put the old procedure beside hallucination. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## Where hallucination runs out
 
 Evidence reduces unsupported claims but sources can be wrong, stale, conflicting, or misread.
 
-The limit follows from the job assigned to hallucination. Its repair knows how to separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Hall of Voices, the public archivist leaves a blank beneath the new mark. Hallucination has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take hallucination to the workbench
+## Return to the listening table
 
-A claim about hallucination now exists on the page; the laboratory must be able to contradict it. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running hallucination, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the hallucination result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the hallucination scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

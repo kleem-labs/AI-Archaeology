@@ -2,43 +2,51 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 The input pipeline now keeps the device busy. Inspection shows that many of the tokens occupying each fixed rectangle are padding rather than language.
 
-We can postpone invention if we simply pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste.
+The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste.
 
-If the proposal works on every relevant case, sequence packing is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The enginewright repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions. The failure is stable enough to become evidence.
 
-Its hidden assumption becomes visible as soon as we observe that the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions.
+*The enginewright sketches the break before changing it:*
 
-Nothing magical creates sequence packing. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ pad every sentence to the longest… ──▶ blurred: the loss ignores padding, but…
+      │
+      └── new lens ──▶ pack several short examples into each… ──▶ distinction survives
+```
 
-The lost distinction tells us what to build: pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another.
+Across the brass reference machine, the old path and the repaired path run side by side. One carries “pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste”; the other knows how to pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another. When the failure—the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Sequence Packing**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to sequence packing. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize sequence packing; try to break it by subtraction. Remove the part that knows how to pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another, leaving only the attempt to pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste. What returns is not a vague weakness but the original contradiction: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another. This problem and its repair will travel under the name **Sequence Packing**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste receives the same test as the rule to pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another. Their different outcomes reveal what sequence packing contributes without asking the reader to trust historical convention.
+Under the latest ink, the first question is still legible: what if we followed the tempting rule—pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste? The answer remains the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
 ## Stop Training on Empty Space
 
 Lengths 6, 5, 3, and 2 fill two rows of length 8 exactly. Padding falls from 16 allocated positions with 6 empty to 16 positions with none empty.
 
-Hold the setting, evidence, and desired outcome fixed while testing sequence packing. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## The calculation hidden inside sequence packing
 
-Do not read the coming Sequence Packing line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The enginewright carries the sequence packing scene to the brass reference machine. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Draw two rows with eight boxes each: sixteen paid positions. Place sequences of lengths 6 and 2 in the first row, then 5 and 3 in the second. All sixteen boxes now contain real tokens. To ask what share of the paid space teaches the model, put useful boxes over paid boxes: 16/16. Eta_pack is only a short name for that useful fraction.
 
 The numerator counts language tokens that create lessons; the denominator counts every position for which hardware reserves work.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Division](../../MATHEMATICAL_MOVES.md#division) forms the useful share per allocated position, making batches of different sizes comparable. A raw token count would reward larger batches even if their wasted fraction were worse. The ratio stays between zero and one because real tokens cannot exceed allocated positions.
 
-Every symbol in Sequence Packing can now be read back into an action already performed. The whole procedure fits in one line:
+Three old motions cast new shadows here: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
+
+Cover the prose about sequence packing and each mark can still be recovered from the case. Only now is the compressed form safe to write:
 
 $$
 \eta_{\text{pack}}=\frac{N_{\text{real tokens}}}{N_{\text{allocated positions}}}
@@ -48,13 +56,11 @@ $$
 
 Packing improves utilization only if masks and position resets prevent cross-example contamination.
 
-This is where sequence packing runs out for a causal reason. We gave it enough structure to pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The sequence packing repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take sequence packing to the workbench
+## Return to the brass reference machine
 
-A mathematical story about sequence packing earns trust only when the failed and repaired paths can both be reproduced. Reproduce the waste first, then apply the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running sequence packing, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the sequence packing result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the sequence packing scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

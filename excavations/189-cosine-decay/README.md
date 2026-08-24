@@ -2,41 +2,49 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Warmup protects the optimizer's first steps. Keeping the peak rate for the entire token budget makes late updates as aggressive as early ones even when the model is refining rather than discovering broad structure.
 
-At this point the shortest path seems to be to drop the rate abruptly near the end of training.
+A new case arrives at the Archive Foundry, but the archivist-engineer first reaches for the familiar chain-of-custody ledger. Its promise is simple: drop the rate abruptly near the end of training.
 
-This is how cosine decay ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning. What looked like simplicity is revealed as a missing distinction.
 
-Reality now asks a question the retained information cannot answer: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning.
+*The archivist-engineer sketches the break before changing it:*
 
-The wrong answer makes the need for cosine decay inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ drop the rate abruptly near the end… ──▶ blurred: a sudden cliff changes update scale…
+      │
+      └── new lens ──▶ decay smoothly from the peak toward a… ──▶ distinction survives
+```
 
-We can now repair the procedure without guessing: decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state.
+The archivist-engineer turns the chain-of-custody ledger toward the light. Through the old engraving, drop the rate abruptly near the end of training, the evidence ends in the same contradiction: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning. A second engraving adds only the power to decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Cosine Decay**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The archivist-engineer circles the place where the two cosine decay cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to drop the rate abruptly near the end of training produces the observed failure: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning. Starting with the repaired demand to decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state preserves the information the shortcut lost. The subject of cosine decay lives in the difference between those two causal stories.
+Only the missing distinction is restored: decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. The archivist-engineer writes **Cosine Decay** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state instead of merely trying to drop the rate abruptly near the end of training. That controlled contrast is what turns a plausible explanation of cosine decay into an understandable derivation.
+The archivist-engineer does not memorize cosine decay. Instead, the archivist-engineer memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. The formal name merely lets that motion be shared.
 
 ## Make Late Corrections Smaller Without a Cliff
 
 Halfway through decay, cosine is zero, so the rate sits halfway between its peak and minimum. At the final planned update, cosine reaches negative one and the rate reaches the minimum without a jump.
 
-There are now two histories of this cosine decay case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## The calculation hidden inside cosine decay
 
-Before Cosine Decay receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The archivist-engineer carries the cosine decay scene to the chain-of-custody ledger. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 t is model-training progress through the decay interval of length T; eta_max and eta_min are its endpoint rates; cosine supplies a smooth path between them.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Subtraction](../../MATHEMATICAL_MOVES.md#subtraction) isolates the adjustable rate range, [division](../../MATHEMATICAL_MOVES.md#division) converts progress to a fraction, and [cosine](../../MATHEMATICAL_MOVES.md#cosine) bends that fraction smoothly with flat endpoint slopes. Addition places the scaled range above eta_min. A raw linear drop is possible, but cosine avoids an abrupt endpoint slope.
 
-Every symbol in Cosine Decay can now be read back into an action already performed. The whole procedure fits in one line:
+Trace each operation by touch rather than by name: **the chisel**—what is shared is removed so the remaining change can be seen; **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; and **the returning tide**—movement bends smoothly and reaches its shore without a cliff. Together they form the smallest mechanism that survives the counterexample.
+
+The story of cosine decay has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
 $$
 \eta_t=\eta_{\min}+\frac{\eta_{\max}-\eta_{\min}}{2}\left(1+\cos\frac{\pi t}{T}\right)
@@ -46,13 +54,11 @@ $$
 
 Cosine decay assumes a known horizon and is not automatically optimal when training is unexpectedly extended.
 
-Look back at what cosine decay actually preserves: it can decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the chain-of-custody ledger. None of the responsibilities inside Cosine Decay can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take cosine decay to the workbench
+## Return to the chain-of-custody ledger
 
-The reader has reconstructed cosine decay in words; the workbench tests whether those words specify a real procedure. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running cosine decay, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the cosine decay result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the cosine decay scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

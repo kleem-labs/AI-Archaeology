@@ -2,41 +2,52 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Experimental design isolates one suspected cause and provides a control. A single successful run can still be a favorable random seed rather than a discovery that will survive repetition.
 
-The first defensible move is to keep the best checkpoint and report its score.
+At the Academy of Trials, the experimentalist returns to the sealed evidence ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: keep the best checkpoint and report its score.
 
-There is a real principle behind this restraint: the complexity of reproducibility must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: changing only the random seed makes the gain disappear. The sealed evidence ledger now holds two situations the old rule cannot keep apart.
 
-Now keep that rule fixed and let the difficult case enter: changing only the random seed makes the gain disappear.
+*The experimentalist sketches the break before changing it:*
 
-That distinction is the hinge on which reproducibility turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+observation
+    │
+    ▼
+[keep the best checkpoint and report…]
+    │
+    ╳  changing only the random seed makes…
+    │
+    ▼
+[record code, data, configuration,…]
+```
 
-What survives the counterexample is this requirement: record code, data, configuration, environment, seeds, and variation across repeated runs.
+The sealed evidence ledger is divided down the middle. Left side: “keep the best checkpoint and report its score.” Its final mark records changing only the random seed makes the gain disappear. Right side: the same starting evidence, now allowed to record code, data, configuration, environment, seeds, and variation across repeated runs. The difference is narrow enough to see and important enough to change the ending.
 
-We have earned the chapter's shorter name: **Reproducibility**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The broken rule has given reproducibility a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-A reader can check that reproducibility is necessary rather than decorative. Delete its new responsibility and use the earlier plan to keep the best checkpoint and report its score. Immediately, changing only the random seed makes the gain disappear. Reintroduce the single job to record code, data, configuration, environment, seeds, and variation across repeated runs. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The repair can now be stated without mystery: record code, data, configuration, environment, seeds, and variation across repeated runs. The name **Reproducibility** arrives afterward, like a title given to a path whose stones are already underfoot.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can record code, data, configuration, environment, seeds, and variation across repeated runs. Because the old plan to keep the best checkpoint and report its score is the only displaced piece, the reader can locate exactly where reproducibility changes the outcome.
+One boundary in the room is now sharper. On one side lies the promise to keep the best checkpoint and report its score; on the other lies the observed fact that changing only the random seed makes the gain disappear. The bridge called reproducibility has exactly the planks needed to record code, data, configuration, environment, seeds, and variation across repeated runs.
+
+
+Before leaving the sealed evidence ledger, the experimentalist tests the new idea backward. Remove the ability to record code, data, configuration, environment, seeds, and variation across repeated runs, and the method falls back to this tempting instruction: keep the best checkpoint and report its score. The old consequence returns—changing only the random seed makes the gain disappear. Restore the missing ability and that particular contradiction disappears. This reversible test is why reproducibility belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Can the Discovery Survive Another Run
 
 Run five seeds; compare the distribution of gains rather than celebrating the luckiest one.
 
-The name reproducibility is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## Where reproducibility runs out
 
 Repeated agreement does not remove a shared bias in all runs.
 
-The weakness is not an accidental footnote. Every operation in reproducibility serves the narrower purpose to record code, data, configuration, environment, seeds, and variation across repeated runs; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Reproducibility; it reveals the edge of what was constructed. The experimentalist carries that edge into the following room.
 
-## Take reproducibility to the workbench
+## Return to the sealed evidence ledger
 
-Understanding reproducibility now means predicting its intermediate results before asking software for an answer. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running reproducibility, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the reproducibility result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the reproducibility scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

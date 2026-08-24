@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Near-deduplication leaves a corpus with more distinct documents, not necessarily better ones. Some are navigation fragments, keyword piles, machine corruption, or adversarial spam.
 
-For a moment, remain loyal to the simplest proposal: keep only documents that resemble one prestigious encyclopedia.
+A new case arrives at the Archive Foundry, but the archivist-engineer first reaches for the familiar chain-of-custody ledger. Its promise is simple: keep only documents that resemble one prestigious encyclopedia.
 
-Its appeal is not ignorance but economy. Quality Filtering should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference. More confidence cannot repair information that never entered the rule.
 
-Reality now asks a question the retained information cannot answer: the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference.
+*The archivist-engineer sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for quality filtering. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   keep only documents that resemble one… the filter removes spam, but it also…
+            \        /
+             \      /
+              combine transparent structural…
+```
 
-So the new mechanism must do one additional job: combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter.
+Two trails now cross the chain-of-custody ledger. The pale trail bears the instruction “keep only documents that resemble one prestigious encyclopedia.” It disappears into the observed failure: the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference. The darker trail carries one additional capacity—to combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **Quality Filtering**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed quality filtering mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace quality filtering with the old instruction to keep only documents that resemble one prestigious encyclopedia. The result is again that the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference. Put back only the requirement to combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the chain-of-custody ledger is altered in exactly one way: combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter. Much later, people will call this territory **Quality Filtering**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when quality filtering is introduced. The same evidence that defeated the attempt to keep only documents that resemble one prestigious encyclopedia is presented again. Only the ability to combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter changes, so the repaired conclusion cannot be credited to a conveniently different example.
+Nothing is erased from the chain-of-custody ledger. The failed path remains visible beneath the repair, because quality filtering is easier to remember when its scar remains attached to it. The scar reads, ‘the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference’; the new line exists only to keep that loss from happening again.
 
 ## Remove Noise Without Defining Humanity Away
 
 The station rejects a page with 70 percent repeated navigation and no sentences, but manually audits samples near the threshold and notices that short emergency bulletins need a different rule from essays.
 
-Run the quality filtering scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where quality filtering runs out
 
 Every quality filter encodes values and domain assumptions; measured downstream gains do not prove that excluded voices were unimportant.
 
-Why does that boundary remain? Quality Filtering was built for one responsibility: combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The chain-of-custody ledger answers today's question and falls silent at the next. That silence is precise: Quality Filtering was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take quality filtering to the workbench
+## Return to the chain-of-custody ledger
 
-The argument for quality filtering is still provisional until a runnable case can make it fail. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running quality filtering, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the quality filtering result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the quality filtering scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

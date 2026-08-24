@@ -2,43 +2,55 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 A derivative can question one weight when its effect on loss is direct. Inside the network, that weight first changes a hidden signal, then a score, then a probability, and only then the loss.
 
-The previous discovery seems almost sufficient: we could measure only the first effect or only the final effect.
+Nothing in the Lantern Observatory yet bears today's mathematical name. There is only the keeper of uncertain stories, the ring of glass lanterns, and one plausible action: measure only the first effect or only the final effect.
 
-The shortcut appears to retain everything the chain rule needs. The next observation must test that belief, not merely assert that a textbook prefers another method.
+At the edge of the ring of glass lanterns, the shortcut produces its consequence: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work. That consequence, not a textbook, earns the next move.
 
-One counterexample is enough to expose the missing job: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-The counterexample teaches the chain rule. It reveals which sameness was false, which difference matters, and therefore what the replacement has to make visible.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   measure only the first effect or only… either breaks the causal path.…
+            \        /
+             \      /
+              we need to multiply local…
+```
 
-Only one extra responsibility has been earned: we need to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
+The keeper of uncertain stories covers the new mark and the old contradiction returns: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work. The cover is lifted, restoring the ability to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason chain rule exists.
 
-Now—and not earlier—we may introduce **The Chain Rule**. The words label the problem-and-repair pair whose necessity the reader can already test.
+What must change for chain rule is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
 
-The invention can now defend itself. Without it, our best available move is to measure only the first effect or only the final effect., and the case answers that either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work. With the narrow repair—to we need to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward—the method can express the distinction reality demanded. That before-and-after comparison is the proof of need.
+The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward. That threshold is where **The Chain Rule** enters the story.
 
-The logic would be weaker if the repaired method were tested on an easier scene. It is not. The Chain Rule returns to the same counterexample, replaces the attempt to measure only the first effect or only the final effect. with the responsibility to we need to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward, and must succeed where the shortcut failed.
+The marks on the ring of glass lanterns form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. chain rule is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
 ## The calculation hidden inside the chain rule
 
-Before The Chain Rule receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The keeper of uncertain stories carries the chain rule scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Turn an oven knob slightly. The first mechanism doubles that movement into a fuel change; the next triples the fuel change into temperature; the bread-loss rule magnifies the temperature error fourfold. A one-unit knob change therefore becomes 2, then 6, then 24 units of final sensitivity. Each machine contributes one local multiplier, and the whole causal path requires all of them.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **w→x→y→L** is the causal path through successive machines.
 Each fraction is one local sensitivity: how its output changes when its input changes.
 Multiplication is forced because a change is scaled at every link it traverses.
 The product gives the effect of w on L without pretending they touch directly.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 Each [derivative](../../MATHEMATICAL_MOVES.md#derivative) is a local conversion rate: loss per y, y per x, and x per weight.
 [Multiplying the rates](../../MATHEMATICAL_MOVES.md#multiplication) is forced because one unit of weight change produces dx/dw units of x, each produces dy/dx units of y, and each of those produces dL/dy loss. Adding would mix rates with incompatible units.
 
-The notation is finally shorter than the story that created it:
+Before the line is compressed, notice its recurring motions: **the whispered question**—the present slope answers how a tiny movement would alter the outcome; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+
+The ring of glass lanterns already contains the complete chain rule mechanism. Mathematics gives that mechanism a form small enough to carry:
 
 $$
 \frac{dL}{dw}=\frac{dL}{dy}\frac{dy}{dx}\frac{dx}{dw}
@@ -52,12 +64,10 @@ A line of gears passes motion onward. To know the final turn from the first gear
 
 Branches require sensitivities from every downstream path to be added, not merely one chain followed.
 
-The boundary can be predicted from the construction itself. The Chain Rule performs the repair to we need to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward; the additional problem names a job outside that construction. Recognizing that edge prevents one successful equation or procedure from pretending to be a complete intelligence.
+Here the new path ends honestly. Chain Rule can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-## Take the chain rule to the workbench
+## Return to the ring of glass lanterns
 
-Move the chain rule from imagination to evidence by making the shortcut fail under controlled inputs. Build the wrong idea first, break it, then use [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running the chain rule, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the the chain rule result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the chain rule scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).

@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 A testable hypothesis predicts a measurable difference. If several components change together, the result cannot reveal which intervention caused that difference.
 
-Before naming anything new, try to ship both improvements and compare with the old system.
+Nothing in the Academy of Trials yet bears today's mathematical name. There is only the experimentalist, the sealed evidence ledger, and one plausible action: ship both improvements and compare with the old system.
 
-Its appeal is not ignorance but economy. Experimental Design should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit. More confidence cannot repair information that never entered the rule.
 
-One counterexample is enough to expose the missing job: the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit.
+*The experimentalist sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for experimental design. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+reference evidence ──▶ shortcut: ship both improvements and compare…
+                         │
+                         └── mismatch: the trouble appears immediately: one…
 
-So the new mechanism must do one additional job: we need to hold everything fixed except the suspected cause, and include a control that receives no intervention.
+reference evidence ──▶ measured repair: we need to hold everything fixed…
+```
 
-Humanity eventually gathered this problem and its repairs under the name **Experimental Design**. The name comes after the need; it must never conceal the observation that gave it meaning.
+Two trails now cross the sealed evidence ledger. The pale trail bears the instruction “ship both improvements and compare with the old system.” It disappears into the observed failure: the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit. The darker trail carries one additional capacity—to hold everything fixed except the suspected cause, and include a control that receives no intervention. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace experimental design with the old instruction to ship both improvements and compare with the old system. The result is again that the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit. Put back only the requirement to we need to hold everything fixed except the suspected cause, and include a control that receives no intervention. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+The room becomes quiet around the failed experimental design mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-The comparison has one invariant: the world does not become kinder when experimental design is introduced. The same evidence that defeated the attempt to ship both improvements and compare with the old system is presented again. Only the ability to we need to hold everything fixed except the suspected cause, and include a control that receives no intervention changes, so the repaired conclusion cannot be credited to a conveniently different example.
+So the sealed evidence ledger is altered in exactly one way: we need to hold everything fixed except the suspected cause, and include a control that receives no intervention. Much later, people will call this territory **Experimental Design**. Here the name is only a memory of the failure it can survive.
+
+The sealed evidence ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and experimental design looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
 ## Changing One Cause at a Time
 
 Train four tiny models: old/new tokenizer crossed with small/large width; the four cells separate both effects and their interaction.
 
-Run the experimental design scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where experimental design runs out
 
 Perfect control in a laboratory may not represent deployment.
 
-Why does that boundary remain? Experimental Design was built for one responsibility: we need to hold everything fixed except the suspected cause, and include a control that receives no intervention. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The sealed evidence ledger answers today's question and falls silent at the next. That silence is precise: Experimental Design was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take experimental design to the workbench
+## Return to the sealed evidence ledger
 
-The argument for experimental design is still provisional until a runnable case can make it fail. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running experimental design, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the experimental design result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the experimental design scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

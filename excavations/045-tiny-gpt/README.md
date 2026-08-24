@@ -2,33 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 A context window bounds how much past the model can carry. We have now earned every part of a tiny GPT; the remaining question is whether those parts actually cooperate in one prediction-and-generation loop.
 
-At this point the shortest path seems to be to call a framework Transformer and hide the causal chain.
+A new case arrives at the Clockwork Scriptorium, but the mechanist first reaches for the familiar sentence-wheel. Its promise is simple: call a framework Transformer and hide the causal chain.
 
-This is how a tiny gpt ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: or connect the parts without checking shapes, leakage, and target alignment. What looked like simplicity is revealed as a missing distinction.
 
-Reality now asks a question the retained information cannot answer: or connect the parts without checking shapes, leakage, and target alignment.
+*The mechanist sketches the break before changing it:*
 
-The wrong answer makes the need for a tiny gpt inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+observation
+    │
+    ▼
+[call a framework Transformer and hide…]
+    │
+    ╳  or connect the parts without checking…
+    │
+    ▼
+[assemble token and position…]
+```
 
-We can now repair the procedure without guessing: assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
+The mechanist turns the sentence-wheel toward the light. Through the old engraving, call a framework Transformer and hide the causal chain, the evidence ends in the same contradiction: or connect the parts without checking shapes, leakage, and target alignment. A second engraving adds only the power to assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **A Tiny GPT**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The mechanist circles the place where the two tiny gpt cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to call a framework Transformer and hide the causal chain. produces the observed failure: or connect the parts without checking shapes, leakage, and target alignment. Starting with the repaired demand to assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program preserves the information the shortcut lost. The subject of a tiny gpt lives in the difference between those two causal stories.
+Only the missing distinction is restored: assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. The mechanist writes **A Tiny GPT** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program instead of merely trying to call a framework Transformer and hide the causal chain.. That controlled contrast is what turns a plausible explanation of a tiny gpt into an understandable derivation.
+The mechanist does not memorize tiny gpt. Instead, the mechanist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. The formal name merely lets that motion be shared.
 
 ## The calculation hidden inside a tiny gpt
 
-Before A Tiny GPT receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The mechanist carries the tiny gpt scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 A tiny GPT demonstrates the mechanism, not modern capability. Scale, data quality, optimization, evaluation, and safety now become the next landscape.
 
 Begin with the prompt “the tiger.” Its token addresses fetch learned starting descriptions; position marks preserve order; masked attention gathers only allowed context; token workshops transform what was gathered; and the output scores every possible next word. Suppose sampling chooses *sleeps*. Appending that choice creates “the tiger sleeps,” and the same mechanism now faces a new prediction. The language model exists only when this entire loop closes.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **tokens** are discrete addresses produced by the tokenizer.
 **embeddings** turn addresses into vectors; Transformer **blocks** contextualize them under causal masking.
@@ -37,12 +49,12 @@ Begin with the prompt “the tiger.” Its token addresses fetch learned startin
 **sample** chooses a continuation and feeds it back as the next token.
 The arrows encode one closed causal loop, not an unexplained algebraic equality.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Arrows](../../MATHEMATICAL_MOVES.md#arrows) show dependency and order rather than equality: tokens become representations, representations produce scores, loss produces gradients, and an update changes what the next sample can be.
 The loop matters more than any isolated sign. Removing one arrow breaks the causal path by which observed text can change future generation.
 
-The notation is finally shorter than the story that created it:
+The story of tiny gpt has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
 $$
 tokens\to embeddings\to blocks\to logits\to loss\to update\to sample
@@ -54,11 +66,19 @@ The equation arrives after every operation has a job.
 
 An archaeological reconstruction succeeds when the rebuilt machine moves, not when labeled components remain on separate tables.
 
-## Take a tiny gpt to the workbench
+## A sentence enters; a future leaves
 
-The reader has reconstructed a tiny gpt in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Close the loop yourself in the [Transparent Generation Field Lab](../../labs/05_generation_lab.py). Every generated token prints the scores, probabilities, choice, and updated context. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running a tiny gpt, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
+Characters became tokens, tokens found coordinates, positions supplied order, masks protected honesty, and logits opened a competition among possible next words. The tiny GPT is not one invention. It is a procession of necessities moving through a sentence.
 
-Explain the a tiny gpt result once without terminology, then once with the precise symbols or state transitions the implementation used.
+```text
+text → tokens → positions → context → probabilities → next token
+```
+
+The trail called *a sentence enters; a future leaves* is what remains when one necessity becomes another.
+
+## Return to the sentence-wheel
+
+Rebuild the tiny gpt scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

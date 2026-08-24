@@ -2,41 +2,44 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Three-dimensional parallelism spreads parameters, moments, gradients, and progress across many owners. Asking one coordinator to gather everything before saving can exceed its memory and stall the cluster.
 
-Nothing yet appears to demand a new invention. We can let every worker write its local tensors and call the directory a checkpoint.
+The chain-of-custody ledger at the Archive Foundry still carries the marks of the previous discovery. The archivist-engineer follows them as far as they seem willing to go: let every worker write its local tensors and call the directory a checkpoint.
 
-There is a real principle behind this restraint: the complexity of sharded checkpoints must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state. The chain-of-custody ledger now holds two situations the old rule cannot keep apart.
 
-Its hidden assumption becomes visible as soon as we observe that a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state.
+*The archivist-engineer sketches the break before changing it:*
 
-That distinction is the hinge on which sharded checkpoints turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+OLD PATH:  request ──▶ let every worker write its local… ──▶ a worker fails before writing, two…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ write versioned shards to temporary… ──▶ accountable result
+```
 
-What survives the counterexample is this requirement: write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable.
+The chain-of-custody ledger is divided down the middle. Left side: “let every worker write its local tensors and call the directory a checkpoint.” Its final mark records a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state. Right side: the same starting evidence, now allowed to write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable. The difference is narrow enough to see and important enough to change the ending.
 
-We have earned the chapter's shorter name: **Sharded Checkpoints**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The broken rule has given sharded checkpoints a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-A reader can check that sharded checkpoints is necessary rather than decorative. Delete its new responsibility and use the earlier plan to let every worker write its local tensors and call the directory a checkpoint. Immediately, a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state. Reintroduce the single job to write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The repair can now be stated without mystery: write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable. The name **Sharded Checkpoints** arrives afterward, like a title given to a path whose stones are already underfoot.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable. Because the old plan to let every worker write its local tensors and call the directory a checkpoint is the only displaced piece, the reader can locate exactly where sharded checkpoints changes the outcome.
+A thread now runs backward from sharded checkpoints through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
 ## Save One Recoverable State Without Gathering It
 
 Twenty-four workers save step 8,000. The manifest expects twenty-four parameter shards, optimizer shards, scheduler state, RNG state, and data cursors; the checkpoint becomes eligible for recovery only when every recorded hash verifies.
 
-The name sharded checkpoints is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## Where sharded checkpoints runs out
 
 A complete checkpoint limits lost work but consumes storage and I/O bandwidth; frequent synchronous saves can dominate training time.
 
-The weakness is not an accidental footnote. Every operation in sharded checkpoints serves the narrower purpose to write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Sharded Checkpoints; it reveals the edge of what was constructed. The archivist-engineer carries that edge into the following room.
 
-## Take sharded checkpoints to the workbench
+## Return to the chain-of-custody ledger
 
-Understanding sharded checkpoints now means predicting its intermediate results before asking software for an answer. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running sharded checkpoints, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the sharded checkpoints result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the sharded checkpoints scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

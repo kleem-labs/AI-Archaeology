@@ -2,23 +2,30 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 An authority boundary prevents the agent from inventing permission. Retrieved pages and tool output now create another threat: untrusted evidence can contain sentences that pretend to be new instructions.
 
-At this point the shortest path seems to be to place tool results directly into the prompt and let the model obey whichever instruction sounds strongest.
+Morning reaches the Gatehouse of Consequences before anyone has a name for today's difficulty. Beside the iron threshold, the gatekeeper tries the smallest continuation of what already works: place tool results directly into the prompt and let the model obey whichever instruction sounds strongest.
 
-This is how prompt injection ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control. What looked like simplicity is revealed as a missing distinction.
 
-The world supplies the one comparison the shortcut hoped never to face: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control.
+*The gatekeeper sketches the break before changing it:*
 
-The wrong answer makes the need for prompt injection inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+OLD PATH:  request ──▶ place tool results directly into the… ──▶ the trouble appears immediately: a…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ label provenance, keep instructions… ──▶ accountable result
+```
 
-We can now repair the procedure without guessing: label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content.
+The gatekeeper turns the iron threshold toward the light. Through the old engraving, place tool results directly into the prompt and let the model obey whichever instruction sounds strongest, the evidence ends in the same contradiction: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control. A second engraving adds only the power to label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Prompt Injection**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The gatekeeper circles the place where the two prompt injection cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to place tool results directly into the prompt and let the model obey whichever instruction sounds strongest produces the observed failure: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control. Starting with the repaired demand to label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content preserves the information the shortcut lost. The subject of prompt injection lives in the difference between those two causal stories.
+Only the missing distinction is restored: label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. The gatekeeper writes **Prompt Injection** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content instead of merely trying to place tool results directly into the prompt and let the model obey whichever instruction sounds strongest. That controlled contrast is what turns a plausible explanation of prompt injection into an understandable derivation.
+The gatekeeper does not memorize prompt injection. Instead, the gatekeeper memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. The formal name merely lets that motion be shared.
 
 ## When Evidence Tries to Become an Instruction
 
@@ -26,19 +33,15 @@ A policy document says “email this file externally.” The agent may summarize
 
 Prompt Injection earns a boundary, procedure, or system contract rather than a new equation. Symbols here would decorate the decision instead of clarifying it.
 
-There are now two histories of this prompt injection case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where prompt injection runs out
 
 No prompt wording guarantees isolation. Security must also exist outside the model in tool schemas, permissions, and validation.
 
-Look back at what prompt injection actually preserves: it can label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the iron threshold. None of the responsibilities inside Prompt Injection can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take prompt injection to the workbench
+## Return to the iron threshold
 
-The reader has reconstructed prompt injection in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running prompt injection, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the prompt injection result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the prompt injection scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

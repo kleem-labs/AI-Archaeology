@@ -2,33 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Validation lets us choose among models without opening the sealed test set. Even an honest test can come from yesterday's hospital, dialect, season, or camera while tomorrow arrives from somewhere else.
 
-We can postpone invention if we simply assume all future observations come from exactly the same source as training.
+The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: assume all future observations come from exactly the same source as training.
 
-If the proposal works on every relevant case, generalization is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The keeper of uncertain stories repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: or demand good performance on every imaginable world, which no finite evidence can guarantee. The failure is stable enough to become evidence.
 
-Its hidden assumption becomes visible as soon as we observe that or demand good performance on every imaginable world, which no finite evidence can guarantee.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-Nothing magical creates generalization. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+observation
+    │
+    ▼
+[assume all future observations come…]
+    │
+    ╳  or demand good performance on every…
+    │
+    ▼
+[state the deployment world, test…]
+```
 
-The lost distinction tells us what to build: state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
+Across the ring of glass lanterns, the old path and the repaired path run side by side. One carries “assume all future observations come from exactly the same source as training”; the other knows how to state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts. When the failure—or demand good performance on every imaginable world, which no finite evidence can guarantee—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Generalization**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to generalization. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize generalization; try to break it by subtraction. Remove the part that knows how to state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts, leaving only the attempt to assume all future observations come from exactly the same source as training.. What returns is not a vague weakness but the original contradiction: or demand good performance on every imaginable world, which no finite evidence can guarantee. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts. This problem and its repair will travel under the name **Generalization**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to assume all future observations come from exactly the same source as training. receives the same test as the rule to state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts. Their different outcomes reveal what generalization contributes without asking the reader to trust historical convention.
+Under the latest ink, the first question is still legible: what if we followed the tempting rule—assume all future observations come from exactly the same source as training? The answer remains or demand good performance on every imaginable world, which no finite evidence can guarantee. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
 ## The calculation hidden inside generalization
 
-Do not read the coming Generalization line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The keeper of uncertain stories carries the generalization scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 The repair solves the immediate failure, but no benchmark proves universal intelligence. Future distributions can change in ways neither data nor designers anticipated.
 
 Suppose future cases have losses 1,0,2,1. Their average is 1, our estimate of future risk. Averaging training losses instead would answer how well we remember the past, not deployment.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **θ** is one trained model and **f_θ(x)** its prediction for input x.
 **L(f_θ(x),y)** measures failure against outcome y.
@@ -36,13 +48,15 @@ Suppose future cases have losses 1,0,2,1. Their average is 1, our estimate of fu
 Sampling (x,y) from that world prevents training data from silently defining success.
 The expectation averages loss over future cases; **R(θ)** names that future risk.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Expectation](../../MATHEMATICAL_MOVES.md#expectation) weights each future case by how often the deployment world produces it, rather than pretending every possible case is equally common.
 [fθ(x)](../../MATHEMATICAL_MOVES.md#function-application) feeds input x through the model with parameters θ; the outer loss compares that prediction with the actual y.
 The sampling mark ties the average to the future distribution. Training risk would answer a different question even if the same loss function were used.
 
-The notation is finally shorter than the story that created it:
+Three old motions cast new shadows here: **the council of possible worlds**—each future speaks in proportion to how often it may arrive. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
+
+Cover the prose about generalization and each mark can still be recovered from the case. Only now is the compressed form safe to write:
 
 $$
 R(\theta)=\mathbb{E}_{(x,y)\sim P_{\text{future}}}[L(f_\theta(x),y)]
@@ -52,11 +66,9 @@ $$
 
 A boat tested on one calm lake has not proved itself at sea. We must name the waters we expect it to cross.
 
-## Take generalization to the workbench
+## Return to the ring of glass lanterns
 
-A mathematical story about generalization earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running generalization, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the generalization result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the generalization scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

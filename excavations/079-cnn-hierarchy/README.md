@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Pooling keeps strong local evidence while shrinking the map. Edges and spots are still not eyes, stripes, or tigers; later detectors must compose simple evidence into larger structures.
 
-Before naming anything new, try to classify directly from isolated edge responses.
+Nothing in the Glass Menagerie yet bears today's mathematical name. There is only the maker of seeing-machines, the wall of illuminated tiles, and one plausible action: classify directly from isolated edge responses.
 
-Its appeal is not ignorance but economy. CNN Hierarchies should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: one edge has no object-level meaning. More confidence cannot repair information that never entered the rule.
 
-One counterexample is enough to expose the missing job: one edge has no object-level meaning.
+*The maker of seeing-machines sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for cnn hierarchies. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+OLD PATH:  request ──▶ classify directly from isolated edge… ──▶ one edge has no object-level meaning
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ we need to stack local detectors so… ──▶ accountable result
+```
 
-So the new mechanism must do one additional job: we need to stack local detectors so later layers combine earlier patterns over wider regions.
+Two trails now cross the wall of illuminated tiles. The pale trail bears the instruction “classify directly from isolated edge responses.” It disappears into the observed failure: one edge has no object-level meaning. The darker trail carries one additional capacity—to stack local detectors so later layers combine earlier patterns over wider regions. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **CNN Hierarchies**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed cnn hierarchies mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace cnn hierarchies with the old instruction to classify directly from isolated edge responses. The result is again that one edge has no object-level meaning. Put back only the requirement to we need to stack local detectors so later layers combine earlier patterns over wider regions. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the wall of illuminated tiles is altered in exactly one way: we need to stack local detectors so later layers combine earlier patterns over wider regions. Much later, people will call this territory **CNN Hierarchies**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when cnn hierarchies is introduced. The same evidence that defeated the attempt to classify directly from isolated edge responses is presented again. Only the ability to we need to stack local detectors so later layers combine earlier patterns over wider regions changes, so the repaired conclusion cannot be credited to a conveniently different example.
+The wall of illuminated tiles has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and cnn hierarchies looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
+
+
+Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to stack local detectors so later layers combine earlier patterns over wider regions, and the method falls back to this tempting instruction: classify directly from isolated edge responses. The old consequence returns—one edge has no object-level meaning. Restore the missing ability and that particular contradiction disappears. This reversible test is why cnn hierarchies belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Understanding cnn hierarchies
 
 Edges form corners; corners and textures form stripes; repeated stripes plus shape support tiger.
 
-Run the cnn hierarchies scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where cnn hierarchies runs out
 
 The hierarchy is learned, not guaranteed to match human parts.
 
-Why does that boundary remain? CNN Hierarchies was built for one responsibility: we need to stack local detectors so later layers combine earlier patterns over wider regions. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The wall of illuminated tiles answers today's question and falls silent at the next. That silence is precise: CNN Hierarchies was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take cnn hierarchies to the workbench
+## Return to the wall of illuminated tiles
 
-The argument for cnn hierarchies is still provisional until a runnable case can make it fail. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running cnn hierarchies, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the cnn hierarchies result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the cnn hierarchies scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

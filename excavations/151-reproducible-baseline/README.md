@@ -2,47 +2,59 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 > **PART XII — REBUILDING THE ENGINE WITHOUT BREAKING THE SYSTEM**
 >
 > The research loop is bounded. We may now improve the model—but every faster path must preserve a reference path and earn its evidence.
 
 The bounded loop can approve a candidate, but approval is meaningless if nobody can reconstruct the system it is supposed to improve.
 
-Before naming anything new, try to keep the final score and the model file; those should be enough to compare the next idea.
+Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: keep the final score and the model file; those should be enough to compare the next idea.
 
-Its appeal is not ignorance but economy. A Reproducible Baseline should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied. More confidence cannot repair information that never entered the rule.
 
-One counterexample is enough to expose the missing job: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied.
+*The enginewright sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for a reproducible baseline. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+observation
+    │
+    ▼
+[keep the final score and the model…]
+    │
+    ╳  a rerun changes the data order,…
+    │
+    ▼
+[freeze the model specification, data…]
+```
 
-So the new mechanism must do one additional job: freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline.
+Two trails now cross the brass reference machine. The pale trail bears the instruction “keep the final score and the model file; those should be enough to compare the next idea.” It disappears into the observed failure: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied. The darker trail carries one additional capacity—to freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **A Reproducible Baseline**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed reproducible baseline mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace a reproducible baseline with the old instruction to keep the final score and the model file; those should be enough to compare the next idea. The result is again that a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied. Put back only the requirement to freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the brass reference machine is altered in exactly one way: freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. Much later, people will call this territory **A Reproducible Baseline**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when a reproducible baseline is introduced. The same evidence that defeated the attempt to keep the final score and the model file; those should be enough to compare the next idea is presented again. Only the ability to freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline changes, so the repaired conclusion cannot be credited to a conveniently different example.
+The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and reproducible baseline looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made. The Engine Cavern lets reproducible baseline change speed, memory, or scale while the brass reference machine guards meaning. Equality here is not decoration; it is a promise that the optimized path performs the same mathematical responsibility by another physical route.
 
 ## Improve Something That Actually Exists
 
 Run the same tiny tiger-language model twice from the recorded seed. Only after its loss curve and held-out score agree do we permit one component to change.
 
-Run the a reproducible baseline scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## The calculation hidden inside a reproducible baseline
 
-Before A Reproducible Baseline receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The enginewright carries the reproducible baseline scene to the brass reference machine. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 The frozen run scores 2.4 and the candidate scores 2.1 on the same loss test. Looking at 2.1 alone cannot tell you whether anything improved. Remove the old 2.4 from the new 2.1: the remaining −0.3 is the candidate's change. We call the old measurement m_baseline, the new one m_candidate, and the remainder delta m only after doing that comparison.
 
 m_baseline is the frozen model's measurement; m_candidate is measured by the same procedure; delta m names only the change between them.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Subtraction](../../MATHEMATICAL_MOVES.md#subtraction) removes the common baseline and isolates the candidate's change. Addition would make two large scores look impressive even when they are identical. The order fixes the sign: positive means the candidate raised this metric.
 
-Every symbol in A Reproducible Baseline can now be read back into an action already performed. The whole procedure fits in one line:
+Before the line is compressed, notice its recurring motions: **the chisel**—what is shared is removed so the remaining change can be seen. They are the handholds by which the reader can later climb back from notation to meaning.
+
+The enginewright reads the journey of reproducible baseline once more across the brass reference machine, then lets the words contract without losing their order:
 
 $$
 \Delta m=m_{\text{candidate}}-m_{\text{baseline}}
@@ -52,13 +64,11 @@ $$
 
 Reproducibility makes differences attributable; it does not tell us which component is worth changing.
 
-Why does that boundary remain? A Reproducible Baseline was built for one responsibility: freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The brass reference machine answers today's question and falls silent at the next. That silence is precise: Reproducible Baseline was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take a reproducible baseline to the workbench
+## Return to the brass reference machine
 
-The argument for a reproducible baseline is still provisional until a runnable case can make it fail. Reproduce the waste first, then apply the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running a reproducible baseline, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the a reproducible baseline result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the reproducible baseline scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

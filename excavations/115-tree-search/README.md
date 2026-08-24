@@ -2,33 +2,39 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Model-based planning can simulate possible action sequences. Their number grows exponentially with depth, making exhaustive imagination impossible long before the world model runs out of detail.
 
-Before naming anything new, try to expand every branch equally.
+Night gathers around the Hall of Possible Worlds. Under the light of the table of mirrored maps, the keeper of unfinished questions refuses to invent prematurely and begins with the plain rule: expand every branch equally.
 
-Its appeal is not ignorance but economy. Tree Search should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: most computation is wasted on obviously poor branches. More confidence cannot repair information that never entered the rule.
 
-Then a case arrives in which convenience and truth separate: most computation is wasted on obviously poor branches.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for tree search. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+possible road A ─┐
+                 ├── old map: expand every branch equally
+possible road B ─┘              └── loses: most computation is wasted on…
 
-So the new mechanism must do one additional job: we need to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.
+same roads ──▶ repaired map ──▶ we need to balance exploring…
+```
 
-Humanity eventually gathered this problem and its repairs under the name **Tree Search**. The name comes after the need; it must never conceal the observation that gave it meaning.
+Two trails now cross the table of mirrored maps. The pale trail bears the instruction “expand every branch equally.” It disappears into the observed failure: most computation is wasted on obviously poor branches. The darker trail carries one additional capacity—to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace tree search with the old instruction to expand every branch equally. The result is again that most computation is wasted on obviously poor branches. Put back only the requirement to we need to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+The room becomes quiet around the failed tree search mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-The comparison has one invariant: the world does not become kinder when tree search is introduced. The same evidence that defeated the attempt to expand every branch equally is presented again. Only the ability to we need to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward changes, so the repaired conclusion cannot be credited to a conveniently different example.
+So the table of mirrored maps is altered in exactly one way: we need to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. Much later, people will call this territory **Tree Search**. Here the name is only a memory of the failure it can survive.
+
+The table of mirrored maps has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and tree search looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
 ## Understanding tree search
 
 A game search revisits a move that won often while still testing a less explored alternative.
 
-Run the tree search scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## The calculation hidden inside tree search
 
-Before Tree Search receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The keeper of unfinished questions carries the tree search scene to the table of mirrored maps. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 A cave explorer can investigate the river tunnel or the ridge tunnel. The river tunnel has produced good finds in eight visits; the ridge has been tried only once. Choosing only the better average may ignore an undiscovered ridge chamber, while choosing only the least visited branch wastes known evidence. The search score adds an uncertainty bonus that is large for neglected branches and shrinks as visits supply evidence.
 
@@ -37,14 +43,16 @@ Visit count shrinks the exploration bonus as evidence accumulates.
 Total visits increase pressure to reconsider neglected branches.
 The constant controls how much uncertainty competes with known reward.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [The bar over R](../../MATHEMATICAL_MOVES.md#symbol-decorations) marks the mean return, keeping what a branch has already demonstrated; see [mean](../../MATHEMATICAL_MOVES.md#mean).
 [log N](../../MATHEMATICAL_MOVES.md#logarithm) lets exploration pressure grow slowly as the parent receives more visits instead of growing in direct proportion forever.
 [Dividing by nₐ](../../MATHEMATICAL_MOVES.md#division) makes an often-tested action less uncertain; [the square root](../../MATHEMATICAL_MOVES.md#square-root) tempers how sharply that exploration bonus changes.
 [c scales curiosity](../../MATHEMATICAL_MOVES.md#multiplication) and [addition](../../MATHEMATICAL_MOVES.md#addition) places that exploration bonus beside observed reward. Multiplying reward and curiosity would make either zero erase the other.
 
-Every symbol in Tree Search can now be read back into an action already performed. The whole procedure fits in one line:
+The symbols are about to change costume, but their work has appeared before: **the spiral stair**—compounded chances become steps that can be accumulated; **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; and **the road home**—a squared construction returns to the scale of the world that created it. This is how distant excavations begin to sound like variations of one melody.
+
+The keeper of unfinished questions reads the journey of tree search once more across the table of mirrored maps, then lets the words contract without losing their order:
 
 $$
 \mathrm{score}(a)=\overline R_a+c\sqrt{\frac{\log N}{n_a}}
@@ -54,13 +62,11 @@ $$
 
 Search quality depends on simulations and evaluation estimates.
 
-Why does that boundary remain? Tree Search was built for one responsibility: we need to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The table of mirrored maps answers today's question and falls silent at the next. That silence is precise: Tree Search was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take tree search to the workbench
+## Return to the table of mirrored maps
 
-The argument for tree search is still provisional until a runnable case can make it fail. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running tree search, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the tree search result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the tree search scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

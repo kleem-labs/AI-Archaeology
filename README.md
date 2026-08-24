@@ -12,6 +12,11 @@ For uninterrupted reading, begin with the
 the working dig sites where code, diagrams, mistakes, exercises, and references
 live beside the idea that produced them.
 
+Before entering the first valley, open [The Living Mathematics](THE_LIVING_MATHEMATICS.md).
+It is the imaginative map of the journey: the places we revisit, the objects
+that remember earlier failures, and the recurring mathematical motions that let
+one equation lead naturally to another.
+
 Read it as a book through the [thirteen-part reading path](PARTS.md). Work with it
 as a laboratory through the [field-lab protocol](labs/README.md). The
 [completion status](COMPLETION_STATUS.md) distinguishes finished depth from

@@ -19,6 +19,19 @@ VOLUMES = (
      "The modern engine can run. We now build the accountable factory around it: traceable evidence, explicit curation, budgeted learning, coordinated workers, recoverable state, independent audits, and a report that remains attached to the final artifact."),
 )
 
+VOLUME_OVERTURES = {
+    0: ("The book opens in a valley where mathematics has no names. Keep watch for one recurring transformation: an observation becomes a mark, the mark becomes a relationship, and the relationship becomes a machine. The tiger crossing the valley is not an example pasted onto a formula; its tracks are the pressure from which the formula will grow.",
+        "tracks → marks → relationships → a mind begins"),
+    46: ("The constructed mind enters halls where its words affect other lives. Listen for the mathematics of boundaries: probabilities become trust, retrieval becomes evidence, tools become consequences, and every powerful arrow must meet a gate that asks whether it is authorized.",
+         "voice → evidence → action → consequence → proof"),
+    101: ("The journey turns inward toward ignorance. Mirrored maps cover the Hall of Possible Worlds; some reflect missing knowledge, others irreducible chance. Here mathematics becomes the art of keeping alternatives alive long enough for evidence to separate them.",
+          "ignorance → possible worlds → causes → tests → knowledge"),
+    151: ("The brass reference machine hums in the Engine Cavern. Every optimization will be offered speed, memory, or scale, but the old machine remains beside it as a tuning fork. A faster path is accepted only when the mathematical responsibility sounds the same note.",
+          "reference path ══ measured equivalence ══ optimized path"),
+    176: ("The final volume enters the Archive Foundry, where documents become training experience. Nothing may disappear without a trace: sources, filters, mixtures, updates, checkpoints, and release decisions must remain connected by a recoverable chain of evidence.",
+          "document → lineage → lesson → update → artifact → account"),
+}
+
 PARTS = {
     0: ("Part I — Measuring Reality",
         "A community in the valley can recognize danger but cannot yet compare one observation with another. Counting, features, vectors, distance, and matrices will not arrive as school subjects. Each will be invented because the previous description fails during the same attempt to understand the animals around the camp."),
@@ -67,6 +80,7 @@ def chapter_for_book(path):
     text = path.read_text().strip()
     number = int(path.parent.name[:3])
     text = re.sub(r"^> \*\*PART .*?(?=\n\n)", "", text, flags=re.M | re.S)
+    text = re.sub(r"^<!-- .*? -->\n*", "", text, flags=re.M)
     text = re.sub(r"^\[(?:Previous|Next)[^\n]*$", "", text, flags=re.M)
     for heading in SUPPORT_HEADINGS:
         text = re.sub(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", "", text, flags=re.M | re.S)
@@ -107,8 +121,10 @@ def chapter_for_book(path):
 
 def build_volume(filename, start, end, title, introduction):
     volume_parts = [(number, value) for number, value in PARTS.items() if start <= number <= end]
+    overture, overture_map = VOLUME_OVERTURES[start]
     out = [f"# {title}", "", introduction, "",
            "One discovery will create the need for the next; the object under construction never resets.", "",
+           "## Overture", "", overture, "", "```text", overture_map, "```", "",
            "In this volume:", ""]
     out.extend(f"- [{part_title}](#{slug(part_title)})" for _, (part_title, _) in volume_parts)
     for path in sorted((ROOT / "excavations").glob("*/README.md")):
@@ -151,6 +167,10 @@ squares, exponentiates, logs, maximizes, or differentiates, use
 
 To see every earned equation as one connected memory, enter the
 [living Mathematical Mandala](../math-mandala/README.md).
+
+To remember the recurring places and mathematical motions that bind the five
+volumes into one imaginative journey, begin with
+[The Living Mathematics](../THE_LIVING_MATHEMATICS.md).
 """
     return result
 

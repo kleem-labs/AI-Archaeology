@@ -15,7 +15,7 @@ for path in sorted((ROOT / "excavations").glob("*/README.md")):
         continue
     number = int(path.parent.name[:3])
     equation_numbers.add(number)
-    heading = "### Why no cheaper operation does the same job"
+    heading = "### Why the melody needs these exact notes"
     if text.count(heading) != 1:
         failures.append(f"{path}: expected exactly one operation-reasoning section")
         continue

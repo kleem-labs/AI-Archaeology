@@ -2,41 +2,52 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 A mixture of experts activates only a few specialists for each token. Long-context attention still compares too many token pairs, making communication—not expert capacity—the next computational bottleneck.
 
-Nothing yet appears to demand a new invention. We can keep full attention and buy more hardware.
+The doors of the Academy of Trials close against the wind. On the sealed evidence ledger, the experimentalist writes the cheapest rule that might still be true: keep full attention and buy more hardware.
 
-There is a real principle behind this restraint: the complexity of sparse attention must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: doubling length roughly quadruples pairwise comparisons. The sealed evidence ledger now holds two situations the old rule cannot keep apart.
 
-The decisive test is this: doubling length roughly quadruples pairwise comparisons.
+*The experimentalist sketches the break before changing it:*
 
-That distinction is the hinge on which sparse attention turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+observation
+    │
+    ▼
+[keep full attention and buy more…]
+    │
+    ╳  doubling length roughly quadruples…
+    │
+    ▼
+[preserve a small pattern of local,…]
+```
 
-What survives the counterexample is this requirement: preserve a small pattern of local, global, or retrieved connections that matches the task's information paths.
+The sealed evidence ledger is divided down the middle. Left side: “keep full attention and buy more hardware.” Its final mark records doubling length roughly quadruples pairwise comparisons. Right side: the same starting evidence, now allowed to preserve a small pattern of local, global, or retrieved connections that matches the task's information paths. The difference is narrow enough to see and important enough to change the ending.
 
-We have earned the chapter's shorter name: **Sparse Attention**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The broken rule has given sparse attention a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-A reader can check that sparse attention is necessary rather than decorative. Delete its new responsibility and use the earlier plan to keep full attention and buy more hardware. Immediately, doubling length roughly quadruples pairwise comparisons. Reintroduce the single job to preserve a small pattern of local, global, or retrieved connections that matches the task's information paths. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The repair can now be stated without mystery: preserve a small pattern of local, global, or retrieved connections that matches the task's information paths. The name **Sparse Attention** arrives afterward, like a title given to a path whose stones are already underfoot.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can preserve a small pattern of local, global, or retrieved connections that matches the task's information paths. Because the old plan to keep full attention and buy more hardware is the only displaced piece, the reader can locate exactly where sparse attention changes the outcome.
+A thread now runs backward from sparse attention through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and doubling length roughly quadruples pairwise comparisons. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
+
+
+Before leaving the sealed evidence ledger, the experimentalist tests the new idea backward. Remove the ability to preserve a small pattern of local, global, or retrieved connections that matches the task's information paths, and the method falls back to this tempting instruction: keep full attention and buy more hardware. The old consequence returns—doubling length roughly quadruples pairwise comparisons. Restore the missing ability and that particular contradiction disappears. This reversible test is why sparse attention belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Looking Without Comparing Everything
 
 A document token attends nearby sentences plus section headings instead of every word in the book.
 
-The name sparse attention is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## Where sparse attention runs out
 
 A sparse pattern can hide the one distant clue the answer needs.
 
-The weakness is not an accidental footnote. Every operation in sparse attention serves the narrower purpose to preserve a small pattern of local, global, or retrieved connections that matches the task's information paths; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Sparse Attention; it reveals the edge of what was constructed. The experimentalist carries that edge into the following room.
 
-## Take sparse attention to the workbench
+## Return to the sealed evidence ledger
 
-Understanding sparse attention now means predicting its intermediate results before asking software for an answer. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running sparse attention, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the sparse attention result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the sparse attention scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

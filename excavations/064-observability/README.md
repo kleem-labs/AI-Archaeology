@@ -2,23 +2,31 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Multi-agent coordination divides work and introduces new boundaries, shared resources, and failure modes. When the result is wrong, the team needs enough trace to locate which assumption, handoff, or tool effect failed.
 
-If the old idea can be stretched one step farther, we should log only the final response, or log every hidden detail without structure.
+At the Gatehouse of Consequences, the gatekeeper returns to the iron threshold. Yesterday's instrument still lies open, so the first move asks for no new magic: log only the final response, or log every hidden detail without structure.
 
-If the proposal works on every relevant case, observability is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The gatekeeper repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript. The failure is stable enough to become evidence.
 
-Now keep that rule fixed and let the difficult case enter: the first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript.
+*The gatekeeper sketches the break before changing it:*
 
-Nothing magical creates observability. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ log only the final response, or log… ──▶ blurred: the first gives no diagnosis; the…
+      │
+      └── new lens ──▶ record structured events for… ──▶ distinction survives
+```
 
-The lost distinction tells us what to build: record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content.
+Across the iron threshold, the old path and the repaired path run side by side. One carries “log only the final response, or log every hidden detail without structure”; the other knows how to record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content. When the failure—the first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Observability**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to observability. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize observability; try to break it by subtraction. Remove the part that knows how to record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content, leaving only the attempt to log only the final response, or log every hidden detail without structure. What returns is not a vague weakness but the original contradiction: the first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content. This problem and its repair will travel under the name **Observability**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to log only the final response, or log every hidden detail without structure receives the same test as the rule to record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content. Their different outcomes reveal what observability contributes without asking the reader to trust historical convention.
+What changed on the iron threshold can be said without symbols. Before, the method could only log only the final response, or log every hidden detail without structure; now it can also record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
 ## Seeing Why an Agent Failed
 
@@ -26,19 +34,15 @@ A trace shows retrieval returned an outdated policy, the planner accepted it, an
 
 Observability earns a boundary, procedure, or system contract rather than a new equation. Symbols here would decorate the decision instead of clarifying it.
 
-Hold the setting, evidence, and desired outcome fixed while testing observability. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## Where observability runs out
 
 Logs describe what instrumentation captured. Missing fields, privacy limits, and misleading metrics still constrain diagnosis.
 
-This is where observability runs out for a causal reason. We gave it enough structure to record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The observability repair holds, but the world asks for something it was never given. At the Gatehouse of Consequences, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take observability to the workbench
+## Return to the iron threshold
 
-A mathematical story about observability earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running observability, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the observability result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the observability scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

@@ -2,41 +2,52 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 A meaningful latent space gives images coordinates we can navigate. To create a new image, the system still needs a procedure that turns an uncertain starting state into a complete arrangement of pixels.
 
-The previous discovery seems almost sufficient: we could predict all pixels independently.
+Night gathers around the Glass Menagerie. Under the light of the wall of illuminated tiles, the maker of seeing-machines refuses to invent prematurely and begins with the plain rule: predict all pixels independently.
 
-The shortcut appears to retain everything autoregressive generation beyond text needs. The next observation must test that belief, not merely assert that a textbook prefers another method.
+At the edge of the wall of illuminated tiles, the shortcut produces its consequence: independent pixels produce noise because neighboring colors and shapes constrain one another. That consequence, not a textbook, earns the next move.
 
-Then a case arrives in which convenience and truth separate: independent pixels produce noise because neighboring colors and shapes constrain one another.
+*The maker of seeing-machines sketches the break before changing it:*
 
-The counterexample teaches autoregressive generation beyond text. It reveals which sameness was false, which difference matters, and therefore what the replacement has to make visible.
+```text
+observation
+    │
+    ▼
+[predict all pixels independently]
+    │
+    ╳  independent pixels produce noise…
+    │
+    ▼
+[we need to choose an order and…]
+```
 
-Only one extra responsibility has been earned: we need to choose an order and predict each piece from previously generated pieces.
+The maker of seeing-machines covers the new mark and the old contradiction returns: independent pixels produce noise because neighboring colors and shapes constrain one another. The cover is lifted, restoring the ability to choose an order and predict each piece from previously generated pieces, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason autoregressive generation beyond text exists.
 
-Now—and not earlier—we may introduce **Autoregressive Generation Beyond Text**. The words label the problem-and-repair pair whose necessity the reader can already test.
+What must change for autoregressive generation beyond text is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
 
-The invention can now defend itself. Without it, our best available move is to predict all pixels independently, and the case answers that independent pixels produce noise because neighboring colors and shapes constrain one another. With the narrow repair—to we need to choose an order and predict each piece from previously generated pieces—the method can express the distinction reality demanded. That before-and-after comparison is the proof of need.
+The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to choose an order and predict each piece from previously generated pieces. That threshold is where **Autoregressive Generation Beyond Text** enters the story.
 
-The logic would be weaker if the repaired method were tested on an easier scene. It is not. Autoregressive Generation Beyond Text returns to the same counterexample, replaces the attempt to predict all pixels independently with the responsibility to we need to choose an order and predict each piece from previously generated pieces, and must succeed where the shortcut failed.
+The marks on the wall of illuminated tiles form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. autoregressive generation beyond text is not any single point. It is the path connecting them in the only order that makes the last point necessary.
+
+
+Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to choose an order and predict each piece from previously generated pieces, and the method falls back to this tempting instruction: predict all pixels independently. The old consequence returns—independent pixels produce noise because neighboring colors and shapes constrain one another. Restore the missing ability and that particular contradiction disappears. This reversible test is why autoregressive generation beyond text belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Understanding autoregressive generation beyond text
 
 After generating sky pixels, the model gives blue neighbors higher probability.
 
-A formula for autoregressive generation beyond text is not yet needed. The experiment is already mathematical: we controlled what remained fixed, identified what changed, and demanded an observable consequence from that change.
-
 ## Where autoregressive generation beyond text runs out
 
 Sequential generation can be slow and ordering introduces bias.
 
-The boundary can be predicted from the construction itself. Autoregressive Generation Beyond Text performs the repair to we need to choose an order and predict each piece from previously generated pieces; the additional problem names a job outside that construction. Recognizing that edge prevents one successful equation or procedure from pretending to be a complete intelligence.
+Here the new path ends honestly. Autoregressive Generation Beyond Text can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-## Take autoregressive generation beyond text to the workbench
+## Return to the wall of illuminated tiles
 
-Move autoregressive generation beyond text from imagination to evidence by making the shortcut fail under controlled inputs. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running autoregressive generation beyond text, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the autoregressive generation beyond text result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the autoregressive generation beyond text scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

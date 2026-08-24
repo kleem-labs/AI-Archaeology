@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Continual learning protects the past but may still require many examples for every genuinely new task. Experience across tasks could teach not only solutions, but a better procedure for adapting quickly.
 
-The least expensive next move is to train one universal fixed solution.
+Inside the Hall of Possible Worlds, every old tool is given one honest chance. The keeper of unfinished questions sets the table of mirrored maps between the evidence and the desired answer, then tries to train one universal fixed solution.
 
-The proposal deserves a fair hearing. For meta-learning, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: a new task with different labels requires many examples and broad retraining. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-The proposal breaks for a specific reason, not by authority: a new task with different labels requires many examples and broad retraining.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-The failure changes the question behind meta-learning. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ train one universal fixed solution ──▶ blurred: a new task with different labels…
+      │
+      └── new lens ──▶ optimize prior parameters or an… ──▶ distinction survives
+```
 
-The required repair is now narrow enough to state: optimize prior parameters or an update rule so a few new examples produce useful adaptation.
+The keeper of unfinished questions lays two translucent sheets over the table of mirrored maps. The first is inscribed, “train one universal fixed solution.” Its path ends where a new task with different labels requires many examples and broad retraining. The second receives the same evidence but is allowed to optimize prior parameters or an update rule so a few new examples produce useful adaptation. Held to the light, the sheets separate at exactly one decision.
 
-Only at this point does the inherited name **Meta-Learning** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+No one reaches for a meta-learning formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Test the necessity of meta-learning by mentally removing the repair. We fall back to the proposal to train one universal fixed solution; then a new task with different labels requires many examples and broad retraining. Restore only the ability to optimize prior parameters or an update rule so a few new examples produce useful adaptation, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+The keeper of unfinished questions changes only that one responsibility: optimize prior parameters or an update rule so a few new examples produce useful adaptation. When the ink dries, the name **Meta-Learning** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to train one universal fixed solution to requiring the system to optimize prior parameters or an update rule so a few new examples produce useful adaptation. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to meta-learning.
+The table of mirrored maps keeps both histories. Its older mark still says, ‘train one universal fixed solution’; beside it, the newer mark says, ‘optimize prior parameters or an update rule so a few new examples produce useful adaptation.’ The distance between those sentences is the exact shape of meta-learning: no larger than the failure required, and no smaller than reality permits.
 
 ## Understanding meta-learning
 
 After many two-class tasks, five labeled examples are enough to separate two unseen animal species.
 
-Put the old procedure beside meta-learning. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## Where meta-learning runs out
 
 Task distributions can be narrow and meta-learning can overfit them.
 
-The limit follows from the job assigned to meta-learning. Its repair knows how to optimize prior parameters or an update rule so a few new examples produce useful adaptation. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Hall of Possible Worlds, the keeper of unfinished questions leaves a blank beneath the new mark. Meta-Learning has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take meta-learning to the workbench
+## Return to the table of mirrored maps
 
-A claim about meta-learning now exists on the page; the laboratory must be able to contradict it. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running meta-learning, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the meta-learning result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the meta-learning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

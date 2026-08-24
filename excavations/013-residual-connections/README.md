@@ -27,7 +27,7 @@ Only now do we need the compact rule:
 
 A cartographer already has a useful map of the forest. A new survey reports that one trail bends half a kilometre east and one kilometre south. Replacing the whole map with that small report would destroy everything known; adding it as a correction preserves the map and changes only the trail. If the survey discovers nothing useful, adding a zero correction leaves the original untouched.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 - **x** is the representation worth preserving.
 - **F(x)** is only the transformation's proposed correction, not a complete replacement.
@@ -40,12 +40,14 @@ This direct route also gives learning signals a path that does not depend entire
 
 Addition requires the input and proposal to have the same shape. That is why attention and feed-forward sublayers return to the model's shared width before joining the residual stream.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Addition](../../MATHEMATICAL_MOVES.md#addition) preserves the old message **x** and treats the block as a proposed change **F(x)**. Replacing x would force every block to reconstruct all useful old information.
 [F(x)](../../MATHEMATICAL_MOVES.md#function-application) says the proposed change depends on this exact incoming representation rather than being one fixed correction for every token.
 
-The notation is finally shorter than the story that created it:
+Trace each operation by touch rather than by name: **the joining river**—separate contributions meet without losing where they came from. Together they form the smallest mechanism that survives the counterexample.
+
+The keeper of words reads the journey of residual connections once more across the long cedar table, then lets the words contract without losing their order:
 
 $$
 \mathbf{y}=\mathbf{x}+F(\mathbf{x})
@@ -62,3 +64,4 @@ Repeated transformations and additions can make some representations numerically
 [Next: Layer Normalization](../014-layer-normalization/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

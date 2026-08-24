@@ -2,44 +2,54 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Likelihood ranks hidden stories against the evidence in front of us. Yet two clues can favor the same story by very different amounts, and the trackers need to know how much each clue actually taught them.
 
-Before naming anything new, try to measure information by message length.
+Night gathers around the Lantern Observatory. Under the light of the ring of glass lanterns, the keeper of uncertain stories refuses to invent prematurely and begins with the plain rule: measure information by message length.
 
-Its appeal is not ignorance but economy. Information should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add. More confidence cannot repair information that never entered the rule.
 
-Then a case arrives in which convenience and truth separate: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for information. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ measure information by message length ──▶ blurred: a long predictable greeting can…
+      │
+      └── new lens ──▶ we need rare events to carry more… ──▶ distinction survives
+```
 
-So the new mechanism must do one additional job: we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs.
+Two trails now cross the ring of glass lanterns. The pale trail bears the instruction “measure information by message length.” It disappears into the observed failure: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add. The darker trail carries one additional capacity—to we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **Information**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed information mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace information with the old instruction to measure information by message length.. The result is again that a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add. Put back only the requirement to we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the ring of glass lanterns is altered in exactly one way: we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. Much later, people will call this territory **Information**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when information is introduced. The same evidence that defeated the attempt to measure information by message length. is presented again. Only the ability to we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs changes, so the repaired conclusion cannot be credited to a conveniently different example.
+The ring of glass lanterns has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and information looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
 ## The calculation hidden inside information
 
-Before Information receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The keeper of uncertain stories carries the information scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 An event with probability 1/2 carries 1 bit because -log₂(1/2)=1. An event with probability 1/8 carries 3 bits. The rarer observation eliminates more alternatives, so it teaches more.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **P(x)** measures how expected observation x was.
 The logarithm is needed because independent probabilities multiply while information from independent messages should add.
 Probabilities below one have negative logs, so the minus sign makes information nonnegative.
 A certain event has P=1 and therefore zero information; rarer events receive more.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [The logarithm](../../MATHEMATICAL_MOVES.md#logarithm) is forced because independent probabilities multiply while learned information should accumulate by addition. It converts a product of probabilities into a sum of surprises.
 [The negative sign](../../MATHEMATICAL_MOVES.md#negative-sign) reverses the negative log of probabilities below one, making rare events carry larger positive information and a certain event carry zero.
 Using 1/P would also grow for rare events, but its independent surprises would multiply rather than add; that is why it fails the job we established.
 
-The notation is finally shorter than the story that created it:
+The symbols are about to change costume, but their work has appeared before: **the spiral stair**—compounded chances become steps that can be accumulated; and **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. This is how distant excavations begin to sound like variations of one melody.
+
+The keeper of uncertain stories reads the journey of information once more across the ring of glass lanterns, then lets the words contract without losing their order:
 
 $$
 I(x)=-\log P(x)
@@ -53,12 +63,10 @@ A locked door code is informative because many alternatives were possible. Learn
 
 Information depends on the probability model. A surprise to one observer may be expected to another.
 
-Why does that boundary remain? Information was built for one responsibility: we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The ring of glass lanterns answers today's question and falls silent at the next. That silence is precise: Information was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take information to the workbench
+## Return to the ring of glass lanterns
 
-The argument for information is still provisional until a runnable case can make it fail. Build the wrong idea first, break it, then use [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running information, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the information result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the information scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).

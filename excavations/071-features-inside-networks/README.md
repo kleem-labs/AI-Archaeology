@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Bandit strategies balance present reward with the value of exploring uncertain choices. Once deployed, their decisions still emerge from internal representations whose meaning and failure modes remain hidden.
 
-The previous discovery seems almost sufficient: we could search for one neuron dedicated to each human concept.
+Nothing in the Living Watchgarden yet bears today's mathematical name. There is only the field naturalist, the weathered observation slate, and one plausible action: search for one neuron dedicated to each human concept.
 
-The shortcut appears to retain everything features inside networks needs. The next observation must test that belief, not merely assert that a textbook prefers another method.
+At the edge of the weathered observation slate, the shortcut produces its consequence: the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons. That consequence, not a textbook, earns the next move.
 
-One counterexample is enough to expose the missing job: the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
+*The field naturalist sketches the break before changing it:*
 
-The counterexample teaches features inside networks. It reveals which sameness was false, which difference matters, and therefore what the replacement has to make visible.
+```text
+reference evidence ──▶ shortcut: search for one neuron dedicated to…
+                         │
+                         └── mismatch: the concept disappears when one…
 
-Only one extra responsibility has been earned: we need to treat representations as distributed directions and test them across varied examples.
+reference evidence ──▶ measured repair: we need to treat representations as…
+```
 
-Now—and not earlier—we may introduce **Features Inside Networks**. The words label the problem-and-repair pair whose necessity the reader can already test.
+The field naturalist covers the new mark and the old contradiction returns: the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons. The cover is lifted, restoring the ability to treat representations as distributed directions and test them across varied examples, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason features inside networks exists.
 
-The invention can now defend itself. Without it, our best available move is to search for one neuron dedicated to each human concept, and the case answers that the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons. With the narrow repair—to we need to treat representations as distributed directions and test them across varied examples—the method can express the distinction reality demanded. That before-and-after comparison is the proof of need.
+What must change for features inside networks is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
 
-The logic would be weaker if the repaired method were tested on an easier scene. It is not. Features Inside Networks returns to the same counterexample, replaces the attempt to search for one neuron dedicated to each human concept with the responsibility to we need to treat representations as distributed directions and test them across varied examples, and must succeed where the shortcut failed.
+The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to treat representations as distributed directions and test them across varied examples. That threshold is where **Features Inside Networks** enters the story.
+
+The marks on the weathered observation slate form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. features inside networks is not any single point. It is the path connecting them in the only order that makes the last point necessary.
 
 ## Understanding features inside networks
 
 Tiger and zebra activate overlapping patterns; subtracting ordinary cats isolates a stripe-related direction better than one cell.
 
-A formula for features inside networks is not yet needed. The experiment is already mathematical: we controlled what remained fixed, identified what changed, and demanded an observable consequence from that change.
-
 ## Where features inside networks runs out
 
 Human labels may not match the model’s internal abstractions.
 
-The boundary can be predicted from the construction itself. Features Inside Networks performs the repair to we need to treat representations as distributed directions and test them across varied examples; the additional problem names a job outside that construction. Recognizing that edge prevents one successful equation or procedure from pretending to be a complete intelligence.
+Here the new path ends honestly. Features Inside Networks can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-## Take features inside networks to the workbench
+## Return to the weathered observation slate
 
-Move features inside networks from imagination to evidence by making the shortcut fail under controlled inputs. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running features inside networks, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the features inside networks result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the features inside networks scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

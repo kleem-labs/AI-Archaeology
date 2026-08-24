@@ -43,7 +43,7 @@ After exponentiating, divide each result by their total. Now the values are posi
 
 Mary, John, and the book are possible sources for the word *she*. The sentence gives Mary the strongest relevance, the book a weaker connection, and John the weakest. Raw relevance can be negative or arbitrarily large, so it cannot yet say what share each source should contribute. Exponentiation turns every candidate into positive evidence; dividing by their shared total converts that evidence into portions of one whole.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 - **sᵢ** is the raw relevance score for candidate i.
 - Exponentiation makes every weight positive, preserves ordering, suppresses negative evidence, and amplifies strong evidence.
@@ -54,13 +54,15 @@ For scores `[2, 4, 8]`, the largest score receives almost all the weight, but th
 
 Softmax does not discover relevance. It converts already-computed relevance scores into a smooth distribution of attention.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Exponentiation](../../MATHEMATICAL_MOVES.md#exponential) makes every raw score positive while preserving order and turning score gaps into stable ratios. Squaring would make a large negative score look strong; clipping would destroy gap information.
 [The sum](../../MATHEMATICAL_MOVES.md#summation) gathers every candidate's positive weight because all candidates must share one unit of attention. A product would not describe a total available amount.
 [Dividing by that total](../../MATHEMATICAL_MOVES.md#division) converts each weight into its share. Without it, multiplying every score scale would change the amount of information mixed rather than only its distribution.
 
-The notation is finally shorter than the story that created it:
+The calculation borrows several gestures already encountered elsewhere: **the rising flame**—a small score difference becomes positive relative evidence; **the chorus**—many witnesses contribute to one answer without one silence erasing the rest; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. from scores to attention feels new because the objects are new; the gestures remain recognizably human.
+
+The story of from scores to attention has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
 $$
 \mathrm{softmax}(s_i)=\frac{e^{s_i}}{\sum_j e^{s_j}}
@@ -83,3 +85,4 @@ We must derive both the relevance scores and the information being mixed. Those 
 [Next: Query, Key, and Value](../010-query-key-value/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

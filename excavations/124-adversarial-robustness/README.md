@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Federated learning moves computation to distributed data. Model updates and inputs remain vulnerable to malicious or tiny perturbations that preserve human meaning while flipping machine behavior.
 
-If the old idea can be stretched one step farther, we should test only natural clean examples.
+Inside the Hall of Possible Worlds, every old tool is given one honest chance. The keeper of unfinished questions sets the table of mirrored maps between the evidence and the desired answer, then tries to test only natural clean examples.
 
-If the proposal works on every relevant case, adversarial robustness is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The keeper of unfinished questions repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: an attacker follows the model’s sensitivity into a brittle direction. The failure is stable enough to become evidence.
 
-The proposal breaks for a specific reason, not by authority: an attacker follows the model’s sensitivity into a brittle direction.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-Nothing magical creates adversarial robustness. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   test only natural clean examples an attacker follows the model’s…
+            \        /
+             \      /
+              search for worst-case permitted…
+```
 
-The lost distinction tells us what to build: search for worst-case permitted perturbations, train against them, and bound behavior where possible.
+Across the table of mirrored maps, the old path and the repaired path run side by side. One carries “test only natural clean examples”; the other knows how to search for worst-case permitted perturbations, train against them, and bound behavior where possible. When the failure—an attacker follows the model’s sensitivity into a brittle direction—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Adversarial Robustness**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to adversarial robustness. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize adversarial robustness; try to break it by subtraction. Remove the part that knows how to search for worst-case permitted perturbations, train against them, and bound behavior where possible, leaving only the attempt to test only natural clean examples. What returns is not a vague weakness but the original contradiction: an attacker follows the model’s sensitivity into a brittle direction. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: search for worst-case permitted perturbations, train against them, and bound behavior where possible. This problem and its repair will travel under the name **Adversarial Robustness**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to test only natural clean examples receives the same test as the rule to search for worst-case permitted perturbations, train against them, and bound behavior where possible. Their different outcomes reveal what adversarial robustness contributes without asking the reader to trust historical convention.
+What changed on the table of mirrored maps can be said without symbols. Before, the method could only test only natural clean examples; now it can also search for worst-case permitted perturbations, train against them, and bound behavior where possible. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
 ## Understanding adversarial robustness
 
 Changing a few pixel values turns tiger into toaster for the model while looking unchanged to a human.
 
-Hold the setting, evidence, and desired outcome fixed while testing adversarial robustness. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## Where adversarial robustness runs out
 
 Robustness to one threat model does not imply robustness to others.
 
-This is where adversarial robustness runs out for a causal reason. We gave it enough structure to search for worst-case permitted perturbations, train against them, and bound behavior where possible, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The adversarial robustness repair holds, but the world asks for something it was never given. At the Hall of Possible Worlds, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take adversarial robustness to the workbench
+## Return to the table of mirrored maps
 
-A mathematical story about adversarial robustness earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running adversarial robustness, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the adversarial robustness result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the adversarial robustness scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

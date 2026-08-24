@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Distributed training lets many machines construct one model. Deployment reverses the pressure: thousands of users now expect that model to answer with low latency, bounded cost, and consistent state.
 
-For a moment, remain loyal to the simplest proposal: run one request at a time on one full model.
+Morning reaches the Road of Consequences before anyone has a name for today's difficulty. Beside the map of branching journeys, the expedition leader tries the smallest continuation of what already works: run one request at a time on one full model.
 
-Its appeal is not ignorance but economy. Inference Serving should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues. More confidence cannot repair information that never entered the rule.
 
-The world supplies the one comparison the shortcut hoped never to face: the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues.
+*The expedition leader sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for inference serving. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ run one request at a time on one full… ──▶ blurred: the trouble appears immediately:…
+      │
+      └── new lens ──▶ batch compatible requests, cache… ──▶ distinction survives
+```
 
-So the new mechanism must do one additional job: batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits.
+Two trails now cross the map of branching journeys. The pale trail bears the instruction “run one request at a time on one full model.” It disappears into the observed failure: the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues. The darker trail carries one additional capacity—to batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **Inference Serving**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed inference serving mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace inference serving with the old instruction to run one request at a time on one full model. The result is again that the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues. Put back only the requirement to batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the map of branching journeys is altered in exactly one way: batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits. Much later, people will call this territory **Inference Serving**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when inference serving is introduced. The same evidence that defeated the attempt to run one request at a time on one full model is presented again. Only the ability to batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits changes, so the repaired conclusion cannot be credited to a conveniently different example.
+Nothing is erased from the map of branching journeys. The failed path remains visible beneath the repair, because inference serving is easier to remember when its scar remains attached to it. The scar reads, ‘the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues’; the new line exists only to keep that loss from happening again.
 
 ## Understanding inference serving
 
 Four prompts share one matrix operation while each retains separate token state.
 
-Run the inference serving scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where inference serving runs out
 
 Batching improves throughput but can worsen individual latency.
 
-Why does that boundary remain? Inference Serving was built for one responsibility: batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The map of branching journeys answers today's question and falls silent at the next. That silence is precise: Inference Serving was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take inference serving to the workbench
+## Return to the map of branching journeys
 
-The argument for inference serving is still provisional until a runnable case can make it fail. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running inference serving, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the inference serving result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the inference serving scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

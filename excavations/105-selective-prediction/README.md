@@ -2,41 +2,49 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Active learning spends human effort where it should teach the most. A deployed system still encounters cases where no available evidence justifies any answer, even after labels have been chosen carefully.
 
-At this point the shortest path seems to be to always return the highest-scoring answer.
+Morning reaches the Hall of Possible Worlds before anyone has a name for today's difficulty. Beside the table of mirrored maps, the keeper of unfinished questions tries the smallest continuation of what already works: always return the highest-scoring answer.
 
-This is how selective prediction ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: a forced answer converts uncertainty into confident-looking error. What looked like simplicity is revealed as a missing distinction.
 
-The world supplies the one comparison the shortcut hoped never to face: a forced answer converts uncertainty into confident-looking error.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-The wrong answer makes the need for selective prediction inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+observation
+    │
+    ▼
+[always return the highest-scoring…]
+    │
+    ╳  a forced answer converts uncertainty…
+    │
+    ▼
+[allow abstention and choose a…]
+```
 
-We can now repair the procedure without guessing: allow abstention and choose a coverage level whose retained answers meet a risk target.
+The keeper of unfinished questions turns the table of mirrored maps toward the light. Through the old engraving, always return the highest-scoring answer, the evidence ends in the same contradiction: a forced answer converts uncertainty into confident-looking error. A second engraving adds only the power to allow abstention and choose a coverage level whose retained answers meet a risk target. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Selective Prediction**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The keeper of unfinished questions circles the place where the two selective prediction cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to always return the highest-scoring answer produces the observed failure: a forced answer converts uncertainty into confident-looking error. Starting with the repaired demand to allow abstention and choose a coverage level whose retained answers meet a risk target preserves the information the shortcut lost. The subject of selective prediction lives in the difference between those two causal stories.
+Only the missing distinction is restored: allow abstention and choose a coverage level whose retained answers meet a risk target. The keeper of unfinished questions writes **Selective Prediction** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to allow abstention and choose a coverage level whose retained answers meet a risk target instead of merely trying to always return the highest-scoring answer. That controlled contrast is what turns a plausible explanation of selective prediction into an understandable derivation.
+The keeper of unfinished questions does not memorize selective prediction. Instead, the keeper of unfinished questions memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can allow abstention and choose a coverage level whose retained answers meet a risk target. The formal name merely lets that motion be shared.
 
 ## Understanding selective prediction
 
 The system answers 80 of 100 cases and is correct on 78; the other 20 go to a human rather than becoming guesses.
 
-There are now two histories of this selective prediction case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where selective prediction runs out
 
 Abstention shifts work and may fail unevenly across groups.
 
-Look back at what selective prediction actually preserves: it can allow abstention and choose a coverage level whose retained answers meet a risk target. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the table of mirrored maps. None of the responsibilities inside Selective Prediction can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take selective prediction to the workbench
+## Return to the table of mirrored maps
 
-The reader has reconstructed selective prediction in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running selective prediction, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the selective prediction result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the selective prediction scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

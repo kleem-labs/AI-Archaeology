@@ -2,41 +2,48 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Contrastive learning creates that relative competition. Sound introduces another modality whose pressure waveform is long, continuous, and shifted in time even when a listener hears the same event.
 
-At this point the shortest path seems to be to treat every raw sample as an independent token.
+A new case arrives at the Road of Consequences, but the expedition leader first reaches for the familiar map of branching journeys. Its promise is simple: treat every raw sample as an independent token.
 
-This is how speech and audio ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: sequences are huge and local frequency structure is hidden. What looked like simplicity is revealed as a missing distinction.
 
-Reality now asks a question the retained information cannot answer: sequences are huge and local frequency structure is hidden.
+*The expedition leader sketches the break before changing it:*
 
-The wrong answer makes the need for speech and audio inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+reference evidence ──▶ shortcut: treat every raw sample as an…
+                         │
+                         └── mismatch: sequences are huge and local…
 
-We can now repair the procedure without guessing: transform short windows into time-frequency features, then model their sequence.
+reference evidence ──▶ measured repair: transform short windows into…
+```
 
-The usual name, **Speech and Audio**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The expedition leader turns the map of branching journeys toward the light. Through the old engraving, treat every raw sample as an independent token, the evidence ends in the same contradiction: sequences are huge and local frequency structure is hidden. A second engraving adds only the power to transform short windows into time-frequency features, then model their sequence. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-We can audit the discovery from both directions. Starting with the shortcut to treat every raw sample as an independent token produces the observed failure: sequences are huge and local frequency structure is hidden. Starting with the repaired demand to transform short windows into time-frequency features, then model their sequence preserves the information the shortcut lost. The subject of speech and audio lives in the difference between those two causal stories.
+The expedition leader circles the place where the two speech and audio cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to transform short windows into time-frequency features, then model their sequence instead of merely trying to treat every raw sample as an independent token. That controlled contrast is what turns a plausible explanation of speech and audio into an understandable derivation.
+Only the missing distinction is restored: transform short windows into time-frequency features, then model their sequence. The expedition leader writes **Speech and Audio** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
+
+The expedition leader does not memorize speech and audio. Instead, the expedition leader memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can transform short windows into time-frequency features, then model their sequence. The formal name merely lets that motion be shared.
+
+
+Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to transform short windows into time-frequency features, then model their sequence, and the method falls back to this tempting instruction: treat every raw sample as an independent token. The old consequence returns—sequences are huge and local frequency structure is hidden. Restore the missing ability and that particular contradiction disappears. This reversible test is why speech and audio belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Understanding speech and audio
 
 A whistle appears as sustained energy in one frequency band across several time windows.
 
-There are now two histories of this speech and audio case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where speech and audio runs out
 
 Spectrogram choices discard phase or fine timing.
 
-Look back at what speech and audio actually preserves: it can transform short windows into time-frequency features, then model their sequence. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the map of branching journeys. None of the responsibilities inside Speech and Audio can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take speech and audio to the workbench
+## Return to the map of branching journeys
 
-The reader has reconstructed speech and audio in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running speech and audio, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the speech and audio result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the speech and audio scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

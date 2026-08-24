@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Reproducibility asks whether the gain survives recorded code, data, configuration, and repeated seeds. Different teams still cannot compare progress if each chooses a different task and ruler.
 
-At this point the shortest path seems to be to let each model demonstrate its strongest example.
+Morning reaches the Academy of Trials before anyone has a name for today's difficulty. Beside the sealed evidence ledger, the experimentalist tries the smallest continuation of what already works: let each model demonstrate its strongest example.
 
-This is how benchmarks ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: a showcase cannot support comparison because difficulty and scoring move with the contestant. What looked like simplicity is revealed as a missing distinction.
 
-The world supplies the one comparison the shortcut hoped never to face: a showcase cannot support comparison because difficulty and scoring move with the contestant.
+*The experimentalist sketches the break before changing it:*
 
-The wrong answer makes the need for benchmarks inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   let each model demonstrate its… a showcase cannot support comparison…
+            \        /
+             \      /
+              freeze representative tasks, inputs,…
+```
 
-We can now repair the procedure without guessing: freeze representative tasks, inputs, metrics, and scoring rules before seeing results.
+The experimentalist turns the sealed evidence ledger toward the light. Through the old engraving, let each model demonstrate its strongest example, the evidence ends in the same contradiction: a showcase cannot support comparison because difficulty and scoring move with the contestant. A second engraving adds only the power to freeze representative tasks, inputs, metrics, and scoring rules before seeing results. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Benchmarks**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The experimentalist circles the place where the two benchmarks cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to let each model demonstrate its strongest example produces the observed failure: a showcase cannot support comparison because difficulty and scoring move with the contestant. Starting with the repaired demand to freeze representative tasks, inputs, metrics, and scoring rules before seeing results preserves the information the shortcut lost. The subject of benchmarks lives in the difference between those two causal stories.
+Only the missing distinction is restored: freeze representative tasks, inputs, metrics, and scoring rules before seeing results. The experimentalist writes **Benchmarks** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to freeze representative tasks, inputs, metrics, and scoring rules before seeing results instead of merely trying to let each model demonstrate its strongest example. That controlled contrast is what turns a plausible explanation of benchmarks into an understandable derivation.
+The experimentalist does not memorize benchmarks. Instead, the experimentalist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can freeze representative tasks, inputs, metrics, and scoring rules before seeing results. The formal name merely lets that motion be shared.
 
 ## Building a Ruler Before Measuring Progress
 
 Give three navigation agents the same maps, action budget, and success definition.
 
-There are now two histories of this benchmarks case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where benchmarks runs out
 
 A fixed ruler becomes stale when people optimize specifically for it.
 
-Look back at what benchmarks actually preserves: it can freeze representative tasks, inputs, metrics, and scoring rules before seeing results. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the sealed evidence ledger. None of the responsibilities inside Benchmarks can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take benchmarks to the workbench
+## Return to the sealed evidence ledger
 
-The reader has reconstructed benchmarks in words; the workbench tests whether those words specify a real procedure. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running benchmarks, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the benchmarks result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the benchmarks scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

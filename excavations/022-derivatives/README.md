@@ -2,31 +2,43 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Cross-entropy turns the model's misplaced confidence into one loss. One number can announce that the whole machine is wrong, but it cannot yet tell any particular weight whether moving up or down would help.
 
-We can postpone invention if we simply try a large jump and keep it if loss falls.
+The doors of the Lantern Observatory close against the wind. On the ring of glass lanterns, the keeper of uncertain stories writes the cheapest rule that might still be true: try a large jump and keep it if loss falls.
 
-If the proposal works on every relevant case, derivatives is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The keeper of uncertain stories repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: large jumps can leap over improvements. Try every possible value; there are infinitely many. The failure is stable enough to become evidence.
 
-The decisive test is this: large jumps can leap over improvements. Try every possible value; there are infinitely many.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-Nothing magical creates derivatives. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+observation
+    │
+    ▼
+[try a large jump and keep it if loss…]
+    │
+    ╳  large jumps can leap over…
+    │
+    ▼
+[nudge the weight by a tiny amount,…]
+```
 
-The lost distinction tells us what to build: nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
+Across the ring of glass lanterns, the old path and the repaired path run side by side. One carries “try a large jump and keep it if loss falls”; the other knows how to nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero. When the failure—large jumps can leap over improvements. Try every possible value; there are infinitely many—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Derivatives**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to derivatives. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize derivatives; try to break it by subtraction. Remove the part that knows how to nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero, leaving only the attempt to try a large jump and keep it if loss falls.. What returns is not a vague weakness but the original contradiction: large jumps can leap over improvements. Try every possible value; there are infinitely many. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero. This problem and its repair will travel under the name **Derivatives**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to try a large jump and keep it if loss falls. receives the same test as the rule to nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero. Their different outcomes reveal what derivatives contributes without asking the reader to trust historical convention.
+Under the latest ink, the first question is still legible: what if we followed the tempting rule—try a large jump and keep it if loss falls? The answer remains large jumps can leap over improvements. Try every possible value; there are infinitely many. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
 ## The calculation hidden inside derivatives
 
-Do not read the coming Derivatives line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The keeper of uncertain stories carries the derivatives scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 A village adjusts one alarm dial controlling how much smoke is needed before ringing a bell. At setting 3 the false-alarm cost is 9. Raising the dial by only 0.001 changes the cost to about 9.006001. The extra cost divided by the tiny dial movement is about 6. Repeating with ever smaller movements reveals the local sensitivity at the current setting rather than the effect of one arbitrary jump.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **w** is the one weight whose responsibility we are probing.
 **ε** is a small experimental nudge.
@@ -35,13 +47,15 @@ Dividing by ε turns total change into change per unit of weight.
 The limit shrinks the nudge so the answer becomes local rather than dependent on an arbitrary test step.
 **dL/dw** names that local sensitivity.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [The numerator subtracts](../../MATHEMATICAL_MOVES.md#subtraction) old loss from nudged loss to isolate what the nudge changed; adding them would mix level with change.
 [Division by the weight nudge](../../MATHEMATICAL_MOVES.md#division) converts raw loss change into loss change **per unit of weight change**, making different probe sizes comparable.
 [The limit](../../MATHEMATICAL_MOVES.md#limit) lets the probe approach zero so curvature across a large jump does not disguise the local slope; setting ε equal to zero directly would divide by zero.
 
-The notation is finally shorter than the story that created it:
+The mandala has curved back upon itself. In this chamber we meet **the chisel**—what is shared is removed so the remaining change can be seen; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
+
+Cover the prose about derivatives and each mark can still be recovered from the case. Only now is the compressed form safe to write:
 
 $$
 \frac{dL}{dw}=\lim_{\epsilon\to0}\frac{L(w+\epsilon)-L(w)}{\epsilon}
@@ -55,12 +69,10 @@ A derivative is a local slope on a mountain trail: it says which direction rises
 
 A derivative is local advice. Curved landscapes can change direction, flatten, or hide better valleys elsewhere.
 
-This is where derivatives runs out for a causal reason. We gave it enough structure to nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The derivatives repair holds, but the world asks for something it was never given. At the Lantern Observatory, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take derivatives to the workbench
+## Return to the ring of glass lanterns
 
-A mathematical story about derivatives earns trust only when the failed and repaired paths can both be reproduced. Build the wrong idea first, break it, then use [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running derivatives, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the derivatives result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the derivatives scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).

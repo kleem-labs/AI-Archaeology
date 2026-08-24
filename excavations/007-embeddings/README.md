@@ -116,7 +116,7 @@ Every part now has a job you already understand:
 - The coordinates need not have private names. A relationship can be spread
   across several of them.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [The arrow](../../MATHEMATICAL_MOVES.md#arrows) means “represent this token as,” not equality: a word and its numerical representation are different kinds of object.
 [The membership sign](../../MATHEMATICAL_MOVES.md#membership) says the embedding is allowed to live among d-coordinate real vectors.
@@ -177,3 +177,4 @@ the word *embedding* until your procedure has already created one.
 [Next: Why Attention Had to Exist](../008-attention/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

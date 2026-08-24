@@ -9,6 +9,14 @@ ROOT = Path(__file__).parents[1]
 chapters = sorted((ROOT / "excavations").glob("*/README.md"))
 failures = []
 
+retired_refrains = (
+    "The world has not become easier; only one blindness has been removed.",
+    "An older mathematical tune is audible inside",
+    "The symbols differ from earlier excavations, but the human jobs have returned.",
+    "The many spoken steps now fold into one line:",
+    "the invariant is the relationship earlier mathematics learned to preserve",
+)
+
 banned_headings = (
     "## Problem",
     "## Naive Attempt",
@@ -34,6 +42,9 @@ for chapter in chapters:
     for heading in banned_headings:
         if heading in text:
             failures.append(f"{chapter}: exposes catalogue heading {heading}")
+    for refrain in retired_refrains:
+        if refrain in text:
+            failures.append(f"{chapter}: contains retired editorial refrain: {refrain}")
     for paragraph in re.split(r"\n\n+", text):
         normalized = re.sub(r"\s+", " ", paragraph).strip()
         if (

@@ -2,44 +2,54 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Entropy measures how uncertain reality itself is. A learning machine introduces a second distribution—its own proposed beliefs—and can be far more certain than the evidence deserves.
 
-At this point the shortest path seems to be to use zero for correct and one for wrong.
+A new case arrives at the Lantern Observatory, but the keeper of uncertain stories first reaches for the familiar ring of glass lanterns. Its promise is simple: use zero for correct and one for wrong.
 
-This is how cross-entropy ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction. What looked like simplicity is revealed as a missing distinction.
 
-Reality now asks a question the retained information cannot answer: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-The wrong answer makes the need for cross-entropy inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+reference evidence ──▶ shortcut: use zero for correct and one for wrong
+                         │
+                         └── mismatch: it treats barely wrong and…
 
-We can now repair the procedure without guessing: charge the information cost assigned by the predicted distribution to the outcome that actually occurred.
+reference evidence ──▶ measured repair: charge the information cost assigned…
+```
 
-The usual name, **Cross-Entropy**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The keeper of uncertain stories turns the ring of glass lanterns toward the light. Through the old engraving, use zero for correct and one for wrong, the evidence ends in the same contradiction: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction. A second engraving adds only the power to charge the information cost assigned by the predicted distribution to the outcome that actually occurred. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-We can audit the discovery from both directions. Starting with the shortcut to use zero for correct and one for wrong. produces the observed failure: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction. Starting with the repaired demand to charge the information cost assigned by the predicted distribution to the outcome that actually occurred preserves the information the shortcut lost. The subject of cross-entropy lives in the difference between those two causal stories.
+The keeper of uncertain stories circles the place where the two cross-entropy cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to charge the information cost assigned by the predicted distribution to the outcome that actually occurred instead of merely trying to use zero for correct and one for wrong.. That controlled contrast is what turns a plausible explanation of cross-entropy into an understandable derivation.
+Only the missing distinction is restored: charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The keeper of uncertain stories writes **Cross-Entropy** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
+
+The keeper of uncertain stories does not memorize cross-entropy. Instead, the keeper of uncertain stories memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The formal name merely lets that motion be shared.
 
 ## The calculation hidden inside cross-entropy
 
-Before Cross-Entropy receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The keeper of uncertain stories carries the cross-entropy scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Reality says the answer is tiger. A model assigning tiger 0.9 pays -log(0.9), about 0.105. A model assigning 0.01 pays about 4.605. The confident wrong model is charged far more.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **P** is the distribution reality supplies; pᵢ weights which outcomes actually occur.
 **Q** is the model's proposed distribution; qᵢ is the probability it assigned outcome i.
 **−log qᵢ** makes confident neglect extremely costly.
 Summing the reality-weighted costs gives one expected prediction penalty H(P,Q).
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [−log qᵢ](../../MATHEMATICAL_MOVES.md#logarithm) charges a large price when the model assigns tiny probability to what occurs; logarithms also let sequence costs add instead of multiplying many small probabilities.
 [Multiplying by pᵢ](../../MATHEMATICAL_MOVES.md#multiplication) asks reality how often that charge should count. Without pᵢ, impossible and common outcomes would receive equal influence.
 [The sum](../../MATHEMATICAL_MOVES.md#summation) forms one expected bill across outcomes. A product would allow one zero-weighted outcome to erase every other prediction error.
 
-The notation is finally shorter than the story that created it:
+Trace each operation by touch rather than by name: **the spiral stair**—compounded chances become steps that can be accumulated; **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. Together they form the smallest mechanism that survives the counterexample.
+
+The story of cross-entropy has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
 $$
 H(P,Q)=-\sum_i p_i\log q_i
@@ -53,12 +63,10 @@ A bad map that assigns almost no chance to the road you actually encounter deser
 
 Cross-entropy judges probabilities, so the model outputs must form a valid distribution. It tells us the error but not yet how each weight caused it.
 
-Look back at what cross-entropy actually preserves: it can charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the ring of glass lanterns. None of the responsibilities inside Cross-Entropy can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take cross-entropy to the workbench
+## Return to the ring of glass lanterns
 
-The reader has reconstructed cross-entropy in words; the workbench tests whether those words specify a real procedure. Build the wrong idea first, break it, then use [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running cross-entropy, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the cross-entropy result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the cross-entropy scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).

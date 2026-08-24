@@ -44,6 +44,32 @@ is book-ready only when:
 8. Repeated editorial sentences are treated as a defect even when the facts
    inside each chapter differ. The book has one voice, not one template.
 
+## Essence gate
+
+Correct narrative structure is necessary but not sufficient. The finished book
+must also make mathematics memorable as an inhabited journey:
+
+1. Every part occupies a recurring place with objects that change purpose as
+   the mathematics deepens. The setting carries continuity; it is never pasted
+   on as fantasy decoration.
+2. A chapter shows the old and repaired paths visually inside the reasoning.
+   Diagrams must contain the chapter's actual evidence and failure, not generic
+   boxes labelled “attempt” and “solution.”
+3. Mathematical operations return as recognizable motifs. Summation is many
+   witnesses joining one answer; division is judgment per unit; multiplication
+   is one influence acting through another; logarithms turn compounded chances
+   into accumulated steps. The metaphor must preserve the operation's exact
+   job.
+4. The prose creates curiosity, tension, silence, and reveal through events. It
+   does not announce that the reader is discovering, that a method has been
+   earned, or that a paragraph is pedagogically important.
+5. At the end of each major arc, earlier discoveries reappear as one connected
+   constellation. These codas reveal relationships rather than summarize a
+   syllabus.
+6. Poetry serves precision. A beautiful sentence fails if its image suggests
+   the wrong mathematical behavior; exact mathematics fails as a book chapter
+   if the reader cannot feel why it had to appear.
+
 ## Laboratory gate
 
 Every executable mathematical chapter must provide:

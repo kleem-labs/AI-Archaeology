@@ -2,33 +2,39 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Separating uncertainty in the observation from uncertainty in the model's knowledge tells us what kind of ignorance we face. New evidence must then revise several plausible stories without erasing what was believed before it arrived.
 
-The obvious economy is to discard the old belief and use only the newest clue.
+The doors of the Hall of Possible Worlds close against the wind. On the table of mirrored maps, the keeper of unfinished questions writes the cheapest rule that might still be true: discard the old belief and use only the newest clue.
 
-The proposal deserves a fair hearing. For bayesian updating, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: the trouble appears immediately: one noisy footprint can overpower years of evidence. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-The decisive test is this: the trouble appears immediately: one noisy footprint can overpower years of evidence.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-The failure changes the question behind bayesian updating. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ discard the old belief and use only… ──▶ blurred: the trouble appears immediately: one…
+      │
+      └── new lens ──▶ combine prior plausibility with how… ──▶ distinction survives
+```
 
-The required repair is now narrow enough to state: combine prior plausibility with how expected the clue is under each story, then normalize across stories.
+The keeper of unfinished questions lays two translucent sheets over the table of mirrored maps. The first is inscribed, “discard the old belief and use only the newest clue.” Its path ends where the trouble appears immediately: one noisy footprint can overpower years of evidence. The second receives the same evidence but is allowed to combine prior plausibility with how expected the clue is under each story, then normalize across stories. Held to the light, the sheets separate at exactly one decision.
 
-Only at this point does the inherited name **Bayesian Updating** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+No one reaches for a bayesian updating formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Test the necessity of bayesian updating by mentally removing the repair. We fall back to the proposal to discard the old belief and use only the newest clue; then the trouble appears immediately: one noisy footprint can overpower years of evidence. Restore only the ability to combine prior plausibility with how expected the clue is under each story, then normalize across stories, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+The keeper of unfinished questions changes only that one responsibility: combine prior plausibility with how expected the clue is under each story, then normalize across stories. When the ink dries, the name **Bayesian Updating** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to discard the old belief and use only the newest clue to requiring the system to combine prior plausibility with how expected the clue is under each story, then normalize across stories. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to bayesian updating.
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because the trouble appears immediately: one noisy footprint can overpower years of evidence, while the other can combine prior plausibility with how expected the clue is under each story, then normalize across stories. That fork—not the vocabulary—is where bayesian updating lives.
 
 ## Understanding bayesian updating
 
 Tiger starts at 10%, but a deep paw print is far more likely under tiger than wind; the belief rises without becoming certainty.
 
-Put the old procedure beside bayesian updating. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## The calculation hidden inside bayesian updating
 
-Do not read the coming Bayesian Updating line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The keeper of unfinished questions carries the bayesian updating scene to the table of mirrored maps. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Before seeing tracks, a ranger considers tiger less common than deer: perhaps tiger receives prior share 1 and deer share 4. A deep round print is far more expected under tiger—say likelihood 8—than deer—say likelihood 1. Multiplying gives supports 8 for tiger and 4 for deer. Dividing each by total support 12 turns them into revised shares: two thirds tiger, one third deer. The print overcame the prior, but did not erase it.
 
@@ -37,13 +43,15 @@ The footprint likelihood says how expected this exact clue is if tiger is true.
 Multiplying gives tiger’s unnormalized support.
 The denominator repeats that multiplication for every story and adds them so final beliefs total one.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Likelihood times prior](../../MATHEMATICAL_MOVES.md#multiplication) requires a story to have both earlier plausibility and support from the new footprint. Addition would let overwhelming prior belief compensate linearly for evidence impossible under that story.
 [The denominator sums support](../../MATHEMATICAL_MOVES.md#summation) over every competing story to find the whole amount of belief available.
 [Division by that total](../../MATHEMATICAL_MOVES.md#division) turns each story's support into a share summing to one, while [the conditional bars](../../MATHEMATICAL_MOVES.md#conditional-bar) keep “evidence given story” distinct from “story after evidence.”
 
-Every symbol in Bayesian Updating can now be read back into an action already performed. The whole procedure fits in one line:
+The mandala has curved back upon itself. In this chamber we meet **the lock and key**—one influence matters through another, and either missing factor can close the path; **the chorus**—many witnesses contribute to one answer without one silence erasing the rest; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
+
+Every mark needed for bayesian updating is now visible on the table of mirrored maps. The symbols do not add an idea; they bind the discovered moves into one line:
 
 $$
 P(H\mid E)=\frac{P(E\mid H)P(H)}{\sum_j P(E\mid H_j)P(H_j)}
@@ -53,13 +61,11 @@ $$
 
 Results depend on priors and likelihood assumptions.
 
-The limit follows from the job assigned to bayesian updating. Its repair knows how to combine prior plausibility with how expected the clue is under each story, then normalize across stories. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Hall of Possible Worlds, the keeper of unfinished questions leaves a blank beneath the new mark. Bayesian Updating has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take bayesian updating to the workbench
+## Return to the table of mirrored maps
 
-A claim about bayesian updating now exists on the page; the laboratory must be able to contradict it. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running bayesian updating, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the bayesian updating result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the bayesian updating scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

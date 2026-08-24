@@ -2,33 +2,39 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Formal verification can prove universal properties of a program. Training and evaluating the wider system may still expose whether one person's sensitive record participated in the data.
 
-Nothing yet appears to demand a new invention. We can remove names and assume records are anonymous.
+The table of mirrored maps at the Hall of Possible Worlds still carries the marks of the previous discovery. The keeper of unfinished questions follows them as far as they seem willing to go: remove names and assume records are anonymous.
 
-There is a real principle behind this restraint: the complexity of differential privacy must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: the trouble appears immediately: rare combinations and model outputs can re-identify individuals. The table of mirrored maps now holds two situations the old rule cannot keep apart.
 
-Its hidden assumption becomes visible as soon as we observe that the trouble appears immediately: rare combinations and model outputs can re-identify individuals.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-That distinction is the hinge on which differential privacy turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+reference evidence ──▶ shortcut: remove names and assume records are…
+                         │
+                         └── mismatch: the trouble appears immediately: rare…
 
-What survives the counterexample is this requirement: limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
+reference evidence ──▶ measured repair: limit how much any one record can…
+```
 
-We have earned the chapter's shorter name: **Differential Privacy**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The table of mirrored maps is divided down the middle. Left side: “remove names and assume records are anonymous.” Its final mark records the trouble appears immediately: rare combinations and model outputs can re-identify individuals. Right side: the same starting evidence, now allowed to limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise. The difference is narrow enough to see and important enough to change the ending.
 
-A reader can check that differential privacy is necessary rather than decorative. Delete its new responsibility and use the earlier plan to remove names and assume records are anonymous. Immediately, the trouble appears immediately: rare combinations and model outputs can re-identify individuals. Reintroduce the single job to limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The broken rule has given differential privacy a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise. Because the old plan to remove names and assume records are anonymous is the only displaced piece, the reader can locate exactly where differential privacy changes the outcome.
+The repair can now be stated without mystery: limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise. The name **Differential Privacy** arrives afterward, like a title given to a path whose stones are already underfoot.
+
+A thread now runs backward from differential privacy through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the trouble appears immediately: rare combinations and model outputs can re-identify individuals. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
 ## Understanding differential privacy
 
 Two datasets differing by one patient produce nearly indistinguishable released statistics.
 
-The name differential privacy is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## The calculation hidden inside differential privacy
 
-Do not read the coming Differential Privacy line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The keeper of unfinished questions carries the differential privacy scene to the table of mirrored maps. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 A clinic wants to publish an average recovery time. Imagine two almost identical worlds: one dataset includes Maya's record and the other does not. If the published number changes dramatically, an observer can infer Maya's participation. The privacy mechanism limits how much the probability of any released result may differ between those worlds. Clipping limits one person's influence; calibrated randomness makes the two possible output distributions overlap.
 
@@ -37,14 +43,16 @@ The same possible released result S is considered under both.
 Epsilon limits how much more likely that result may become because one person participated.
 A smaller epsilon makes the two worlds harder to distinguish.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [The two probabilities](../../MATHEMATICAL_MOVES.md#probability) ask how likely the same released event S is with or without one person's record.
 [M(D) ∈ S](../../MATHEMATICAL_MOVES.md#membership) says the randomized mechanism's output landed in the set of outcomes being inspected.
 [e^ε](../../MATHEMATICAL_MOVES.md#exponential) turns the privacy budget into a multiplicative allowance: ε=0 requires equal probabilities, while larger ε permits a bounded ratio.
 [The ≤ sign](../../MATHEMATICAL_MOVES.md#inequalities) promises a ceiling rather than false equality; privacy needs the two distributions close, not identical for every dataset pair.
 
-Every symbol in Differential Privacy can now be read back into an action already performed. The whole procedure fits in one line:
+Three old motions cast new shadows here: **the rising flame**—a small score difference becomes positive relative evidence. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
+
+Nothing remains unnamed in the differential privacy case on the table of mirrored maps. We can finally trade the long route for its compact map:
 
 $$
 P(M(D)\in S)\le e^\epsilon P(M(D^\prime)\in S)
@@ -54,13 +62,11 @@ $$
 
 Privacy consumes an accuracy budget and implementation mistakes break guarantees.
 
-The weakness is not an accidental footnote. Every operation in differential privacy serves the narrower purpose to limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Differential Privacy; it reveals the edge of what was constructed. The keeper of unfinished questions carries that edge into the following room.
 
-## Take differential privacy to the workbench
+## Return to the table of mirrored maps
 
-Understanding differential privacy now means predicting its intermediate results before asking software for an answer. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running differential privacy, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the differential privacy result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the differential privacy scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

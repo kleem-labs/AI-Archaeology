@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Drift detection says that the input or outcome distribution moved. It does not say whether a new model, a holiday, a policy change, or chance caused the observed performance difference.
 
-At this point the shortest path seems to be to compare this week with last week.
+A new case arrives at the Living Watchgarden, but the field naturalist first reaches for the familiar weathered observation slate. Its promise is simple: compare this week with last week.
 
-This is how controlled experiments ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: a holiday raises sales for both systems and receives credit as a model improvement. What looked like simplicity is revealed as a missing distinction.
 
-Reality now asks a question the retained information cannot answer: a holiday raises sales for both systems and receives credit as a model improvement.
+*The field naturalist sketches the break before changing it:*
 
-The wrong answer makes the need for controlled experiments inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ compare this week with last week ──▶ blurred: a holiday raises sales for both…
+      │
+      └── new lens ──▶ randomly assign comparable cases to… ──▶ distinction survives
+```
 
-We can now repair the procedure without guessing: randomly assign comparable cases to old and new behavior and compare predefined outcomes.
+The field naturalist turns the weathered observation slate toward the light. Through the old engraving, compare this week with last week, the evidence ends in the same contradiction: a holiday raises sales for both systems and receives credit as a model improvement. A second engraving adds only the power to randomly assign comparable cases to old and new behavior and compare predefined outcomes. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Controlled Experiments**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The field naturalist circles the place where the two controlled experiments cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to compare this week with last week produces the observed failure: a holiday raises sales for both systems and receives credit as a model improvement. Starting with the repaired demand to randomly assign comparable cases to old and new behavior and compare predefined outcomes preserves the information the shortcut lost. The subject of controlled experiments lives in the difference between those two causal stories.
+Only the missing distinction is restored: randomly assign comparable cases to old and new behavior and compare predefined outcomes. The field naturalist writes **Controlled Experiments** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to randomly assign comparable cases to old and new behavior and compare predefined outcomes instead of merely trying to compare this week with last week. That controlled contrast is what turns a plausible explanation of controlled experiments into an understandable derivation.
+The field naturalist does not memorize controlled experiments. Instead, the field naturalist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can randomly assign comparable cases to old and new behavior and compare predefined outcomes. The formal name merely lets that motion be shared.
 
 ## Understanding controlled experiments
 
 Split 10,000 simultaneous visitors evenly; conversion is 5% for control and 5.5% for treatment under the same week.
 
-There are now two histories of this controlled experiments case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where controlled experiments runs out
 
 Experiments require sufficient samples, ethical limits, and careful metrics.
 
-Look back at what controlled experiments actually preserves: it can randomly assign comparable cases to old and new behavior and compare predefined outcomes. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the weathered observation slate. None of the responsibilities inside Controlled Experiments can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take controlled experiments to the workbench
+## Return to the weathered observation slate
 
-The reader has reconstructed controlled experiments in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running controlled experiments, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the controlled experiments result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the controlled experiments scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

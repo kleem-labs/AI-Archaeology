@@ -2,45 +2,49 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 > **PART XI — EARNING THE RIGHT TO IMPROVE**
 >
 > Discovery is no longer enough. Every proposed improvement must survive evidence, opposition, authority, and the possibility of reversal.
 
 A bounded research system can propose and test changes without deploying them automatically. Its first obligation is to turn curiosity into a claim precise enough that an observation could prove it wrong.
 
-The obvious economy is to ask whether more context makes the model better.
+The doors of the Academy of Trials close against the wind. On the sealed evidence ledger, the experimentalist writes the cheapest rule that might still be true: ask whether more context makes the model better.
 
-The proposal deserves a fair hearing. For hypotheses, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-The decisive test is this: better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact.
+*The experimentalist sketches the break before changing it:*
 
-The failure changes the question behind hypotheses. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+possible road A ─┐
+                 ├── old map: ask whether more context makes the…
+possible road B ─┘              └── loses: better at what, on which examples,…
 
-The required repair is now narrow enough to state: state one predicted change, one intervention, one measurement, and one observation that would count against the claim.
+same roads ──▶ repaired map ──▶ state one predicted change, one…
+```
 
-Only at this point does the inherited name **Hypotheses** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+The experimentalist lays two translucent sheets over the sealed evidence ledger. The first is inscribed, “ask whether more context makes the model better.” Its path ends where better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact. The second receives the same evidence but is allowed to state one predicted change, one intervention, one measurement, and one observation that would count against the claim. Held to the light, the sheets separate at exactly one decision.
 
-Test the necessity of hypotheses by mentally removing the repair. We fall back to the proposal to ask whether more context makes the model better; then better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact. Restore only the ability to state one predicted change, one intervention, one measurement, and one observation that would count against the claim, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+No one reaches for a hypotheses formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to ask whether more context makes the model better to requiring the system to state one predicted change, one intervention, one measurement, and one observation that would count against the claim. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to hypotheses.
+The experimentalist changes only that one responsibility: state one predicted change, one intervention, one measurement, and one observation that would count against the claim. When the ink dries, the name **Hypotheses** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
+
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact, while the other can state one predicted change, one intervention, one measurement, and one observation that would count against the claim. That fork—not the vocabulary—is where hypotheses lives. At the Academy of Trials, hypotheses is built from controlled differences. Hold the surrounding world still, change one claimed cause, and measure what survives. Subtraction becomes intellectual honesty: remove the baseline before calling the remainder an improvement.
 
 ## Turning Curiosity into a Testable Claim
 
 Predict that raising context from 128 to 256 tokens reduces held-out loss on long-reference stories but not shuffled stories.
 
-Put the old procedure beside hypotheses. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## Where hypotheses runs out
 
 A clean hypothesis can still test the wrong measurement.
 
-The limit follows from the job assigned to hypotheses. Its repair knows how to state one predicted change, one intervention, one measurement, and one observation that would count against the claim. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Academy of Trials, the experimentalist leaves a blank beneath the new mark. Hypotheses has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take hypotheses to the workbench
+## Return to the sealed evidence ledger
 
-A claim about hypotheses now exists on the page; the laboratory must be able to contradict it. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running hypotheses, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the hypotheses result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the hypotheses scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

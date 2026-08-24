@@ -67,7 +67,7 @@ total                                      = 27
 
 The total is in squared differences. Its square root gives one ordinary separation: about 5.20.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 - **x** is only a nickname for Tiger A's ordered measurements.
 - **y** is only a nickname for Tiger B's ordered measurements.
@@ -78,14 +78,16 @@ The total is in squared differences. Its square root gives one ordinary separati
 - The root changes total 27 into distance 5.20.
 - **d(x,y)** merely names “the one separation between these two tigers.”
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Subtracting](../../MATHEMATICAL_MOVES.md#subtraction) tiger height from tiger height and tiger speed from tiger speed isolates each like-for-like disagreement. Adding would measure a total, not a gap.
 [Squaring](../../MATHEMATICAL_MOVES.md#powers) stops a smaller and larger feature from cancelling and makes a large mismatch count more strongly. Absolute value could stop cancellation too, but would produce a different geometry in which many small misses and one large miss trade differently.
 [Adding the squared disagreements](../../MATHEMATICAL_MOVES.md#summation) lets every retained feature contribute to one separation. Multiplying would let one perfect feature match erase all other disagreement by making the product zero.
 [The square root](../../MATHEMATICAL_MOVES.md#square-root) returns the accumulated squared separation to the features' ordinary scale; it is omitted when squared distance itself is all an algorithm needs.
 
-The notation is finally shorter than the story that created it:
+The symbols are about to change costume, but their work has appeared before: **the chisel**—what is shared is removed so the remaining change can be seen; **the echoing chamber**—large departures return with greater force while opposite signs stop cancelling; and **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. This is how distant excavations begin to sound like variations of one melody.
+
+The story of distance has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
 $$
 d(\mathbf{x},\mathbf{y})
@@ -113,3 +115,4 @@ So far a vector has described where an object is in feature space. But an arrow 
 [Next: Vectors as Change](../004-vectors-as-change/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

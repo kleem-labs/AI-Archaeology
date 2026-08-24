@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Sparse attention follows selected local, global, or retrieved paths instead of comparing everything. Any fixed context remains finite, while a long-running research system must preserve knowledge beyond the current window.
 
-The machinery already in our hands suggests that we append every past event to every future prompt.
+Nothing in the Academy of Trials yet bears today's mathematical name. There is only the experimentalist, the sealed evidence ledger, and one plausible action: append every past event to every future prompt.
 
-This is how external memory ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: cost grows forever and important facts drown in irrelevant history. What looked like simplicity is revealed as a missing distinction.
 
-One counterexample is enough to expose the missing job: cost grows forever and important facts drown in irrelevant history.
+*The experimentalist sketches the break before changing it:*
 
-The wrong answer makes the need for external memory inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   append every past event to every… cost grows forever and important…
+            \        /
+             \      /
+              we need to write selected facts to…
+```
 
-We can now repair the procedure without guessing: we need to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules.
+The experimentalist turns the sealed evidence ledger toward the light. Through the old engraving, append every past event to every future prompt, the evidence ends in the same contradiction: cost grows forever and important facts drown in irrelevant history. A second engraving adds only the power to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **External Memory**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The experimentalist circles the place where the two external memory cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to append every past event to every future prompt produces the observed failure: cost grows forever and important facts drown in irrelevant history. Starting with the repaired demand to we need to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules preserves the information the shortcut lost. The subject of external memory lives in the difference between those two causal stories.
+Only the missing distinction is restored: we need to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. The experimentalist writes **External Memory** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to we need to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules instead of merely trying to append every past event to every future prompt. That controlled contrast is what turns a plausible explanation of external memory into an understandable derivation.
+The experimentalist places a finger over the new distinction. At once the two cases collapse and cost grows forever and important facts drown in irrelevant history. Lifting the finger restores only this capacity: write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. That tiny reversible motion is the chapter's proof of necessity.
 
 ## Remembering Beyond the Context Window
 
 Store the user's chosen unit system once, retrieve it for calculations, and retain when and why it was recorded.
 
-There are now two histories of this external memory case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where external memory runs out
 
 Bad memories can persist longer than the conversations that created them.
 
-Look back at what external memory actually preserves: it can we need to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the sealed evidence ledger. None of the responsibilities inside External Memory can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take external memory to the workbench
+## Return to the sealed evidence ledger
 
-The reader has reconstructed external memory in words; the workbench tests whether those words specify a real procedure. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running external memory, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the external memory result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the external memory scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

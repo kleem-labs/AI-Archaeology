@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Linear probes reveal information available to a simple reader. To understand one prediction, we must trace which input evidence actually influenced the output rather than merely existing somewhere inside.
 
-For a moment, remain loyal to the simplest proposal: remove each word and treat output change as complete explanation.
+Morning reaches the Living Watchgarden before anyone has a name for today's difficulty. Beside the weathered observation slate, the field naturalist tries the smallest continuation of what already works: remove each word and treat output change as complete explanation.
 
-Its appeal is not ignorance but economy. Attribution should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: removing a word changes grammar and creates an unnatural new input. More confidence cannot repair information that never entered the rule.
 
-The world supplies the one comparison the shortcut hoped never to face: removing a word changes grammar and creates an unnatural new input.
+*The field naturalist sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for attribution. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   remove each word and treat output… removing a word changes grammar and…
+            \        /
+             \      /
+              measure sensitivity with several…
+```
 
-So the new mechanism must do one additional job: measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
+Two trails now cross the weathered observation slate. The pale trail bears the instruction “remove each word and treat output change as complete explanation.” It disappears into the observed failure: removing a word changes grammar and creates an unnatural new input. The darker trail carries one additional capacity—to measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **Attribution**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed attribution mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace attribution with the old instruction to remove each word and treat output change as complete explanation. The result is again that removing a word changes grammar and creates an unnatural new input. Put back only the requirement to measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the weathered observation slate is altered in exactly one way: measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions. Much later, people will call this territory **Attribution**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when attribution is introduced. The same evidence that defeated the attempt to remove each word and treat output change as complete explanation is presented again. Only the ability to measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions changes, so the repaired conclusion cannot be credited to a conveniently different example.
+Nothing is erased from the weathered observation slate. The failed path remains visible beneath the repair, because attribution is easier to remember when its scar remains attached to it. The scar reads, ‘removing a word changes grammar and creates an unnatural new input’; the new line exists only to keep that loss from happening again.
 
 ## Understanding attribution
 
 For “not dangerous,” attribution highlights not; replacing it with very changes the class as predicted.
 
-Run the attribution scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where attribution runs out
 
 Attribution can be unstable and method-dependent.
 
-Why does that boundary remain? Attribution was built for one responsibility: measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The weathered observation slate answers today's question and falls silent at the next. That silence is precise: Attribution was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take attribution to the workbench
+## Return to the weathered observation slate
 
-The argument for attribution is still provisional until a runnable case can make it fail. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running attribution, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the attribution result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the attribution scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

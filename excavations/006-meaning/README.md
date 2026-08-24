@@ -73,3 +73,4 @@ We need a geometry that can move symbols toward representations satisfying many 
 [Next: Embeddings](../007-embeddings/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

@@ -2,46 +2,56 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 A mini-batch replaces one noisy witness with the average advice of a small council. The council can point downhill, but its vote still says nothing about how far the network should move.
 
-The machinery already in our hands suggests that we always take a huge step: leap across the valley and oscillate.
+Night gathers around the Lantern Observatory. Under the light of the ring of glass lanterns, the keeper of uncertain stories refuses to invent prematurely and begins with the plain rule: always take a huge step: leap across the valley and oscillate.
 
-This is how learning rate ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: always take a microscopic step: improve so slowly that the expedition ends first. What looked like simplicity is revealed as a missing distinction.
 
-Then a case arrives in which convenience and truth separate: always take a microscopic step: improve so slowly that the expedition ends first.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-The wrong answer makes the need for learning rate inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+reference evidence ──▶ shortcut: always take a huge step: leap across…
+                         │
+                         └── mismatch: always take a microscopic step:…
 
-We can now repair the procedure without guessing: we need to multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
+reference evidence ──▶ measured repair: we need to multiply the gradient by a…
+```
 
-The usual name, **Learning Rate**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The keeper of uncertain stories turns the ring of glass lanterns toward the light. Through the old engraving, always take a huge step: leap across the valley and oscillate, the evidence ends in the same contradiction: always take a microscopic step: improve so slowly that the expedition ends first. A second engraving adds only the power to multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-We can audit the discovery from both directions. Starting with the shortcut to always take a huge step: leap across the valley and oscillate. produces the observed failure: always take a microscopic step: improve so slowly that the expedition ends first. Starting with the repaired demand to we need to multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time preserves the information the shortcut lost. The subject of learning rate lives in the difference between those two causal stories.
+The keeper of uncertain stories circles the place where the two learning rate cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to we need to multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time instead of merely trying to always take a huge step: leap across the valley and oscillate.. That controlled contrast is what turns a plausible explanation of learning rate into an understandable derivation.
+Only the missing distinction is restored: we need to multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. The keeper of uncertain stories writes **Learning Rate** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
+
+The keeper of uncertain stories places a finger over the new distinction. At once the two cases collapse and always take a microscopic step: improve so slowly that the expedition ends first. Lifting the finger restores only this capacity: multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. That tiny reversible motion is the chapter's proof of necessity.
 
 ## The calculation hidden inside learning rate
 
-Before Learning Rate receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The keeper of uncertain stories carries the learning rate scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 The repair solves the immediate failure, but no single learning rate is best throughout training. Scale, curvature, batch noise, and parameter units all matter.
 
 The tiger alarm's stripe dial is again 8, and the local uphill sensitivity is 10. Moving opposite the entire suggestion sends the dial to −2 and jumps across the best setting. Trusting one tenth moves it to 7; trusting one hundredth moves it to 7.9. All three moves use the same downhill direction. The learning rate answers the separate human question: how much of that local advice should we trust now?
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **g_t** is the downhill evidence measured at step t.
 **η_t** converts direction into a chosen travel distance and may change with time.
 The minus sign moves against increasing loss.
 **θ_t** and **θ_{t+1}** distinguish the old and updated parameter states.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [gₜ](../../MATHEMATICAL_MOVES.md#gradient) gives direction but not distance.
 [Multiplying by ηₜ](../../MATHEMATICAL_MOVES.md#multiplication) turns the direction into a controllable step for this time t; adding η would shift every coordinate regardless of the gradient's direction.
 [Subtraction](../../MATHEMATICAL_MOVES.md#negative-sign) moves opposite the locally uphill gradient rather than making loss rise faster.
 
-The notation is finally shorter than the story that created it:
+The symbols are about to change costume, but their work has appeared before: **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. This is how distant excavations begin to sound like variations of one melody.
+
+The story of learning rate has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
 $$
 \theta_{t+1}=\theta_t-\eta_t g_t
@@ -51,11 +61,9 @@ $$
 
 A mountain guide chooses shorter steps on steep or uncertain ground and can walk farther on a smooth open slope.
 
-## Take learning rate to the workbench
+## Return to the ring of glass lanterns
 
-The reader has reconstructed learning rate in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running learning rate, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the learning rate result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the learning rate scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

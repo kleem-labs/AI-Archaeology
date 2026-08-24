@@ -2,41 +2,44 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Debate exposes checkable disagreement instead of letting one persuasive answer control the evidence. Novel cases still need stable principles by which a judge can criticize both sides.
 
-If the old idea can be stretched one step farther, we should memorize approved answers and imitate their surface style.
+Inside the Academy of Trials, every old tool is given one honest chance. The experimentalist sets the sealed evidence ledger between the evidence and the desired answer, then tries to memorize approved answers and imitate their surface style.
 
-If the proposal works on every relevant case, constitutional guidance is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The experimentalist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: a novel case has no matching example, and style does not reveal the governing reason. The failure is stable enough to become evidence.
 
-The proposal breaks for a specific reason, not by authority: a novel case has no matching example, and style does not reveal the governing reason.
+*The experimentalist sketches the break before changing it:*
 
-Nothing magical creates constitutional guidance. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+OLD PATH:  request ──▶ memorize approved answers and imitate… ──▶ a novel case has no matching example,…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ write inspectable principles, use… ──▶ accountable result
+```
 
-The lost distinction tells us what to build: write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change.
+Across the sealed evidence ledger, the old path and the repaired path run side by side. One carries “memorize approved answers and imitate their surface style”; the other knows how to write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change. When the failure—a novel case has no matching example, and style does not reveal the governing reason—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Constitutional Guidance**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to constitutional guidance. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize constitutional guidance; try to break it by subtraction. Remove the part that knows how to write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change, leaving only the attempt to memorize approved answers and imitate their surface style. What returns is not a vague weakness but the original contradiction: a novel case has no matching example, and style does not reveal the governing reason. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change. This problem and its repair will travel under the name **Constitutional Guidance**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to memorize approved answers and imitate their surface style receives the same test as the rule to write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change. Their different outcomes reveal what constitutional guidance contributes without asking the reader to trust historical convention.
+What changed on the sealed evidence ledger can be said without symbols. Before, the method could only memorize approved answers and imitate their surface style; now it can also write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
 ## Rules That Can Critique Answers
 
 A draft exposes private data; the critique identifies the privacy rule and produces a redacted answer.
 
-Hold the setting, evidence, and desired outcome fixed while testing constitutional guidance. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## Where constitutional guidance runs out
 
 Principles conflict and still require legitimate interpretation.
 
-This is where constitutional guidance runs out for a causal reason. We gave it enough structure to write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The constitutional guidance repair holds, but the world asks for something it was never given. At the Academy of Trials, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take constitutional guidance to the workbench
+## Return to the sealed evidence ledger
 
-A mathematical story about constitutional guidance earns trust only when the failed and repaired paths can both be reproduced. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running constitutional guidance, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the constitutional guidance result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the constitutional guidance scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

@@ -2,41 +2,51 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Grounding exposes unsupported claims, but the assistant also reports confidence. If “80% certain” is wrong half the time, users cannot use that number to decide when to trust or verify it.
 
-For a moment, remain loyal to the simplest proposal: treat the largest softmax probability as honest confidence.
+Morning reaches the Hall of Voices before anyone has a name for today's difficulty. Beside the listening table, the public archivist tries the smallest continuation of what already works: treat the largest softmax probability as honest confidence.
 
-Its appeal is not ignorance but economy. Calibration should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability. More confidence cannot repair information that never entered the rule.
 
-The world supplies the one comparison the shortcut hoped never to face: collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability.
+*The public archivist sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for calibration. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+reference evidence ──▶ shortcut: treat the largest softmax probability…
+                         │
+                         └── mismatch: collect ten answers each reported…
 
-So the new mechanism must do one additional job: group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
+reference evidence ──▶ measured repair: group predictions with similar…
+```
 
-Humanity eventually gathered this problem and its repairs under the name **Calibration**. The name comes after the need; it must never conceal the observation that gave it meaning.
+Two trails now cross the listening table. The pale trail bears the instruction “treat the largest softmax probability as honest confidence.” It disappears into the observed failure: collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability. The darker trail carries one additional capacity—to group predictions with similar confidence and compare their average stated confidence with the fraction actually correct. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace calibration with the old instruction to treat the largest softmax probability as honest confidence. The result is again that collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability. Put back only the requirement to group predictions with similar confidence and compare their average stated confidence with the fraction actually correct. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+The room becomes quiet around the failed calibration mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-The comparison has one invariant: the world does not become kinder when calibration is introduced. The same evidence that defeated the attempt to treat the largest softmax probability as honest confidence is presented again. Only the ability to group predictions with similar confidence and compare their average stated confidence with the fraction actually correct changes, so the repaired conclusion cannot be credited to a conveniently different example.
+So the listening table is altered in exactly one way: group predictions with similar confidence and compare their average stated confidence with the fraction actually correct. Much later, people will call this territory **Calibration**. Here the name is only a memory of the failure it can survive.
+
+Nothing is erased from the listening table. The failed path remains visible beneath the repair, because calibration is easier to remember when its scar remains attached to it. The scar reads, ‘collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability’; the new line exists only to keep that loss from happening again.
 
 ## The calculation hidden inside calibration
 
-Before Calibration receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The public archivist carries the calibration scene to the listening table. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Five predictions report 0.8 confidence. Exactly four are correct. Accuracy is 4/5=0.8, so this group is calibrated. If only two are correct, accuracy is 0.4 and the confidence gap is 0.4.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 Each group contains predictions with similar confidence. Accuracy counts how many were correct. The absolute difference measures the reliability gap; weighting by group size prevents tiny groups dominating.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Confidence minus accuracy](../../MATHEMATICAL_MOVES.md#subtraction) finds each bin's reliability gap; adding them would measure overall level rather than disagreement.
 [Absolute value](../../MATHEMATICAL_MOVES.md#absolute-value) makes overconfidence and underconfidence both count as error when this metric asks for magnitude rather than direction.
 [Multiplying by |Bᵦ|/n](../../MATHEMATICAL_MOVES.md#multiplication) gives a large bin proportionally more influence, and [the sum](../../MATHEMATICAL_MOVES.md#summation) combines all bin contributions. An unweighted mean would let a tiny bin count as much as a common one.
 
-Every symbol in Calibration can now be read back into an action already performed. The whole procedure fits in one line:
+The calculation borrows several gestures already encountered elsewhere: **the chisel**—what is shared is removed so the remaining change can be seen; **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. calibration feels new because the objects are new; the gestures remain recognizably human.
+
+The public archivist reads the journey of calibration once more across the listening table, then lets the words contract without losing their order:
 
 $$
 \mathrm{ECE}=\sum_b\frac{|B_b|}{n}\left|\mathrm{accuracy}(B_b)-\mathrm{confidence}(B_b)\right|
@@ -46,13 +56,11 @@ $$
 
 Calibration depends on task and population. A model calibrated overall can be unreliable for an important subgroup.
 
-Why does that boundary remain? Calibration was built for one responsibility: group predictions with similar confidence and compare their average stated confidence with the fraction actually correct. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The listening table answers today's question and falls silent at the next. That silence is precise: Calibration was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take calibration to the workbench
+## Return to the listening table
 
-The argument for calibration is still provisional until a runnable case can make it fail. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running calibration, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the calibration result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the calibration scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

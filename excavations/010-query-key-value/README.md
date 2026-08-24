@@ -37,7 +37,7 @@ Only now do we write the operation you rediscovered—the dot product:
 
 A librarian hears, “Find me the book about a striped predator.” The request emphasizes *animal* and *stripes*. A catalogue card advertises the same properties; matching request-property to catalogue-property produces relevance. If that card wins three quarters of the attention, three quarters of the book's stored content—not three quarters of its catalogue description—travels into the answer. The request becomes the query, the catalogue becomes the key, and the retrievable content becomes the value only after those jobs are distinct.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 - **qᵢ** states what receiving token i needs; **kⱼ** states what source j offers.
 - Multiplying matching coordinates rewards aligned needs and offers; opposite signs become negative evidence.
@@ -48,13 +48,15 @@ A librarian hears, “Find me the book about a striped predator.” The request 
 
 Learned matrices create query, key, and value views from each current representation. Their formulas record three roles we already needed; they are not arbitrary symmetry.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [The dot product](../../MATHEMATICAL_MOVES.md#dot-product) multiplies query height-need by key height-offer, stripe-need by stripe-offer, and so on, then adds those aligned agreements into one relevance score.
 [Multiplication inside the dot product](../../MATHEMATICAL_MOVES.md#multiplication) is required because a query feature should matter only when the matching key feature is present too; addition would reward a key for merely being large on unrelated features.
 [The first sum](../../MATHEMATICAL_MOVES.md#summation) combines feature-level evidence into one match. The second sum combines each source's value after its attention weight scales how loudly that source contributes.
 
-The notation is finally shorter than the story that created it:
+Three old motions cast new shadows here: **the meeting of arrows**—matching directions reinforce while opposing directions resist; **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
+
+Cover the prose about query, key, and value and each mark can still be recovered from the case. Only now is the compressed form safe to write:
 
 $$
 s_{ij}=\mathbf{q}_i\cdot\mathbf{k}_j
@@ -97,3 +99,4 @@ One relevance system can pursue one mixture of relationships. Language needs sev
 [Next: Multi-Head Attention](../011-multi-head-attention/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

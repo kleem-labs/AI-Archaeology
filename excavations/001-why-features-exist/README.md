@@ -60,3 +60,4 @@ With thousands of animals and many features, separate facts become difficult to 
 [Next: Vectors](../002-vectors/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

@@ -2,41 +2,49 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Loss-spike monitoring protects the training process from obvious instability. A smooth training curve can still improve mainly on repeated or overrepresented training domains.
 
-A careful builder would first avoid adding machinery and evaluate only the next training batch because it is already available.
+A new case arrives at the Archive Foundry, but the archivist-engineer first reaches for the familiar chain-of-custody ledger. Its promise is simple: evaluate only the next training batch because it is already available.
 
-The shortcut appears to retain everything a validation stream needs. The next observation must test that belief, not merely assert that a textbook prefers another method.
+At the edge of the chain-of-custody ledger, the shortcut produces its consequence: the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse. That consequence, not a textbook, earns the next move.
 
-Reality now asks a question the retained information cannot answer: the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse.
+*The archivist-engineer sketches the break before changing it:*
 
-The counterexample teaches a validation stream. It reveals which sameness was false, which difference matters, and therefore what the replacement has to make visible.
+```text
+reference evidence ──▶ shortcut: evaluate only the next training batch…
+                         │
+                         └── mismatch: the same data mixture and duplicates…
 
-Only one extra responsibility has been earned: maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights.
+reference evidence ──▶ measured repair: maintain versioned, deduplicated,…
+```
 
-Now—and not earlier—we may introduce **A Validation Stream**. The words label the problem-and-repair pair whose necessity the reader can already test.
+The archivist-engineer covers the new mark and the old contradiction returns: the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse. The cover is lifted, restoring the ability to maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason validation stream exists.
 
-The invention can now defend itself. Without it, our best available move is to evaluate only the next training batch because it is already available, and the case answers that the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse. With the narrow repair—to maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights—the method can express the distinction reality demanded. That before-and-after comparison is the proof of need.
+What must change for validation stream is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
 
-The logic would be weaker if the repaired method were tested on an easier scene. It is not. A Validation Stream returns to the same counterexample, replaces the attempt to evaluate only the next training batch because it is already available with the responsibility to maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights, and must succeed where the shortcut failed.
+The old instrument is not discarded; it is given the one capacity the counterexample demanded: maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights. That threshold is where **A Validation Stream** enters the story.
+
+The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In validation stream, that memory takes a precise form: whenever the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse, preserve enough structure to maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights.
 
 ## Ask Whether Learning Survives Outside the Current Batch
 
 After every million training tokens, the station measures held-out field reports, science, books, code, and web text separately. A lower global average cannot hide that field-report loss rose.
 
-A formula for a validation stream is not yet needed. The experiment is already mathematical: we controlled what remained fixed, identified what changed, and demanded an observable consequence from that change.
-
 ## The calculation hidden inside a validation stream
 
-Before A Validation Stream receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The archivist-engineer carries the validation stream scene to the chain-of-custody ledger. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 The validation stream contains N honest next-token events. The model assigns the observed token x_i a conditional probability from its earlier context. Negative log turns confident neglect into positive cost, and L_val averages that cost across the stream.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Logarithms](../../MATHEMATICAL_MOVES.md#logarithm) turn multiplied sequence probabilities into additive token costs. [Negative signs](../../MATHEMATICAL_MOVES.md#negative-sign) make lower assigned probability cost more. [Summation](../../MATHEMATICAL_MOVES.md#summation) lets every event contribute, and [division](../../MATHEMATICAL_MOVES.md#division) makes streams of different lengths comparable.
 
-Every symbol in A Validation Stream can now be read back into an action already performed. The whole procedure fits in one line:
+Trace each operation by touch rather than by name: **the spiral stair**—compounded chances become steps that can be accumulated; **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. Together they form the smallest mechanism that survives the counterexample.
+
+The chain-of-custody ledger already contains the complete validation stream mechanism. Mathematics gives that mechanism a form small enough to carry:
 
 $$
 L_{\text{val}}=-\frac1N\sum_{i=1}^{N}\log p_\theta(x_i\mid x_{<i})
@@ -46,13 +54,11 @@ $$
 
 Validation detects only the distributions and behaviors represented in its finite streams; repeatedly tuning against it can eventually overfit it.
 
-The boundary can be predicted from the construction itself. A Validation Stream performs the repair to maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights; the additional problem names a job outside that construction. Recognizing that edge prevents one successful equation or procedure from pretending to be a complete intelligence.
+Here the new path ends honestly. Validation Stream can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-## Take a validation stream to the workbench
+## Return to the chain-of-custody ledger
 
-Move a validation stream from imagination to evidence by making the shortcut fail under controlled inputs. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running a validation stream, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the a validation stream result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the validation stream scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

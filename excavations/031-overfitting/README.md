@@ -2,45 +2,55 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Activation gates let the network bend and build conditional internal paths. That flexibility also makes a new deception possible: the machine can reproduce every training example without learning what should survive beyond them.
 
-Before naming anything new, try to celebrate zero training error.
+Nothing in the Lantern Observatory yet bears today's mathematical name. There is only the keeper of uncertain stories, the ring of glass lanterns, and one plausible action: celebrate zero training error.
 
-Its appeal is not ignorance but economy. Overfitting should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail. More confidence cannot repair information that never entered the rule.
 
-One counterexample is enough to expose the missing job: the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for overfitting. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ celebrate zero training error ──▶ blurred: the model may have memorized…
+      │
+      └── new lens ──▶ we need to reserve unseen cases and… ──▶ distinction survives
+```
 
-So the new mechanism must do one additional job: we need to reserve unseen cases and compare training success with performance outside the training memory.
+Two trails now cross the ring of glass lanterns. The pale trail bears the instruction “celebrate zero training error.” It disappears into the observed failure: the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail. The darker trail carries one additional capacity—to reserve unseen cases and compare training success with performance outside the training memory. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **Overfitting**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed overfitting mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace overfitting with the old instruction to celebrate zero training error.. The result is again that the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail. Put back only the requirement to we need to reserve unseen cases and compare training success with performance outside the training memory. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the ring of glass lanterns is altered in exactly one way: we need to reserve unseen cases and compare training success with performance outside the training memory. Much later, people will call this territory **Overfitting**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when overfitting is introduced. The same evidence that defeated the attempt to celebrate zero training error. is presented again. Only the ability to we need to reserve unseen cases and compare training success with performance outside the training memory changes, so the repaired conclusion cannot be credited to a conveniently different example.
+The ring of glass lanterns has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and overfitting looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
 ## The calculation hidden inside overfitting
 
-Before Overfitting receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The keeper of uncertain stories carries the overfitting scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 The repair solves the immediate failure, but a gap diagnoses overfitting but does not identify its cause. Leakage, distribution shift, and noisy evaluation can mislead us.
 
 A model has training loss 0.02 and unseen loss 0.17. Subtracting gives a gap of 0.15. The low training number shows memory; the gap measures how much success disappeared outside it.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **L_train** measures error on examples allowed to shape the model.
 **L_unseen** measures error on held-out observations.
 Subtraction isolates deterioration outside memory instead of confusing it with absolute task difficulty.
 A positive generalization gap is evidence that training success did not fully survive.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Unseen loss minus training loss](../../MATHEMATICAL_MOVES.md#subtraction) isolates how much performance deteriorates beyond memorized examples. Adding the losses would measure total error, not the transfer gap.
 The order matters: a positive answer naturally means unseen cases are worse. Reversing the subtraction would reverse that interpretation.
 
-The notation is finally shorter than the story that created it:
+Before the line is compressed, notice its recurring motions: **the chisel**—what is shared is removed so the remaining change can be seen. They are the handholds by which the reader can later climb back from notation to meaning.
+
+The keeper of uncertain stories reads the journey of overfitting once more across the ring of glass lanterns, then lets the words contract without losing their order:
 
 $$
 \text{generalization gap}=L_{\text{unseen}}-L_{\text{train}}
@@ -50,11 +60,9 @@ $$
 
 A student who memorizes answer positions can ace the practice sheet and fail when the same ideas are rearranged.
 
-## Take overfitting to the workbench
+## Return to the ring of glass lanterns
 
-The argument for overfitting is still provisional until a runnable case can make it fail. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running overfitting, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the overfitting result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the overfitting scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

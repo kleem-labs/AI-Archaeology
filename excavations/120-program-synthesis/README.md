@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Graph neural networks propagate learned messages through relational structure. Some tasks demand more than one answer: they demand a reusable procedure that maps every allowed input to an output.
 
-The least expensive next move is to memorize the provided input-output pairs.
+At the Hall of Possible Worlds, the keeper of unfinished questions returns to the table of mirrored maps. Yesterday's instrument still lies open, so the first move asks for no new magic: memorize the provided input-output pairs.
 
-The proposal deserves a fair hearing. For program synthesis, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: a new input exposes the absence of an underlying algorithm. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-Now keep that rule fixed and let the difficult case enter: a new input exposes the absence of an underlying algorithm.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-The failure changes the question behind program synthesis. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ memorize the provided input-output… ──▶ blurred: a new input exposes the absence of an…
+      │
+      └── new lens ──▶ search or generate candidate… ──▶ distinction survives
+```
 
-The required repair is now narrow enough to state: search or generate candidate programs, execute them, and keep those satisfying examples and constraints.
+The keeper of unfinished questions lays two translucent sheets over the table of mirrored maps. The first is inscribed, “memorize the provided input-output pairs.” Its path ends where a new input exposes the absence of an underlying algorithm. The second receives the same evidence but is allowed to search or generate candidate programs, execute them, and keep those satisfying examples and constraints. Held to the light, the sheets separate at exactly one decision.
 
-Only at this point does the inherited name **Program Synthesis** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+No one reaches for a program synthesis formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Test the necessity of program synthesis by mentally removing the repair. We fall back to the proposal to memorize the provided input-output pairs; then a new input exposes the absence of an underlying algorithm. Restore only the ability to search or generate candidate programs, execute them, and keep those satisfying examples and constraints, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+The keeper of unfinished questions changes only that one responsibility: search or generate candidate programs, execute them, and keep those satisfying examples and constraints. When the ink dries, the name **Program Synthesis** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to memorize the provided input-output pairs to requiring the system to search or generate candidate programs, execute them, and keep those satisfying examples and constraints. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to program synthesis.
+The table of mirrored maps keeps both histories. Its older mark still says, ‘memorize the provided input-output pairs’; beside it, the newer mark says, ‘search or generate candidate programs, execute them, and keep those satisfying examples and constraints.’ The distance between those sentences is the exact shape of program synthesis: no larger than the failure required, and no smaller than reality permits.
 
 ## Understanding program synthesis
 
 Examples 2→4 and 3→6 suggest multiply by two; testing 5 distinguishes it from memorized lookup.
 
-Put the old procedure beside program synthesis. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## Where program synthesis runs out
 
 Finite examples rarely identify one unique intended program.
 
-The limit follows from the job assigned to program synthesis. Its repair knows how to search or generate candidate programs, execute them, and keep those satisfying examples and constraints. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Hall of Possible Worlds, the keeper of unfinished questions leaves a blank beneath the new mark. Program Synthesis has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take program synthesis to the workbench
+## Return to the table of mirrored maps
 
-A claim about program synthesis now exists on the page; the laboratory must be able to contradict it. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running program synthesis, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the program synthesis result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the program synthesis scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

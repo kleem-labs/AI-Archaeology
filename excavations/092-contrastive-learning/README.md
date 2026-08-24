@@ -2,33 +2,39 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Multimodal alignment places an image near its matching caption. Pulling pairs together alone permits every pair to collapse to the same point; meaning appears only when the correct match wins against plausible alternatives.
 
-The first defensible move is to pull every observed pair together without negatives.
+Inside the Road of Consequences, every old tool is given one honest chance. The expedition leader sets the map of branching journeys between the evidence and the desired answer, then tries to pull every observed pair together without negatives.
 
-There is a real principle behind this restraint: the complexity of contrastive learning must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: the trouble appears immediately: all representations can collapse to one point. The map of branching journeys now holds two situations the old rule cannot keep apart.
 
-The proposal breaks for a specific reason, not by authority: the trouble appears immediately: all representations can collapse to one point.
+*The expedition leader sketches the break before changing it:*
 
-That distinction is the hinge on which contrastive learning turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+possible road A ─┐
+                 ├── old map: pull every observed pair together…
+possible road B ─┘              └── loses: the trouble appears immediately: all…
 
-What survives the counterexample is this requirement: compare each true pair against mismatched alternatives in the same batch.
+same roads ──▶ repaired map ──▶ compare each true pair against…
+```
 
-We have earned the chapter's shorter name: **Contrastive Learning**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The map of branching journeys is divided down the middle. Left side: “pull every observed pair together without negatives.” Its final mark records the trouble appears immediately: all representations can collapse to one point. Right side: the same starting evidence, now allowed to compare each true pair against mismatched alternatives in the same batch. The difference is narrow enough to see and important enough to change the ending.
 
-A reader can check that contrastive learning is necessary rather than decorative. Delete its new responsibility and use the earlier plan to pull every observed pair together without negatives. Immediately, the trouble appears immediately: all representations can collapse to one point. Reintroduce the single job to compare each true pair against mismatched alternatives in the same batch. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The broken rule has given contrastive learning a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can compare each true pair against mismatched alternatives in the same batch. Because the old plan to pull every observed pair together without negatives is the only displaced piece, the reader can locate exactly where contrastive learning changes the outcome.
+The repair can now be stated without mystery: compare each true pair against mismatched alternatives in the same batch. The name **Contrastive Learning** arrives afterward, like a title given to a path whose stones are already underfoot.
+
+One boundary in the room is now sharper. On one side lies the promise to pull every observed pair together without negatives; on the other lies the observed fact that the trouble appears immediately: all representations can collapse to one point. The bridge called contrastive learning has exactly the planks needed to compare each true pair against mismatched alternatives in the same batch.
 
 ## Understanding contrastive learning
 
 One tiger image chooses its caption among 31 wrong captions; success requires relative alignment.
 
-The name contrastive learning is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## The calculation hidden inside contrastive learning
 
-Do not read the coming Contrastive Learning line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The expedition leader carries the contrastive learning scene to the map of branching journeys. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Place four wildlife photographs beside four captions. The tiger photograph should prefer “a striped predator” over “a river,” “a truck,” and “a sleeping dog.” Pulling only the correct pair together is insufficient: every photograph and caption could collapse to the same location. Making the tiger compete against all candidate captions forces its correct caption to be closer *relative to the alternatives*.
 
@@ -38,14 +44,16 @@ Temperature T controls how sharply alternatives compete.
 The denominator includes every candidate caption, preventing all examples from collapsing to one point.
 The negative log penalizes the true pair when mismatches receive comparable scores.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Each dot product](../../MATHEMATICAL_MOVES.md#dot-product) measures aligned agreement between one image representation and one candidate text representation.
 [Dividing by temperature](../../MATHEMATICAL_MOVES.md#division) controls how strongly score gaps matter before [exponentiation](../../MATHEMATICAL_MOVES.md#exponential) converts them into positive relative weights.
 [The denominator sum](../../MATHEMATICAL_MOVES.md#summation) makes the correct pair compete against all candidates, preventing every representation from winning by collapsing to one point.
 [Negative log](../../MATHEMATICAL_MOVES.md#logarithm) turns the correct pair's probability share into additive cost and punishes confident preference for the wrong match.
 
-Every symbol in Contrastive Learning can now be read back into an action already performed. The whole procedure fits in one line:
+Inside contrastive learning, familiar operations return with stricter duties: **the meeting of arrows**—matching directions reinforce while opposing directions resist; **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; and **the rising flame**—a small score difference becomes positive relative evidence. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
+
+Nothing remains unnamed in the contrastive learning case on the map of branching journeys. We can finally trade the long route for its compact map:
 
 $$
 L_i=-\log\frac{\exp(z_i\cdot t_i/T)}{\sum_j\exp(z_i\cdot t_j/T)}
@@ -55,13 +63,11 @@ $$
 
 False negatives may actually describe the same concept.
 
-The weakness is not an accidental footnote. Every operation in contrastive learning serves the narrower purpose to compare each true pair against mismatched alternatives in the same batch; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Contrastive Learning; it reveals the edge of what was constructed. The expedition leader carries that edge into the following room.
 
-## Take contrastive learning to the workbench
+## Return to the map of branching journeys
 
-Understanding contrastive learning now means predicting its intermediate results before asking software for an answer. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running contrastive learning, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the contrastive learning result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the contrastive learning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

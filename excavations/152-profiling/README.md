@@ -2,43 +2,53 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 A reproducible baseline gives us a trustworthy before-state. Its first run is too slow for the ranger station, but a total runtime does not identify the guilty stage.
 
-The first defensible move is to optimize the largest-looking matrix because attention is famous for being expensive.
+At the Engine Cavern, the enginewright returns to the brass reference machine. Yesterday's instrument still lies open, so the first move asks for no new magic: optimize the largest-looking matrix because attention is famous for being expensive.
 
-There is a real principle behind this restraint: the complexity of profiling must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. The brass reference machine now holds two situations the old rule cannot keep apart.
 
-Now keep that rule fixed and let the difficult case enter: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock.
+*The enginewright sketches the break before changing it:*
 
-That distinction is the hinge on which profiling turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   optimize the largest-looking matrix… the device spends much of the run…
+            \        /
+             \      /
+              measure data loading, computation,…
+```
 
-What survives the counterexample is this requirement: measure data loading, computation, communication, and idle time separately before choosing a repair.
+The brass reference machine is divided down the middle. Left side: “optimize the largest-looking matrix because attention is famous for being expensive.” Its final mark records the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. Right side: the same starting evidence, now allowed to measure data loading, computation, communication, and idle time separately before choosing a repair. The difference is narrow enough to see and important enough to change the ending.
 
-We have earned the chapter's shorter name: **Profiling**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The broken rule has given profiling a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-A reader can check that profiling is necessary rather than decorative. Delete its new responsibility and use the earlier plan to optimize the largest-looking matrix because attention is famous for being expensive. Immediately, the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. Reintroduce the single job to measure data loading, computation, communication, and idle time separately before choosing a repair. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The repair can now be stated without mystery: measure data loading, computation, communication, and idle time separately before choosing a repair. The name **Profiling** arrives afterward, like a title given to a path whose stones are already underfoot.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can measure data loading, computation, communication, and idle time separately before choosing a repair. Because the old plan to optimize the largest-looking matrix because attention is famous for being expensive is the only displaced piece, the reader can locate exactly where profiling changes the outcome.
+One boundary in the room is now sharper. On one side lies the promise to optimize the largest-looking matrix because attention is famous for being expensive; on the other lies the observed fact that the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. The bridge called profiling has exactly the planks needed to measure data loading, computation, communication, and idle time separately before choosing a repair.
 
 ## Measure Where the Time Went
 
 A 100 ms step contains 35 ms of loading, 45 ms of compute, 10 ms of communication, and 10 ms idle. The first engineering question is now visible in numbers.
 
-The name profiling is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## The calculation hidden inside profiling
 
-Do not read the coming Profiling line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The enginewright carries the profiling scene to the brass reference machine. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Start a stopwatch with one training step. Loading ends at 35 ms; computation then carries the clock to 80; communication to 90; idle synchronization to 100. These are consecutive pieces of one elapsed interval, so you join them end to end. The name T_step is simply the final reading after T_data, T_compute, T_communication, and T_idle have all contributed.
 
 Each T names elapsed time assigned to one non-overlapping stage of the same training step.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Addition](../../MATHEMATICAL_MOVES.md#addition) is forced because these non-overlapping durations occur along one wall-clock path and accumulate into total time. Multiplication would claim that doubling one stage scales every other stage. The equality is valid only when the measured categories cover the step without overlap.
 
-Every symbol in Profiling can now be read back into an action already performed. The whole procedure fits in one line:
+Listen beneath profiling: **the joining river**—separate contributions meet without losing where they came from. These are not ornamental comparisons. Each image keeps the exact job of an operation visible while its symbols change.
+
+Nothing remains unnamed in the profiling case on the brass reference machine. We can finally trade the long route for its compact map:
 
 $$
 T_{\text{step}}=T_{\text{data}}+T_{\text{compute}}+T_{\text{communication}}+T_{\text{idle}}
@@ -48,13 +58,11 @@ $$
 
 A profile describes this workload on this hardware; changing sequence length or batch size can move the bottleneck.
 
-The weakness is not an accidental footnote. Every operation in profiling serves the narrower purpose to measure data loading, computation, communication, and idle time separately before choosing a repair; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Profiling; it reveals the edge of what was constructed. The enginewright carries that edge into the following room.
 
-## Take profiling to the workbench
+## Return to the brass reference machine
 
-Understanding profiling now means predicting its intermediate results before asking software for an answer. Reproduce the waste first, then apply the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running profiling, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the profiling result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the profiling scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [Diagram of the measured failure and repair](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

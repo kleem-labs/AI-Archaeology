@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 A reward says how an outcome turned out. To learn from it, the agent must preserve the situation it occupied, the action it chose, and the situation that followed.
 
-The machinery already in our hands suggests that we store only action and final reward.
+Nothing in the Road of Consequences yet bears today's mathematical name. There is only the expedition leader, the map of branching journeys, and one plausible action: store only action and final reward.
 
-This is how states, actions, and transitions ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: the trouble appears immediately: the same action helps in one situation and harms in another. What looked like simplicity is revealed as a missing distinction.
 
-One counterexample is enough to expose the missing job: the trouble appears immediately: the same action helps in one situation and harms in another.
+*The expedition leader sketches the break before changing it:*
 
-The wrong answer makes the need for states, actions, and transitions inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+reference evidence ──▶ shortcut: store only action and final reward
+                         │
+                         └── mismatch: the trouble appears immediately: the…
 
-We can now repair the procedure without guessing: we need to record current state, chosen action, reward, and resulting state.
+reference evidence ──▶ measured repair: we need to record current state,…
+```
 
-The usual name, **States, Actions, and Transitions**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The expedition leader turns the map of branching journeys toward the light. Through the old engraving, store only action and final reward, the evidence ends in the same contradiction: the trouble appears immediately: the same action helps in one situation and harms in another. A second engraving adds only the power to record current state, chosen action, reward, and resulting state. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-We can audit the discovery from both directions. Starting with the shortcut to store only action and final reward produces the observed failure: the trouble appears immediately: the same action helps in one situation and harms in another. Starting with the repaired demand to we need to record current state, chosen action, reward, and resulting state preserves the information the shortcut lost. The subject of states, actions, and transitions lives in the difference between those two causal stories.
+The expedition leader circles the place where the two states, actions, and transitions cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to we need to record current state, chosen action, reward, and resulting state instead of merely trying to store only action and final reward. That controlled contrast is what turns a plausible explanation of states, actions, and transitions into an understandable derivation.
+Only the missing distinction is restored: we need to record current state, chosen action, reward, and resulting state. The expedition leader writes **States, Actions, and Transitions** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
+
+The expedition leader places a finger over the new distinction. At once the two cases collapse and the trouble appears immediately: the same action helps in one situation and harms in another. Lifting the finger restores only this capacity: record current state, chosen action, reward, and resulting state. That tiny reversible motion is the chapter's proof of necessity.
 
 ## Understanding states, actions, and transitions
 
 “Move right” from left of the door succeeds; the same action beside a cliff fails because state differs.
 
-There are now two histories of this states, actions, and transitions case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where states, actions, and transitions runs out
 
 A state representation may omit information needed for future decisions.
 
-Look back at what states, actions, and transitions actually preserves: it can we need to record current state, chosen action, reward, and resulting state. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the map of branching journeys. None of the responsibilities inside States, Actions, and Transitions can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take states, actions, and transitions to the workbench
+## Return to the map of branching journeys
 
-The reader has reconstructed states, actions, and transitions in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running states, actions, and transitions, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the states, actions, and transitions result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the states, actions, and transitions scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Tree search spends simulation on promising and uncertain branches. A long proposed solution may still hide one invalid inference, so plausible completion must be separated from stepwise verification.
 
-The first defensible move is to judge only the final answer.
+Inside the Hall of Possible Worlds, every old tool is given one honest chance. The keeper of unfinished questions sets the table of mirrored maps between the evidence and the desired answer, then tries to judge only the final answer.
 
-There is a real principle behind this restraint: the complexity of reasoning and verification must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan. The table of mirrored maps now holds two situations the old rule cannot keep apart.
 
-The proposal breaks for a specific reason, not by authority: a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-That distinction is the hinge on which reasoning and verification turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+reference evidence ──▶ shortcut: judge only the final answer
+                         │
+                         └── mismatch: a lucky answer hides invalid…
 
-What survives the counterexample is this requirement: represent intermediate claims and verify each with an appropriate checker or evidence source.
+reference evidence ──▶ measured repair: represent intermediate claims and…
+```
 
-We have earned the chapter's shorter name: **Reasoning and Verification**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The table of mirrored maps is divided down the middle. Left side: “judge only the final answer.” Its final mark records a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan. Right side: the same starting evidence, now allowed to represent intermediate claims and verify each with an appropriate checker or evidence source. The difference is narrow enough to see and important enough to change the ending.
 
-A reader can check that reasoning and verification is necessary rather than decorative. Delete its new responsibility and use the earlier plan to judge only the final answer. Immediately, a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan. Reintroduce the single job to represent intermediate claims and verify each with an appropriate checker or evidence source. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The broken rule has given reasoning and verification a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can represent intermediate claims and verify each with an appropriate checker or evidence source. Because the old plan to judge only the final answer is the only displaced piece, the reader can locate exactly where reasoning and verification changes the outcome.
+The repair can now be stated without mystery: represent intermediate claims and verify each with an appropriate checker or evidence source. The name **Reasoning and Verification** arrives afterward, like a title given to a path whose stones are already underfoot.
+
+One boundary in the room is now sharper. On one side lies the promise to judge only the final answer; on the other lies the observed fact that a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan. The bridge called reasoning and verification has exactly the planks needed to represent intermediate claims and verify each with an appropriate checker or evidence source.
 
 ## Understanding reasoning and verification
 
 A geometry solution checks every equality before accepting the final area.
 
-The name reasoning and verification is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## Where reasoning and verification runs out
 
 Written steps may be rationalizations rather than the mechanism used.
 
-The weakness is not an accidental footnote. Every operation in reasoning and verification serves the narrower purpose to represent intermediate claims and verify each with an appropriate checker or evidence source; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Reasoning and Verification; it reveals the edge of what was constructed. The keeper of unfinished questions carries that edge into the following room.
 
-## Take reasoning and verification to the workbench
+## Return to the table of mirrored maps
 
-Understanding reasoning and verification now means predicting its intermediate results before asking software for an answer. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running reasoning and verification, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the reasoning and verification result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the reasoning and verification scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

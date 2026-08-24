@@ -2,40 +2,54 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Pre-deployment evaluation can reject a dangerous candidate before the world pays for the experiment. A measured improvement must still pass reproducibility, impact review, authorization, staged release, monitoring, and rollback before it may replace the system that proposed it.
 
-The obvious economy is to let every measured gain replace the current system automatically.
+The doors of the Academy of Trials close against the wind. On the sealed evidence ledger, the experimentalist writes the cheapest rule that might still be true: let every measured gain replace the current system automatically.
 
-The proposal deserves a fair hearing. For a bounded self-improving system, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-The decisive test is this: contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor.
+*The experimentalist sketches the break before changing it:*
 
-The failure changes the question behind a bounded self-improving system. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+possible road A ─┐
+                 ├── old map: let every measured gain replace the…
+possible road B ─┘              └── loses: contaminated tests, reward hacks, or…
 
-The required repair is now narrow enough to state: separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback.
+same roads ──▶ repaired map ──▶ separate proposal, sandboxed…
+```
 
-Only at this point does the inherited name **A Bounded Self-Improving System** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+The experimentalist lays two translucent sheets over the sealed evidence ledger. The first is inscribed, “let every measured gain replace the current system automatically.” Its path ends where contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor. The second receives the same evidence but is allowed to separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. Held to the light, the sheets separate at exactly one decision.
 
-Test the necessity of a bounded self-improving system by mentally removing the repair. We fall back to the proposal to let every measured gain replace the current system automatically; then contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor. Restore only the ability to separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+No one reaches for a bounded self-improving system formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to let every measured gain replace the current system automatically to requiring the system to separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to a bounded self-improving system.
+The experimentalist changes only that one responsibility: separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. When the ink dries, the name **A Bounded Self-Improving System** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
+
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor, while the other can separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. That fork—not the vocabulary—is where bounded self-improving system lives.
 
 ## Close the Research Loop
 
 A tokenizer change advances only after repeated clean tests, safety checks, signed approval, a small canary release, and monitored rollback criteria.
 
-Put the old procedure beside a bounded self-improving system. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## Where a bounded self-improving system runs out
 
 The loop remains only as wise as its objectives, evidence, boundaries, and accountable humans.
 
-The limit follows from the job assigned to a bounded self-improving system. Its repair knows how to separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Academy of Trials, the experimentalist leaves a blank beneath the new mark. Bounded Self-Improving System has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take a bounded self-improving system to the workbench
+## Improvement enters a circle of gates
 
-A claim about a bounded self-improving system now exists on the page; the laboratory must be able to contradict it. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running a bounded self-improving system, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
+A proposed change must now survive a hypothesis, experiment, reproduction, adversary, impact review, human authority, staged release, and rollback. Progress is no longer a larger score. It is a claim that remains standing after every relevant way of being wrong has spoken.
 
-Explain the a bounded self-improving system result once without terminology, then once with the precise symbols or state transitions the implementation used.
+```text
+proposal → test → opposition → authority → release → reversal
+```
+
+The trail called *improvement enters a circle of gates* is what remains when one necessity becomes another.
+
+## Return to the sealed evidence ledger
+
+Rebuild the bounded self-improving system scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).

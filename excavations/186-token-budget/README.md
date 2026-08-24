@@ -2,41 +2,53 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Seeded mixture sampling can produce an ordered stream. The run still says “train for a while,” so neither cost nor source exposure is bounded.
 
-The obvious economy is to stop when the wall clock reaches an affordable date.
+The chain-of-custody ledger at the Archive Foundry still carries the marks of the previous discovery. The archivist-engineer follows them as far as they seem willing to go: stop when the wall clock reaches an affordable date.
 
-The proposal deserves a fair hearing. For the token budget, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-Its hidden assumption becomes visible as soon as we observe that faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence.
+*The archivist-engineer sketches the break before changing it:*
 
-The failure changes the question behind the token budget. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+observation
+    │
+    ▼
+[stop when the wall clock reaches an…]
+    │
+    ╳  faster hardware sees more tokens,…
+    │
+    ▼
+[define the run by optimization steps…]
+```
 
-The required repair is now narrow enough to state: define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute.
+The archivist-engineer lays two translucent sheets over the chain-of-custody ledger. The first is inscribed, “stop when the wall clock reaches an affordable date.” Its path ends where faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence. The second receives the same evidence but is allowed to define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute. Held to the light, the sheets separate at exactly one decision.
 
-Only at this point does the inherited name **The Token Budget** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+No one reaches for a token budget formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Test the necessity of the token budget by mentally removing the repair. We fall back to the proposal to stop when the wall clock reaches an affordable date; then faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence. Restore only the ability to define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+The archivist-engineer changes only that one responsibility: define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute. When the ink dries, the name **The Token Budget** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to stop when the wall clock reaches an affordable date to requiring the system to define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to the token budget.
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence, while the other can define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute. That fork—not the vocabulary—is where token budget lives.
 
 ## Convert a Training Plan into a Count of Lessons
 
 A tiny run uses 2,000 updates with 32 sequences of 128 real tokens each. Every update carries 4,096 lessons, so the complete plan exposes 8,192,000 tokens.
 
-Put the old procedure beside the token budget. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## The calculation hidden inside the token budget
 
-Do not read the coming The Token Budget line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The archivist-engineer carries the token budget scene to the chain-of-custody ledger. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 T is the planned number of optimizer updates, B_tokens counts real loss-bearing tokens in one global batch, and N_tokens is the complete exposure budget.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) appears because every one of T updates consumes B_tokens lessons. Addition would count only one update plus one batch. Padding is excluded because it occupies hardware but contributes no language target.
 
-Every symbol in The Token Budget can now be read back into an action already performed. The whole procedure fits in one line:
+Three old motions cast new shadows here: **the lock and key**—one influence matters through another, and either missing factor can close the path. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
+
+Every mark needed for token budget is now visible on the chain-of-custody ledger. The symbols do not add an idea; they bind the discovered moves into one line:
 
 $$
 N_{\text{tokens}}=T B_{\text{tokens}}
@@ -46,13 +58,11 @@ $$
 
 Equal token counts do not imply equal compute when model size, sequence length, sparsity, or hardware efficiency differs.
 
-The limit follows from the job assigned to the token budget. Its repair knows how to define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Archive Foundry, the archivist-engineer leaves a blank beneath the new mark. Token Budget has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take the token budget to the workbench
+## Return to the chain-of-custody ledger
 
-A claim about the token budget now exists on the page; the laboratory must be able to contradict it. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running the token budget, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the the token budget result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the token budget scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

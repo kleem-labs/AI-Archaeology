@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 The manifest fixes which source documents belong to the run. Tokenization can still concatenate them into a stream where the ending of one document predicts the beginning of an unrelated one.
 
-At this point the shortest path seems to be to join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width.
+Morning reaches the Archive Foundry before anyone has a name for today's difficulty. Beside the chain-of-custody ledger, the archivist-engineer tries the smallest continuation of what already works: join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width.
 
-This is how document boundaries ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: a ranger report ending with “tiger tracks near” is trained to predict the first word of an unrelated software license. The model receives a relationship that never existed in either document. What looked like simplicity is revealed as a missing distinction.
 
-The world supplies the one comparison the shortcut hoped never to face: a ranger report ending with “tiger tracks near” is trained to predict the first word of an unrelated software license. The model receives a relationship that never existed in either document.
+*The archivist-engineer sketches the break before changing it:*
 
-The wrong answer makes the need for document boundaries inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ join every token sequence end to end… ──▶ blurred: a ranger report ending with “tiger…
+      │
+      └── new lens ──▶ mark document ends, reset position… ──▶ distinction survives
+```
 
-We can now repair the procedure without guessing: mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended.
+The archivist-engineer turns the chain-of-custody ledger toward the light. Through the old engraving, join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width, the evidence ends in the same contradiction: a ranger report ending with “tiger tracks near” is trained to predict the first word of an unrelated software license. The model receives a relationship that never existed in either document. A second engraving adds only the power to mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Document Boundaries**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The archivist-engineer circles the place where the two document boundaries cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width produces the observed failure: a ranger report ending with “tiger tracks near” is trained to predict the first word of an unrelated software license. The model receives a relationship that never existed in either document. Starting with the repaired demand to mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended preserves the information the shortcut lost. The subject of document boundaries lives in the difference between those two causal stories.
+Only the missing distinction is restored: mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended. The archivist-engineer writes **Document Boundaries** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended instead of merely trying to join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width. That controlled contrast is what turns a plausible explanation of document boundaries into an understandable derivation.
+The archivist-engineer does not memorize document boundaries. Instead, the archivist-engineer memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended. The formal name merely lets that motion be shared.
 
 ## Keep One Story from Leaking into Another
 
 Two short documents share one packed row, but a boundary mask lets each token read only tokens from its own document. The empty hardware space is saved without inventing a false continuation.
 
-There are now two histories of this document boundaries case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## The calculation hidden inside document boundaries
 
-Before Document Boundaries receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The archivist-engineer carries the document boundaries scene to the chain-of-custody ledger. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 A_ij answers one concrete yes-or-no question for token positions i and j: may information cross between them? One means the pair shares a document; zero means the boundary forbids the connection.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Cases](../../MATHEMATICAL_MOVES.md#cases) are forced because same-document and cross-document pairs obey different rules. [Equality](../../MATHEMATICAL_MOVES.md#equals) assigns an exact permission bit. A distance score would blur a categorical boundary, while addition would invent partial permission.
 
-Every symbol in Document Boundaries can now be read back into an action already performed. The whole procedure fits in one line:
+The story of document boundaries has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
 $$
 A_{ij}=\begin{cases}1&\text{tokens }i,j\text{ share a document}\\0&\text{otherwise}\end{cases}
@@ -46,13 +52,11 @@ $$
 
 Boundary isolation prevents accidental cross-document lessons; it cannot decide whether two paragraphs really belong to the same source document.
 
-Look back at what document boundaries actually preserves: it can mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the chain-of-custody ledger. None of the responsibilities inside Document Boundaries can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take document boundaries to the workbench
+## Return to the chain-of-custody ledger
 
-The reader has reconstructed document boundaries in words; the workbench tests whether those words specify a real procedure. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running document boundaries, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the document boundaries result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the document boundaries scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

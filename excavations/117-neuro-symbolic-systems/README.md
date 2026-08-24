@@ -2,41 +2,49 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Reasoning with verification catches steps that violate checkable constraints. Neural representations handle perception and ambiguity well, while exact logical and algebraic rules resist being approximated.
 
-At this point the shortest path seems to be to force fuzzy perception into rigid rules or exact rules into learned approximation.
+A new case arrives at the Hall of Possible Worlds, but the keeper of unfinished questions first reaches for the familiar table of mirrored maps. Its promise is simple: force fuzzy perception into rigid rules or exact rules into learned approximation.
 
-This is how neuro-symbolic systems ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints. What looked like simplicity is revealed as a missing distinction.
 
-Reality now asks a question the retained information cannot answer: the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-The wrong answer makes the need for neuro-symbolic systems inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+observation
+    │
+    ▼
+[force fuzzy perception into rigid…]
+    │
+    ╳  the trouble appears immediately: the…
+    │
+    ▼
+[let neural components propose symbols…]
+```
 
-We can now repair the procedure without guessing: let neural components propose symbols or scores and symbolic components enforce explicit relations.
+The keeper of unfinished questions turns the table of mirrored maps toward the light. Through the old engraving, force fuzzy perception into rigid rules or exact rules into learned approximation, the evidence ends in the same contradiction: the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints. A second engraving adds only the power to let neural components propose symbols or scores and symbolic components enforce explicit relations. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Neuro-Symbolic Systems**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The keeper of unfinished questions circles the place where the two neuro-symbolic systems cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to force fuzzy perception into rigid rules or exact rules into learned approximation produces the observed failure: the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints. Starting with the repaired demand to let neural components propose symbols or scores and symbolic components enforce explicit relations preserves the information the shortcut lost. The subject of neuro-symbolic systems lives in the difference between those two causal stories.
+Only the missing distinction is restored: let neural components propose symbols or scores and symbolic components enforce explicit relations. The keeper of unfinished questions writes **Neuro-Symbolic Systems** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to let neural components propose symbols or scores and symbolic components enforce explicit relations instead of merely trying to force fuzzy perception into rigid rules or exact rules into learned approximation. That controlled contrast is what turns a plausible explanation of neuro-symbolic systems into an understandable derivation.
+The keeper of unfinished questions does not memorize neuro-symbolic systems. Instead, the keeper of unfinished questions memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can let neural components propose symbols or scores and symbolic components enforce explicit relations. The formal name merely lets that motion be shared.
 
 ## Understanding neuro-symbolic systems
 
 Vision detects board pieces; a chess engine enforces legal moves.
 
-There are now two histories of this neuro-symbolic systems case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where neuro-symbolic systems runs out
 
 Errors at the interface can still corrupt the combined result.
 
-Look back at what neuro-symbolic systems actually preserves: it can let neural components propose symbols or scores and symbolic components enforce explicit relations. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the table of mirrored maps. None of the responsibilities inside Neuro-Symbolic Systems can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take neuro-symbolic systems to the workbench
+## Return to the table of mirrored maps
 
-The reader has reconstructed neuro-symbolic systems in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running neuro-symbolic systems, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the neuro-symbolic systems result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the neuro-symbolic systems scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

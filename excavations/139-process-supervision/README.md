@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Search and verification keep only candidates that survive an independent test. A correct final answer can still reward an invalid path that reached it by luck.
 
-Before naming anything new, try to reward only whether the final answer matches.
+Night gathers around the Academy of Trials. Under the light of the sealed evidence ledger, the experimentalist refuses to invent prematurely and begins with the plain rule: reward only whether the final answer matches.
 
-Its appeal is not ignorance but economy. Process Supervision should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: lucky shortcuts receive the same credit as reliable reasoning. More confidence cannot repair information that never entered the rule.
 
-Then a case arrives in which convenience and truth separate: lucky shortcuts receive the same credit as reliable reasoning.
+*The experimentalist sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for process supervision. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+reference evidence ──▶ shortcut: reward only whether the final answer…
+                         │
+                         └── mismatch: lucky shortcuts receive the same…
 
-So the new mechanism must do one additional job: we need to evaluate checkable intermediate claims and train the system to prefer valid paths.
+reference evidence ──▶ measured repair: we need to evaluate checkable…
+```
 
-Humanity eventually gathered this problem and its repairs under the name **Process Supervision**. The name comes after the need; it must never conceal the observation that gave it meaning.
+Two trails now cross the sealed evidence ledger. The pale trail bears the instruction “reward only whether the final answer matches.” It disappears into the observed failure: lucky shortcuts receive the same credit as reliable reasoning. The darker trail carries one additional capacity—to evaluate checkable intermediate claims and train the system to prefer valid paths. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace process supervision with the old instruction to reward only whether the final answer matches. The result is again that lucky shortcuts receive the same credit as reliable reasoning. Put back only the requirement to we need to evaluate checkable intermediate claims and train the system to prefer valid paths. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+The room becomes quiet around the failed process supervision mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-The comparison has one invariant: the world does not become kinder when process supervision is introduced. The same evidence that defeated the attempt to reward only whether the final answer matches is presented again. Only the ability to we need to evaluate checkable intermediate claims and train the system to prefer valid paths changes, so the repaired conclusion cannot be credited to a conveniently different example.
+So the sealed evidence ledger is altered in exactly one way: we need to evaluate checkable intermediate claims and train the system to prefer valid paths. Much later, people will call this territory **Process Supervision**. Here the name is only a memory of the failure it can survive.
+
+The sealed evidence ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and process supervision looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
 
 ## Rewarding the Path, Not Only the Answer
 
 Mark each algebraic transformation valid or invalid before judging the final result.
 
-Run the process supervision scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where process supervision runs out
 
 Human process labels are expensive and can enforce one style rather than truth.
 
-Why does that boundary remain? Process Supervision was built for one responsibility: we need to evaluate checkable intermediate claims and train the system to prefer valid paths. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The sealed evidence ledger answers today's question and falls silent at the next. That silence is precise: Process Supervision was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take process supervision to the workbench
+## Return to the sealed evidence ledger
 
-The argument for process supervision is still provisional until a runnable case can make it fail. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running process supervision, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the process supervision result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the process supervision scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

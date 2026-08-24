@@ -2,41 +2,50 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Selective prediction gives the system permission to abstain. When an approved new task finally supplies more training data, learning it can overwrite skills that were reliable yesterday.
 
-We can postpone invention if we simply fine-tune only on the newest data.
+The table of mirrored maps at the Hall of Possible Worlds still carries the marks of the previous discovery. The keeper of unfinished questions follows them as far as they seem willing to go: fine-tune only on the newest data.
 
-If the proposal works on every relevant case, catastrophic forgetting is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The keeper of unfinished questions repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: updates useful for B overwrite weights carrying A. The failure is stable enough to become evidence.
 
-Its hidden assumption becomes visible as soon as we observe that updates useful for B overwrite weights carrying A.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-Nothing magical creates catastrophic forgetting. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   fine-tune only on the newest data updates useful for B overwrite…
+            \        /
+             \      /
+              rehearse old evidence, protect…
+```
 
-The lost distinction tells us what to build: rehearse old evidence, protect important parameters, or allocate new capacity.
+Across the table of mirrored maps, the old path and the repaired path run side by side. One carries “fine-tune only on the newest data”; the other knows how to rehearse old evidence, protect important parameters, or allocate new capacity. When the failure—updates useful for B overwrite weights carrying A—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Catastrophic Forgetting**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to catastrophic forgetting. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize catastrophic forgetting; try to break it by subtraction. Remove the part that knows how to rehearse old evidence, protect important parameters, or allocate new capacity, leaving only the attempt to fine-tune only on the newest data. What returns is not a vague weakness but the original contradiction: updates useful for B overwrite weights carrying A. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: rehearse old evidence, protect important parameters, or allocate new capacity. This problem and its repair will travel under the name **Catastrophic Forgetting**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to fine-tune only on the newest data receives the same test as the rule to rehearse old evidence, protect important parameters, or allocate new capacity. Their different outcomes reveal what catastrophic forgetting contributes without asking the reader to trust historical convention.
+Under the latest ink, the first question is still legible: what if we followed the tempting rule—fine-tune only on the newest data? The answer remains updates useful for B overwrite weights carrying A. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
+
+
+Before leaving the table of mirrored maps, the keeper of unfinished questions tests the new idea backward. Remove the ability to rehearse old evidence, protect important parameters, or allocate new capacity, and the method falls back to this tempting instruction: fine-tune only on the newest data. The old consequence returns—updates useful for B overwrite weights carrying A. Restore the missing ability and that particular contradiction disappears. This reversible test is why catastrophic forgetting belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Understanding catastrophic forgetting
 
 Learning birds after mammals drops mammal accuracy; mixing a small mammal replay set preserves both.
 
-Hold the setting, evidence, and desired outcome fixed while testing catastrophic forgetting. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## Where catastrophic forgetting runs out
 
 Memory, privacy, and capacity limit rehearsal.
 
-This is where catastrophic forgetting runs out for a causal reason. We gave it enough structure to rehearse old evidence, protect important parameters, or allocate new capacity, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The catastrophic forgetting repair holds, but the world asks for something it was never given. At the Hall of Possible Worlds, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take catastrophic forgetting to the workbench
+## Return to the table of mirrored maps
 
-A mathematical story about catastrophic forgetting earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running catastrophic forgetting, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the catastrophic forgetting result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the catastrophic forgetting scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

@@ -58,3 +58,4 @@ The relevance scores may be negative, huge, or expressed on unstable scales. Bef
 [Next: Softmax](../009-softmax/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

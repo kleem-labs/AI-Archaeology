@@ -2,41 +2,49 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Self-supervision extracts lessons from unlabeled observations. An acting system needs more than representations: before choosing, it must imagine how the world may change after each possible action.
 
-The machinery already in our hands suggests that we learn only which action was rewarded in previously visited situations.
+Nothing in the Hall of Possible Worlds yet bears today's mathematical name. There is only the keeper of unfinished questions, the table of mirrored maps, and one plausible action: learn only which action was rewarded in previously visited situations.
 
-This is how world models ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: the agent cannot imagine untried sequences or reuse physical regularities. What looked like simplicity is revealed as a missing distinction.
 
-One counterexample is enough to expose the missing job: the agent cannot imagine untried sequences or reuse physical regularities.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-The wrong answer makes the need for world models inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+observation
+    │
+    ▼
+[learn only which action was rewarded…]
+    │
+    ╳  the agent cannot imagine untried…
+    │
+    ▼
+[we need to learn a compact model that…]
+```
 
-We can now repair the procedure without guessing: we need to learn a compact model that predicts next state and reward from current state and action.
+The keeper of unfinished questions turns the table of mirrored maps toward the light. Through the old engraving, learn only which action was rewarded in previously visited situations, the evidence ends in the same contradiction: the agent cannot imagine untried sequences or reuse physical regularities. A second engraving adds only the power to learn a compact model that predicts next state and reward from current state and action. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **World Models**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The keeper of unfinished questions circles the place where the two world models cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to learn only which action was rewarded in previously visited situations produces the observed failure: the agent cannot imagine untried sequences or reuse physical regularities. Starting with the repaired demand to we need to learn a compact model that predicts next state and reward from current state and action preserves the information the shortcut lost. The subject of world models lives in the difference between those two causal stories.
+Only the missing distinction is restored: we need to learn a compact model that predicts next state and reward from current state and action. The keeper of unfinished questions writes **World Models** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to we need to learn a compact model that predicts next state and reward from current state and action instead of merely trying to learn only which action was rewarded in previously visited situations. That controlled contrast is what turns a plausible explanation of world models into an understandable derivation.
+The keeper of unfinished questions places a finger over the new distinction. At once the two cases collapse and the agent cannot imagine untried sequences or reuse physical regularities. Lifting the finger restores only this capacity: learn a compact model that predicts next state and reward from current state and action. That tiny reversible motion is the chapter's proof of necessity.
 
 ## Understanding world models
 
 From ball position and push direction, predict where the ball will move before choosing the push.
 
-There are now two histories of this world models case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where world models runs out
 
 Model errors compound during long imagined rollouts.
 
-Look back at what world models actually preserves: it can we need to learn a compact model that predicts next state and reward from current state and action. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the table of mirrored maps. None of the responsibilities inside World Models can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take world models to the workbench
+## Return to the table of mirrored maps
 
-The reader has reconstructed world models in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running world models, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the world models result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the world models scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

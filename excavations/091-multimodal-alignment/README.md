@@ -2,41 +2,48 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Policy gradients let consequences reshape action probabilities. The field system's words, images, and actions still live in separate representational worlds unless paired observations can teach them to meet.
 
-Before naming anything new, try to compare raw pixels directly with token IDs.
+Night gathers around the Road of Consequences. Under the light of the map of branching journeys, the expedition leader refuses to invent prematurely and begins with the plain rule: compare raw pixels directly with token IDs.
 
-Its appeal is not ignorance but economy. Multimodal Alignment should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: their coordinates have unrelated meanings and shapes. More confidence cannot repair information that never entered the rule.
 
-Then a case arrives in which convenience and truth separate: their coordinates have unrelated meanings and shapes.
+*The expedition leader sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for multimodal alignment. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ compare raw pixels directly with… ──▶ blurred: their coordinates have unrelated…
+      │
+      └── new lens ──▶ we need to use separate encoders and… ──▶ distinction survives
+```
 
-So the new mechanism must do one additional job: we need to use separate encoders and train paired image-text examples to become nearby.
+Two trails now cross the map of branching journeys. The pale trail bears the instruction “compare raw pixels directly with token IDs.” It disappears into the observed failure: their coordinates have unrelated meanings and shapes. The darker trail carries one additional capacity—to use separate encoders and train paired image-text examples to become nearby. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **Multimodal Alignment**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed multimodal alignment mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace multimodal alignment with the old instruction to compare raw pixels directly with token IDs. The result is again that their coordinates have unrelated meanings and shapes. Put back only the requirement to we need to use separate encoders and train paired image-text examples to become nearby. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the map of branching journeys is altered in exactly one way: we need to use separate encoders and train paired image-text examples to become nearby. Much later, people will call this territory **Multimodal Alignment**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when multimodal alignment is introduced. The same evidence that defeated the attempt to compare raw pixels directly with token IDs is presented again. Only the ability to we need to use separate encoders and train paired image-text examples to become nearby changes, so the repaired conclusion cannot be credited to a conveniently different example.
+The map of branching journeys has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and multimodal alignment looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
+
+
+Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to use separate encoders and train paired image-text examples to become nearby, and the method falls back to this tempting instruction: compare raw pixels directly with token IDs. The old consequence returns—their coordinates have unrelated meanings and shapes. Restore the missing ability and that particular contradiction disappears. This reversible test is why multimodal alignment belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Understanding multimodal alignment
 
 A tiger photo and “striped big cat” move together; mismatched captions move apart.
 
-Run the multimodal alignment scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where multimodal alignment runs out
 
 Pairs can contain weak, biased, or incomplete descriptions.
 
-Why does that boundary remain? Multimodal Alignment was built for one responsibility: we need to use separate encoders and train paired image-text examples to become nearby. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The map of branching journeys answers today's question and falls silent at the next. That silence is precise: Multimodal Alignment was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take multimodal alignment to the workbench
+## Return to the map of branching journeys
 
-The argument for multimodal alignment is still provisional until a runnable case can make it fail. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running multimodal alignment, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the multimodal alignment result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the multimodal alignment scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

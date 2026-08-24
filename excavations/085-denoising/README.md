@@ -2,33 +2,38 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 The forward diffusion process tells us exactly how clean image and noise combine at every step. Generation now depends on a network that can inspect the corrupted image and infer what the noise hid.
 
-For a moment, remain loyal to the simplest proposal: ask it to recreate the entire clean image directly from every noise level.
+A new case arrives at the Glass Menagerie, but the maker of seeing-machines first reaches for the familiar wall of illuminated tiles. Its promise is simple: ask it to recreate the entire clean image directly from every noise level.
 
-Its appeal is not ignorance but economy. Denoising should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: the task changes dramatically across noise strengths. More confidence cannot repair information that never entered the rule.
 
-Reality now asks a question the retained information cannot answer: the task changes dramatically across noise strengths.
+*The maker of seeing-machines sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for denoising. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+OLD PATH:  request ──▶ ask it to recreate the entire clean… ──▶ the task changes dramatically across…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ tell the model the noise level and… ──▶ accountable result
+```
 
-So the new mechanism must do one additional job: tell the model the noise level and predict the added noise or equivalent clean direction.
+Two trails now cross the wall of illuminated tiles. The pale trail bears the instruction “ask it to recreate the entire clean image directly from every noise level.” It disappears into the observed failure: the task changes dramatically across noise strengths. The darker trail carries one additional capacity—to tell the model the noise level and predict the added noise or equivalent clean direction. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Humanity eventually gathered this problem and its repairs under the name **Denoising**. The name comes after the need; it must never conceal the observation that gave it meaning.
+The room becomes quiet around the failed denoising mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace denoising with the old instruction to ask it to recreate the entire clean image directly from every noise level. The result is again that the task changes dramatically across noise strengths. Put back only the requirement to tell the model the noise level and predict the added noise or equivalent clean direction. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+So the wall of illuminated tiles is altered in exactly one way: tell the model the noise level and predict the added noise or equivalent clean direction. Much later, people will call this territory **Denoising**. Here the name is only a memory of the failure it can survive.
 
-The comparison has one invariant: the world does not become kinder when denoising is introduced. The same evidence that defeated the attempt to ask it to recreate the entire clean image directly from every noise level is presented again. Only the ability to tell the model the noise level and predict the added noise or equivalent clean direction changes, so the repaired conclusion cannot be credited to a conveniently different example.
+Nothing is erased from the wall of illuminated tiles. The failed path remains visible beneath the repair, because denoising is easier to remember when its scar remains attached to it. The scar reads, ‘the task changes dramatically across noise strengths’; the new line exists only to keep that loss from happening again.
 
 ## Predicting What the Noise Hid
 
 If known noise [0.2,-0.1] was added, learning to estimate it lets subtraction move toward the clean sample.
 
-Run the denoising scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## The calculation hidden inside denoising
 
-Before Denoising receives symbols, its procedure must be possible in ordinary language. Notation is useful here only because it lets us repeat that same reasoning without ambiguity.
+The maker of seeing-machines carries the denoising scene to the wall of illuminated tiles. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Take one pixel from that corrupted tiger image. We know the random grain added to it was `+0.30`. The denoiser sees the corrupted image and the current noise step and predicts `+0.20`. Its error is `0.10`; squaring makes the contribution `0.01` and prevents a `-0.10` error elsewhere from cancelling it. Repeating this comparison across pixels and images teaches the network which part of a noisy observation should be removed.
 
@@ -37,13 +42,15 @@ t tells the network how much corruption it faces.
 The network predicts the exact noise ε that hid the clean image.
 Squaring the pixel-by-pixel prediction error prevents cancellation; averaging trains across samples.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Subtracting predicted noise from actual noise](../../MATHEMATICAL_MOVES.md#subtraction) isolates the denoiser's error rather than their combined amount.
 [The squared norm](../../MATHEMATICAL_MOVES.md#norm) lets every pixel error contribute without opposite signs cancelling and penalizes large misses more strongly.
 [Expectation](../../MATHEMATICAL_MOVES.md#expectation) averages that error over images, noise samples, and times according to how training encounters them.
 
-Every symbol in Denoising can now be read back into an action already performed. The whole procedure fits in one line:
+Trace each operation by touch rather than by name: **the chisel**—what is shared is removed so the remaining change can be seen; and **the council of possible worlds**—each future speaks in proportion to how often it may arrive. Together they form the smallest mechanism that survives the counterexample.
+
+The maker of seeing-machines reads the journey of denoising once more across the wall of illuminated tiles, then lets the words contract without losing their order:
 
 $$
 L=\mathbb{E}\left[\lVert\epsilon-\epsilon_\theta(x_t,t)\rVert^2\right]
@@ -53,13 +60,21 @@ $$
 
 Prediction parameterization and schedule affect stability and quality.
 
-Why does that boundary remain? Denoising was built for one responsibility: tell the model the noise level and predict the added noise or equivalent clean direction. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The wall of illuminated tiles answers today's question and falls silent at the next. That silence is precise: Denoising was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take denoising to the workbench
+## Light learns a path home
 
-The argument for denoising is still provisional until a runnable case can make it fail. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running denoising, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
+Pixels became neighborhoods, neighborhoods became parts, parts became objects, and compressed coordinates became places from which images could be rebuilt. Diffusion completed the arc by turning destruction into a curriculum for creation.
 
-Explain the denoising result once without terminology, then once with the precise symbols or state transitions the implementation used.
+```text
+light → locality → hierarchy → latent space → noise → image
+```
+
+The trail called *light learns a path home* is what remains when one necessity becomes another.
+
+## Return to the wall of illuminated tiles
+
+Rebuild the denoising scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

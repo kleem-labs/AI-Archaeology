@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Long-context retrieval brings the relevant clue back into view. Easy lookups and hard proofs still receive the same fixed amount of reasoning unless computation can be allocated according to difficulty.
 
-A careful builder would first avoid adding machinery and make every model response extremely long.
+Morning reaches the Academy of Trials before anyone has a name for today's difficulty. Beside the sealed evidence ledger, the experimentalist tries the smallest continuation of what already works: make every model response extremely long.
 
-The shortcut appears to retain everything test-time compute needs. The next observation must test that belief, not merely assert that a textbook prefers another method.
+At the edge of the sealed evidence ledger, the shortcut produces its consequence: the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing. That consequence, not a textbook, earns the next move.
 
-The world supplies the one comparison the shortcut hoped never to face: the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing.
+*The experimentalist sketches the break before changing it:*
 
-The counterexample teaches test-time compute. It reveals which sameness was false, which difference matters, and therefore what the replacement has to make visible.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ make every model response extremely… ──▶ blurred: the trouble appears immediately: easy…
+      │
+      └── new lens ──▶ allocate extra attempts or steps only… ──▶ distinction survives
+```
 
-Only one extra responsibility has been earned: allocate extra attempts or steps only when uncertainty and verification justify their cost.
+The experimentalist covers the new mark and the old contradiction returns: the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing. The cover is lifted, restoring the ability to allocate extra attempts or steps only when uncertainty and verification justify their cost, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason test-time compute exists.
 
-Now—and not earlier—we may introduce **Test-Time Compute**. The words label the problem-and-repair pair whose necessity the reader can already test.
+What must change for test-time compute is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
 
-The invention can now defend itself. Without it, our best available move is to make every model response extremely long, and the case answers that the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing. With the narrow repair—to allocate extra attempts or steps only when uncertainty and verification justify their cost—the method can express the distinction reality demanded. That before-and-after comparison is the proof of need.
+The old instrument is not discarded; it is given the one capacity the counterexample demanded: allocate extra attempts or steps only when uncertainty and verification justify their cost. That threshold is where **Test-Time Compute** enters the story.
 
-The logic would be weaker if the repaired method were tested on an easier scene. It is not. Test-Time Compute returns to the same counterexample, replaces the attempt to make every model response extremely long with the responsibility to allocate extra attempts or steps only when uncertainty and verification justify their cost, and must succeed where the shortcut failed.
+The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In test-time compute, that memory takes a precise form: whenever the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing, preserve enough structure to allocate extra attempts or steps only when uncertainty and verification justify their cost.
 
 ## Thinking Longer on Harder Problems
 
 Answer 2+2 immediately, but generate and check several candidate routes for a scheduling puzzle.
 
-A formula for test-time compute is not yet needed. The experiment is already mathematical: we controlled what remained fixed, identified what changed, and demanded an observable consequence from that change.
-
 ## Where test-time compute runs out
 
 More computation amplifies a bad objective or unreliable verifier.
 
-The boundary can be predicted from the construction itself. Test-Time Compute performs the repair to allocate extra attempts or steps only when uncertainty and verification justify their cost; the additional problem names a job outside that construction. Recognizing that edge prevents one successful equation or procedure from pretending to be a complete intelligence.
+Here the new path ends honestly. Test-Time Compute can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-## Take test-time compute to the workbench
+## Return to the sealed evidence ledger
 
-Move test-time compute from imagination to evidence by making the shortcut fail under controlled inputs. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running test-time compute, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the test-time compute result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the test-time compute scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

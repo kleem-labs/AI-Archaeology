@@ -2,41 +2,48 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Controlled experiments isolate causal effects by holding alternatives steady. In a live recommender, withholding every uncertain choice until a long experiment ends sacrifices opportunities to learn while serving users.
 
-We can postpone invention if we simply always choose the currently best option.
+The doors of the Living Watchgarden close against the wind. On the weathered observation slate, the field naturalist writes the cheapest rule that might still be true: always choose the currently best option.
 
-If the proposal works on every relevant case, bandits is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The field naturalist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: an unlucky first result permanently hides a better alternative. The failure is stable enough to become evidence.
 
-The decisive test is this: an unlucky first result permanently hides a better alternative.
+*The field naturalist sketches the break before changing it:*
 
-Nothing magical creates bandits. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+possible road A ─┐
+                 ├── old map: always choose the currently best…
+possible road B ─┘              └── loses: an unlucky first result permanently…
 
-The lost distinction tells us what to build: reserve some choices for exploration while exploiting accumulated evidence.
+same roads ──▶ repaired map ──▶ reserve some choices for exploration…
+```
 
-This boundary between the failed rule and its repair is the subject later work calls **Bandits**. Naming it adds nothing; the discovery happened when the lost information became visible.
+Across the weathered observation slate, the old path and the repaired path run side by side. One carries “always choose the currently best option”; the other knows how to reserve some choices for exploration while exploiting accumulated evidence. When the failure—an unlucky first result permanently hides a better alternative—arrives, only one path still possesses a place to record the missing distinction.
 
-Do not memorize bandits; try to break it by subtraction. Remove the part that knows how to reserve some choices for exploration while exploiting accumulated evidence, leaving only the attempt to always choose the currently best option. What returns is not a vague weakness but the original contradiction: an unlucky first result permanently hides a better alternative. The removed responsibility therefore has an observable job.
+The failure is no longer an embarrassment to bandits. It is a compass: it points directly toward the information the next construction must retain.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to always choose the currently best option receives the same test as the rule to reserve some choices for exploration while exploiting accumulated evidence. Their different outcomes reveal what bandits contributes without asking the reader to trust historical convention.
+The evidence permits one narrow invention: reserve some choices for exploration while exploiting accumulated evidence. This problem and its repair will travel under the name **Bandits**, but the name carries no knowledge the scene has not earned.
+
+Under the latest ink, the first question is still legible: what if we followed the tempting rule—always choose the currently best option? The answer remains an unlucky first result permanently hides a better alternative. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
+
+
+Before leaving the weathered observation slate, the field naturalist tests the new idea backward. Remove the ability to reserve some choices for exploration while exploiting accumulated evidence, and the method falls back to this tempting instruction: always choose the currently best option. The old consequence returns—an unlucky first result permanently hides a better alternative. Restore the missing ability and that particular contradiction disappears. This reversible test is why bandits belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Learning While Choosing
 
 Cafe A wins its first two trials; continuing to sample B reveals it succeeds eight out of ten times.
 
-Hold the setting, evidence, and desired outcome fixed while testing bandits. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## Where bandits runs out
 
 Exploration has real cost and can be unacceptable for high-risk actions.
 
-This is where bandits runs out for a causal reason. We gave it enough structure to reserve some choices for exploration while exploiting accumulated evidence, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The bandits repair holds, but the world asks for something it was never given. At the Living Watchgarden, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take bandits to the workbench
+## Return to the weathered observation slate
 
-A mathematical story about bandits earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running bandits, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the bandits result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the bandits scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

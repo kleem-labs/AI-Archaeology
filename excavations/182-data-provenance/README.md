@@ -2,41 +2,44 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Quality filtering produces an accepted set and a rejected set. Without a trace through each transformation, neither set can explain how a source document reached its decision.
 
-Nothing yet appears to demand a new invention. We can save only the final cleaned text because intermediate metadata costs storage.
+The doors of the Archive Foundry close against the wind. On the chain-of-custody ledger, the archivist-engineer writes the cheapest rule that might still be true: save only the final cleaned text because intermediate metadata costs storage.
 
-There is a real principle behind this restraint: the complexity of data provenance must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it. The chain-of-custody ledger now holds two situations the old rule cannot keep apart.
 
-The decisive test is this: a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it.
+*The archivist-engineer sketches the break before changing it:*
 
-That distinction is the hinge on which data provenance turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+OLD PATH:  request ──▶ save only the final cleaned text… ──▶ a rights request, filtering bug, or…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ assign stable document identities and… ──▶ accountable result
+```
 
-What survives the counterexample is this requirement: assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard.
+The chain-of-custody ledger is divided down the middle. Left side: “save only the final cleaned text because intermediate metadata costs storage.” Its final mark records a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it. Right side: the same starting evidence, now allowed to assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard. The difference is narrow enough to see and important enough to change the ending.
 
-We have earned the chapter's shorter name: **Data Provenance**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The broken rule has given data provenance a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-A reader can check that data provenance is necessary rather than decorative. Delete its new responsibility and use the earlier plan to save only the final cleaned text because intermediate metadata costs storage. Immediately, a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it. Reintroduce the single job to assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The repair can now be stated without mystery: assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard. The name **Data Provenance** arrives afterward, like a title given to a path whose stones are already underfoot.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard. Because the old plan to save only the final cleaned text because intermediate metadata costs storage is the only displaced piece, the reader can locate exactly where data provenance changes the outcome.
+A thread now runs backward from data provenance through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
 
 ## Keep the Path Back to Every Source
 
 Document `river-0042` points to its source URL, retrieval time, raw hash, language decision, duplicate cluster, quality audit, redaction record, and final shard offset.
 
-The name data provenance is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## Where data provenance runs out
 
 Provenance makes decisions inspectable; it cannot repair a source that was collected without sufficient rights, consent, or context.
 
-The weakness is not an accidental footnote. Every operation in data provenance serves the narrower purpose to assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Data Provenance; it reveals the edge of what was constructed. The archivist-engineer carries that edge into the following room.
 
-## Take data provenance to the workbench
+## Return to the chain-of-custody ledger
 
-Understanding data provenance now means predicting its intermediate results before asking software for an answer. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running data provenance, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the data provenance result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the data provenance scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

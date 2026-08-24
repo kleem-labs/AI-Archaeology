@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Impact measures make avoidable side effects visible against a baseline. No formula can settle every conflict among values, so consequential or irreversible boundaries still require informed human judgment.
 
-For a moment, remain loyal to the simplest proposal: ask a human to watch every internal step.
+Morning reaches the Academy of Trials before anyone has a name for today's difficulty. Beside the sealed evidence ledger, the experimentalist tries the smallest continuation of what already works: ask a human to watch every internal step.
 
-Its appeal is not ignorance but economy. Human Oversight should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: constant review overwhelms attention, so approval becomes automatic ceremony. More confidence cannot repair information that never entered the rule.
 
-The world supplies the one comparison the shortcut hoped never to face: constant review overwhelms attention, so approval becomes automatic ceremony.
+*The experimentalist sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for human oversight. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+reference evidence ──▶ shortcut: ask a human to watch every internal…
+                         │
+                         └── mismatch: constant review overwhelms attention,…
 
-So the new mechanism must do one additional job: automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries.
+reference evidence ──▶ measured repair: automate reversible preparation but…
+```
 
-Humanity eventually gathered this problem and its repairs under the name **Human Oversight**. The name comes after the need; it must never conceal the observation that gave it meaning.
+Two trails now cross the sealed evidence ledger. The pale trail bears the instruction “ask a human to watch every internal step.” It disappears into the observed failure: constant review overwhelms attention, so approval becomes automatic ceremony. The darker trail carries one additional capacity—to automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace human oversight with the old instruction to ask a human to watch every internal step. The result is again that constant review overwhelms attention, so approval becomes automatic ceremony. Put back only the requirement to automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+The room becomes quiet around the failed human oversight mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-The comparison has one invariant: the world does not become kinder when human oversight is introduced. The same evidence that defeated the attempt to ask a human to watch every internal step is presented again. Only the ability to automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries changes, so the repaired conclusion cannot be credited to a conveniently different example.
+So the sealed evidence ledger is altered in exactly one way: automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries. Much later, people will call this territory **Human Oversight**. Here the name is only a memory of the failure it can survive.
+
+Nothing is erased from the sealed evidence ledger. The failed path remains visible beneath the repair, because human oversight is easier to remember when its scar remains attached to it. The scar reads, ‘constant review overwhelms attention, so approval becomes automatic ceremony’; the new line exists only to keep that loss from happening again.
 
 ## Put Judgment at the Irreversible Edge
 
 The agent drafts, cites sources, and highlights uncertainty; a lawyer controls submission.
 
-Run the human oversight scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where human oversight runs out
 
 A reviewer without time or context is not meaningful oversight.
 
-Why does that boundary remain? Human Oversight was built for one responsibility: automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The sealed evidence ledger answers today's question and falls silent at the next. That silence is precise: Human Oversight was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take human oversight to the workbench
+## Return to the sealed evidence ledger
 
-The argument for human oversight is still provisional until a runnable case can make it fail. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running human oversight, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the human oversight result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the human oversight scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

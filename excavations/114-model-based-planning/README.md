@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Counterfactual reasoning compares unrealized alternatives for one case. Planning extends that question across a sequence, where each imagined action changes which choices and states can follow.
 
-The obvious economy is to commit to the first sequence imagined.
+The table of mirrored maps at the Hall of Possible Worlds still carries the marks of the previous discovery. The keeper of unfinished questions follows them as far as they seem willing to go: commit to the first sequence imagined.
 
-The proposal deserves a fair hearing. For model-based planning, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: one forecast may exploit model error or miss better branches. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-Its hidden assumption becomes visible as soon as we observe that one forecast may exploit model error or miss better branches.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-The failure changes the question behind model-based planning. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+light / evidence
+      │
+      ├── old lens ──▶ commit to the first sequence imagined ──▶ blurred: one forecast may exploit model error…
+      │
+      └── new lens ──▶ simulate multiple candidate… ──▶ distinction survives
+```
 
-The required repair is now narrow enough to state: simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.
+The keeper of unfinished questions lays two translucent sheets over the table of mirrored maps. The first is inscribed, “commit to the first sequence imagined.” Its path ends where one forecast may exploit model error or miss better branches. The second receives the same evidence but is allowed to simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. Held to the light, the sheets separate at exactly one decision.
 
-Only at this point does the inherited name **Model-Based Planning** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+No one reaches for a model-based planning formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Test the necessity of model-based planning by mentally removing the repair. We fall back to the proposal to commit to the first sequence imagined; then one forecast may exploit model error or miss better branches. Restore only the ability to simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+The keeper of unfinished questions changes only that one responsibility: simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. When the ink dries, the name **Model-Based Planning** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to commit to the first sequence imagined to requiring the system to simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to model-based planning.
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because one forecast may exploit model error or miss better branches, while the other can simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. That fork—not the vocabulary—is where model-based planning lives.
 
 ## Understanding model-based planning
 
 A robot simulates left-right paths, takes one safe step, then updates after detecting an obstacle.
 
-Put the old procedure beside model-based planning. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## Where model-based planning runs out
 
 Planning cost grows with horizon and branching.
 
-The limit follows from the job assigned to model-based planning. Its repair knows how to simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Hall of Possible Worlds, the keeper of unfinished questions leaves a blank beneath the new mark. Model-Based Planning has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take model-based planning to the workbench
+## Return to the table of mirrored maps
 
-A claim about model-based planning now exists on the page; the laboratory must be able to contradict it. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running model-based planning, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the model-based planning result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the model-based planning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

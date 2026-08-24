@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Uncertainty-aware planning carries several plausible worlds and may seek information before acting. Even a plan that succeeds in all of them can alter unrelated parts of the world unnecessarily.
 
-The least expensive next move is to score only the requested final condition.
+At the Academy of Trials, the experimentalist returns to the sealed evidence ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: score only the requested final condition.
 
-The proposal deserves a fair hearing. For impact measures, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: unnecessary irreversible changes remain invisible to the goal score. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-Now keep that rule fixed and let the difficult case enter: unnecessary irreversible changes remain invisible to the goal score.
+*The experimentalist sketches the break before changing it:*
 
-The failure changes the question behind impact measures. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+possible road A ─┐
+                 ├── old map: score only the requested final…
+possible road B ─┘              └── loses: unnecessary irreversible changes…
 
-The required repair is now narrow enough to state: compare the resulting world with a reasonable baseline and penalize avoidable side effects.
+same roads ──▶ repaired map ──▶ compare the resulting world with a…
+```
 
-Only at this point does the inherited name **Impact Measures** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+The experimentalist lays two translucent sheets over the sealed evidence ledger. The first is inscribed, “score only the requested final condition.” Its path ends where unnecessary irreversible changes remain invisible to the goal score. The second receives the same evidence but is allowed to compare the resulting world with a reasonable baseline and penalize avoidable side effects. Held to the light, the sheets separate at exactly one decision.
 
-Test the necessity of impact measures by mentally removing the repair. We fall back to the proposal to score only the requested final condition; then unnecessary irreversible changes remain invisible to the goal score. Restore only the ability to compare the resulting world with a reasonable baseline and penalize avoidable side effects, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+No one reaches for a impact measures formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to score only the requested final condition to requiring the system to compare the resulting world with a reasonable baseline and penalize avoidable side effects. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to impact measures.
+The experimentalist changes only that one responsibility: compare the resulting world with a reasonable baseline and penalize avoidable side effects. When the ink dries, the name **Impact Measures** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
+
+The sealed evidence ledger keeps both histories. Its older mark still says, ‘score only the requested final condition’; beside it, the newer mark says, ‘compare the resulting world with a reasonable baseline and penalize avoidable side effects.’ The distance between those sentences is the exact shape of impact measures: no larger than the failure required, and no smaller than reality permits.
 
 ## Notice What Changed Besides the Goal
 
 Cleaning the spill changes one patch of floor; moving every chair and deleting files changes unrelated state.
 
-Put the old procedure beside impact measures. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## Where impact measures runs out
 
 A baseline can punish beneficial change or preserve an unjust status quo.
 
-The limit follows from the job assigned to impact measures. Its repair knows how to compare the resulting world with a reasonable baseline and penalize avoidable side effects. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Academy of Trials, the experimentalist leaves a blank beneath the new mark. Impact Measures has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take impact measures to the workbench
+## Return to the sealed evidence ledger
 
-A claim about impact measures now exists on the page; the laboratory must be able to contradict it. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running impact measures, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the impact measures result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the impact measures scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

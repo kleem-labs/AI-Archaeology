@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Scalable oversight decomposes work, attaches local evidence, samples risk, and escalates anomalies. A polished argument can still hide one weak assumption unless an equally capable opponent is rewarded for finding it.
 
-The machinery already in our hands suggests that we let the author choose which evidence the judge sees.
+Night gathers around the Academy of Trials. Under the light of the sealed evidence ledger, the experimentalist refuses to invent prematurely and begins with the plain rule: let the author choose which evidence the judge sees.
 
-This is how debate ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: the trouble appears immediately: selective presentation makes eloquence look like correctness. What looked like simplicity is revealed as a missing distinction.
 
-Then a case arrives in which convenience and truth separate: the trouble appears immediately: selective presentation makes eloquence look like correctness.
+*The experimentalist sketches the break before changing it:*
 
-The wrong answer makes the need for debate inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   let the author choose which evidence… the trouble appears immediately:…
+            \        /
+             \      /
+              we need to give an opposing…
+```
 
-We can now repair the procedure without guessing: we need to give an opposing investigator equal access and reward exposing checkable disagreements for a judge.
+The experimentalist turns the sealed evidence ledger toward the light. Through the old engraving, let the author choose which evidence the judge sees, the evidence ends in the same contradiction: the trouble appears immediately: selective presentation makes eloquence look like correctness. A second engraving adds only the power to give an opposing investigator equal access and reward exposing checkable disagreements for a judge. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Debate**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The experimentalist circles the place where the two debate cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to let the author choose which evidence the judge sees produces the observed failure: the trouble appears immediately: selective presentation makes eloquence look like correctness. Starting with the repaired demand to we need to give an opposing investigator equal access and reward exposing checkable disagreements for a judge preserves the information the shortcut lost. The subject of debate lives in the difference between those two causal stories.
+Only the missing distinction is restored: we need to give an opposing investigator equal access and reward exposing checkable disagreements for a judge. The experimentalist writes **Debate** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to we need to give an opposing investigator equal access and reward exposing checkable disagreements for a judge instead of merely trying to let the author choose which evidence the judge sees. That controlled contrast is what turns a plausible explanation of debate into an understandable derivation.
+The experimentalist places a finger over the new distinction. At once the two cases collapse and the trouble appears immediately: selective presentation makes eloquence look like correctness. Lifting the finger restores only this capacity: give an opposing investigator equal access and reward exposing checkable disagreements for a judge. That tiny reversible motion is the chapter's proof of necessity.
 
 ## Let Claims Meet an Adversary
 
 One side proposes a medical claim; the other points to the exact unsupported causal step and both reveal sources.
 
-There are now two histories of this debate case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where debate runs out
 
 Debaters may share blind spots or manipulate a weak judge.
 
-Look back at what debate actually preserves: it can we need to give an opposing investigator equal access and reward exposing checkable disagreements for a judge. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the sealed evidence ledger. None of the responsibilities inside Debate can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take debate to the workbench
+## Return to the sealed evidence ledger
 
-The reader has reconstructed debate in words; the workbench tests whether those words specify a real procedure. Rebuild the tempting shortcut first, make its failure visible, and then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running debate, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the debate result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the debate scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [The wrong ideas worth preserving](mistakes.md); [Diagram and dependency path](diagram.md); [Invention exercises](exercises.md); [References and reading trail](references.md); and [Visual asset brief](images/README.md).
 

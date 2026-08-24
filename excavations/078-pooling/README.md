@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Convolution slides one local detector across the whole image. The resulting activation maps preserve every detected location and quickly become too large for deeper processing.
 
-The obvious economy is to keep every activation at full resolution through every layer.
+The doors of the Glass Menagerie close against the wind. On the wall of illuminated tiles, the maker of seeing-machines writes the cheapest rule that might still be true: keep every activation at full resolution through every layer.
 
-The proposal deserves a fair hearing. For pooling, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: memory explodes and tiny shifts move evidence to neighboring cells. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-The decisive test is this: memory explodes and tiny shifts move evidence to neighboring cells.
+*The maker of seeing-machines sketches the break before changing it:*
 
-The failure changes the question behind pooling. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   keep every activation at full… memory explodes and tiny shifts move…
+            \        /
+             \      /
+              summarize small neighborhoods while…
+```
 
-The required repair is now narrow enough to state: summarize small neighborhoods while retaining the strongest or average evidence.
+The maker of seeing-machines lays two translucent sheets over the wall of illuminated tiles. The first is inscribed, “keep every activation at full resolution through every layer.” Its path ends where memory explodes and tiny shifts move evidence to neighboring cells. The second receives the same evidence but is allowed to summarize small neighborhoods while retaining the strongest or average evidence. Held to the light, the sheets separate at exactly one decision.
 
-Only at this point does the inherited name **Pooling** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+No one reaches for a pooling formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Test the necessity of pooling by mentally removing the repair. We fall back to the proposal to keep every activation at full resolution through every layer; then memory explodes and tiny shifts move evidence to neighboring cells. Restore only the ability to summarize small neighborhoods while retaining the strongest or average evidence, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+The maker of seeing-machines changes only that one responsibility: summarize small neighborhoods while retaining the strongest or average evidence. When the ink dries, the name **Pooling** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to keep every activation at full resolution through every layer to requiring the system to summarize small neighborhoods while retaining the strongest or average evidence. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to pooling.
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because memory explodes and tiny shifts move evidence to neighboring cells, while the other can summarize small neighborhoods while retaining the strongest or average evidence. That fork—not the vocabulary—is where pooling lives.
 
 ## Keeping Evidence While Shrinking the Map
 
 Max pooling [1,7,2,3] keeps 7: an edge existed somewhere in that patch.
 
-Put the old procedure beside pooling. The first sees only its original inputs; the repaired one also carries the distinction exposed by the counterexample. Because everything else is held still, any difference in the conclusion belongs to that repaired information.
-
 ## Where pooling runs out
 
 Pooling discards exact location and can erase subtle patterns.
 
-The limit follows from the job assigned to pooling. Its repair knows how to summarize small neighborhoods while retaining the strongest or average evidence. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Glass Menagerie, the maker of seeing-machines leaves a blank beneath the new mark. Pooling has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take pooling to the workbench
+## Return to the wall of illuminated tiles
 
-A claim about pooling now exists on the page; the laboratory must be able to contradict it. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running pooling, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the pooling result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the pooling scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

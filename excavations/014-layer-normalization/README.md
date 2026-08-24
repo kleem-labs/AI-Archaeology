@@ -25,7 +25,7 @@ Only after this procedure feels natural do we compress it:
 
 Three microphones hear the same roar at volumes 1, 2, and 3 because one sits closer to the tiger. Their shared centre is 2. Subtracting it leaves the pattern `[-1, 0, 1]`: quieter, typical, louder. Dividing by the pattern's spread makes that relative shape comparable with another set recorded by more sensitive microphones. A tiny safety amount is needed when all microphones report the same value and the spread is zero.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 - **xᵢ** is one feature of a token and **d** is its number of features.
 - Summing and dividing by d creates μ, the token's average level.
@@ -41,7 +41,7 @@ Forcing every representation to remain permanently standardized would itself be 
 
 Layer normalization is not intelligence and does not create meaning. It creates stable numerical conditions in which learned transformations can operate.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Summing and dividing by d](../../MATHEMATICAL_MOVES.md#mean) finds the token's average feature level. A raw sum would grow merely because the representation has more coordinates.
 [Subtracting the mean](../../MATHEMATICAL_MOVES.md#subtraction) asks how each feature differs from this token's centre; addition would move the whole pattern farther from centre.
@@ -49,7 +49,9 @@ Layer normalization is not intelligence and does not create meaning. It creates 
 [The square root](../../MATHEMATICAL_MOVES.md#square-root) returns variance to ordinary feature scale, and [division by that spread](../../MATHEMATICAL_MOVES.md#division) removes arbitrary volume while preserving relative shape.
 - Adding ε is a safety floor: when every feature is identical, spread is zero and division would be undefined. See [addition](../../MATHEMATICAL_MOVES.md#addition) and [division](../../MATHEMATICAL_MOVES.md#division).
 
-The notation is finally shorter than the story that created it:
+The mandala has curved back upon itself. In this chamber we meet **the chisel**—what is shared is removed so the remaining change can be seen; **the road home**—a squared construction returns to the scale of the world that created it; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
+
+Nothing remains unnamed in the layer normalization case on the long cedar table. We can finally trade the long route for its compact map:
 
 $$
 \mu=\frac1d\sum_i x_i,
@@ -74,3 +76,4 @@ We now have the parts of a Transformer, but every matrix begins random. Architec
 [Next: Learning](../015-learning/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

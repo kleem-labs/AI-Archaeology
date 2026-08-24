@@ -2,31 +2,38 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Probability lets the trackers preserve several possible outcomes instead of pretending to know. Now they face the reverse problem: one footprint has arrived, and several hidden animals could have produced it.
 
-The obvious economy is to ask which story is generally more believable.
+The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: ask which story is generally more believable.
 
-The proposal deserves a fair hearing. For likelihood, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-Its hidden assumption becomes visible as soon as we observe that that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-The failure changes the question behind likelihood. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+OLD PATH:  request ──▶ ask which story is generally more… ──▶ that ignores the actual print. Or ask…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ reverse the question: if this story… ──▶ accountable result
+```
 
-The required repair is now narrow enough to state: reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
+The keeper of uncertain stories lays two translucent sheets over the ring of glass lanterns. The first is inscribed, “ask which story is generally more believable.” Its path ends where that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge. The second receives the same evidence but is allowed to reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. Held to the light, the sheets separate at exactly one decision.
 
-Only at this point does the inherited name **Likelihood** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+No one reaches for a likelihood formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Test the necessity of likelihood by mentally removing the repair. We fall back to the proposal to ask which story is generally more believable.; then that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge. Restore only the ability to reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+The keeper of uncertain stories changes only that one responsibility: reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. When the ink dries, the name **Likelihood** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to ask which story is generally more believable. to requiring the system to reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to likelihood.
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge, while the other can reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. That fork—not the vocabulary—is where likelihood lives.
 
 ## The calculation hidden inside likelihood
 
-Do not read the coming Likelihood line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The keeper of uncertain stories carries the likelihood scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Story A says a deep print occurs 80% of the time; Story B says 20%. After observing a deep print, the same evidence has likelihood 0.8 under A and 0.2 under B, so A explains this clue four times as well.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **θ** is one proposed hidden explanation.
 **x** is the evidence already observed.
@@ -34,12 +41,12 @@ The vertical bar means “under the assumption that.”
 **P(x|θ)** asks how expected this evidence would be if θ were true—the reversal forced by comparing stories.
 **L(θ|x)** names that same quantity when x is held fixed and explanations vary; it is not automatically a probability over θ.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [The conditional bar](../../MATHEMATICAL_MOVES.md#conditional-bar) deliberately asks how expected this footprint would be **if** a tiger story were true. Reversing the two sides asks a different question and would silently mix evidence with prior belief.
 [Equality](../../MATHEMATICAL_MOVES.md#equals) renames that conditional evidence score as likelihood when θ is treated as the candidate story and x as fixed evidence.
 
-The notation is finally shorter than the story that created it:
+Every mark needed for likelihood is now visible on the ring of glass lanterns. The symbols do not add an idea; they bind the discovered moves into one line:
 
 $$
 \mathcal{L}(\theta\mid x)=P(x\mid\theta)
@@ -53,12 +60,10 @@ A detective compares suspects by asking how well each suspect explains the clues
 
 Likelihood compares explanations for fixed evidence; it is not itself a normalized probability over explanations. Priors will matter later.
 
-The limit follows from the job assigned to likelihood. Its repair knows how to reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. No step in that procedure can settle the additional question above, so the next excavation must supply information this one never receives.
+At the Lantern Observatory, the keeper of uncertain stories leaves a blank beneath the new mark. Likelihood has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-## Take likelihood to the workbench
+## Return to the ring of glass lanterns
 
-A claim about likelihood now exists on the page; the laboratory must be able to contradict it. Build the wrong idea first, break it, then use [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running likelihood, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the likelihood result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the likelihood scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).

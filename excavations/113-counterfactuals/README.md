@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Causal inference separates observation from intervention at the population level. A doctor or planner often asks a narrower question: what would have happened to this same case under the action not taken?
 
-A careful builder would first avoid adding machinery and compare them with any untreated person.
+Morning reaches the Hall of Possible Worlds before anyone has a name for today's difficulty. Beside the table of mirrored maps, the keeper of unfinished questions tries the smallest continuation of what already works: compare them with any untreated person.
 
-The shortcut appears to retain everything counterfactuals needs. The next observation must test that belief, not merely assert that a textbook prefers another method.
+At the edge of the table of mirrored maps, the shortcut produces its consequence: differences in age and illness confound the comparison. That consequence, not a textbook, earns the next move.
 
-The world supplies the one comparison the shortcut hoped never to face: differences in age and illness confound the comparison.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-The counterexample teaches counterfactuals. It reveals which sameness was false, which difference matters, and therefore what the replacement has to make visible.
+```text
+OLD PATH:  request ──▶ compare them with any untreated person ──▶ differences in age and illness…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ construct a comparable alternative… ──▶ accountable result
+```
 
-Only one extra responsibility has been earned: construct a comparable alternative world using causal assumptions and matched evidence.
+The keeper of unfinished questions covers the new mark and the old contradiction returns: differences in age and illness confound the comparison. The cover is lifted, restoring the ability to construct a comparable alternative world using causal assumptions and matched evidence, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason counterfactuals exists.
 
-Now—and not earlier—we may introduce **Counterfactuals**. The words label the problem-and-repair pair whose necessity the reader can already test.
+What must change for counterfactuals is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
 
-The invention can now defend itself. Without it, our best available move is to compare them with any untreated person, and the case answers that differences in age and illness confound the comparison. With the narrow repair—to construct a comparable alternative world using causal assumptions and matched evidence—the method can express the distinction reality demanded. That before-and-after comparison is the proof of need.
+The old instrument is not discarded; it is given the one capacity the counterexample demanded: construct a comparable alternative world using causal assumptions and matched evidence. That threshold is where **Counterfactuals** enters the story.
 
-The logic would be weaker if the repaired method were tested on an easier scene. It is not. Counterfactuals returns to the same counterexample, replaces the attempt to compare them with any untreated person with the responsibility to construct a comparable alternative world using causal assumptions and matched evidence, and must succeed where the shortcut failed.
+The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In counterfactuals, that memory takes a precise form: whenever differences in age and illness confound the comparison, preserve enough structure to construct a comparable alternative world using causal assumptions and matched evidence.
+
+
+Before leaving the table of mirrored maps, the keeper of unfinished questions tests the new idea backward. Remove the ability to construct a comparable alternative world using causal assumptions and matched evidence, and the method falls back to this tempting instruction: compare them with any untreated person. The old consequence returns—differences in age and illness confound the comparison. Restore the missing ability and that particular contradiction disappears. This reversible test is why counterfactuals belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Understanding counterfactuals
 
 Compare patients with the same relevant history except treatment, then estimate the missing outcome.
 
-A formula for counterfactuals is not yet needed. The experiment is already mathematical: we controlled what remained fixed, identified what changed, and demanded an observable consequence from that change.
-
 ## Where counterfactuals runs out
 
 The individual counterfactual is never directly observed.
 
-The boundary can be predicted from the construction itself. Counterfactuals performs the repair to construct a comparable alternative world using causal assumptions and matched evidence; the additional problem names a job outside that construction. Recognizing that edge prevents one successful equation or procedure from pretending to be a complete intelligence.
+Here the new path ends honestly. Counterfactuals can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-## Take counterfactuals to the workbench
+## Return to the table of mirrored maps
 
-Move counterfactuals from imagination to evidence by making the shortcut fail under controlled inputs. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running counterfactuals, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the counterfactuals result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the counterfactuals scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Program synthesis turns examples into candidate procedures. Tests inspect selected cases; a safety-critical system may need proof that a property holds for every input permitted by the specification.
 
-For a moment, remain loyal to the simplest proposal: add more random tests and call the property proven.
+Morning reaches the Hall of Possible Worlds before anyone has a name for today's difficulty. Beside the table of mirrored maps, the keeper of unfinished questions tries the smallest continuation of what already works: add more random tests and call the property proven.
 
-Its appeal is not ignorance but economy. Formal Verification should not be added until an observation exposes the exact thing the older procedure cannot preserve.
+The rule survives the easy cases. The next case leaves a crack through the middle of it: an untested edge case can remain. More confidence cannot repair information that never entered the rule.
 
-The world supplies the one comparison the shortcut hoped never to face: an untested edge case can remain.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-Notice what the counterexample has accomplished for formal verification. It has not handed us a standard technique. It has told us the property any successful repair must preserve.
+```text
+possible road A ─┐
+                 ├── old map: add more random tests and call the…
+possible road B ─┘              └── loses: an untested edge case can remain
 
-So the new mechanism must do one additional job: state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them.
+same roads ──▶ repaired map ──▶ state assumptions and desired…
+```
 
-Humanity eventually gathered this problem and its repairs under the name **Formal Verification**. The name comes after the need; it must never conceal the observation that gave it meaning.
+Two trails now cross the table of mirrored maps. The pale trail bears the instruction “add more random tests and call the property proven.” It disappears into the observed failure: an untested edge case can remain. The darker trail carries one additional capacity—to state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
 
-Now perform a small thought experiment. Keep the whole situation fixed but replace formal verification with the old instruction to add more random tests and call the property proven. The result is again that an untested edge case can remain. Put back only the requirement to state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them. The repaired result is possible because one missing distinction, not an arbitrary collection of machinery, has been restored.
+The room becomes quiet around the failed formal verification mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
 
-The comparison has one invariant: the world does not become kinder when formal verification is introduced. The same evidence that defeated the attempt to add more random tests and call the property proven is presented again. Only the ability to state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them changes, so the repaired conclusion cannot be credited to a conveniently different example.
+So the table of mirrored maps is altered in exactly one way: state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them. Much later, people will call this territory **Formal Verification**. Here the name is only a memory of the failure it can survive.
+
+Nothing is erased from the table of mirrored maps. The failed path remains visible beneath the repair, because formal verification is easier to remember when its scar remains attached to it. The scar reads, ‘an untested edge case can remain’; the new line exists only to keep that loss from happening again.
 
 ## Understanding formal verification
 
 Prove a refund state machine can issue at most one payment per idempotency key.
 
-Run the formal verification scene twice in your head. First obey the shortcut exactly. Then change only the rule that failed. The comparison separates a necessary mathematical move from decorative notation.
-
 ## Where formal verification runs out
 
 Proof covers the formal model, which may omit real-world behavior.
 
-Why does that boundary remain? Formal Verification was built for one responsibility: state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them. Solving that responsibility does not manufacture evidence about the separate decision above. The unfinished job becomes the next chapter's observation.
+The table of mirrored maps answers today's question and falls silent at the next. That silence is precise: Formal Verification was built to repair one failure, not to pretend every later boundary is already solved.
 
-## Take formal verification to the workbench
+## Return to the table of mirrored maps
 
-The argument for formal verification is still provisional until a runnable case can make it fail. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running formal verification, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the formal verification result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the formal verification scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

@@ -2,41 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 An ensemble turns disagreement into evidence about model uncertainty. When labels are expensive, that disagreement can guide which unlabeled case deserves a human answer next.
 
-The first defensible move is to label random examples forever.
+At the Hall of Possible Worlds, the keeper of unfinished questions returns to the table of mirrored maps. Yesterday's instrument still lies open, so the first move asks for no new magic: label random examples forever.
 
-There is a real principle behind this restraint: the complexity of active learning must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: thousands of easy repeated cases consume effort while the decision boundary remains unclear. The table of mirrored maps now holds two situations the old rule cannot keep apart.
 
-Now keep that rule fixed and let the difficult case enter: thousands of easy repeated cases consume effort while the decision boundary remains unclear.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-That distinction is the hinge on which active learning turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+reference evidence ──▶ shortcut: label random examples forever
+                         │
+                         └── mismatch: thousands of easy repeated cases…
 
-What survives the counterexample is this requirement: ask for labels where the model is uncertain or where examples add new coverage.
+reference evidence ──▶ measured repair: ask for labels where the model is…
+```
 
-We have earned the chapter's shorter name: **Active Learning**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The table of mirrored maps is divided down the middle. Left side: “label random examples forever.” Its final mark records thousands of easy repeated cases consume effort while the decision boundary remains unclear. Right side: the same starting evidence, now allowed to ask for labels where the model is uncertain or where examples add new coverage. The difference is narrow enough to see and important enough to change the ending.
 
-A reader can check that active learning is necessary rather than decorative. Delete its new responsibility and use the earlier plan to label random examples forever. Immediately, thousands of easy repeated cases consume effort while the decision boundary remains unclear. Reintroduce the single job to ask for labels where the model is uncertain or where examples add new coverage. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The broken rule has given active learning a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can ask for labels where the model is uncertain or where examples add new coverage. Because the old plan to label random examples forever is the only displaced piece, the reader can locate exactly where active learning changes the outcome.
+The repair can now be stated without mystery: ask for labels where the model is uncertain or where examples add new coverage. The name **Active Learning** arrives afterward, like a title given to a path whose stones are already underfoot.
+
+One boundary in the room is now sharper. On one side lies the promise to label random examples forever; on the other lies the observed fact that thousands of easy repeated cases consume effort while the decision boundary remains unclear. The bridge called active learning has exactly the planks needed to ask for labels where the model is uncertain or where examples add new coverage.
 
 ## Understanding active learning
 
 The model knows obvious cats and dogs but splits 50–50 on one fox-like animal; labeling it teaches more than another obvious cat.
 
-The name active learning is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## Where active learning runs out
 
 Uncertainty sampling can chase noise or outliers.
 
-The weakness is not an accidental footnote. Every operation in active learning serves the narrower purpose to ask for labels where the model is uncertain or where examples add new coverage; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Active Learning; it reveals the edge of what was constructed. The keeper of unfinished questions carries that edge into the following room.
 
-## Take active learning to the workbench
+## Return to the table of mirrored maps
 
-Understanding active learning now means predicting its intermediate results before asking software for an answer. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running active learning, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the active learning result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the active learning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

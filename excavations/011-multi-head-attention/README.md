@@ -42,7 +42,7 @@ Only now does the compact expression earn its place:
 
 In “The tiger that chased the deer was tired,” one reader follows grammar to discover what *was tired* describes, while another follows reference to keep tiger separate from deer. Averaging their notes too early destroys which evidence came from which question. Keeping the two notes side by side lets a later learned map decide how much grammar and reference the sentence needs.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 - **X** is the shared sequence of token representations.
 - Each **headₕ** is an independent Q/K/V retrieval space, needed because relationships should not compete in one distribution.
@@ -54,12 +54,14 @@ Each head is the query–key–value mechanism from the previous excavation with
 
 The analogy has limits. Heads do not always become clean, human-readable professions. Some overlap; some are difficult to interpret. The architectural point is parallel relationship spaces, not a promise of tidy labels.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Concatenation](../../MATHEMATICAL_MOVES.md#concatenation) keeps the grammar expert, reference expert, and distance expert side by side. Adding them immediately would erase which head supplied which evidence.
 [Multiplication by the output matrix](../../MATHEMATICAL_MOVES.md#multiplication) lets the model learn how those preserved expert coordinates should interact; a fixed sum would impose the same mixture everywhere.
 
-The notation is finally shorter than the story that created it:
+The symbols are about to change costume, but their work has appeared before: **the binding loom**—distinct pieces remain side by side instead of being blended away; and **the lock and key**—one influence matters through another, and either missing factor can close the path. This is how distant excavations begin to sound like variations of one melody.
+
+The long cedar table already contains the complete multi-head attention mechanism. Mathematics gives that mechanism a form small enough to carry:
 
 $$
 \mathrm{MultiHead}(X)
@@ -77,3 +79,4 @@ The experts have exchanged information. Each token must now transform what it re
 [Next: Feed-Forward Networks](../012-feed-forward-networks/README.md)
 
 <!-- book-prose-v2 -->
+<!-- mathematical-world-v1 -->

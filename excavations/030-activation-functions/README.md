@@ -2,45 +2,54 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Careful initialization keeps early signals alive and breaks symmetry. But a tower made only from linear transformations still collapses algebraically into one linear transformation, no matter how many layers we stack.
 
-The obvious economy is to add more linear layers.
+The doors of the Lantern Observatory close against the wind. On the ring of glass lanterns, the keeper of uncertain stories writes the cheapest rule that might still be true: add more linear layers.
 
-The proposal deserves a fair hearing. For activation functions, it uses information we already possess, and if it survives there is no reason to burden the reader or the machine with another object.
+For a moment the mark looks complete. Then the evidence refuses to fit: depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
 
-The decisive test is this: depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-The failure changes the question behind activation functions. We are no longer asking whether the first rule is convenient; we are asking what information it erased before reaching its answer.
+```text
+OLD PATH:  request ──▶ add more linear layers ──▶ depth increases, but expressive power…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ place an activation after a linear… ──▶ accountable result
+```
 
-The required repair is now narrow enough to state: place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.
+The keeper of uncertain stories lays two translucent sheets over the ring of glass lanterns. The first is inscribed, “add more linear layers.” Its path ends where depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient. The second receives the same evidence but is allowed to place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. Held to the light, the sheets separate at exactly one decision.
 
-Only at this point does the inherited name **Activation Functions** help. It is a short handle for the failure, requirement, and repair we can now distinguish—not the discovery itself.
+No one reaches for a activation functions formula. The only useful question is smaller: what did the first path lose that the second path must carry?
 
-Test the necessity of activation functions by mentally removing the repair. We fall back to the proposal to add more linear layers.; then depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient. Restore only the ability to place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually, and the counterexample finally has somewhere to go. That reversible test—not familiarity with the name—is the derivation.
+The keeper of uncertain stories changes only that one responsibility: place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. When the ink dries, the name **Activation Functions** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
 
-Throughout that comparison, the surrounding evidence and desired outcome remain fixed. Only the rule changes—from trying to add more linear layers. to requiring the system to place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. This control matters: if we changed the data and the rule together, an apparent success could not be attributed to activation functions.
+The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient, while the other can place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. That fork—not the vocabulary—is where activation functions lives.
 
 ## The calculation hidden inside activation functions
 
-Do not read the coming Activation Functions line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The keeper of uncertain stories carries the activation functions scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 The repair solves the immediate failure, but every activation has tradeoffs: dead ReLUs, saturation, computational cost, or assumptions about input scale.
 
 A gatekeeper receives a danger signal. Two ordinary scaling rules—double it, then triple it—always behave like one rule that multiplies by six. Adding more such rules has created no new decision. Put a gate between them: negative evidence is closed to zero while positive evidence continues. Now the same machinery treats warning evidence and reassuring evidence differently, something one multiplication cannot reproduce.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **x** is the incoming representation.
 **W** mixes its features; **b** permits learned thresholds and offsets.
 **φ** is the necessary nonlinear gate; without it, stacked layers collapse into one linear map.
 **h** is the hidden representation after both mixing and gating.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Wx](../../MATHEMATICAL_MOVES.md#multiplication) lets every learned input weight scale and mix its matching feature; [adding b](../../MATHEMATICAL_MOVES.md#addition) supplies a learnable baseline.
 [Applying φ](../../MATHEMATICAL_MOVES.md#function-application) bends the result. Without φ, repeated multiply-and-add stages remain one linear map, no matter how many layers are stacked.
 
-The notation is finally shorter than the story that created it:
+The mandala has curved back upon itself. In this chamber we meet **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the joining river**—separate contributions meet without losing where they came from. What seemed like a new formula is older mathematical instinct arranged around a new need.
+
+Every mark needed for activation functions is now visible on the ring of glass lanterns. The symbols do not add an idea; they bind the discovered moves into one line:
 
 $$
 h=\phi(Wx+b)
@@ -50,11 +59,9 @@ $$
 
 A railway switch changes which route a signal can take. Without switches, many track segments still form only one fixed route.
 
-## Take activation functions to the workbench
+## Return to the ring of glass lanterns
 
-A claim about activation functions now exists on the page; the laboratory must be able to contradict it. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running activation functions, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the activation functions result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the activation functions scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

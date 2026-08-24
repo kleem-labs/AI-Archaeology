@@ -2,41 +2,49 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Differential privacy limits the observable influence of one record. Hospitals and devices may be unwilling or legally unable to centralize their raw data even when collective learning would help everyone.
 
-The machinery already in our hands suggests that we upload every user record to one server.
+Night gathers around the Hall of Possible Worlds. Under the light of the table of mirrored maps, the keeper of unfinished questions refuses to invent prematurely and begins with the plain rule: upload every user record to one server.
 
-This is how federated learning ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: central collection increases privacy and governance risk. What looked like simplicity is revealed as a missing distinction.
 
-Then a case arrives in which convenience and truth separate: central collection increases privacy and governance risk.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-The wrong answer makes the need for federated learning inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+observation
+    │
+    ▼
+[upload every user record to one server]
+    │
+    ╳  central collection increases privacy…
+    │
+    ▼
+[we need to send model updates to…]
+```
 
-We can now repair the procedure without guessing: we need to send model updates to devices, train locally, aggregate protected updates, and return a shared model.
+The keeper of unfinished questions turns the table of mirrored maps toward the light. Through the old engraving, upload every user record to one server, the evidence ends in the same contradiction: central collection increases privacy and governance risk. A second engraving adds only the power to send model updates to devices, train locally, aggregate protected updates, and return a shared model. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-The usual name, **Federated Learning**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The keeper of unfinished questions circles the place where the two federated learning cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-We can audit the discovery from both directions. Starting with the shortcut to upload every user record to one server produces the observed failure: central collection increases privacy and governance risk. Starting with the repaired demand to we need to send model updates to devices, train locally, aggregate protected updates, and return a shared model preserves the information the shortcut lost. The subject of federated learning lives in the difference between those two causal stories.
+Only the missing distinction is restored: we need to send model updates to devices, train locally, aggregate protected updates, and return a shared model. The keeper of unfinished questions writes **Federated Learning** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to we need to send model updates to devices, train locally, aggregate protected updates, and return a shared model instead of merely trying to upload every user record to one server. That controlled contrast is what turns a plausible explanation of federated learning into an understandable derivation.
+The keeper of unfinished questions places a finger over the new distinction. At once the two cases collapse and central collection increases privacy and governance risk. Lifting the finger restores only this capacity: send model updates to devices, train locally, aggregate protected updates, and return a shared model. That tiny reversible motion is the chapter's proof of necessity.
 
 ## Understanding federated learning
 
 Phones compute keyboard gradients locally; the server receives an aggregate, not typed messages.
 
-There are now two histories of this federated learning case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where federated learning runs out
 
 Updates can still leak information and devices are unreliable or biased.
 
-Look back at what federated learning actually preserves: it can we need to send model updates to devices, train locally, aggregate protected updates, and return a shared model. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the table of mirrored maps. None of the responsibilities inside Federated Learning can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take federated learning to the workbench
+## Return to the table of mirrored maps
 
-The reader has reconstructed federated learning in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running federated learning, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the federated learning result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the federated learning scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

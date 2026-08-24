@@ -2,41 +2,48 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Vision Transformers let distant patches attend to one another. Classification uses the representation once; reconstruction asks whether a smaller internal code can preserve enough of the image to rebuild it.
 
-At this point the shortest path seems to be to copy the input through an unrestricted hidden layer.
+Morning reaches the Glass Menagerie before anyone has a name for today's difficulty. Beside the wall of illuminated tiles, the maker of seeing-machines tries the smallest continuation of what already works: copy the input through an unrestricted hidden layer.
 
-This is how autoencoders ought to begin—not with terminology, but with an honest attempt to make the smallest existing tool perform its job.
+Then the quiet test arrives: a wide hidden layer learns identity without compression. What looked like simplicity is revealed as a missing distinction.
 
-The world supplies the one comparison the shortcut hoped never to face: a wide hidden layer learns identity without compression.
+*The maker of seeing-machines sketches the break before changing it:*
 
-The wrong answer makes the need for autoencoders inspectable. We can state the new job in ordinary language before allowing symbols to hide it.
+```text
+possible road A ─┐
+                 ├── old map: copy the input through an…
+possible road B ─┘              └── loses: a wide hidden layer learns identity…
 
-We can now repair the procedure without guessing: force information through a bottleneck and train reconstruction.
+same roads ──▶ repaired map ──▶ force information through a…
+```
 
-The usual name, **Autoencoders**, can finally enter without mystery. It abbreviates a distinction the reader has already reconstructed in ordinary language.
+The maker of seeing-machines turns the wall of illuminated tiles toward the light. Through the old engraving, copy the input through an unrestricted hidden layer, the evidence ends in the same contradiction: a wide hidden layer learns identity without compression. A second engraving adds only the power to force information through a bottleneck and train reconstruction. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
 
-We can audit the discovery from both directions. Starting with the shortcut to copy the input through an unrestricted hidden layer produces the observed failure: a wide hidden layer learns identity without compression. Starting with the repaired demand to force information through a bottleneck and train reconstruction preserves the information the shortcut lost. The subject of autoencoders lives in the difference between those two causal stories.
+The maker of seeing-machines circles the place where the two autoencoders cases collapsed together. The repair must open that circle and preserve the difference inside it.
 
-Keep track of what did not change: the observation, the goal, and the difficult case. What changes is the procedure's capacity to force information through a bottleneck and train reconstruction instead of merely trying to copy the input through an unrestricted hidden layer. That controlled contrast is what turns a plausible explanation of autoencoders into an understandable derivation.
+Only the missing distinction is restored: force information through a bottleneck and train reconstruction. The maker of seeing-machines writes **Autoencoders** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
+
+The maker of seeing-machines does not memorize autoencoders. Instead, the maker of seeing-machines memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can force information through a bottleneck and train reconstruction. The formal name merely lets that motion be shared.
+
+
+Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to force information through a bottleneck and train reconstruction, and the method falls back to this tempting instruction: copy the input through an unrestricted hidden layer. The old consequence returns—a wide hidden layer learns identity without compression. Restore the missing ability and that particular contradiction disappears. This reversible test is why autoencoders belongs to the growing structure rather than to a list of facts to memorize.
 
 ## Compressing and Rebuilding
 
 Four correlated measurements compress to two codes that still rebuild the originals approximately.
 
-There are now two histories of this autoencoders case: one loses the decisive evidence, and one preserves it. The inherited name belongs to the second history only after we can explain that difference without using the name.
-
 ## Where autoencoders runs out
 
 Good reconstruction may preserve details irrelevant to downstream meaning.
 
-Look back at what autoencoders actually preserves: it can force information through a bottleneck and train reconstruction. The unresolved case asks for a different distinction, absent from both its inputs and its procedure. More forceful use of the same mechanism cannot create missing evidence.
+One unsolved mark remains on the wall of illuminated tiles. None of the responsibilities inside Autoencoders can move it, and so it becomes the observation from which the next excavation must begin.
 
-## Take autoencoders to the workbench
+## Return to the wall of illuminated tiles
 
-The reader has reconstructed autoencoders in words; the workbench tests whether those words specify a real procedure. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running autoencoders, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the autoencoders result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the autoencoders scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

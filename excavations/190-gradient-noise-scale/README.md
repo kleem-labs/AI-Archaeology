@@ -2,41 +2,49 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 The schedule controls how far one global update moves. We still do not know how many examples should vote in that update before extra devices mostly repeat the same directional evidence.
 
-We can postpone invention if we simply make the global batch as large as the cluster permits.
+The doors of the Archive Foundry close against the wind. On the chain-of-custody ledger, the archivist-engineer writes the cheapest rule that might still be true: make the global batch as large as the cluster permits.
 
-If the proposal works on every relevant case, gradient noise scale is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The archivist-engineer repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens. The failure is stable enough to become evidence.
 
-The decisive test is this: early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens.
+*The archivist-engineer sketches the break before changing it:*
 
-Nothing magical creates gradient noise scale. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+possible road A ─┐
+                 ├── old map: make the global batch as large as the…
+possible road B ─┘              └── loses: early doubling reduces disagreement…
 
-The lost distinction tells us what to build: measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target.
+same roads ──▶ repaired map ──▶ measure disagreement among…
+```
 
-This boundary between the failed rule and its repair is the subject later work calls **Gradient Noise Scale**. Naming it adds nothing; the discovery happened when the lost information became visible.
+Across the chain-of-custody ledger, the old path and the repaired path run side by side. One carries “make the global batch as large as the cluster permits”; the other knows how to measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target. When the failure—early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens—arrives, only one path still possesses a place to record the missing distinction.
 
-Do not memorize gradient noise scale; try to break it by subtraction. Remove the part that knows how to measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target, leaving only the attempt to make the global batch as large as the cluster permits. What returns is not a vague weakness but the original contradiction: early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens. The removed responsibility therefore has an observable job.
+The failure is no longer an embarrassment to gradient noise scale. It is a compass: it points directly toward the information the next construction must retain.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to make the global batch as large as the cluster permits receives the same test as the rule to measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target. Their different outcomes reveal what gradient noise scale contributes without asking the reader to trust historical convention.
+The evidence permits one narrow invention: measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target. This problem and its repair will travel under the name **Gradient Noise Scale**, but the name carries no knowledge the scene has not earned.
+
+Under the latest ink, the first question is still legible: what if we followed the tempting rule—make the global batch as large as the cluster permits? The answer remains early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
 
 ## When More Examples Stop Buying More Direction
 
 Three named micro-batches question the same two weights: the field reports propose [2.0,1.0], science proposes [2.1,0.9], and books propose [1.9,1.1]. The first number is advice to the tiger-before-river weight; the second is advice to a punctuation weight. Their mean [2.0,1.0] is strong and their disagreement around it is small. If the witnesses instead propose [4,−2], [0,4], and [2,1], disagreement is large relative to the same broad direction, so a larger batch can still buy useful certainty.
 
-Hold the setting, evidence, and desired outcome fixed while testing gradient noise scale. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## The calculation hidden inside gradient noise scale
 
-Do not read the coming Gradient Noise Scale line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The archivist-engineer carries the gradient noise scale scene to the chain-of-custody ledger. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 Each g_i is one model micro-batch's gradient advice. The covariance measures how those witnesses disagree; its trace totals disagreement across coordinates. The squared norm of their mean measures the strength of the shared direction; G compares noise with signal.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Covariance](../../MATHEMATICAL_MOVES.md#covariance) keeps variation around the common advice rather than raw gradient size. [Trace](../../MATHEMATICAL_MOVES.md#trace) gathers coordinate variances without inventing cross-coordinate units. [Division](../../MATHEMATICAL_MOVES.md#division) asks disagreement per unit of squared shared direction; subtraction would not remove dependence on signal scale.
 
-Every symbol in Gradient Noise Scale can now be read back into an action already performed. The whole procedure fits in one line:
+The mandala has curved back upon itself. In this chamber we meet **the paired dance**—two quantities reveal whether their departures move together; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
+
+Cover the prose about gradient noise scale and each mark can still be recovered from the case. Only now is the compressed form safe to write:
 
 $$
 G=\frac{\mathrm{tr}(\mathrm{Cov}[g_i])}{\lVert E[g_i]\rVert^2}
@@ -46,13 +54,11 @@ $$
 
 Gradient noise scale is an empirical guide, not a universal batch-size law; it changes during training and with the task and optimizer.
 
-This is where gradient noise scale runs out for a causal reason. We gave it enough structure to measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The gradient noise scale repair holds, but the world asks for something it was never given. At the Archive Foundry, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take gradient noise scale to the workbench
+## Return to the chain-of-custody ledger
 
-A mathematical story about gradient noise scale earns trust only when the failed and repaired paths can both be reproduced. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running gradient noise scale, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the gradient noise scale result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the gradient noise scale scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

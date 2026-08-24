@@ -2,41 +2,47 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 A world model predicts future observations. Prediction from recorded correlations cannot answer what would happen if the agent deliberately intervened and changed one cause.
 
-If the old idea can be stretched one step farther, we should treat every correlation as a controllable cause.
+At the Hall of Possible Worlds, the keeper of unfinished questions returns to the table of mirrored maps. Yesterday's instrument still lies open, so the first move asks for no new magic: treat every correlation as a controllable cause.
 
-If the proposal works on every relevant case, causal inference is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The keeper of unfinished questions repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other. The failure is stable enough to become evidence.
 
-Now keep that rule fixed and let the difficult case enter: the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other.
+*The keeper of unfinished questions sketches the break before changing it:*
 
-Nothing magical creates causal inference. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+             evidence
+            /        \
+   old lantern      hidden distinction
+   treat every correlation as a… the trouble appears immediately: hot…
+            \        /
+             \      /
+              represent plausible causal structure…
+```
 
-The lost distinction tells us what to build: represent plausible causal structure and distinguish observing a variable from intervening on it.
+Across the table of mirrored maps, the old path and the repaired path run side by side. One carries “treat every correlation as a controllable cause”; the other knows how to represent plausible causal structure and distinguish observing a variable from intervening on it. When the failure—the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Causal Inference**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to causal inference. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize causal inference; try to break it by subtraction. Remove the part that knows how to represent plausible causal structure and distinguish observing a variable from intervening on it, leaving only the attempt to treat every correlation as a controllable cause. What returns is not a vague weakness but the original contradiction: the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: represent plausible causal structure and distinguish observing a variable from intervening on it. This problem and its repair will travel under the name **Causal Inference**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to treat every correlation as a controllable cause receives the same test as the rule to represent plausible causal structure and distinguish observing a variable from intervening on it. Their different outcomes reveal what causal inference contributes without asking the reader to trust historical convention.
+What changed on the table of mirrored maps can be said without symbols. Before, the method could only treat every correlation as a controllable cause; now it can also represent plausible causal structure and distinguish observing a variable from intervening on it. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
 ## Understanding causal inference
 
 Observing umbrellas predicts rain; forcing umbrellas open does not cause rain.
 
-Hold the setting, evidence, and desired outcome fixed while testing causal inference. Alter only the failed decision rule. If the answer now distinguishes cases the shortcut collapsed together, the repair has earned its place.
-
 ## Where causal inference runs out
 
 Causal conclusions require assumptions not recoverable from correlations alone.
 
-This is where causal inference runs out for a causal reason. We gave it enough structure to represent plausible causal structure and distinguish observing a variable from intervening on it, and nothing more. The remaining uncertainty therefore survives by design and becomes pressure for the next discovery.
+The causal inference repair holds, but the world asks for something it was never given. At the Hall of Possible Worlds, that unmet need is preserved rather than hidden behind a stronger claim.
 
-## Take causal inference to the workbench
+## Return to the table of mirrored maps
 
-A mathematical story about causal inference earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running causal inference, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the causal inference result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the causal inference scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Invention challenges](exercises.md); [Mistakes](mistakes.md); [Diagram](diagram.md); [References](references.md); and [Visual brief](images/README.md).
 

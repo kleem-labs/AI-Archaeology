@@ -2,41 +2,48 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 Compute allocation chooses the model and token horizon. At the first update, Adam's moment memories contain almost no history, while randomly initialized activations and gradients are changing fastest.
 
-The first defensible move is to begin immediately at the peak learning rate chosen for the stable middle of training.
+Inside the Archive Foundry, every old tool is given one honest chance. The archivist-engineer sets the chain-of-custody ledger between the evidence and the desired answer, then tries to begin immediately at the peak learning rate chosen for the stable middle of training.
 
-There is a real principle behind this restraint: the complexity of learning-rate warmup must pay rent. Nothing new is earned until the old rule gives the same answer to situations reality requires us to distinguish.
+Reality answers without terminology: the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused. The chain-of-custody ledger now holds two situations the old rule cannot keep apart.
 
-The proposal breaks for a specific reason, not by authority: the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused.
+*The archivist-engineer sketches the break before changing it:*
 
-That distinction is the hinge on which learning-rate warmup turns. The old method cannot be repaired by a more confident use of the same missing information; the decision must be represented differently.
+```text
+OLD PATH:  request ──▶ begin immediately at the peak… ──▶ the first noisy batches can make…
+                         ╲
+                          ╲ missing boundary
+NEW PATH:  request ──▶ increase the learning rate gradually… ──▶ accountable result
+```
 
-What survives the counterexample is this requirement: increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
+The chain-of-custody ledger is divided down the middle. Left side: “begin immediately at the peak learning rate chosen for the stable middle of training.” Its final mark records the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused. Right side: the same starting evidence, now allowed to increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule. The difference is narrow enough to see and important enough to change the ending.
 
-We have earned the chapter's shorter name: **Learning-Rate Warmup**. Every time it appears, it should recall both the counterexample and the responsibility needed to survive it.
+The broken rule has given learning-rate warmup a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
 
-A reader can check that learning-rate warmup is necessary rather than decorative. Delete its new responsibility and use the earlier plan to begin immediately at the peak learning rate chosen for the stable middle of training. Immediately, the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused. Reintroduce the single job to increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule. If that does not cure the counterexample, the chapter has not yet earned its method; if it does, every added piece has a reason to remain.
+The repair can now be stated without mystery: increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule. The name **Learning-Rate Warmup** arrives afterward, like a title given to a path whose stones are already underfoot.
 
-This is also an experiment in causality. The failed and repaired paths share their starting situation; they differ in whether the procedure can increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule. Because the old plan to begin immediately at the peak learning rate chosen for the stable middle of training is the only displaced piece, the reader can locate exactly where learning-rate warmup changes the outcome.
+One boundary in the room is now sharper. On one side lies the promise to begin immediately at the peak learning rate chosen for the stable middle of training; on the other lies the observed fact that the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused. The bridge called learning-rate warmup has exactly the planks needed to increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
 
 ## Let Adam Learn the Terrain Before Running
 
 With peak rate 0.001 and 100 warmup updates, update 25 receives 0.00025, update 50 receives 0.0005, and update 100 finally reaches 0.001.
 
-The name learning-rate warmup is still unimportant. What matters is that every object in the repaired procedure has a visible job and that removing any one of them recreates the witnessed failure.
-
 ## The calculation hidden inside learning-rate warmup
 
-Do not read the coming Learning-Rate Warmup line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The archivist-engineer carries the learning-rate warmup scene to the chain-of-custody ledger. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 t is the current model warmup update, T_warm is the number of warmup updates, eta_peak is the intended stable rate, and eta_t is the smaller rate used now.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Division](../../MATHEMATICAL_MOVES.md#division) turns elapsed warmup steps into a progress fraction from zero to one. [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) applies that fraction to the peak rate. Adding t would mix step counts with a rate; jumping directly to eta_peak recreates the failed attempt.
 
-Every symbol in Learning-Rate Warmup can now be read back into an action already performed. The whole procedure fits in one line:
+Inside learning-rate warmup, familiar operations return with stricter duties: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; and **the lock and key**—one influence matters through another, and either missing factor can close the path. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
+
+Nothing remains unnamed in the learning-rate warmup case on the chain-of-custody ledger. We can finally trade the long route for its compact map:
 
 $$
 \eta_t=\eta_{\text{peak}}\frac{t}{T_{\text{warm}}}\quad(0\le t\le T_{\text{warm}})
@@ -46,13 +53,11 @@ $$
 
 Warmup reduces early shock but cannot rescue an unsuitable peak rate, broken initialization, corrupt batch, or incorrect optimizer state.
 
-The weakness is not an accidental footnote. Every operation in learning-rate warmup serves the narrower purpose to increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule; none was designed to answer the new question. We have reached the honest edge of the invention.
+A final test reaches beyond the new instrument. It does not refute Learning-Rate Warmup; it reveals the edge of what was constructed. The archivist-engineer carries that edge into the following room.
 
-## Take learning-rate warmup to the workbench
+## Return to the chain-of-custody ledger
 
-Understanding learning-rate warmup now means predicting its intermediate results before asking software for an answer. Reproduce the failure first, then implement the repair in [Pure Python, NumPy, and PyTorch](implementation/README.md). Predict the intermediate values before running the code. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running learning-rate warmup, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the learning-rate warmup result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the learning-rate warmup scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [A chapter-specific diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 

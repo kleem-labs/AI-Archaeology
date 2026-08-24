@@ -2,33 +2,45 @@
 
 <!-- book-prose-v2 -->
 
+<!-- mathematical-world-v1 -->
+
 The learning rate controls the size of each step. Mini-batches nevertheless disagree sideways from one update to the next, hiding the direction that persists across their noise.
 
-If the old idea can be stretched one step farther, we should obey only the newest gradient.
+Inside the Lantern Observatory, every old tool is given one honest chance. The keeper of uncertain stories sets the ring of glass lanterns between the evidence and the desired answer, then tries to obey only the newest gradient.
 
-If the proposal works on every relevant case, momentum is unnecessary. A mathematical object is earned only when the world can force the old description into contradiction.
+The keeper of uncertain stories repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes. The failure is stable enough to become evidence.
 
-The proposal breaks for a specific reason, not by authority: sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
+*The keeper of uncertain stories sketches the break before changing it:*
 
-Nothing magical creates momentum. We retain the part that worked, restore the information the counterexample removed, and refuse every extra complication that performs no necessary job.
+```text
+observation
+    │
+    ▼
+[obey only the newest gradient]
+    │
+    ╳  sideways noise repeatedly cancels…
+    │
+    ▼
+[keep a fading memory of past…]
+```
 
-The lost distinction tells us what to build: keep a fading memory of past gradients and combine it with the new one.
+Across the ring of glass lanterns, the old path and the repaired path run side by side. One carries “obey only the newest gradient”; the other knows how to keep a fading memory of past gradients and combine it with the new one. When the failure—sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes—arrives, only one path still possesses a place to record the missing distinction.
 
-This boundary between the failed rule and its repair is the subject later work calls **Momentum**. Naming it adds nothing; the discovery happened when the lost information became visible.
+The failure is no longer an embarrassment to momentum. It is a compass: it points directly toward the information the next construction must retain.
 
-Do not memorize momentum; try to break it by subtraction. Remove the part that knows how to keep a fading memory of past gradients and combine it with the new one, leaving only the attempt to obey only the newest gradient.. What returns is not a vague weakness but the original contradiction: sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes. The removed responsibility therefore has an observable job.
+The evidence permits one narrow invention: keep a fading memory of past gradients and combine it with the new one. This problem and its repair will travel under the name **Momentum**, but the name carries no knowledge the scene has not earned.
 
-A name can make an invention feel inevitable, but this control removes that illusion. The rule to obey only the newest gradient. receives the same test as the rule to keep a fading memory of past gradients and combine it with the new one. Their different outcomes reveal what momentum contributes without asking the reader to trust historical convention.
+What changed on the ring of glass lanterns can be said without symbols. Before, the method could only obey only the newest gradient; now it can also keep a fading memory of past gradients and combine it with the new one. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
 
 ## The calculation hidden inside momentum
 
-Do not read the coming Momentum line as an instruction dropped from above. Read it from left to right as a compressed record of the concrete decisions already made.
+The keeper of uncertain stories carries the momentum scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 The repair solves the immediate failure, but momentum can overshoot, and its extra memory introduces another setting. It does not repair a fundamentally bad loss or dataset.
 
 Three small groups inspect tiger tracks. Each recommends changing two detector dials: stripes and movement. Their advice is `[3,1]`, `[3,-1]`, and `[3,1]`. Now the coordinates are not anonymous: every group agrees that stripe trust should rise by 3, while movement advice flips with noisy tracks. Remembering recent directions reinforces the persistent stripe evidence and lets the contradictory movement evidence partly cancel.
 
-### Names for pieces we have already used
+### Naming what is already on the table
 
 **g_t** is the newest noisy gradient.
 **v_{t−1}** stores direction accumulated previously.
@@ -36,13 +48,15 @@ Three small groups inspect tiger tracks. Each recommends changing two detector d
 Addition combines memory with new evidence into velocity v_t.
 **η** scales that velocity before it changes θ.
 
-### Why no cheaper operation does the same job
+### Why the melody needs these exact notes
 
 [Multiplying old velocity by β](../../MATHEMATICAL_MOVES.md#multiplication) fades memory instead of remembering every ancient gradient equally. β near zero forgets quickly; β near one preserves direction longer.
 [Adding the new gradient](../../MATHEMATICAL_MOVES.md#addition) lets current evidence join the surviving past direction. Multiplying them would erase memory wherever either vector contains zero.
 The final [η scaling](../../MATHEMATICAL_MOVES.md#multiplication) chooses travel distance and [the minus sign](../../MATHEMATICAL_MOVES.md#negative-sign) turns remembered uphill direction into a downhill update.
 
-The notation is finally shorter than the story that created it:
+Inside momentum, familiar operations return with stricter duties: **the lock and key**—one influence matters through another, and either missing factor can close the path; **the joining river**—separate contributions meet without losing where they came from; and **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
+
+Cover the prose about momentum and each mark can still be recovered from the case. Only now is the compressed form safe to write:
 
 $$
 v_t=\beta v_{t-1}+g_t
@@ -56,11 +70,9 @@ $$
 
 A heavy ball rattles less across a narrow ravine and keeps moving along the valley.
 
-## Take momentum to the workbench
+## Return to the ring of glass lanterns
 
-A mathematical story about momentum earns trust only when the failed and repaired paths can both be reproduced. Follow [Pure Python → NumPy → PyTorch](implementation/README.md). Build the failed idea before the repair. Keep the values small enough that every intermediate result can be predicted by hand before a library computes it. Before running momentum, write down the observation that would prove your repaired rule still misunderstood the problem; a laboratory that cannot surprise its designer is only a demonstration.
-
-Explain the momentum result once without terminology, then once with the precise symbols or state transitions the implementation used.
+Rebuild the momentum scene in the [Pure Python, NumPy, and PyTorch implementations](implementation/README.md). Run the tempting rule first and predict its failure on paper. Then change only the responsibility earned in this excavation and compare every intermediate value. If the repaired path surprises you, the surprise belongs in the margin before the code is changed.
 
 The rest of the evidence remains beside this excavation: [Mistakes worth preserving](mistakes.md); [The chapter diagram](diagram.md); [Invention exercises](exercises.md); [Primary research trail](references.md); and [Visual brief](images/README.md).
 
