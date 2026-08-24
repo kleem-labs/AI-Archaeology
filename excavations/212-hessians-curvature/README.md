@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** Two places have the same slope—why does one permit a bold step while the other punishes it?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Jacobians record first-order response. At a flat-looking point the gradient may be zero, yet the point could be the bottom of a safe bowl, the top of a hill, or a saddle that rises east and falls north.
 
 At this depth, mathematics feels less like a catalogue and more like memory. We meet **Hessians and Curvature** first as an ordinary human need, before anyone has decided what marks should record it.
 
 The vault floor contains two stone surfaces. At the centre both feel level. One curves upward in every direction; the other curves upward east-west and downward north-south.
+
+The chamber has reduced the abstraction to one physical thing: **two clay valleys and a pair of rolling marbles**. The question carved beside it asks: *Two places have the same slope—why does one permit a bold step while the other punishes it?*
 
 We try to spend no new mathematics at all and simply declare every zero-gradient point a successful minimum and stop moving.
 
@@ -33,6 +41,20 @@ Hessians and Curvature becomes necessary
 At last there is something worth inventing. Whatever we build must differentiate the gradient again and store how every pair of coordinates changes the local slope.
 
 This is the hinge of the Hessians and Curvature excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: Both compasses show the same slope, yet one valley bends gently and the other turns into a narrow wall.
+
+Now let the scene move. Press a curvature grid into the clay. It records how each component of the gradient changes as every direction moves.
+
+The transformation is the discovery of Hessians and Curvature made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Hessians and Curvature into memory:
+
+> **Memory seal — Hessians and Curvature**
+>
+> A Hessian is a map of how the slope itself bends.
+
+Make the memory bodily, not merely verbal: Curve one palm like a shallow bowl and the other like a narrow valley.
 
 ## Hessians and Curvature on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Hessians and Curvature remain relational in memory. When the sam
 Initialization, learning rates, Newton-like methods, loss-landscape analysis, and sharpness all depend on curvature even when large models approximate it indirectly.
 
 The older excavation and this Hessians and Curvature chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Hessians and Curvature occupies one necessary step in that motion. Its object, **two clay valleys and a pair of rolling marbles**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of hessians and curvature breaks
 

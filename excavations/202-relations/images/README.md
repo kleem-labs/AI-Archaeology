@@ -1,10 +1,15 @@
 # Visual Brief — Relations — When Two Objects Are Connected
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Hall of Boundaries**.
 
-- **Before:** show this concrete problem without symbols: The stone floor becomes a map. Cards name tiger, river, cave, and village; lengths of red thread record *near*, while blue thread records *reported-by*. The objects matter, but the colored pairings carry the new information.
-- **After:** let the geometry of Relations emerge physically from the repaired action: store each connection as an ordered pair and let a named relation be the set of all pairs carrying the same kind of edge.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** How can the room remember that tiger is near river, not merely that both exist?
+2. **Object:** show red and blue threads tied between named cards.
+3. **Failure:** The cards collapse into one heap; the colour and direction of every connection disappear.
+4. **Transformation:** Separate the cards and tie an arrowed thread from the first object to the second. Different thread colours preserve different kinds of connection.
+5. **Memory seal:** reveal “A relation is a thread that remembers who is connected to whom.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

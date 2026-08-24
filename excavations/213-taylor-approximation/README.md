@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** How much nearby terrain can be rebuilt from clues gathered at one point?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 The Hessian reveals local bending. Re-evaluating a complicated model for every nearby possibility remains costly, and a slope alone fails as soon as curvature matters.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **Taylor Approximation** has been covered so that only the unsolved situation remains.
 
 The ranger knows a signal's value, slope, and curvature at dial setting a. A nearby setting a+h must be estimated before the expensive full detector can run.
+
+The chamber has reduced the abstraction to one physical thing: **a torn map, a tangent ruler, and nested pieces of curved parchment**. The question carved beside it asks: *How much nearby terrain can be rebuilt from clues gathered at one point?*
 
 The first move is honest because it uses the nearest tool already in our hands: **extend the tangent line indefinitely and assume constant slope everywhere**.
 
@@ -33,6 +41,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must build a local polynomial: start with the known value, add slope times displacement, then add curvature times squared displacement with the counting factor required by repeated differentiation.
 
 This is the hinge of the Taylor Approximation excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The straight tangent predicts well for one step, then walks directly away from the bending road.
+
+Now let the scene move. Begin with the current height, add the slope's straight correction, then add curvature and finer corrections only as distance makes them necessary.
+
+The transformation is the discovery of Taylor Approximation made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Taylor Approximation into memory:
+
+> **Memory seal — Taylor Approximation**
+>
+> A Taylor approximation rebuilds nearby shape from value, slope, curvature, and finer local clues.
+
+Make the memory bodily, not merely verbal: Lay one flat hand as a tangent, then gradually bend the other around it.
 
 ## Taylor Approximation on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Taylor Approximation remain relational in memory. When the same 
 Gradient descent trusts the first-order term; Newton methods use the second; neural tangent analyses study regimes where the local linear picture remains informative.
 
 The older excavation and this Taylor Approximation chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Taylor Approximation occupies one necessary step in that motion. Its object, **a torn map, a tangent ruler, and nested pieces of curved parchment**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of taylor approximation breaks
 

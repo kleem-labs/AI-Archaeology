@@ -17,6 +17,13 @@ It is the imaginative map of the journey: the places we revisit, the objects
 that remember earlier failures, and the recurring mathematical motions that let
 one equation lead naturally to another.
 
+Before descending into Volume VI, enter
+[The Mathematical Roots](MATHEMATICAL_ROOTS.md). It explains what a
+mathematical “root” is and turns the final twenty-five excavations into five
+connected realms whose objects, failures, transformations, and memory seals can
+be replayed like a movie. The
+[living Undercroft](mathematical-roots/README.md) makes that walk interactive.
+
 Read it as a book through the [fourteen-part reading path](PARTS.md). Work with it
 as a laboratory through the [field-lab protocol](labs/README.md). The
 [completion status](COMPLETION_STATUS.md) distinguishes finished depth from

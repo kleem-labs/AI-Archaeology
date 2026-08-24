@@ -1,10 +1,15 @@
 # Visual Brief — Orthogonality and Projection — Finding the Closest Shadow
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Chamber of Directions**.
 
-- **Before:** show this concrete problem without symbols: A tiger track points `[3,2]`, but the ranger's simplified map retains only the eastward rail `[1,0]`. We need the point on that rail that misrepresents the track as little as possible.
-- **After:** let the geometry of Orthogonality and Projection emerge physically from the repaired action: choose the shadow whose leftover error is perpendicular to the allowed direction, because then no further movement along the rail can reduce the distance.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** What is the closest honest shadow of this track on the only rail our map allows?
+2. **Object:** show a lantern, a tiger track, and one polished rail.
+3. **Failure:** An arbitrary shadow leaves an error that still runs partly along the rail, proving that some allowed information was unnecessarily discarded.
+4. **Transformation:** Slide the shadow until the leftover error stands exactly perpendicular to the rail. No further allowed slide can make the disagreement smaller.
+5. **Memory seal:** reveal “Projection is the closest honest shadow an allowed space can keep.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

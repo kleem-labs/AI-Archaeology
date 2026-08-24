@@ -1,10 +1,15 @@
 # Visual Brief — Limits — Approaching What Cannot Be Reached in One Step
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The River of Change**.
 
-- **Before:** show this concrete problem without symbols: A messenger must cross one metre to the next stone mark. First the remaining gap is one half, then one quarter, one eighth, and so on. No listed move is zero, yet the marks gather around the destination.
-- **After:** let the geometry of Limits emerge physically from the repaired action: define the destination by a guarantee: however tiny a permitted error is chosen, all sufficiently late terms fall inside it.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** What must ‘closer and closer’ promise before we can build calculus upon it?
+2. **Object:** show stepping stones approaching a sealed luminous door.
+3. **Failure:** The words ‘very close’ move whenever the observer changes standards; no finite final step explains the destination.
+4. **Transformation:** Place any tiny ring around the door. Find a stage after which every remaining stone lies inside that ring, however small the ring was chosen.
+5. **Memory seal:** reveal “A limit is a promise that every demanded closeness eventually becomes permanent.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

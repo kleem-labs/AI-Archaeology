@@ -1,10 +1,15 @@
 # Visual Brief — Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Chamber of Directions**.
 
-- **Before:** show this concrete problem without symbols: On the vault floor, a transformation doubles east-west displacement but leaves north-south displacement unchanged. Most arrows change both length and direction. An arrow pointing exactly east does something quieter: it remains east and only stretches.
-- **After:** let the geometry of Eigenvectors and Eigenvalues emerge physically from the repaired action: search for nonzero directions that the transformation only scales, and record the corresponding scale factors.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** Which direction can pass through the transformation without being turned?
+2. **Object:** show a moving stone floor crossed by compass arrows.
+3. **Failure:** Most arrows tumble differently at every repetition, burying the long-term pattern beneath changing coordinates.
+4. **Transformation:** Place arrows one by one until an eastward arrow emerges still pointing east—only longer. Mark that quiet direction and the scale impressed upon it.
+5. **Memory seal:** reveal “An eigenvector is a direction a transformation cannot turn; its eigenvalue says how the direction is scaled.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

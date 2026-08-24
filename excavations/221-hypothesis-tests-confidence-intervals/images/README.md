@@ -1,10 +1,15 @@
 # Visual Brief — Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Observatory of Possible Worlds**.
 
-- **Before:** show this concrete problem without symbols: Two assistants answer the same 100 field questions. The new assistant scores, on average, 0.4 points higher. The room wants to celebrate, but daily paired differences wobble with a standard deviation of 2 points.
-- **After:** let the geometry of Hypothesis Tests and Confidence Intervals emerge physically from the repaired action: state the no-improvement claim, measure the observed mean difference in units of its standard error, and report both a test statistic and the range of effects compatible with the sampling noise.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** Is the new model's small victory a signal or an ordinary tremor of chance?
+2. **Object:** show a distant tower bell beside a brass wind-and-noise meter.
+3. **Failure:** One faint positive sound is celebrated without asking how loudly the empty night usually rattles the tower.
+4. **Transformation:** Subtract the no-improvement claim and measure the remaining sound in units of ordinary sample-mean wobble; keep an interval, not only a verdict.
+5. **Memory seal:** reveal “A statistical test asks how large a signal is compared with the noise that could imitate it.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

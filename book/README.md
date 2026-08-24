@@ -22,6 +22,10 @@ squares, exponentiates, logs, maximizes, or differentiates, use
 To see every earned equation as one connected memory, enter the
 [living Mathematical Mandala](../math-mandala/README.md).
 
+To walk the five cinematic realms beneath Volume VI, enter
+[The Mathematical Roots](../MATHEMATICAL_ROOTS.md) or the
+[living Undercroft](../mathematical-roots/README.md).
+
 To remember the recurring places and mathematical motions that bind the six
 volumes into one imaginative journey, begin with
 [The Living Mathematics](../THE_LIVING_MATHEMATICS.md).

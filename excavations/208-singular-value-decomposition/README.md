@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../../MATHEMATICAL_ROOTS.md#realm-2)
+>
+> **Question waiting in this chamber:** Which coordinated channels carry most of this entire transformation?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Projection finds the closest shadow once an allowed direction is known. A large weight matrix offers thousands of possible directions, and neither its raw entries nor ordinary eigenvectors tell us which input directions carry most strongly into which output directions.
 
 In the next chamber of the Undercroft, the mathematical archaeologist removes the label from **Singular Value Decomposition**. A name would let us recognize the answer too early; the stone workbench gives us only a stubborn observation.
 
 The enginewright lowers a rectangular brass plate with many input grooves and fewer output bells. Some coordinated pushes ring loudly; others barely move the mechanism. We want the simplest faithful account of those channels.
+
+The chamber has reduced the abstraction to one physical thing: **a rectangular brass organ with input grooves and output bells**. The question carved beside it asks: *Which coordinated channels carry most of this entire transformation?*
 
 Nothing yet suggests a new invention. We naturally keep the largest individual matrix entries and set the rest to zero.
 
@@ -31,6 +39,20 @@ our own proposal ──▶ test case ──▶ impossible answer
 What survives the failure is a precise demand. The repaired construction must rotate the input into orthogonal right-singular directions, scale each by a nonnegative singular value, and rotate into orthogonal output directions; keep the strongest channels for a principled low-rank approximation.
 
 This is the hinge of the Singular Value Decomposition excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: Polishing the largest rivets changes little; the loudest bell is driven by a pattern spread across many modest parts.
+
+Now let the scene move. Rotate the input wheel until each independent push rings one output direction, then order the bells from strongest to faintest.
+
+The transformation is the discovery of Singular Value Decomposition made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Singular Value Decomposition into memory:
+
+> **Memory seal — Singular Value Decomposition**
+>
+> SVD separates any matrix into its strongest input-to-output channels.
+
+Make the memory bodily, not merely verbal: Turn two imaginary wheels, then lower your hands from the loudest channel to the quietest.
 
 ## Singular Value Decomposition on the stone workbench
 
@@ -69,6 +91,8 @@ That echo helps Singular Value Decomposition remain relational in memory. When t
 LoRA assumes useful updates occupy a low-rank subspace; embedding analysis and compression rely on singular directions; numerical solvers use singular values to expose ill-conditioning.
 
 The older excavation and this Singular Value Decomposition chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Singular Value Decomposition occupies one necessary step in that motion. Its object, **a rectangular brass organ with input grooves and output bells**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of singular value decomposition breaks
 

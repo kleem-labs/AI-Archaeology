@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../../MATHEMATICAL_ROOTS.md#realm-2)
+>
+> **Question waiting in this chamber:** What is the closest honest shadow of this track on the only rail our map allows?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Eigenvectors expose directions preserved by a transformation. The vault now presents a simpler geometric failure: an observed arrow does not lie on the one-dimensional rail our model is allowed to use.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **Orthogonality and Projection** has been covered so that only the unsolved situation remains.
 
 A tiger track points `[3,2]`, but the ranger's simplified map retains only the eastward rail `[1,0]`. We need the point on that rail that misrepresents the track as little as possible.
+
+The chamber has reduced the abstraction to one physical thing: **a lantern, a tiger track, and one polished rail**. The question carved beside it asks: *What is the closest honest shadow of this track on the only rail our map allows?*
 
 The first move is honest because it uses the nearest tool already in our hands: **copy whichever coordinate looks largest or slide to an arbitrary point on the allowed rail**.
 
@@ -33,6 +41,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must choose the shadow whose leftover error is perpendicular to the allowed direction, because then no further movement along the rail can reduce the distance.
 
 This is the hinge of the Orthogonality and Projection excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: An arbitrary shadow leaves an error that still runs partly along the rail, proving that some allowed information was unnecessarily discarded.
+
+Now let the scene move. Slide the shadow until the leftover error stands exactly perpendicular to the rail. No further allowed slide can make the disagreement smaller.
+
+The transformation is the discovery of Orthogonality and Projection made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Orthogonality and Projection into memory:
+
+> **Memory seal — Orthogonality and Projection**
+>
+> Projection is the closest honest shadow an allowed space can keep.
+
+Make the memory bodily, not merely verbal: Drop one hand straight onto an imagined tabletop, forming a right angle with the discarded height.
 
 ## Orthogonality and Projection on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Orthogonality and Projection remain relational in memory. When t
 Linear probes project hidden states onto readable directions; least squares projects observations into a model subspace; attention projects embeddings into query, key, and value spaces.
 
 The older excavation and this Orthogonality and Projection chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Orthogonality and Projection occupies one necessary step in that motion. Its object, **a lantern, a tiger track, and one polished rail**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of orthogonality and projection breaks
 

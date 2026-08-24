@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 5 of 5 — [The Garden of Futures](../../MATHEMATICAL_ROOTS.md#realm-5)
+>
+> **Question waiting in this chamber:** How can a finite machine travel to the same mathematical truth without overflowing on the way?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Convexity can make an exact mathematical landscape trustworthy. The machine that evaluates it has finite memory and finite precision, so an algebraically correct formula can still overflow, underflow, or erase a small but important difference.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **Numerical Stability** has been covered so that only the unsolved situation remains.
 
 Three logits are 1000, 999, and 998. Their exponentials should have sensible relative sizes, yet an ordinary floating-point calculator cannot store `e¹⁰⁰⁰`; the first operation becomes infinity before normalization can rescue it.
+
+The chamber has reduced the abstraction to one physical thing: **a small brass instrument facing three unbearably bright exponential flames**. The question carved beside it asks: *How can a finite machine travel to the same mathematical truth without overflowing on the way?*
 
 The first move is honest because it uses the nearest tool already in our hands: **evaluate the written formula literally and assume algebraic equivalence guarantees computational equivalence**.
 
@@ -33,6 +41,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must rewrite the calculation so intermediate values remain in a safe range while the exact mathematical result stays unchanged.
 
 This is the hinge of the Numerical Stability excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The first flame becomes infinity before the machine can compare it with the others; a meaningful ratio collapses into infinity divided by infinity.
+
+Now let the scene move. Transpose every score by the largest one. The flames shrink into the instrument's range while their relative brightness remains unchanged; restore the removed scale only at the end.
+
+The transformation is the discovery of Numerical Stability made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Numerical Stability into memory:
+
+> **Memory seal — Numerical Stability**
+>
+> Numerical stability is a safer computational path to the same mathematical truth.
+
+Make the memory bodily, not merely verbal: Lower both hands together without changing the distance between them, then raise the shared scale at the end.
 
 ## Numerical Stability on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Numerical Stability remain relational in memory. When the same j
 Stable softmax, log-likelihoods, mixed precision, gradient scaling, normalization, and online attention all distinguish a mathematical identity from a safe computational route.
 
 The older excavation and this Numerical Stability chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Garden of Futures, look back at its path—**sufficient present → remembered futures → trustworthy landscape → safe computation**. Numerical Stability occupies one necessary step in that motion. Its object, **a small brass instrument facing three unbearably bright exponential flames**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of numerical stability breaks
 

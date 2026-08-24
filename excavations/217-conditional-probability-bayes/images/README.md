@@ -1,10 +1,15 @@
 # Visual Brief — Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Observatory of Possible Worlds**.
 
-- **Before:** show this concrete problem without symbols: Before seeing tracks, the valley expects tiger on one day in ten and deer on nine. Deep clawed tracks are likely under tiger and rare under deer. The print has arrived; the old shares can no longer remain untouched.
-- **After:** let the geometry of Conditional Probability and Bayes’ Rule emerge physically from the repaired action: multiply each prior belief by that story's support for the evidence, then divide by the total support across all stories so the surviving weights again form one distribution.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** How should one paw print rearrange the brightness of competing hidden stories?
+2. **Object:** show a ring of lanterns and one fresh track beneath a lens.
+3. **Failure:** The brightest explanation of the print wins even if it was almost impossible before the print appeared.
+4. **Transformation:** Begin with each lantern's old brightness, scale it by how naturally that world makes the track, then renormalize the surviving light.
+5. **Memory seal:** reveal “Bayes' rule lets evidence rearrange belief without erasing what was believed before.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

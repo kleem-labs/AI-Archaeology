@@ -1,10 +1,15 @@
 # Visual Brief — Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Observatory of Possible Worlds**.
 
-- **Before:** show this concrete problem without symbols: Two routes both average one tiger sighting per day. Route A always sees exactly one. Route B sees zero half the time and two half the time. The means agree; their risks do not.
-- **After:** let the geometry of Expectation, Variance, and Covariance emerge physically from the repaired action: compute expectation as a probability-weighted centre, variance as average squared departure from that centre, and covariance as average product of paired departures.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** Where does uncertainty balance, how widely does it wander, and what moves together?
+2. **Object:** show a hanging flock-mobile with a central spindle and paired threads.
+3. **Failure:** Two flocks balance at the same centre, yet one is tightly gathered and the other spans the room; the mean calls them identical.
+4. **Transformation:** Mark the balance point, measure squared wingbeats away from it, then tie paired departures together to see whether they turn in concert.
+5. **Memory seal:** reveal “Expectation finds the centre, variance the spread, and covariance the shared motion of uncertainty.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

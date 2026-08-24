@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** Which simple rhythms are hidden inside this tangled signal?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Integrals recover wholes from local pieces. A microphone's whole waveform still looks like an unruly sequence of pressures, even when a listener hears a pure low note, a high whistle, and a repeating wingbeat.
 
 The corridor bends beneath every model we have built. Here **Fourier Analysis** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.
 
 The Scriptorium lowers a string of microphone samples into the vault. The values rise and fall, but no sample announces which repeating rhythms created the pattern.
+
+The chamber has reduced the abstraction to one physical thing: **a dark prism surrounded by rotating tuning forks**. The question carved beside it asks: *Which simple rhythms are hidden inside this tangled signal?*
 
 If we were the first people in this chamber, we would probably compare waveforms only sample by sample in time.
 
@@ -35,6 +43,20 @@ We let the idea touch the evidence. The fracture appears exactly where informati
 The broken attempt has done its work. It tells us, in ordinary language, to compare the signal with a family of rotating sine-and-cosine patterns and add the agreements, producing one coefficient for each candidate frequency.
 
 This is the hinge of the Fourier Analysis excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The waveform is inspected moment by moment; overlapping notes remain one jagged line.
+
+Now let the scene move. Turn a candidate rhythm against the signal. Matching rises and falls reinforce across time while mismatched turns cancel.
+
+The transformation is the discovery of Fourier Analysis made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Fourier Analysis into memory:
+
+> **Memory seal — Fourier Analysis**
+>
+> Fourier analysis is a prism that separates hidden rhythms.
+
+Make the memory bodily, not merely verbal: Rotate one finger in a circle while the other traces a wave.
 
 ## Fourier Analysis on the stone workbench
 
@@ -73,6 +95,8 @@ That echo helps Fourier Analysis remain relational in memory. When the same job 
 Speech features, positional rotations, convolution, image filtering, and Fourier neural operators all move between coordinate systems where different structure becomes simple.
 
 The older excavation and this Fourier Analysis chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Fourier Analysis occupies one necessary step in that motion. Its object, **a dark prism surrounded by rotating tuning forks**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of fourier analysis breaks
 

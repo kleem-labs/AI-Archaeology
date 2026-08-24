@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 1 of 5 — [The Hall of Boundaries](../../MATHEMATICAL_ROOTS.md#realm-1)
+>
+> **Question waiting in this chamber:** How can the room remember that tiger is near river, not merely that both exist?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Sets give the vault honest boundaries. The animal cards can now belong to villages, habitats, and observation days, but separate membership lists cannot preserve statements such as ‘tiger was seen beside river’ or ‘report cites photograph.’
 
 In the next chamber of the Undercroft, the mathematical archaeologist removes the label from **Relations**. A name would let us recognize the answer too early; the stone workbench gives us only a stubborn observation.
 
 The stone floor becomes a map. Cards name tiger, river, cave, and village; lengths of red thread record *near*, while blue thread records *reported-by*. The objects matter, but the colored pairings carry the new information.
+
+The chamber has reduced the abstraction to one physical thing: **red and blue threads tied between named cards**. The question carved beside it asks: *How can the room remember that tiger is near river, not merely that both exist?*
 
 Nothing yet suggests a new invention. We naturally place connected objects in the same set and assume co-membership tells us the nature and direction of their connection.
 
@@ -31,6 +39,20 @@ our own proposal ──▶ test case ──▶ impossible answer
 What survives the failure is a precise demand. The repaired construction must store each connection as an ordered pair and let a named relation be the set of all pairs carrying the same kind of edge.
 
 This is the hinge of the Relations excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The cards collapse into one heap; the colour and direction of every connection disappear.
+
+Now let the scene move. Separate the cards and tie an arrowed thread from the first object to the second. Different thread colours preserve different kinds of connection.
+
+The transformation is the discovery of Relations made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Relations into memory:
+
+> **Memory seal — Relations**
+>
+> A relation is a thread that remembers who is connected to whom.
+
+Make the memory bodily, not merely verbal: Point from one hand to the other; reversing your hands must reverse the claim.
 
 ## Relations on the stone workbench
 
@@ -69,6 +91,8 @@ That echo helps Relations remain relational in memory. When the same job appears
 Attention masks, provenance graphs, knowledge graphs, and state transitions were all relations before we used that name. Their arrows were mathematical objects, not decoration.
 
 The older excavation and this Relations chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Hall of Boundaries, look back at its path—**belonging → connection → dependable transformation**. Relations occupies one necessary step in that motion. Its object, **red and blue threads tied between named cards**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of relations breaks
 

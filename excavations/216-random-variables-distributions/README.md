@@ -8,11 +8,29 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+### Realm 4 — The Observatory of Possible Worlds
+
+The river empties beneath a glass dome. Each lantern shows a different possible tomorrow; none may be extinguished merely because we do not yet know which world is real.
+
+Listen for turning lenses, weighted chains, and many quiet witnesses. The questions in this realm travel as one chain:
+
+```text
+possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims
+```
+
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** How can stories about possible tomorrows become quantities we can calculate with?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Fourier analysis gives deterministic signals new coordinates. The ranger's camera, however, may record zero, one, or several tigers tomorrow; before the observation, the count is not an unknown fixed number but a quantity attached to several possible worlds.
 
 Another vault door opens. The carving that once named **Random Variables and Distributions** has weathered away, which is useful: we must recover the idea from what a ranger, builder, or machine can actually observe.
 
 Three cards describe tomorrow: no tiger, one tiger, and two tigers. Each card has a probability, but the station wants to compute expected food use and variation in the *count*.
+
+The chamber has reduced the abstraction to one physical thing: **possible-world cards passing through a numbered brass sieve**. The question carved beside it asks: *How can stories about possible tomorrows become quantities we can calculate with?*
 
 The old machinery invites a plausible shortcut: treat the outcome label itself as a number and perform arithmetic directly on names such as ‘no sighting’ and ‘two sightings’.
 
@@ -29,6 +47,20 @@ scene → guess → calculate → compare with reality
 We do not leap to a famous formula. We carry one missing responsibility forward: define a random variable as a function assigning a numerical value to every outcome, then transfer probability mass through that mapping to form its distribution.
 
 This is the hinge of the Random Variables and Distributions excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: Names such as ‘empty photograph’ and ‘two tigers’ are added as though stories were already numbers.
+
+Now let the scene move. Ask one numerical question of every world. Let different stories fall into the same numbered bowl when they give the same answer.
+
+The transformation is the discovery of Random Variables and Distributions made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Random Variables and Distributions into memory:
+
+> **Memory seal — Random Variables and Distributions**
+>
+> A random variable is a numerical question asked of every possible world.
+
+Make the memory bodily, not merely verbal: Hold several imagined cards, then sort them into numbered bowls.
 
 ## Random Variables and Distributions on the stone workbench
 
@@ -67,6 +99,8 @@ That echo helps Random Variables and Distributions remain relational in memory. 
 Loss, reward, token count, model output, and gradient noise are random variables. Their distributions—not isolated values—determine learning and evaluation.
 
 The older excavation and this Random Variables and Distributions chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. Random Variables and Distributions occupies one necessary step in that motion. Its object, **possible-world cards passing through a numbered brass sieve**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of random variables and distributions breaks
 

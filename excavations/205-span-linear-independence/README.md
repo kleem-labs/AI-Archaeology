@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../../MATHEMATICAL_ROOTS.md#realm-2)
+>
+> **Question waiting in this chamber:** Does this new arrow open genuinely new movement, or only rename movement already possible?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 A basis gives coordinates meaning only if its directions reach the required space without secretly repeating one another. Adding more arrows to the table can create the appearance of capacity while contributing no new possible movement.
 
 Far below the Transformer, the Undercroft stores no formula sheet. For **Span and Linear Independence**, it preserves a scene, a tempting tool, and the mark left where that tool broke.
 
 The cartographer offers east `[1,0]`, north `[0,1]`, and northeast `[1,1]` as three foundational directions on a two-dimensional map. The third feels useful, but the first two can already reconstruct it.
+
+The chamber has reduced the abstraction to one physical thing: **three floor arrows and a ring carrying one copied key**. The question carved beside it asks: *Does this new arrow open genuinely new movement, or only rename movement already possible?*
 
 With no standard method to recite, the most economical proposal is to count every stored direction as a new dimension and assign each one an independent coordinate.
 
@@ -33,6 +41,20 @@ what we kept       what disappeared
 The next idea is forced only because the evidence asks us to call the reachable collection of combinations the span, and call directions independent only when no nontrivial weighted combination collapses to zero.
 
 This is the hinge of the Span and Linear Independence excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The northeast arrow boasts of a third dimension even though east plus north already draws it exactly.
+
+Now let the scene move. Try to cancel the arrows back to no movement. The nonzero recipe that succeeds exposes the copied direction; remove it and the reachable floor does not shrink.
+
+The transformation is the discovery of Span and Linear Independence made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Span and Linear Independence into memory:
+
+> **Memory seal — Span and Linear Independence**
+>
+> Span is everywhere the arrows can reach; independence means each arrow opens a direction the others cannot.
+
+Make the memory bodily, not merely verbal: Spread two fingers into independent directions, then lay a third finger along their combined diagonal.
 
 ## Span and Linear Independence on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Span and Linear Independence remain relational in memory. When t
 Superposition asks how many useful feature directions share a space; LoRA asks how many update directions are actually needed. Rank and independence make those capacity claims precise.
 
 The older excavation and this Span and Linear Independence chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Span and Linear Independence occupies one necessary step in that motion. Its object, **three floor arrows and a ring carrying one copied key**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of span and linear independence breaks
 

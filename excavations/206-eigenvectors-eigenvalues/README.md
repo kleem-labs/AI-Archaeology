@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../../MATHEMATICAL_ROOTS.md#realm-2)
+>
+> **Question waiting in this chamber:** Which direction can pass through the transformation without being turned?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Span and independence reveal the true directions available in a space. When one matrix is applied again and again—one transition, message-passing step, or layer after another—the coordinate picture can still become difficult to follow.
 
 At this depth, mathematics feels less like a catalogue and more like memory. We meet **Eigenvectors and Eigenvalues** first as an ordinary human need, before anyone has decided what marks should record it.
 
 On the vault floor, a transformation doubles east-west displacement but leaves north-south displacement unchanged. Most arrows change both length and direction. An arrow pointing exactly east does something quieter: it remains east and only stretches.
+
+The chamber has reduced the abstraction to one physical thing: **a moving stone floor crossed by compass arrows**. The question carved beside it asks: *Which direction can pass through the transformation without being turned?*
 
 We try to spend no new mathematics at all and simply track every coordinate of every repeatedly transformed arrow and hope the long-term pattern becomes obvious.
 
@@ -33,6 +41,20 @@ Eigenvectors and Eigenvalues becomes necessary
 At last there is something worth inventing. Whatever we build must search for nonzero directions that the transformation only scales, and record the corresponding scale factors.
 
 This is the hinge of the Eigenvectors and Eigenvalues excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: Most arrows tumble differently at every repetition, burying the long-term pattern beneath changing coordinates.
+
+Now let the scene move. Place arrows one by one until an eastward arrow emerges still pointing east—only longer. Mark that quiet direction and the scale impressed upon it.
+
+The transformation is the discovery of Eigenvectors and Eigenvalues made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Eigenvectors and Eigenvalues into memory:
+
+> **Memory seal — Eigenvectors and Eigenvalues**
+>
+> An eigenvector is a direction a transformation cannot turn; its eigenvalue says how the direction is scaled.
+
+Make the memory bodily, not merely verbal: Point forward and extend your arm without changing where your finger points.
 
 ## Eigenvectors and Eigenvalues on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Eigenvectors and Eigenvalues remain relational in memory. When t
 PageRank studies a persistent direction of repeated link transitions; covariance eigenvectors become principal directions; training stability depends on repeated transformations' spectral behavior.
 
 The older excavation and this Eigenvectors and Eigenvalues chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Eigenvectors and Eigenvalues occupies one necessary step in that motion. Its object, **a moving stone floor crossed by compass arrows**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of eigenvectors and eigenvalues breaks
 

@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** Is the new model's small victory a signal or an ordinary tremor of chance?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 The central limit theorem gives the shape and scale of repeated sample averages. It still does not decide whether a measured model improvement is evidence of a real change or an ordinary tremor of sampling.
 
 The corridor bends beneath every model we have built. Here **Hypothesis Tests and Confidence Intervals** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.
 
 Two assistants answer the same 100 field questions. The new assistant scores, on average, 0.4 points higher. The room wants to celebrate, but daily paired differences wobble with a standard deviation of 2 points.
+
+The chamber has reduced the abstraction to one physical thing: **a distant tower bell beside a brass wind-and-noise meter**. The question carved beside it asks: *Is the new model's small victory a signal or an ordinary tremor of chance?*
 
 If we were the first people in this chamber, we would probably declare every positive sample difference a discovery.
 
@@ -35,6 +43,20 @@ We let the idea touch the evidence. The fracture appears exactly where informati
 The broken attempt has done its work. It tells us, in ordinary language, to state the no-improvement claim, measure the observed mean difference in units of its standard error, and report both a test statistic and the range of effects compatible with the sampling noise.
 
 This is the hinge of the Hypothesis Tests and Confidence Intervals excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: One faint positive sound is celebrated without asking how loudly the empty night usually rattles the tower.
+
+Now let the scene move. Subtract the no-improvement claim and measure the remaining sound in units of ordinary sample-mean wobble; keep an interval, not only a verdict.
+
+The transformation is the discovery of Hypothesis Tests and Confidence Intervals made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Hypothesis Tests and Confidence Intervals into memory:
+
+> **Memory seal — Hypothesis Tests and Confidence Intervals**
+>
+> A statistical test asks how large a signal is compared with the noise that could imitate it.
+
+Make the memory bodily, not merely verbal: Cup one ear for the signal while the other hand marks the surrounding noise.
 
 ## Hypothesis Tests and Confidence Intervals on the stone workbench
 
@@ -73,6 +95,8 @@ That echo helps Hypothesis Tests and Confidence Intervals remain relational in m
 Benchmark uncertainty, A/B tests, ablations, model comparisons, and safety evaluations need this separation between observed effect, sampling uncertainty, and practical importance.
 
 The older excavation and this Hypothesis Tests and Confidence Intervals chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. Hypothesis Tests and Confidence Intervals occupies one necessary step in that motion. Its object, **a distant tower bell beside a brass wind-and-noise meter**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of hypothesis tests and confidence intervals breaks
 

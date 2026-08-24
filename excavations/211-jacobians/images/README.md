@@ -1,10 +1,15 @@
 # Visual Brief — Jacobians — When Many Outputs Change Together
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The River of Change**.
 
-- **Before:** show this concrete problem without symbols: A tracker converts two measurements—weight and stride—into two outputs: danger score and estimated speed. Changing weight affects both outputs, but not by the same amount.
-- **After:** let the geometry of Jacobians emerge physically from the repaired action: give every output its own gradient row and arrange all output-input sensitivities into one matrix.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** How does every output respond when every input is allowed to move?
+2. **Object:** show a wall of levers facing a wall of bells.
+3. **Failure:** A single slope follows one lever to one bell while the cross-effects among the rest remain invisible.
+4. **Transformation:** Pull each lever slightly and record every bell's response in one rectangular ledger: output rows, input columns.
+5. **Memory seal:** reveal “A Jacobian is a ledger of every output's local sensitivity to every input.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

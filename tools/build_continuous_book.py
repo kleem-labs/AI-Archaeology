@@ -32,7 +32,7 @@ VOLUME_OVERTURES = {
           "reference path ══ measured equivalence ══ optimized path"),
     176: ("The final volume enters the Archive Foundry, where documents become training experience. Nothing may disappear without a trace: sources, filters, mixtures, updates, checkpoints, and release decisions must remain connected by a recoverable chain of evidence.",
           "document → lineage → lesson → update → artifact → account"),
-    201: ("The sixth volume descends into the Undercroft of First Principles. Familiar names are covered. Sets, functions, linear algebra, calculus, probability, statistics, decision theory, and numerical analysis must be recovered from concrete failures before their symbols are allowed to return.",
+    201: ("The sixth volume descends into the [Undercroft of First Principles](../MATHEMATICAL_ROOTS.md). Familiar names are covered. Sets, functions, linear algebra, calculus, probability, statistics, decision theory, and numerical analysis must be recovered from concrete failures before their symbols are allowed to return. Each chamber leaves one physical object and one memory seal, so the reader can replay the discovery as a movie instead of storing an isolated definition.",
           "observation → attempt → fracture → repair → symbol → connected memory"),
 }
 
@@ -107,6 +107,7 @@ def chapter_for_book(path):
         "",
     )
     text = text.replace("(../../MATHEMATICAL_MOVES.md", "(../MATHEMATICAL_MOVES.md")
+    text = text.replace("(../../MATHEMATICAL_ROOTS.md", "(../MATHEMATICAL_ROOTS.md")
     text = text.replace("(../../math-mandala/README.md", "(../math-mandala/README.md")
     text = re.sub(r"\(\.\./(\d{3}-[^/)]+)/README\.md", r"(../excavations/\1/README.md", text)
     text = text.replace(
@@ -126,6 +127,7 @@ def chapter_for_book(path):
     text = re.sub(r"\n{3,}", "\n\n", text).strip()
     text = text.replace("../../MATHEMATICAL_MOVES.md", "../MATHEMATICAL_MOVES.md")
     text = text.replace("../../MATHEMATICS_ATLAS.md", "../MATHEMATICS_ATLAS.md")
+    text = text.replace("../../MATHEMATICAL_ROOTS.md", "../MATHEMATICAL_ROOTS.md")
     link = path.relative_to(ROOT).as_posix()
     return text + f"\n\n*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../{link}).*"
 
@@ -179,6 +181,10 @@ squares, exponentiates, logs, maximizes, or differentiates, use
 
 To see every earned equation as one connected memory, enter the
 [living Mathematical Mandala](../math-mandala/README.md).
+
+To walk the five cinematic realms beneath Volume VI, enter
+[The Mathematical Roots](../MATHEMATICAL_ROOTS.md) or the
+[living Undercroft](../mathematical-roots/README.md).
 
 To remember the recurring places and mathematical motions that bind the six
 volumes into one imaginative journey, begin with

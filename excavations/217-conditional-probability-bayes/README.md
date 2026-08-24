@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** How should one paw print rearrange the brightness of competing hidden stories?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Random variables turn possible worlds into measurable quantities. A fresh paw print should change the tiger probability, but merely retaining yesterday's distribution ignores the reason observation matters.
 
 Far below the Transformer, the Undercroft stores no formula sheet. For **Conditional Probability and Bayes’ Rule**, it preserves a scene, a tempting tool, and the mark left where that tool broke.
 
 Before seeing tracks, the valley expects tiger on one day in ten and deer on nine. Deep clawed tracks are likely under tiger and rare under deer. The print has arrived; the old shares can no longer remain untouched.
+
+The chamber has reduced the abstraction to one physical thing: **a ring of lanterns and one fresh track beneath a lens**. The question carved beside it asks: *How should one paw print rearrange the brightness of competing hidden stories?*
 
 With no standard method to recite, the most economical proposal is to compare only how well each animal explains the print and choose the largest likelihood.
 
@@ -33,6 +41,20 @@ what we kept       what disappeared
 The next idea is forced only because the evidence asks us to multiply each prior belief by that story's support for the evidence, then divide by the total support across all stories so the surviving weights again form one distribution.
 
 This is the hinge of the Conditional Probability and Bayes’ Rule excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The brightest explanation of the print wins even if it was almost impossible before the print appeared.
+
+Now let the scene move. Begin with each lantern's old brightness, scale it by how naturally that world makes the track, then renormalize the surviving light.
+
+The transformation is the discovery of Conditional Probability and Bayes’ Rule made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Conditional Probability and Bayes’ Rule into memory:
+
+> **Memory seal — Conditional Probability and Bayes’ Rule**
+>
+> Bayes' rule lets evidence rearrange belief without erasing what was believed before.
+
+Make the memory bodily, not merely verbal: Dim and brighten imaginary lanterns while keeping their total light fixed.
 
 ## Conditional Probability and Bayes’ Rule on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Conditional Probability and Bayes’ Rule remain relational in m
 Likelihood, calibration, Bayesian updating, filtering, and uncertainty-aware planning all reuse this rearrangement. Excavation 102 used it; here we expose the counting skeleton underneath.
 
 The older excavation and this Conditional Probability and Bayes’ Rule chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. Conditional Probability and Bayes’ Rule occupies one necessary step in that motion. Its object, **a ring of lanterns and one fresh track beneath a lens**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of conditional probability and bayes’ rule breaks
 

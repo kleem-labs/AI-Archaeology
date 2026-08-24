@@ -1,10 +1,15 @@
 # Visual Brief — Random Variables and Distributions — Turning Outcomes into Quantities
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Observatory of Possible Worlds**.
 
-- **Before:** show this concrete problem without symbols: Three cards describe tomorrow: no tiger, one tiger, and two tigers. Each card has a probability, but the station wants to compute expected food use and variation in the *count*.
-- **After:** let the geometry of Random Variables and Distributions emerge physically from the repaired action: define a random variable as a function assigning a numerical value to every outcome, then transfer probability mass through that mapping to form its distribution.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** How can stories about possible tomorrows become quantities we can calculate with?
+2. **Object:** show possible-world cards passing through a numbered brass sieve.
+3. **Failure:** Names such as ‘empty photograph’ and ‘two tigers’ are added as though stories were already numbers.
+4. **Transformation:** Ask one numerical question of every world. Let different stories fall into the same numbered bowl when they give the same answer.
+5. **Memory seal:** reveal “A random variable is a numerical question asked of every possible world.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

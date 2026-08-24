@@ -8,11 +8,29 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+### Realm 3 — The River of Change
+
+Beyond the chamber, the floor becomes a river. Nothing here stays still: distances shrink, slopes turn, water gathers, and tangled waves carry melodies no single moment can reveal.
+
+Listen for approaching footsteps, running water, and a buried chord. The questions in this realm travel as one chain:
+
+```text
+approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm
+```
+
+> **You are here:** Realm 3 of 5 — [The River of Change](../../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** What must ‘closer and closer’ promise before we can build calculus upon it?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 SVD exposes what a finite matrix preserves and discards. Calculus asks a stranger question: what does a procedure approach as a step becomes smaller without ever requiring a final smallest positive step?
 
 The corridor bends beneath every model we have built. Here **Limits** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.
 
 A messenger must cross one metre to the next stone mark. First the remaining gap is one half, then one quarter, one eighth, and so on. No listed move is zero, yet the marks gather around the destination.
+
+The chamber has reduced the abstraction to one physical thing: **stepping stones approaching a sealed luminous door**. The question carved beside it asks: *What must ‘closer and closer’ promise before we can build calculus upon it?*
 
 If we were the first people in this chamber, we would probably declare that a sequence reaches its destination only when one finite term equals the destination exactly.
 
@@ -35,6 +53,20 @@ We let the idea touch the evidence. The fracture appears exactly where informati
 The broken attempt has done its work. It tells us, in ordinary language, to define the destination by a guarantee: however tiny a permitted error is chosen, all sufficiently late terms fall inside it.
 
 This is the hinge of the Limits excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The words ‘very close’ move whenever the observer changes standards; no finite final step explains the destination.
+
+Now let the scene move. Place any tiny ring around the door. Find a stage after which every remaining stone lies inside that ring, however small the ring was chosen.
+
+The transformation is the discovery of Limits made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Limits into memory:
+
+> **Memory seal — Limits**
+>
+> A limit is a promise that every demanded closeness eventually becomes permanent.
+
+Make the memory bodily, not merely verbal: Make a shrinking circle with your fingers, then point beyond an imagined threshold.
 
 ## Limits on the stone workbench
 
@@ -73,6 +105,8 @@ That echo helps Limits remain relational in memory. When the same job appears in
 Derivatives, continuous activations, convergence of optimization, integrals, and probability laws all depend on limits. The quiet symbol carries an entire challenge-and-response guarantee.
 
 The older excavation and this Limits chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Limits occupies one necessary step in that motion. Its object, **stepping stones approaching a sealed luminous door**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of limits breaks
 

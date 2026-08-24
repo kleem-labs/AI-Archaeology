@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** How can a changing rate become the total water actually delivered?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Taylor approximation reconstructs a function near one point. The factory's meters report rates—tokens per second, energy per second, water flow per minute—but the final account needs a total across time.
 
 In the next chamber of the Undercroft, the mathematical archaeologist removes the label from **Integrals**. A name would let us recognize the answer too early; the stone workbench gives us only a stubborn observation.
 
 A rescue tank fills at a changing rate r(t). The ranger reads the rate at many moments but wants the total water delivered between dawn a and dusk b.
+
+The chamber has reduced the abstraction to one physical thing: **a river gauge and thousands of increasingly thin glass cups**. The question carved beside it asks: *How can a changing rate become the total water actually delivered?*
 
 Nothing yet suggests a new invention. We naturally multiply one chosen rate by the entire duration.
 
@@ -31,6 +39,20 @@ our own proposal ──▶ test case ──▶ impossible answer
 What survives the failure is a precise demand. The repaired construction must divide time into small intervals, multiply each interval's width by a representative rate, add the resulting little volumes, and take the limit as the widest interval shrinks toward zero.
 
 This is the hinge of the Integrals excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: One noon reading is multiplied across the whole day, granting dawn and dusk a rate they never had.
+
+Now let the scene move. Let each tiny interval fill its own cup at its own rate, add the cups, and make them thinner until coarse partition error disappears.
+
+The transformation is the discovery of Integrals made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Integrals into memory:
+
+> **Memory seal — Integrals**
+>
+> An integral rebuilds a whole by accumulating locally honest pieces.
+
+Make the memory bodily, not merely verbal: Cup both hands repeatedly, then gather the imagined pieces into one vessel.
 
 ## Integrals on the stone workbench
 
@@ -69,6 +91,8 @@ That echo helps Integrals remain relational in memory. When the same job appears
 Expected values are integrals over possible outcomes, Neural ODEs integrate hidden-state change, and continuous-time signals become discrete computations through numerical quadrature.
 
 The older excavation and this Integrals chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Integrals occupies one necessary step in that motion. Its object, **a river gauge and thousands of increasingly thin glass cups**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of integrals breaks
 

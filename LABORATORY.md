@@ -14,7 +14,10 @@ python3 tools/check_operation_reasoning.py
 python3 tools/check_latex_portability.py
 python3 tools/check_reasoned_limits.py
 python3 tools/check_human_math_examples.py
+python3 tools/check_mathematical_roots_memory.py
 python3 tools/build_mathematical_gist.py --check
+python3 tools/build_math_mandala.py --check
+python3 tools/build_mathematical_roots_palace.py --check
 python3 tools/build_continuous_book.py --check
 python3 tools/check_book_lab.py
 ~~~
@@ -31,6 +34,11 @@ python3 tools/check_book_lab.py
 | [Measured engine rebuild](labs/06_engine_rebuild_lab.py) | 151–175 | overlap, KV heads, precision, draft support | faster and smaller paths that remain accountable to a frozen reference |
 | [Accountable pretraining factory](labs/07_pretraining_factory_lab.py) | 176–200 | manifests, deduplication, mixtures, budgets, recovery, audits | one traceable path from raw documents to a gated model artifact |
 | [Mathematical roots](labs/08_mathematical_roots_lab.py) | 201–225 | membership, geometry, evidence, future value, numerical range | one observation travelling through the mathematical inheritance beneath AI |
+
+Before opening the roots lab, walk through [the living Mathematical
+Undercroft](mathematical-roots/README.md). Its five-frame chambers give each
+abstract root a physical object, a visible failure, a transformation, and a
+memory seal. The lab then lets you test whether the promise survives numbers.
 
 Each lab prints intermediate values and contains assertions for the failure it
 was designed to expose. Read the linked excavation first; the lab is evidence,

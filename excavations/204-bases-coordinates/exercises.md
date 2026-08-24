@@ -4,6 +4,7 @@
 2. Build the smallest new example in which this attempt fails: treat the coordinate list as the vector itself and conclude that changing the list changes the underlying displacement. Name the precise information lost.
 3. Cover one operation in the displayed equation. What job becomes impossible? Replace it with addition, multiplication, or division and show the wrong result in human terms.
 4. Change one number or object in the worked example. Predict every intermediate result, then verify it with `implementation/pure_python.py`.
-5. Design a new invention that addresses this boundary: A collection of candidate basis directions may contain redundancy or fail to reach part of the space. We need to know which directions are genuinely new and what region their combinations can cover.
+5. Close the chapter and replay its five-frame film from memory: question → object → failure → transformation → seal. Use this gesture if the scene fades: Hold one finger still as a destination while rotating your other hand like a ruler frame.
+6. Design a new invention that addresses this boundary: A collection of candidate basis directions may contain redundancy or fail to reach part of the space. We need to know which directions are genuinely new and what region their combinations can cover.
 
-The goal is not recall. Each answer should recreate the pressure from which the mathematical object could be invented.
+The goal is not recall. Each answer should recreate the pressure from which the mathematical object could be invented. When you can recover “A basis is a chosen language for describing directions; the vector is the journey, not its coordinates.” from the object **two rotating ruler frames laid over one footprint**, this root has begun to live in memory.

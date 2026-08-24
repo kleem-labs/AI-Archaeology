@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** Why should many imperfect witnesses reveal a stable average?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Expectation, variance, and covariance describe a distribution. The ranger sees only a finite stream of days and must justify why the observed average can stand in for the hidden expected value.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **The Law of Large Numbers** has been covered so that only the unsolved situation remains.
 
 A fair coin decides whether the camera opens the north gate. After one toss the observed head rate is either zero or one—both far from the expected half.
+
+The chamber has reduced the abstraction to one physical thing: **a long procession of witnesses dropping stones onto a balance**. The question carved beside it asks: *Why should many imperfect witnesses reveal a stable average?*
 
 The first move is honest because it uses the nearest tool already in our hands: **demand that every short sample reproduce the population expectation exactly**.
 
@@ -33,6 +41,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must study the sample mean as the number of independent observations grows and ask whether the probability of a substantial error shrinks toward zero.
 
 This is the hinge of the The Law of Large Numbers excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The first witness places one stone on one side and the station declares the population average to be an extreme.
+
+Now let the scene move. Let every new witness contribute one stone, but divide by the growing crowd so headcount alone cannot inflate the answer.
+
+The transformation is the discovery of The Law of Large Numbers made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press The Law of Large Numbers into memory:
+
+> **Memory seal — The Law of Large Numbers**
+>
+> The law of large numbers says many honest witnesses make an average settle.
+
+Make the memory bodily, not merely verbal: Tap alternating fingers like arriving witnesses, then flatten your hand into a level balance.
 
 ## The Law of Large Numbers on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps The Law of Large Numbers remain relational in memory. When the s
 Mini-batches, evaluation means, Monte Carlo estimates, calibration bins, and distributed gradient averages rely on this settling behavior—plus assumptions about sampling and dependence.
 
 The older excavation and this The Law of Large Numbers chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. The Law of Large Numbers occupies one necessary step in that motion. Its object, **a long procession of witnesses dropping stones onto a balance**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of the law of large numbers breaks
 

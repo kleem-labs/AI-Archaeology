@@ -262,6 +262,8 @@ def atlas(chapters: list[tuple[int, str, Path, tuple[str, ...]]]) -> str:
         "",
         "A chapter may appear in several families because real AI does not respect classroom walls. Attention is simultaneously geometry, probability, and information; backpropagation is calculus moving through a computational graph; diffusion joins probability, differential change, and numerical approximation.",
         "",
+        "For the cinematic route through the final foundations volume, use [The Mathematical Roots](MATHEMATICAL_ROOTS.md). The atlas supplies academic families; the Undercroft supplies physical objects, visible transformations, and memory seals.",
+        "",
         "## The families at a glance",
         "",
         "| Mathematical family | Chapters using it | Question it teaches us to ask |",

@@ -1,10 +1,15 @@
 # Visual Brief — Fourier Analysis — Hearing Frequencies Hidden Inside Time
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The River of Change**.
 
-- **Before:** show this concrete problem without symbols: The Scriptorium lowers a string of microphone samples into the vault. The values rise and fall, but no sample announces which repeating rhythms created the pattern.
-- **After:** let the geometry of Fourier Analysis emerge physically from the repaired action: compare the signal with a family of rotating sine-and-cosine patterns and add the agreements, producing one coefficient for each candidate frequency.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** Which simple rhythms are hidden inside this tangled signal?
+2. **Object:** show a dark prism surrounded by rotating tuning forks.
+3. **Failure:** The waveform is inspected moment by moment; overlapping notes remain one jagged line.
+4. **Transformation:** Turn a candidate rhythm against the signal. Matching rises and falls reinforce across time while mismatched turns cancel.
+5. **Memory seal:** reveal “Fourier analysis is a prism that separates hidden rhythms.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

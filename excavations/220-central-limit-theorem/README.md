@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** What shape does the remaining error of a large average tend to take?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 The law of large numbers says sample averages settle. It does not tell the station how far a finite average is likely to lie from the truth or why sums of very different small disturbances often share one familiar bell shape.
 
 In the next chamber of the Undercroft, the mathematical archaeologist removes the label from **The Central Limit Theorem**. A name would let us recognize the answer too early; the stone workbench gives us only a stubborn observation.
 
 Each daily sensor error is bounded but irregular. The monthly average combines heat, battery noise, wind, and rounding. The exact distribution of each source is inconvenient and different.
+
+The chamber has reduced the abstraction to one physical thing: **many transparent error sheets accumulating beneath a bell-shaped canopy**. The question carved beside it asks: *What shape does the remaining error of a large average tend to take?*
 
 Nothing yet suggests a new invention. We naturally assume the average has the same distributional shape as each individual disturbance.
 
@@ -31,6 +39,20 @@ our own proposal ──▶ test case ──▶ impossible answer
 What survives the failure is a precise demand. The repaired construction must centre the sample mean at μ, divide by its standard error σ/√n, and study the distribution of that normalized error as n grows.
 
 This is the hinge of the The Central Limit Theorem excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The average is assumed to keep the strange shape of one individual disturbance, despite combining a hundred of them.
+
+Now let the scene move. Repeat the entire averaging experiment, centre each error, and measure it in its natural shrinking units. The stacked silhouettes smooth toward a bell.
+
+The transformation is the discovery of The Central Limit Theorem made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press The Central Limit Theorem into memory:
+
+> **Memory seal — The Central Limit Theorem**
+>
+> The central limit theorem gives normalized averaging error a familiar bell-shaped destination.
+
+Make the memory bodily, not merely verbal: Stack imaginary transparent sheets, then trace a bell curve over their combined outline.
 
 ## The Central Limit Theorem on the stone workbench
 
@@ -69,6 +91,8 @@ That echo helps The Central Limit Theorem remain relational in memory. When the 
 Confidence intervals, uncertainty estimates, initialization theory, approximate Bayesian inference, and Gaussian-process limits of wide networks all borrow versions of this phenomenon.
 
 The older excavation and this The Central Limit Theorem chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. The Central Limit Theorem occupies one necessary step in that motion. Its object, **many transparent error sheets accumulating beneath a bell-shaped canopy**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of the central limit theorem breaks
 

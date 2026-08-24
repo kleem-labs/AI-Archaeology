@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 5 of 5 — [The Garden of Futures](../../MATHEMATICAL_ROOTS.md#realm-5)
+>
+> **Question waiting in this chamber:** How can a future already solved stop being recomputed along every road?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 A Markov state makes the next step depend on the present rather than the entire visible past. Planning remains expensive because every action opens more states, whose futures overlap and are recalculated along many paths.
 
 Far below the Transformer, the Undercroft stores no formula sheet. For **Dynamic Programming**, it preserves a scene, a tempting tool, and the mark left where that tool broke.
 
 From forest, the ranger can walk toward river or village. Both routes may later reach the same bridge. Drawing every complete journey separately solves the bridge's remaining journey again each time it is encountered.
+
+The chamber has reduced the abstraction to one physical thing: **a branching garden whose shared crossroads carry carved value stones**. The question carved beside it asks: *How can a future already solved stop being recomputed along every road?*
 
 With no standard method to recite, the most economical proposal is to enumerate every possible full action sequence and total its reward independently.
 
@@ -33,6 +41,20 @@ what we kept       what disappeared
 The next idea is forced only because the evidence asks us to give each state one stored value equal to the best immediate reward plus the discounted expected value of its possible next states, then reuse that value wherever the state reappears.
 
 This is the hinge of the Dynamic Programming excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: Every route redraws the same journey from the bridge to home, and the tree of copies swallows the garden.
+
+Now let the scene move. Solve the bridge once and carve its remaining value into the stone. Every upstream path may now reuse that future.
+
+The transformation is the discovery of Dynamic Programming made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Dynamic Programming into memory:
+
+> **Memory seal — Dynamic Programming**
+>
+> Dynamic programming remembers the value of futures already solved.
+
+Make the memory bodily, not merely verbal: Trace two branching paths that meet, then tap the shared meeting point only once.
 
 ## Dynamic Programming on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Dynamic Programming remain relational in memory. When the same j
 Bellman backups power value iteration, Q-learning, tree search, decoding variants, and many ways of turning a long decision into reusable local subproblems.
 
 The older excavation and this Dynamic Programming chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Garden of Futures, look back at its path—**sufficient present → remembered futures → trustworthy landscape → safe computation**. Dynamic Programming occupies one necessary step in that motion. Its object, **a branching garden whose shared crossroads carry carved value stones**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of dynamic programming breaks
 

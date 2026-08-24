@@ -11,12 +11,32 @@
 > **PART XIV — THE MATHEMATICAL ROOTS BENEATH THE MACHINE**
 >
 > We have followed AI from observation to an accountable training factory. Now we descend beneath the finished engine and recover the older mathematical promises it was quietly using all along.
+>
+> A mathematical root is not a formula or a school subject. It is a reusable promise about belonging, connection, space, change, uncertainty, choice, or computation. The formula will arrive only after the human need has made that promise unavoidable. Begin with the [map of the Undercroft](../../MATHEMATICAL_ROOTS.md).
+
+### Realm 1 — The Hall of Boundaries
+
+A chalk circle opens in the floor. Before space can be measured or uncertainty counted, the world must first acquire boundaries, connections, and dependable transformations.
+
+Listen for chalk, thread, and one decisive click of brass. The questions in this realm travel as one chain:
+
+```text
+belonging → connection → dependable transformation
+```
+
+> **You are here:** Realm 1 of 5 — [The Hall of Boundaries](../../MATHEMATICAL_ROOTS.md#realm-1)
+>
+> **Question waiting in this chamber:** Which animal cards truly belong inside this boundary?
+>
+> **Do not take the answer yet:** first let the object fail.
 
 The accountable factory can trace every document and gate. Its ledgers repeatedly say that a document belongs to a corpus, a token belongs to a vocabulary, or a release belongs to the approved collection, yet we have never excavated what *belongs* must mean.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **Sets** has been covered so that only the unsolved situation remains.
 
 Below the Archive Foundry, a circular vault contains three stone trays: **observed animals**, **animals near water**, and **all recorded animals**. The archivist places tiger, deer, and otter cards on the floor and asks which trays should receive each card.
+
+The chamber has reduced the abstraction to one physical thing: **three stone trays and one circle of chalk**. The question carved beside it asks: *Which animal cards truly belong inside this boundary?*
 
 The first move is honest because it uses the nearest tool already in our hands: **write each tray as an ordinary list and scan every position whenever membership, overlap, or exclusion is questioned**.
 
@@ -37,6 +57,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must treat each tray as a collection whose identity depends on membership rather than order or repetition, then construct overlap by retaining exactly the objects admitted by both boundaries.
 
 This is the hinge of the Sets excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The tiger card appears twice, and moving it to the front changes the list although nothing about belonging changed.
+
+Now let the scene move. Sweep away the numbered positions. Draw one chalk boundary around the admitted cards; let overlap appear where two circles share the same floor.
+
+The transformation is the discovery of Sets made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Sets into memory:
+
+> **Memory seal — Sets**
+>
+> A set is a boundary that remembers only belonging.
+
+Make the memory bodily, not merely verbal: Draw a circle in the air, then place one imagined object inside it.
 
 ## Sets on the stone workbench
 
@@ -75,6 +109,8 @@ That echo helps Sets remain relational in memory. When the same job appears insi
 The corpus manifest in Excavation 176 was already acting like a set. The authority boundary in Excavation 056 was too. Sets reveal the quiet skeleton shared by data and permission.
 
 The older excavation and this Sets chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Hall of Boundaries, look back at its path—**belonging → connection → dependable transformation**. Sets occupies one necessary step in that motion. Its object, **three stone trays and one circle of chalk**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of sets breaks
 

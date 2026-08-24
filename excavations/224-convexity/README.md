@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 5 of 5 — [The Garden of Futures](../../MATHEMATICAL_ROOTS.md#realm-5)
+>
+> **Question waiting in this chamber:** When can a nearby valley be trusted as the lowest valley anywhere?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Dynamic programming replaces repeated futures with stored values, but learning those values or fitting a model still asks an optimizer to descend a landscape. Some landscapes conceal many valleys; others make every local descent globally trustworthy.
 
 At this depth, mathematics feels less like a catalogue and more like memory. We meet **Convexity** first as an ordinary human need, before anyone has decided what marks should record it.
 
 Stretch a string between two points on a bowl. Everywhere between the endpoints, the string floats on or above the bowl. Try the same across a rippled cave floor and the string can cut below a hill.
+
+The chamber has reduced the abstraction to one physical thing: **a taut golden string stretched above a single clay bowl**. The question carved beside it asks: *When can a nearby valley be trusted as the lowest valley anywhere?*
 
 We try to spend no new mathematics at all and simply trust any small local minimum as the best possible solution.
 
@@ -33,6 +41,20 @@ Convexity becomes necessary
 At last there is something worth inventing. Whatever we build must require every chord between two points to lie on or above the function, preventing a hidden hump from separating a local minimum from a lower global one.
 
 This is the hinge of the Convexity excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: On a rippled floor, the traveler settles in a shallow pocket while a deeper valley hides beyond a ridge.
+
+Now let the scene move. Stretch the string between any two points. If the landscape always remains below its chord, no hidden ridge can protect a better local valley.
+
+The transformation is the discovery of Convexity made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Convexity into memory:
+
+> **Memory seal — Convexity**
+>
+> Convexity is the promise that a landscape contains no secret lower valley.
+
+Make the memory bodily, not merely verbal: Curve one palm into a bowl and stretch one finger of the other hand across it like a chord.
 
 ## Convexity on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Convexity remain relational in memory. When the same job appears
 Linear regression losses, logistic objectives, support-vector machines, and regularizers expose why some optimization guarantees are possible. Deep neural networks are generally nonconvex, so their success requires more delicate geometry.
 
 The older excavation and this Convexity chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Garden of Futures, look back at its path—**sufficient present → remembered futures → trustworthy landscape → safe computation**. Convexity occupies one necessary step in that motion. Its object, **a taut golden string stretched above a single clay bowl**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of convexity breaks
 

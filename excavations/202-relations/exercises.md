@@ -4,6 +4,7 @@
 2. Build the smallest new example in which this attempt fails: place connected objects in the same set and assume co-membership tells us the nature and direction of their connection. Name the precise information lost.
 3. Cover one operation in the displayed equation. What job becomes impossible? Replace it with addition, multiplication, or division and show the wrong result in human terms.
 4. Change one number or object in the worked example. Predict every intermediate result, then verify it with `implementation/pure_python.py`.
-5. Design a new invention that addresses this boundary: A relation may connect one input to no outputs, one output, or many incompatible outputs. A deterministic machine needs a stronger promise about what follows from each allowed input.
+5. Close the chapter and replay its five-frame film from memory: question → object → failure → transformation → seal. Use this gesture if the scene fades: Point from one hand to the other; reversing your hands must reverse the claim.
+6. Design a new invention that addresses this boundary: A relation may connect one input to no outputs, one output, or many incompatible outputs. A deterministic machine needs a stronger promise about what follows from each allowed input.
 
-The goal is not recall. Each answer should recreate the pressure from which the mathematical object could be invented.
+The goal is not recall. Each answer should recreate the pressure from which the mathematical object could be invented. When you can recover “A relation is a thread that remembers who is connected to whom.” from the object **red and blue threads tied between named cards**, this root has begun to live in memory.

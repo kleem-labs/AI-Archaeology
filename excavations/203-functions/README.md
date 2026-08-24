@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 1 of 5 — [The Hall of Boundaries](../../MATHEMATICAL_ROOTS.md#realm-1)
+>
+> **Question waiting in this chamber:** What promise lets the next machine trust the answer of this one?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Relations preserve arbitrary connections. When the factory applies a tokenizer, matrix, filter, or model, however, repeating the same recorded input under the same state must not silently select two incompatible outputs.
 
 The corridor bends beneath every model we have built. Here **Functions** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.
 
 At the vault's next table, each animal card enters a brass slot marked *measured weight*. Tiger enters twice. If the slot returns 220 kg once and 17 kg the next time, downstream comparison becomes impossible.
+
+The chamber has reduced the abstraction to one physical thing: **a brass slot with one input door and one output chute**. The question carved beside it asks: *What promise lets the next machine trust the answer of this one?*
 
 If we were the first people in this chamber, we would probably keep any relation between inputs and outputs, then choose one of the available outputs whenever the procedure runs.
 
@@ -35,6 +43,20 @@ We let the idea touch the evidence. The fracture appears exactly where informati
 The broken attempt has done its work. It tells us, in ordinary language, to require every allowed input to point to exactly one output, while permitting different inputs to share the same output.
 
 This is the hinge of the Functions excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The same tiger card enters twice and the machine splits, returning two incompatible weights.
+
+Now let the scene move. Lock one internal track from every allowed input to exactly one output. Other inputs may meet there, but one input can no longer fork.
+
+The transformation is the discovery of Functions made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Functions into memory:
+
+> **Memory seal — Functions**
+>
+> A function is a machine that owes every allowed input one dependable answer.
+
+Make the memory bodily, not merely verbal: Put an imaginary card into your left palm and close your right hand around its one promised result.
 
 ## Functions on the stone workbench
 
@@ -73,6 +95,8 @@ That echo helps Functions remain relational in memory. When the same job appears
 Every layer in the neural network, every preprocessing stage, and every operation in the training factory is a function. Composition works only because each stage knows what object the preceding stage produces.
 
 The older excavation and this Functions chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Hall of Boundaries, look back at its path—**belonging → connection → dependable transformation**. Functions occupies one necessary step in that motion. Its object, **a brass slot with one input door and one output chute**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of functions breaks
 

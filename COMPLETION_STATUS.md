@@ -13,6 +13,12 @@ This page prevents a large repository from looking more finished than it is.
 - Automated checks for guided discovery and equations introduced only after their concrete pieces.
 - Passing behavior tests for the original laboratories, the engine arc, the accountable pretraining factory, and the foundations volume.
 - A first polished laboratory trail connecting Distance, Softmax, Attention, Gradient Descent, and Tiny GPT.
+- A five-realm Mathematical Undercroft for roots 201–225. Each chamber is a
+  five-frame memory film—question, physical object, visible failure,
+  transformation, and memory seal—with a gesture and a door back into the full
+  excavation.
+- Automated memory-integrity checks that prevent those films from collapsing
+  back into abstract definitions during future regeneration.
 
 ## What “present” does not yet mean
 

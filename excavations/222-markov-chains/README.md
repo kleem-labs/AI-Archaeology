@@ -8,11 +8,29 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+### Realm 5 — The Garden of Futures
+
+A final door opens outdoors beneath a night sky. Paths branch through a garden of possible futures, cross a single bowl-shaped valley, and end at a small machine whose range is finite.
+
+Listen for footsteps at crossroads, a taut string, and a machine breathing safely. The questions in this realm travel as one chain:
+
+```text
+sufficient present → remembered futures → trustworthy landscape → safe computation
+```
+
+> **You are here:** Realm 5 of 5 — [The Garden of Futures](../../MATHEMATICAL_ROOTS.md#realm-5)
+>
+> **Question waiting in this chamber:** When can the present safely replace the entire remembered past?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Statistical tests judge evidence gathered from repeated trials. Many intelligent systems instead inhabit a sequence: the next room, token, or state depends on what has already happened, and carrying the entire history soon becomes impossible.
 
 Another vault door opens. The carving that once named **Markov Chains** has weathered away, which is useful: we must recover the idea from what a ranger, builder, or machine can actually observe.
 
 A ranger moves among forest, river, and village. Tomorrow's location depends strongly on today's location. The station has years of paths, but planning one step ahead should not require rereading every footprint since the expedition began.
+
+The chamber has reduced the abstraction to one physical thing: **a traveler's satchel beside an impossibly long scroll of footprints**. The question carved beside it asks: *When can the present safely replace the entire remembered past?*
 
 The old machinery invites a plausible shortcut: assign one fixed next-location distribution regardless of the current location.
 
@@ -29,6 +47,20 @@ scene → guess → calculate → compare with reality
 We do not leap to a famous formula. We carry one missing responsibility forward: choose a state description rich enough that, once the present state is known, earlier history adds no further information about the next-state distribution.
 
 This is the hinge of the Markov Chains excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: The ranger drags every footprint ever made, yet the next turn only needs information that could have been packed into today's state.
+
+Now let the scene move. Put location, weather, and every genuinely predictive fact into the present satchel. Test whether older footprints change tomorrow once the satchel is known.
+
+The transformation is the discovery of Markov Chains made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Markov Chains into memory:
+
+> **Memory seal — Markov Chains**
+>
+> A Markov state is a present that carries all the past the next step still needs.
+
+Make the memory bodily, not merely verbal: Sweep an imaginary history behind you into a small satchel held at your chest.
 
 ## Markov Chains on the stone workbench
 
@@ -67,6 +99,8 @@ That echo helps Markov Chains remain relational in memory. When the same job app
 Autoregressive generation, hidden-state models, reinforcement learning, diffusion steps, and queueing systems all choose states intended to make the future conditionally manageable.
 
 The older excavation and this Markov Chains chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Garden of Futures, look back at its path—**sufficient present → remembered futures → trustworthy landscape → safe computation**. Markov Chains occupies one necessary step in that motion. Its object, **a traveler's satchel beside an impossibly long scroll of footprints**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of markov chains breaks
 

@@ -1,10 +1,15 @@
 # Visual Brief — Taylor Approximation — Borrowing a Function’s Local Shape
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The River of Change**.
 
-- **Before:** show this concrete problem without symbols: The ranger knows a signal's value, slope, and curvature at dial setting a. A nearby setting a+h must be estimated before the expensive full detector can run.
-- **After:** let the geometry of Taylor Approximation emerge physically from the repaired action: build a local polynomial: start with the known value, add slope times displacement, then add curvature times squared displacement with the counting factor required by repeated differentiation.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** How much nearby terrain can be rebuilt from clues gathered at one point?
+2. **Object:** show a torn map, a tangent ruler, and nested pieces of curved parchment.
+3. **Failure:** The straight tangent predicts well for one step, then walks directly away from the bending road.
+4. **Transformation:** Begin with the current height, add the slope's straight correction, then add curvature and finer corrections only as distance makes them necessary.
+5. **Memory seal:** reveal “A Taylor approximation rebuilds nearby shape from value, slope, curvature, and finer local clues.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

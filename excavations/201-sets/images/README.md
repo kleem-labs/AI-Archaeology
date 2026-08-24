@@ -1,10 +1,15 @@
 # Visual Brief — Sets — Drawing a Boundary Around ‘Belongs’
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Hall of Boundaries**.
 
-- **Before:** show this concrete problem without symbols: Below the Archive Foundry, a circular vault contains three stone trays: **observed animals**, **animals near water**, and **all recorded animals**. The archivist places tiger, deer, and otter cards on the floor and asks which trays should receive each card.
-- **After:** let the geometry of Sets emerge physically from the repaired action: treat each tray as a collection whose identity depends on membership rather than order or repetition, then construct overlap by retaining exactly the objects admitted by both boundaries.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** Which animal cards truly belong inside this boundary?
+2. **Object:** show three stone trays and one circle of chalk.
+3. **Failure:** The tiger card appears twice, and moving it to the front changes the list although nothing about belonging changed.
+4. **Transformation:** Sweep away the numbered positions. Draw one chalk boundary around the admitted cards; let overlap appear where two circles share the same floor.
+5. **Memory seal:** reveal “A set is a boundary that remembers only belonging.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

@@ -1,10 +1,15 @@
 # Visual Brief — Dynamic Programming — Remembering the Value of Futures Already Solved
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Garden of Futures**.
 
-- **Before:** show this concrete problem without symbols: From forest, the ranger can walk toward river or village. Both routes may later reach the same bridge. Drawing every complete journey separately solves the bridge's remaining journey again each time it is encountered.
-- **After:** let the geometry of Dynamic Programming emerge physically from the repaired action: give each state one stored value equal to the best immediate reward plus the discounted expected value of its possible next states, then reuse that value wherever the state reappears.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** How can a future already solved stop being recomputed along every road?
+2. **Object:** show a branching garden whose shared crossroads carry carved value stones.
+3. **Failure:** Every route redraws the same journey from the bridge to home, and the tree of copies swallows the garden.
+4. **Transformation:** Solve the bridge once and carve its remaining value into the stone. Every upstream path may now reuse that future.
+5. **Memory seal:** reveal “Dynamic programming remembers the value of futures already solved.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

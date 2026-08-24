@@ -6,7 +6,7 @@ One discovery will create the need for the next; the object under construction n
 
 ## Overture
 
-The sixth volume descends into the Undercroft of First Principles. Familiar names are covered. Sets, functions, linear algebra, calculus, probability, statistics, decision theory, and numerical analysis must be recovered from concrete failures before their symbols are allowed to return.
+The sixth volume descends into the [Undercroft of First Principles](../MATHEMATICAL_ROOTS.md). Familiar names are covered. Sets, functions, linear algebra, calculus, probability, statistics, decision theory, and numerical analysis must be recovered from concrete failures before their symbols are allowed to return. Each chamber leaves one physical object and one memory seal, so the reader can replay the discovery as a movie instead of storing an isolated definition.
 
 ```text
 observation → attempt → fracture → repair → symbol → connected memory
@@ -30,11 +30,29 @@ The complete AI system has been using an older inheritance. We uncover that inhe
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+##### Realm 1 — The Hall of Boundaries
+
+A chalk circle opens in the floor. Before space can be measured or uncertainty counted, the world must first acquire boundaries, connections, and dependable transformations.
+
+Listen for chalk, thread, and one decisive click of brass. The questions in this realm travel as one chain:
+
+```text
+belonging → connection → dependable transformation
+```
+
+> **You are here:** Realm 1 of 5 — [The Hall of Boundaries](../MATHEMATICAL_ROOTS.md#realm-1)
+>
+> **Question waiting in this chamber:** Which animal cards truly belong inside this boundary?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 The accountable factory can trace every document and gate. Its ledgers repeatedly say that a document belongs to a corpus, a token belongs to a vocabulary, or a release belongs to the approved collection, yet we have never excavated what *belongs* must mean.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **Sets** has been covered so that only the unsolved situation remains.
 
 Below the Archive Foundry, a circular vault contains three stone trays: **observed animals**, **animals near water**, and **all recorded animals**. The archivist places tiger, deer, and otter cards on the floor and asks which trays should receive each card.
+
+The chamber has reduced the abstraction to one physical thing: **three stone trays and one circle of chalk**. The question carved beside it asks: *Which animal cards truly belong inside this boundary?*
 
 The first move is honest because it uses the nearest tool already in our hands: **write each tray as an ordinary list and scan every position whenever membership, overlap, or exclusion is questioned**.
 
@@ -55,6 +73,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must treat each tray as a collection whose identity depends on membership rather than order or repetition, then construct overlap by retaining exactly the objects admitted by both boundaries.
 
 This is the hinge of the Sets excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The tiger card appears twice, and moving it to the front changes the list although nothing about belonging changed.
+
+Now let the scene move. Sweep away the numbered positions. Draw one chalk boundary around the admitted cards; let overlap appear where two circles share the same floor.
+
+The transformation is the discovery of Sets made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Sets into memory:
+
+> **Memory seal — Sets**
+>
+> A set is a boundary that remembers only belonging.
+
+Make the memory bodily, not merely verbal: Draw a circle in the air, then place one imagined object inside it.
 
 #### Sets on the stone workbench
 
@@ -94,6 +126,8 @@ The corpus manifest in Excavation 176 was already acting like a set. The authori
 
 The older excavation and this Sets chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Hall of Boundaries, look back at its path—**belonging → connection → dependable transformation**. Sets occupies one necessary step in that motion. Its object, **three stone trays and one circle of chalk**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of sets breaks
 
 A set can say which objects belong, but not how one member is connected to another. Flattening a road map or knowledge graph into membership alone destroys its edges.
@@ -110,11 +144,19 @@ The boundary belongs beside the discovery of Sets because usefulness depends on 
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 1 of 5 — [The Hall of Boundaries](../MATHEMATICAL_ROOTS.md#realm-1)
+>
+> **Question waiting in this chamber:** How can the room remember that tiger is near river, not merely that both exist?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Sets give the vault honest boundaries. The animal cards can now belong to villages, habitats, and observation days, but separate membership lists cannot preserve statements such as ‘tiger was seen beside river’ or ‘report cites photograph.’
 
 In the next chamber of the Undercroft, the mathematical archaeologist removes the label from **Relations**. A name would let us recognize the answer too early; the stone workbench gives us only a stubborn observation.
 
 The stone floor becomes a map. Cards name tiger, river, cave, and village; lengths of red thread record *near*, while blue thread records *reported-by*. The objects matter, but the colored pairings carry the new information.
+
+The chamber has reduced the abstraction to one physical thing: **red and blue threads tied between named cards**. The question carved beside it asks: *How can the room remember that tiger is near river, not merely that both exist?*
 
 Nothing yet suggests a new invention. We naturally place connected objects in the same set and assume co-membership tells us the nature and direction of their connection.
 
@@ -133,6 +175,20 @@ our own proposal ──▶ test case ──▶ impossible answer
 What survives the failure is a precise demand. The repaired construction must store each connection as an ordered pair and let a named relation be the set of all pairs carrying the same kind of edge.
 
 This is the hinge of the Relations excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The cards collapse into one heap; the colour and direction of every connection disappear.
+
+Now let the scene move. Separate the cards and tie an arrowed thread from the first object to the second. Different thread colours preserve different kinds of connection.
+
+The transformation is the discovery of Relations made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Relations into memory:
+
+> **Memory seal — Relations**
+>
+> A relation is a thread that remembers who is connected to whom.
+
+Make the memory bodily, not merely verbal: Point from one hand to the other; reversing your hands must reverse the claim.
 
 #### Relations on the stone workbench
 
@@ -172,6 +228,8 @@ Attention masks, provenance graphs, knowledge graphs, and state transitions were
 
 The older excavation and this Relations chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Hall of Boundaries, look back at its path—**belonging → connection → dependable transformation**. Relations occupies one necessary step in that motion. Its object, **red and blue threads tied between named cards**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of relations breaks
 
 A relation may connect one input to no outputs, one output, or many incompatible outputs. A deterministic machine needs a stronger promise about what follows from each allowed input.
@@ -188,11 +246,19 @@ The boundary belongs beside the discovery of Relations because usefulness depend
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 1 of 5 — [The Hall of Boundaries](../MATHEMATICAL_ROOTS.md#realm-1)
+>
+> **Question waiting in this chamber:** What promise lets the next machine trust the answer of this one?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Relations preserve arbitrary connections. When the factory applies a tokenizer, matrix, filter, or model, however, repeating the same recorded input under the same state must not silently select two incompatible outputs.
 
 The corridor bends beneath every model we have built. Here **Functions** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.
 
 At the vault's next table, each animal card enters a brass slot marked *measured weight*. Tiger enters twice. If the slot returns 220 kg once and 17 kg the next time, downstream comparison becomes impossible.
+
+The chamber has reduced the abstraction to one physical thing: **a brass slot with one input door and one output chute**. The question carved beside it asks: *What promise lets the next machine trust the answer of this one?*
 
 If we were the first people in this chamber, we would probably keep any relation between inputs and outputs, then choose one of the available outputs whenever the procedure runs.
 
@@ -215,6 +281,20 @@ We let the idea touch the evidence. The fracture appears exactly where informati
 The broken attempt has done its work. It tells us, in ordinary language, to require every allowed input to point to exactly one output, while permitting different inputs to share the same output.
 
 This is the hinge of the Functions excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The same tiger card enters twice and the machine splits, returning two incompatible weights.
+
+Now let the scene move. Lock one internal track from every allowed input to exactly one output. Other inputs may meet there, but one input can no longer fork.
+
+The transformation is the discovery of Functions made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Functions into memory:
+
+> **Memory seal — Functions**
+>
+> A function is a machine that owes every allowed input one dependable answer.
+
+Make the memory bodily, not merely verbal: Put an imaginary card into your left palm and close your right hand around its one promised result.
 
 #### Functions on the stone workbench
 
@@ -254,6 +334,8 @@ Every layer in the neural network, every preprocessing stage, and every operatio
 
 The older excavation and this Functions chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Hall of Boundaries, look back at its path—**belonging → connection → dependable transformation**. Functions occupies one necessary step in that motion. Its object, **a brass slot with one input door and one output chute**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of functions breaks
 
 A function promises an output but says nothing about which numerical description is most revealing. The same geometric object can receive different coordinates without becoming a different object.
@@ -270,11 +352,29 @@ The boundary belongs beside the discovery of Functions because usefulness depend
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+##### Realm 2 — The Chamber of Directions
+
+The brass function opens a many-sided room. Rulers rotate in the walls, arrows cross the floor, and a high window turns every object into a shadow.
+
+Listen for sliding rulers, turning stone, and distant bells. The questions in this realm travel as one chain:
+
+```text
+language of space → new directions → persistent directions → honest shadows → strongest channels
+```
+
+> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../MATHEMATICAL_ROOTS.md#realm-2)
+>
+> **Question waiting in this chamber:** When the coordinate numbers change, what stayed the same?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Functions turn inputs into dependable outputs. Our vector functions seem to operate directly on lists of coordinates, yet rotating the ruler changes every coordinate while leaving the animal's physical displacement untouched.
 
 Another vault door opens. The carving that once named **Bases and Coordinates** has weathered away, which is useful: we must recover the idea from what a ranger, builder, or machine can actually observe.
 
 A ranger walks three steps east and two north. On the square floor this is recorded as `[3,2]`. Another ranger carries diagonal rulers: one points northeast, the other northwest. The same walk must acquire different numbers in that language.
+
+The chamber has reduced the abstraction to one physical thing: **two rotating ruler frames laid over one footprint**. The question carved beside it asks: *When the coordinate numbers change, what stayed the same?*
 
 The old machinery invites a plausible shortcut: treat the coordinate list as the vector itself and conclude that changing the list changes the underlying displacement.
 
@@ -291,6 +391,20 @@ scene → guess → calculate → compare with reality
 We do not leap to a famous formula. We carry one missing responsibility forward: choose a set of basis directions and define coordinates as the amounts of those directions whose combination reconstructs the vector.
 
 This is the hinge of the Bases and Coordinates excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The walk receives two different number pairs, and the record falsely declares that the ranger took two different journeys.
+
+Now let the scene move. Keep the footprint fixed while rotating the rulers beneath it. Rebuild the same endpoint from new amounts of the new directions.
+
+The transformation is the discovery of Bases and Coordinates made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Bases and Coordinates into memory:
+
+> **Memory seal — Bases and Coordinates**
+>
+> A basis is a chosen language for describing directions; the vector is the journey, not its coordinates.
+
+Make the memory bodily, not merely verbal: Hold one finger still as a destination while rotating your other hand like a ruler frame.
 
 #### Bases and Coordinates on the stone workbench
 
@@ -330,6 +444,8 @@ Embeddings choose learned coordinates, attention projects them into query and ke
 
 The older excavation and this Bases and Coordinates chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Bases and Coordinates occupies one necessary step in that motion. Its object, **two rotating ruler frames laid over one footprint**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of bases and coordinates breaks
 
 A collection of candidate basis directions may contain redundancy or fail to reach part of the space. We need to know which directions are genuinely new and what region their combinations can cover.
@@ -346,11 +462,19 @@ The boundary belongs beside the discovery of Bases and Coordinates because usefu
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../MATHEMATICAL_ROOTS.md#realm-2)
+>
+> **Question waiting in this chamber:** Does this new arrow open genuinely new movement, or only rename movement already possible?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 A basis gives coordinates meaning only if its directions reach the required space without secretly repeating one another. Adding more arrows to the table can create the appearance of capacity while contributing no new possible movement.
 
 Far below the Transformer, the Undercroft stores no formula sheet. For **Span and Linear Independence**, it preserves a scene, a tempting tool, and the mark left where that tool broke.
 
 The cartographer offers east `[1,0]`, north `[0,1]`, and northeast `[1,1]` as three foundational directions on a two-dimensional map. The third feels useful, but the first two can already reconstruct it.
+
+The chamber has reduced the abstraction to one physical thing: **three floor arrows and a ring carrying one copied key**. The question carved beside it asks: *Does this new arrow open genuinely new movement, or only rename movement already possible?*
 
 With no standard method to recite, the most economical proposal is to count every stored direction as a new dimension and assign each one an independent coordinate.
 
@@ -371,6 +495,20 @@ what we kept       what disappeared
 The next idea is forced only because the evidence asks us to call the reachable collection of combinations the span, and call directions independent only when no nontrivial weighted combination collapses to zero.
 
 This is the hinge of the Span and Linear Independence excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The northeast arrow boasts of a third dimension even though east plus north already draws it exactly.
+
+Now let the scene move. Try to cancel the arrows back to no movement. The nonzero recipe that succeeds exposes the copied direction; remove it and the reachable floor does not shrink.
+
+The transformation is the discovery of Span and Linear Independence made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Span and Linear Independence into memory:
+
+> **Memory seal — Span and Linear Independence**
+>
+> Span is everywhere the arrows can reach; independence means each arrow opens a direction the others cannot.
+
+Make the memory bodily, not merely verbal: Spread two fingers into independent directions, then lay a third finger along their combined diagonal.
 
 #### Span and Linear Independence on the stone workbench
 
@@ -410,6 +548,8 @@ Superposition asks how many useful feature directions share a space; LoRA asks h
 
 The older excavation and this Span and Linear Independence chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Span and Linear Independence occupies one necessary step in that motion. Its object, **three floor arrows and a ring carrying one copied key**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of span and linear independence breaks
 
 Independence tells which directions are new but not how a transformation repeatedly stretches the space. Some directions persist under repeated application while others turn and mix.
@@ -426,11 +566,19 @@ The boundary belongs beside the discovery of Span and Linear Independence becaus
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../MATHEMATICAL_ROOTS.md#realm-2)
+>
+> **Question waiting in this chamber:** Which direction can pass through the transformation without being turned?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Span and independence reveal the true directions available in a space. When one matrix is applied again and again—one transition, message-passing step, or layer after another—the coordinate picture can still become difficult to follow.
 
 At this depth, mathematics feels less like a catalogue and more like memory. We meet **Eigenvectors and Eigenvalues** first as an ordinary human need, before anyone has decided what marks should record it.
 
 On the vault floor, a transformation doubles east-west displacement but leaves north-south displacement unchanged. Most arrows change both length and direction. An arrow pointing exactly east does something quieter: it remains east and only stretches.
+
+The chamber has reduced the abstraction to one physical thing: **a moving stone floor crossed by compass arrows**. The question carved beside it asks: *Which direction can pass through the transformation without being turned?*
 
 We try to spend no new mathematics at all and simply track every coordinate of every repeatedly transformed arrow and hope the long-term pattern becomes obvious.
 
@@ -451,6 +599,20 @@ Eigenvectors and Eigenvalues becomes necessary
 At last there is something worth inventing. Whatever we build must search for nonzero directions that the transformation only scales, and record the corresponding scale factors.
 
 This is the hinge of the Eigenvectors and Eigenvalues excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: Most arrows tumble differently at every repetition, burying the long-term pattern beneath changing coordinates.
+
+Now let the scene move. Place arrows one by one until an eastward arrow emerges still pointing east—only longer. Mark that quiet direction and the scale impressed upon it.
+
+The transformation is the discovery of Eigenvectors and Eigenvalues made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Eigenvectors and Eigenvalues into memory:
+
+> **Memory seal — Eigenvectors and Eigenvalues**
+>
+> An eigenvector is a direction a transformation cannot turn; its eigenvalue says how the direction is scaled.
+
+Make the memory bodily, not merely verbal: Point forward and extend your arm without changing where your finger points.
 
 #### Eigenvectors and Eigenvalues on the stone workbench
 
@@ -490,6 +652,8 @@ PageRank studies a persistent direction of repeated link transitions; covariance
 
 The older excavation and this Eigenvectors and Eigenvalues chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Eigenvectors and Eigenvalues occupies one necessary step in that motion. Its object, **a moving stone floor crossed by compass arrows**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of eigenvectors and eigenvalues breaks
 
 Not every matrix has enough real eigenvectors to form a basis, and rectangular matrices do not even map a space back into itself. We still need a way to cast the closest shadow and expose the important input-output directions of any matrix.
@@ -506,11 +670,19 @@ The boundary belongs beside the discovery of Eigenvectors and Eigenvalues becaus
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../MATHEMATICAL_ROOTS.md#realm-2)
+>
+> **Question waiting in this chamber:** What is the closest honest shadow of this track on the only rail our map allows?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Eigenvectors expose directions preserved by a transformation. The vault now presents a simpler geometric failure: an observed arrow does not lie on the one-dimensional rail our model is allowed to use.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **Orthogonality and Projection** has been covered so that only the unsolved situation remains.
 
 A tiger track points `[3,2]`, but the ranger's simplified map retains only the eastward rail `[1,0]`. We need the point on that rail that misrepresents the track as little as possible.
+
+The chamber has reduced the abstraction to one physical thing: **a lantern, a tiger track, and one polished rail**. The question carved beside it asks: *What is the closest honest shadow of this track on the only rail our map allows?*
 
 The first move is honest because it uses the nearest tool already in our hands: **copy whichever coordinate looks largest or slide to an arbitrary point on the allowed rail**.
 
@@ -531,6 +703,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must choose the shadow whose leftover error is perpendicular to the allowed direction, because then no further movement along the rail can reduce the distance.
 
 This is the hinge of the Orthogonality and Projection excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: An arbitrary shadow leaves an error that still runs partly along the rail, proving that some allowed information was unnecessarily discarded.
+
+Now let the scene move. Slide the shadow until the leftover error stands exactly perpendicular to the rail. No further allowed slide can make the disagreement smaller.
+
+The transformation is the discovery of Orthogonality and Projection made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Orthogonality and Projection into memory:
+
+> **Memory seal — Orthogonality and Projection**
+>
+> Projection is the closest honest shadow an allowed space can keep.
+
+Make the memory bodily, not merely verbal: Drop one hand straight onto an imagined tabletop, forming a right angle with the discarded height.
 
 #### Orthogonality and Projection on the stone workbench
 
@@ -570,6 +756,8 @@ Linear probes project hidden states onto readable directions; least squares proj
 
 The older excavation and this Orthogonality and Projection chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Orthogonality and Projection occupies one necessary step in that motion. Its object, **a lantern, a tiger track, and one polished rail**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of orthogonality and projection breaks
 
 Projection handles one chosen subspace. For an arbitrary rectangular matrix, we still need to discover the paired input and output directions that carry most of its action.
@@ -586,11 +774,19 @@ The boundary belongs beside the discovery of Orthogonality and Projection becaus
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../MATHEMATICAL_ROOTS.md#realm-2)
+>
+> **Question waiting in this chamber:** Which coordinated channels carry most of this entire transformation?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Projection finds the closest shadow once an allowed direction is known. A large weight matrix offers thousands of possible directions, and neither its raw entries nor ordinary eigenvectors tell us which input directions carry most strongly into which output directions.
 
 In the next chamber of the Undercroft, the mathematical archaeologist removes the label from **Singular Value Decomposition**. A name would let us recognize the answer too early; the stone workbench gives us only a stubborn observation.
 
 The enginewright lowers a rectangular brass plate with many input grooves and fewer output bells. Some coordinated pushes ring loudly; others barely move the mechanism. We want the simplest faithful account of those channels.
+
+The chamber has reduced the abstraction to one physical thing: **a rectangular brass organ with input grooves and output bells**. The question carved beside it asks: *Which coordinated channels carry most of this entire transformation?*
 
 Nothing yet suggests a new invention. We naturally keep the largest individual matrix entries and set the rest to zero.
 
@@ -609,6 +805,20 @@ our own proposal ──▶ test case ──▶ impossible answer
 What survives the failure is a precise demand. The repaired construction must rotate the input into orthogonal right-singular directions, scale each by a nonnegative singular value, and rotate into orthogonal output directions; keep the strongest channels for a principled low-rank approximation.
 
 This is the hinge of the Singular Value Decomposition excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: Polishing the largest rivets changes little; the loudest bell is driven by a pattern spread across many modest parts.
+
+Now let the scene move. Rotate the input wheel until each independent push rings one output direction, then order the bells from strongest to faintest.
+
+The transformation is the discovery of Singular Value Decomposition made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Singular Value Decomposition into memory:
+
+> **Memory seal — Singular Value Decomposition**
+>
+> SVD separates any matrix into its strongest input-to-output channels.
+
+Make the memory bodily, not merely verbal: Turn two imaginary wheels, then lower your hands from the loudest channel to the quietest.
 
 #### Singular Value Decomposition on the stone workbench
 
@@ -648,6 +858,8 @@ LoRA assumes useful updates occupy a low-rank subspace; embedding analysis and c
 
 The older excavation and this Singular Value Decomposition chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Singular Value Decomposition occupies one necessary step in that motion. Its object, **a rectangular brass organ with input grooves and output bells**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of singular value decomposition breaks
 
 SVD organizes finite linear transformations. Our learning chapters repeatedly spoke of changes becoming ‘infinitely small,’ but finite examples alone have not made that passage precise.
@@ -664,11 +876,29 @@ The boundary belongs beside the discovery of Singular Value Decomposition becaus
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+##### Realm 3 — The River of Change
+
+Beyond the chamber, the floor becomes a river. Nothing here stays still: distances shrink, slopes turn, water gathers, and tangled waves carry melodies no single moment can reveal.
+
+Listen for approaching footsteps, running water, and a buried chord. The questions in this realm travel as one chain:
+
+```text
+approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm
+```
+
+> **You are here:** Realm 3 of 5 — [The River of Change](../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** What must ‘closer and closer’ promise before we can build calculus upon it?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 SVD exposes what a finite matrix preserves and discards. Calculus asks a stranger question: what does a procedure approach as a step becomes smaller without ever requiring a final smallest positive step?
 
 The corridor bends beneath every model we have built. Here **Limits** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.
 
 A messenger must cross one metre to the next stone mark. First the remaining gap is one half, then one quarter, one eighth, and so on. No listed move is zero, yet the marks gather around the destination.
+
+The chamber has reduced the abstraction to one physical thing: **stepping stones approaching a sealed luminous door**. The question carved beside it asks: *What must ‘closer and closer’ promise before we can build calculus upon it?*
 
 If we were the first people in this chamber, we would probably declare that a sequence reaches its destination only when one finite term equals the destination exactly.
 
@@ -691,6 +921,20 @@ We let the idea touch the evidence. The fracture appears exactly where informati
 The broken attempt has done its work. It tells us, in ordinary language, to define the destination by a guarantee: however tiny a permitted error is chosen, all sufficiently late terms fall inside it.
 
 This is the hinge of the Limits excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The words ‘very close’ move whenever the observer changes standards; no finite final step explains the destination.
+
+Now let the scene move. Place any tiny ring around the door. Find a stage after which every remaining stone lies inside that ring, however small the ring was chosen.
+
+The transformation is the discovery of Limits made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Limits into memory:
+
+> **Memory seal — Limits**
+>
+> A limit is a promise that every demanded closeness eventually becomes permanent.
+
+Make the memory bodily, not merely verbal: Make a shrinking circle with your fingers, then point beyond an imagined threshold.
 
 #### Limits on the stone workbench
 
@@ -730,6 +974,8 @@ Derivatives, continuous activations, convergence of optimization, integrals, and
 
 The older excavation and this Limits chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Limits occupies one necessary step in that motion. Its object, **stepping stones approaching a sealed luminous door**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of limits breaks
 
 A scalar limit describes one approaching quantity. A neural loss depends on millions of parameters, so we must ask how one output changes along every coordinate direction.
@@ -746,11 +992,19 @@ The boundary belongs beside the discovery of Limits because usefulness depends o
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** If every weight can move, which combined direction changes the loss fastest?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Limits make ‘arbitrarily small’ precise. A loss surface has not one input but millions, and moving stripe sensitivity while freezing weight sensitivity answers a different question from moving both together.
 
 Another vault door opens. The carving that once named **Partial Derivatives and Gradients** has weathered away, which is useful: we must recover the idea from what a ranger, builder, or machine can actually observe.
 
 The tiger alarm has two dials: stripe weight w₁ and size weight w₂. Its local loss is a hillside over the floor. The ranger can nudge east, north, or diagonally and observe different changes.
+
+The chamber has reduced the abstraction to one physical thing: **a compass resting on a many-dimensional hillside**. The question carved beside it asks: *If every weight can move, which combined direction changes the loss fastest?*
 
 The old machinery invites a plausible shortcut: compute one ordinary derivative as if the entire parameter vector were a single undifferentiated number.
 
@@ -767,6 +1021,20 @@ scene → guess → calculate → compare with reality
 We do not leap to a famous formula. We carry one missing responsibility forward: hold every other dial fixed to measure one partial derivative at a time, then gather those coordinate sensitivities into the gradient vector.
 
 This is the hinge of the Partial Derivatives and Gradients excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: Separate one-weight trails cover the hill, but they never reveal what happens when several weights move together.
+
+Now let the scene move. Gather every coordinate slope into one arrow. The compass turns until it points toward the steepest local rise; reverse it to descend.
+
+The transformation is the discovery of Partial Derivatives and Gradients made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Partial Derivatives and Gradients into memory:
+
+> **Memory seal — Partial Derivatives and Gradients**
+>
+> A gradient is the compass of fastest local change.
+
+Make the memory bodily, not merely verbal: Turn an imaginary compass, then step in the opposite direction to reduce the loss.
 
 #### Partial Derivatives and Gradients on the stone workbench
 
@@ -806,6 +1074,8 @@ Gradient descent, backpropagation, Adam, clipping, and attribution all use this 
 
 The older excavation and this Partial Derivatives and Gradients chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Partial Derivatives and Gradients occupies one necessary step in that motion. Its object, **a compass resting on a many-dimensional hillside**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of partial derivatives and gradients breaks
 
 A gradient describes one scalar output. A layer often maps many inputs to many outputs, so one vector cannot preserve every input-output sensitivity.
@@ -822,11 +1092,19 @@ The boundary belongs beside the discovery of Partial Derivatives and Gradients b
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** How does every output respond when every input is allowed to move?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 The gradient gathers how one loss responds to many parameters. A network layer, camera transform, or robot model produces several outputs at once, each responding differently to every input.
 
 Far below the Transformer, the Undercroft stores no formula sheet. For **Jacobians**, it preserves a scene, a tempting tool, and the mark left where that tool broke.
 
 A tracker converts two measurements—weight and stride—into two outputs: danger score and estimated speed. Changing weight affects both outputs, but not by the same amount.
+
+The chamber has reduced the abstraction to one physical thing: **a wall of levers facing a wall of bells**. The question carved beside it asks: *How does every output respond when every input is allowed to move?*
 
 With no standard method to recite, the most economical proposal is to differentiate only the first output and reuse that gradient as the sensitivity of the entire transformation.
 
@@ -847,6 +1125,20 @@ what we kept       what disappeared
 The next idea is forced only because the evidence asks us to give every output its own gradient row and arrange all output-input sensitivities into one matrix.
 
 This is the hinge of the Jacobians excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: A single slope follows one lever to one bell while the cross-effects among the rest remain invisible.
+
+Now let the scene move. Pull each lever slightly and record every bell's response in one rectangular ledger: output rows, input columns.
+
+The transformation is the discovery of Jacobians made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Jacobians into memory:
+
+> **Memory seal — Jacobians**
+>
+> A Jacobian is a ledger of every output's local sensitivity to every input.
+
+Make the memory bodily, not merely verbal: Fan the fingers of one hand as inputs and the other as outputs; imagine a thread between every pair.
 
 #### Jacobians on the stone workbench
 
@@ -886,6 +1178,8 @@ Backpropagation multiplies local Jacobian effects without usually materializing 
 
 The older excavation and this Jacobians chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Jacobians occupies one necessary step in that motion. Its object, **a wall of levers facing a wall of bells**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of jacobians breaks
 
 The Jacobian is a first-order description. Two landscapes can share the same slope at one point while bending into a bowl, ridge, or saddle immediately afterward.
@@ -902,11 +1196,19 @@ The boundary belongs beside the discovery of Jacobians because usefulness depend
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** Two places have the same slope—why does one permit a bold step while the other punishes it?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Jacobians record first-order response. At a flat-looking point the gradient may be zero, yet the point could be the bottom of a safe bowl, the top of a hill, or a saddle that rises east and falls north.
 
 At this depth, mathematics feels less like a catalogue and more like memory. We meet **Hessians and Curvature** first as an ordinary human need, before anyone has decided what marks should record it.
 
 The vault floor contains two stone surfaces. At the centre both feel level. One curves upward in every direction; the other curves upward east-west and downward north-south.
+
+The chamber has reduced the abstraction to one physical thing: **two clay valleys and a pair of rolling marbles**. The question carved beside it asks: *Two places have the same slope—why does one permit a bold step while the other punishes it?*
 
 We try to spend no new mathematics at all and simply declare every zero-gradient point a successful minimum and stop moving.
 
@@ -927,6 +1229,20 @@ Hessians and Curvature becomes necessary
 At last there is something worth inventing. Whatever we build must differentiate the gradient again and store how every pair of coordinates changes the local slope.
 
 This is the hinge of the Hessians and Curvature excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: Both compasses show the same slope, yet one valley bends gently and the other turns into a narrow wall.
+
+Now let the scene move. Press a curvature grid into the clay. It records how each component of the gradient changes as every direction moves.
+
+The transformation is the discovery of Hessians and Curvature made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Hessians and Curvature into memory:
+
+> **Memory seal — Hessians and Curvature**
+>
+> A Hessian is a map of how the slope itself bends.
+
+Make the memory bodily, not merely verbal: Curve one palm like a shallow bowl and the other like a narrow valley.
 
 #### Hessians and Curvature on the stone workbench
 
@@ -966,6 +1282,8 @@ Initialization, learning rates, Newton-like methods, loss-landscape analysis, an
 
 The older excavation and this Hessians and Curvature chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Hessians and Curvature occupies one necessary step in that motion. Its object, **two clay valleys and a pair of rolling marbles**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of hessians and curvature breaks
 
 Exact Hessians are expensive and local curvature still describes only a neighborhood. We need a disciplined way to approximate a complicated function near the point using the derivatives already measured.
@@ -982,11 +1300,19 @@ The boundary belongs beside the discovery of Hessians and Curvature because usef
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** How much nearby terrain can be rebuilt from clues gathered at one point?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 The Hessian reveals local bending. Re-evaluating a complicated model for every nearby possibility remains costly, and a slope alone fails as soon as curvature matters.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **Taylor Approximation** has been covered so that only the unsolved situation remains.
 
 The ranger knows a signal's value, slope, and curvature at dial setting a. A nearby setting a+h must be estimated before the expensive full detector can run.
+
+The chamber has reduced the abstraction to one physical thing: **a torn map, a tangent ruler, and nested pieces of curved parchment**. The question carved beside it asks: *How much nearby terrain can be rebuilt from clues gathered at one point?*
 
 The first move is honest because it uses the nearest tool already in our hands: **extend the tangent line indefinitely and assume constant slope everywhere**.
 
@@ -1007,6 +1333,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must build a local polynomial: start with the known value, add slope times displacement, then add curvature times squared displacement with the counting factor required by repeated differentiation.
 
 This is the hinge of the Taylor Approximation excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The straight tangent predicts well for one step, then walks directly away from the bending road.
+
+Now let the scene move. Begin with the current height, add the slope's straight correction, then add curvature and finer corrections only as distance makes them necessary.
+
+The transformation is the discovery of Taylor Approximation made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Taylor Approximation into memory:
+
+> **Memory seal — Taylor Approximation**
+>
+> A Taylor approximation rebuilds nearby shape from value, slope, curvature, and finer local clues.
+
+Make the memory bodily, not merely verbal: Lay one flat hand as a tangent, then gradually bend the other around it.
 
 #### Taylor Approximation on the stone workbench
 
@@ -1046,6 +1386,8 @@ Gradient descent trusts the first-order term; Newton methods use the second; neu
 
 The older excavation and this Taylor Approximation chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Taylor Approximation occupies one necessary step in that motion. Its object, **a torn map, a tangent ruler, and nested pieces of curved parchment**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of taylor approximation breaks
 
 Taylor pieces describe local behavior. To recover total water, distance, probability, or change across a whole interval, many small contributions must be accumulated rather than inspected near one point.
@@ -1062,11 +1404,19 @@ The boundary belongs beside the discovery of Taylor Approximation because useful
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** How can a changing rate become the total water actually delivered?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Taylor approximation reconstructs a function near one point. The factory's meters report rates—tokens per second, energy per second, water flow per minute—but the final account needs a total across time.
 
 In the next chamber of the Undercroft, the mathematical archaeologist removes the label from **Integrals**. A name would let us recognize the answer too early; the stone workbench gives us only a stubborn observation.
 
 A rescue tank fills at a changing rate r(t). The ranger reads the rate at many moments but wants the total water delivered between dawn a and dusk b.
+
+The chamber has reduced the abstraction to one physical thing: **a river gauge and thousands of increasingly thin glass cups**. The question carved beside it asks: *How can a changing rate become the total water actually delivered?*
 
 Nothing yet suggests a new invention. We naturally multiply one chosen rate by the entire duration.
 
@@ -1085,6 +1435,20 @@ our own proposal ──▶ test case ──▶ impossible answer
 What survives the failure is a precise demand. The repaired construction must divide time into small intervals, multiply each interval's width by a representative rate, add the resulting little volumes, and take the limit as the widest interval shrinks toward zero.
 
 This is the hinge of the Integrals excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: One noon reading is multiplied across the whole day, granting dawn and dusk a rate they never had.
+
+Now let the scene move. Let each tiny interval fill its own cup at its own rate, add the cups, and make them thinner until coarse partition error disappears.
+
+The transformation is the discovery of Integrals made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Integrals into memory:
+
+> **Memory seal — Integrals**
+>
+> An integral rebuilds a whole by accumulating locally honest pieces.
+
+Make the memory bodily, not merely verbal: Cup both hands repeatedly, then gather the imagined pieces into one vessel.
 
 #### Integrals on the stone workbench
 
@@ -1124,6 +1488,8 @@ Expected values are integrals over possible outcomes, Neural ODEs integrate hidd
 
 The older excavation and this Integrals chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Integrals occupies one necessary step in that motion. Its object, **a river gauge and thousands of increasingly thin glass cups**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of integrals breaks
 
 Accumulation tells how much signal exists but can hide the simple repeating components inside it. Audio waves that look tangled in time may become sparse when described by frequency.
@@ -1140,11 +1506,19 @@ The boundary belongs beside the discovery of Integrals because usefulness depend
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 3 of 5 — [The River of Change](../MATHEMATICAL_ROOTS.md#realm-3)
+>
+> **Question waiting in this chamber:** Which simple rhythms are hidden inside this tangled signal?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Integrals recover wholes from local pieces. A microphone's whole waveform still looks like an unruly sequence of pressures, even when a listener hears a pure low note, a high whistle, and a repeating wingbeat.
 
 The corridor bends beneath every model we have built. Here **Fourier Analysis** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.
 
 The Scriptorium lowers a string of microphone samples into the vault. The values rise and fall, but no sample announces which repeating rhythms created the pattern.
+
+The chamber has reduced the abstraction to one physical thing: **a dark prism surrounded by rotating tuning forks**. The question carved beside it asks: *Which simple rhythms are hidden inside this tangled signal?*
 
 If we were the first people in this chamber, we would probably compare waveforms only sample by sample in time.
 
@@ -1167,6 +1541,20 @@ We let the idea touch the evidence. The fracture appears exactly where informati
 The broken attempt has done its work. It tells us, in ordinary language, to compare the signal with a family of rotating sine-and-cosine patterns and add the agreements, producing one coefficient for each candidate frequency.
 
 This is the hinge of the Fourier Analysis excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The waveform is inspected moment by moment; overlapping notes remain one jagged line.
+
+Now let the scene move. Turn a candidate rhythm against the signal. Matching rises and falls reinforce across time while mismatched turns cancel.
+
+The transformation is the discovery of Fourier Analysis made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Fourier Analysis into memory:
+
+> **Memory seal — Fourier Analysis**
+>
+> Fourier analysis is a prism that separates hidden rhythms.
+
+Make the memory bodily, not merely verbal: Rotate one finger in a circle while the other traces a wave.
 
 #### Fourier Analysis on the stone workbench
 
@@ -1206,6 +1594,8 @@ Speech features, positional rotations, convolution, image filtering, and Fourier
 
 The older excavation and this Fourier Analysis chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Fourier Analysis occupies one necessary step in that motion. Its object, **a dark prism surrounded by rotating tuning forks**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of fourier analysis breaks
 
 Fourier coefficients describe deterministic signal content. Real observations also vary unpredictably, so the next object must turn uncertain outcomes into numerical quantities with distributions.
@@ -1222,11 +1612,29 @@ The boundary belongs beside the discovery of Fourier Analysis because usefulness
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+##### Realm 4 — The Observatory of Possible Worlds
+
+The river empties beneath a glass dome. Each lantern shows a different possible tomorrow; none may be extinguished merely because we do not yet know which world is real.
+
+Listen for turning lenses, weighted chains, and many quiet witnesses. The questions in this realm travel as one chain:
+
+```text
+possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims
+```
+
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** How can stories about possible tomorrows become quantities we can calculate with?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Fourier analysis gives deterministic signals new coordinates. The ranger's camera, however, may record zero, one, or several tigers tomorrow; before the observation, the count is not an unknown fixed number but a quantity attached to several possible worlds.
 
 Another vault door opens. The carving that once named **Random Variables and Distributions** has weathered away, which is useful: we must recover the idea from what a ranger, builder, or machine can actually observe.
 
 Three cards describe tomorrow: no tiger, one tiger, and two tigers. Each card has a probability, but the station wants to compute expected food use and variation in the *count*.
+
+The chamber has reduced the abstraction to one physical thing: **possible-world cards passing through a numbered brass sieve**. The question carved beside it asks: *How can stories about possible tomorrows become quantities we can calculate with?*
 
 The old machinery invites a plausible shortcut: treat the outcome label itself as a number and perform arithmetic directly on names such as ‘no sighting’ and ‘two sightings’.
 
@@ -1243,6 +1651,20 @@ scene → guess → calculate → compare with reality
 We do not leap to a famous formula. We carry one missing responsibility forward: define a random variable as a function assigning a numerical value to every outcome, then transfer probability mass through that mapping to form its distribution.
 
 This is the hinge of the Random Variables and Distributions excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: Names such as ‘empty photograph’ and ‘two tigers’ are added as though stories were already numbers.
+
+Now let the scene move. Ask one numerical question of every world. Let different stories fall into the same numbered bowl when they give the same answer.
+
+The transformation is the discovery of Random Variables and Distributions made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Random Variables and Distributions into memory:
+
+> **Memory seal — Random Variables and Distributions**
+>
+> A random variable is a numerical question asked of every possible world.
+
+Make the memory bodily, not merely verbal: Hold several imagined cards, then sort them into numbered bowls.
 
 #### Random Variables and Distributions on the stone workbench
 
@@ -1282,6 +1704,8 @@ Loss, reward, token count, model output, and gradient noise are random variables
 
 The older excavation and this Random Variables and Distributions chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. Random Variables and Distributions occupies one necessary step in that motion. Its object, **possible-world cards passing through a numbered brass sieve**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of random variables and distributions breaks
 
 A distribution describes current uncertainty. When a paw print arrives, probabilities must be rearranged according to how compatible each hidden story was with that evidence.
@@ -1298,11 +1722,19 @@ The boundary belongs beside the discovery of Random Variables and Distributions 
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** How should one paw print rearrange the brightness of competing hidden stories?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Random variables turn possible worlds into measurable quantities. A fresh paw print should change the tiger probability, but merely retaining yesterday's distribution ignores the reason observation matters.
 
 Far below the Transformer, the Undercroft stores no formula sheet. For **Conditional Probability and Bayes’ Rule**, it preserves a scene, a tempting tool, and the mark left where that tool broke.
 
 Before seeing tracks, the valley expects tiger on one day in ten and deer on nine. Deep clawed tracks are likely under tiger and rare under deer. The print has arrived; the old shares can no longer remain untouched.
+
+The chamber has reduced the abstraction to one physical thing: **a ring of lanterns and one fresh track beneath a lens**. The question carved beside it asks: *How should one paw print rearrange the brightness of competing hidden stories?*
 
 With no standard method to recite, the most economical proposal is to compare only how well each animal explains the print and choose the largest likelihood.
 
@@ -1323,6 +1755,20 @@ what we kept       what disappeared
 The next idea is forced only because the evidence asks us to multiply each prior belief by that story's support for the evidence, then divide by the total support across all stories so the surviving weights again form one distribution.
 
 This is the hinge of the Conditional Probability and Bayes’ Rule excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The brightest explanation of the print wins even if it was almost impossible before the print appeared.
+
+Now let the scene move. Begin with each lantern's old brightness, scale it by how naturally that world makes the track, then renormalize the surviving light.
+
+The transformation is the discovery of Conditional Probability and Bayes’ Rule made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Conditional Probability and Bayes’ Rule into memory:
+
+> **Memory seal — Conditional Probability and Bayes’ Rule**
+>
+> Bayes' rule lets evidence rearrange belief without erasing what was believed before.
+
+Make the memory bodily, not merely verbal: Dim and brighten imaginary lanterns while keeping their total light fixed.
 
 #### Conditional Probability and Bayes’ Rule on the stone workbench
 
@@ -1362,6 +1808,8 @@ Likelihood, calibration, Bayesian updating, filtering, and uncertainty-aware pla
 
 The older excavation and this Conditional Probability and Bayes’ Rule chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. Conditional Probability and Bayes’ Rule occupies one necessary step in that motion. Its object, **a ring of lanterns and one fresh track beneath a lens**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of conditional probability and bayes’ rule breaks
 
 A posterior distribution can still be too rich to carry everywhere. One mean alone, however, hides whether beliefs are tightly gathered, widely spread, or moving together.
@@ -1378,11 +1826,19 @@ The boundary belongs beside the discovery of Conditional Probability and Bayes�
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** Where does uncertainty balance, how widely does it wander, and what moves together?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Bayes' rule returns a full distribution after evidence. To budget supplies or compare models, the station needs summaries, but one central value must not pretend that uncertainty and joint movement disappeared.
 
 At this depth, mathematics feels less like a catalogue and more like memory. We meet **Expectation, Variance, and Covariance** first as an ordinary human need, before anyone has decided what marks should record it.
 
 Two routes both average one tiger sighting per day. Route A always sees exactly one. Route B sees zero half the time and two half the time. The means agree; their risks do not.
+
+The chamber has reduced the abstraction to one physical thing: **a hanging flock-mobile with a central spindle and paired threads**. The question carved beside it asks: *Where does uncertainty balance, how widely does it wander, and what moves together?*
 
 We try to spend no new mathematics at all and simply report only the average and treat distributions sharing it as interchangeable.
 
@@ -1403,6 +1859,20 @@ Expectation, Variance, and Covariance becomes necessary
 At last there is something worth inventing. Whatever we build must compute expectation as a probability-weighted centre, variance as average squared departure from that centre, and covariance as average product of paired departures.
 
 This is the hinge of the Expectation, Variance, and Covariance excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: Two flocks balance at the same centre, yet one is tightly gathered and the other spans the room; the mean calls them identical.
+
+Now let the scene move. Mark the balance point, measure squared wingbeats away from it, then tie paired departures together to see whether they turn in concert.
+
+The transformation is the discovery of Expectation, Variance, and Covariance made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Expectation, Variance, and Covariance into memory:
+
+> **Memory seal — Expectation, Variance, and Covariance**
+>
+> Expectation finds the centre, variance the spread, and covariance the shared motion of uncertainty.
+
+Make the memory bodily, not merely verbal: Balance one palm, spread both hands apart, then move them together or oppositely.
 
 #### Expectation, Variance, and Covariance on the stone workbench
 
@@ -1442,6 +1912,8 @@ Normalization uses means and variances, PCA diagonalizes covariance, initializat
 
 The older excavation and this Expectation, Variance, and Covariance chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. Expectation, Variance, and Covariance occupies one necessary step in that motion. Its object, **a hanging flock-mobile with a central spindle and paired threads**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of expectation, variance, and covariance breaks
 
 These quantities are usually estimated from samples. Before trusting them, we need a reason that accumulating more independent evidence makes sample averages settle rather than wander forever.
@@ -1458,11 +1930,19 @@ The boundary belongs beside the discovery of Expectation, Variance, and Covarian
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** Why should many imperfect witnesses reveal a stable average?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Expectation, variance, and covariance describe a distribution. The ranger sees only a finite stream of days and must justify why the observed average can stand in for the hidden expected value.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **The Law of Large Numbers** has been covered so that only the unsolved situation remains.
 
 A fair coin decides whether the camera opens the north gate. After one toss the observed head rate is either zero or one—both far from the expected half.
+
+The chamber has reduced the abstraction to one physical thing: **a long procession of witnesses dropping stones onto a balance**. The question carved beside it asks: *Why should many imperfect witnesses reveal a stable average?*
 
 The first move is honest because it uses the nearest tool already in our hands: **demand that every short sample reproduce the population expectation exactly**.
 
@@ -1483,6 +1963,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must study the sample mean as the number of independent observations grows and ask whether the probability of a substantial error shrinks toward zero.
 
 This is the hinge of the The Law of Large Numbers excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The first witness places one stone on one side and the station declares the population average to be an extreme.
+
+Now let the scene move. Let every new witness contribute one stone, but divide by the growing crowd so headcount alone cannot inflate the answer.
+
+The transformation is the discovery of The Law of Large Numbers made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press The Law of Large Numbers into memory:
+
+> **Memory seal — The Law of Large Numbers**
+>
+> The law of large numbers says many honest witnesses make an average settle.
+
+Make the memory bodily, not merely verbal: Tap alternating fingers like arriving witnesses, then flatten your hand into a level balance.
 
 #### The Law of Large Numbers on the stone workbench
 
@@ -1522,6 +2016,8 @@ Mini-batches, evaluation means, Monte Carlo estimates, calibration bins, and dis
 
 The older excavation and this The Law of Large Numbers chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. The Law of Large Numbers occupies one necessary step in that motion. Its object, **a long procession of witnesses dropping stones onto a balance**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of the law of large numbers breaks
 
 The law explains where the average goes but not the shape of its remaining error. Across many experiments, normalized averages often approach a bell-shaped distribution.
@@ -1538,11 +2034,19 @@ The boundary belongs beside the discovery of The Law of Large Numbers because us
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** What shape does the remaining error of a large average tend to take?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 The law of large numbers says sample averages settle. It does not tell the station how far a finite average is likely to lie from the truth or why sums of very different small disturbances often share one familiar bell shape.
 
 In the next chamber of the Undercroft, the mathematical archaeologist removes the label from **The Central Limit Theorem**. A name would let us recognize the answer too early; the stone workbench gives us only a stubborn observation.
 
 Each daily sensor error is bounded but irregular. The monthly average combines heat, battery noise, wind, and rounding. The exact distribution of each source is inconvenient and different.
+
+The chamber has reduced the abstraction to one physical thing: **many transparent error sheets accumulating beneath a bell-shaped canopy**. The question carved beside it asks: *What shape does the remaining error of a large average tend to take?*
 
 Nothing yet suggests a new invention. We naturally assume the average has the same distributional shape as each individual disturbance.
 
@@ -1561,6 +2065,20 @@ our own proposal ──▶ test case ──▶ impossible answer
 What survives the failure is a precise demand. The repaired construction must centre the sample mean at μ, divide by its standard error σ/√n, and study the distribution of that normalized error as n grows.
 
 This is the hinge of the The Central Limit Theorem excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The average is assumed to keep the strange shape of one individual disturbance, despite combining a hundred of them.
+
+Now let the scene move. Repeat the entire averaging experiment, centre each error, and measure it in its natural shrinking units. The stacked silhouettes smooth toward a bell.
+
+The transformation is the discovery of The Central Limit Theorem made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press The Central Limit Theorem into memory:
+
+> **Memory seal — The Central Limit Theorem**
+>
+> The central limit theorem gives normalized averaging error a familiar bell-shaped destination.
+
+Make the memory bodily, not merely verbal: Stack imaginary transparent sheets, then trace a bell curve over their combined outline.
 
 #### The Central Limit Theorem on the stone workbench
 
@@ -1600,6 +2118,8 @@ Confidence intervals, uncertainty estimates, initialization theory, approximate 
 
 The older excavation and this The Central Limit Theorem chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. The Central Limit Theorem occupies one necessary step in that motion. Its object, **many transparent error sheets accumulating beneath a bell-shaped canopy**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of the central limit theorem breaks
 
 A bell approximation still does not decide whether an observed improvement is convincing, practically meaningful, or produced by a flawed experiment. Evidence needs an explicit claim and error procedure.
@@ -1616,11 +2136,19 @@ The boundary belongs beside the discovery of The Central Limit Theorem because u
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** Is the new model's small victory a signal or an ordinary tremor of chance?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 The central limit theorem gives the shape and scale of repeated sample averages. It still does not decide whether a measured model improvement is evidence of a real change or an ordinary tremor of sampling.
 
 The corridor bends beneath every model we have built. Here **Hypothesis Tests and Confidence Intervals** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.
 
 Two assistants answer the same 100 field questions. The new assistant scores, on average, 0.4 points higher. The room wants to celebrate, but daily paired differences wobble with a standard deviation of 2 points.
+
+The chamber has reduced the abstraction to one physical thing: **a distant tower bell beside a brass wind-and-noise meter**. The question carved beside it asks: *Is the new model's small victory a signal or an ordinary tremor of chance?*
 
 If we were the first people in this chamber, we would probably declare every positive sample difference a discovery.
 
@@ -1643,6 +2171,20 @@ We let the idea touch the evidence. The fracture appears exactly where informati
 The broken attempt has done its work. It tells us, in ordinary language, to state the no-improvement claim, measure the observed mean difference in units of its standard error, and report both a test statistic and the range of effects compatible with the sampling noise.
 
 This is the hinge of the Hypothesis Tests and Confidence Intervals excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: One faint positive sound is celebrated without asking how loudly the empty night usually rattles the tower.
+
+Now let the scene move. Subtract the no-improvement claim and measure the remaining sound in units of ordinary sample-mean wobble; keep an interval, not only a verdict.
+
+The transformation is the discovery of Hypothesis Tests and Confidence Intervals made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Hypothesis Tests and Confidence Intervals into memory:
+
+> **Memory seal — Hypothesis Tests and Confidence Intervals**
+>
+> A statistical test asks how large a signal is compared with the noise that could imitate it.
+
+Make the memory bodily, not merely verbal: Cup one ear for the signal while the other hand marks the surrounding noise.
 
 #### Hypothesis Tests and Confidence Intervals on the stone workbench
 
@@ -1682,6 +2224,8 @@ Benchmark uncertainty, A/B tests, ablations, model comparisons, and safety evalu
 
 The older excavation and this Hypothesis Tests and Confidence Intervals chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. Hypothesis Tests and Confidence Intervals occupies one necessary step in that motion. Its object, **a distant tower bell beside a brass wind-and-noise meter**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of hypothesis tests and confidence intervals breaks
 
 A test depends on sampling assumptions, a chosen error rate, and a claim selected before inspection. It cannot rescue biased data, repeated unreported testing, or a meaningless metric. Nor does statistical significance guarantee useful significance.
@@ -1698,11 +2242,29 @@ The boundary belongs beside the discovery of Hypothesis Tests and Confidence Int
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+##### Realm 5 — The Garden of Futures
+
+A final door opens outdoors beneath a night sky. Paths branch through a garden of possible futures, cross a single bowl-shaped valley, and end at a small machine whose range is finite.
+
+Listen for footsteps at crossroads, a taut string, and a machine breathing safely. The questions in this realm travel as one chain:
+
+```text
+sufficient present → remembered futures → trustworthy landscape → safe computation
+```
+
+> **You are here:** Realm 5 of 5 — [The Garden of Futures](../MATHEMATICAL_ROOTS.md#realm-5)
+>
+> **Question waiting in this chamber:** When can the present safely replace the entire remembered past?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Statistical tests judge evidence gathered from repeated trials. Many intelligent systems instead inhabit a sequence: the next room, token, or state depends on what has already happened, and carrying the entire history soon becomes impossible.
 
 Another vault door opens. The carving that once named **Markov Chains** has weathered away, which is useful: we must recover the idea from what a ranger, builder, or machine can actually observe.
 
 A ranger moves among forest, river, and village. Tomorrow's location depends strongly on today's location. The station has years of paths, but planning one step ahead should not require rereading every footprint since the expedition began.
+
+The chamber has reduced the abstraction to one physical thing: **a traveler's satchel beside an impossibly long scroll of footprints**. The question carved beside it asks: *When can the present safely replace the entire remembered past?*
 
 The old machinery invites a plausible shortcut: assign one fixed next-location distribution regardless of the current location.
 
@@ -1719,6 +2281,20 @@ scene → guess → calculate → compare with reality
 We do not leap to a famous formula. We carry one missing responsibility forward: choose a state description rich enough that, once the present state is known, earlier history adds no further information about the next-state distribution.
 
 This is the hinge of the Markov Chains excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The ranger drags every footprint ever made, yet the next turn only needs information that could have been packed into today's state.
+
+Now let the scene move. Put location, weather, and every genuinely predictive fact into the present satchel. Test whether older footprints change tomorrow once the satchel is known.
+
+The transformation is the discovery of Markov Chains made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Markov Chains into memory:
+
+> **Memory seal — Markov Chains**
+>
+> A Markov state is a present that carries all the past the next step still needs.
+
+Make the memory bodily, not merely verbal: Sweep an imaginary history behind you into a small satchel held at your chest.
 
 #### Markov Chains on the stone workbench
 
@@ -1758,6 +2334,8 @@ Autoregressive generation, hidden-state models, reinforcement learning, diffusio
 
 The older excavation and this Markov Chains chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Garden of Futures, look back at its path—**sufficient present → remembered futures → trustworthy landscape → safe computation**. Markov Chains occupies one necessary step in that motion. Its object, **a traveler's satchel beside an impossibly long scroll of footprints**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of markov chains breaks
 
 The Markov property does not say the physical world has no memory; it says our state representation has captured the relevant memory. Even with that representation, choosing actions for long-term reward still requires comparing branching futures.
@@ -1774,11 +2352,19 @@ The boundary belongs beside the discovery of Markov Chains because usefulness de
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 5 of 5 — [The Garden of Futures](../MATHEMATICAL_ROOTS.md#realm-5)
+>
+> **Question waiting in this chamber:** How can a future already solved stop being recomputed along every road?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 A Markov state makes the next step depend on the present rather than the entire visible past. Planning remains expensive because every action opens more states, whose futures overlap and are recalculated along many paths.
 
 Far below the Transformer, the Undercroft stores no formula sheet. For **Dynamic Programming**, it preserves a scene, a tempting tool, and the mark left where that tool broke.
 
 From forest, the ranger can walk toward river or village. Both routes may later reach the same bridge. Drawing every complete journey separately solves the bridge's remaining journey again each time it is encountered.
+
+The chamber has reduced the abstraction to one physical thing: **a branching garden whose shared crossroads carry carved value stones**. The question carved beside it asks: *How can a future already solved stop being recomputed along every road?*
 
 With no standard method to recite, the most economical proposal is to enumerate every possible full action sequence and total its reward independently.
 
@@ -1799,6 +2385,20 @@ what we kept       what disappeared
 The next idea is forced only because the evidence asks us to give each state one stored value equal to the best immediate reward plus the discounted expected value of its possible next states, then reuse that value wherever the state reappears.
 
 This is the hinge of the Dynamic Programming excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: Every route redraws the same journey from the bridge to home, and the tree of copies swallows the garden.
+
+Now let the scene move. Solve the bridge once and carve its remaining value into the stone. Every upstream path may now reuse that future.
+
+The transformation is the discovery of Dynamic Programming made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Dynamic Programming into memory:
+
+> **Memory seal — Dynamic Programming**
+>
+> Dynamic programming remembers the value of futures already solved.
+
+Make the memory bodily, not merely verbal: Trace two branching paths that meet, then tap the shared meeting point only once.
 
 #### Dynamic Programming on the stone workbench
 
@@ -1838,6 +2438,8 @@ Bellman backups power value iteration, Q-learning, tree search, decoding variant
 
 The older excavation and this Dynamic Programming chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Garden of Futures, look back at its path—**sufficient present → remembered futures → trustworthy landscape → safe computation**. Dynamic Programming occupies one necessary step in that motion. Its object, **a branching garden whose shared crossroads carry carved value stones**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of dynamic programming breaks
 
 Exact dynamic programming requires states and transitions that can be represented and revisited. Huge or continuous worlds need approximation, and a value function with arbitrary shape may still be difficult to optimize reliably.
@@ -1854,11 +2456,19 @@ The boundary belongs beside the discovery of Dynamic Programming because usefuln
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 5 of 5 — [The Garden of Futures](../MATHEMATICAL_ROOTS.md#realm-5)
+>
+> **Question waiting in this chamber:** When can a nearby valley be trusted as the lowest valley anywhere?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Dynamic programming replaces repeated futures with stored values, but learning those values or fitting a model still asks an optimizer to descend a landscape. Some landscapes conceal many valleys; others make every local descent globally trustworthy.
 
 At this depth, mathematics feels less like a catalogue and more like memory. We meet **Convexity** first as an ordinary human need, before anyone has decided what marks should record it.
 
 Stretch a string between two points on a bowl. Everywhere between the endpoints, the string floats on or above the bowl. Try the same across a rippled cave floor and the string can cut below a hill.
+
+The chamber has reduced the abstraction to one physical thing: **a taut golden string stretched above a single clay bowl**. The question carved beside it asks: *When can a nearby valley be trusted as the lowest valley anywhere?*
 
 We try to spend no new mathematics at all and simply trust any small local minimum as the best possible solution.
 
@@ -1879,6 +2489,20 @@ Convexity becomes necessary
 At last there is something worth inventing. Whatever we build must require every chord between two points to lie on or above the function, preventing a hidden hump from separating a local minimum from a lower global one.
 
 This is the hinge of the Convexity excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: On a rippled floor, the traveler settles in a shallow pocket while a deeper valley hides beyond a ridge.
+
+Now let the scene move. Stretch the string between any two points. If the landscape always remains below its chord, no hidden ridge can protect a better local valley.
+
+The transformation is the discovery of Convexity made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Convexity into memory:
+
+> **Memory seal — Convexity**
+>
+> Convexity is the promise that a landscape contains no secret lower valley.
+
+Make the memory bodily, not merely verbal: Curve one palm into a bowl and stretch one finger of the other hand across it like a chord.
 
 #### Convexity on the stone workbench
 
@@ -1918,6 +2542,8 @@ Linear regression losses, logistic objectives, support-vector machines, and regu
 
 The older excavation and this Convexity chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving The Garden of Futures, look back at its path—**sufficient present → remembered futures → trustworthy landscape → safe computation**. Convexity occupies one necessary step in that motion. Its object, **a taut golden string stretched above a single clay bowl**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 #### Where the promise of convexity breaks
 
 Convexity is a powerful global promise, not a description of every useful model. It does not choose a stable numerical representation, prevent overflow, or make finite-precision arithmetic exact.
@@ -1934,11 +2560,19 @@ The boundary belongs beside the discovery of Convexity because usefulness depend
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 5 of 5 — [The Garden of Futures](../MATHEMATICAL_ROOTS.md#realm-5)
+>
+> **Question waiting in this chamber:** How can a finite machine travel to the same mathematical truth without overflowing on the way?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Convexity can make an exact mathematical landscape trustworthy. The machine that evaluates it has finite memory and finite precision, so an algebraically correct formula can still overflow, underflow, or erase a small but important difference.
 
 The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **Numerical Stability** has been covered so that only the unsolved situation remains.
 
 Three logits are 1000, 999, and 998. Their exponentials should have sensible relative sizes, yet an ordinary floating-point calculator cannot store `e¹⁰⁰⁰`; the first operation becomes infinity before normalization can rescue it.
+
+The chamber has reduced the abstraction to one physical thing: **a small brass instrument facing three unbearably bright exponential flames**. The question carved beside it asks: *How can a finite machine travel to the same mathematical truth without overflowing on the way?*
 
 The first move is honest because it uses the nearest tool already in our hands: **evaluate the written formula literally and assume algebraic equivalence guarantees computational equivalence**.
 
@@ -1959,6 +2593,20 @@ known tool ──tempts us──▶ first attempt
 Now the reader can name the requirement before the textbook can name the method: we must rewrite the calculation so intermediate values remain in a safe range while the exact mathematical result stays unchanged.
 
 This is the hinge of the Numerical Stability excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+#### When the chamber changes
+
+Hold the failed picture still for one breath: The first flame becomes infinity before the machine can compare it with the others; a meaningful ratio collapses into infinity divided by infinity.
+
+Now let the scene move. Transpose every score by the largest one. The flames shrink into the instrument's range while their relative brightness remains unchanged; restore the removed scale only at the end.
+
+The transformation is the discovery of Numerical Stability made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Numerical Stability into memory:
+
+> **Memory seal — Numerical Stability**
+>
+> Numerical stability is a safer computational path to the same mathematical truth.
+
+Make the memory bodily, not merely verbal: Lower both hands together without changing the distance between them, then raise the shared scale at the end.
 
 #### Numerical Stability on the stone workbench
 
@@ -1997,6 +2645,8 @@ That echo helps Numerical Stability remain relational in memory. When the same j
 Stable softmax, log-likelihoods, mixed precision, gradient scaling, normalization, and online attention all distinguish a mathematical identity from a safe computational route.
 
 The older excavation and this Numerical Stability chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Garden of Futures, look back at its path—**sufficient present → remembered futures → trustworthy landscape → safe computation**. Numerical Stability occupies one necessary step in that motion. Its object, **a small brass instrument facing three unbearably bright exponential flames**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 #### Where the promise of numerical stability breaks
 

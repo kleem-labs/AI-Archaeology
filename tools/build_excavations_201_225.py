@@ -385,6 +385,268 @@ r"\log\sum_i e^{x_i}=m+\log\sum_i e^{x_i-m},\quad m=\max_i x_i",
 )
 
 
+REALMS = (
+    {
+        "start": 201,
+        "end": 203,
+        "number": 1,
+        "name": "The Hall of Boundaries",
+        "question": "What belongs, what is connected, and what reliably becomes what?",
+        "threshold": "A chalk circle opens in the floor. Before space can be measured or uncertainty counted, the world must first acquire boundaries, connections, and dependable transformations.",
+        "sound": "chalk, thread, and one decisive click of brass",
+        "path": "belonging → connection → dependable transformation",
+    },
+    {
+        "start": 204,
+        "end": 208,
+        "number": 2,
+        "name": "The Chamber of Directions",
+        "question": "How can one space be described, and which directions genuinely matter?",
+        "threshold": "The brass function opens a many-sided room. Rulers rotate in the walls, arrows cross the floor, and a high window turns every object into a shadow.",
+        "sound": "sliding rulers, turning stone, and distant bells",
+        "path": "language of space → new directions → persistent directions → honest shadows → strongest channels",
+    },
+    {
+        "start": 209,
+        "end": 215,
+        "number": 3,
+        "name": "The River of Change",
+        "question": "How does something approach, change, bend, accumulate, and reveal hidden rhythm?",
+        "threshold": "Beyond the chamber, the floor becomes a river. Nothing here stays still: distances shrink, slopes turn, water gathers, and tangled waves carry melodies no single moment can reveal.",
+        "sound": "approaching footsteps, running water, and a buried chord",
+        "path": "approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm",
+    },
+    {
+        "start": 216,
+        "end": 221,
+        "number": 4,
+        "name": "The Observatory of Possible Worlds",
+        "question": "How can uncertain possibilities become quantities, beliefs, summaries, and evidence?",
+        "threshold": "The river empties beneath a glass dome. Each lantern shows a different possible tomorrow; none may be extinguished merely because we do not yet know which world is real.",
+        "sound": "turning lenses, weighted chains, and many quiet witnesses",
+        "path": "possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims",
+    },
+    {
+        "start": 222,
+        "end": 225,
+        "number": 5,
+        "name": "The Garden of Futures",
+        "question": "How can the present remember enough, choose well, and preserve truth inside a finite machine?",
+        "threshold": "A final door opens outdoors beneath a night sky. Paths branch through a garden of possible futures, cross a single bowl-shaped valley, and end at a small machine whose range is finite.",
+        "sound": "footsteps at crossroads, a taut string, and a machine breathing safely",
+        "path": "sufficient present → remembered futures → trustworthy landscape → safe computation",
+    },
+)
+
+
+ROOT_MEMORY = {
+    201: {
+        "question": "Which animal cards truly belong inside this boundary?",
+        "object": "three stone trays and one circle of chalk",
+        "failure_image": "The tiger card appears twice, and moving it to the front changes the list although nothing about belonging changed.",
+        "transformation": "Sweep away the numbered positions. Draw one chalk boundary around the admitted cards; let overlap appear where two circles share the same floor.",
+        "sentence": "A set is a boundary that remembers only belonging.",
+        "gesture": "Draw a circle in the air, then place one imagined object inside it.",
+    },
+    202: {
+        "question": "How can the room remember that tiger is near river, not merely that both exist?",
+        "object": "red and blue threads tied between named cards",
+        "failure_image": "The cards collapse into one heap; the colour and direction of every connection disappear.",
+        "transformation": "Separate the cards and tie an arrowed thread from the first object to the second. Different thread colours preserve different kinds of connection.",
+        "sentence": "A relation is a thread that remembers who is connected to whom.",
+        "gesture": "Point from one hand to the other; reversing your hands must reverse the claim.",
+    },
+    203: {
+        "question": "What promise lets the next machine trust the answer of this one?",
+        "object": "a brass slot with one input door and one output chute",
+        "failure_image": "The same tiger card enters twice and the machine splits, returning two incompatible weights.",
+        "transformation": "Lock one internal track from every allowed input to exactly one output. Other inputs may meet there, but one input can no longer fork.",
+        "sentence": "A function is a machine that owes every allowed input one dependable answer.",
+        "gesture": "Put an imaginary card into your left palm and close your right hand around its one promised result.",
+    },
+    204: {
+        "question": "When the coordinate numbers change, what stayed the same?",
+        "object": "two rotating ruler frames laid over one footprint",
+        "failure_image": "The walk receives two different number pairs, and the record falsely declares that the ranger took two different journeys.",
+        "transformation": "Keep the footprint fixed while rotating the rulers beneath it. Rebuild the same endpoint from new amounts of the new directions.",
+        "sentence": "A basis is a chosen language for describing directions; the vector is the journey, not its coordinates.",
+        "gesture": "Hold one finger still as a destination while rotating your other hand like a ruler frame.",
+    },
+    205: {
+        "question": "Does this new arrow open genuinely new movement, or only rename movement already possible?",
+        "object": "three floor arrows and a ring carrying one copied key",
+        "failure_image": "The northeast arrow boasts of a third dimension even though east plus north already draws it exactly.",
+        "transformation": "Try to cancel the arrows back to no movement. The nonzero recipe that succeeds exposes the copied direction; remove it and the reachable floor does not shrink.",
+        "sentence": "Span is everywhere the arrows can reach; independence means each arrow opens a direction the others cannot.",
+        "gesture": "Spread two fingers into independent directions, then lay a third finger along their combined diagonal.",
+    },
+    206: {
+        "question": "Which direction can pass through the transformation without being turned?",
+        "object": "a moving stone floor crossed by compass arrows",
+        "failure_image": "Most arrows tumble differently at every repetition, burying the long-term pattern beneath changing coordinates.",
+        "transformation": "Place arrows one by one until an eastward arrow emerges still pointing east—only longer. Mark that quiet direction and the scale impressed upon it.",
+        "sentence": "An eigenvector is a direction a transformation cannot turn; its eigenvalue says how the direction is scaled.",
+        "gesture": "Point forward and extend your arm without changing where your finger points.",
+    },
+    207: {
+        "question": "What is the closest honest shadow of this track on the only rail our map allows?",
+        "object": "a lantern, a tiger track, and one polished rail",
+        "failure_image": "An arbitrary shadow leaves an error that still runs partly along the rail, proving that some allowed information was unnecessarily discarded.",
+        "transformation": "Slide the shadow until the leftover error stands exactly perpendicular to the rail. No further allowed slide can make the disagreement smaller.",
+        "sentence": "Projection is the closest honest shadow an allowed space can keep.",
+        "gesture": "Drop one hand straight onto an imagined tabletop, forming a right angle with the discarded height.",
+    },
+    208: {
+        "question": "Which coordinated channels carry most of this entire transformation?",
+        "object": "a rectangular brass organ with input grooves and output bells",
+        "failure_image": "Polishing the largest rivets changes little; the loudest bell is driven by a pattern spread across many modest parts.",
+        "transformation": "Rotate the input wheel until each independent push rings one output direction, then order the bells from strongest to faintest.",
+        "sentence": "SVD separates any matrix into its strongest input-to-output channels.",
+        "gesture": "Turn two imaginary wheels, then lower your hands from the loudest channel to the quietest.",
+    },
+    209: {
+        "question": "What must ‘closer and closer’ promise before we can build calculus upon it?",
+        "object": "stepping stones approaching a sealed luminous door",
+        "failure_image": "The words ‘very close’ move whenever the observer changes standards; no finite final step explains the destination.",
+        "transformation": "Place any tiny ring around the door. Find a stage after which every remaining stone lies inside that ring, however small the ring was chosen.",
+        "sentence": "A limit is a promise that every demanded closeness eventually becomes permanent.",
+        "gesture": "Make a shrinking circle with your fingers, then point beyond an imagined threshold.",
+    },
+    210: {
+        "question": "If every weight can move, which combined direction changes the loss fastest?",
+        "object": "a compass resting on a many-dimensional hillside",
+        "failure_image": "Separate one-weight trails cover the hill, but they never reveal what happens when several weights move together.",
+        "transformation": "Gather every coordinate slope into one arrow. The compass turns until it points toward the steepest local rise; reverse it to descend.",
+        "sentence": "A gradient is the compass of fastest local change.",
+        "gesture": "Turn an imaginary compass, then step in the opposite direction to reduce the loss.",
+    },
+    211: {
+        "question": "How does every output respond when every input is allowed to move?",
+        "object": "a wall of levers facing a wall of bells",
+        "failure_image": "A single slope follows one lever to one bell while the cross-effects among the rest remain invisible.",
+        "transformation": "Pull each lever slightly and record every bell's response in one rectangular ledger: output rows, input columns.",
+        "sentence": "A Jacobian is a ledger of every output's local sensitivity to every input.",
+        "gesture": "Fan the fingers of one hand as inputs and the other as outputs; imagine a thread between every pair.",
+    },
+    212: {
+        "question": "Two places have the same slope—why does one permit a bold step while the other punishes it?",
+        "object": "two clay valleys and a pair of rolling marbles",
+        "failure_image": "Both compasses show the same slope, yet one valley bends gently and the other turns into a narrow wall.",
+        "transformation": "Press a curvature grid into the clay. It records how each component of the gradient changes as every direction moves.",
+        "sentence": "A Hessian is a map of how the slope itself bends.",
+        "gesture": "Curve one palm like a shallow bowl and the other like a narrow valley.",
+    },
+    213: {
+        "question": "How much nearby terrain can be rebuilt from clues gathered at one point?",
+        "object": "a torn map, a tangent ruler, and nested pieces of curved parchment",
+        "failure_image": "The straight tangent predicts well for one step, then walks directly away from the bending road.",
+        "transformation": "Begin with the current height, add the slope's straight correction, then add curvature and finer corrections only as distance makes them necessary.",
+        "sentence": "A Taylor approximation rebuilds nearby shape from value, slope, curvature, and finer local clues.",
+        "gesture": "Lay one flat hand as a tangent, then gradually bend the other around it.",
+    },
+    214: {
+        "question": "How can a changing rate become the total water actually delivered?",
+        "object": "a river gauge and thousands of increasingly thin glass cups",
+        "failure_image": "One noon reading is multiplied across the whole day, granting dawn and dusk a rate they never had.",
+        "transformation": "Let each tiny interval fill its own cup at its own rate, add the cups, and make them thinner until coarse partition error disappears.",
+        "sentence": "An integral rebuilds a whole by accumulating locally honest pieces.",
+        "gesture": "Cup both hands repeatedly, then gather the imagined pieces into one vessel.",
+    },
+    215: {
+        "question": "Which simple rhythms are hidden inside this tangled signal?",
+        "object": "a dark prism surrounded by rotating tuning forks",
+        "failure_image": "The waveform is inspected moment by moment; overlapping notes remain one jagged line.",
+        "transformation": "Turn a candidate rhythm against the signal. Matching rises and falls reinforce across time while mismatched turns cancel.",
+        "sentence": "Fourier analysis is a prism that separates hidden rhythms.",
+        "gesture": "Rotate one finger in a circle while the other traces a wave.",
+    },
+    216: {
+        "question": "How can stories about possible tomorrows become quantities we can calculate with?",
+        "object": "possible-world cards passing through a numbered brass sieve",
+        "failure_image": "Names such as ‘empty photograph’ and ‘two tigers’ are added as though stories were already numbers.",
+        "transformation": "Ask one numerical question of every world. Let different stories fall into the same numbered bowl when they give the same answer.",
+        "sentence": "A random variable is a numerical question asked of every possible world.",
+        "gesture": "Hold several imagined cards, then sort them into numbered bowls.",
+    },
+    217: {
+        "question": "How should one paw print rearrange the brightness of competing hidden stories?",
+        "object": "a ring of lanterns and one fresh track beneath a lens",
+        "failure_image": "The brightest explanation of the print wins even if it was almost impossible before the print appeared.",
+        "transformation": "Begin with each lantern's old brightness, scale it by how naturally that world makes the track, then renormalize the surviving light.",
+        "sentence": "Bayes' rule lets evidence rearrange belief without erasing what was believed before.",
+        "gesture": "Dim and brighten imaginary lanterns while keeping their total light fixed.",
+    },
+    218: {
+        "question": "Where does uncertainty balance, how widely does it wander, and what moves together?",
+        "object": "a hanging flock-mobile with a central spindle and paired threads",
+        "failure_image": "Two flocks balance at the same centre, yet one is tightly gathered and the other spans the room; the mean calls them identical.",
+        "transformation": "Mark the balance point, measure squared wingbeats away from it, then tie paired departures together to see whether they turn in concert.",
+        "sentence": "Expectation finds the centre, variance the spread, and covariance the shared motion of uncertainty.",
+        "gesture": "Balance one palm, spread both hands apart, then move them together or oppositely.",
+    },
+    219: {
+        "question": "Why should many imperfect witnesses reveal a stable average?",
+        "object": "a long procession of witnesses dropping stones onto a balance",
+        "failure_image": "The first witness places one stone on one side and the station declares the population average to be an extreme.",
+        "transformation": "Let every new witness contribute one stone, but divide by the growing crowd so headcount alone cannot inflate the answer.",
+        "sentence": "The law of large numbers says many honest witnesses make an average settle.",
+        "gesture": "Tap alternating fingers like arriving witnesses, then flatten your hand into a level balance.",
+    },
+    220: {
+        "question": "What shape does the remaining error of a large average tend to take?",
+        "object": "many transparent error sheets accumulating beneath a bell-shaped canopy",
+        "failure_image": "The average is assumed to keep the strange shape of one individual disturbance, despite combining a hundred of them.",
+        "transformation": "Repeat the entire averaging experiment, centre each error, and measure it in its natural shrinking units. The stacked silhouettes smooth toward a bell.",
+        "sentence": "The central limit theorem gives normalized averaging error a familiar bell-shaped destination.",
+        "gesture": "Stack imaginary transparent sheets, then trace a bell curve over their combined outline.",
+    },
+    221: {
+        "question": "Is the new model's small victory a signal or an ordinary tremor of chance?",
+        "object": "a distant tower bell beside a brass wind-and-noise meter",
+        "failure_image": "One faint positive sound is celebrated without asking how loudly the empty night usually rattles the tower.",
+        "transformation": "Subtract the no-improvement claim and measure the remaining sound in units of ordinary sample-mean wobble; keep an interval, not only a verdict.",
+        "sentence": "A statistical test asks how large a signal is compared with the noise that could imitate it.",
+        "gesture": "Cup one ear for the signal while the other hand marks the surrounding noise.",
+    },
+    222: {
+        "question": "When can the present safely replace the entire remembered past?",
+        "object": "a traveler's satchel beside an impossibly long scroll of footprints",
+        "failure_image": "The ranger drags every footprint ever made, yet the next turn only needs information that could have been packed into today's state.",
+        "transformation": "Put location, weather, and every genuinely predictive fact into the present satchel. Test whether older footprints change tomorrow once the satchel is known.",
+        "sentence": "A Markov state is a present that carries all the past the next step still needs.",
+        "gesture": "Sweep an imaginary history behind you into a small satchel held at your chest.",
+    },
+    223: {
+        "question": "How can a future already solved stop being recomputed along every road?",
+        "object": "a branching garden whose shared crossroads carry carved value stones",
+        "failure_image": "Every route redraws the same journey from the bridge to home, and the tree of copies swallows the garden.",
+        "transformation": "Solve the bridge once and carve its remaining value into the stone. Every upstream path may now reuse that future.",
+        "sentence": "Dynamic programming remembers the value of futures already solved.",
+        "gesture": "Trace two branching paths that meet, then tap the shared meeting point only once.",
+    },
+    224: {
+        "question": "When can a nearby valley be trusted as the lowest valley anywhere?",
+        "object": "a taut golden string stretched above a single clay bowl",
+        "failure_image": "On a rippled floor, the traveler settles in a shallow pocket while a deeper valley hides beyond a ridge.",
+        "transformation": "Stretch the string between any two points. If the landscape always remains below its chord, no hidden ridge can protect a better local valley.",
+        "sentence": "Convexity is the promise that a landscape contains no secret lower valley.",
+        "gesture": "Curve one palm into a bowl and stretch one finger of the other hand across it like a chord.",
+    },
+    225: {
+        "question": "How can a finite machine travel to the same mathematical truth without overflowing on the way?",
+        "object": "a small brass instrument facing three unbearably bright exponential flames",
+        "failure_image": "The first flame becomes infinity before the machine can compare it with the others; a meaningful ratio collapses into infinity divided by infinity.",
+        "transformation": "Transpose every score by the largest one. The flames shrink into the instrument's range while their relative brightness remains unchanged; restore the removed scale only at the end.",
+        "sentence": "Numerical stability is a safer computational path to the same mathematical truth.",
+        "gesture": "Lower both hands together without changing the distance between them, then raise the shared scale at the end.",
+    },
+}
+
+
+def realm_for(number: int) -> dict:
+    return next(realm for realm in REALMS if realm["start"] <= number <= realm["end"])
+
+
 PURE = {
 201: '''def overlap(observed, near_water):\n    return {animal for animal in observed if animal in near_water}\ndef demo():\n    shared=overlap({"tiger","deer","otter"},{"tiger","otter","frog"}); assert shared=={"tiger","otter"}; return shared''',
 202: '''def related(relation,left,right): return (left,right) in relation\ndef demo():\n    near={("tiger","river"),("otter","river")}; assert related(near,"tiger","river") and not related(near,"river","tiger"); return near''',
@@ -478,6 +740,8 @@ def concept(row: Chapter) -> str:
 
 def chapter(row: Chapter) -> str:
     name = concept(row)
+    memory = ROOT_MEMORY[row.number]
+    realm = realm_for(row.number)
     index = (row.number - 201) % 6
     entries = (
         f"The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **{name}** has been covered so that only the unsolved situation remains.",
@@ -520,7 +784,28 @@ def chapter(row: Chapter) -> str:
         f'```text\nno symbols yet\n      ↓\none named example\n      ↓\na rule we would naturally try\n      ↓\nthe case that refuses it\n      ↓\n{name} becomes necessary\n```',
     )
     part = ("> **PART XIV — THE MATHEMATICAL ROOTS BENEATH THE MACHINE**\n>\n"
-            "> We have followed AI from observation to an accountable training factory. Now we descend beneath the finished engine and recover the older mathematical promises it was quietly using all along.\n\n") if row.number == 201 else ""
+            "> We have followed AI from observation to an accountable training factory. Now we descend beneath the finished engine and recover the older mathematical promises it was quietly using all along.\n>\n"
+            "> A mathematical root is not a formula or a school subject. It is a reusable promise about belonging, connection, space, change, uncertainty, choice, or computation. The formula will arrive only after the human need has made that promise unavoidable. Begin with the [map of the Undercroft](../../MATHEMATICAL_ROOTS.md).\n\n") if row.number == 201 else ""
+    realm_overture = ""
+    if row.number == realm["start"]:
+        realm_overture = f"""### Realm {realm["number"]} — {realm["name"]}
+
+{realm["threshold"]}
+
+Listen for {realm["sound"]}. The questions in this realm travel as one chain:
+
+```text
+{realm["path"]}
+```
+
+"""
+    realm_position = (
+        f'> **You are here:** Realm {realm["number"]} of 5 — [{realm["name"]}](../../MATHEMATICAL_ROOTS.md#realm-{realm["number"]})\n'
+        f'>\n'
+        f'> **Question waiting in this chamber:** {memory["question"]}\n'
+        f'>\n'
+        f'> **Do not take the answer yet:** first let the object fail.'
+    )
     next_link = (
         f"[Continue to Excavation {row.number + 1:03d}: {ROWS[row.number - 200].title}](../{row.number + 1:03d}-{ROWS[row.number - 200].slug}/README.md)"
         if row.number < 225 else
@@ -540,11 +825,15 @@ That rhythm now runs through the whole archive—from counting tigers to making 
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-{part}{row.carry}
+{part}{realm_overture}{realm_position}
+
+{row.carry}
 
 {entries[index]}
 
 {row.scene}
+
+The chamber has reduced the abstraction to one physical thing: **{memory["object"]}**. The question carved beside it asks: *{memory["question"]}*
 
 {attempts[index]}
 
@@ -555,6 +844,20 @@ That rhythm now runs through the whole archive—from counting tigers to making 
 {repairs[index]}
 
 This is the hinge of the {name} excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: {memory["failure_image"]}
+
+Now let the scene move. {memory["transformation"]}
+
+The transformation is the discovery of {name} made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press {name} into memory:
+
+> **Memory seal — {name}**
+>
+> {memory["sentence"]}
+
+Make the memory bodily, not merely verbal: {memory["gesture"]}
 
 ## {name} on the stone workbench
 
@@ -594,6 +897,8 @@ That echo helps {name} remain relational in memory. When the same job appears in
 
 The older excavation and this {name} chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
 
+Before leaving {realm["name"]}, look back at its path—**{realm["path"]}**. {name} occupies one necessary step in that motion. Its object, **{memory["object"]}**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
+
 ## Where the promise of {name.lower()} breaks
 
 {row.limit}
@@ -612,17 +917,47 @@ The [visual brief](images/README.md) keeps {name} tied to its concrete scene, wh
 
 def diagram(row: Chapter) -> str:
     name = concept(row)
-    patterns = (
-        f'''```mermaid\nflowchart LR\n  O["named observation"] --> A["tempting inherited tool"]\n  A --> F["{row.failure[:64]}..."]\n  F --> R["missing responsibility"]\n  R --> D["{name}"]\n```''',
-        f'''```mermaid\nflowchart TD\n  S["{name}: concrete scene"] --> T{{"test the first idea"}}\n  T -->|"works"| M["make the case harder"]\n  M --> T\n  T -->|"breaks"| N["name what disappeared"]\n  N --> E["earn the equation"]\n```''',
-        f'''```mermaid\nflowchart LR\n  P["previous excavation"] --> Q["new unanswered question"]\n  Q --> X["counterexample"]\n  X --> C["{name}"]\n  C --> L["known limitation"]\n```''',
-        f'''```mermaid\nflowchart TB\n  W["world before symbols"] --> G["reader's guess"]\n  G --> C["small calculation"]\n  C --> B["boundary exposed"]\n  B --> R["repair"]\n  R --> F["{name} formula"]\n```''',
-        f'''```mermaid\nflowchart LR\n  K["what the attempt keeps"] --> J["judgement"]\n  M["what the attempt loses"] --> J\n  J --> I["one forced invention"]\n  I --> N["{name}"]\n```''',
-        f'''```mermaid\nflowchart TD\n  A["ordinary human need"] --> B["first construction"]\n  B --> C["evidence answers back"]\n  C --> D["operation-by-operation repair"]\n  D --> E["{name}"]\n  E --> F["next unsolved boundary"]\n```''',
-    )
+    memory = ROOT_MEMORY[row.number]
+    realm = realm_for(row.number)
     return f"""# Diagram — Excavation {row.number:03d}: {row.title}
 
-{patterns[(row.number - 201) % len(patterns)]}
+## The five-frame memory film
+
+```mermaid
+flowchart LR
+  Q["1 · Human question"] --> O["2 · Physical object"]
+  O --> F["3 · Visible failure"]
+  F --> T["4 · Transformation"]
+  T --> S["5 · Memory seal"]
+  Q -.-> QD["{memory["question"]}"]
+  O -.-> OD["{memory["object"]}"]
+  S -.-> SD["{memory["sentence"]}"]
+```
+
+```text
+FRAME 1 — QUESTION
+{memory["question"]}
+
+FRAME 2 — OBJECT
+{memory["object"]}
+
+FRAME 3 — FAILURE
+{memory["failure_image"]}
+
+FRAME 4 — TRANSFORMATION
+{memory["transformation"]}
+
+FRAME 5 — SEAL
+{memory["sentence"]}
+```
+
+## Position inside the Undercroft
+
+```text
+Realm {realm["number"]} of 5 — {realm["name"]}
+{realm["path"]}
+current root: {name}
+```
 
 ```text
 temptation : {row.attempt}
@@ -630,7 +965,7 @@ break      : {row.failure}
 repair     : {row.repair}
 ```
 
-The diagram is deliberately causal. Its arrows mean “this failure made the next responsibility necessary,” not merely “read this box next.”
+The film can be replayed without the equation. Once it is vivid, the symbols become a compact subtitle for a scene the reader already owns.
 """
 
 
@@ -646,8 +981,114 @@ def torch_file(source: str, number: int) -> str:
     return f'''"""Excavation {number:03d}: tensor form of the same named experiment."""\nimport math\ntry:\n    import torch\nexcept ImportError:\n    raise SystemExit("Install PyTorch to run this stage.")\n\n{source}\n'''
 
 
+def roots_guide() -> str:
+    out = [
+        "# The Mathematical Roots — A Memory Palace Beneath AI",
+        "",
+        "A mathematical root is not a formula, a chapter label, or a school subject. "
+        "It is a **reusable promise** humanity needed the world to keep: a promise "
+        "about belonging, connection, direction, change, uncertainty, choice, or "
+        "calculation. The equation is the final inscription on that promise.",
+        "",
+        "The Undercroft is arranged as a movie because memory keeps transformations "
+        "more naturally than definitions. In every chamber, watch the same five frames:",
+        "",
+        "```text",
+        "human question",
+        "      ↓",
+        "physical object",
+        "      ↓",
+        "visible failure",
+        "      ↓",
+        "the object transforms",
+        "      ↓",
+        "one memory sentence",
+        "      ↓",
+        "equation becomes a subtitle for the remembered scene",
+        "```",
+        "",
+        "Do not begin by memorizing the seals below. Enter a chapter, risk the wrong "
+        "idea, and let the room change. Then return here and test whether the object "
+        "can recover the promise.",
+        "",
+        "## The complete walk",
+        "",
+        "```text",
+        "THE HALL OF BOUNDARIES",
+        "belonging → connection → dependable transformation",
+        "                 ↓",
+        "THE CHAMBER OF DIRECTIONS",
+        "language of space → new directions → persistent directions → honest shadows → strongest channels",
+        "                 ↓",
+        "THE RIVER OF CHANGE",
+        "approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm",
+        "                 ↓",
+        "THE OBSERVATORY OF POSSIBLE WORLDS",
+        "possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims",
+        "                 ↓",
+        "THE GARDEN OF FUTURES",
+        "sufficient present → remembered futures → trustworthy landscape → safe computation",
+        "```",
+        "",
+        "[Open the living, clickable Undercroft →](mathematical-roots/README.md)",
+    ]
+    for realm in REALMS:
+        out.extend([
+            "",
+            f'<a id="realm-{realm["number"]}"></a>',
+            f'## Realm {realm["number"]} — {realm["name"]}',
+            "",
+            realm["threshold"],
+            "",
+            f'**The human question of this realm:** {realm["question"]}',
+            "",
+            f'**The sound that identifies it:** {realm["sound"]}.',
+            "",
+            "| # | Root chamber | Human question | Object carried in memory | Memory seal |",
+            "|---:|---|---|---|---|",
+        ])
+        for row in ROWS:
+            if not (realm["start"] <= row.number <= realm["end"]):
+                continue
+            memory = ROOT_MEMORY[row.number]
+            link = f'excavations/{row.number:03d}-{row.slug}/README.md'
+            out.append(
+                f'| {row.number:03d} | [{concept(row)}]({link}) | '
+                f'{memory["question"]} | {memory["object"]} | '
+                f'**{memory["sentence"]}** |'
+            )
+        out.extend([
+            "",
+            f'Walk this realm aloud: **{realm["path"]}**.',
+        ])
+    out.extend([
+        "",
+        "## How to make the palace permanent",
+        "",
+        "After each chapter, close the page. See the physical object before saying the "
+        "concept's name. Make the failure happen. Reverse it with the transformation. "
+        "Only then speak the memory seal and reconstruct the equation's jobs.",
+        "",
+        "A useful test is bidirectional:",
+        "",
+        "- **From name to necessity:** “gradient” should summon the hillside, compass, "
+        "missing combined direction, and descent.",
+        "- **From necessity to name:** “I need the direction of fastest local change” "
+        "should open the same chamber and recover gradient.",
+        "- **From symbol to scene:** every sign in the equation should point to a visible "
+        "action already performed in that room.",
+        "",
+        "When all three paths work, the mathematics is no longer a borrowed sentence. "
+        "It has become an instrument the reader can reinvent.",
+        "",
+    ])
+    return "\n".join(out)
+
+
 def main() -> None:
     for row in ROWS:
+        memory = ROOT_MEMORY[row.number]
+        realm = realm_for(row.number)
         folder = ROOT / "excavations" / f"{row.number:03d}-{row.slug}"
         implementation = folder / "implementation"
         images = folder / "images"
@@ -677,9 +1118,10 @@ Keep this wrong idea. It is the negative space around {concept(row)}: it records
 2. Build the smallest new example in which this attempt fails: {row.attempt}. Name the precise information lost.
 3. Cover one operation in the displayed equation. What job becomes impossible? Replace it with addition, multiplication, or division and show the wrong result in human terms.
 4. Change one number or object in the worked example. Predict every intermediate result, then verify it with `implementation/pure_python.py`.
-5. Design a new invention that addresses this boundary: {row.limit}
+5. Close the chapter and replay its five-frame film from memory: question → object → failure → transformation → seal. Use this gesture if the scene fades: {memory["gesture"]}
+6. Design a new invention that addresses this boundary: {row.limit}
 
-The goal is not recall. Each answer should recreate the pressure from which the mathematical object could be invented.
+The goal is not recall. Each answer should recreate the pressure from which the mathematical object could be invented. When you can recover “{memory["sentence"]}” from the object **{memory["object"]}**, this root has begun to live in memory.
 """)
         refs = "\n".join(f"- [{title}]({url}) — primary source for the history, mechanism, or modern use behind this excavation." for title, url in row.references)
         (folder / "references.md").write_text(f"""# Primary Research Trail — {row.title}
@@ -690,14 +1132,19 @@ Read the chapter first. These sources are not substitutes for the excavation; th
 """)
         (images / "README.md").write_text(f"""# Visual Brief — {row.title}
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **{realm["name"]}**.
 
-- **Before:** show this concrete problem without symbols: {row.scene}
-- **After:** let the geometry of {concept(row)} emerge physically from the repaired action: {row.repair}.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** {memory["question"]}
+2. **Object:** show {memory["object"]}.
+3. **Failure:** {memory["failure_image"]}
+4. **Transformation:** {memory["transformation"]}
+5. **Memory seal:** reveal “{memory["sentence"]}”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.
 """)
         (implementation / "README.md").write_text(f"""# Build {concept(row)} Three Times
 
@@ -712,6 +1159,7 @@ Run them in order. Before each run, say what should remain invariant and which i
         (implementation / "pure_python.py").write_text(wrapped_python(PURE[row.number], row.number))
         (implementation / "numpy.py").write_text(numpy_file(NUMPY[row.number], row.number))
         (implementation / "pytorch.py").write_text(torch_file(TORCH[row.number], row.number))
+    (ROOT / "MATHEMATICAL_ROOTS.md").write_text(roots_guide())
     print("Built Excavations 201–225 as a connected book-and-laboratory volume.")
 
 

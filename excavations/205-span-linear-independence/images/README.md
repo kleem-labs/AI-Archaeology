@@ -1,10 +1,15 @@
 # Visual Brief — Span and Linear Independence — Which Directions Are Truly New?
 
-Create a two-panel mathematical fantasy scene in the Undercroft of First Principles.
+Create a five-frame mathematical fantasy sequence inside **The Chamber of Directions**.
 
-- **Before:** show this concrete problem without symbols: The cartographer offers east `[1,0]`, north `[0,1]`, and northeast `[1,1]` as three foundational directions on a two-dimensional map. The third feels useful, but the first two can already reconstruct it.
-- **After:** let the geometry of Span and Linear Independence emerge physically from the repaired action: call the reachable collection of combinations the span, and call directions independent only when no nontrivial weighted combination collapses to zero.
-- Preserve the same named objects across both panels so the viewer can see what changed.
-- Hide the equation in the stonework as a final caption; it must never replace the visible reasoning.
+1. **Question:** Does this new arrow open genuinely new movement, or only rename movement already possible?
+2. **Object:** show three floor arrows and a ring carrying one copied key.
+3. **Failure:** The northeast arrow boasts of a third dimension even though east plus north already draws it exactly.
+4. **Transformation:** Try to cancel the arrows back to no movement. The nonzero recipe that succeeds exposes the copied direction; remove it and the reachable floor does not shrink.
+5. **Memory seal:** reveal “Span is everywhere the arrows can reach; independence means each arrow opens a direction the others cannot.”
 
-The image should help a reader reconstruct the discovery from memory, not decorate a page that remains unexplained.
+Preserve the same named objects, camera direction, and visual landmarks across
+all five frames so the viewer experiences one changing world rather than five
+illustrations. The formula may appear only as a faint final engraving after the
+transformation. The image succeeds when a reader can cover the caption and
+reconstruct the mathematical promise from the scene alone.

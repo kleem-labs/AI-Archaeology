@@ -23,3 +23,7 @@ part below ends where a new kind of failure makes the next part necessary.
 Start with [Excavation 000](excavations/000-before-mathematics-existed/README.md),
 but do not rush to “finish chapters.” Stop whenever a failed attempt surprises
 you. That surprise is the excavation.
+
+Before Part XIV, walk through [The Mathematical Roots](MATHEMATICAL_ROOTS.md).
+Its five realms make the final volume spatial and replayable without replacing
+the causal chapter order.

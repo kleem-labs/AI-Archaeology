@@ -8,11 +8,19 @@
 >
 > **Applied territory:** Mathematical roots beneath the machine
 
+> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../../MATHEMATICAL_ROOTS.md#realm-4)
+>
+> **Question waiting in this chamber:** Where does uncertainty balance, how widely does it wander, and what moves together?
+>
+> **Do not take the answer yet:** first let the object fail.
+
 Bayes' rule returns a full distribution after evidence. To budget supplies or compare models, the station needs summaries, but one central value must not pretend that uncertainty and joint movement disappeared.
 
 At this depth, mathematics feels less like a catalogue and more like memory. We meet **Expectation, Variance, and Covariance** first as an ordinary human need, before anyone has decided what marks should record it.
 
 Two routes both average one tiger sighting per day. Route A always sees exactly one. Route B sees zero half the time and two half the time. The means agree; their risks do not.
+
+The chamber has reduced the abstraction to one physical thing: **a hanging flock-mobile with a central spindle and paired threads**. The question carved beside it asks: *Where does uncertainty balance, how widely does it wander, and what moves together?*
 
 We try to spend no new mathematics at all and simply report only the average and treat distributions sharing it as interchangeable.
 
@@ -33,6 +41,20 @@ Expectation, Variance, and Covariance becomes necessary
 At last there is something worth inventing. Whatever we build must compute expectation as a probability-weighted centre, variance as average squared departure from that centre, and covariance as average product of paired departures.
 
 This is the hinge of the Expectation, Variance, and Covariance excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
+
+## When the chamber changes
+
+Hold the failed picture still for one breath: Two flocks balance at the same centre, yet one is tightly gathered and the other spans the room; the mean calls them identical.
+
+Now let the scene move. Mark the balance point, measure squared wingbeats away from it, then tie paired departures together to see whether they turn in concert.
+
+The transformation is the discovery of Expectation, Variance, and Covariance made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Expectation, Variance, and Covariance into memory:
+
+> **Memory seal — Expectation, Variance, and Covariance**
+>
+> Expectation finds the centre, variance the spread, and covariance the shared motion of uncertainty.
+
+Make the memory bodily, not merely verbal: Balance one palm, spread both hands apart, then move them together or oppositely.
 
 ## Expectation, Variance, and Covariance on the stone workbench
 
@@ -71,6 +93,8 @@ That echo helps Expectation, Variance, and Covariance remain relational in memor
 Normalization uses means and variances, PCA diagonalizes covariance, initialization controls signal variance, and gradient-noise analysis compares shared direction with disagreement.
 
 The older excavation and this Expectation, Variance, and Covariance chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
+
+Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. Expectation, Variance, and Covariance occupies one necessary step in that motion. Its object, **a hanging flock-mobile with a central spindle and paired threads**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of expectation, variance, and covariance breaks
 
