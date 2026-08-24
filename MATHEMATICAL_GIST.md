@@ -11,7 +11,7 @@ For the reusable meaning of an operation, follow its link into the
 To remember where an equation belongs and what it connects to, enter
 the [living Mathematical Mandala](math-mandala/README.md).
 
-**98 equation-bearing excavations · 110 displayed equations**
+**123 equation-bearing excavations · 135 displayed equations**
 
 ## Map
 
@@ -113,6 +113,31 @@ the [living Mathematical Mandala](math-mandala/README.md).
 - [Excavation 196 — Loss Spikes — Distinguish One Hard Batch from a Run Leaving the Road](#excavation-196-loss-spikes-distinguish-one-hard-batch-from-a-run-leaving-the-road)
 - [Excavation 197 — A Validation Stream — Ask Whether Learning Survives Outside the Current Batch](#excavation-197-a-validation-stream-ask-whether-learning-survives-outside-the-current-batch)
 - [Excavation 198 — A Memorization Audit — Did the Model Learn a Pattern or Store a Passage?](#excavation-198-a-memorization-audit-did-the-model-learn-a-pattern-or-store-a-passage)
+- [Excavation 201 — Sets — Drawing a Boundary Around ‘Belongs’](#excavation-201-sets-drawing-a-boundary-around-belongs)
+- [Excavation 202 — Relations — When Two Objects Are Connected](#excavation-202-relations-when-two-objects-are-connected)
+- [Excavation 203 — Functions — A Reusable Promise from Input to Output](#excavation-203-functions-a-reusable-promise-from-input-to-output)
+- [Excavation 204 — Bases and Coordinates — The Same Object in Another Language](#excavation-204-bases-and-coordinates-the-same-object-in-another-language)
+- [Excavation 205 — Span and Linear Independence — Which Directions Are Truly New?](#excavation-205-span-and-linear-independence-which-directions-are-truly-new)
+- [Excavation 206 — Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn](#excavation-206-eigenvectors-and-eigenvalues-directions-a-transformation-cannot-turn)
+- [Excavation 207 — Orthogonality and Projection — Finding the Closest Shadow](#excavation-207-orthogonality-and-projection-finding-the-closest-shadow)
+- [Excavation 208 — Singular Value Decomposition — The Important Directions of Any Matrix](#excavation-208-singular-value-decomposition-the-important-directions-of-any-matrix)
+- [Excavation 209 — Limits — Approaching What Cannot Be Reached in One Step](#excavation-209-limits-approaching-what-cannot-be-reached-in-one-step)
+- [Excavation 210 — Partial Derivatives and Gradients — One Landscape, Many Directions](#excavation-210-partial-derivatives-and-gradients-one-landscape-many-directions)
+- [Excavation 211 — Jacobians — When Many Outputs Change Together](#excavation-211-jacobians-when-many-outputs-change-together)
+- [Excavation 212 — Hessians and Curvature — Why the Same Slope Can Hide Different Valleys](#excavation-212-hessians-and-curvature-why-the-same-slope-can-hide-different-valleys)
+- [Excavation 213 — Taylor Approximation — Borrowing a Function’s Local Shape](#excavation-213-taylor-approximation-borrowing-a-functions-local-shape)
+- [Excavation 214 — Integrals — Reconstructing a Whole from Infinitesimal Pieces](#excavation-214-integrals-reconstructing-a-whole-from-infinitesimal-pieces)
+- [Excavation 215 — Fourier Analysis — Hearing Frequencies Hidden Inside Time](#excavation-215-fourier-analysis-hearing-frequencies-hidden-inside-time)
+- [Excavation 216 — Random Variables and Distributions — Turning Outcomes into Quantities](#excavation-216-random-variables-and-distributions-turning-outcomes-into-quantities)
+- [Excavation 217 — Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief](#excavation-217-conditional-probability-and-bayes-rule-let-evidence-rearrange-belief)
+- [Excavation 218 — Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion](#excavation-218-expectation-variance-and-covariance-centre-spread-and-shared-motion)
+- [Excavation 219 — The Law of Large Numbers — Why Averages Eventually Settle](#excavation-219-the-law-of-large-numbers-why-averages-eventually-settle)
+- [Excavation 220 — The Central Limit Theorem — Why Bell Shapes Keep Appearing](#excavation-220-the-central-limit-theorem-why-bell-shapes-keep-appearing)
+- [Excavation 221 — Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?](#excavation-221-hypothesis-tests-and-confidence-intervals-when-is-an-improvement-convincing)
+- [Excavation 222 — Markov Chains — When the Present Carries the Relevant Past](#excavation-222-markov-chains-when-the-present-carries-the-relevant-past)
+- [Excavation 223 — Dynamic Programming — Remembering the Value of Futures Already Solved](#excavation-223-dynamic-programming-remembering-the-value-of-futures-already-solved)
+- [Excavation 224 — Convexity — A Landscape Without Hidden Valleys](#excavation-224-convexity-a-landscape-without-hidden-valleys)
+- [Excavation 225 — Numerical Stability — Preserving Mathematics Inside a Finite Machine](#excavation-225-numerical-stability-preserving-mathematics-inside-a-finite-machine)
 
 ---
 
@@ -2992,3 +3017,603 @@ $$
 $$
 
 [Return to the full excavation](excavations/198-memorization-audit/README.md)
+
+---
+
+## Excavation 201 — Sets — Drawing a Boundary Around ‘Belongs’
+
+Return to the named Sets scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**A** names the observed-animal set and **B** the near-water set. **x ∈ A** says the card named x passes A's boundary. **A ∩ B** names the new set formed by the cards that pass both boundaries. The double arrow says the two descriptions admit exactly the same cards.
+
+### Why the melody needs these exact notes
+
+[Membership](MATHEMATICAL_MOVES.md#membership) asks one yes-or-no boundary question. [Intersection](MATHEMATICAL_MOVES.md#intersection) retains only shared members, and [logical and](MATHEMATICAL_MOVES.md#logical-and) requires both tests to succeed. A union would answer ‘in either tray’; counting would report a size while forgetting which animals survived.
+
+The operations inside Sets form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+x\in A\cap B\Longleftrightarrow (x\in A)\text{ and }(x\in B)
+$$
+
+Read the Sets line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/201-sets/README.md)
+
+---
+
+## Excavation 202 — Relations — When Two Objects Are Connected
+
+Return to the named Relations scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**A** is the set of animals and **B** the set of places. **A × B** means all animal-place pairs that could be considered. **R** keeps only the pairs for which the named relationship is true. **(a,b) ∈ R** says that one particular directed edge exists.
+
+### Why the melody needs these exact notes
+
+[Tuples](MATHEMATICAL_MOVES.md#tuples) preserve first and second position, so direction survives. [Membership](MATHEMATICAL_MOVES.md#membership) says whether a proposed edge belongs to the relation. A flat union would preserve the endpoints but erase which endpoint was paired with which.
+
+The operations inside Relations form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+R\subseteq A\times B,\quad (a,b)\in R
+$$
+
+Read the Relations line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/202-relations/README.md)
+
+---
+
+## Excavation 203 — Functions — A Reusable Promise from Input to Output
+
+Return to the named Functions scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**A** names the domain of allowed inputs and **B** the codomain in which outputs live. **f** names the complete mapping promise. **f(x)** is the unique output assigned to input x. The arrow records direction from domain to codomain rather than numerical equality.
+
+### Why the melody needs these exact notes
+
+[Arrows](MATHEMATICAL_MOVES.md#arrows) preserve the direction of the machine. [Function application](MATHEMATICAL_MOVES.md#function-application) asks for the output belonging to this input, and [equality](MATHEMATICAL_MOVES.md#equals) records the returned value. Allowing several outputs would describe a general relation, not the deterministic responsibility we need.
+
+The operations inside Functions form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+f:A\to B,\quad y=f(x)
+$$
+
+Read the Functions line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/203-functions/README.md)
+
+---
+
+## Excavation 204 — Bases and Coordinates — The Same Object in Another Language
+
+Return to the named Bases and Coordinates scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**v** is the displacement being described. **b₁,…,bₙ** are the chosen basis directions. **c₁,…,cₙ** are coordinates in that basis. Multiplying a basis direction by its coordinate stretches or reverses it; adding the contributions reconstructs v.
+
+### Why the melody needs these exact notes
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) scales each basis direction by the amount required. [Addition](MATHEMATICAL_MOVES.md#addition) joins independent directional contributions. Concatenating the numbers would merely store them side by side and would not reconstruct the displacement.
+
+The operations inside Bases and Coordinates form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+\mathbf v=c_1\mathbf b_1+c_2\mathbf b_2+\cdots+c_n\mathbf b_n
+$$
+
+Read the Bases and Coordinates line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/204-bases-coordinates/README.md)
+
+---
+
+## Excavation 205 — Span and Linear Independence — Which Directions Are Truly New?
+
+Return to the named Span and Linear Independence scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**span(v₁,…,vₖ)** is every vector obtainable by scaling and adding the listed directions. **aᵢ** are proposed weights. The zero vector represents no movement. If the only weights producing zero are all zero, no direction can be reconstructed from the others.
+
+### Why the melody needs these exact notes
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) scales candidate directions and [summation](MATHEMATICAL_MOVES.md#summation) combines them. [Equality](MATHEMATICAL_MOVES.md#equals) asks whether the combination collapses to zero. Merely counting vectors cannot detect that one is already contained in the others' span.
+
+The operations inside Span and Linear Independence form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+a_1\mathbf v_1+\cdots+a_k\mathbf v_k=\mathbf0\Longrightarrow a_1=\cdots=a_k=0
+$$
+
+Read the Span and Linear Independence line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/205-span-linear-independence/README.md)
+
+---
+
+## Excavation 206 — Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn
+
+Return to the named Eigenvectors and Eigenvalues scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**A** is the transformation. **v** is a nonzero direction. **λ** is the scalar stretch, shrinkage, or sign reversal. Equality says transforming v and merely scaling v reach the same arrow, so direction is preserved.
+
+### Why the melody needs these exact notes
+
+[Function application](MATHEMATICAL_MOVES.md#function-application) applies the transformation to the direction. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) scales that same direction, and [equality](MATHEMATICAL_MOVES.md#equals) demands the two routes coincide. Adding λ would translate the arrow rather than describe proportional stretching.
+
+The operations inside Eigenvectors and Eigenvalues form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+A\mathbf v=\lambda\mathbf v
+$$
+
+Read the Eigenvectors and Eigenvalues line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/206-eigenvectors-eigenvalues/README.md)
+
+---
+
+## Excavation 207 — Orthogonality and Projection — Finding the Closest Shadow
+
+Return to the named Orthogonality and Projection scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**v** is the observed track and **u** the allowed direction. **v·u** measures alignment; **u·u** measures u's squared length. Their ratio finds how much u fits inside v. Multiplying u by that ratio constructs the shadow.
+
+### Why the melody needs these exact notes
+
+[The dot product](MATHEMATICAL_MOVES.md#dot-product) measures directional agreement. [Division](MATHEMATICAL_MOVES.md#division) removes dependence on the chosen length of u, and [multiplication](MATHEMATICAL_MOVES.md#multiplication) rebuilds the shadow in the allowed direction. Using raw v·u alone would change the answer if the same rail were described by a longer basis arrow.
+
+The operations inside Orthogonality and Projection form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+\mathrm{proj}_{\mathbf u}(\mathbf v)=\frac{\mathbf v\cdot\mathbf u}{\mathbf u\cdot\mathbf u}\mathbf u
+$$
+
+Read the Orthogonality and Projection line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/207-orthogonality-projection/README.md)
+
+---
+
+## Excavation 208 — Singular Value Decomposition — The Important Directions of Any Matrix
+
+Return to the named Singular Value Decomposition scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**Vᵀ** changes from ordinary input coordinates to right-singular directions. **Σ** scales those directions by singular values ordered strongest first. **U** expresses the results in output directions. **Aₖ** keeps only the first k channels.
+
+### Why the melody needs these exact notes
+
+[Function composition](MATHEMATICAL_MOVES.md#function-composition) fixes the order: rotate input, scale channels, rotate output. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) lets each stage act through the previous one. Keeping arbitrary entries would not preserve the strongest coordinated directions or give the best rank-k squared-error approximation.
+
+The operations inside Singular Value Decomposition form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+A=U\Sigma V^T,\quad A_k=U_k\Sigma_kV_k^T
+$$
+
+Read the Singular Value Decomposition line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/208-singular-value-decomposition/README.md)
+
+---
+
+## Excavation 209 — Limits — Approaching What Cannot Be Reached in One Step
+
+Return to the named Limits scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**n** counts the step and grows without bound. **1/n** is the remaining gap. **lim** names the value approached. The arrow toward infinity describes unbounded growth in n; equality names the unique destination whose every tolerance can eventually be met.
+
+### Why the melody needs these exact notes
+
+[Division](MATHEMATICAL_MOVES.md#division) makes the gap shrink as the count grows. [The limit](MATHEMATICAL_MOVES.md#limit) records the tolerance guarantee rather than substituting infinity as an ordinary number. Writing `1/∞` would hide the reasoning because infinity is not a final denominator reached by the sequence.
+
+The operations inside Limits form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+\lim_{n\to\infty}\frac{1}{n}=0
+$$
+
+Read the Limits line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/209-limits/README.md)
+
+---
+
+## Excavation 210 — Partial Derivatives and Gradients — One Landscape, Many Directions
+
+Return to the named Partial Derivatives and Gradients scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**L** is the loss landscape and **w₁,…,wₙ** its adjustable coordinates. **∂L/∂wᵢ** asks what L does when only wᵢ moves infinitesimally. **∇L** stores every such answer in coordinate order.
+
+### Why the melody needs these exact notes
+
+[Partial derivatives](MATHEMATICAL_MOVES.md#partial-derivative) isolate one coordinate while others are fixed. [Concatenation](MATHEMATICAL_MOVES.md#concatenation) preserves the separate sensitivities as one ordered vector. Summing them would erase direction and could let positive and negative effects cancel.
+
+The operations inside Partial Derivatives and Gradients form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+\nabla L(\mathbf w)=\left[\frac{\partial L}{\partial w_1},\ldots,\frac{\partial L}{\partial w_n}\right]
+$$
+
+Read the Partial Derivatives and Gradients line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/210-partial-derivatives-gradients/README.md)
+
+---
+
+## Excavation 211 — Jacobians — When Many Outputs Change Together
+
+Return to the named Jacobians scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**fᵢ** is output i and **xⱼ** input j. Each entry **∂fᵢ/∂xⱼ** asks how that particular output responds to that particular input. Row order preserves outputs; column order preserves inputs. **J** names the complete local linear map.
+
+### Why the melody needs these exact notes
+
+[Partial derivatives](MATHEMATICAL_MOVES.md#partial-derivative) isolate one output-input relationship. [Tables](MATHEMATICAL_MOVES.md#tables) preserve the exact row-column mapping, and [multiplication](MATHEMATICAL_MOVES.md#multiplication) lets the Jacobian act on a small input change. A sum would collapse distinct outputs and inputs into one ambiguous sensitivity.
+
+The operations inside Jacobians form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+J_{ij}=\frac{\partial f_i}{\partial x_j}
+$$
+
+Read the Jacobians line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/211-jacobians/README.md)
+
+---
+
+## Excavation 212 — Hessians and Curvature — Why the Same Slope Can Hide Different Valleys
+
+Return to the named Hessians and Curvature scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**Hᵢⱼ** asks how the sensitivity in direction i changes when coordinate j moves. Diagonal entries describe coordinate curvature; off-diagonal entries describe coupled bending. The complete matrix is the local curvature map.
+
+### Why the melody needs these exact notes
+
+[Partial derivatives](MATHEMATICAL_MOVES.md#partial-derivative) are applied a second time because curvature is change in slope. [Tables](MATHEMATICAL_MOVES.md#tables) preserve pairwise coordinate effects. Looking only at the diagonal would miss rotations and coupled directions; summing entries would destroy the geometry.
+
+The operations inside Hessians and Curvature form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+H_{ij}=\frac{\partial^2L}{\partial w_i\partial w_j}
+$$
+
+Read the Hessians and Curvature line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/212-hessians-curvature/README.md)
+
+---
+
+## Excavation 213 — Taylor Approximation — Borrowing a Function’s Local Shape
+
+Return to the named Taylor Approximation scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**a** is the known location and **h** the nearby displacement. **f(a)** anchors the estimate. **f′(a)h** carries local slope through the displacement. **f″(a)h²/2** repairs the first curvature error. The approximation sign admits omitted higher-order terms.
+
+### Why the melody needs these exact notes
+
+[Addition](MATHEMATICAL_MOVES.md#addition) lets distinct orders contribute without erasing one another. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) makes each derivative act through its displacement, while [powers](MATHEMATICAL_MOVES.md#powers) make curvature shrink faster than slope as h becomes tiny. Multiplying all terms together would make any zero term erase the approximation.
+
+The operations inside Taylor Approximation form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+f(a+h)\approx f(a)+f'(a)h+\frac{f''(a)}{2}h^2
+$$
+
+Read the Taylor Approximation line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/213-taylor-approximation/README.md)
+
+---
+
+## Excavation 214 — Integrals — Reconstructing a Whole from Infinitesimal Pieces
+
+Return to the named Integrals scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**[a,b]** is the time interval. **Δtᵢ** is one slice width and **r(tᵢ)** its sampled rate. Their product is a small amount, not a rate. Summation combines slice amounts; the limit removes dependence on a coarse partition. The integral sign names the accumulated whole.
+
+### Why the melody needs these exact notes
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) converts rate times duration into amount. [Summation](MATHEMATICAL_MOVES.md#summation) joins disjoint amounts; multiplication among slices would make one zero-flow moment erase all water. [The limit](MATHEMATICAL_MOVES.md#limit) forces the partition error arbitrarily small.
+
+The operations inside Integrals form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+\int_a^b r(t)dt=\lim_{\max\Delta t_i\to0}\sum_i r(t_i)\Delta t_i
+$$
+
+Read the Integrals line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/214-integrals/README.md)
+
+---
+
+## Excavation 215 — Fourier Analysis — Hearing Frequencies Hidden Inside Time
+
+Return to the named Fourier Analysis scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**xₙ** is sample n among N samples. **k** names a candidate frequency. The complex exponential is a compact rotating cosine-and-sine ruler. Multiplying tests phase-aligned agreement; summing gathers evidence across time. **Xₖ** is the coefficient for frequency k.
+
+### Why the melody needs these exact notes
+
+[The exponential](MATHEMATICAL_MOVES.md#exponential) supplies a regularly rotating comparison pattern. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) measures sample-by-pattern agreement, [summation](MATHEMATICAL_MOVES.md#summation) lets aligned evidence reinforce, and the [negative sign](MATHEMATICAL_MOVES.md#negative-sign) fixes the analysis rotation direction. Adding raw samples would keep only the zero-frequency total.
+
+The operations inside Fourier Analysis form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+X_k=\sum_{n=0}^{N-1}x_n e^{-2\pi i kn/N}
+$$
+
+Read the Fourier Analysis line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/215-fourier-analysis/README.md)
+
+---
+
+## Excavation 216 — Random Variables and Distributions — Turning Outcomes into Quantities
+
+Return to the named Random Variables and Distributions scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**Ω** is the sample space of possible histories. **X** is the function turning a history into a real count. **P(X=x)** gathers the probability of every history mapped to value x. The distribution is the resulting allocation of probability across possible numerical values.
+
+### Why the melody needs these exact notes
+
+[Function application](MATHEMATICAL_MOVES.md#function-application) converts each outcome into the quantity we care about. [Probability](MATHEMATICAL_MOVES.md#probability) preserves how much possibility maps to each value, and [summation](MATHEMATICAL_MOVES.md#summation) combines different outcomes sharing the same value. Multiplying their probabilities would describe all histories occurring together, a different event.
+
+The operations inside Random Variables and Distributions form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+P(X=x)=\sum_{\omega:X(\omega)=x}P(\omega)
+$$
+
+Read the Random Variables and Distributions line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/216-random-variables-distributions/README.md)
+
+---
+
+## Excavation 217 — Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief
+
+Return to the named Conditional Probability and Bayes’ Rule scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**H** is one hidden story and **E** the observed evidence. **P(H)** is prior plausibility. **P(E|H)** is likelihood. Their product is the joint share where H and E occur. **P(E)** totals all routes to the evidence. Division asks what fraction of evidence-compatible worlds contain H.
+
+### Why the melody needs these exact notes
+
+[Conditional probability](MATHEMATICAL_MOVES.md#conditional-bar) states which fact is held as known. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) requires both prior story and compatible evidence, while [division](MATHEMATICAL_MOVES.md#division) restricts attention to worlds where E occurred. Adding prior and likelihood would mix quantities that do not form a joint share.
+
+The operations inside Conditional Probability and Bayes’ Rule form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+P(H\mid E)=\frac{P(E\mid H)P(H)}{P(E)}
+$$
+
+Read the Conditional Probability and Bayes’ Rule line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/217-conditional-probability-bayes/README.md)
+
+---
+
+## Excavation 218 — Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion
+
+Return to the named Expectation, Variance, and Covariance scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**μ** is the expected centre. **X-μ** is one departure. Squaring prevents low and high outcomes from cancelling in variance. **Y-E[Y]** is the paired departure of a second quantity. Multiplying paired departures records same-direction as positive and opposite-direction as negative.
+
+### Why the melody needs these exact notes
+
+[Expectation](MATHEMATICAL_MOVES.md#expectation) lets each possible value contribute in proportion to its probability. [Variance](MATHEMATICAL_MOVES.md#variance) uses squared departures so opposite errors do not cancel. [Covariance](MATHEMATICAL_MOVES.md#covariance) multiplies paired departures; adding them would lose whether the two quantities moved together on the same occasion.
+
+The operations inside Expectation, Variance, and Covariance form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+E[X]=\sum_x xP(X=x),\quad Var(X)=E[(X-E[X])^2],\quad Cov(X,Y)=E[(X-E[X])(Y-E[Y])]
+$$
+
+Read the Expectation, Variance, and Covariance line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/218-expectation-variance-covariance/README.md)
+
+---
+
+## Excavation 219 — The Law of Large Numbers — Why Averages Eventually Settle
+
+Return to the named The Law of Large Numbers scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**Xᵢ** is observation i with expected value μ. The sum combines independent evidence. Division by n forms the per-observation average. The arrow toward μ describes convergence as sample size grows, not equality at any finite n.
+
+### Why the melody needs these exact notes
+
+[Summation](MATHEMATICAL_MOVES.md#summation) lets every observation vote. [Division](MATHEMATICAL_MOVES.md#division) prevents the total from growing merely because more observations arrived, and [the limit](MATHEMATICAL_MOVES.md#limit) states the large-sample guarantee. Multiplying observations would let one zero erase the entire history.
+
+The operations inside The Law of Large Numbers form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+\overline X_n=\frac1n\sum_{i=1}^{n}X_i\longrightarrow\mu
+$$
+
+Read the The Law of Large Numbers line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/219-law-large-numbers/README.md)
+
+---
+
+## Excavation 220 — The Central Limit Theorem — Why Bell Shapes Keep Appearing
+
+Return to the named The Central Limit Theorem scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**μ** and **σ** are the population mean and standard deviation. **X̄ₙ-μ** is estimation error. **σ/√n** is the error's natural scale under independent finite-variance sampling. Dividing creates a dimensionless quantity comparable across n. **N(0,1)** names the limiting standard normal distribution.
+
+### Why the melody needs these exact notes
+
+[Subtraction](MATHEMATICAL_MOVES.md#subtraction) isolates estimation error. [The square root](MATHEMATICAL_MOVES.md#square-root) appears because independent variances add while standard deviations are square roots of variance. [Division](MATHEMATICAL_MOVES.md#division) expresses error in standard-error units; dividing by n would shrink too quickly.
+
+The operations inside The Central Limit Theorem form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+\frac{\overline X_n-\mu}{\sigma/\sqrt n}\Longrightarrow N(0,1)
+$$
+
+Read the The Central Limit Theorem line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/220-central-limit-theorem/README.md)
+
+---
+
+## Excavation 221 — Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?
+
+Return to the named Hypothesis Tests and Confidence Intervals scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**dᵢ** is the score difference on paired question i. **d̄** is their observed mean. Zero is the null claim of no average improvement. **s/√n** estimates how much the sample mean would wobble. **z** tells how many such wobble-units separate the observation from the null.
+
+### Why the melody needs these exact notes
+
+[Subtraction](MATHEMATICAL_MOVES.md#subtraction) makes each question compare like with like. [The mean](MATHEMATICAL_MOVES.md#mean) lets all paired questions contribute. [The square root](MATHEMATICAL_MOVES.md#square-root) converts sample count into the scale of average noise, and [division](MATHEMATICAL_MOVES.md#division) asks how large the effect is relative to that noise. Dividing only by s would ignore that one hundred witnesses stabilize a mean more than one witness.
+
+The operations inside Hypothesis Tests and Confidence Intervals form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+z=\frac{\overline d-0}{s/\sqrt n}
+$$
+
+Read the Hypothesis Tests and Confidence Intervals line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/221-hypothesis-tests-confidence-intervals/README.md)
+
+---
+
+## Excavation 222 — Markov Chains — When the Present Carries the Relevant Past
+
+Return to the named Markov Chains scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**Xₜ** names the state at time t. The left side conditions tomorrow on the complete recorded history. The right side conditions only on today. Equality is the modelling promise that the chosen present state contains every historical detail relevant to one-step prediction.
+
+### Why the melody needs these exact notes
+
+[Conditional probability](MATHEMATICAL_MOVES.md#conditional-bar) holds known history fixed while asking about the next state. [Equality](MATHEMATICAL_MOVES.md#equals) claims that discarding older conditions changes no next-step probability. Multiplying every transition probability here would answer the probability of a complete path, not the one-step memory question.
+
+The operations inside Markov Chains form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+P(X_{t+1}\mid X_t,X_{t-1},\ldots,X_0)=P(X_{t+1}\mid X_t)
+$$
+
+Read the Markov Chains line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/222-markov-chains/README.md)
+
+---
+
+## Excavation 223 — Dynamic Programming — Remembering the Value of Futures Already Solved
+
+Return to the named Dynamic Programming scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**V(s)** is the best future value stored for state s. **a** is a candidate action. **r(s,a)** is immediate reward. **P(s′|s,a)** weighs possible next states. **γ** reduces the influence of distant reward. The maximum keeps the action with the best complete prospect.
+
+### Why the melody needs these exact notes
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) weights each future by both probability and discount. [Summation](MATHEMATICAL_MOVES.md#summation) combines mutually exclusive next-state possibilities; multiplying them would demand all next states occur together. [Maximum](MATHEMATICAL_MOVES.md#maximum) chooses among actions after each has been fully valued, while [addition](MATHEMATICAL_MOVES.md#addition) joins reward now with reward later.
+
+The operations inside Dynamic Programming form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+V(s)=\max_a\left[r(s,a)+\gamma\sum_{s'}P(s'\mid s,a)V(s')\right]
+$$
+
+Read the Dynamic Programming line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/223-dynamic-programming/README.md)
+
+---
+
+## Excavation 224 — Convexity — A Landscape Without Hidden Valleys
+
+Return to the named Convexity scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**x** and **y** are any two candidate points. **λ** lies between 0 and 1 and chooses a point along their segment. The left side evaluates the function at the mixed input. The right side mixes the two endpoint heights. The inequality demands that the function never rise above that chord.
+
+### Why the melody needs these exact notes
+
+[Multiplication](MATHEMATICAL_MOVES.md#multiplication) allocates complementary shares λ and 1-λ. [Addition](MATHEMATICAL_MOVES.md#addition) forms the mixtures. [Inequalities](MATHEMATICAL_MOVES.md#inequalities) compare the curved surface with its straight chord. Equality alone would describe only affine functions and exclude genuine bowls.
+
+The operations inside Convexity form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+f(\lambda x+(1-\lambda)y)\leq\lambda f(x)+(1-\lambda)f(y),\quad 0\leq\lambda\leq1
+$$
+
+Read the Convexity line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/224-convexity/README.md)
+
+---
+
+## Excavation 225 — Numerical Stability — Preserving Mathematics Inside a Finite Machine
+
+Return to the named Numerical Stability scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+
+### Naming what is already on the table
+
+**xᵢ** are the original scores. **m** is their maximum. **xᵢ-m** shifts every score without changing exponential ratios. The inner sum combines safe positive contributions. The outer logarithm returns from exponential scale, and adding m restores the factored scale.
+
+### Why the melody needs these exact notes
+
+[Maximum](MATHEMATICAL_MOVES.md#maximum) chooses a shift that makes every exponent nonpositive. [Subtraction](MATHEMATICAL_MOVES.md#subtraction) creates that safe range. [The exponential](MATHEMATICAL_MOVES.md#exponential) recovers relative positive weights, [summation](MATHEMATICAL_MOVES.md#summation) combines alternatives, and [the logarithm](MATHEMATICAL_MOVES.md#logarithm) returns to log scale. Clipping would avoid overflow by changing the answer; this rearrangement preserves it.
+
+The operations inside Numerical Stability form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+
+$$
+\log\sum_i e^{x_i}=m+\log\sum_i e^{x_i-m},\quad m=\max_i x_i
+$$
+
+Read the Numerical Stability line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
+
+[Return to the full excavation](excavations/225-numerical-stability/README.md)

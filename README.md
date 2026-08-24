@@ -8,7 +8,7 @@ then break and rebuild the idea in the [Laboratory](LABORATORY.md). The
 file presence alone is not completion.
 
 For uninterrupted reading, begin with the
-[five-volume book edition](book/README.md). The excavation directories remain
+[six-volume book edition](book/README.md). The excavation directories remain
 the working dig sites where code, diagrams, mistakes, exercises, and references
 live beside the idea that produced them.
 
@@ -17,7 +17,7 @@ It is the imaginative map of the journey: the places we revisit, the objects
 that remember earlier failures, and the recurring mathematical motions that let
 one equation lead naturally to another.
 
-Read it as a book through the [thirteen-part reading path](PARTS.md). Work with it
+Read it as a book through the [fourteen-part reading path](PARTS.md). Work with it
 as a laboratory through the [field-lab protocol](labs/README.md). The
 [completion status](COMPLETION_STATUS.md) distinguishes finished depth from
 scaffolding still waiting to be excavated.
@@ -271,6 +271,31 @@ The reader should want the mathematics before seeing it. Symbols are compressed 
 | 198 | [A Memorization Audit — Pattern or Stored Passage?](excavations/198-memorization-audit/README.md) | Can authorized probes reveal extractable training memory? |
 | 199 | [The Training Report — Preserve the Decisions, Not Only the Weights](excavations/199-training-report/README.md) | What evidence must accompany the final tensors? |
 | 200 | [A Tiny Pretraining Factory — Close the Accountable Training Loop](excavations/200-tiny-pretraining-factory/README.md) | Can one run remain traceable from source documents to reversible release? |
+| 201 | [Sets — Drawing a Boundary Around “Belongs”](excavations/201-sets/README.md) | How can membership and overlap exist without accidental order or repetition? |
+| 202 | [Relations — When Two Objects Are Connected](excavations/202-relations/README.md) | How can a collection preserve directed connections between its objects? |
+| 203 | [Functions — A Reusable Promise from Input to Output](excavations/203-functions/README.md) | What makes a mapping dependable enough to compose into a machine? |
+| 204 | [Bases and Coordinates — The Same Object in Another Language](excavations/204-bases-coordinates/README.md) | Which part is the vector, and which part is merely its chosen description? |
+| 205 | [Span and Linear Independence — Which Directions Are Truly New?](excavations/205-span-linear-independence/README.md) | When does another stored direction add no new capacity? |
+| 206 | [Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn](excavations/206-eigenvectors-eigenvalues/README.md) | Which directions survive repeated transformation without turning? |
+| 207 | [Orthogonality and Projection — Finding the Closest Shadow](excavations/207-orthogonality-projection/README.md) | How can an object be represented with the least loss inside an allowed subspace? |
+| 208 | [Singular Value Decomposition — The Important Directions of Any Matrix](excavations/208-singular-value-decomposition/README.md) | How can any matrix reveal its strongest input-output directions? |
+| 209 | [Limits — Approaching What Cannot Be Reached in One Step](excavations/209-limits/README.md) | How can “arbitrarily close” become a promise precise enough to trust? |
+| 210 | [Partial Derivatives and Gradients — One Landscape, Many Directions](excavations/210-partial-derivatives-gradients/README.md) | How can every parameter’s local influence become one navigable object? |
+| 211 | [Jacobians — How Every Output Responds to Every Input](excavations/211-jacobians/README.md) | How can a many-input, many-output machine expose all local sensitivities? |
+| 212 | [Hessians and Curvature — How the Slope Itself Changes](excavations/212-hessians-curvature/README.md) | Why does the same gradient demand different trust in different landscapes? |
+| 213 | [Taylor Approximation — Rebuilding a Curve from Local Clues](excavations/213-taylor-approximation/README.md) | How much of a nearby curve can its value, slope, and curvature reconstruct? |
+| 214 | [Integrals — Reconstructing a Whole from Infinitesimal Pieces](excavations/214-integrals/README.md) | How can changing rates become a trustworthy total? |
+| 215 | [Fourier Analysis — Hearing Frequencies Hidden Inside Time](excavations/215-fourier-analysis/README.md) | Which repeating rhythms are hidden inside a tangled signal? |
+| 216 | [Random Variables and Distributions — Turning Outcomes into Quantities](excavations/216-random-variables-distributions/README.md) | How can possible worlds become numerical uncertainty? |
+| 217 | [Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief](excavations/217-conditional-probability-bayes/README.md) | How should a new observation redistribute belief among hidden stories? |
+| 218 | [Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion](excavations/218-expectation-variance-covariance/README.md) | How can a distribution reveal its centre, risk, and coordinated movement? |
+| 219 | [The Law of Large Numbers — Why Averages Eventually Settle](excavations/219-law-large-numbers/README.md) | Why can accumulated samples reveal a hidden expectation? |
+| 220 | [The Central Limit Theorem — Why Bell Shapes Keep Appearing](excavations/220-central-limit-theorem/README.md) | What shape and scale remain in the error of a large sample mean? |
+| 221 | [Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?](excavations/221-hypothesis-tests-confidence-intervals/README.md) | Is a measured gain larger than ordinary sampling noise? |
+| 222 | [Markov Chains — When the Present Carries the Relevant Past](excavations/222-markov-chains/README.md) | When may a present state replace an entire history? |
+| 223 | [Dynamic Programming — Remembering the Value of Futures Already Solved](excavations/223-dynamic-programming/README.md) | How can overlapping futures be solved once and reused? |
+| 224 | [Convexity — A Landscape Without Hidden Valleys](excavations/224-convexity/README.md) | When does a local minimum deserve global trust? |
+| 225 | [Numerical Stability — Preserving Mathematics Inside a Finite Machine](excavations/225-numerical-stability/README.md) | Which equivalent computational path preserves meaning without overflow or erasure? |
 
 ## A note on style
 

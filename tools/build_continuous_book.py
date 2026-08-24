@@ -17,6 +17,8 @@ VOLUMES = (
      "The research loop has earned the right to propose changes. We return to the tiny language model, freeze one honest baseline, and rebuild its engine one measured bottleneck at a time without surrendering a reference path."),
     ("VOLUME_V_WE_ACCOUNT_FOR_PRETRAINING.md", 176, 200, "Volume V — We Account for Pretraining",
      "The modern engine can run. We now build the accountable factory around it: traceable evidence, explicit curation, budgeted learning, coordinated workers, recoverable state, independent audits, and a report that remains attached to the final artifact."),
+    ("VOLUME_VI_WE_DESCEND_TO_THE_ROOTS.md", 201, 225, "Volume VI — We Descend to the Mathematical Roots",
+     "The accountable machine is complete. We descend beneath it to recover the older mathematical inventions—sets, spaces, change, uncertainty, evidence, decisions, optimization, and stable computation—as necessities a reader could have discovered."),
 )
 
 VOLUME_OVERTURES = {
@@ -30,6 +32,8 @@ VOLUME_OVERTURES = {
           "reference path ══ measured equivalence ══ optimized path"),
     176: ("The final volume enters the Archive Foundry, where documents become training experience. Nothing may disappear without a trace: sources, filters, mixtures, updates, checkpoints, and release decisions must remain connected by a recoverable chain of evidence.",
           "document → lineage → lesson → update → artifact → account"),
+    201: ("The sixth volume descends into the Undercroft of First Principles. Familiar names are covered. Sets, functions, linear algebra, calculus, probability, statistics, decision theory, and numerical analysis must be recovered from concrete failures before their symbols are allowed to return.",
+          "observation → attempt → fracture → repair → symbol → connected memory"),
 }
 
 PARTS = {
@@ -59,12 +63,15 @@ PARTS = {
           "The bounded loop gives us permission to improve—not permission to guess. We freeze the tiny language model, measure where its time and memory go, and replace one bottleneck at a time while the original path remains available to challenge every faster one."),
     176: ("Part XIII — A Pretraining Factory We Can Account For",
           "The model is modern but still empty of trustworthy experience. We follow one named corpus from its source documents through boundaries, curation, mixture decisions, compute budgets, distributed training, recovery, validation, memorization audits, and a reversible release."),
+    201: ("Part XIV — The Mathematical Roots Beneath the Machine",
+          "The complete AI system has been using an older inheritance. We uncover that inheritance from lived problems: how objects belong, how spaces hold directions, how change accumulates, how uncertainty becomes evidence, how futures are valued, and how exact ideas survive finite machines."),
 }
 
 SUPPORT_HEADINGS = (
     "Enter the laboratory", "Implementation", "Test what you believe", "Exercises",
     "Challenge", "Before you leave the excavation", "Carry the discovery forward",
     "Connections", "What this discovery now makes possible", "Continue the dig",
+    "Rebuild the discovery in the laboratory",
 )
 
 SCAFFOLD_HEADINGS = (
@@ -81,7 +88,7 @@ def chapter_for_book(path):
     number = int(path.parent.name[:3])
     text = re.sub(r"^> \*\*PART .*?(?=\n\n)", "", text, flags=re.M | re.S)
     text = re.sub(r"^<!-- .*? -->\n*", "", text, flags=re.M)
-    text = re.sub(r"^\[(?:Previous|Next)[^\n]*$", "", text, flags=re.M)
+    text = re.sub(r"^\[(?:Previous|Next|Continue|Return to the living Math Mandala)[^\n]*$", "", text, flags=re.M)
     for heading in SUPPORT_HEADINGS:
         text = re.sub(rf"^## {re.escape(heading)}\n.*?(?=^## |\Z)", "", text, flags=re.M | re.S)
     # In the dig-site edition these labels help readers find a derivation or
@@ -99,6 +106,9 @@ def chapter_for_book(path):
         "Nothing in that case was introduced because a modern model happens to use it. The measured failure created the job; the repair is only the shortest design that performs it.\n",
         "",
     )
+    text = text.replace("(../../MATHEMATICAL_MOVES.md", "(../MATHEMATICAL_MOVES.md")
+    text = text.replace("(../../math-mandala/README.md", "(../math-mandala/README.md")
+    text = re.sub(r"\(\.\./(\d{3}-[^/)]+)/README\.md", r"(../excavations/\1/README.md", text)
     text = text.replace(
         "That boundary is the opening condition of the next excavation.\n",
         "",
@@ -148,7 +158,7 @@ def outputs():
         result[BOOK / args[0]] = build_volume(*args)
     result[BOOK / "README.md"] = """# Read AI Archaeology as a Book
 
-The excavation folders are workshops. These five volumes are the uninterrupted
+The excavation folders are workshops. These six volumes are the uninterrupted
 reading edition. Supporting code, diagrams, mistakes, exercises, and references
 remain beside the chapter they belong to and are linked at the end of each
 chapter.
@@ -158,6 +168,7 @@ chapter.
 3. [Volume III — We Let the Mind Keep Learning](VOLUME_III_WE_KEEP_LEARNING.md)
 4. [Volume IV — We Rebuild the Engine](VOLUME_IV_WE_REBUILD_THE_ENGINE.md)
 5. [Volume V — We Account for Pretraining](VOLUME_V_WE_ACCOUNT_FOR_PRETRAINING.md)
+6. [Volume VI — We Descend to the Mathematical Roots](VOLUME_VI_WE_DESCEND_TO_THE_ROOTS.md)
 
 For equation-focused review after deriving the ideas, use the
 [Mathematical Gist](../MATHEMATICAL_GIST.md).
@@ -169,7 +180,7 @@ squares, exponentiates, logs, maximizes, or differentiates, use
 To see every earned equation as one connected memory, enter the
 [living Mathematical Mandala](../math-mandala/README.md).
 
-To remember the recurring places and mathematical motions that bind the five
+To remember the recurring places and mathematical motions that bind the six
 volumes into one imaginative journey, begin with
 [The Living Mathematics](../THE_LIVING_MATHEMATICS.md).
 
@@ -194,4 +205,4 @@ else:
     BOOK.mkdir(exist_ok=True)
     for path, content in generated.items():
         path.write_text(content)
-    print("Built the five-volume continuous reading edition.")
+    print("Built the six-volume continuous reading edition.")

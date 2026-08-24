@@ -175,6 +175,20 @@
       "path": "MATHEMATICAL_MOVES.md#function-application"
     },
     {
+      "id": "move-tuples",
+      "anchor": "tuples",
+      "name": "tuples",
+      "family": "organize",
+      "path": "MATHEMATICAL_MOVES.md#tuples"
+    },
+    {
+      "id": "move-tables",
+      "anchor": "tables",
+      "name": "tables",
+      "family": "organize",
+      "path": "MATHEMATICAL_MOVES.md#tables"
+    },
+    {
       "id": "move-subtraction",
       "anchor": "subtraction",
       "name": "subtraction",
@@ -362,6 +376,13 @@
       "name": "intersection",
       "family": "choose",
       "path": "MATHEMATICAL_MOVES.md#intersection"
+    },
+    {
+      "id": "move-logical-and",
+      "anchor": "logical-and",
+      "name": "logical and",
+      "family": "choose",
+      "path": "MATHEMATICAL_MOVES.md#logical-and"
     },
     {
       "id": "move-limit",
@@ -1149,7 +1170,7 @@
       "number": 153,
       "title": "Excavation 153 — The Input Pipeline — Stop Making the Accelerator Wait",
       "path": "excavations/153-input-pipeline/README.md",
-      "family": "choose",
+      "family": "compare",
       "moves": [
         "maximum",
         "approximation"
@@ -1583,6 +1604,304 @@
         "cardinality",
         "logarithm",
         "subtraction"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 201,
+      "title": "Excavation 201 — Sets — Drawing a Boundary Around ‘Belongs’",
+      "path": "excavations/201-sets/README.md",
+      "family": "choose",
+      "moves": [
+        "membership",
+        "intersection",
+        "logical-and"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 202,
+      "title": "Excavation 202 — Relations — When Two Objects Are Connected",
+      "path": "excavations/202-relations/README.md",
+      "family": "organize",
+      "moves": [
+        "tuples",
+        "membership"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 203,
+      "title": "Excavation 203 — Functions — A Reusable Promise from Input to Output",
+      "path": "excavations/203-functions/README.md",
+      "family": "organize",
+      "moves": [
+        "arrows",
+        "function-application",
+        "equals"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 204,
+      "title": "Excavation 204 — Bases and Coordinates — The Same Object in Another Language",
+      "path": "excavations/204-bases-coordinates/README.md",
+      "family": "combine",
+      "moves": [
+        "multiplication",
+        "addition"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 205,
+      "title": "Excavation 205 — Span and Linear Independence — Which Directions Are Truly New?",
+      "path": "excavations/205-span-linear-independence/README.md",
+      "family": "organize",
+      "moves": [
+        "multiplication",
+        "summation",
+        "equals"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 206,
+      "title": "Excavation 206 — Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn",
+      "path": "excavations/206-eigenvectors-eigenvalues/README.md",
+      "family": "organize",
+      "moves": [
+        "function-application",
+        "multiplication",
+        "equals"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 207,
+      "title": "Excavation 207 — Orthogonality and Projection — Finding the Closest Shadow",
+      "path": "excavations/207-orthogonality-projection/README.md",
+      "family": "combine",
+      "moves": [
+        "dot-product",
+        "division",
+        "multiplication"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 208,
+      "title": "Excavation 208 — Singular Value Decomposition — The Important Directions of Any Matrix",
+      "path": "excavations/208-singular-value-decomposition/README.md",
+      "family": "combine",
+      "moves": [
+        "function-composition",
+        "multiplication"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 209,
+      "title": "Excavation 209 — Limits — Approaching What Cannot Be Reached in One Step",
+      "path": "excavations/209-limits/README.md",
+      "family": "sensitivity",
+      "moves": [
+        "division",
+        "limit"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 210,
+      "title": "Excavation 210 — Partial Derivatives and Gradients — One Landscape, Many Directions",
+      "path": "excavations/210-partial-derivatives-gradients/README.md",
+      "family": "sensitivity",
+      "moves": [
+        "partial-derivative",
+        "concatenation"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 211,
+      "title": "Excavation 211 — Jacobians — When Many Outputs Change Together",
+      "path": "excavations/211-jacobians/README.md",
+      "family": "organize",
+      "moves": [
+        "partial-derivative",
+        "tables",
+        "multiplication"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 212,
+      "title": "Excavation 212 — Hessians and Curvature — Why the Same Slope Can Hide Different Valleys",
+      "path": "excavations/212-hessians-curvature/README.md",
+      "family": "organize",
+      "moves": [
+        "partial-derivative",
+        "tables"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 213,
+      "title": "Excavation 213 — Taylor Approximation — Borrowing a Function’s Local Shape",
+      "path": "excavations/213-taylor-approximation/README.md",
+      "family": "compare",
+      "moves": [
+        "addition",
+        "multiplication",
+        "powers"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 214,
+      "title": "Excavation 214 — Integrals — Reconstructing a Whole from Infinitesimal Pieces",
+      "path": "excavations/214-integrals/README.md",
+      "family": "sensitivity",
+      "moves": [
+        "multiplication",
+        "summation",
+        "limit"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 215,
+      "title": "Excavation 215 — Fourier Analysis — Hearing Frequencies Hidden Inside Time",
+      "path": "excavations/215-fourier-analysis/README.md",
+      "family": "reshape",
+      "moves": [
+        "exponential",
+        "multiplication",
+        "summation",
+        "negative-sign"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 216,
+      "title": "Excavation 216 — Random Variables and Distributions — Turning Outcomes into Quantities",
+      "path": "excavations/216-random-variables-distributions/README.md",
+      "family": "uncertainty",
+      "moves": [
+        "function-application",
+        "probability",
+        "summation"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 217,
+      "title": "Excavation 217 — Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief",
+      "path": "excavations/217-conditional-probability-bayes/README.md",
+      "family": "uncertainty",
+      "moves": [
+        "conditional-bar",
+        "multiplication",
+        "division"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 218,
+      "title": "Excavation 218 — Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion",
+      "path": "excavations/218-expectation-variance-covariance/README.md",
+      "family": "uncertainty",
+      "moves": [
+        "expectation",
+        "variance",
+        "covariance"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 219,
+      "title": "Excavation 219 — The Law of Large Numbers — Why Averages Eventually Settle",
+      "path": "excavations/219-law-large-numbers/README.md",
+      "family": "sensitivity",
+      "moves": [
+        "summation",
+        "division",
+        "limit"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 220,
+      "title": "Excavation 220 — The Central Limit Theorem — Why Bell Shapes Keep Appearing",
+      "path": "excavations/220-central-limit-theorem/README.md",
+      "family": "compare",
+      "moves": [
+        "subtraction",
+        "square-root",
+        "division"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 221,
+      "title": "Excavation 221 — Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?",
+      "path": "excavations/221-hypothesis-tests-confidence-intervals/README.md",
+      "family": "share",
+      "moves": [
+        "subtraction",
+        "mean",
+        "square-root",
+        "division"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 222,
+      "title": "Excavation 222 — Markov Chains — When the Present Carries the Relevant Past",
+      "path": "excavations/222-markov-chains/README.md",
+      "family": "uncertainty",
+      "moves": [
+        "conditional-bar",
+        "equals"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 223,
+      "title": "Excavation 223 — Dynamic Programming — Remembering the Value of Futures Already Solved",
+      "path": "excavations/223-dynamic-programming/README.md",
+      "family": "choose",
+      "moves": [
+        "multiplication",
+        "summation",
+        "maximum",
+        "addition"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 224,
+      "title": "Excavation 224 — Convexity — A Landscape Without Hidden Valleys",
+      "path": "excavations/224-convexity/README.md",
+      "family": "compare",
+      "moves": [
+        "multiplication",
+        "addition",
+        "inequalities"
+      ],
+      "equation_count": 1
+    },
+    {
+      "number": 225,
+      "title": "Excavation 225 — Numerical Stability — Preserving Mathematics Inside a Finite Machine",
+      "path": "excavations/225-numerical-stability/README.md",
+      "family": "choose",
+      "moves": [
+        "maximum",
+        "subtraction",
+        "exponential",
+        "summation",
+        "logarithm"
       ],
       "equation_count": 1
     }
@@ -2671,7 +2990,7 @@
       "title": "Excavation 153 — The Input Pipeline — Stop Making the Accelerator Wait",
       "equation": "T_{\\text{overlapped}}\\approx\\max(T_{\\text{data}},T_{\\text{compute}})",
       "path": "excavations/153-input-pipeline/README.md",
-      "family": "choose",
+      "family": "compare",
       "moves": [
         "maximum",
         "approximation"
@@ -3220,11 +3539,384 @@
         "logarithm",
         "subtraction"
       ]
+    },
+    {
+      "id": "equation-201-1",
+      "number": 201,
+      "index": 1,
+      "label": "201",
+      "title": "Excavation 201 — Sets — Drawing a Boundary Around ‘Belongs’",
+      "equation": "x\\in A\\cap B\\Longleftrightarrow (x\\in A)\\text{ and }(x\\in B)",
+      "path": "excavations/201-sets/README.md",
+      "family": "choose",
+      "moves": [
+        "membership",
+        "intersection",
+        "logical-and"
+      ]
+    },
+    {
+      "id": "equation-202-1",
+      "number": 202,
+      "index": 1,
+      "label": "202",
+      "title": "Excavation 202 — Relations — When Two Objects Are Connected",
+      "equation": "R\\subseteq A\\times B,\\quad (a,b)\\in R",
+      "path": "excavations/202-relations/README.md",
+      "family": "organize",
+      "moves": [
+        "tuples",
+        "membership"
+      ]
+    },
+    {
+      "id": "equation-203-1",
+      "number": 203,
+      "index": 1,
+      "label": "203",
+      "title": "Excavation 203 — Functions — A Reusable Promise from Input to Output",
+      "equation": "f:A\\to B,\\quad y=f(x)",
+      "path": "excavations/203-functions/README.md",
+      "family": "organize",
+      "moves": [
+        "arrows",
+        "function-application",
+        "equals"
+      ]
+    },
+    {
+      "id": "equation-204-1",
+      "number": 204,
+      "index": 1,
+      "label": "204",
+      "title": "Excavation 204 — Bases and Coordinates — The Same Object in Another Language",
+      "equation": "\\mathbf v=c_1\\mathbf b_1+c_2\\mathbf b_2+\\cdots+c_n\\mathbf b_n",
+      "path": "excavations/204-bases-coordinates/README.md",
+      "family": "combine",
+      "moves": [
+        "multiplication",
+        "addition"
+      ]
+    },
+    {
+      "id": "equation-205-1",
+      "number": 205,
+      "index": 1,
+      "label": "205",
+      "title": "Excavation 205 — Span and Linear Independence — Which Directions Are Truly New?",
+      "equation": "a_1\\mathbf v_1+\\cdots+a_k\\mathbf v_k=\\mathbf0\\Longrightarrow a_1=\\cdots=a_k=0",
+      "path": "excavations/205-span-linear-independence/README.md",
+      "family": "organize",
+      "moves": [
+        "multiplication",
+        "summation",
+        "equals"
+      ]
+    },
+    {
+      "id": "equation-206-1",
+      "number": 206,
+      "index": 1,
+      "label": "206",
+      "title": "Excavation 206 — Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn",
+      "equation": "A\\mathbf v=\\lambda\\mathbf v",
+      "path": "excavations/206-eigenvectors-eigenvalues/README.md",
+      "family": "organize",
+      "moves": [
+        "function-application",
+        "multiplication",
+        "equals"
+      ]
+    },
+    {
+      "id": "equation-207-1",
+      "number": 207,
+      "index": 1,
+      "label": "207",
+      "title": "Excavation 207 — Orthogonality and Projection — Finding the Closest Shadow",
+      "equation": "\\mathrm{proj}_{\\mathbf u}(\\mathbf v)=\\frac{\\mathbf v\\cdot\\mathbf u}{\\mathbf u\\cdot\\mathbf u}\\mathbf u",
+      "path": "excavations/207-orthogonality-projection/README.md",
+      "family": "combine",
+      "moves": [
+        "dot-product",
+        "division",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "equation-208-1",
+      "number": 208,
+      "index": 1,
+      "label": "208",
+      "title": "Excavation 208 — Singular Value Decomposition — The Important Directions of Any Matrix",
+      "equation": "A=U\\Sigma V^T,\\quad A_k=U_k\\Sigma_kV_k^T",
+      "path": "excavations/208-singular-value-decomposition/README.md",
+      "family": "combine",
+      "moves": [
+        "function-composition",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "equation-209-1",
+      "number": 209,
+      "index": 1,
+      "label": "209",
+      "title": "Excavation 209 — Limits — Approaching What Cannot Be Reached in One Step",
+      "equation": "\\lim_{n\\to\\infty}\\frac{1}{n}=0",
+      "path": "excavations/209-limits/README.md",
+      "family": "sensitivity",
+      "moves": [
+        "division",
+        "limit"
+      ]
+    },
+    {
+      "id": "equation-210-1",
+      "number": 210,
+      "index": 1,
+      "label": "210",
+      "title": "Excavation 210 — Partial Derivatives and Gradients — One Landscape, Many Directions",
+      "equation": "\\nabla L(\\mathbf w)=\\left[\\frac{\\partial L}{\\partial w_1},\\ldots,\\frac{\\partial L}{\\partial w_n}\\right]",
+      "path": "excavations/210-partial-derivatives-gradients/README.md",
+      "family": "sensitivity",
+      "moves": [
+        "partial-derivative",
+        "concatenation"
+      ]
+    },
+    {
+      "id": "equation-211-1",
+      "number": 211,
+      "index": 1,
+      "label": "211",
+      "title": "Excavation 211 — Jacobians — When Many Outputs Change Together",
+      "equation": "J_{ij}=\\frac{\\partial f_i}{\\partial x_j}",
+      "path": "excavations/211-jacobians/README.md",
+      "family": "organize",
+      "moves": [
+        "partial-derivative",
+        "tables",
+        "multiplication"
+      ]
+    },
+    {
+      "id": "equation-212-1",
+      "number": 212,
+      "index": 1,
+      "label": "212",
+      "title": "Excavation 212 — Hessians and Curvature — Why the Same Slope Can Hide Different Valleys",
+      "equation": "H_{ij}=\\frac{\\partial^2L}{\\partial w_i\\partial w_j}",
+      "path": "excavations/212-hessians-curvature/README.md",
+      "family": "organize",
+      "moves": [
+        "partial-derivative",
+        "tables"
+      ]
+    },
+    {
+      "id": "equation-213-1",
+      "number": 213,
+      "index": 1,
+      "label": "213",
+      "title": "Excavation 213 — Taylor Approximation — Borrowing a Function’s Local Shape",
+      "equation": "f(a+h)\\approx f(a)+f'(a)h+\\frac{f''(a)}{2}h^2",
+      "path": "excavations/213-taylor-approximation/README.md",
+      "family": "compare",
+      "moves": [
+        "addition",
+        "multiplication",
+        "powers"
+      ]
+    },
+    {
+      "id": "equation-214-1",
+      "number": 214,
+      "index": 1,
+      "label": "214",
+      "title": "Excavation 214 — Integrals — Reconstructing a Whole from Infinitesimal Pieces",
+      "equation": "\\int_a^b r(t)dt=\\lim_{\\max\\Delta t_i\\to0}\\sum_i r(t_i)\\Delta t_i",
+      "path": "excavations/214-integrals/README.md",
+      "family": "sensitivity",
+      "moves": [
+        "multiplication",
+        "summation",
+        "limit"
+      ]
+    },
+    {
+      "id": "equation-215-1",
+      "number": 215,
+      "index": 1,
+      "label": "215",
+      "title": "Excavation 215 — Fourier Analysis — Hearing Frequencies Hidden Inside Time",
+      "equation": "X_k=\\sum_{n=0}^{N-1}x_n e^{-2\\pi i kn/N}",
+      "path": "excavations/215-fourier-analysis/README.md",
+      "family": "reshape",
+      "moves": [
+        "exponential",
+        "multiplication",
+        "summation",
+        "negative-sign"
+      ]
+    },
+    {
+      "id": "equation-216-1",
+      "number": 216,
+      "index": 1,
+      "label": "216",
+      "title": "Excavation 216 — Random Variables and Distributions — Turning Outcomes into Quantities",
+      "equation": "P(X=x)=\\sum_{\\omega:X(\\omega)=x}P(\\omega)",
+      "path": "excavations/216-random-variables-distributions/README.md",
+      "family": "uncertainty",
+      "moves": [
+        "function-application",
+        "probability",
+        "summation"
+      ]
+    },
+    {
+      "id": "equation-217-1",
+      "number": 217,
+      "index": 1,
+      "label": "217",
+      "title": "Excavation 217 — Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief",
+      "equation": "P(H\\mid E)=\\frac{P(E\\mid H)P(H)}{P(E)}",
+      "path": "excavations/217-conditional-probability-bayes/README.md",
+      "family": "uncertainty",
+      "moves": [
+        "conditional-bar",
+        "multiplication",
+        "division"
+      ]
+    },
+    {
+      "id": "equation-218-1",
+      "number": 218,
+      "index": 1,
+      "label": "218",
+      "title": "Excavation 218 — Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion",
+      "equation": "E[X]=\\sum_x xP(X=x),\\quad Var(X)=E[(X-E[X])^2],\\quad Cov(X,Y)=E[(X-E[X])(Y-E[Y])]",
+      "path": "excavations/218-expectation-variance-covariance/README.md",
+      "family": "uncertainty",
+      "moves": [
+        "expectation",
+        "variance",
+        "covariance"
+      ]
+    },
+    {
+      "id": "equation-219-1",
+      "number": 219,
+      "index": 1,
+      "label": "219",
+      "title": "Excavation 219 — The Law of Large Numbers — Why Averages Eventually Settle",
+      "equation": "\\overline X_n=\\frac1n\\sum_{i=1}^{n}X_i\\longrightarrow\\mu",
+      "path": "excavations/219-law-large-numbers/README.md",
+      "family": "sensitivity",
+      "moves": [
+        "summation",
+        "division",
+        "limit"
+      ]
+    },
+    {
+      "id": "equation-220-1",
+      "number": 220,
+      "index": 1,
+      "label": "220",
+      "title": "Excavation 220 — The Central Limit Theorem — Why Bell Shapes Keep Appearing",
+      "equation": "\\frac{\\overline X_n-\\mu}{\\sigma/\\sqrt n}\\Longrightarrow N(0,1)",
+      "path": "excavations/220-central-limit-theorem/README.md",
+      "family": "compare",
+      "moves": [
+        "subtraction",
+        "square-root",
+        "division"
+      ]
+    },
+    {
+      "id": "equation-221-1",
+      "number": 221,
+      "index": 1,
+      "label": "221",
+      "title": "Excavation 221 — Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?",
+      "equation": "z=\\frac{\\overline d-0}{s/\\sqrt n}",
+      "path": "excavations/221-hypothesis-tests-confidence-intervals/README.md",
+      "family": "share",
+      "moves": [
+        "subtraction",
+        "mean",
+        "square-root",
+        "division"
+      ]
+    },
+    {
+      "id": "equation-222-1",
+      "number": 222,
+      "index": 1,
+      "label": "222",
+      "title": "Excavation 222 — Markov Chains — When the Present Carries the Relevant Past",
+      "equation": "P(X_{t+1}\\mid X_t,X_{t-1},\\ldots,X_0)=P(X_{t+1}\\mid X_t)",
+      "path": "excavations/222-markov-chains/README.md",
+      "family": "uncertainty",
+      "moves": [
+        "conditional-bar",
+        "equals"
+      ]
+    },
+    {
+      "id": "equation-223-1",
+      "number": 223,
+      "index": 1,
+      "label": "223",
+      "title": "Excavation 223 — Dynamic Programming — Remembering the Value of Futures Already Solved",
+      "equation": "V(s)=\\max_a\\left[r(s,a)+\\gamma\\sum_{s'}P(s'\\mid s,a)V(s')\\right]",
+      "path": "excavations/223-dynamic-programming/README.md",
+      "family": "choose",
+      "moves": [
+        "multiplication",
+        "summation",
+        "maximum",
+        "addition"
+      ]
+    },
+    {
+      "id": "equation-224-1",
+      "number": 224,
+      "index": 1,
+      "label": "224",
+      "title": "Excavation 224 — Convexity — A Landscape Without Hidden Valleys",
+      "equation": "f(\\lambda x+(1-\\lambda)y)\\leq\\lambda f(x)+(1-\\lambda)f(y),\\quad 0\\leq\\lambda\\leq1",
+      "path": "excavations/224-convexity/README.md",
+      "family": "compare",
+      "moves": [
+        "multiplication",
+        "addition",
+        "inequalities"
+      ]
+    },
+    {
+      "id": "equation-225-1",
+      "number": 225,
+      "index": 1,
+      "label": "225",
+      "title": "Excavation 225 — Numerical Stability — Preserving Mathematics Inside a Finite Machine",
+      "equation": "\\log\\sum_i e^{x_i}=m+\\log\\sum_i e^{x_i-m},\\quad m=\\max_i x_i",
+      "path": "excavations/225-numerical-stability/README.md",
+      "family": "choose",
+      "moves": [
+        "maximum",
+        "subtraction",
+        "exponential",
+        "summation",
+        "logarithm"
+      ]
     }
   ],
   "counts": {
-    "chapters": 98,
-    "equations": 110,
-    "operations": 45
+    "chapters": 123,
+    "equations": 135,
+    "operations": 48
   }
 }

@@ -47,6 +47,11 @@ flowchart TD
  X185 --> X186[Token Budget] --> X187[Compute Allocation] --> X188[Learning Rate Warmup] --> X189[Cosine Decay] --> X190[Gradient Noise Scale]
  X190 --> X191[Data Parallelism] --> X192[Pipeline Parallelism] --> X193[Three Dimensional Parallelism] --> X194[Sharded Checkpoints] --> X195[Deterministic Resume]
  X195 --> X196[Loss Spike Recovery] --> X197[Validation Stream] --> X198[Memorization Audit] --> X199[Training Report] --> X200[Tiny Pretraining Factory]
+ X200 --> X201[Sets] --> X202[Relations] --> X203[Functions] --> X204[Bases and Coordinates] --> X205[Span and Independence]
+ X205 --> X206[Eigenvectors and Eigenvalues] --> X207[Orthogonality and Projection] --> X208[Singular Value Decomposition] --> X209[Limits] --> X210[Partial Derivatives and Gradients]
+ X210 --> X211[Jacobians] --> X212[Hessians and Curvature] --> X213[Taylor Approximation] --> X214[Integrals] --> X215[Fourier Analysis]
+ X215 --> X216[Random Variables and Distributions] --> X217[Conditional Probability and Bayes Rule] --> X218[Expectation Variance and Covariance] --> X219[Law of Large Numbers] --> X220[Central Limit Theorem]
+ X220 --> X221[Hypothesis Tests and Confidence Intervals] --> X222[Markov Chains] --> X223[Dynamic Programming] --> X224[Convexity] --> X225[Numerical Stability]
 ~~~
 
 Every arrow means the earlier idea creates or exposes the problem that forces the later one.

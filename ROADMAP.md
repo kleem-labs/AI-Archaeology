@@ -17,7 +17,7 @@ Code, larger diagrams, notebooks, and references belong in the project when they
 - **0.3 — Tiny language model:** tokenizer, training loop, data pipeline, generation, and a fully traced tiny GPT.
 - **1.0 — First complete book:** the wider mathematical path through probability, calculus, optimization, vision, generative models, and modern AI, always derived from concrete failures.
 
-The central road now has a deliberate endpoint: **Excavation 225**. The proposed
+The central road now reaches its deliberate endpoint: **Excavation 225**. The
 final twenty-five chapters form [Volume VI — The Roots Beneath the
 Machine](editorial/NEXT_ARC_201_225.md), completing the deeper mathematics
 without allowing the main book to expand forever. Later subjects become

@@ -33,6 +33,12 @@ contents.
 | Rebuild the engine | 151–175 | Freeze one reference model, expose its measured bottlenecks, and earn each modern training or serving repair without changing the trusted result. |
 | Account for pretraining | 176–200 | Turn traceable documents into one budgeted, recoverable, audited training run whose artifact can explain what produced it. |
 
+## Volume VI — We descend to the mathematical roots
+
+| Arc | Excavations | What the same system is trying to understand |
+|---|---:|---|
+| Recover the inheritance beneath the machine | 201–225 | Reconstruct sets, functions, linear algebra, calculus, probability, statistics, sequential decisions, optimization geometry, and numerical stability from the concrete failures that forced them to exist. |
+
 ## Recurring world
 
 The concrete world grows rather than resets:

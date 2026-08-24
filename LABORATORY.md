@@ -30,6 +30,7 @@ python3 tools/check_book_lab.py
 | [Tiny generation loop](labs/05_generation_lab.py) | 036–045 | logits, seed, context | tokenize → score → sample → append |
 | [Measured engine rebuild](labs/06_engine_rebuild_lab.py) | 151–175 | overlap, KV heads, precision, draft support | faster and smaller paths that remain accountable to a frozen reference |
 | [Accountable pretraining factory](labs/07_pretraining_factory_lab.py) | 176–200 | manifests, deduplication, mixtures, budgets, recovery, audits | one traceable path from raw documents to a gated model artifact |
+| [Mathematical roots](labs/08_mathematical_roots_lab.py) | 201–225 | membership, geometry, evidence, future value, numerical range | one observation travelling through the mathematical inheritance beneath AI |
 
 Each lab prints intermediate values and contains assertions for the failure it
 was designed to expose. Read the linked excavation first; the lab is evidence,

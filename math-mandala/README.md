@@ -34,9 +34,9 @@ thread preserves the chronological path from one equation to the next.
 - **Where does this equation belong?** Follow its color and spoke inward.
 - **What did we discover next?** Follow the gold thread.
 
-The current mandala contains **110 equations from
-98 excavations**, connected through
-**45 reusable mathematical moves**.
+The current mandala contains **135 equations from
+123 excavations**, connected through
+**48 reusable mathematical moves**.
 
 ## It grows with the book
 

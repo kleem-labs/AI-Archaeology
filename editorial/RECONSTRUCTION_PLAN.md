@@ -34,7 +34,7 @@ The manuscript will therefore be judged at three levels:
 - Worked examples reduce unproductive search for novices, but the example must
   expose subgoals and reasons. Numbers without named jobs fail this standard.
 
-## The three-volume story
+## The six-volume story
 
 ### Volume I — We build a mind (000–045)
 
@@ -70,6 +70,14 @@ plan. Preserve document identity through curation, make data and compute choices
 explicit, make many workers behave like one experiment, and require validation,
 memorization audits, documentation, and release gates before the final artifact
 may leave the factory.
+
+### Volume VI — We descend to the mathematical roots (201–225)
+
+Return beneath the completed system and recover the mathematical inheritance it
+has been using: boundaries and mappings, directions and transformations, local
+and accumulated change, uncertain worlds and evidence, reusable futures,
+trustworthy landscapes, and stable finite computation. Every familiar name is
+covered until a concrete failure makes its responsibility necessary.
 
 ## Boundary contract
 

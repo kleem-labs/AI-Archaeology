@@ -81,6 +81,7 @@ ARC_ROOTS = (
     (126, 150, ("foundations", "causality", "probability")),
     (151, 175, ("numerical", "linear-algebra", "optimization")),
     (176, 200, ("foundations", "probability", "numerical")),
+    (201, 225, ("foundations", "linear-algebra", "calculus", "probability", "discrete", "dynamics", "optimization", "numerical")),
 )
 
 
@@ -96,6 +97,7 @@ TERRITORIES = (
     (126, 150, "Scientific self-improvement and oversight"),
     (151, 175, "Model systems and engine optimization"),
     (176, 200, "Data and pretraining operations"),
+    (201, 225, "Mathematical roots beneath the machine"),
 )
 
 
@@ -167,6 +169,31 @@ EXACT = {
     187: ("optimization", "numerical", "probability"),
     190: ("probability", "optimization", "numerical"),
     198: ("information", "probability", "causality"),
+    201: ("discrete", "foundations"),
+    202: ("discrete", "graphs", "foundations"),
+    203: ("foundations", "discrete"),
+    204: ("linear-algebra", "foundations"),
+    205: ("linear-algebra", "foundations"),
+    206: ("linear-algebra", "dynamics"),
+    207: ("linear-algebra", "foundations"),
+    208: ("linear-algebra", "numerical"),
+    209: ("calculus", "foundations"),
+    210: ("calculus", "optimization"),
+    211: ("calculus", "linear-algebra"),
+    212: ("calculus", "optimization"),
+    213: ("calculus", "numerical"),
+    214: ("calculus", "foundations"),
+    215: ("linear-algebra", "numerical"),
+    216: ("probability", "foundations"),
+    217: ("probability", "foundations"),
+    218: ("probability", "linear-algebra"),
+    219: ("probability", "foundations"),
+    220: ("probability", "foundations"),
+    221: ("probability", "causality"),
+    222: ("probability", "dynamics"),
+    223: ("dynamics", "optimization", "discrete"),
+    224: ("optimization", "foundations"),
+    225: ("numerical", "foundations"),
 }
 
 
@@ -278,8 +305,8 @@ def outputs() -> tuple[dict[Path, str], list[tuple[int, str, Path, tuple[str, ..
         families = classify(number, title)
         chapters.append((number, title, path, families))
         generated[path] = labelled(text, number, families)
-    if [number for number, *_ in chapters] != list(range(201)):
-        raise ValueError("Expected one continuous sequence from Excavation 000 through 200")
+    if [number for number, *_ in chapters] != list(range(226)):
+        raise ValueError("Expected one continuous sequence from Excavation 000 through 225")
     generated[ATLAS] = atlas(chapters)
     return generated, chapters
 

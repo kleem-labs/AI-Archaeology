@@ -31,6 +31,11 @@ class LaboratoryTests(unittest.TestCase):
         self.assertEqual(result["raw_documents"], 4)
         self.assertEqual(result["unique_documents"], 3)
         self.assertTrue(result["release"])
+    def test_mathematical_roots_lab(self):
+        result = load("08_mathematical_roots_lab.py").run_lab()
+        self.assertEqual(result["set overlap"], {"tiger", "otter"})
+        self.assertEqual(result["best bridge action"], "cross")
+        self.assertTrue(result["stable log total"] > 1000)
 
 if __name__ == "__main__":
     unittest.main()

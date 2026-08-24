@@ -8,17 +8,17 @@ A chapter may appear in several families because real AI does not respect classr
 
 | Mathematical family | Chapters using it | Question it teaches us to ask |
 |---|---:|---|
-| [Mathematical Foundations & Measurement](#foundations) | 60 | What counts as an object, distinction, comparison, or trustworthy measurement? |
-| [Linear Algebra & Geometry](#linear-algebra) | 61 | Vectors, spaces, transformations, projections, similarity, and learned coordinates. |
-| [Calculus & Differential Change](#calculus) | 11 | Local sensitivity, gradients, composition, curvature, and accumulated change. |
-| [Probability & Statistics](#probability) | 60 | Uncertainty, distributions, sampling, estimation, variation, and evidence from data. |
+| [Mathematical Foundations & Measurement](#foundations) | 74 | What counts as an object, distinction, comparison, or trustworthy measurement? |
+| [Linear Algebra & Geometry](#linear-algebra) | 69 | Vectors, spaces, transformations, projections, similarity, and learned coordinates. |
+| [Calculus & Differential Change](#calculus) | 17 | Local sensitivity, gradients, composition, curvature, and accumulated change. |
+| [Probability & Statistics](#probability) | 67 | Uncertainty, distributions, sampling, estimation, variation, and evidence from data. |
 | [Information Theory](#information) | 37 | Surprise, entropy, compression, prediction cost, and the value of distinctions. |
-| [Optimization](#optimization) | 47 | Turning measured error into a controlled search for better parameters or decisions. |
-| [Discrete Mathematics, Logic & Algorithms](#discrete) | 43 | Sets, rules, masks, states, search, proofs, programs, and finite procedures. |
-| [Graphs & Relational Structures](#graphs) | 4 | Nodes, edges, paths, message passing, dependency, and coordinated relationships. |
-| [Numerical Analysis & Scientific Computing](#numerical) | 45 | How finite machines approximate, store, rearrange, and accelerate mathematical work. |
-| [Dynamical Systems, Control & Decision Theory](#dynamics) | 27 | States changing through time, feedback, planning, action, stability, and consequence. |
-| [Causality & Experimental Design](#causality) | 39 | Separating causes from coincidences through interventions, controls, and counterfactuals. |
+| [Optimization](#optimization) | 51 | Turning measured error into a controlled search for better parameters or decisions. |
+| [Discrete Mathematics, Logic & Algorithms](#discrete) | 47 | Sets, rules, masks, states, search, proofs, programs, and finite procedures. |
+| [Graphs & Relational Structures](#graphs) | 5 | Nodes, edges, paths, message passing, dependency, and coordinated relationships. |
+| [Numerical Analysis & Scientific Computing](#numerical) | 49 | How finite machines approximate, store, rearrange, and accelerate mathematical work. |
+| [Dynamical Systems, Control & Decision Theory](#dynamics) | 30 | States changing through time, feedback, planning, action, stability, and consequence. |
+| [Causality & Experimental Design](#causality) | 40 | Separating causes from coincidences through interventions, controls, and counterfactuals. |
 
 <a id="foundations"></a>
 ## Mathematical Foundations & Measurement
@@ -85,6 +85,20 @@ What counts as an object, distinction, comparison, or trustworthy measurement?
 - **196** [Loss Spikes — Distinguish One Hard Batch from a Run Leaving the Road](excavations/196-loss-spike-recovery/README.md) — *also: Dynamical Systems, Control & Decision Theory*
 - **197** [A Validation Stream — Ask Whether Learning Survives Outside the Current Batch](excavations/197-validation-stream/README.md) — *also: Causality & Experimental Design*
 - **199** [The Training Report — Preserve the Decisions, Not Only the Weights](excavations/199-training-report/README.md) — *also: Optimization, Discrete Mathematics, Logic & Algorithms*
+- **201** [Sets — Drawing a Boundary Around ‘Belongs’](excavations/201-sets/README.md) — *also: Discrete Mathematics, Logic & Algorithms*
+- **202** [Relations — When Two Objects Are Connected](excavations/202-relations/README.md) — *also: Discrete Mathematics, Logic & Algorithms, Graphs & Relational Structures*
+- **203** [Functions — A Reusable Promise from Input to Output](excavations/203-functions/README.md) — *also: Discrete Mathematics, Logic & Algorithms*
+- **204** [Bases and Coordinates — The Same Object in Another Language](excavations/204-bases-coordinates/README.md) — *also: Linear Algebra & Geometry*
+- **205** [Span and Linear Independence — Which Directions Are Truly New?](excavations/205-span-linear-independence/README.md) — *also: Linear Algebra & Geometry*
+- **207** [Orthogonality and Projection — Finding the Closest Shadow](excavations/207-orthogonality-projection/README.md) — *also: Linear Algebra & Geometry*
+- **209** [Limits — Approaching What Cannot Be Reached in One Step](excavations/209-limits/README.md) — *also: Calculus & Differential Change*
+- **214** [Integrals — Reconstructing a Whole from Infinitesimal Pieces](excavations/214-integrals/README.md) — *also: Calculus & Differential Change*
+- **216** [Random Variables and Distributions — Turning Outcomes into Quantities](excavations/216-random-variables-distributions/README.md) — *also: Probability & Statistics*
+- **217** [Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief](excavations/217-conditional-probability-bayes/README.md) — *also: Probability & Statistics*
+- **219** [The Law of Large Numbers — Why Averages Eventually Settle](excavations/219-law-large-numbers/README.md) — *also: Probability & Statistics*
+- **220** [The Central Limit Theorem — Why Bell Shapes Keep Appearing](excavations/220-central-limit-theorem/README.md) — *also: Probability & Statistics*
+- **224** [Convexity — A Landscape Without Hidden Valleys](excavations/224-convexity/README.md) — *also: Optimization*
+- **225** [Numerical Stability — Preserving Mathematics Inside a Finite Machine](excavations/225-numerical-stability/README.md) — *also: Numerical Analysis & Scientific Computing*
 
 <a id="linear-algebra"></a>
 ## Linear Algebra & Geometry
@@ -152,6 +166,14 @@ Vectors, spaces, transformations, projections, similarity, and learned coordinat
 - **173** [Tensor Parallelism — Split One Matrix That No Device Can Hold](excavations/173-tensor-parallelism/README.md) — *also: Numerical Analysis & Scientific Computing*
 - **174** [Speculative Decoding — Let a Small Model Propose, Never Decide](excavations/174-speculative-decoding/README.md) — *also: Numerical Analysis & Scientific Computing*
 - **175** [A Modern Tiny Language Model — Assemble the Measured Engine](excavations/175-modern-tiny-llm/README.md) — *also: Numerical Analysis & Scientific Computing*
+- **204** [Bases and Coordinates — The Same Object in Another Language](excavations/204-bases-coordinates/README.md) — *also: Mathematical Foundations & Measurement*
+- **205** [Span and Linear Independence — Which Directions Are Truly New?](excavations/205-span-linear-independence/README.md) — *also: Mathematical Foundations & Measurement*
+- **206** [Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn](excavations/206-eigenvectors-eigenvalues/README.md) — *also: Dynamical Systems, Control & Decision Theory*
+- **207** [Orthogonality and Projection — Finding the Closest Shadow](excavations/207-orthogonality-projection/README.md) — *also: Mathematical Foundations & Measurement*
+- **208** [Singular Value Decomposition — The Important Directions of Any Matrix](excavations/208-singular-value-decomposition/README.md) — *also: Numerical Analysis & Scientific Computing*
+- **211** [Jacobians — When Many Outputs Change Together](excavations/211-jacobians/README.md) — *also: Calculus & Differential Change*
+- **215** [Fourier Analysis — Hearing Frequencies Hidden Inside Time](excavations/215-fourier-analysis/README.md) — *also: Numerical Analysis & Scientific Computing*
+- **218** [Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion](excavations/218-expectation-variance-covariance/README.md) — *also: Probability & Statistics*
 
 <a id="calculus"></a>
 ## Calculus & Differential Change
@@ -169,6 +191,12 @@ Local sensitivity, gradients, composition, curvature, and accumulated change.
 - **169** [Loss Scaling — Rescue Gradients Too Small to Represent](excavations/169-loss-scaling/README.md) — *also: Numerical Analysis & Scientific Computing*
 - **170** [Gradient Accumulation — Build a Large Batch That Does Not Fit](excavations/170-gradient-accumulation/README.md) — *also: Numerical Analysis & Scientific Computing*
 - **171** [Activation Checkpointing — Remember Less, Recompute Exactly](excavations/171-activation-checkpointing/README.md) — *also: Numerical Analysis & Scientific Computing*
+- **209** [Limits — Approaching What Cannot Be Reached in One Step](excavations/209-limits/README.md) — *also: Mathematical Foundations & Measurement*
+- **210** [Partial Derivatives and Gradients — One Landscape, Many Directions](excavations/210-partial-derivatives-gradients/README.md) — *also: Optimization*
+- **211** [Jacobians — When Many Outputs Change Together](excavations/211-jacobians/README.md) — *also: Linear Algebra & Geometry*
+- **212** [Hessians and Curvature — Why the Same Slope Can Hide Different Valleys](excavations/212-hessians-curvature/README.md) — *also: Optimization*
+- **213** [Taylor Approximation — Borrowing a Function’s Local Shape](excavations/213-taylor-approximation/README.md) — *also: Numerical Analysis & Scientific Computing*
+- **214** [Integrals — Reconstructing a Whole from Infinitesimal Pieces](excavations/214-integrals/README.md) — *also: Mathematical Foundations & Measurement*
 
 <a id="probability"></a>
 ## Probability & Statistics
@@ -235,6 +263,13 @@ Uncertainty, distributions, sampling, estimation, variation, and evidence from d
 - **187** [Compute-Optimal Allocation — Buy a Larger Memory or More Experience?](excavations/187-compute-optimal-allocation/README.md) — *also: Optimization, Numerical Analysis & Scientific Computing*
 - **190** [Gradient Noise Scale — When More Examples Stop Buying More Direction](excavations/190-gradient-noise-scale/README.md) — *also: Optimization, Numerical Analysis & Scientific Computing*
 - **198** [A Memorization Audit — Did the Model Learn a Pattern or Store a Passage?](excavations/198-memorization-audit/README.md) — *also: Information Theory, Causality & Experimental Design*
+- **216** [Random Variables and Distributions — Turning Outcomes into Quantities](excavations/216-random-variables-distributions/README.md) — *also: Mathematical Foundations & Measurement*
+- **217** [Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief](excavations/217-conditional-probability-bayes/README.md) — *also: Mathematical Foundations & Measurement*
+- **218** [Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion](excavations/218-expectation-variance-covariance/README.md) — *also: Linear Algebra & Geometry*
+- **219** [The Law of Large Numbers — Why Averages Eventually Settle](excavations/219-law-large-numbers/README.md) — *also: Mathematical Foundations & Measurement*
+- **220** [The Central Limit Theorem — Why Bell Shapes Keep Appearing](excavations/220-central-limit-theorem/README.md) — *also: Mathematical Foundations & Measurement*
+- **221** [Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?](excavations/221-hypothesis-tests-confidence-intervals/README.md) — *also: Causality & Experimental Design*
+- **222** [Markov Chains — When the Present Carries the Relevant Past](excavations/222-markov-chains/README.md) — *also: Dynamical Systems, Control & Decision Theory*
 
 <a id="information"></a>
 ## Information Theory
@@ -331,6 +366,10 @@ Turning measured error into a controlled search for better parameters or decisio
 - **190** [Gradient Noise Scale — When More Examples Stop Buying More Direction](excavations/190-gradient-noise-scale/README.md) — *also: Probability & Statistics, Numerical Analysis & Scientific Computing*
 - **199** [The Training Report — Preserve the Decisions, Not Only the Weights](excavations/199-training-report/README.md) — *also: Discrete Mathematics, Logic & Algorithms, Mathematical Foundations & Measurement*
 - **200** [A Tiny Pretraining Factory — Close the Accountable Training Loop](excavations/200-tiny-pretraining-factory/README.md) — *also: Numerical Analysis & Scientific Computing*
+- **210** [Partial Derivatives and Gradients — One Landscape, Many Directions](excavations/210-partial-derivatives-gradients/README.md) — *also: Calculus & Differential Change*
+- **212** [Hessians and Curvature — Why the Same Slope Can Hide Different Valleys](excavations/212-hessians-curvature/README.md) — *also: Calculus & Differential Change*
+- **223** [Dynamic Programming — Remembering the Value of Futures Already Solved](excavations/223-dynamic-programming/README.md) — *also: Dynamical Systems, Control & Decision Theory, Discrete Mathematics, Logic & Algorithms*
+- **224** [Convexity — A Landscape Without Hidden Valleys](excavations/224-convexity/README.md) — *also: Mathematical Foundations & Measurement*
 
 <a id="discrete"></a>
 ## Discrete Mathematics, Logic & Algorithms
@@ -380,6 +419,10 @@ Sets, rules, masks, states, search, proofs, programs, and finite procedures.
 - **182** [Data Provenance — Keep the Path Back to Every Source](excavations/182-data-provenance/README.md) — *also: Mathematical Foundations & Measurement*
 - **193** [Three-Dimensional Parallelism — Give Each Memory Wall Its Own Axis](excavations/193-three-dimensional-parallelism/README.md) — *also: Numerical Analysis & Scientific Computing*
 - **199** [The Training Report — Preserve the Decisions, Not Only the Weights](excavations/199-training-report/README.md) — *also: Optimization, Mathematical Foundations & Measurement*
+- **201** [Sets — Drawing a Boundary Around ‘Belongs’](excavations/201-sets/README.md) — *also: Mathematical Foundations & Measurement*
+- **202** [Relations — When Two Objects Are Connected](excavations/202-relations/README.md) — *also: Graphs & Relational Structures, Mathematical Foundations & Measurement*
+- **203** [Functions — A Reusable Promise from Input to Output](excavations/203-functions/README.md) — *also: Mathematical Foundations & Measurement*
+- **223** [Dynamic Programming — Remembering the Value of Futures Already Solved](excavations/223-dynamic-programming/README.md) — *also: Dynamical Systems, Control & Decision Theory, Optimization*
 
 <a id="graphs"></a>
 ## Graphs & Relational Structures
@@ -390,6 +433,7 @@ Nodes, edges, paths, message passing, dependency, and coordinated relationships.
 - **063** [Multi-Agent Coordination — When Should Work Be Divided?](excavations/063-multi-agent-coordination/README.md) — *also: Discrete Mathematics, Logic & Algorithms*
 - **118** [Knowledge Graphs](excavations/118-knowledge-graphs/README.md) — *also: Discrete Mathematics, Logic & Algorithms*
 - **119** [Graph Neural Networks](excavations/119-graph-neural-networks/README.md) — *also: Linear Algebra & Geometry, Optimization*
+- **202** [Relations — When Two Objects Are Connected](excavations/202-relations/README.md) — *also: Discrete Mathematics, Logic & Algorithms, Mathematical Foundations & Measurement*
 
 <a id="numerical"></a>
 ## Numerical Analysis & Scientific Computing
@@ -441,6 +485,10 @@ How finite machines approximate, store, rearrange, and accelerate mathematical w
 - **193** [Three-Dimensional Parallelism — Give Each Memory Wall Its Own Axis](excavations/193-three-dimensional-parallelism/README.md) — *also: Discrete Mathematics, Logic & Algorithms*
 - **194** [Sharded Checkpoints — Save One Recoverable State Without Gathering It](excavations/194-sharded-checkpoints/README.md) — *also: Dynamical Systems, Control & Decision Theory*
 - **200** [A Tiny Pretraining Factory — Close the Accountable Training Loop](excavations/200-tiny-pretraining-factory/README.md) — *also: Optimization*
+- **208** [Singular Value Decomposition — The Important Directions of Any Matrix](excavations/208-singular-value-decomposition/README.md) — *also: Linear Algebra & Geometry*
+- **213** [Taylor Approximation — Borrowing a Function’s Local Shape](excavations/213-taylor-approximation/README.md) — *also: Calculus & Differential Change*
+- **215** [Fourier Analysis — Hearing Frequencies Hidden Inside Time](excavations/215-fourier-analysis/README.md) — *also: Linear Algebra & Geometry*
+- **225** [Numerical Stability — Preserving Mathematics Inside a Finite Machine](excavations/225-numerical-stability/README.md) — *also: Mathematical Foundations & Measurement*
 
 <a id="dynamics"></a>
 ## Dynamical Systems, Control & Decision Theory
@@ -474,6 +522,9 @@ States changing through time, feedback, planning, action, stability, and consequ
 - **194** [Sharded Checkpoints — Save One Recoverable State Without Gathering It](excavations/194-sharded-checkpoints/README.md) — *also: Numerical Analysis & Scientific Computing*
 - **195** [Deterministic Resume — Continue the Same Experiment, Not a Similar One](excavations/195-deterministic-resume/README.md) — *also: Causality & Experimental Design*
 - **196** [Loss Spikes — Distinguish One Hard Batch from a Run Leaving the Road](excavations/196-loss-spike-recovery/README.md) — *also: Mathematical Foundations & Measurement*
+- **206** [Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn](excavations/206-eigenvectors-eigenvalues/README.md) — *also: Linear Algebra & Geometry*
+- **222** [Markov Chains — When the Present Carries the Relevant Past](excavations/222-markov-chains/README.md) — *also: Probability & Statistics*
+- **223** [Dynamic Programming — Remembering the Value of Futures Already Solved](excavations/223-dynamic-programming/README.md) — *also: Optimization, Discrete Mathematics, Logic & Algorithms*
 
 <a id="causality"></a>
 ## Causality & Experimental Design
@@ -519,6 +570,7 @@ Separating causes from coincidences through interventions, controls, and counter
 - **195** [Deterministic Resume — Continue the Same Experiment, Not a Similar One](excavations/195-deterministic-resume/README.md) — *also: Dynamical Systems, Control & Decision Theory*
 - **197** [A Validation Stream — Ask Whether Learning Survives Outside the Current Batch](excavations/197-validation-stream/README.md) — *also: Mathematical Foundations & Measurement*
 - **198** [A Memorization Audit — Did the Model Learn a Pattern or Store a Passage?](excavations/198-memorization-audit/README.md) — *also: Information Theory, Probability & Statistics*
+- **221** [Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?](excavations/221-hypothesis-tests-confidence-intervals/README.md) — *also: Probability & Statistics*
 
 ## Chronological lineage index
 
@@ -727,3 +779,28 @@ This table keeps the causal reading order while exposing the mathematical thread
 | 198 | [A Memorization Audit — Did the Model Learn a Pattern or Store a Passage?](excavations/198-memorization-audit/README.md) | Information Theory · Probability & Statistics · Causality & Experimental Design | Data and pretraining operations |
 | 199 | [The Training Report — Preserve the Decisions, Not Only the Weights](excavations/199-training-report/README.md) | Optimization · Discrete Mathematics, Logic & Algorithms · Mathematical Foundations & Measurement | Data and pretraining operations |
 | 200 | [A Tiny Pretraining Factory — Close the Accountable Training Loop](excavations/200-tiny-pretraining-factory/README.md) | Optimization · Numerical Analysis & Scientific Computing | Data and pretraining operations |
+| 201 | [Sets — Drawing a Boundary Around ‘Belongs’](excavations/201-sets/README.md) | Discrete Mathematics, Logic & Algorithms · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 202 | [Relations — When Two Objects Are Connected](excavations/202-relations/README.md) | Discrete Mathematics, Logic & Algorithms · Graphs & Relational Structures · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 203 | [Functions — A Reusable Promise from Input to Output](excavations/203-functions/README.md) | Mathematical Foundations & Measurement · Discrete Mathematics, Logic & Algorithms | Mathematical roots beneath the machine |
+| 204 | [Bases and Coordinates — The Same Object in Another Language](excavations/204-bases-coordinates/README.md) | Linear Algebra & Geometry · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 205 | [Span and Linear Independence — Which Directions Are Truly New?](excavations/205-span-linear-independence/README.md) | Linear Algebra & Geometry · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 206 | [Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn](excavations/206-eigenvectors-eigenvalues/README.md) | Linear Algebra & Geometry · Dynamical Systems, Control & Decision Theory | Mathematical roots beneath the machine |
+| 207 | [Orthogonality and Projection — Finding the Closest Shadow](excavations/207-orthogonality-projection/README.md) | Linear Algebra & Geometry · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 208 | [Singular Value Decomposition — The Important Directions of Any Matrix](excavations/208-singular-value-decomposition/README.md) | Linear Algebra & Geometry · Numerical Analysis & Scientific Computing | Mathematical roots beneath the machine |
+| 209 | [Limits — Approaching What Cannot Be Reached in One Step](excavations/209-limits/README.md) | Calculus & Differential Change · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 210 | [Partial Derivatives and Gradients — One Landscape, Many Directions](excavations/210-partial-derivatives-gradients/README.md) | Calculus & Differential Change · Optimization | Mathematical roots beneath the machine |
+| 211 | [Jacobians — When Many Outputs Change Together](excavations/211-jacobians/README.md) | Calculus & Differential Change · Linear Algebra & Geometry | Mathematical roots beneath the machine |
+| 212 | [Hessians and Curvature — Why the Same Slope Can Hide Different Valleys](excavations/212-hessians-curvature/README.md) | Calculus & Differential Change · Optimization | Mathematical roots beneath the machine |
+| 213 | [Taylor Approximation — Borrowing a Function’s Local Shape](excavations/213-taylor-approximation/README.md) | Calculus & Differential Change · Numerical Analysis & Scientific Computing | Mathematical roots beneath the machine |
+| 214 | [Integrals — Reconstructing a Whole from Infinitesimal Pieces](excavations/214-integrals/README.md) | Calculus & Differential Change · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 215 | [Fourier Analysis — Hearing Frequencies Hidden Inside Time](excavations/215-fourier-analysis/README.md) | Linear Algebra & Geometry · Numerical Analysis & Scientific Computing | Mathematical roots beneath the machine |
+| 216 | [Random Variables and Distributions — Turning Outcomes into Quantities](excavations/216-random-variables-distributions/README.md) | Probability & Statistics · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 217 | [Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief](excavations/217-conditional-probability-bayes/README.md) | Probability & Statistics · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 218 | [Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion](excavations/218-expectation-variance-covariance/README.md) | Probability & Statistics · Linear Algebra & Geometry | Mathematical roots beneath the machine |
+| 219 | [The Law of Large Numbers — Why Averages Eventually Settle](excavations/219-law-large-numbers/README.md) | Probability & Statistics · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 220 | [The Central Limit Theorem — Why Bell Shapes Keep Appearing](excavations/220-central-limit-theorem/README.md) | Probability & Statistics · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 221 | [Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?](excavations/221-hypothesis-tests-confidence-intervals/README.md) | Probability & Statistics · Causality & Experimental Design | Mathematical roots beneath the machine |
+| 222 | [Markov Chains — When the Present Carries the Relevant Past](excavations/222-markov-chains/README.md) | Probability & Statistics · Dynamical Systems, Control & Decision Theory | Mathematical roots beneath the machine |
+| 223 | [Dynamic Programming — Remembering the Value of Futures Already Solved](excavations/223-dynamic-programming/README.md) | Dynamical Systems, Control & Decision Theory · Optimization · Discrete Mathematics, Logic & Algorithms | Mathematical roots beneath the machine |
+| 224 | [Convexity — A Landscape Without Hidden Valleys](excavations/224-convexity/README.md) | Optimization · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |
+| 225 | [Numerical Stability — Preserving Mathematics Inside a Finite Machine](excavations/225-numerical-stability/README.md) | Numerical Analysis & Scientific Computing · Mathematical Foundations & Measurement | Mathematical roots beneath the machine |

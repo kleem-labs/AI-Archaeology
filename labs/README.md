@@ -20,6 +20,9 @@ edit it away. Ask which belief the experiment disproved.
 | [Query, key, value](03_attention_lab.py) | [010 QKV](../excavations/010-query-key-value/README.md) | matching versus contributed content |
 | [Gradient step size](04_gradient_lab.py) | [025 Gradient Descent](../excavations/025-gradient-descent/README.md) | steps too timid or too large |
 | [Generation loop](05_generation_lab.py) | [045 Tiny GPT](../excavations/045-tiny-gpt/README.md) | score, choice, and context feedback |
+| [Measured engine rebuild](06_engine_rebuild_lab.py) | [151–175](../excavations/151-reproducible-baseline/README.md) | equivalence under faster engine paths |
+| [Accountable pretraining factory](07_pretraining_factory_lab.py) | [176–200](../excavations/176-corpus-manifest/README.md) | provenance, recovery, and release gates |
+| [Mathematical roots](08_mathematical_roots_lab.py) | [201–225](../excavations/201-sets/README.md) | membership, geometry, evidence, future value, and finite arithmetic |
 
 Run all experiments and their checks from the repository root:
 
@@ -27,6 +30,7 @@ Run all experiments and their checks from the repository root:
 python3 -m unittest discover -s tests -v
 ```
 
-These five are the first polished laboratory trail. They establish the design
-standard that each remaining excavation must eventually meet; they do not
-pretend that 126 chapters have already received equally deep experiments.
+These eight connected labs form the polished laboratory trail. Every excavation
+also keeps its own Pure Python, NumPy, and PyTorch experiment beside the chapter,
+so the central labs reveal long arcs while the chapter labs expose each local
+mathematical invention.

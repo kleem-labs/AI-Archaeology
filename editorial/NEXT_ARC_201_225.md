@@ -1,14 +1,14 @@
-# Proposed Volume VI — The Roots Beneath the Machine
+# Volume VI — The Roots Beneath the Machine
 
-The first complete edition should stop at **Excavation 225**.
+The first complete edition now stops at **Excavation 225**.
 
 Excavations 000–200 construct an accountable AI system from observation to a
-pretraining factory. The final twenty-five should not add another parade of AI
+pretraining factory. The final twenty-five do not add another parade of AI
 products. They should turn around, descend beneath the completed machine, and
 excavate the mathematical foundations that the earlier journey used without
 yet exploring deeply enough.
 
-This makes the remaining count finite and purposeful: **25 more excavations**.
+This makes the final count finite and purposeful: **25 closing excavations**.
 After 225, new subjects should enter as optional branches, specialist field
 guides, or a later edition rather than endlessly extending the central road.
 

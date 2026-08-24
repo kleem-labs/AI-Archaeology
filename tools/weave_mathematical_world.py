@@ -36,6 +36,7 @@ WORLDS = (
     (126, 150, "the Academy of Trials", "experimentalist", "sealed evidence ledger"),
     (151, 175, "the Engine Cavern", "enginewright", "brass reference machine"),
     (176, 200, "the Archive Foundry", "archivist-engineer", "chain-of-custody ledger"),
+    (201, 225, "the Undercroft of First Principles", "mathematical archaeologist", "stone workbench"),
 )
 
 REALM_ECHOES = (
@@ -52,6 +53,7 @@ REALM_ECHOES = (
     "At the Academy of Trials, {concept} is built from controlled differences. Hold the surrounding world still, change one claimed cause, and measure what survives. Subtraction becomes intellectual honesty: remove the baseline before calling the remainder an improvement.",
     "The Engine Cavern lets {concept} change speed, memory, or scale while the brass reference machine guards meaning. Equality here is not decoration; it is a promise that the optimized path performs the same mathematical responsibility by another physical route.",
     "In the Archive Foundry, {concept} joins mathematics to memory. Sets identify what must be present, hashes preserve identity, counts bound exposure, and arrows keep every transformation attached to its source. A model may forget its documents internally; the factory must not forget them externally.",
+    "In the Undercroft, {concept} is recovered beneath the machine that had already been using it. Concrete objects remain visible until every symbol has a human job, and each operation stays connected to the failure that made it necessary.",
 )
 
 
@@ -202,6 +204,11 @@ CODAS = {
         "The mandala returns to observation",
         "The final artifact carries its documents, transformations, budgets, checkpoints, validation, audits, and release decision as evidence. The circle does not close by declaring perfection. It closes by returning every future change to the first law: observe what happened, let failure speak, and invent only what the world makes necessary.",
         "observation → need → mathematics → machine → consequence → observation",
+    ),
+    225: (
+        "The roots return to the living mandala",
+        "Sets, spaces, change, uncertainty, evidence, decisions, optimization, and stable computation now form one connected memory. No equation arrived as authority: each became the shortest record of a human repair already reconstructed.",
+        "observation → failed idea → necessity → mathematics → machine → observation",
     ),
 }
 
