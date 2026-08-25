@@ -2,8 +2,8 @@
 
 The excavation folders are workshops. These six volumes are the uninterrupted
 reading edition. Supporting code, diagrams, mistakes, exercises, and references
-remain beside the chapter they belong to and are linked at the end of each
-chapter.
+remain beside the chapter they belong to in the main excavation contents. They
+are deliberately kept out of these volumes so the narrative is never interrupted.
 
 Before beginning, read [How to Master AI Archaeology](../HOW_TO_MASTER_THIS_BOOK.md).
 It explains the three passages through each part: discovery, construction, and

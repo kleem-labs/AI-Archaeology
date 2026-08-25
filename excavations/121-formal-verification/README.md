@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Program synthesis turns examples into candidate procedures. Tests inspect selected cases; a safety-critical system may need proof that a property holds for every input permitted by the specification.
 
-Morning reaches the Hall of Possible Worlds before anyone has a name for today's difficulty. Beside the table of mirrored maps, the keeper of unfinished questions tries the smallest continuation of what already works: add more random tests and call the property proven.
+The previous discovery reaches the Hall of Possible Worlds carrying one unfinished problem. Beside the table of mirrored maps, the keeper of unfinished questions first tries to add more random tests and call the property proven.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: an untested edge case can remain. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we add more random tests and call the property proven, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: an untested edge case can remain.
 
-```text
-possible road A ─┐
-                 ├── old map: add more random tests and call the…
-possible road B ─┘              └── loses: an untested edge case can remain
+This failure cannot be repaired by performing the instruction to add more random tests and call the property proven more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the table of mirrored maps; otherwise a changed answer could be mistaken for an explanation.
 
-same roads ──▶ repaired map ──▶ state assumptions and desired…
-```
+The evidence has earned one extension and no more. We need to state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-Two trails now cross the table of mirrored maps. The pale trail bears the instruction “add more random tests and call the property proven.” It disappears into the observed failure: an untested edge case can remain. The darker trail carries one additional capacity—to state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed formal verification mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the table of mirrored maps is altered in exactly one way: state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them. Much later, people will call this territory **Formal Verification**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the table of mirrored maps. The failed path remains visible beneath the repair, because formal verification is easier to remember when its scar remains attached to it. The scar reads, ‘an untested edge case can remain’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we add more random tests and call the property proven?
-
-## When the chamber changes
-
-Keep the formal name Formal Verification covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The vessel follows the tempting path—add more random tests and call the property proven. Then the evidence answers: an untested edge case can remain.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The vessel can now state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them.
-
-The object that should remain after the terminology disappears is **the formal verification vessel mounted on the table of mirrored maps**.
-
-> **Memory seal — Formal Verification**
->
-> Formal Verification keeps the missing power: state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them.
-
-Give the idea a bodily path: Touch the formal verification vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Formal Verification**. The name is simply a handle for the distinction already reconstructed.
 
 ## Understanding formal verification
 

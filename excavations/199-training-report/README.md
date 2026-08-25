@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,51 +13,17 @@
 
 Memorization auditing adds one essential limitation to the evaluation record. A released checkpoint still cannot explain its corpus, mixture, compute, interruptions, exclusions, intended uses, or known failures by inspecting weight tensors.
 
-Nothing in the Archive Foundry yet bears today's mathematical name. There is only the archivist-engineer, the chain-of-custody ledger, and one plausible action: publish the final benchmark table and assume the configuration files explain the rest.
+Inside the Archive Foundry, the old method is given an honest chance. The archivist-engineer places the evidence on the chain-of-custody ledger and tries to publish the final benchmark table and assume the configuration files explain the rest.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To publish the final benchmark table and assume the configuration files explain the rest is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The archivist-engineer sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   publish the final benchmark table and… a score has no visible data lineage,…
-            \        /
-             \      /
-              generate a training report from…
-```
+The important discovery is not merely that trying to publish the final benchmark table and assume the configuration files explain the rest failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the chain-of-custody ledger, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the chain-of-custody ledger. The pale trail bears the instruction “publish the final benchmark table and assume the configuration files explain the rest.” It disappears into the observed failure: a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested. The darker trail carries one additional capacity—to generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed training report mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the chain-of-custody ledger is altered in exactly one way: generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions. Much later, people will call this territory **The Training Report**. Here the name is only a memory of the failure it can survive.
-
-The chain-of-custody ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and training report looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we publish the final benchmark table and assume the configuration files explain the rest?
-
-## When the chamber changes
-
-The mathematical name The Training Report can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The mirror follows the tempting path—publish the final benchmark table and assume the configuration files explain the rest. Then the evidence answers: a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The mirror can now generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions.
-
-The object that should remain after the terminology disappears is **the training report mirror mounted on the chain-of-custody ledger**.
-
-> **Memory seal — The Training Report**
->
-> The Training Report keeps the missing power: generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions.
-
-Give the idea a bodily path: Touch the training report mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **The Training Report**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Preserve the Decisions, Not Only the Weights
 

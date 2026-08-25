@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,49 +13,17 @@
 
 Graph neural networks propagate learned messages through relational structure. Some tasks demand more than one answer: they demand a reusable procedure that maps every allowed input to an output.
 
-At the Hall of Possible Worlds, the keeper of unfinished questions returns to the table of mirrored maps. Yesterday's instrument still lies open, so the first move asks for no new magic: memorize the provided input-output pairs.
+At the Hall of Possible Worlds, the keeper of unfinished questions meets the next case beside the table of mirrored maps. The nearest idea is also the most reasonable one: memorize the provided input-output pairs.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: a new input exposes the absence of an underlying algorithm. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To memorize the provided input-output pairs reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: a new input exposes the absence of an underlying algorithm.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ memorize the provided input-output… ──▶ blurred: a new input exposes the absence of an…
-      │
-      └── new lens ──▶ search or generate candidate… ──▶ distinction survives
-```
+The contradiction matters because it identifies a structural loss in the instruction to memorize the provided input-output pairs, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The table of mirrored maps will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The keeper of unfinished questions lays two translucent sheets over the table of mirrored maps. The first is inscribed, “memorize the provided input-output pairs.” Its path ends where a new input exposes the absence of an underlying algorithm. The second receives the same evidence but is allowed to search or generate candidate programs, execute them, and keep those satisfying examples and constraints. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must search or generate candidate programs, execute them, and keep those satisfying examples and constraints. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a program synthesis formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The keeper of unfinished questions changes only that one responsibility: search or generate candidate programs, execute them, and keep those satisfying examples and constraints. When the ink dries, the name **Program Synthesis** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The table of mirrored maps keeps both histories. Its older mark still says, ‘memorize the provided input-output pairs’; beside it, the newer mark says, ‘search or generate candidate programs, execute them, and keep those satisfying examples and constraints.’ The distance between those sentences is the exact shape of program synthesis: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we memorize the provided input-output pairs?
-
-## When the chamber changes
-
-The Program Synthesis room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The bell follows the tempting path—memorize the provided input-output pairs. Then the evidence answers: a new input exposes the absence of an underlying algorithm.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The bell can now search or generate candidate programs, execute them, and keep those satisfying examples and constraints.
-
-The object that should remain after the terminology disappears is **the program synthesis bell mounted on the table of mirrored maps**.
-
-> **Memory seal — Program Synthesis**
->
-> Program Synthesis keeps the missing power: search or generate candidate programs, execute them, and keep those satisfying examples and constraints.
-
-Give the idea a bodily path: Touch the program synthesis bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Program Synthesis**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding program synthesis
 

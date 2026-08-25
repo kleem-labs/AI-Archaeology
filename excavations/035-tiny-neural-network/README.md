@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,51 +13,17 @@
 
 Generalization is the property we actually wanted: useful structure that survives new cases. We have derived its pieces separately; now they must become one visible machine whose prediction, loss, blame, and update form a complete loop.
 
-Night gathers around the Lantern Observatory. Under the light of the ring of glass lanterns, the keeper of uncertain stories refuses to invent prematurely and begins with the plain rule: hide everything behind a framework call.
+Inside the Lantern Observatory, the old method is given an honest chance. The keeper of uncertain stories places the evidence on the ring of glass lanterns and tries to hide everything behind a framework call.
 
-At the edge of the ring of glass lanterns, the shortcut produces its consequence: the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To hide everything behind a framework call is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   hide everything behind a framework… the code runs, but the causal chain…
-            \        /
-             \      /
-              we need to build a two-layer network,…
-```
+The important discovery is not merely that trying to hide everything behind a framework call failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the ring of glass lanterns, so success cannot be manufactured by quietly replacing the original question.
 
-The keeper of uncertain stories covers the new mark and the old contradiction returns: the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning. The cover is lifted, restoring the ability to build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason tiny neural network exists.
+The old construction is therefore not discarded. It is widened just enough to build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-What must change for tiny neural network is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data. That threshold is where **A Tiny Neural Network** enters the story.
-
-The marks on the ring of glass lanterns form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. tiny neural network is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we hide everything behind a framework call?
-
-## When the chamber changes
-
-The A Tiny Neural Network room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The lantern follows the tempting path—hide everything behind a framework call. Then the evidence answers: the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The lantern can now build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
-
-The object that should remain after the terminology disappears is **the tiny neural network lantern mounted on the ring of glass lanterns**.
-
-> **Memory seal — A Tiny Neural Network**
->
-> A Tiny Neural Network keeps the missing power: build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
-
-Give the idea a bodily path: Touch the tiny neural network lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **A Tiny Neural Network**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## The calculation hidden inside a tiny neural network
 

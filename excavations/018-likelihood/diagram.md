@@ -24,8 +24,8 @@ OBJECT         the likelihood key mounted on the ring of glass lanterns
      ↓
 VISIBLE BREAK  The key follows the tempting path—ask which story is generally more believable. Then the evidence answers: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
      ↓
-TRANSFORMATION The keeper of uncertain stories changes one moving part. The key can now reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
+TRANSFORMATION The keeper of uncertain stories changes one moving part. The key can now reverse the question: if this story were true, how expected would the observed evidence be?.
      ↓
-MEMORY SEAL    Likelihood keeps the missing power: reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
+MEMORY SEAL    Likelihood keeps the missing power: reverse the question: if this story were true, how expected would the observed evidence be?.
 ```
 <!-- memory-film-v1:end -->

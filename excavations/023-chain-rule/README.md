@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,51 +13,17 @@
 
 A derivative can question one weight when its effect on loss is direct. Inside the network, that weight first changes a hidden signal, then a score, then a probability, and only then the loss.
 
-Nothing in the Lantern Observatory yet bears today's mathematical name. There is only the keeper of uncertain stories, the ring of glass lanterns, and one plausible action: measure only the first effect or only the final effect.
+Inside the Lantern Observatory, the old method is given an honest chance. The keeper of uncertain stories places the evidence on the ring of glass lanterns and tries to measure only the first effect or only the final effect.
 
-At the edge of the ring of glass lanterns, the shortcut produces its consequence: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To measure only the first effect or only the final effect is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   measure only the first effect or only… either breaks the causal path.…
-            \        /
-             \      /
-              we need to multiply local…
-```
+The important discovery is not merely that trying to measure only the first effect or only the final effect failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the ring of glass lanterns, so success cannot be manufactured by quietly replacing the original question.
 
-The keeper of uncertain stories covers the new mark and the old contradiction returns: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work. The cover is lifted, restoring the ability to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason chain rule exists.
+The old construction is therefore not discarded. It is widened just enough to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-What must change for chain rule is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward. That threshold is where **The Chain Rule** enters the story.
-
-The marks on the ring of glass lanterns form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. chain rule is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we measure only the first effect or only the final effect?
-
-## When the chamber changes
-
-Before leaving The Chain Rule, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The mirror follows the tempting path—measure only the first effect or only the final effect. Then the evidence answers: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The mirror can now multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
-
-The object that should remain after the terminology disappears is **the chain rule mirror mounted on the ring of glass lanterns**.
-
-> **Memory seal — The Chain Rule**
->
-> The Chain Rule keeps the missing power: multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
-
-Give the idea a bodily path: Touch the chain rule mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **The Chain Rule**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## The calculation hidden inside the chain rule
 
@@ -75,7 +43,7 @@ The product gives the effect of w on L without pretending they touch directly.
 Each [derivative](../../MATHEMATICAL_MOVES.md#derivative) is a local conversion rate: loss per y, y per x, and x per weight.
 [Multiplying the rates](../../MATHEMATICAL_MOVES.md#multiplication) is forced because one unit of weight change produces dx/dw units of x, each produces dy/dx units of y, and each of those produces dL/dy loss. Adding would mix rates with incompatible units.
 
-Before the line is compressed, notice its recurring motions: **the whispered question**—the present slope answers how a tiny movement would alter the outcome; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the whispered question**—the present slope answers how a tiny movement would alter the outcome; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The ring of glass lanterns already contains the complete chain rule mechanism. Mathematics gives that mechanism a form small enough to carry:
 

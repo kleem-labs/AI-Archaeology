@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,49 +13,17 @@
 
 An embedding table gives every token a learned starting description. The sentences “dog bites man” and “man bites dog” still contain the same three descriptions, so the machine cannot tell who did what.
 
-The doors of the Clockwork Scriptorium close against the wind. On the sentence-wheel, the mechanist writes the cheapest rule that might still be true: sort tokens by ID or trust their array slot without exposing it to the model.
+A new case arrives at the Clockwork Scriptorium. Nothing yet demands a new invention, so the mechanist uses the sentence-wheel to sort tokens by ID or trust their array slot without exposing it to the model.
 
-Reality answers without terminology: the first invents arbitrary order; the second stores position outside the computation. The sentence-wheel now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to sort tokens by ID or trust their array slot without exposing it to the model preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The mechanist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the first invents arbitrary order; the second stores position outside the computation.
 
-```text
-reference evidence ──▶ shortcut: sort tokens by ID or trust their…
-                         │
-                         └── mismatch: the first invents arbitrary order;…
+The counterexample separates two questions that the attempt to sort tokens by ID or trust their array slot without exposing it to the model had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the sentence-wheel fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-reference evidence ──▶ measured repair: add a position-specific vector to…
-```
+Only the broken responsibility needs to change. The method must now add a position-specific vector to each token vector before attention. Content says what; position says where. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The sentence-wheel is divided down the middle. Left side: “sort tokens by ID or trust their array slot without exposing it to the model.” Its final mark records the first invents arbitrary order; the second stores position outside the computation. Right side: the same starting evidence, now allowed to add a position-specific vector to each token vector before attention. Content says what; position says where. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given position a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: add a position-specific vector to each token vector before attention. Content says what; position says where. The name **Position** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from position through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the first invents arbitrary order; the second stores position outside the computation. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** Why Order Must Enter the Model?
-
-## When the chamber changes
-
-Before leaving Position, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The thread follows the tempting path—sort tokens by ID or trust their array slot without exposing it to the model. Then the evidence answers: the first invents arbitrary order; the second stores position outside the computation.
-
-Now let the chamber move: The mechanist changes one moving part. The thread can now add a position-specific vector to each token vector before attention. Content says what; position says where.
-
-The object that should remain after the terminology disappears is **the position thread mounted on the sentence-wheel**.
-
-> **Memory seal — Position**
->
-> Position keeps the missing power: add a position-specific vector to each token vector before attention. Content says what; position says where.
-
-Give the idea a bodily path: Touch the position thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Position**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## The calculation hidden inside position
 

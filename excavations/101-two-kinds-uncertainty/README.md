@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
 >
@@ -15,48 +17,17 @@
 
 The complete system acts responsibly only if it knows when its evidence is weak. A blurry tiger and a perfectly clear animal from an unseen species both produce uncertainty, but they call for different remedies.
 
-A new case arrives at the Hall of Possible Worlds, but the keeper of unfinished questions first reaches for the familiar table of mirrored maps. Its promise is simple: represent every uncertainty with one low confidence number.
+The previous discovery reaches the Hall of Possible Worlds carrying one unfinished problem. Beside the table of mirrored maps, the keeper of unfinished questions first tries to represent every uncertainty with one low confidence number.
 
-At the edge of the table of mirrored maps, the shortcut produces its consequence: a clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we represent every uncertainty with one low confidence number, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: a clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
 
-```text
-OLD PATH:  request ──▶ represent every uncertainty with one… ──▶ a clearer image can repair blur, but…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ separate uncertainty in the… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to represent every uncertainty with one low confidence number more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the table of mirrored maps; otherwise a changed answer could be mistaken for an explanation.
 
-The keeper of unfinished questions covers the new mark and the old contradiction returns: a clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome. The cover is lifted, restoring the ability to separate uncertainty in the observation from uncertainty in the model’s knowledge, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason two kinds of uncertainty exists.
+The evidence has earned one extension and no more. We need to separate uncertainty in the observation from uncertainty in the model’s knowledge. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for two kinds of uncertainty is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: separate uncertainty in the observation from uncertainty in the model’s knowledge. That threshold is where **Two Kinds of Uncertainty** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In two kinds of uncertainty, that memory takes a precise form: whenever a clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome, preserve enough structure to separate uncertainty in the observation from uncertainty in the model’s knowledge. The mirrored maps beneath two kinds of uncertainty preserve a discipline learned from distance: compare like with like and keep the relevant difference visible. Here the compared objects are possible worlds, causes, proofs, memories, or programs rather than animal measurements.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we represent every uncertainty with one low confidence number?
-
-## When the chamber changes
-
-Keep the formal name Two Kinds of Uncertainty covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The bridge follows the tempting path—represent every uncertainty with one low confidence number. Then the evidence answers: a clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The bridge can now separate uncertainty in the observation from uncertainty in the model’s knowledge.
-
-The object that should remain after the terminology disappears is **the two kinds of uncertainty bridge mounted on the table of mirrored maps**.
-
-> **Memory seal — Two Kinds of Uncertainty**
->
-> Two Kinds of Uncertainty keeps the missing power: separate uncertainty in the observation from uncertainty in the model’s knowledge.
-
-Give the idea a bodily path: Touch the two kinds of uncertainty bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Two Kinds of Uncertainty**. The name is simply a handle for the distinction already reconstructed.
 
 ## Understanding two kinds of uncertainty
 

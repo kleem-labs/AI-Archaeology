@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,48 +13,17 @@
 
 Adversarial robustness tests whether behavior survives hostile changes. The system can now run experiments on itself, but open-ended discovery becomes unsafe if it can rewrite objectives, evidence standards, or deployment authority.
 
-A new case arrives at the Hall of Possible Worlds, but the keeper of unfinished questions first reaches for the familiar table of mirrored maps. Its promise is simple: let it generate experiments, change itself, and deploy improvements automatically.
+The previous discovery reaches the Hall of Possible Worlds carrying one unfinished problem. Beside the table of mirrored maps, the keeper of unfinished questions first tries to let it generate experiments, change itself, and deploy improvements automatically.
 
-At the edge of the table of mirrored maps, the shortcut produces its consequence: a flawed metric or experiment compounds through self-modification before external review. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we let it generate experiments, change itself, and deploy improvements automatically, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: a flawed metric or experiment compounds through self-modification before external review.
 
-```text
-OLD PATH:  request ──▶ let it generate experiments, change… ──▶ a flawed metric or experiment…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ separate hypothesis generation,… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to let it generate experiments, change itself, and deploy improvements automatically more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the table of mirrored maps; otherwise a changed answer could be mistaken for an explanation.
 
-The keeper of unfinished questions covers the new mark and the old contradiction returns: a flawed metric or experiment compounds through self-modification before external review. The cover is lifted, restoring the ability to separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason open-ended research system exists.
+The evidence has earned one extension and no more. We need to separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for open-ended research system is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment. That threshold is where **An Open-Ended Research System** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In open-ended research system, that memory takes a precise form: whenever a flawed metric or experiment compounds through self-modification before external review, preserve enough structure to separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we let it generate experiments, change itself, and deploy improvements automatically?
-
-## When the chamber changes
-
-The An Open-Ended Research System room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The scale follows the tempting path—let it generate experiments, change itself, and deploy improvements automatically. Then the evidence answers: a flawed metric or experiment compounds through self-modification before external review.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The scale can now separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
-
-The object that should remain after the terminology disappears is **the open-ended research system scale mounted on the table of mirrored maps**.
-
-> **Memory seal — An Open-Ended Research System**
->
-> An Open-Ended Research System keeps the missing power: separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment.
-
-Give the idea a bodily path: Touch the open-ended research system scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **An Open-Ended Research System**. The name is simply a handle for the distinction already reconstructed.
 
 ## Understanding an open-ended research system
 

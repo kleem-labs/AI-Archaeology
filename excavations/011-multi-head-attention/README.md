@@ -68,28 +68,6 @@ $$
 =\mathrm{Concat}(\text{head}_1,\ldots,\text{head}_H)W_O
 $$
 
-<!-- memory-film-v1:start -->
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** What if understanding one word requires several kinds of relevance at once?
-
-## When the chamber changes
-
-Keep the formal name Multi-Head Attention covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: One attention beam must choose between syntax, identity, position, and reference, flattening different relationships into one compromise.
-
-Now let the chamber move: Several windows open; each follows one kind of relationship before their views reunite.
-
-The object that should remain after the terminology disappears is **a many-windowed observatory aimed at the same sentence**.
-
-> **Memory seal — Multi-Head Attention**
->
-> Multi-head attention lets several relational questions be asked in parallel before their answers meet.
-
-Give the idea a bodily path: Fan your fingers like separate rays, then close them into one hand.
-<!-- memory-film-v1:end -->
-
 ## Challenge
 
 Give two different relationships needed to understand “The keys to the cabinet near the stairs are missing.” Explain why forcing both into one attention distribution could create a compromise.

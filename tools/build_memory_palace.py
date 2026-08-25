@@ -17,6 +17,7 @@ from weave_mathematical_world import BREAKS, REVEALS, SCENES, WORLDS, world_for
 
 ROOT = Path(__file__).parents[1]
 OUTPUT = ROOT / "memory-palace"
+NARRATIVE_SOURCE = OUTPUT / "narrative_sources.json"
 START = "<!-- memory-film-v1:start -->"
 END = "<!-- memory-film-v1:end -->"
 
@@ -116,7 +117,7 @@ def action_phrase(value: str) -> str:
     return value[0].lower() + value[1:] if value else value
 
 
-def derived_memory(number: int) -> dict[str, str]:
+def derived_source(number: int) -> dict[str, str]:
     path = chapter_path(number)
     text = path.read_text()
     paragraphs = [p.strip() for p in text.split("\n\n") if p.strip()]
@@ -128,6 +129,21 @@ def derived_memory(number: int) -> dict[str, str]:
     failure = fill(BREAKS[number % len(BREAKS)], paragraphs[index + 2], values, "failure")
     reveal = next(p for p in paragraphs[index + 1:index + 14] if f"**{concept}**" in p)
     repair = fill(REVEALS[number % len(REVEALS)], reveal, values, "repair")
+    return {"attempt": attempt, "failure": failure, "repair": repair}
+
+
+def derived_memory(number: int) -> dict[str, str]:
+    path = chapter_path(number)
+    text = path.read_text()
+    place, keeper, base_object = world_for(number)
+    _title, concept, subtitle = title_parts(text)
+    if NARRATIVE_SOURCE.exists():
+        source = json.loads(NARRATIVE_SOURCE.read_text())[str(number)]
+    else:
+        source = derived_source(number)
+    attempt = source["attempt"]
+    failure = source["failure"]
+    repair = source["repair"]
     repair = action_phrase(repair)
     inline_concept = re.sub(r"^(?:A|An|The)\s+", "", concept).strip()
     artifact_kind = ARTIFACTS[number % len(ARTIFACTS)]
@@ -244,8 +260,9 @@ def replace_or_append(text: str, block: str) -> str:
 
 
 def write_chapters(memories: dict, journey: list[dict]) -> None:
-    # Volume VI already owns its individually authored five-frame films. The
-    # shared palace indexes those films without placing a second copy in them.
+    # The book and the recall palace are two reading modes. The prose must flow
+    # without commands to cover names, freeze frames, or perform gestures; the
+    # explicit five-frame ritual remains in the palace and companions.
     for number in range(201):
         path = chapter_path(number)
         text = path.read_text()
@@ -253,8 +270,8 @@ def write_chapters(memories: dict, journey: list[dict]) -> None:
         if number < len(FOUNDATION_LABELS):
             concept = FOUNDATION_LABELS[number]
         memory = memories[number]
-        realm = realm_for(number, journey)
-        path.write_text(insert_section(text, number, memory_section(number, concept, memory, realm)))
+        text = re.sub(rf"\n?{re.escape(START)}.*?{re.escape(END)}\n?", "\n", text, flags=re.S)
+        path.write_text(re.sub(r"\n{3,}", "\n\n", text).rstrip() + "\n")
         folder = path.parent
         diagram = folder / "diagram.md"
         diagram.write_text(replace_or_append(diagram.read_text(), companion_block(number, memory)))
@@ -366,7 +383,7 @@ def main() -> None:
         stale = [str(path) for path, content in generated.items() if not path.exists() or path.read_text() != content]
         for number in range(201):
             text = chapter_path(number).read_text()
-            if text.count(START) != 1 or text.count(END) != 1:
+            if START in text or END in text:
                 stale.append(str(chapter_path(number)))
         if stale:
             raise SystemExit("Memory palace is stale:\n" + "\n".join(stale))

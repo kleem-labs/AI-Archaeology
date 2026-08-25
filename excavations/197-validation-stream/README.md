@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Loss-spike monitoring protects the training process from obvious instability. A smooth training curve can still improve mainly on repeated or overrepresented training domains.
 
-A new case arrives at the Archive Foundry, but the archivist-engineer first reaches for the familiar chain-of-custody ledger. Its promise is simple: evaluate only the next training batch because it is already available.
+The previous discovery reaches the Archive Foundry carrying one unfinished problem. Beside the chain-of-custody ledger, the archivist-engineer first tries to evaluate only the next training batch because it is already available.
 
-At the edge of the chain-of-custody ledger, the shortcut produces its consequence: the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we evaluate only the next training batch because it is already available, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The archivist-engineer sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse.
 
-```text
-reference evidence ──▶ shortcut: evaluate only the next training batch…
-                         │
-                         └── mismatch: the same data mixture and duplicates…
+This failure cannot be repaired by performing the instruction to evaluate only the next training batch because it is already available more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the chain-of-custody ledger; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: maintain versioned, deduplicated,…
-```
+The evidence has earned one extension and no more. We need to maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The archivist-engineer covers the new mark and the old contradiction returns: the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse. The cover is lifted, restoring the ability to maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason validation stream exists.
-
-What must change for validation stream is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights. That threshold is where **A Validation Stream** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In validation stream, that memory takes a precise form: whenever the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse, preserve enough structure to maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we evaluate only the next training batch because it is already available?
-
-## When the chamber changes
-
-The A Validation Stream chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The bridge follows the tempting path—evaluate only the next training batch because it is already available. Then the evidence answers: the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The bridge can now maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights.
-
-The object that should remain after the terminology disappears is **the validation stream bridge mounted on the chain-of-custody ledger**.
-
-> **Memory seal — A Validation Stream**
->
-> A Validation Stream keeps the missing power: maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights.
-
-Give the idea a bodily path: Touch the validation stream bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **A Validation Stream**. The name is simply a handle for the distinction already reconstructed.
 
 ## Ask Whether Learning Survives Outside the Current Batch
 

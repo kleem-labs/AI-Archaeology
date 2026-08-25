@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Deterministic resume makes failures reproducible. During a long run, the observed loss sometimes jumps; automatically rewinding every jump wastes compute, while ignoring a sustained instability can destroy the model.
 
-Inside the Archive Foundry, every old tool is given one honest chance. The archivist-engineer sets the chain-of-custody ledger between the evidence and the desired answer, then tries to declare any loss larger than the previous loss a failure and restore immediately.
+At the Archive Foundry, the archivist-engineer meets the next case beside the chain-of-custody ledger. The nearest idea is also the most reasonable one: declare any loss larger than the previous loss a failure and restore immediately.
 
-The archivist-engineer repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: ordinary batches vary, so healthy learning triggers constant rollbacks. A slow divergence can rise without one dramatic step and escape the rule. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To declare any loss larger than the previous loss a failure and restore immediately reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The archivist-engineer sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: ordinary batches vary, so healthy learning triggers constant rollbacks. A slow divergence can rise without one dramatic step and escape the rule.
 
-```text
-possible road A ─┐
-                 ├── old map: declare any loss larger than the…
-possible road B ─┘              └── loses: ordinary batches vary, so healthy…
+The contradiction matters because it identifies a structural loss in the instruction to declare any loss larger than the previous loss a failure and restore immediately, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The chain-of-custody ledger will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-same roads ──▶ repaired map ──▶ compare current loss and gradient…
-```
+The repair can now be kept narrow. The new method must compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-Across the chain-of-custody ledger, the old path and the repaired path run side by side. One carries “declare any loss larger than the previous loss a failure and restore immediately”; the other knows how to compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response. When the failure—ordinary batches vary, so healthy learning triggers constant rollbacks. A slow divergence can rise without one dramatic step and escape the rule—arrives, only one path still possesses a place to record the missing distinction.
-
-The failure is no longer an embarrassment to loss spikes. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response. This problem and its repair will travel under the name **Loss Spikes**, but the name carries no knowledge the scene has not earned.
-
-What changed on the chain-of-custody ledger can be said without symbols. Before, the method could only declare any loss larger than the previous loss a failure and restore immediately; now it can also compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we declare any loss larger than the previous loss a failure and restore immediately?
-
-## When the chamber changes
-
-Keep the formal name Loss Spikes covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The compass follows the tempting path—declare any loss larger than the previous loss a failure and restore immediately. Then the evidence answers: ordinary batches vary, so healthy learning triggers constant rollbacks. A slow divergence can rise without one dramatic step and escape the rule.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The compass can now compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response.
-
-The object that should remain after the terminology disappears is **the loss spikes compass mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Loss Spikes**
->
-> Loss Spikes keeps the missing power: compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response.
-
-Give the idea a bodily path: Touch the loss spikes compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Loss Spikes**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Distinguish One Hard Batch from a Run Leaving the Road
 
@@ -71,7 +41,7 @@ L_t is the current monitored model loss, mu_t is its robust recent center, sigma
 
 Inside loss spikes, familiar operations return with stricter duties: **the chisel**—what is shared is removed so the remaining change can be seen; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
 
-Cover the prose about loss spikes and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming loss spikes equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 z_t=\frac{L_t-\mu_t}{\sigma_t}

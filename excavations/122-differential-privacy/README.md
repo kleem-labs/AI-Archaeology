@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,49 +13,17 @@
 
 Formal verification can prove universal properties of a program. Training and evaluating the wider system may still expose whether one person's sensitive record participated in the data.
 
-The table of mirrored maps at the Hall of Possible Worlds still carries the marks of the previous discovery. The keeper of unfinished questions follows them as far as they seem willing to go: remove names and assume records are anonymous.
+A new case arrives at the Hall of Possible Worlds. Nothing yet demands a new invention, so the keeper of unfinished questions uses the table of mirrored maps to remove names and assume records are anonymous.
 
-Reality answers without terminology: the trouble appears immediately: rare combinations and model outputs can re-identify individuals. The table of mirrored maps now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to remove names and assume records are anonymous preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the trouble appears immediately: rare combinations and model outputs can re-identify individuals.
 
-```text
-reference evidence ──▶ shortcut: remove names and assume records are…
-                         │
-                         └── mismatch: the trouble appears immediately: rare…
+The counterexample separates two questions that the attempt to remove names and assume records are anonymous had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the table of mirrored maps fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-reference evidence ──▶ measured repair: limit how much any one record can…
-```
+Only the broken responsibility needs to change. The method must now limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The table of mirrored maps is divided down the middle. Left side: “remove names and assume records are anonymous.” Its final mark records the trouble appears immediately: rare combinations and model outputs can re-identify individuals. Right side: the same starting evidence, now allowed to limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given differential privacy a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise. The name **Differential Privacy** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from differential privacy through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the trouble appears immediately: rare combinations and model outputs can re-identify individuals. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we remove names and assume records are anonymous?
-
-## When the chamber changes
-
-The Differential Privacy chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The gate follows the tempting path—remove names and assume records are anonymous. Then the evidence answers: the trouble appears immediately: rare combinations and model outputs can re-identify individuals.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The gate can now limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
-
-The object that should remain after the terminology disappears is **the differential privacy gate mounted on the table of mirrored maps**.
-
-> **Memory seal — Differential Privacy**
->
-> Differential Privacy keeps the missing power: limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise.
-
-Give the idea a bodily path: Touch the differential privacy gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Differential Privacy**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Understanding differential privacy
 

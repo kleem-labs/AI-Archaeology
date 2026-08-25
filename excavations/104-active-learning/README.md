@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,49 +13,17 @@
 
 An ensemble turns disagreement into evidence about model uncertainty. When labels are expensive, that disagreement can guide which unlabeled case deserves a human answer next.
 
-At the Hall of Possible Worlds, the keeper of unfinished questions returns to the table of mirrored maps. Yesterday's instrument still lies open, so the first move asks for no new magic: label random examples forever.
+At the Hall of Possible Worlds, the keeper of unfinished questions meets the next case beside the table of mirrored maps. The nearest idea is also the most reasonable one: label random examples forever.
 
-Reality answers without terminology: thousands of easy repeated cases consume effort while the decision boundary remains unclear. The table of mirrored maps now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To label random examples forever reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: thousands of easy repeated cases consume effort while the decision boundary remains unclear.
 
-```text
-reference evidence ──▶ shortcut: label random examples forever
-                         │
-                         └── mismatch: thousands of easy repeated cases…
+The contradiction matters because it identifies a structural loss in the instruction to label random examples forever, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The table of mirrored maps will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: ask for labels where the model is…
-```
+The repair can now be kept narrow. The new method must ask for labels where the model is uncertain or where examples add new coverage. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The table of mirrored maps is divided down the middle. Left side: “label random examples forever.” Its final mark records thousands of easy repeated cases consume effort while the decision boundary remains unclear. Right side: the same starting evidence, now allowed to ask for labels where the model is uncertain or where examples add new coverage. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given active learning a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: ask for labels where the model is uncertain or where examples add new coverage. The name **Active Learning** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to label random examples forever; on the other lies the observed fact that thousands of easy repeated cases consume effort while the decision boundary remains unclear. The bridge called active learning has exactly the planks needed to ask for labels where the model is uncertain or where examples add new coverage.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we label random examples forever?
-
-## When the chamber changes
-
-The mathematical name Active Learning can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The bell follows the tempting path—label random examples forever. Then the evidence answers: thousands of easy repeated cases consume effort while the decision boundary remains unclear.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The bell can now ask for labels where the model is uncertain or where examples add new coverage.
-
-The object that should remain after the terminology disappears is **the active learning bell mounted on the table of mirrored maps**.
-
-> **Memory seal — Active Learning**
->
-> Active Learning keeps the missing power: ask for labels where the model is uncertain or where examples add new coverage.
-
-Give the idea a bodily path: Touch the active learning bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Active Learning**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding active learning
 

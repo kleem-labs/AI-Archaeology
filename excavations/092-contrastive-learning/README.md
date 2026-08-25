@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,49 +13,17 @@
 
 Multimodal alignment places an image near its matching caption. Pulling pairs together alone permits every pair to collapse to the same point; meaning appears only when the correct match wins against plausible alternatives.
 
-Inside the Road of Consequences, every old tool is given one honest chance. The expedition leader sets the map of branching journeys between the evidence and the desired answer, then tries to pull every observed pair together without negatives.
+At the Road of Consequences, the expedition leader meets the next case beside the map of branching journeys. The nearest idea is also the most reasonable one: pull every observed pair together without negatives.
 
-Reality answers without terminology: the trouble appears immediately: all representations can collapse to one point. The map of branching journeys now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To pull every observed pair together without negatives reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The expedition leader sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the trouble appears immediately: all representations can collapse to one point.
 
-```text
-possible road A ─┐
-                 ├── old map: pull every observed pair together…
-possible road B ─┘              └── loses: the trouble appears immediately: all…
+The contradiction matters because it identifies a structural loss in the instruction to pull every observed pair together without negatives, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The map of branching journeys will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-same roads ──▶ repaired map ──▶ compare each true pair against…
-```
+The repair can now be kept narrow. The new method must compare each true pair against mismatched alternatives in the same batch. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The map of branching journeys is divided down the middle. Left side: “pull every observed pair together without negatives.” Its final mark records the trouble appears immediately: all representations can collapse to one point. Right side: the same starting evidence, now allowed to compare each true pair against mismatched alternatives in the same batch. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given contrastive learning a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: compare each true pair against mismatched alternatives in the same batch. The name **Contrastive Learning** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to pull every observed pair together without negatives; on the other lies the observed fact that the trouble appears immediately: all representations can collapse to one point. The bridge called contrastive learning has exactly the planks needed to compare each true pair against mismatched alternatives in the same batch.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
->
-> **The question carried into this chamber:** What fails if we pull every observed pair together without negatives?
-
-## When the chamber changes
-
-The Contrastive Learning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The map follows the tempting path—pull every observed pair together without negatives. Then the evidence answers: the trouble appears immediately: all representations can collapse to one point.
-
-Now let the chamber move: The expedition leader changes one moving part. The map can now compare each true pair against mismatched alternatives in the same batch.
-
-The object that should remain after the terminology disappears is **the contrastive learning map mounted on the map of branching journeys**.
-
-> **Memory seal — Contrastive Learning**
->
-> Contrastive Learning keeps the missing power: compare each true pair against mismatched alternatives in the same batch.
-
-Give the idea a bodily path: Touch the contrastive learning map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Contrastive Learning**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding contrastive learning
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics)
 >
@@ -11,49 +13,17 @@
 
 Corrigibility makes pause, inspection, correction, and handoff legitimate outcomes. A corrigible planner still has to choose when the most efficient route passes through a world it understands poorly.
 
-Nothing in the Academy of Trials yet bears today's mathematical name. There is only the experimentalist, the sealed evidence ledger, and one plausible action: plan using only the single most likely world.
+Inside the Academy of Trials, the old method is given an honest chance. The experimentalist places the evidence on the sealed evidence ledger and tries to plan using only the single most likely world.
 
-At the edge of the sealed evidence ledger, the shortcut produces its consequence: a small chance of bridge failure dominates the consequence but disappears from the chosen story. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To plan using only the single most likely world is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The experimentalist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: a small chance of bridge failure dominates the consequence but disappears from the chosen story.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ plan using only the single most… ──▶ blurred: a small chance of bridge failure…
-      │
-      └── new lens ──▶ we need to carry multiple plausible… ──▶ distinction survives
-```
+The important discovery is not merely that trying to plan using only the single most likely world failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sealed evidence ledger, so success cannot be manufactured by quietly replacing the original question.
 
-The experimentalist covers the new mark and the old contradiction returns: a small chance of bridge failure dominates the consequence but disappears from the chosen story. The cover is lifted, restoring the ability to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason uncertainty-aware planning exists.
+The old construction is therefore not discarded. It is widened just enough to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-What must change for uncertainty-aware planning is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision. That threshold is where **Uncertainty-Aware Planning** enters the story.
-
-The marks on the sealed evidence ledger form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. uncertainty-aware planning is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we plan using only the single most likely world?
-
-## When the chamber changes
-
-Before leaving Uncertainty-Aware Planning, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The prism follows the tempting path—plan using only the single most likely world. Then the evidence answers: a small chance of bridge failure dominates the consequence but disappears from the chosen story.
-
-Now let the chamber move: The experimentalist changes one moving part. The prism can now carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision.
-
-The object that should remain after the terminology disappears is **the uncertainty-aware planning prism mounted on the sealed evidence ledger**.
-
-> **Memory seal — Uncertainty-Aware Planning**
->
-> Uncertainty-Aware Planning keeps the missing power: carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision.
-
-Give the idea a bodily path: Touch the uncertainty-aware planning prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Uncertainty-Aware Planning**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Choosing While Admitting Ignorance
 

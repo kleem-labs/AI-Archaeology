@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Graphs & Relational Structures](../../MATHEMATICS_ATLAS.md#graphs) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,48 +13,17 @@
 
 The chain rule follows responsibility through one sequence of machines. A real network is a branching graph with shared intermediate results, so tracing every route independently repeats the same downstream work.
 
-At the Lantern Observatory, the keeper of uncertain stories returns to the ring of glass lanterns. Yesterday's instrument still lies open, so the first move asks for no new magic: perturb each weight and rerun the model.
+At the Lantern Observatory, the keeper of uncertain stories meets the next case beside the ring of glass lanterns. The nearest idea is also the most reasonable one: perturb each weight and rerun the model.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: this needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To perturb each weight and rerun the model reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: this needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
 
-```text
-OLD PATH:  request ──▶ perturb each weight and rerun the… ──▶ this needs at least one extra forward…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ compute the prediction once, remember… ──▶ accountable result
-```
+The contradiction matters because it identifies a structural loss in the instruction to perturb each weight and rerun the model, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The ring of glass lanterns will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The keeper of uncertain stories lays two translucent sheets over the ring of glass lanterns. The first is inscribed, “perturb each weight and rerun the model.” Its path ends where this needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again. The second receives the same evidence but is allowed to compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a backpropagation formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The keeper of uncertain stories changes only that one responsibility: compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream. When the ink dries, the name **Backpropagation** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The ring of glass lanterns keeps both histories. Its older mark still says, ‘perturb each weight and rerun the model’; beside it, the newer mark says, ‘compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.’ The distance between those sentences is the exact shape of backpropagation: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we perturb each weight and rerun the model?
-
-## When the chamber changes
-
-The mathematical name Backpropagation can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The bell follows the tempting path—perturb each weight and rerun the model. Then the evidence answers: this needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The bell can now compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
-
-The object that should remain after the terminology disappears is **the backpropagation bell mounted on the ring of glass lanterns**.
-
-> **Memory seal — Backpropagation**
->
-> Backpropagation keeps the missing power: compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
-
-Give the idea a bodily path: Touch the backpropagation bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Backpropagation**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## The calculation hidden inside backpropagation
 

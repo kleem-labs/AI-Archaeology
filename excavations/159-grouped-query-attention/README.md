@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,48 +13,17 @@
 
 One shared KV head makes decoding light enough for the station, but evaluation finds a quality loss on relationships that benefited from distinct catalogs.
 
-Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: return immediately to one KV head per query head.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to return immediately to one KV head per query head.
 
-Then the quiet test arrives: quality recovers, but so does the full cache and bandwidth cost that forced sharing. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To return immediately to one KV head per query head is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: quality recovers, but so does the full cache and bandwidth cost that forced sharing.
 
-```text
-OLD PATH:  request ──▶ return immediately to one KV head per… ──▶ quality recovers, but so does the…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ partition query heads into groups;… ──▶ accountable result
-```
+The important discovery is not merely that trying to return immediately to one KV head per query head failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-The enginewright turns the brass reference machine toward the light. Through the old engraving, return immediately to one KV head per query head, the evidence ends in the same contradiction: quality recovers, but so does the full cache and bandwidth cost that forced sharing. A second engraving adds only the power to partition query heads into groups; queries remain distinct while each group shares one key-value head. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to partition query heads into groups; queries remain distinct while each group shares one key-value head. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The enginewright circles the place where the two grouped-query attention cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: partition query heads into groups; queries remain distinct while each group shares one key-value head. The enginewright writes **Grouped-Query Attention** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The enginewright places a finger over the new distinction. At once the two cases collapse and quality recovers, but so does the full cache and bandwidth cost that forced sharing. Lifting the finger restores only this capacity: partition query heads into groups; queries remain distinct while each group shares one key-value head. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we return immediately to one KV head per query head?
-
-## When the chamber changes
-
-The mathematical name Grouped-Query Attention can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The prism follows the tempting path—return immediately to one KV head per query head. Then the evidence answers: quality recovers, but so does the full cache and bandwidth cost that forced sharing.
-
-Now let the chamber move: The enginewright changes one moving part. The prism can now partition query heads into groups; queries remain distinct while each group shares one key-value head.
-
-The object that should remain after the terminology disappears is **the grouped-query attention prism mounted on the brass reference machine**.
-
-> **Memory seal — Grouped-Query Attention**
->
-> Grouped-Query Attention keeps the missing power: partition query heads into groups; queries remain distinct while each group shares one key-value head.
-
-Give the idea a bodily path: Touch the grouped-query attention prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Grouped-Query Attention**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Recover Some Specialist Memory
 
@@ -70,7 +41,7 @@ h is a query-head index, H_Q counts query heads, H_KV counts shared KV groups, a
 
 [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) spreads the KV group range across query-head indices; [division](../../MATHEMATICAL_MOVES.md#division) converts one query index into its proportional group location. The floor deliberately [rounds](../../MATHEMATICAL_MOVES.md#rounding) down so every head receives one valid discrete group rather than a fractional address.
 
-Before the line is compressed, notice its recurring motions: **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. Together they keep the path from the concrete case to notation intact.
 
 The story of grouped-query attention has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 

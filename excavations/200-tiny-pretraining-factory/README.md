@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,48 +13,17 @@
 
 The training report can explain one finished run. We have now earned all the mechanisms needed to make the next run reconstructable from source documents to final artifact rather than relying on memory and scattered scripts.
 
-At the Archive Foundry, the archivist-engineer returns to the chain-of-custody ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: connect every tool into one automatic pipeline and trust any run that reaches the final stage.
+At the Archive Foundry, the archivist-engineer meets the next case beside the chain-of-custody ledger. The nearest idea is also the most reasonable one: connect every tool into one automatic pipeline and trust any run that reaches the final stage.
 
-Reality answers without terminology: automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness. The chain-of-custody ledger now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To connect every tool into one automatic pipeline and trust any run that reaches the final stage reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The archivist-engineer sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness.
 
-```text
-OLD PATH:  request ──▶ connect every tool into one automatic… ──▶ automation can faithfully repeat a…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ assemble signed stage manifests,… ──▶ accountable result
-```
+The contradiction matters because it identifies a structural loss in the instruction to connect every tool into one automatic pipeline and trust any run that reaches the final stage, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The chain-of-custody ledger will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The chain-of-custody ledger is divided down the middle. Left side: “connect every tool into one automatic pipeline and trust any run that reaches the final stage.” Its final mark records automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness. Right side: the same starting evidence, now allowed to assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory. The difference is narrow enough to see and important enough to change the ending.
+The repair can now be kept narrow. The new method must assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The broken rule has given tiny pretraining factory a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory. The name **A Tiny Pretraining Factory** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to connect every tool into one automatic pipeline and trust any run that reaches the final stage; on the other lies the observed fact that automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness. The bridge called tiny pretraining factory has exactly the planks needed to assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we connect every tool into one automatic pipeline and trust any run that reaches the final stage?
-
-## When the chamber changes
-
-The A Tiny Pretraining Factory room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The bell follows the tempting path—connect every tool into one automatic pipeline and trust any run that reaches the final stage. Then the evidence answers: automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The bell can now assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory.
-
-The object that should remain after the terminology disappears is **the tiny pretraining factory bell mounted on the chain-of-custody ledger**.
-
-> **Memory seal — A Tiny Pretraining Factory**
->
-> A Tiny Pretraining Factory keeps the missing power: assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory.
-
-Give the idea a bodily path: Touch the tiny pretraining factory bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **A Tiny Pretraining Factory**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Close the Accountable Training Loop
 

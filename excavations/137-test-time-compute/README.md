@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Long-context retrieval brings the relevant clue back into view. Easy lookups and hard proofs still receive the same fixed amount of reasoning unless computation can be allocated according to difficulty.
 
-Morning reaches the Academy of Trials before anyone has a name for today's difficulty. Beside the sealed evidence ledger, the experimentalist tries the smallest continuation of what already works: make every model response extremely long.
+The previous discovery reaches the Academy of Trials carrying one unfinished problem. Beside the sealed evidence ledger, the experimentalist first tries to make every model response extremely long.
 
-At the edge of the sealed evidence ledger, the shortcut produces its consequence: the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we make every model response extremely long, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The experimentalist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ make every model response extremely… ──▶ blurred: the trouble appears immediately: easy…
-      │
-      └── new lens ──▶ allocate extra attempts or steps only… ──▶ distinction survives
-```
+This failure cannot be repaired by performing the instruction to make every model response extremely long more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sealed evidence ledger; otherwise a changed answer could be mistaken for an explanation.
 
-The experimentalist covers the new mark and the old contradiction returns: the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing. The cover is lifted, restoring the ability to allocate extra attempts or steps only when uncertainty and verification justify their cost, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason test-time compute exists.
+The evidence has earned one extension and no more. We need to allocate extra attempts or steps only when uncertainty and verification justify their cost. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for test-time compute is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: allocate extra attempts or steps only when uncertainty and verification justify their cost. That threshold is where **Test-Time Compute** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In test-time compute, that memory takes a precise form: whenever the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing, preserve enough structure to allocate extra attempts or steps only when uncertainty and verification justify their cost.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we make every model response extremely long?
-
-## When the chamber changes
-
-The Test-Time Compute chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The vessel follows the tempting path—make every model response extremely long. Then the evidence answers: the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing.
-
-Now let the chamber move: The experimentalist changes one moving part. The vessel can now allocate extra attempts or steps only when uncertainty and verification justify their cost.
-
-The object that should remain after the terminology disappears is **the test-time compute vessel mounted on the sealed evidence ledger**.
-
-> **Memory seal — Test-Time Compute**
->
-> Test-Time Compute keeps the missing power: allocate extra attempts or steps only when uncertainty and verification justify their cost.
-
-Give the idea a bodily path: Touch the test-time compute vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Test-Time Compute**. The name is simply a handle for the distinction already reconstructed.
 
 ## Thinking Longer on Harder Problems
 

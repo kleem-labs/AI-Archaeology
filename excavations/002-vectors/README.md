@@ -50,7 +50,7 @@ speed
 
 The tiger's properties locate it. With three features it lies in three-dimensional feature space. With ten thousand features the same idea continues, even though we cannot picture it.
 
-This was the great leap in your original excavation: geometry stopped meaning only “Where is the tiger?” It could now help answer “What is the tiger like?”
+This is the geometric leap: geometry stops meaning only “Where is the tiger?” It can now help answer “What is the tiger like?”
 
 Nearby locations can represent similar objects. A movie can be located by humor, romance, and violence. A song can be located by tempo, instrumentation, and mood. Modern AI uses the same move: turn something difficult to compare into a point whose coordinates can be compared.
 
@@ -82,28 +82,6 @@ Nothing remains unnamed in the vectors case on the dust-map. We can finally trad
 $$
 \mathbf{x}=[x_1,x_2,\ldots,x_n]
 $$
-
-<!-- memory-film-v1:start -->
-> **Memory realm 1 of 18 — [Valley of First Measures](../../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** How can many comparable features travel as one object without losing which is which?
-
-## When the chamber changes
-
-The Vectors chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: Loose measurement stones spill together; weight can no longer be distinguished from speed.
-
-Now let the chamber move: The stones slide into named pockets whose order remains fixed for every animal.
-
-The object that should remain after the terminology disappears is **an ordered leather satchel with one pocket for each tiger feature**.
-
-> **Memory seal — Vectors**
->
-> A vector lets several measurements travel together while their positions preserve meaning.
-
-Give the idea a bodily path: Sweep scattered fingers together, then hold them in a fixed row.
-<!-- memory-film-v1:end -->
 
 ## Challenge
 

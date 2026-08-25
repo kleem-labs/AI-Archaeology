@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,52 +13,17 @@
 
 Contamination turns the test into disguised homework. Fresh human-written data is expensive, tempting the model to manufacture far more lessons for itself.
 
-Night gathers around the Academy of Trials. Under the light of the sealed evidence ledger, the experimentalist refuses to invent prematurely and begins with the plain rule: generate millions of answers and train on all of them.
+Inside the Academy of Trials, the old method is given an honest chance. The experimentalist places the evidence on the sealed evidence ledger and tries to generate millions of answers and train on all of them.
 
-At the edge of the sealed evidence ledger, the shortcut produces its consequence: confident errors are copied, multiplied, and eventually treated as truth. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To generate millions of answers and train on all of them is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The experimentalist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: confident errors are copied, multiplied, and eventually treated as truth.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ generate millions of answers and… ──▶ blurred: confident errors are copied,…
-      │
-      └── new lens ──▶ we need to generate candidates,… ──▶ distinction survives
-```
+The important discovery is not merely that trying to generate millions of answers and train on all of them failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sealed evidence ledger, so success cannot be manufactured by quietly replacing the original question.
 
-The experimentalist covers the new mark and the old contradiction returns: confident errors are copied, multiplied, and eventually treated as truth. The cover is lifted, restoring the ability to generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason synthetic data exists.
+The old construction is therefore not discarded. It is widened just enough to generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-What must change for synthetic data is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry. That threshold is where **Synthetic Data** enters the story.
-
-The marks on the sealed evidence ledger form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. synthetic data is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-
-Before leaving the sealed evidence ledger, the experimentalist tests the new idea backward. Remove the ability to generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry, and the method falls back to this tempting instruction: generate millions of answers and train on all of them. The old consequence returns—confident errors are copied, multiplied, and eventually treated as truth. Restore the missing ability and that particular contradiction disappears. This reversible test is why synthetic data belongs to the growing structure rather than to a list of facts to memorize.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we generate millions of answers and train on all of them?
-
-## When the chamber changes
-
-Keep the formal name Synthetic Data covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The lantern follows the tempting path—generate millions of answers and train on all of them. Then the evidence answers: confident errors are copied, multiplied, and eventually treated as truth.
-
-Now let the chamber move: The experimentalist changes one moving part. The lantern can now generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry.
-
-The object that should remain after the terminology disappears is **the synthetic data lantern mounted on the sealed evidence ledger**.
-
-> **Memory seal — Synthetic Data**
->
-> Synthetic Data keeps the missing power: generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry.
-
-Give the idea a bodily path: Touch the synthetic data lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Synthetic Data**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Letting a Model Write Lessons
 

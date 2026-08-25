@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,53 +13,17 @@
 
 Audio models extend the assistant's senses and enlarge the already expensive system. Adapting the whole model for each ranger station, language, or task would duplicate billions of parameters.
 
-The doors of the Road of Consequences close against the wind. On the map of branching journeys, the expedition leader writes the cheapest rule that might still be true: copy and fine-tune all parameters for every task.
+A new case arrives at the Road of Consequences. Nothing yet demands a new invention, so the expedition leader uses the map of branching journeys to copy and fine-tune all parameters for every task.
 
-The expedition leader repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: storage and training cost multiply, and the base model is harder to preserve. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to copy and fine-tune all parameters for every task preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The expedition leader sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: storage and training cost multiply, and the base model is harder to preserve.
 
-```text
-observation
-    │
-    ▼
-[copy and fine-tune all parameters for…]
-    │
-    ╳  storage and training cost multiply,…
-    │
-    ▼
-[freeze the base and learn a small…]
-```
+The counterexample separates two questions that the attempt to copy and fine-tune all parameters for every task had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the map of branching journeys fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the map of branching journeys, the old path and the repaired path run side by side. One carries “copy and fine-tune all parameters for every task”; the other knows how to freeze the base and learn a small low-rank correction to selected matrices. When the failure—storage and training cost multiply, and the base model is harder to preserve—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now freeze the base and learn a small low-rank correction to selected matrices. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to low-rank adaptation. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: freeze the base and learn a small low-rank correction to selected matrices. This problem and its repair will travel under the name **Low-Rank Adaptation**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—copy and fine-tune all parameters for every task? The answer remains storage and training cost multiply, and the base model is harder to preserve. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
->
-> **The question carried into this chamber:** What fails if we copy and fine-tune all parameters for every task?
-
-## When the chamber changes
-
-The mathematical name Low-Rank Adaptation can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The gear follows the tempting path—copy and fine-tune all parameters for every task. Then the evidence answers: storage and training cost multiply, and the base model is harder to preserve.
-
-Now let the chamber move: The expedition leader changes one moving part. The gear can now freeze the base and learn a small low-rank correction to selected matrices.
-
-The object that should remain after the terminology disappears is **the low-rank adaptation gear mounted on the map of branching journeys**.
-
-> **Memory seal — Low-Rank Adaptation**
->
-> Low-Rank Adaptation keeps the missing power: freeze the base and learn a small low-rank correction to selected matrices.
-
-Give the idea a bodily path: Touch the low-rank adaptation gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Low-Rank Adaptation**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Understanding low-rank adaptation
 
@@ -81,7 +47,7 @@ Addition preserves the base behavior and applies only the learned adaptation.
 
 The mandala has curved back upon itself. In this chamber we meet **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the joining river**—separate contributions meet without losing where they came from. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about low-rank adaptation and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming low-rank adaptation equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 W^\prime=W+BA

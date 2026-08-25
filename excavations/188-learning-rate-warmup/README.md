@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,48 +13,17 @@
 
 Compute allocation chooses the model and token horizon. At the first update, Adam's moment memories contain almost no history, while randomly initialized activations and gradients are changing fastest.
 
-Inside the Archive Foundry, every old tool is given one honest chance. The archivist-engineer sets the chain-of-custody ledger between the evidence and the desired answer, then tries to begin immediately at the peak learning rate chosen for the stable middle of training.
+At the Archive Foundry, the archivist-engineer meets the next case beside the chain-of-custody ledger. The nearest idea is also the most reasonable one: begin immediately at the peak learning rate chosen for the stable middle of training.
 
-Reality answers without terminology: the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused. The chain-of-custody ledger now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To begin immediately at the peak learning rate chosen for the stable middle of training reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The archivist-engineer sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused.
 
-```text
-OLD PATH:  request ──▶ begin immediately at the peak… ──▶ the first noisy batches can make…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ increase the learning rate gradually… ──▶ accountable result
-```
+The contradiction matters because it identifies a structural loss in the instruction to begin immediately at the peak learning rate chosen for the stable middle of training, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The chain-of-custody ledger will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The chain-of-custody ledger is divided down the middle. Left side: “begin immediately at the peak learning rate chosen for the stable middle of training.” Its final mark records the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused. Right side: the same starting evidence, now allowed to increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule. The difference is narrow enough to see and important enough to change the ending.
+The repair can now be kept narrow. The new method must increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The broken rule has given learning-rate warmup a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule. The name **Learning-Rate Warmup** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to begin immediately at the peak learning rate chosen for the stable middle of training; on the other lies the observed fact that the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused. The bridge called learning-rate warmup has exactly the planks needed to increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we begin immediately at the peak learning rate chosen for the stable middle of training?
-
-## When the chamber changes
-
-Before leaving Learning-Rate Warmup, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The map follows the tempting path—begin immediately at the peak learning rate chosen for the stable middle of training. Then the evidence answers: the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The map can now increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
-
-The object that should remain after the terminology disappears is **the learning-rate warmup map mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Learning-Rate Warmup**
->
-> Learning-Rate Warmup keeps the missing power: increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule.
-
-Give the idea a bodily path: Touch the learning-rate warmup map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Learning-Rate Warmup**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Let Adam Learn the Terrain Before Running
 

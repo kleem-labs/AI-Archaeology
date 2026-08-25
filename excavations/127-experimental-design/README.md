@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 A testable hypothesis predicts a measurable difference. If several components change together, the result cannot reveal which intervention caused that difference.
 
-Nothing in the Academy of Trials yet bears today's mathematical name. There is only the experimentalist, the sealed evidence ledger, and one plausible action: ship both improvements and compare with the old system.
+Inside the Academy of Trials, the old method is given an honest chance. The experimentalist places the evidence on the sealed evidence ledger and tries to ship both improvements and compare with the old system.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To ship both improvements and compare with the old system is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The experimentalist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit.
 
-```text
-reference evidence ──▶ shortcut: ship both improvements and compare…
-                         │
-                         └── mismatch: the trouble appears immediately: one…
+The important discovery is not merely that trying to ship both improvements and compare with the old system failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sealed evidence ledger, so success cannot be manufactured by quietly replacing the original question.
 
-reference evidence ──▶ measured repair: we need to hold everything fixed…
-```
+The old construction is therefore not discarded. It is widened just enough to hold everything fixed except the suspected cause, and include a control that receives no intervention. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-Two trails now cross the sealed evidence ledger. The pale trail bears the instruction “ship both improvements and compare with the old system.” It disappears into the observed failure: the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit. The darker trail carries one additional capacity—to hold everything fixed except the suspected cause, and include a control that receives no intervention. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed experimental design mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the sealed evidence ledger is altered in exactly one way: we need to hold everything fixed except the suspected cause, and include a control that receives no intervention. Much later, people will call this territory **Experimental Design**. Here the name is only a memory of the failure it can survive.
-
-The sealed evidence ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and experimental design looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we ship both improvements and compare with the old system?
-
-## When the chamber changes
-
-The Experimental Design chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The prism follows the tempting path—ship both improvements and compare with the old system. Then the evidence answers: the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit.
-
-Now let the chamber move: The experimentalist changes one moving part. The prism can now hold everything fixed except the suspected cause, and include a control that receives no intervention.
-
-The object that should remain after the terminology disappears is **the experimental design prism mounted on the sealed evidence ledger**.
-
-> **Memory seal — Experimental Design**
->
-> Experimental Design keeps the missing power: hold everything fixed except the suspected cause, and include a control that receives no intervention.
-
-Give the idea a bodily path: Touch the experimental design prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Experimental Design**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Changing One Cause at a Time
 

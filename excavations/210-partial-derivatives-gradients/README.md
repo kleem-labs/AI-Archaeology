@@ -3,20 +3,11 @@
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-<!-- mathematical-lineage-v1 -->
-> **Mathematical roots:** [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Mathematical roots beneath the machine
 
-> **You are here:** Realm 3 of 5 — [The River of Change](../../MATHEMATICAL_ROOTS.md#realm-3)
->
-> **Question waiting in this chamber:** If every weight can move, which combined direction changes the loss fastest?
->
-> **Do not take the answer yet:** first let the object fail.
 
 Limits make ‘arbitrarily small’ precise. A loss surface has not one input but millions, and moving stripe sensitivity while freezing weight sensitivity answers a different question from moving both together.
 
-Another vault door opens. The carving that once named **Partial Derivatives and Gradients** has weathered away, which is useful: we must recover the idea from what a ranger, builder, or machine can actually observe.
+The vault of Partial Derivatives and Gradients opens onto a problem a ranger, builder, or machine could encounter without knowing any modern terminology.
 
 The tiger alarm has two dials: stripe weight w₁ and size weight w₂. Its local loss is a hillside over the floor. The ranger can nudge east, north, or diagonally and observe different changes.
 
@@ -36,31 +27,15 @@ scene → guess → calculate → compare with reality
 
 We do not leap to a famous formula. We carry one missing responsibility forward: hold every other dial fixed to measure one partial derivative at a time, then gather those coordinate sensitivities into the gradient vector.
 
-This is the hinge of the Partial Derivatives and Gradients excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
-
-## When the chamber changes
-
-Hold the failed picture still for one breath: Separate one-weight trails cover the hill, but they never reveal what happens when several weights move together.
-
-Now let the scene move. Gather every coordinate slope into one arrow. The compass turns until it points toward the steepest local rise; reverse it to descend.
-
-The transformation is the discovery of Partial Derivatives and Gradients made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Partial Derivatives and Gradients into memory:
-
-> **Memory seal — Partial Derivatives and Gradients**
->
-> A gradient is the compass of fastest local change.
-
-Make the memory bodily, not merely verbal: Turn an imaginary compass, then step in the opposite direction to reduce the loss.
-
-## Partial Derivatives and Gradients on the stone workbench
-
-Near the current setting, nudging w₁ by 0.01 raises loss by about 0.03, giving sensitivity 3. Nudging w₂ by 0.01 lowers loss by about 0.01, giving sensitivity -1. The gradient `[3,-1]` points toward fastest local increase; its negative points toward fastest local decrease under ordinary Euclidean distance.
-
-The point of keeping the objects named while rebuilding Partial Derivatives and Gradients is that each movement can still be challenged. We can ask what the tiger, track, state, model, or measurement contributes; we can change one value and watch the consequence travel. The calculation remains an experience before it becomes notation.
+The failure and repair now form one continuous argument for Partial Derivatives and Gradients: this idea earns its place by preserving exactly what the earlier action lost.
 
 ## The calculation hidden inside partial derivatives and gradients
 
-Return to the named Partial Derivatives and Gradients scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for partial derivatives and gradients will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Partial Derivatives and Gradients against the named case
+
+Near the current setting, nudging w₁ by 0.01 raises loss by about 0.03, giving sensitivity 3. Nudging w₂ by 0.01 lowers loss by about 0.01, giving sensitivity -1. The gradient `[3,-1]` points toward fastest local increase; its negative points toward fastest local decrease under ordinary Euclidean distance.
 
 ### Naming what is already on the table
 
@@ -70,33 +45,23 @@ Return to the named Partial Derivatives and Gradients scene above. The ranger, m
 
 [Partial derivatives](../../MATHEMATICAL_MOVES.md#partial-derivative) isolate one coordinate while others are fixed. [Concatenation](../../MATHEMATICAL_MOVES.md#concatenation) preserves the separate sensitivities as one ordered vector. Summing them would erase direction and could let positive and negative effects cancel.
 
-The operations inside Partial Derivatives and Gradients form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by partial derivatives and gradients now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \nabla L(\mathbf w)=\left[\frac{\partial L}{\partial w_1},\ldots,\frac{\partial L}{\partial w_n}\right]
 $$
 
-Read the Partial Derivatives and Gradients line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
-
 ## A real-world echo
 
 At a mountain pass, ‘the slope’ is incomplete until you say which way you face. The gradient is the compass arrow assembled from every coordinate-facing slope.
 
-That echo helps Partial Derivatives and Gradients remain relational in memory. When the same job appears inside a dataset, a Transformer, a laboratory measurement, or an ordinary decision, the operation should feel like a familiar tool rather than an arbitrary sign.
-
-## What this chamber was connected to
+## What this unlocks elsewhere
 
 Gradient descent, backpropagation, Adam, clipping, and attribution all use this object. Earlier chapters used it operationally; this excavation reveals why its components must remain ordered.
-
-The older excavation and this Partial Derivatives and Gradients chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
-
-Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Partial Derivatives and Gradients occupies one necessary step in that motion. Its object, **a compass resting on a many-dimensional hillside**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of partial derivatives and gradients breaks
 
 A gradient describes one scalar output. A layer often maps many inputs to many outputs, so one vector cannot preserve every input-output sensitivity.
-
-The boundary belongs beside the discovery of Partial Derivatives and Gradients because usefulness depends on assumptions. A formula remembered without its failure conditions becomes a spell; a formula remembered with them becomes an instrument.
 
 ## Rebuild the discovery in the laboratory
 

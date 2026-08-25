@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,53 +13,17 @@
 
 Self-supervision extracts lessons from unlabeled observations. An acting system needs more than representations: before choosing, it must imagine how the world may change after each possible action.
 
-Nothing in the Hall of Possible Worlds yet bears today's mathematical name. There is only the keeper of unfinished questions, the table of mirrored maps, and one plausible action: learn only which action was rewarded in previously visited situations.
+Inside the Hall of Possible Worlds, the old method is given an honest chance. The keeper of unfinished questions places the evidence on the table of mirrored maps and tries to learn only which action was rewarded in previously visited situations.
 
-Then the quiet test arrives: the agent cannot imagine untried sequences or reuse physical regularities. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To learn only which action was rewarded in previously visited situations is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the agent cannot imagine untried sequences or reuse physical regularities.
 
-```text
-observation
-    │
-    ▼
-[learn only which action was rewarded…]
-    │
-    ╳  the agent cannot imagine untried…
-    │
-    ▼
-[we need to learn a compact model that…]
-```
+The important discovery is not merely that trying to learn only which action was rewarded in previously visited situations failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the table of mirrored maps, so success cannot be manufactured by quietly replacing the original question.
 
-The keeper of unfinished questions turns the table of mirrored maps toward the light. Through the old engraving, learn only which action was rewarded in previously visited situations, the evidence ends in the same contradiction: the agent cannot imagine untried sequences or reuse physical regularities. A second engraving adds only the power to learn a compact model that predicts next state and reward from current state and action. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to learn a compact model that predicts next state and reward from current state and action. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The keeper of unfinished questions circles the place where the two world models cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to learn a compact model that predicts next state and reward from current state and action. The keeper of unfinished questions writes **World Models** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of unfinished questions places a finger over the new distinction. At once the two cases collapse and the agent cannot imagine untried sequences or reuse physical regularities. Lifting the finger restores only this capacity: learn a compact model that predicts next state and reward from current state and action. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we learn only which action was rewarded in previously visited situations?
-
-## When the chamber changes
-
-Keep the formal name World Models covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The prism follows the tempting path—learn only which action was rewarded in previously visited situations. Then the evidence answers: the agent cannot imagine untried sequences or reuse physical regularities.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The prism can now learn a compact model that predicts next state and reward from current state and action.
-
-The object that should remain after the terminology disappears is **the world models prism mounted on the table of mirrored maps**.
-
-> **Memory seal — World Models**
->
-> World Models keeps the missing power: learn a compact model that predicts next state and reward from current state and action.
-
-Give the idea a bodily path: Touch the world models prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **World Models**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding world models
 

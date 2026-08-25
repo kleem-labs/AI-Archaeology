@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,53 +13,17 @@
 
 Pre-normalization lets gradients reach deep blocks, but the ordinary feed-forward network applies one fixed activation independently to one projection.
 
-Night gathers around the Engine Cavern. Under the light of the brass reference machine, the enginewright refuses to invent prematurely and begins with the plain rule: make the hidden layer merely wider and trust more coordinates to express every conditional interaction.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to make the hidden layer merely wider and trust more coordinates to express every conditional interaction.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: width adds capacity but still asks one projection both to create content and decide when that content matters. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To make the hidden layer merely wider and trust more coordinates to express every conditional interaction is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: width adds capacity but still asks one projection both to create content and decide when that content matters.
 
-```text
-observation
-    │
-    ▼
-[make the hidden layer merely wider…]
-    │
-    ╳  width adds capacity but still asks…
-    │
-    ▼
-[create one content projection and one…]
-```
+The important discovery is not merely that trying to make the hidden layer merely wider and trust more coordinates to express every conditional interaction failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “make the hidden layer merely wider and trust more coordinates to express every conditional interaction.” It disappears into the observed failure: width adds capacity but still asks one projection both to create content and decide when that content matters. The darker trail carries one additional capacity—to create one content projection and one gate projection; use the smooth gate to scale content feature by feature. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to create one content projection and one gate projection; use the smooth gate to scale content feature by feature. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed swiglu mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the brass reference machine is altered in exactly one way: create one content projection and one gate projection; use the smooth gate to scale content feature by feature. Much later, people will call this territory **SwiGLU**. Here the name is only a memory of the failure it can survive.
-
-The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and swiglu looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we make the hidden layer merely wider and trust more coordinates to express every conditional interaction?
-
-## When the chamber changes
-
-Before leaving SwiGLU, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The lantern follows the tempting path—make the hidden layer merely wider and trust more coordinates to express every conditional interaction. Then the evidence answers: width adds capacity but still asks one projection both to create content and decide when that content matters.
-
-Now let the chamber move: The enginewright changes one moving part. The lantern can now create one content projection and one gate projection; use the smooth gate to scale content feature by feature.
-
-The object that should remain after the terminology disappears is **the swiglu lantern mounted on the brass reference machine**.
-
-> **Memory seal — SwiGLU**
->
-> SwiGLU keeps the missing power: create one content projection and one gate projection; use the smooth gate to scale content feature by feature.
-
-Give the idea a bodily path: Touch the swiglu lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **SwiGLU**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Let One Learned Path Gate Another
 

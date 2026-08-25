@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,48 +13,17 @@
 
 The forward diffusion process tells us exactly how clean image and noise combine at every step. Generation now depends on a network that can inspect the corrupted image and infer what the noise hid.
 
-A new case arrives at the Glass Menagerie, but the maker of seeing-machines first reaches for the familiar wall of illuminated tiles. Its promise is simple: ask it to recreate the entire clean image directly from every noise level.
+The previous discovery reaches the Glass Menagerie carrying one unfinished problem. Beside the wall of illuminated tiles, the maker of seeing-machines first tries to ask it to recreate the entire clean image directly from every noise level.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the task changes dramatically across noise strengths. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we ask it to recreate the entire clean image directly from every noise level, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The maker of seeing-machines sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the task changes dramatically across noise strengths.
 
-```text
-OLD PATH:  request ──▶ ask it to recreate the entire clean… ──▶ the task changes dramatically across…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ tell the model the noise level and… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to ask it to recreate the entire clean image directly from every noise level more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the wall of illuminated tiles; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the wall of illuminated tiles. The pale trail bears the instruction “ask it to recreate the entire clean image directly from every noise level.” It disappears into the observed failure: the task changes dramatically across noise strengths. The darker trail carries one additional capacity—to tell the model the noise level and predict the added noise or equivalent clean direction. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to tell the model the noise level and predict the added noise or equivalent clean direction. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed denoising mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the wall of illuminated tiles is altered in exactly one way: tell the model the noise level and predict the added noise or equivalent clean direction. Much later, people will call this territory **Denoising**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the wall of illuminated tiles. The failed path remains visible beneath the repair, because denoising is easier to remember when its scar remains attached to it. The scar reads, ‘the task changes dramatically across noise strengths’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
->
-> **The question carried into this chamber:** What fails if we ask it to recreate the entire clean image directly from every noise level?
-
-## When the chamber changes
-
-The Denoising room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The bridge follows the tempting path—ask it to recreate the entire clean image directly from every noise level. Then the evidence answers: the task changes dramatically across noise strengths.
-
-Now let the chamber move: The maker of seeing-machines changes one moving part. The bridge can now tell the model the noise level and predict the added noise or equivalent clean direction.
-
-The object that should remain after the terminology disappears is **the denoising bridge mounted on the wall of illuminated tiles**.
-
-> **Memory seal — Denoising**
->
-> Denoising keeps the missing power: tell the model the noise level and predict the added noise or equivalent clean direction.
-
-Give the idea a bodily path: Touch the denoising bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Denoising**. The name is simply a handle for the distinction already reconstructed.
 
 ## Predicting What the Noise Hid
 

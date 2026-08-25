@@ -26,57 +26,20 @@ The bounded loop gives us permission to improve—not permission to guess. We fr
 
 ### Excavation 151 — A Reproducible Baseline — Improve Something That Actually Exists
 
-> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Model systems and engine optimization
-
 The bounded loop can approve a candidate, but approval is meaningless if nobody can reconstruct the system it is supposed to improve.
 
-Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: keep the final score and the model file; those should be enough to compare the next idea.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to keep the final score and the model file; those should be enough to compare the next idea.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To keep the final score and the model file; those should be enough to compare the next idea is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied.
 
-```text
-observation
-    │
-    ▼
-[keep the final score and the model…]
-    │
-    ╳  a rerun changes the data order,…
-    │
-    ▼
-[freeze the model specification, data…]
-```
+The important discovery is not merely that trying to keep the final score and the model file; those should be enough to compare the next idea failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “keep the final score and the model file; those should be enough to compare the next idea.” It disappears into the observed failure: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied. The darker trail carries one additional capacity—to freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed reproducible baseline mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
+The necessary extension now has a name: **A Reproducible Baseline**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-So the brass reference machine is altered in exactly one way: freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. Much later, people will call this territory **A Reproducible Baseline**. Here the name is only a memory of the failure it can survive.
-
-The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and reproducible baseline looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made. The Engine Cavern lets reproducible baseline change speed, memory, or scale while the brass reference machine guards meaning. Equality here is not decoration; it is a promise that the optimized path performs the same mathematical responsibility by another physical route.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we keep the final score and the model file; those should be enough to compare the next idea?
-
-#### When the chamber changes
-
-Keep the formal name A Reproducible Baseline covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The mirror follows the tempting path—keep the final score and the model file; those should be enough to compare the next idea. Then the evidence answers: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied.
-
-Now let the chamber move: The enginewright changes one moving part. The mirror can now freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline.
-
-The object that should remain after the terminology disappears is **the reproducible baseline mirror mounted on the brass reference machine**.
-
-> **Memory seal — A Reproducible Baseline**
->
-> A Reproducible Baseline keeps the missing power: freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline.
-
-Give the idea a bodily path: Touch the reproducible baseline mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Improve Something That Actually Exists
 
 Run the same tiny tiger-language model twice from the recorded seed. Only after its loss curve and held-out score agree do we permit one component to change.
@@ -93,7 +56,7 @@ m_baseline is the frozen model's measurement; m_candidate is measured by the sam
 
 [Subtraction](../MATHEMATICAL_MOVES.md#subtraction) removes the common baseline and isolates the candidate's change. Addition would make two large scores look impressive even when they are identical. The order fixes the sign: positive means the candidate raised this metric.
 
-Before the line is compressed, notice its recurring motions: **the chisel**—what is shared is removed so the remaining change can be seen. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the chisel**—what is shared is removed so the remaining change can be seen. Together they keep the path from the concrete case to notation intact.
 
 The enginewright reads the journey of reproducible baseline once more across the brass reference machine, then lets the words contract without losing their order:
 
@@ -107,61 +70,24 @@ Reproducibility makes differences attributable; it does not tell us which compon
 
 The brass reference machine answers today's question and falls silent at the next. That silence is precise: Reproducible Baseline was built to repair one failure, not to pretend every later boundary is already solved.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/151-reproducible-baseline/README.md).*
-
 ---
 
 ### Excavation 152 — Profiling — Measure Where the Time Went
 
-> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Model systems and engine optimization
-
 A reproducible baseline gives us a trustworthy before-state. Its first run is too slow for the ranger station, but a total runtime does not identify the guilty stage.
 
-At the Engine Cavern, the enginewright returns to the brass reference machine. Yesterday's instrument still lies open, so the first move asks for no new magic: optimize the largest-looking matrix because attention is famous for being expensive.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: optimize the largest-looking matrix because attention is famous for being expensive.
 
-Reality answers without terminology: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. The brass reference machine now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To optimize the largest-looking matrix because attention is famous for being expensive reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   optimize the largest-looking matrix… the device spends much of the run…
-            \        /
-             \      /
-              measure data loading, computation,…
-```
+The contradiction matters because it identifies a structural loss in the instruction to optimize the largest-looking matrix because attention is famous for being expensive, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The brass reference machine is divided down the middle. Left side: “optimize the largest-looking matrix because attention is famous for being expensive.” Its final mark records the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. Right side: the same starting evidence, now allowed to measure data loading, computation, communication, and idle time separately before choosing a repair. The difference is narrow enough to see and important enough to change the ending.
+The repair can now be kept narrow. The new method must measure data loading, computation, communication, and idle time separately before choosing a repair. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The broken rule has given profiling a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
+A construction that performs this newly earned job is **Profiling**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The repair can now be stated without mystery: measure data loading, computation, communication, and idle time separately before choosing a repair. The name **Profiling** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to optimize the largest-looking matrix because attention is famous for being expensive; on the other lies the observed fact that the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. The bridge called profiling has exactly the planks needed to measure data loading, computation, communication, and idle time separately before choosing a repair.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we optimize the largest-looking matrix because attention is famous for being expensive?
-
-#### When the chamber changes
-
-The Profiling chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The bell follows the tempting path—optimize the largest-looking matrix because attention is famous for being expensive. Then the evidence answers: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock.
-
-Now let the chamber move: The enginewright changes one moving part. The bell can now measure data loading, computation, communication, and idle time separately before choosing a repair.
-
-The object that should remain after the terminology disappears is **the profiling bell mounted on the brass reference machine**.
-
-> **Memory seal — Profiling**
->
-> Profiling keeps the missing power: measure data loading, computation, communication, and idle time separately before choosing a repair.
-
-Give the idea a bodily path: Touch the profiling bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Measure Where the Time Went
 
 A 100 ms step contains 35 ms of loading, 45 ms of compute, 10 ms of communication, and 10 ms idle. The first engineering question is now visible in numbers.
@@ -192,58 +118,24 @@ A profile describes this workload on this hardware; changing sequence length or 
 
 A final test reaches beyond the new instrument. It does not refute Profiling; it reveals the edge of what was constructed. The enginewright carries that edge into the following room.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/152-profiling/README.md).*
-
 ---
 
 ### Excavation 153 — The Input Pipeline — Stop Making the Accelerator Wait
 
-> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Model systems and engine optimization
-
 Profiling reveals that the accelerator repeatedly waits for the next token batch. The model is ready, but its evidence is still being read and prepared.
 
-Morning reaches the Engine Cavern before anyone has a name for today's difficulty. Beside the brass reference machine, the enginewright tries the smallest continuation of what already works: load a batch, wait until loading finishes, compute it, and only then begin loading the next one.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to load a batch, wait until loading finishes, compute it, and only then begin loading the next one.
 
-Then the quiet test arrives: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we load a batch, wait until loading finishes, compute it, and only then begin loading the next one, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle.
 
-```text
-OLD PATH:  request ──▶ load a batch, wait until loading… ──▶ data time and compute time are paid…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ prepare the next batch while the… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to load a batch, wait until loading finishes, compute it, and only then begin loading the next one more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-The enginewright turns the brass reference machine toward the light. Through the old engraving, load a batch, wait until loading finishes, compute it, and only then begin loading the next one, the evidence ends in the same contradiction: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle. A second engraving adds only the power to prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The enginewright circles the place where the two input pipeline cases collapsed together. The repair must open that circle and preserve the difference inside it.
+Once this responsibility becomes part of the method, we have built what is called **The Input Pipeline**. The name is simply a handle for the distinction already reconstructed.
 
-Only the missing distinction is restored: prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. The enginewright writes **The Input Pipeline** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The enginewright does not memorize input pipeline. Instead, the enginewright memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. The formal name merely lets that motion be shared.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we load a batch, wait until loading finishes, compute it, and only then begin loading the next one?
-
-#### When the chamber changes
-
-Before leaving The Input Pipeline, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The vessel follows the tempting path—load a batch, wait until loading finishes, compute it, and only then begin loading the next one. Then the evidence answers: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle.
-
-Now let the chamber move: The enginewright changes one moving part. The vessel can now prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering.
-
-The object that should remain after the terminology disappears is **the input pipeline vessel mounted on the brass reference machine**.
-
-> **Memory seal — The Input Pipeline**
->
-> The Input Pipeline keeps the missing power: prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering.
-
-Give the idea a bodily path: Touch the input pipeline vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Stop Making the Accelerator Wait
 
 If loading takes 35 ms and compute 45 ms, serial work costs 80 ms. Once overlapped, a steady-state step is governed mainly by the slower 45 ms stage.
@@ -274,59 +166,24 @@ Prefetching can hide latency, not unlimited data cost; workers, memory, or stora
 
 One unsolved mark remains on the brass reference machine. None of the responsibilities inside Input Pipeline can move it, and so it becomes the observation from which the next excavation must begin.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/153-input-pipeline/README.md).*
-
 ---
 
 ### Excavation 154 — Sequence Packing — Stop Training on Empty Space
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 The input pipeline now keeps the device busy. Inspection shows that many of the tokens occupying each fixed rectangle are padding rather than language.
 
-The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste.
 
-The enginewright repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ pad every sentence to the longest… ──▶ blurred: the loss ignores padding, but…
-      │
-      └── new lens ──▶ pack several short examples into each… ──▶ distinction survives
-```
+The counterexample separates two questions that the attempt to pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the brass reference machine, the old path and the repaired path run side by side. One carries “pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste”; the other knows how to pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another. When the failure—the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to sequence packing. It is a compass: it points directly toward the information the next construction must retain.
+This repaired capacity is the idea named **Sequence Packing**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The evidence permits one narrow invention: pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another. This problem and its repair will travel under the name **Sequence Packing**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste? The answer remains the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste?
-
-#### When the chamber changes
-
-The mathematical name Sequence Packing can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The gate follows the tempting path—pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste. Then the evidence answers: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions.
-
-Now let the chamber move: The enginewright changes one moving part. The gate can now pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another.
-
-The object that should remain after the terminology disappears is **the sequence packing gate mounted on the brass reference machine**.
-
-> **Memory seal — Sequence Packing**
->
-> Sequence Packing keeps the missing power: pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another.
-
-Give the idea a bodily path: Touch the sequence packing gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Stop Training on Empty Space
 
 Lengths 6, 5, 3, and 2 fill two rows of length 8 exactly. Padding falls from 16 allocated positions with 6 empty to 16 positions with none empty.
@@ -345,7 +202,7 @@ The numerator counts language tokens that create lessons; the denominator counts
 
 Three old motions cast new shadows here: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
 
-Cover the prose about sequence packing and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming sequence packing equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \eta_{\text{pack}}=\frac{N_{\text{real tokens}}}{N_{\text{allocated positions}}}
@@ -357,59 +214,24 @@ Packing improves utilization only if masks and position resets prevent cross-exa
 
 The sequence packing repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/154-sequence-packing/README.md).*
-
 ---
 
 ### Excavation 155 — Rotary Position Embeddings — Let Distance Enter the Match
 
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 Packed training supplies dense sequences, but the learned absolute position cards from our first GPT bind each slot to a private identity rather than making relative displacement part of the query-key match.
 
-Night gathers around the Engine Cavern. Under the light of the brass reference machine, the enginewright refuses to invent prematurely and begins with the plain rule: learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples.
 
-At the edge of the brass reference machine, the shortcut produces its consequence: moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged.
 
-```text
-possible road A ─┐
-                 ├── old map: learn an unrelated vector for every…
-possible road B ─┘              └── loses: moving the same phrase from positions…
+The important discovery is not merely that trying to learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-same roads ──▶ repaired map ──▶ rotate pairs of query and key…
-```
+The old construction is therefore not discarded. It is widened just enough to rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The enginewright covers the new mark and the old contradiction returns: moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged. The cover is lifted, restoring the ability to rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason rotary position embeddings exists.
+The necessary extension now has a name: **Rotary Position Embeddings**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-What must change for rotary position embeddings is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference. That threshold is where **Rotary Position Embeddings** enters the story.
-
-The marks on the brass reference machine form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. rotary position embeddings is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples?
-
-#### When the chamber changes
-
-The Rotary Position Embeddings room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The wheel follows the tempting path—learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples. Then the evidence answers: moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged.
-
-Now let the chamber move: The enginewright changes one moving part. The wheel can now rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference.
-
-The object that should remain after the terminology disappears is **the rotary position embeddings wheel mounted on the brass reference machine**.
-
-> **Memory seal — Rotary Position Embeddings**
->
-> Rotary Position Embeddings keeps the missing power: rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference.
-
-Give the idea a bodily path: Touch the rotary position embeddings wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Let Distance Enter the Match
 
 Rotate the two coordinates of tiger by angle mθ and river by nθ. Their match depends on (m−n)θ, so shifting both tokens together preserves their separation signal.
@@ -440,59 +262,24 @@ RoPE supplies structured relative position, but distances far beyond training st
 
 Here the new path ends honestly. Rotary Position Embeddings can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/155-rotary-position/README.md).*
-
 ---
 
 ### Excavation 156 — Relative Position Bias — What Should Happen Beyond the Seen Window?
 
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 Rotary position makes displacement visible inside the attention match. When the station tests much longer sequences, the model must rank relationships at separations absent from training.
 
-Inside the Engine Cavern, every old tool is given one honest chance. The enginewright sets the brass reference machine between the evidence and the desired answer, then tries to trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations.
 
-```text
-reference evidence ──▶ shortcut: trust every unseen distance to behave…
-                         │
-                         └── mismatch: a mathematically defined position is…
+The contradiction matters because it identifies a structural loss in the instruction to trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: add an explicit distance-dependent…
-```
+The repair can now be kept narrow. The new method must add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.” Its path ends where a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations. The second receives the same evidence but is allowed to add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. Held to the light, the sheets separate at exactly one decision.
+A construction that performs this newly earned job is **Relative Position Bias**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-No one reaches for a relative position bias formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The enginewright changes only that one responsibility: add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. When the ink dries, the name **Relative Position Bias** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The brass reference machine keeps both histories. Its older mark still says, ‘trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there’; beside it, the newer mark says, ‘add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.’ The distance between those sentences is the exact shape of relative position bias: no larger than the failure required, and no smaller than reality permits.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What Should Happen Beyond the Seen Window?
-
-#### When the chamber changes
-
-Keep the formal name Relative Position Bias covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The map follows the tempting path—trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there. Then the evidence answers: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations.
-
-Now let the chamber move: The enginewright changes one moving part. The map can now add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.
-
-The object that should remain after the terminology disappears is **the relative position bias map mounted on the brass reference machine**.
-
-> **Memory seal — Relative Position Bias**
->
-> Relative Position Bias keeps the missing power: add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.
-
-Give the idea a bodily path: Touch the relative position bias map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### What Should Happen Beyond the Seen Window
 
 For one head with slope 0.1, a key 2 places back receives −0.2 while a key 20 places back receives −2.0 before softmax. Content can overcome the penalty, but distance has a predictable cost.
@@ -523,63 +310,24 @@ A fixed distance preference can suppress a decisive remote clue and is an archit
 
 At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Relative Position Bias has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/156-relative-position-bias/README.md).*
-
 ---
 
 ### Excavation 157 — The KV Cache — Stop Re-reading the Entire Past
 
-> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Model systems and engine optimization
-
 Relative position now behaves predictably, but autoregressive generation still reruns the Transformer over the full prefix after appending each token.
 
-A new case arrives at the Engine Cavern, but the enginewright first reaches for the familiar brass reference machine. Its promise is simple: at step t, recompute keys and values for positions 1 through t because the prefix is presented again.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to at step t, recompute keys and values for positions 1 through t because the prefix is presented again.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we at step t, recompute keys and values for positions 1 through t because the prefix is presented again, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added.
 
-```text
-observation
-    │
-    ▼
-[at step t, recompute keys and values…]
-    │
-    ╳  past token representations are…
-    │
-    ▼
-[store each layer's past keys and…]
-```
+This failure cannot be repaired by performing the instruction to at step t, recompute keys and values for positions 1 through t because the prefix is presented again more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “at step t, recompute keys and values for positions 1 through t because the prefix is presented again.” It disappears into the observed failure: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added. The darker trail carries one additional capacity—to store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed kv cache mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
+Once this responsibility becomes part of the method, we have built what is called **The KV Cache**. The name is simply a handle for the distinction already reconstructed.
 
-So the brass reference machine is altered in exactly one way: store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache. Much later, people will call this territory **The KV Cache**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the brass reference machine. The failed path remains visible beneath the repair, because kv cache is easier to remember when its scar remains attached to it. The scar reads, ‘past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added’; the new line exists only to keep that loss from happening again.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we at step t, recompute keys and values for positions 1 through t because the prefix is presented again?
-
-#### When the chamber changes
-
-The The KV Cache chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The scale follows the tempting path—at step t, recompute keys and values for positions 1 through t because the prefix is presented again. Then the evidence answers: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added.
-
-Now let the chamber move: The enginewright changes one moving part. The scale can now store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache.
-
-The object that should remain after the terminology disappears is **the kv cache scale mounted on the brass reference machine**.
-
-> **Memory seal — The KV Cache**
->
-> The KV Cache keeps the missing power: store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache.
-
-Give the idea a bodily path: Touch the kv cache scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Stop Re-reading the Entire Past
 
 Generating token 101 computes one new key and value, then reads the 100 cached pairs. It does not rebuild pairs 1 through 100.
@@ -610,61 +358,24 @@ Because every past key and value must remain available, saved computation become
 
 The brass reference machine answers today's question and falls silent at the next. That silence is precise: KV Cache was built to repair one failure, not to pretend every later boundary is already solved.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/157-kv-cache/README.md).*
-
 ---
 
 ### Excavation 158 — Multi-Query Attention — Why Cache Separate Copies for Every Head?
 
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 Caching turns repeated arithmetic into memory reads. Profiling now shows decoding limited by loading separate key and value histories for every attention head.
 
-The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections.
 
-Reality answers without terminology: the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token. The brass reference machine now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   preserve one complete KV cache for… the caches grow with both sequence…
-            \        /
-             \      /
-              keep many query heads but share one…
-```
+The counterexample separates two questions that the attempt to preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The brass reference machine is divided down the middle. Left side: “preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections.” Its final mark records the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token. Right side: the same starting evidence, now allowed to keep many query heads but share one key head and one value head across them. The difference is narrow enough to see and important enough to change the ending.
+Only the broken responsibility needs to change. The method must now keep many query heads but share one key head and one value head across them. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The broken rule has given multi-query attention a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
+This repaired capacity is the idea named **Multi-Query Attention**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The repair can now be stated without mystery: keep many query heads but share one key head and one value head across them. The name **Multi-Query Attention** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from multi-query attention through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** Why Cache Separate Copies for Every Head?
-
-#### When the chamber changes
-
-Before leaving Multi-Query Attention, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The gear follows the tempting path—preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections. Then the evidence answers: the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token.
-
-Now let the chamber move: The enginewright changes one moving part. The gear can now keep many query heads but share one key head and one value head across them.
-
-The object that should remain after the terminology disappears is **the multi-query attention gear mounted on the brass reference machine**.
-
-> **Memory seal — Multi-Query Attention**
->
-> Multi-Query Attention keeps the missing power: keep many query heads but share one key head and one value head across them.
-
-Give the idea a bodily path: Touch the multi-query attention gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Why Cache Separate Copies for Every Head
 
 Eight query experts ask eight different questions of the same cached catalog. Cache entries fall from eight key-value pairs per token to one pair per token.
@@ -695,58 +406,24 @@ A single shared catalog can remove distinctions that genuinely need different ke
 
 A final test reaches beyond the new instrument. It does not refute Multi-Query Attention; it reveals the edge of what was constructed. The enginewright carries that edge into the following room.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/158-multi-query-attention/README.md).*
-
 ---
 
 ### Excavation 159 — Grouped-Query Attention — Recover Some Specialist Memory
 
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
->
-> **Applied territory:** Model systems and engine optimization
-
 One shared KV head makes decoding light enough for the station, but evaluation finds a quality loss on relationships that benefited from distinct catalogs.
 
-Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: return immediately to one KV head per query head.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to return immediately to one KV head per query head.
 
-Then the quiet test arrives: quality recovers, but so does the full cache and bandwidth cost that forced sharing. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To return immediately to one KV head per query head is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: quality recovers, but so does the full cache and bandwidth cost that forced sharing.
 
-```text
-OLD PATH:  request ──▶ return immediately to one KV head per… ──▶ quality recovers, but so does the…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ partition query heads into groups;… ──▶ accountable result
-```
+The important discovery is not merely that trying to return immediately to one KV head per query head failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-The enginewright turns the brass reference machine toward the light. Through the old engraving, return immediately to one KV head per query head, the evidence ends in the same contradiction: quality recovers, but so does the full cache and bandwidth cost that forced sharing. A second engraving adds only the power to partition query heads into groups; queries remain distinct while each group shares one key-value head. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to partition query heads into groups; queries remain distinct while each group shares one key-value head. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The enginewright circles the place where the two grouped-query attention cases collapsed together. The repair must open that circle and preserve the difference inside it.
+The necessary extension now has a name: **Grouped-Query Attention**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-Only the missing distinction is restored: partition query heads into groups; queries remain distinct while each group shares one key-value head. The enginewright writes **Grouped-Query Attention** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The enginewright places a finger over the new distinction. At once the two cases collapse and quality recovers, but so does the full cache and bandwidth cost that forced sharing. Lifting the finger restores only this capacity: partition query heads into groups; queries remain distinct while each group shares one key-value head. That tiny reversible motion is the chapter's proof of necessity.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we return immediately to one KV head per query head?
-
-#### When the chamber changes
-
-The mathematical name Grouped-Query Attention can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The prism follows the tempting path—return immediately to one KV head per query head. Then the evidence answers: quality recovers, but so does the full cache and bandwidth cost that forced sharing.
-
-Now let the chamber move: The enginewright changes one moving part. The prism can now partition query heads into groups; queries remain distinct while each group shares one key-value head.
-
-The object that should remain after the terminology disappears is **the grouped-query attention prism mounted on the brass reference machine**.
-
-> **Memory seal — Grouped-Query Attention**
->
-> Grouped-Query Attention keeps the missing power: partition query heads into groups; queries remain distinct while each group shares one key-value head.
-
-Give the idea a bodily path: Touch the grouped-query attention prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Recover Some Specialist Memory
 
 Eight query heads arranged into two KV groups preserve two catalogs. The cache is twice MQA's size but one quarter of ordinary eight-head KV storage.
@@ -763,7 +440,7 @@ h is a query-head index, H_Q counts query heads, H_KV counts shared KV groups, a
 
 [Multiplication](../MATHEMATICAL_MOVES.md#multiplication) spreads the KV group range across query-head indices; [division](../MATHEMATICAL_MOVES.md#division) converts one query index into its proportional group location. The floor deliberately [rounds](../MATHEMATICAL_MOVES.md#rounding) down so every head receives one valid discrete group rather than a fractional address.
 
-Before the line is compressed, notice its recurring motions: **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. Together they keep the path from the concrete case to notation intact.
 
 The story of grouped-query attention has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
@@ -777,59 +454,24 @@ Because sharing deliberately removes independent KV views, the number and assign
 
 One unsolved mark remains on the brass reference machine. None of the responsibilities inside Grouped-Query Attention can move it, and so it becomes the observation from which the next excavation must begin.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/159-grouped-query-attention/README.md).*
-
 ---
 
 ### Excavation 160 — FlashAttention — The Arithmetic Was Not the Bottleneck
 
-> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
->
-> **Applied territory:** Model systems and engine optimization
-
 Grouped-query attention makes generation economical, yet training long packed sequences still materializes a large attention-score matrix in slow device memory.
 
-At the Engine Cavern, the enginewright returns to the brass reference machine. Yesterday's instrument still lies open, so the first move asks for no new magic: reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost.
 
-The enginewright repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ reduce arithmetic by approximating… ──▶ blurred: approximation changes the model,…
-      │
-      └── new lens ──▶ tile queries, keys, and values into… ──▶ distinction survives
-```
+The contradiction matters because it identifies a structural loss in the instruction to reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the brass reference machine, the old path and the repaired path run side by side. One carries “reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost”; the other knows how to tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. When the failure—approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to flashattention. It is a compass: it points directly toward the information the next construction must retain.
+A construction that performs this newly earned job is **FlashAttention**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The evidence permits one narrow invention: tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. This problem and its repair will travel under the name **FlashAttention**, but the name carries no knowledge the scene has not earned.
-
-What changed on the brass reference machine can be said without symbols. Before, the method could only reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost; now it can also tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost?
-
-#### When the chamber changes
-
-The FlashAttention room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The seal follows the tempting path—reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost. Then the evidence answers: approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them.
-
-Now let the chamber move: The enginewright changes one moving part. The seal can now tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once.
-
-The object that should remain after the terminology disappears is **the flashattention seal mounted on the brass reference machine**.
-
-> **Memory seal — FlashAttention**
->
-> FlashAttention keeps the missing power: tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once.
-
-Give the idea a bodily path: Touch the flashattention seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### The Arithmetic Was Not the Bottleneck
 
 Process two score tiles. Carry only the running maximum, normalized denominator, and weighted value total into the next tile; the final answer matches ordinary softmax attention.
@@ -848,7 +490,7 @@ m is the largest score already seen, s_j are scores in the new tile, and m-prime
 
 Listen beneath flashattention: **the highest lantern**—the strongest surviving possibility sets the visible ceiling. These are not ornamental comparisons. Each image keeps the exact job of an operation visible while its symbols change.
 
-Cover the prose about flashattention and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming flashattention equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 m^{\prime}=\max(m,\max_j s_j)
@@ -860,59 +502,24 @@ FlashAttention removes avoidable memory traffic, not quadratic pairwise arithmet
 
 The flashattention repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/160-flash-attention/README.md).*
-
 ---
 
 ### Excavation 161 — RMSNorm — Do We Need to Subtract the Centre?
 
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 FlashAttention removes one systems bottleneck, making smaller repeated operations visible. Layer normalization calculates both a mean and a spread at every token and layer.
 
-Morning reaches the Engine Cavern before anyone has a name for today's difficulty. Beside the brass reference machine, the enginewright tries the smallest continuation of what already works: delete normalization because each individual operation appears cheap.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to delete normalization because each individual operation appears cheap.
 
-At the edge of the brass reference machine, the shortcut produces its consequence: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we delete normalization because each individual operation appears cheap, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work.
 
-```text
-possible road A ─┐
-                 ├── old map: delete normalization because each…
-possible road B ─┘              └── loses: deep residual streams drift in scale…
+This failure cannot be repaired by performing the instruction to delete normalization because each individual operation appears cheap more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-same roads ──▶ repaired map ──▶ keep rescaling invariance by dividing…
-```
+The evidence has earned one extension and no more. We need to keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The enginewright covers the new mark and the old contradiction returns: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work. The cover is lifted, restoring the ability to keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason rmsnorm exists.
+Once this responsibility becomes part of the method, we have built what is called **RMSNorm**. The name is simply a handle for the distinction already reconstructed.
 
-What must change for rmsnorm is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable. That threshold is where **RMSNorm** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In rmsnorm, that memory takes a precise form: whenever deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work, preserve enough structure to keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we delete normalization because each individual operation appears cheap?
-
-#### When the chamber changes
-
-Keep the formal name RMSNorm covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The lens follows the tempting path—delete normalization because each individual operation appears cheap. Then the evidence answers: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work.
-
-Now let the chamber move: The enginewright changes one moving part. The lens can now keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
-
-The object that should remain after the terminology disappears is **the rmsnorm lens mounted on the brass reference machine**.
-
-> **Memory seal — RMSNorm**
->
-> RMSNorm keeps the missing power: keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
-
-Give the idea a bodily path: Touch the rmsnorm lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Do We Need to Subtract the Centre
 
 Vectors [3,4] and [30,40] become the same relative pattern after division by their RMS, although neither has its mean subtracted.
@@ -943,59 +550,24 @@ RMSNorm does not guarantee that recentering is unimportant for every architectur
 
 Here the new path ends honestly. RMSNorm can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/161-rmsnorm/README.md).*
-
 ---
 
 ### Excavation 162 — Pre-Normalization — Protect the Residual Highway
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Model systems and engine optimization
-
 The block is cheaper, but making it deeper reveals unstable early gradients when normalization follows each residual addition.
 
-The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: keep post-normalization because each block's output then looks standardized before the next block.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to keep post-normalization because each block's output then looks standardized before the next block.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to keep post-normalization because each block's output then looks standardized before the next block preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve.
 
-```text
-reference evidence ──▶ shortcut: keep post-normalization because each…
-                         │
-                         └── mismatch: the supposedly clean output places…
+The counterexample separates two questions that the attempt to keep post-normalization because each block's output then looks standardized before the next block had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-reference evidence ──▶ measured repair: normalize only the input to the…
-```
+Only the broken responsibility needs to change. The method must now normalize only the input to the changing branch and let the identity stream pass around it unchanged. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “keep post-normalization because each block's output then looks standardized before the next block.” Its path ends where the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve. The second receives the same evidence but is allowed to normalize only the input to the changing branch and let the identity stream pass around it unchanged. Held to the light, the sheets separate at exactly one decision.
+This repaired capacity is the idea named **Pre-Normalization**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-No one reaches for a pre-normalization formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The enginewright changes only that one responsibility: normalize only the input to the changing branch and let the identity stream pass around it unchanged. When the ink dries, the name **Pre-Normalization** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve, while the other can normalize only the input to the changing branch and let the identity stream pass around it unchanged. That fork—not the vocabulary—is where pre-normalization lives.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we keep post-normalization because each block's output then looks standardized before the next block?
-
-#### When the chamber changes
-
-The Pre-Normalization chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The key follows the tempting path—keep post-normalization because each block's output then looks standardized before the next block. Then the evidence answers: the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve.
-
-Now let the chamber move: The enginewright changes one moving part. The key can now normalize only the input to the changing branch and let the identity stream pass around it unchanged.
-
-The object that should remain after the terminology disappears is **the pre-normalization key mounted on the brass reference machine**.
-
-> **Memory seal — Pre-Normalization**
->
-> Pre-Normalization keeps the missing power: normalize only the input to the changing branch and let the identity stream pass around it unchanged.
-
-Give the idea a bodily path: Touch the pre-normalization key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Protect the Residual Highway
 
 A block computes a normalized proposal F, then adds that proposal to the untouched x. If F initially contributes little, the block can behave almost like identity.
@@ -1026,63 +598,24 @@ Pre-normalization improves gradient behavior but changes representation scale an
 
 At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Pre-Normalization has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/162-pre-normalization/README.md).*
-
 ---
 
 ### Excavation 163 — SwiGLU — Let One Learned Path Gate Another
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 Pre-normalization lets gradients reach deep blocks, but the ordinary feed-forward network applies one fixed activation independently to one projection.
 
-Night gathers around the Engine Cavern. Under the light of the brass reference machine, the enginewright refuses to invent prematurely and begins with the plain rule: make the hidden layer merely wider and trust more coordinates to express every conditional interaction.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to make the hidden layer merely wider and trust more coordinates to express every conditional interaction.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: width adds capacity but still asks one projection both to create content and decide when that content matters. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To make the hidden layer merely wider and trust more coordinates to express every conditional interaction is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: width adds capacity but still asks one projection both to create content and decide when that content matters.
 
-```text
-observation
-    │
-    ▼
-[make the hidden layer merely wider…]
-    │
-    ╳  width adds capacity but still asks…
-    │
-    ▼
-[create one content projection and one…]
-```
+The important discovery is not merely that trying to make the hidden layer merely wider and trust more coordinates to express every conditional interaction failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “make the hidden layer merely wider and trust more coordinates to express every conditional interaction.” It disappears into the observed failure: width adds capacity but still asks one projection both to create content and decide when that content matters. The darker trail carries one additional capacity—to create one content projection and one gate projection; use the smooth gate to scale content feature by feature. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to create one content projection and one gate projection; use the smooth gate to scale content feature by feature. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed swiglu mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
+The necessary extension now has a name: **SwiGLU**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-So the brass reference machine is altered in exactly one way: create one content projection and one gate projection; use the smooth gate to scale content feature by feature. Much later, people will call this territory **SwiGLU**. Here the name is only a memory of the failure it can survive.
-
-The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and swiglu looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we make the hidden layer merely wider and trust more coordinates to express every conditional interaction?
-
-#### When the chamber changes
-
-Before leaving SwiGLU, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The lantern follows the tempting path—make the hidden layer merely wider and trust more coordinates to express every conditional interaction. Then the evidence answers: width adds capacity but still asks one projection both to create content and decide when that content matters.
-
-Now let the chamber move: The enginewright changes one moving part. The lantern can now create one content projection and one gate projection; use the smooth gate to scale content feature by feature.
-
-The object that should remain after the terminology disappears is **the swiglu lantern mounted on the brass reference machine**.
-
-> **Memory seal — SwiGLU**
->
-> SwiGLU keeps the missing power: create one content projection and one gate projection; use the smooth gate to scale content feature by feature.
-
-Give the idea a bodily path: Touch the swiglu lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Let One Learned Path Gate Another
 
 For a token describing a river bank, one path proposes financial features while the gate suppresses them; in a money context the same content path can be opened.
@@ -1113,61 +646,24 @@ Gating improves useful capacity but increases projection parameters and does not
 
 The brass reference machine answers today's question and falls silent at the next. That silence is precise: SwiGLU was built to repair one failure, not to pretend every later boundary is already solved.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/163-swiglu/README.md).*
-
 ---
 
 ### Excavation 164 — Weight Tying — Use One Word Geometry Twice
 
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 SwiGLU improves the block, but the model stores one large table for input embeddings and another large matrix for scoring the same vocabulary at output.
 
-Inside the Engine Cavern, every old tool is given one honest chance. The enginewright sets the brass reference machine between the evidence and the desired answer, then tries to let both matrices learn independently because reading a token and predicting it are different jobs.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: let both matrices learn independently because reading a token and predicting it are different jobs.
 
-Reality answers without terminology: the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places. The brass reference machine now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To let both matrices learn independently because reading a token and predicting it are different jobs reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   let both matrices learn independently… the model spends parameters learning…
-            \        /
-             \      /
-              reuse the embedding table transposed…
-```
+The contradiction matters because it identifies a structural loss in the instruction to let both matrices learn independently because reading a token and predicting it are different jobs, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The brass reference machine is divided down the middle. Left side: “let both matrices learn independently because reading a token and predicting it are different jobs.” Its final mark records the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places. Right side: the same starting evidence, now allowed to reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias. The difference is narrow enough to see and important enough to change the ending.
+The repair can now be kept narrow. The new method must reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The broken rule has given weight tying a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
+A construction that performs this newly earned job is **Weight Tying**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The repair can now be stated without mystery: reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias. The name **Weight Tying** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to let both matrices learn independently because reading a token and predicting it are different jobs; on the other lies the observed fact that the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places. The bridge called weight tying has exactly the planks needed to reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we let both matrices learn independently because reading a token and predicting it are different jobs?
-
-#### When the chamber changes
-
-The mathematical name Weight Tying can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The compass follows the tempting path—let both matrices learn independently because reading a token and predicting it are different jobs. Then the evidence answers: the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places.
-
-Now let the chamber move: The enginewright changes one moving part. The compass can now reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
-
-The object that should remain after the terminology disappears is **the weight tying compass mounted on the brass reference machine**.
-
-> **Memory seal — Weight Tying**
->
-> Weight Tying keeps the missing power: reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
-
-Give the idea a bodily path: Touch the weight tying compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Use One Word Geometry Twice
 
 The tiger vector used to enter the model also becomes the direction a final hidden state must align with to predict tiger.
@@ -1196,58 +692,24 @@ Tying reduces parameters and imposes a useful constraint, but separate input and
 
 A final test reaches beyond the new instrument. It does not refute Weight Tying; it reveals the edge of what was constructed. The enginewright carries that edge into the following room.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/164-weight-tying/README.md).*
-
 ---
 
 ### Excavation 165 — Adam — Give Each Parameter Its Own Step Scale
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 Weight tying concentrates more roles in shared parameters. During training, some coordinates receive frequent large gradients while rare-token coordinates receive sparse small ones.
 
-A new case arrives at the Engine Cavern, but the enginewright first reaches for the familiar brass reference machine. Its promise is simple: use the same raw gradient step scale for every parameter.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to use the same raw gradient step scale for every parameter.
 
-Then the quiet test arrives: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we use the same raw gradient step scale for every parameter, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable.
 
-```text
-OLD PATH:  request ──▶ use the same raw gradient step scale… ──▶ a rate safe for frequent large…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ keep fading memories of gradient… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to use the same raw gradient step scale for every parameter more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-The enginewright turns the brass reference machine toward the light. Through the old engraving, use the same raw gradient step scale for every parameter, the evidence ends in the same contradiction: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable. A second engraving adds only the power to keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The enginewright circles the place where the two adam cases collapsed together. The repair must open that circle and preserve the difference inside it.
+Once this responsibility becomes part of the method, we have built what is called **Adam**. The name is simply a handle for the distinction already reconstructed.
 
-Only the missing distinction is restored: keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. The enginewright writes **Adam** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The enginewright does not memorize adam. Instead, the enginewright memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. The formal name merely lets that motion be shared.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we use the same raw gradient step scale for every parameter?
-
-#### When the chamber changes
-
-The Adam room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The bridge follows the tempting path—use the same raw gradient step scale for every parameter. Then the evidence answers: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable.
-
-Now let the chamber move: The enginewright changes one moving part. The bridge can now keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude.
-
-The object that should remain after the terminology disappears is **the adam bridge mounted on the brass reference machine**.
-
-> **Memory seal — Adam**
->
-> Adam keeps the missing power: keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude.
-
-Give the idea a bodily path: Touch the adam bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Give Each Parameter Its Own Step Scale
 
 A frequently noisy weight builds a large second-moment estimate and receives a smaller normalized step; a consistently directed sparse weight can still move.
@@ -1278,59 +740,24 @@ Adaptive scaling can generalize differently from SGD and introduces extra state 
 
 One unsolved mark remains on the brass reference machine. None of the responsibilities inside Adam can move it, and so it becomes the observation from which the next excavation must begin.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/165-adam/README.md).*
-
 ---
 
 ### Excavation 166 — AdamW — Keep Shrinkage Separate from Adaptation
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 Adam trains the block, but adding an L2 penalty to the loss sends shrinkage through the optimizer's coordinate-wise rescaling.
 
-The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: treat penalty gradients and data gradients identically because both appear in one total loss.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to treat penalty gradients and data gradients identically because both appear in one total loss.
 
-The enginewright repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to treat penalty gradients and data gradients identically because both appear in one total loss preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ treat penalty gradients and data… ──▶ blurred: coordinates with different gradient…
-      │
-      └── new lens ──▶ apply Adam's adaptive data update and… ──▶ distinction survives
-```
+The counterexample separates two questions that the attempt to treat penalty gradients and data gradients identically because both appear in one total loss had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the brass reference machine, the old path and the repaired path run side by side. One carries “treat penalty gradients and data gradients identically because both appear in one total loss”; the other knows how to apply Adam's adaptive data update and parameter decay as separate operations. When the failure—coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now apply Adam's adaptive data update and parameter decay as separate operations. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to adamw. It is a compass: it points directly toward the information the next construction must retain.
+This repaired capacity is the idea named **AdamW**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The evidence permits one narrow invention: apply Adam's adaptive data update and parameter decay as separate operations. This problem and its repair will travel under the name **AdamW**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—treat penalty gradients and data gradients identically because both appear in one total loss? The answer remains coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we treat penalty gradients and data gradients identically because both appear in one total loss?
-
-#### When the chamber changes
-
-Keep the formal name AdamW covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The thread follows the tempting path—treat penalty gradients and data gradients identically because both appear in one total loss. Then the evidence answers: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate.
-
-Now let the chamber move: The enginewright changes one moving part. The thread can now apply Adam's adaptive data update and parameter decay as separate operations.
-
-The object that should remain after the terminology disappears is **the adamw thread mounted on the brass reference machine**.
-
-> **Memory seal — AdamW**
->
-> AdamW keeps the missing power: apply Adam's adaptive data update and parameter decay as separate operations.
-
-Give the idea a bodily path: Touch the adamw thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Keep Shrinkage Separate from Adaptation
 
 Two equal weights with different gradient histories receive different Adam steps but the same proportional decay.
@@ -1349,7 +776,7 @@ lambda is decay strength; the first term shrinks the old parameter directly; the
 
 The mandala has curved back upon itself. In this chamber we meet **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chisel**—what is shared is removed so the remaining change can be seen. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about adamw and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming adamw equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \theta_{t+1}=(1-\eta\lambda)\theta_t-\eta\frac{\widehat m_t}{\sqrt{\widehat v_t}+\epsilon}
@@ -1361,59 +788,24 @@ Decoupled decay still requires choosing which parameters to decay and how strong
 
 The adamw repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/166-adamw/README.md).*
-
 ---
 
 ### Excavation 167 — Gradient Clipping — Stop One Shock from Becoming a Catastrophe
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus)
->
-> **Applied territory:** Model systems and engine optimization
-
 Most steps are stable, but a rare batch produces an enormous global gradient norm and overwhelms Adam's still-developing moment estimates.
 
-Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: discard the entire batch whenever any gradient coordinate looks large.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to discard the entire batch whenever any gradient coordinate looks large.
 
-At the edge of the brass reference machine, the shortcut produces its consequence: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To discard the entire batch whenever any gradient coordinate looks large is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector.
 
-```text
-possible road A ─┐
-                 ├── old map: discard the entire batch whenever any…
-possible road B ─┘              └── loses: useful directional evidence is lost,…
+The important discovery is not merely that trying to discard the entire batch whenever any gradient coordinate looks large failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-same roads ──▶ repaired map ──▶ preserve the gradient's direction but…
-```
+The old construction is therefore not discarded. It is widened just enough to preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The enginewright covers the new mark and the old contradiction returns: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector. The cover is lifted, restoring the ability to preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason gradient clipping exists.
+The necessary extension now has a name: **Gradient Clipping**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-What must change for gradient clipping is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling. That threshold is where **Gradient Clipping** enters the story.
-
-The marks on the brass reference machine form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. gradient clipping is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we discard the entire batch whenever any gradient coordinate looks large?
-
-#### When the chamber changes
-
-The Gradient Clipping chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The mirror follows the tempting path—discard the entire batch whenever any gradient coordinate looks large. Then the evidence answers: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector.
-
-Now let the chamber move: The enginewright changes one moving part. The mirror can now preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling.
-
-The object that should remain after the terminology disappears is **the gradient clipping mirror mounted on the brass reference machine**.
-
-> **Memory seal — Gradient Clipping**
->
-> Gradient Clipping keeps the missing power: preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling.
-
-Give the idea a bodily path: Touch the gradient clipping mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Stop One Shock from Becoming a Catastrophe
 
 A gradient of length 20 with ceiling 5 is multiplied by one quarter. A gradient of length 3 passes unchanged.
@@ -1430,7 +822,7 @@ g is the original gradient vector, c is the allowed norm ceiling, and g-prime is
 
 [Division](../MATHEMATICAL_MOVES.md#division) computes the fraction needed to bring the current norm down to c. [Minimum](../MATHEMATICAL_MOVES.md#minimum) chooses at most one, so small gradients are never enlarged. [Multiplication](../MATHEMATICAL_MOVES.md#multiplication) scales every coordinate equally, preserving direction; clipping coordinates separately would rotate the update.
 
-Before the line is compressed, notice its recurring motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; **the narrow gate**—the smaller allowance prevents a promise from exceeding its boundary; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; **the narrow gate**—the smaller allowance prevents a promise from exceeding its boundary; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The brass reference machine already contains the complete gradient clipping mechanism. Mathematics gives that mechanism a form small enough to carry:
 
@@ -1444,59 +836,24 @@ Clipping limits damage; it can hide a broken loss, corrupt data, or an unsuitabl
 
 Here the new path ends honestly. Gradient Clipping can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/167-gradient-clipping/README.md).*
-
 ---
 
 ### Excavation 168 — Mixed Precision — Stop Storing Every Number with Unneeded Detail
 
-> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Model systems and engine optimization
-
 Stable gradients now expose the physical bill: weights, activations, and gradients are stored and moved as wide numbers even when many operations tolerate fewer bits.
 
-At the Engine Cavern, the enginewright returns to the brass reference machine. Yesterday's instrument still lies open, so the first move asks for no new magic: convert every value and every update permanently to half precision.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: convert every value and every update permanently to half precision.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To convert every value and every update permanently to half precision reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range.
 
-```text
-reference evidence ──▶ shortcut: convert every value and every update…
-                         │
-                         └── mismatch: small updates disappear when rounded…
+The contradiction matters because it identifies a structural loss in the instruction to convert every value and every update permanently to half precision, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: use reduced precision for bulk…
-```
+The repair can now be kept narrow. The new method must use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “convert every value and every update permanently to half precision.” Its path ends where small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range. The second receives the same evidence but is allowed to use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision. Held to the light, the sheets separate at exactly one decision.
+A construction that performs this newly earned job is **Mixed Precision**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-No one reaches for a mixed precision formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The enginewright changes only that one responsibility: use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision. When the ink dries, the name **Mixed Precision** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The brass reference machine keeps both histories. Its older mark still says, ‘convert every value and every update permanently to half precision’; beside it, the newer mark says, ‘use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.’ The distance between those sentences is the exact shape of mixed precision: no larger than the failure required, and no smaller than reality permits.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we convert every value and every update permanently to half precision?
-
-#### When the chamber changes
-
-Before leaving Mixed Precision, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The bell follows the tempting path—convert every value and every update permanently to half precision. Then the evidence answers: small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range.
-
-Now let the chamber move: The enginewright changes one moving part. The bell can now use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.
-
-The object that should remain after the terminology disappears is **the mixed precision bell mounted on the brass reference machine**.
-
-> **Memory seal — Mixed Precision**
->
-> Mixed Precision keeps the missing power: use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.
-
-Give the idea a bodily path: Touch the mixed precision bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### Stop Storing Every Number with Unneeded Detail
 
 A million activation values require roughly two megabytes at 16 bits instead of four at 32 bits, while a 32-bit master weight accumulates tiny updates safely.
@@ -1527,63 +884,24 @@ Mixed precision reduces representation cost, but numeric range—not only bit co
 
 At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Mixed Precision has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/168-mixed-precision/README.md).*
-
 ---
 
 ### Excavation 169 — Loss Scaling — Rescue Gradients Too Small to Represent
 
-> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 The forward pass looks correct, but some half-precision gradients round to zero before the optimizer can use them.
 
-Morning reaches the Engine Cavern before anyone has a name for today's difficulty. Beside the brass reference machine, the enginewright tries the smallest continuation of what already works: increase the learning rate so small updates become visible.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to increase the learning rate so small updates become visible.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we increase the learning rate so small updates become visible, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update.
 
-```text
-observation
-    │
-    ▼
-[increase the learning rate so small…]
-    │
-    ╳  the learning rate acts after…
-    │
-    ▼
-[multiply the loss before…]
-```
+This failure cannot be repaired by performing the instruction to increase the learning rate so small updates become visible more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “increase the learning rate so small updates become visible.” It disappears into the observed failure: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update. The darker trail carries one additional capacity—to multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed loss scaling mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
+Once this responsibility becomes part of the method, we have built what is called **Loss Scaling**. The name is simply a handle for the distinction already reconstructed.
 
-So the brass reference machine is altered in exactly one way: multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating. Much later, people will call this territory **Loss Scaling**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the brass reference machine. The failed path remains visible beneath the repair, because loss scaling is easier to remember when its scar remains attached to it. The scar reads, ‘the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update’; the new line exists only to keep that loss from happening again.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we increase the learning rate so small updates become visible?
-
-#### When the chamber changes
-
-The mathematical name Loss Scaling can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The vessel follows the tempting path—increase the learning rate so small updates become visible. Then the evidence answers: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update.
-
-Now let the chamber move: The enginewright changes one moving part. The vessel can now multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating.
-
-The object that should remain after the terminology disappears is **the loss scaling vessel mounted on the brass reference machine**.
-
-> **Memory seal — Loss Scaling**
->
-> Loss Scaling keeps the missing power: multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating.
-
-Give the idea a bodily path: Touch the loss scaling vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### Rescue Gradients Too Small to Represent
 
 A gradient 0.000001 becomes 0.001 when loss scale is 1000, survives backpropagation, and returns to 0.000001 after unscaling.
@@ -1614,61 +932,24 @@ A scale large enough to prevent underflow can cause overflow, so practical syste
 
 The brass reference machine answers today's question and falls silent at the next. That silence is precise: Loss Scaling was built to repair one failure, not to pretend every later boundary is already solved.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/169-loss-scaling/README.md).*
-
 ---
 
 ### Excavation 170 — Gradient Accumulation — Build a Large Batch That Does Not Fit
 
-> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 The optimizer needs a less noisy effective batch, but all its examples and activations cannot coexist on one device.
 
-The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: reduce the batch until it fits and change nothing else.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to reduce the batch until it fits and change nothing else.
 
-Reality answers without terminology: the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together. The brass reference machine now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to reduce the batch until it fits and change nothing else preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   reduce the batch until it fits and… the gradient becomes noisier and the…
-            \        /
-             \      /
-              run several micro-batches, sum their…
-```
+The counterexample separates two questions that the attempt to reduce the batch until it fits and change nothing else had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The brass reference machine is divided down the middle. Left side: “reduce the batch until it fits and change nothing else.” Its final mark records the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together. Right side: the same starting evidence, now allowed to run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step. The difference is narrow enough to see and important enough to change the ending.
+Only the broken responsibility needs to change. The method must now run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The broken rule has given gradient accumulation a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
+This repaired capacity is the idea named **Gradient Accumulation**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The repair can now be stated without mystery: run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step. The name **Gradient Accumulation** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from gradient accumulation through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we reduce the batch until it fits and change nothing else?
-
-#### When the chamber changes
-
-The Gradient Accumulation room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The gate follows the tempting path—reduce the batch until it fits and change nothing else. Then the evidence answers: the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together.
-
-Now let the chamber move: The enginewright changes one moving part. The gate can now run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step.
-
-The object that should remain after the terminology disappears is **the gradient accumulation gate mounted on the brass reference machine**.
-
-> **Memory seal — Gradient Accumulation**
->
-> Gradient Accumulation keeps the missing power: run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step.
-
-Give the idea a bodily path: Touch the gradient accumulation gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### Build a Large Batch That Does Not Fit
 
 Four micro-batches of eight examples create one effective batch of thirty-two while only eight examples' activations are resident at a time.
@@ -1699,58 +980,24 @@ Accumulation lowers activation memory but adds serial work and does not reduce p
 
 A final test reaches beyond the new instrument. It does not refute Gradient Accumulation; it reveals the edge of what was constructed. The enginewright carries that edge into the following room.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/170-gradient-accumulation/README.md).*
-
 ---
 
 ### Excavation 171 — Activation Checkpointing — Remember Less, Recompute Exactly
 
-> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 Only one micro-batch is resident, yet backpropagation retains every layer's intermediate values until their gradients are computed.
 
-Night gathers around the Engine Cavern. Under the light of the brass reference machine, the enginewright refuses to invent prematurely and begins with the plain rule: delete all activations after the forward pass.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to delete all activations after the forward pass.
 
-Then the quiet test arrives: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To delete all activations after the forward pass is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly.
 
-```text
-OLD PATH:  request ──▶ delete all activations after the… ──▶ backward computation then lacks the…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ keep selected checkpoint activations… ──▶ accountable result
-```
+The important discovery is not merely that trying to delete all activations after the forward pass failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-The enginewright turns the brass reference machine toward the light. Through the old engraving, delete all activations after the forward pass, the evidence ends in the same contradiction: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly. A second engraving adds only the power to keep selected checkpoint activations and recompute the missing segments once when backward reaches them. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to keep selected checkpoint activations and recompute the missing segments once when backward reaches them. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The enginewright circles the place where the two activation checkpointing cases collapsed together. The repair must open that circle and preserve the difference inside it.
+The necessary extension now has a name: **Activation Checkpointing**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-Only the missing distinction is restored: keep selected checkpoint activations and recompute the missing segments once when backward reaches them. The enginewright writes **Activation Checkpointing** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The enginewright places a finger over the new distinction. At once the two cases collapse and backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly. Lifting the finger restores only this capacity: keep selected checkpoint activations and recompute the missing segments once when backward reaches them. That tiny reversible motion is the chapter's proof of necessity.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we delete all activations after the forward pass?
-
-#### When the chamber changes
-
-Keep the formal name Activation Checkpointing covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The wheel follows the tempting path—delete all activations after the forward pass. Then the evidence answers: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly.
-
-Now let the chamber move: The enginewright changes one moving part. The wheel can now keep selected checkpoint activations and recompute the missing segments once when backward reaches them.
-
-The object that should remain after the terminology disappears is **the activation checkpointing wheel mounted on the brass reference machine**.
-
-> **Memory seal — Activation Checkpointing**
->
-> Activation Checkpointing keeps the missing power: keep selected checkpoint activations and recompute the missing segments once when backward reaches them.
-
-Give the idea a bodily path: Touch the activation checkpointing wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### Remember Less, Recompute Exactly
 
 In a nine-layer chain, retain boundaries around three-layer segments. Backward rebuilds one segment at a time instead of storing all nine layers.
@@ -1781,59 +1028,24 @@ Checkpointing buys memory with extra computation; a poor partition can save litt
 
 One unsolved mark remains on the brass reference machine. None of the responsibilities inside Activation Checkpointing can move it, and so it becomes the observation from which the next excavation must begin.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/171-activation-checkpointing/README.md).*
-
 ---
 
 ### Excavation 172 — ZeRO — Stop Replicating the Same Training State
 
-> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Model systems and engine optimization
-
 Recomputation makes the forward graph fit, but AdamW stores parameters, gradients, first moments, and second moments. Ordinary data parallelism copies all of them onto every device.
 
-Inside the Engine Cavern, every old tool is given one honest chance. The enginewright sets the brass reference machine between the evidence and the desired answer, then tries to add devices and replicate the full training state on each one.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: add devices and replicate the full training state on each one.
 
-The enginewright repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: compute capacity grows while per-device model-state memory remains almost unchanged, so the same memory wall returns. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To add devices and replicate the full training state on each one reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: compute capacity grows while per-device model-state memory remains almost unchanged, so the same memory wall returns.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ add devices and replicate the full… ──▶ blurred: compute capacity grows while…
-      │
-      └── new lens ──▶ partition optimizer states,… ──▶ distinction survives
-```
+The contradiction matters because it identifies a structural loss in the instruction to add devices and replicate the full training state on each one, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the brass reference machine, the old path and the repaired path run side by side. One carries “add devices and replicate the full training state on each one”; the other knows how to partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them. When the failure—compute capacity grows while per-device model-state memory remains almost unchanged, so the same memory wall returns—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to zero. It is a compass: it points directly toward the information the next construction must retain.
+A construction that performs this newly earned job is **ZeRO**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The evidence permits one narrow invention: partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them. This problem and its repair will travel under the name **ZeRO**, but the name carries no knowledge the scene has not earned.
-
-What changed on the brass reference machine can be said without symbols. Before, the method could only add devices and replicate the full training state on each one; now it can also partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we add devices and replicate the full training state on each one?
-
-#### When the chamber changes
-
-The ZeRO chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The map follows the tempting path—add devices and replicate the full training state on each one. Then the evidence answers: compute capacity grows while per-device model-state memory remains almost unchanged, so the same memory wall returns.
-
-Now let the chamber move: The enginewright changes one moving part. The map can now partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them.
-
-The object that should remain after the terminology disappears is **the zero map mounted on the brass reference machine**.
-
-> **Memory seal — ZeRO**
->
-> ZeRO keeps the missing power: partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them.
-
-Give the idea a bodily path: Touch the zero map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### Stop Replicating the Same Training State
 
 Four workers each keep roughly one quarter of a large moment vector rather than four complete copies, then cooperate for the update.
@@ -1852,7 +1064,7 @@ M_total is shardable model state and P is the number of cooperating devices unde
 
 Inside zero, familiar operations return with stricter duties: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
 
-Cover the prose about zero and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming zero equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 M_{\text{state per device}}\approx\frac{M_{\text{total state}}}{P}
@@ -1864,59 +1076,24 @@ Because a worker no longer owns a complete state by itself, sharding trades redu
 
 The zero repair holds, but the world asks for something it was never given. At the Engine Cavern, that unmet need is preserved rather than hidden behind a stronger claim.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/172-zero-sharding/README.md).*
-
 ---
 
 ### Excavation 173 — Tensor Parallelism — Split One Matrix That No Device Can Hold
 
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical)
->
-> **Applied territory:** Model systems and engine optimization
-
 Sharded parameters can be gathered for computation, but the largest matrix itself becomes too large to materialize or multiply on one worker.
 
-A new case arrives at the Engine Cavern, but the enginewright first reaches for the familiar brass reference machine. Its promise is simple: assign whole layers to different devices and pass every activation through them sequentially.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to assign whole layers to different devices and pass every activation through them sequentially.
 
-At the edge of the brass reference machine, the shortcut produces its consequence: one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we assign whole layers to different devices and pass every activation through them sequentially, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work.
 
-```text
-possible road A ─┐
-                 ├── old map: assign whole layers to different…
-possible road B ─┘              └── loses: one oversized layer still cannot fit,…
+This failure cannot be repaired by performing the instruction to assign whole layers to different devices and pass every activation through them sequentially more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-same roads ──▶ repaired map ──▶ split a matrix across its columns or…
-```
+The evidence has earned one extension and no more. We need to split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The enginewright covers the new mark and the old contradiction returns: one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work. The cover is lifted, restoring the ability to split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason tensor parallelism exists.
+Once this responsibility becomes part of the method, we have built what is called **Tensor Parallelism**. The name is simply a handle for the distinction already reconstructed.
 
-What must change for tensor parallelism is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output. That threshold is where **Tensor Parallelism** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In tensor parallelism, that memory takes a precise form: whenever one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work, preserve enough structure to split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we assign whole layers to different devices and pass every activation through them sequentially?
-
-#### When the chamber changes
-
-Before leaving Tensor Parallelism, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The scale follows the tempting path—assign whole layers to different devices and pass every activation through them sequentially. Then the evidence answers: one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work.
-
-Now let the chamber move: The enginewright changes one moving part. The scale can now split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output.
-
-The object that should remain after the terminology disappears is **the tensor parallelism scale mounted on the brass reference machine**.
-
-> **Memory seal — Tensor Parallelism**
->
-> Tensor Parallelism keeps the missing power: split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output.
-
-Give the idea a bodily path: Touch the tensor parallelism scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### Split One Matrix That No Device Can Hold
 
 Divide one vocabulary projection into four column blocks. Each device scores one quarter of the vocabulary from the same hidden state; concatenation restores the full logits.
@@ -1947,59 +1124,24 @@ Tensor parallelism introduces communication inside every layer, so a slow interc
 
 Here the new path ends honestly. Tensor Parallelism can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/173-tensor-parallelism/README.md).*
-
 ---
 
 ### Excavation 174 — Speculative Decoding — Let a Small Model Propose, Never Decide
 
-> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Model systems and engine optimization
-
 Tensor parallelism makes one target-model step possible, but autoregressive dependence still serializes token generation.
 
-The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: let a cheap draft model emit several tokens and return them directly.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to let a cheap draft model emit several tokens and return them directly.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: speed improves by silently replacing the trusted target distribution with a weaker model's distribution. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to let a cheap draft model emit several tokens and return them directly preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: speed improves by silently replacing the trusted target distribution with a weaker model's distribution.
 
-```text
-reference evidence ──▶ shortcut: let a cheap draft model emit several…
-                         │
-                         └── mismatch: speed improves by silently replacing…
+The counterexample separates two questions that the attempt to let a cheap draft model emit several tokens and return them directly had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-reference evidence ──▶ measured repair: let the draft propose a short…
-```
+Only the broken responsibility needs to change. The method must now let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “let a cheap draft model emit several tokens and return them directly.” Its path ends where speed improves by silently replacing the trusted target distribution with a weaker model's distribution. The second receives the same evidence but is allowed to let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. Held to the light, the sheets separate at exactly one decision.
+This repaired capacity is the idea named **Speculative Decoding**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-No one reaches for a speculative decoding formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The enginewright changes only that one responsibility: let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. When the ink dries, the name **Speculative Decoding** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because speed improves by silently replacing the trusted target distribution with a weaker model's distribution, while the other can let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. That fork—not the vocabulary—is where speculative decoding lives.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we let a cheap draft model emit several tokens and return them directly?
-
-#### When the chamber changes
-
-The mathematical name Speculative Decoding can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The gear follows the tempting path—let a cheap draft model emit several tokens and return them directly. Then the evidence answers: speed improves by silently replacing the trusted target distribution with a weaker model's distribution.
-
-Now let the chamber move: The enginewright changes one moving part. The gear can now let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling.
-
-The object that should remain after the terminology disappears is **the speculative decoding gear mounted on the brass reference machine**.
-
-> **Memory seal — Speculative Decoding**
->
-> Speculative Decoding keeps the missing power: let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling.
-
-Give the idea a bodily path: Touch the speculative decoding gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### Let a Small Model Propose, Never Decide
 
 The draft proposes “the tiger sleeps.” One target call verifies all three positions; an unsupported token is rejected and sampling resumes from the corrected target distribution.
@@ -2030,63 +1172,24 @@ Speed depends on draft agreement and hardware utilization; poor proposals add wo
 
 At the Engine Cavern, the enginewright leaves a blank beneath the new mark. Speculative Decoding has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/174-speculative-decoding/README.md).*
-
 ---
 
 ### Excavation 175 — A Modern Tiny Language Model — Assemble the Measured Engine
 
-> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Model systems and engine optimization
-
 Speculative decoding accelerates the final serial loop. We now have many locally useful repairs, but a pile of optimizations is not yet one reproducible model.
 
-Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: enable every technique at once and celebrate if the program runs.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to enable every technique at once and celebrate if the program runs.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To enable every technique at once and celebrate if the program runs is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries.
 
-```text
-observation
-    │
-    ▼
-[enable every technique at once and…]
-    │
-    ╳  when quality or speed changes, no one…
-    │
-    ▼
-[assemble the engine in dependency…]
-```
+The important discovery is not merely that trying to enable every technique at once and celebrate if the program runs failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “enable every technique at once and celebrate if the program runs.” It disappears into the observed failure: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries. The darker trail carries one additional capacity—to assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed modern tiny language model mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
+The necessary extension now has a name: **A Modern Tiny Language Model**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-So the brass reference machine is altered in exactly one way: assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. Much later, people will call this territory **A Modern Tiny Language Model**. Here the name is only a memory of the failure it can survive.
-
-The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and modern tiny language model looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-> **Memory realm 12 of 18 — [Engine Cavern](../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we enable every technique at once and celebrate if the program runs?
-
-#### When the chamber changes
-
-The A Modern Tiny Language Model room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The prism follows the tempting path—enable every technique at once and celebrate if the program runs. Then the evidence answers: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries.
-
-Now let the chamber move: The enginewright changes one moving part. The prism can now assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains.
-
-The object that should remain after the terminology disappears is **the modern tiny language model prism mounted on the brass reference machine**.
-
-> **Memory seal — A Modern Tiny Language Model**
->
-> A Modern Tiny Language Model keeps the missing power: assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains.
-
-Give the idea a bodily path: Touch the modern tiny language model prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### Assemble the Measured Engine
 
 Train one tiny model with packed examples, RoPE, GQA, exact tiled attention, pre-RMSNorm, SwiGLU, tied embeddings, AdamW, clipping, mixed precision, accumulation, and checkpointing; then serve it with a KV cache and verified draft proposals.
@@ -2106,5 +1209,3 @@ reference ──preserved meaning──▶ optimized engine
 ```
 
 The trail called *the old mind inside the new engine* is what remains when one necessity becomes another.
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/175-modern-tiny-llm/README.md).*

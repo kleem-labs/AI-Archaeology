@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,49 +13,17 @@
 
 Sharded parameters can be gathered for computation, but the largest matrix itself becomes too large to materialize or multiply on one worker.
 
-A new case arrives at the Engine Cavern, but the enginewright first reaches for the familiar brass reference machine. Its promise is simple: assign whole layers to different devices and pass every activation through them sequentially.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to assign whole layers to different devices and pass every activation through them sequentially.
 
-At the edge of the brass reference machine, the shortcut produces its consequence: one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we assign whole layers to different devices and pass every activation through them sequentially, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work.
 
-```text
-possible road A ─┐
-                 ├── old map: assign whole layers to different…
-possible road B ─┘              └── loses: one oversized layer still cannot fit,…
+This failure cannot be repaired by performing the instruction to assign whole layers to different devices and pass every activation through them sequentially more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-same roads ──▶ repaired map ──▶ split a matrix across its columns or…
-```
+The evidence has earned one extension and no more. We need to split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The enginewright covers the new mark and the old contradiction returns: one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work. The cover is lifted, restoring the ability to split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason tensor parallelism exists.
-
-What must change for tensor parallelism is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output. That threshold is where **Tensor Parallelism** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In tensor parallelism, that memory takes a precise form: whenever one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work, preserve enough structure to split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we assign whole layers to different devices and pass every activation through them sequentially?
-
-## When the chamber changes
-
-Before leaving Tensor Parallelism, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The scale follows the tempting path—assign whole layers to different devices and pass every activation through them sequentially. Then the evidence answers: one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work.
-
-Now let the chamber move: The enginewright changes one moving part. The scale can now split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output.
-
-The object that should remain after the terminology disappears is **the tensor parallelism scale mounted on the brass reference machine**.
-
-> **Memory seal — Tensor Parallelism**
->
-> Tensor Parallelism keeps the missing power: split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output.
-
-Give the idea a bodily path: Touch the tensor parallelism scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Tensor Parallelism**. The name is simply a handle for the distinction already reconstructed.
 
 ## Split One Matrix That No Device Can Hold
 

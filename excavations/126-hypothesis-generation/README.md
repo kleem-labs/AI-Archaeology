@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -15,49 +17,17 @@
 
 A bounded research system can propose and test changes without deploying them automatically. Its first obligation is to turn curiosity into a claim precise enough that an observation could prove it wrong.
 
-The doors of the Academy of Trials close against the wind. On the sealed evidence ledger, the experimentalist writes the cheapest rule that might still be true: ask whether more context makes the model better.
+A new case arrives at the Academy of Trials. Nothing yet demands a new invention, so the experimentalist uses the sealed evidence ledger to ask whether more context makes the model better.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to ask whether more context makes the model better preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The experimentalist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact.
 
-```text
-possible road A ─┐
-                 ├── old map: ask whether more context makes the…
-possible road B ─┘              └── loses: better at what, on which examples,…
+The counterexample separates two questions that the attempt to ask whether more context makes the model better had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the sealed evidence ledger fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-same roads ──▶ repaired map ──▶ state one predicted change, one…
-```
+Only the broken responsibility needs to change. The method must now state one predicted change, one intervention, one measurement, and one observation that would count against the claim. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The experimentalist lays two translucent sheets over the sealed evidence ledger. The first is inscribed, “ask whether more context makes the model better.” Its path ends where better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact. The second receives the same evidence but is allowed to state one predicted change, one intervention, one measurement, and one observation that would count against the claim. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a hypotheses formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The experimentalist changes only that one responsibility: state one predicted change, one intervention, one measurement, and one observation that would count against the claim. When the ink dries, the name **Hypotheses** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact, while the other can state one predicted change, one intervention, one measurement, and one observation that would count against the claim. That fork—not the vocabulary—is where hypotheses lives. At the Academy of Trials, hypotheses is built from controlled differences. Hold the surrounding world still, change one claimed cause, and measure what survives. Subtraction becomes intellectual honesty: remove the baseline before calling the remainder an improvement.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we ask whether more context makes the model better?
-
-## When the chamber changes
-
-Keep the formal name Hypotheses covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The gear follows the tempting path—ask whether more context makes the model better. Then the evidence answers: better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact.
-
-Now let the chamber move: The experimentalist changes one moving part. The gear can now state one predicted change, one intervention, one measurement, and one observation that would count against the claim.
-
-The object that should remain after the terminology disappears is **the hypotheses gear mounted on the sealed evidence ledger**.
-
-> **Memory seal — Hypotheses**
->
-> Hypotheses keeps the missing power: state one predicted change, one intervention, one measurement, and one observation that would count against the claim.
-
-Give the idea a bodily path: Touch the hypotheses gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Hypotheses**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Turning Curiosity into a Testable Claim
 

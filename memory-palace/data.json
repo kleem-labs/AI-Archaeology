@@ -256,8 +256,8 @@
           "question": "Which Hidden Story Produced This Evidence?",
           "object": "the likelihood key mounted on the ring of glass lanterns",
           "failure_image": "The key follows the tempting path—ask which story is generally more believable. Then the evidence answers: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.",
-          "transformation": "The keeper of uncertain stories changes one moving part. The key can now reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.",
-          "sentence": "Likelihood keeps the missing power: reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.",
+          "transformation": "The keeper of uncertain stories changes one moving part. The key can now reverse the question: if this story were true, how expected would the observed evidence be?.",
+          "sentence": "Likelihood keeps the missing power: reverse the question: if this story were true, how expected would the observed evidence be?.",
           "gesture": "Touch the likelihood key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion."
         },
         {
@@ -364,8 +364,8 @@
           "question": "How Large Should the Next Step Be?",
           "object": "the learning rate wheel mounted on the ring of glass lanterns",
           "failure_image": "The wheel follows the tempting path—always take a huge step: leap across the valley and oscillate. Then the evidence answers: always take a microscopic step: improve so slowly that the expedition ends first.",
-          "transformation": "The keeper of uncertain stories changes one moving part. The wheel can now multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.",
-          "sentence": "Learning Rate keeps the missing power: multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.",
+          "transformation": "The keeper of uncertain stories changes one moving part. The wheel can now multiply the gradient by an adjustable positive step size, observe whether loss descends, and adjust that size over time.",
+          "sentence": "Learning Rate keeps the missing power: multiply the gradient by an adjustable positive step size, observe whether loss descends, and adjust that size over time.",
           "gesture": "Touch the learning rate wheel in imagination: close one fist around the lost information, then open it as the repair restores that information."
         },
         {

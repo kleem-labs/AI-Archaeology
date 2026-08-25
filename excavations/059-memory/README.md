@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Planning turns a goal into steps the agent can inspect and revise. A plan that outlives the current context needs selected facts and decisions to survive without preserving every irrelevant token forever.
 
-Night gathers around the Gatehouse of Consequences. Under the light of the iron threshold, the gatekeeper refuses to invent prematurely and begins with the plain rule: store every message forever and paste all history into every new prompt.
+Inside the Gatehouse of Consequences, the old method is given an honest chance. The gatekeeper places the evidence on the iron threshold and tries to store every message forever and paste all history into every new prompt.
 
-At the edge of the iron threshold, the shortcut produces its consequence: cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To store every message forever and paste all history into every new prompt is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The gatekeeper sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose.
 
-```text
-possible road A ─┐
-                 ├── old map: store every message forever and paste…
-possible road B ─┘              └── loses: cost grows, irrelevant details drown…
+The important discovery is not merely that trying to store every message forever and paste all history into every new prompt failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the iron threshold, so success cannot be manufactured by quietly replacing the original question.
 
-same roads ──▶ repaired map ──▶ we need to separate short-term…
-```
+The old construction is therefore not discarded. It is widened just enough to separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The gatekeeper covers the new mark and the old contradiction returns: cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose. The cover is lifted, restoring the ability to separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason memory exists.
-
-What must change for memory is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them. That threshold is where **Memory** enters the story.
-
-The marks on the iron threshold form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. memory is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
->
-> **The question carried into this chamber:** What Should Survive After the Context Ends?
-
-## When the chamber changes
-
-The mathematical name Memory can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The wheel follows the tempting path—store every message forever and paste all history into every new prompt. Then the evidence answers: cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose.
-
-Now let the chamber move: The gatekeeper changes one moving part. The wheel can now separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
-
-The object that should remain after the terminology disappears is **the memory wheel mounted on the iron threshold**.
-
-> **Memory seal — Memory**
->
-> Memory keeps the missing power: separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them.
-
-Give the idea a bodily path: Touch the memory wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Memory**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## What Should Survive After the Context Ends
 

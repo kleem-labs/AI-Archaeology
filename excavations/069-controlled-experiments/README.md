@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics)
 >
@@ -11,49 +13,17 @@
 
 Drift detection says that the input or outcome distribution moved. It does not say whether a new model, a holiday, a policy change, or chance caused the observed performance difference.
 
-A new case arrives at the Living Watchgarden, but the field naturalist first reaches for the familiar weathered observation slate. Its promise is simple: compare this week with last week.
+The previous discovery reaches the Living Watchgarden carrying one unfinished problem. Beside the weathered observation slate, the field naturalist first tries to compare this week with last week.
 
-Then the quiet test arrives: a holiday raises sales for both systems and receives credit as a model improvement. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we compare this week with last week, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The field naturalist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: a holiday raises sales for both systems and receives credit as a model improvement.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ compare this week with last week ──▶ blurred: a holiday raises sales for both…
-      │
-      └── new lens ──▶ randomly assign comparable cases to… ──▶ distinction survives
-```
+This failure cannot be repaired by performing the instruction to compare this week with last week more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the weathered observation slate; otherwise a changed answer could be mistaken for an explanation.
 
-The field naturalist turns the weathered observation slate toward the light. Through the old engraving, compare this week with last week, the evidence ends in the same contradiction: a holiday raises sales for both systems and receives credit as a model improvement. A second engraving adds only the power to randomly assign comparable cases to old and new behavior and compare predefined outcomes. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to randomly assign comparable cases to old and new behavior and compare predefined outcomes. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The field naturalist circles the place where the two controlled experiments cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: randomly assign comparable cases to old and new behavior and compare predefined outcomes. The field naturalist writes **Controlled Experiments** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The field naturalist does not memorize controlled experiments. Instead, the field naturalist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can randomly assign comparable cases to old and new behavior and compare predefined outcomes. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
->
-> **The question carried into this chamber:** What fails if we compare this week with last week?
-
-## When the chamber changes
-
-The mathematical name Controlled Experiments can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The bridge follows the tempting path—compare this week with last week. Then the evidence answers: a holiday raises sales for both systems and receives credit as a model improvement.
-
-Now let the chamber move: The field naturalist changes one moving part. The bridge can now randomly assign comparable cases to old and new behavior and compare predefined outcomes.
-
-The object that should remain after the terminology disappears is **the controlled experiments bridge mounted on the weathered observation slate**.
-
-> **Memory seal — Controlled Experiments**
->
-> Controlled Experiments keeps the missing power: randomly assign comparable cases to old and new behavior and compare predefined outcomes.
-
-Give the idea a bodily path: Touch the controlled experiments bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Controlled Experiments**. The name is simply a handle for the distinction already reconstructed.
 
 ## Understanding controlled experiments
 

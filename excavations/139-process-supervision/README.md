@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,49 +13,17 @@
 
 Search and verification keep only candidates that survive an independent test. A correct final answer can still reward an invalid path that reached it by luck.
 
-Night gathers around the Academy of Trials. Under the light of the sealed evidence ledger, the experimentalist refuses to invent prematurely and begins with the plain rule: reward only whether the final answer matches.
+Inside the Academy of Trials, the old method is given an honest chance. The experimentalist places the evidence on the sealed evidence ledger and tries to reward only whether the final answer matches.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: lucky shortcuts receive the same credit as reliable reasoning. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To reward only whether the final answer matches is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The experimentalist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: lucky shortcuts receive the same credit as reliable reasoning.
 
-```text
-reference evidence ──▶ shortcut: reward only whether the final answer…
-                         │
-                         └── mismatch: lucky shortcuts receive the same…
+The important discovery is not merely that trying to reward only whether the final answer matches failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sealed evidence ledger, so success cannot be manufactured by quietly replacing the original question.
 
-reference evidence ──▶ measured repair: we need to evaluate checkable…
-```
+The old construction is therefore not discarded. It is widened just enough to evaluate checkable intermediate claims and train the system to prefer valid paths. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-Two trails now cross the sealed evidence ledger. The pale trail bears the instruction “reward only whether the final answer matches.” It disappears into the observed failure: lucky shortcuts receive the same credit as reliable reasoning. The darker trail carries one additional capacity—to evaluate checkable intermediate claims and train the system to prefer valid paths. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed process supervision mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the sealed evidence ledger is altered in exactly one way: we need to evaluate checkable intermediate claims and train the system to prefer valid paths. Much later, people will call this territory **Process Supervision**. Here the name is only a memory of the failure it can survive.
-
-The sealed evidence ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and process supervision looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we reward only whether the final answer matches?
-
-## When the chamber changes
-
-The mathematical name Process Supervision can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The wheel follows the tempting path—reward only whether the final answer matches. Then the evidence answers: lucky shortcuts receive the same credit as reliable reasoning.
-
-Now let the chamber move: The experimentalist changes one moving part. The wheel can now evaluate checkable intermediate claims and train the system to prefer valid paths.
-
-The object that should remain after the terminology disappears is **the process supervision wheel mounted on the sealed evidence ledger**.
-
-> **Memory seal — Process Supervision**
->
-> Process Supervision keeps the missing power: evaluate checkable intermediate claims and train the system to prefer valid paths.
-
-Give the idea a bodily path: Touch the process supervision wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Process Supervision**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Rewarding the Path, Not Only the Answer
 

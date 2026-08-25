@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,53 +13,17 @@
 
 A state machine records what transitions are allowed and which events occurred. Reaching a state named `done` is still only a claim unless observable evidence proves the requested outcome in the outside world.
 
-A new case arrives at the Gatehouse of Consequences, but the gatekeeper first reaches for the familiar iron threshold. Its promise is simple: trust the absence of an error message or the model’s own description of its work.
+The previous discovery reaches the Gatehouse of Consequences carrying one unfinished problem. Beside the iron threshold, the gatekeeper first tries to trust the absence of an error message or the model’s own description of its work.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we trust the absence of an error message or the model’s own description of its work, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The gatekeeper sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome.
 
-```text
-observation
-    │
-    ▼
-[trust the absence of an error message…]
-    │
-    ╳  the changed code compiles but breaks…
-    │
-    ▼
-[define success before acting, then…]
-```
+This failure cannot be repaired by performing the instruction to trust the absence of an error message or the model’s own description of its work more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the iron threshold; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the iron threshold. The pale trail bears the instruction “trust the absence of an error message or the model’s own description of its work.” It disappears into the observed failure: the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome. The darker trail carries one additional capacity—to define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed verification mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the iron threshold is altered in exactly one way: define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state. Much later, people will call this territory **Verification**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the iron threshold. The failed path remains visible beneath the repair, because verification is easier to remember when its scar remains attached to it. The scar reads, ‘the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
->
-> **The question carried into this chamber:** How Does the Agent Know It Succeeded?
-
-## When the chamber changes
-
-Keep the formal name Verification covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The scale follows the tempting path—trust the absence of an error message or the model’s own description of its work. Then the evidence answers: the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome.
-
-Now let the chamber move: The gatekeeper changes one moving part. The scale can now define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
-
-The object that should remain after the terminology disappears is **the verification scale mounted on the iron threshold**.
-
-> **Memory seal — Verification**
->
-> Verification keeps the missing power: define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state.
-
-Give the idea a bodily path: Touch the verification scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Verification**. The name is simply a handle for the distinction already reconstructed.
 
 ## How Does the Agent Know It Succeeded
 

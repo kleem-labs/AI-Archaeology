@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
 >
@@ -11,48 +13,17 @@
 
 Scaling laws reveal regular trends as resources grow. A larger next-token predictor is still a predictor; nothing in scale alone tells it that a user's instruction should govern the continuation.
 
-Inside the Hall of Voices, every old tool is given one honest chance. The public archivist sets the listening table between the evidence and the desired answer, then tries to prompt more forcefully and hope next-token prediction infers the desired interaction.
+At the Hall of Voices, the public archivist meets the next case beside the listening table. The nearest idea is also the most reasonable one: prompt more forcefully and hope next-token prediction infers the desired interaction.
 
-The public archivist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the trouble appears immediately: given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To prompt more forcefully and hope next-token prediction infers the desired interaction reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The public archivist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the trouble appears immediately: given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy.
 
-```text
-OLD PATH:  request ──▶ prompt more forcefully and hope… ──▶ the trouble appears immediately:…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ show many instruction-input-response… ──▶ accountable result
-```
+The contradiction matters because it identifies a structural loss in the instruction to prompt more forcefully and hope next-token prediction infers the desired interaction, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The listening table will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the listening table, the old path and the repaired path run side by side. One carries “prompt more forcefully and hope next-token prediction infers the desired interaction”; the other knows how to show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern. When the failure—the trouble appears immediately: given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to instruction tuning. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern. This problem and its repair will travel under the name **Instruction Tuning**, but the name carries no knowledge the scene has not earned.
-
-What changed on the listening table can be said without symbols. Before, the method could only prompt more forcefully and hope next-token prediction infers the desired interaction; now it can also show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
->
-> **The question carried into this chamber:** What fails if we prompt more forcefully and hope next-token prediction infers the desired interaction?
-
-## When the chamber changes
-
-The Instruction Tuning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The compass follows the tempting path—prompt more forcefully and hope next-token prediction infers the desired interaction. Then the evidence answers: the trouble appears immediately: given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy.
-
-Now let the chamber move: The public archivist changes one moving part. The compass can now show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
-
-The object that should remain after the terminology disappears is **the instruction tuning compass mounted on the listening table**.
-
-> **Memory seal — Instruction Tuning**
->
-> Instruction Tuning keeps the missing power: show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern.
-
-Give the idea a bodily path: Touch the instruction tuning compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Instruction Tuning**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## From Continuation to Cooperation
 

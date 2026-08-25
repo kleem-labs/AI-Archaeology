@@ -3,20 +3,11 @@
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-<!-- mathematical-lineage-v1 -->
-> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics)
->
-> **Applied territory:** Mathematical roots beneath the machine
 
-> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../../MATHEMATICAL_ROOTS.md#realm-2)
->
-> **Question waiting in this chamber:** Which direction can pass through the transformation without being turned?
->
-> **Do not take the answer yet:** first let the object fail.
 
 Span and independence reveal the true directions available in a space. When one matrix is applied again and again—one transition, message-passing step, or layer after another—the coordinate picture can still become difficult to follow.
 
-At this depth, mathematics feels less like a catalogue and more like memory. We meet **Eigenvectors and Eigenvalues** first as an ordinary human need, before anyone has decided what marks should record it.
+At this depth, Eigenvectors and Eigenvalues begins as a need inside the world rather than as a name outside it.
 
 On the vault floor, a transformation doubles east-west displacement but leaves north-south displacement unchanged. Most arrows change both length and direction. An arrow pointing exactly east does something quieter: it remains east and only stretches.
 
@@ -40,31 +31,15 @@ Eigenvectors and Eigenvalues becomes necessary
 
 At last there is something worth inventing. Whatever we build must search for nonzero directions that the transformation only scales, and record the corresponding scale factors.
 
-This is the hinge of the Eigenvectors and Eigenvalues excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
-
-## When the chamber changes
-
-Hold the failed picture still for one breath: Most arrows tumble differently at every repetition, burying the long-term pattern beneath changing coordinates.
-
-Now let the scene move. Place arrows one by one until an eastward arrow emerges still pointing east—only longer. Mark that quiet direction and the scale impressed upon it.
-
-The transformation is the discovery of Eigenvectors and Eigenvalues made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Eigenvectors and Eigenvalues into memory:
-
-> **Memory seal — Eigenvectors and Eigenvalues**
->
-> An eigenvector is a direction a transformation cannot turn; its eigenvalue says how the direction is scaled.
-
-Make the memory bodily, not merely verbal: Point forward and extend your arm without changing where your finger points.
-
-## Eigenvectors and Eigenvalues on the stone workbench
-
-Apply the matrix `[[2,0],[0,1]]` to east `[1,0]`: the result is `[2,0]`, exactly twice east. Apply it to north `[0,1]`: the result remains north. East has scale 2 and north scale 1. Apply it repeatedly and any arrow with an east component becomes increasingly east-dominated.
-
-The point of keeping the objects named while rebuilding Eigenvectors and Eigenvalues is that each movement can still be challenged. We can ask what the tiger, track, state, model, or measurement contributes; we can change one value and watch the consequence travel. The calculation remains an experience before it becomes notation.
+The failure and repair now form one continuous argument for Eigenvectors and Eigenvalues: this idea earns its place by preserving exactly what the earlier action lost.
 
 ## The calculation hidden inside eigenvectors and eigenvalues
 
-Return to the named Eigenvectors and Eigenvalues scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for eigenvectors and eigenvalues will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Eigenvectors and Eigenvalues against the named case
+
+Apply the matrix `[[2,0],[0,1]]` to east `[1,0]`: the result is `[2,0]`, exactly twice east. Apply it to north `[0,1]`: the result remains north. East has scale 2 and north scale 1. Apply it repeatedly and any arrow with an east component becomes increasingly east-dominated.
 
 ### Naming what is already on the table
 
@@ -74,33 +49,23 @@ Return to the named Eigenvectors and Eigenvalues scene above. The ranger, model,
 
 [Function application](../../MATHEMATICAL_MOVES.md#function-application) applies the transformation to the direction. [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) scales that same direction, and [equality](../../MATHEMATICAL_MOVES.md#equals) demands the two routes coincide. Adding λ would translate the arrow rather than describe proportional stretching.
 
-The operations inside Eigenvectors and Eigenvalues form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by eigenvectors and eigenvalues now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 A\mathbf v=\lambda\mathbf v
 $$
 
-Read the Eigenvectors and Eigenvalues line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
-
 ## A real-world echo
 
 In a river, most leaves swirl, but a leaf placed on the main current keeps pointing downstream while its distance from the bridge changes predictably.
 
-That echo helps Eigenvectors and Eigenvalues remain relational in memory. When the same job appears inside a dataset, a Transformer, a laboratory measurement, or an ordinary decision, the operation should feel like a familiar tool rather than an arbitrary sign.
-
-## What this chamber was connected to
+## What this unlocks elsewhere
 
 PageRank studies a persistent direction of repeated link transitions; covariance eigenvectors become principal directions; training stability depends on repeated transformations' spectral behavior.
-
-The older excavation and this Eigenvectors and Eigenvalues chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
-
-Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Eigenvectors and Eigenvalues occupies one necessary step in that motion. Its object, **a moving stone floor crossed by compass arrows**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of eigenvectors and eigenvalues breaks
 
 Not every matrix has enough real eigenvectors to form a basis, and rectangular matrices do not even map a space back into itself. We still need a way to cast the closest shadow and expose the important input-output directions of any matrix.
-
-The boundary belongs beside the discovery of Eigenvectors and Eigenvalues because usefulness depends on assumptions. A formula remembered without its failure conditions becomes a spell; a formula remembered with them becomes an instrument.
 
 ## Rebuild the discovery in the laboratory
 

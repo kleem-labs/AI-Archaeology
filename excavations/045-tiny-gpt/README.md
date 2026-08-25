@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,53 +13,17 @@
 
 A context window bounds how much past the model can carry. We have now earned every part of a tiny GPT; the remaining question is whether those parts actually cooperate in one prediction-and-generation loop.
 
-A new case arrives at the Clockwork Scriptorium, but the mechanist first reaches for the familiar sentence-wheel. Its promise is simple: call a framework Transformer and hide the causal chain.
+The previous discovery reaches the Clockwork Scriptorium carrying one unfinished problem. Beside the sentence-wheel, the mechanist first tries to call a framework Transformer and hide the causal chain.
 
-Then the quiet test arrives: or connect the parts without checking shapes, leakage, and target alignment. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we call a framework Transformer and hide the causal chain, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The mechanist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: or connect the parts without checking shapes, leakage, and target alignment.
 
-```text
-observation
-    │
-    ▼
-[call a framework Transformer and hide…]
-    │
-    ╳  or connect the parts without checking…
-    │
-    ▼
-[assemble token and position…]
-```
+This failure cannot be repaired by performing the instruction to call a framework Transformer and hide the causal chain more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sentence-wheel; otherwise a changed answer could be mistaken for an explanation.
 
-The mechanist turns the sentence-wheel toward the light. Through the old engraving, call a framework Transformer and hide the causal chain, the evidence ends in the same contradiction: or connect the parts without checking shapes, leakage, and target alignment. A second engraving adds only the power to assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The mechanist circles the place where the two tiny gpt cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. The mechanist writes **A Tiny GPT** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The mechanist does not memorize tiny gpt. Instead, the mechanist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we call a framework Transformer and hide the causal chain?
-
-## When the chamber changes
-
-The A Tiny GPT room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The scale follows the tempting path—call a framework Transformer and hide the causal chain. Then the evidence answers: or connect the parts without checking shapes, leakage, and target alignment.
-
-Now let the chamber move: The mechanist changes one moving part. The scale can now assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
-
-The object that should remain after the terminology disappears is **the tiny gpt scale mounted on the sentence-wheel**.
-
-> **Memory seal — A Tiny GPT**
->
-> A Tiny GPT keeps the missing power: assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
-
-Give the idea a bodily path: Touch the tiny gpt scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **A Tiny GPT**. The name is simply a handle for the distinction already reconstructed.
 
 ## The calculation hidden inside a tiny gpt
 

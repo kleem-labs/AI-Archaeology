@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,51 +13,17 @@
 
 A value estimate represents future consequences from a state. Experience must now revise those estimates without waiting to rediscover every long future from scratch.
 
-Morning reaches the Road of Consequences before anyone has a name for today's difficulty. Beside the map of branching journeys, the expedition leader tries the smallest continuation of what already works: replace its value with the immediate reward.
+The previous discovery reaches the Road of Consequences carrying one unfinished problem. Beside the map of branching journeys, the expedition leader first tries to replace its value with the immediate reward.
 
-At the edge of the map of branching journeys, the shortcut produces its consequence: the update ignores the valuable state reached afterward. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we replace its value with the immediate reward, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The expedition leader sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the update ignores the valuable state reached afterward.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   replace its value with the immediate… the update ignores the valuable state…
-            \        /
-             \      /
-              move the estimate toward reward plus…
-```
+This failure cannot be repaired by performing the instruction to replace its value with the immediate reward more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the map of branching journeys; otherwise a changed answer could be mistaken for an explanation.
 
-The expedition leader covers the new mark and the old contradiction returns: the update ignores the valuable state reached afterward. The cover is lifted, restoring the ability to move the estimate toward reward plus the best discounted value available next, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason q-learning exists.
+The evidence has earned one extension and no more. We need to move the estimate toward reward plus the best discounted value available next. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for q-learning is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: move the estimate toward reward plus the best discounted value available next. That threshold is where **Q-Learning** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In q-learning, that memory takes a precise form: whenever the update ignores the valuable state reached afterward, preserve enough structure to move the estimate toward reward plus the best discounted value available next.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
->
-> **The question carried into this chamber:** What fails if we replace its value with the immediate reward?
-
-## When the chamber changes
-
-The mathematical name Q-Learning can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The vessel follows the tempting path—replace its value with the immediate reward. Then the evidence answers: the update ignores the valuable state reached afterward.
-
-Now let the chamber move: The expedition leader changes one moving part. The vessel can now move the estimate toward reward plus the best discounted value available next.
-
-The object that should remain after the terminology disappears is **the q-learning vessel mounted on the map of branching journeys**.
-
-> **Memory seal — Q-Learning**
->
-> Q-Learning keeps the missing power: move the estimate toward reward plus the best discounted value available next.
-
-Give the idea a bodily path: Touch the q-learning vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Q-Learning**. The name is simply a handle for the distinction already reconstructed.
 
 ## Improving Values from Experience
 

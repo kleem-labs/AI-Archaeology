@@ -44,9 +44,8 @@ for film in films:
         continue
     chapter = destination.read_text()
     if number <= 200:
-        for field in ("question", "object", "failure_image", "transformation", "sentence", "gesture"):
-            if film[field] not in chapter:
-                failures.append(f"{number:03d}: chapter lost {field}")
+        if START in chapter or END in chapter:
+            failures.append(f"{number:03d}: recall instructions leaked into the reading narrative")
         folder = destination.parent
         for companion in (folder / "diagram.md", folder / "exercises.md", folder / "images" / "README.md"):
             text = companion.read_text()

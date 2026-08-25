@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,51 +13,17 @@
 
 Sparse attention follows selected local, global, or retrieved paths instead of comparing everything. Any fixed context remains finite, while a long-running research system must preserve knowledge beyond the current window.
 
-Nothing in the Academy of Trials yet bears today's mathematical name. There is only the experimentalist, the sealed evidence ledger, and one plausible action: append every past event to every future prompt.
+Inside the Academy of Trials, the old method is given an honest chance. The experimentalist places the evidence on the sealed evidence ledger and tries to append every past event to every future prompt.
 
-Then the quiet test arrives: cost grows forever and important facts drown in irrelevant history. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To append every past event to every future prompt is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The experimentalist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: cost grows forever and important facts drown in irrelevant history.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   append every past event to every… cost grows forever and important…
-            \        /
-             \      /
-              we need to write selected facts to…
-```
+The important discovery is not merely that trying to append every past event to every future prompt failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sealed evidence ledger, so success cannot be manufactured by quietly replacing the original question.
 
-The experimentalist turns the sealed evidence ledger toward the light. Through the old engraving, append every past event to every future prompt, the evidence ends in the same contradiction: cost grows forever and important facts drown in irrelevant history. A second engraving adds only the power to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The experimentalist circles the place where the two external memory cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. The experimentalist writes **External Memory** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The experimentalist places a finger over the new distinction. At once the two cases collapse and cost grows forever and important facts drown in irrelevant history. Lifting the finger restores only this capacity: write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we append every past event to every future prompt?
-
-## When the chamber changes
-
-The External Memory room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The mirror follows the tempting path—append every past event to every future prompt. Then the evidence answers: cost grows forever and important facts drown in irrelevant history.
-
-Now let the chamber move: The experimentalist changes one moving part. The mirror can now write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules.
-
-The object that should remain after the terminology disappears is **the external memory mirror mounted on the sealed evidence ledger**.
-
-> **Memory seal — External Memory**
->
-> External Memory keeps the missing power: write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules.
-
-Give the idea a bodily path: Touch the external memory mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **External Memory**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Remembering Beyond the Context Window
 

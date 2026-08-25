@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,51 +13,17 @@
 
 A world model predicts future observations. Prediction from recorded correlations cannot answer what would happen if the agent deliberately intervened and changed one cause.
 
-At the Hall of Possible Worlds, the keeper of unfinished questions returns to the table of mirrored maps. Yesterday's instrument still lies open, so the first move asks for no new magic: treat every correlation as a controllable cause.
+At the Hall of Possible Worlds, the keeper of unfinished questions meets the next case beside the table of mirrored maps. The nearest idea is also the most reasonable one: treat every correlation as a controllable cause.
 
-The keeper of unfinished questions repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To treat every correlation as a controllable cause reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   treat every correlation as a… the trouble appears immediately: hot…
-            \        /
-             \      /
-              represent plausible causal structure…
-```
+The contradiction matters because it identifies a structural loss in the instruction to treat every correlation as a controllable cause, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The table of mirrored maps will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the table of mirrored maps, the old path and the repaired path run side by side. One carries “treat every correlation as a controllable cause”; the other knows how to represent plausible causal structure and distinguish observing a variable from intervening on it. When the failure—the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must represent plausible causal structure and distinguish observing a variable from intervening on it. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to causal inference. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: represent plausible causal structure and distinguish observing a variable from intervening on it. This problem and its repair will travel under the name **Causal Inference**, but the name carries no knowledge the scene has not earned.
-
-What changed on the table of mirrored maps can be said without symbols. Before, the method could only treat every correlation as a controllable cause; now it can also represent plausible causal structure and distinguish observing a variable from intervening on it. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we treat every correlation as a controllable cause?
-
-## When the chamber changes
-
-The Causal Inference chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The seal follows the tempting path—treat every correlation as a controllable cause. Then the evidence answers: the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The seal can now represent plausible causal structure and distinguish observing a variable from intervening on it.
-
-The object that should remain after the terminology disappears is **the causal inference seal mounted on the table of mirrored maps**.
-
-> **Memory seal — Causal Inference**
->
-> Causal Inference keeps the missing power: represent plausible causal structure and distinguish observing a variable from intervening on it.
-
-Give the idea a bodily path: Touch the causal inference seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Causal Inference**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding causal inference
 

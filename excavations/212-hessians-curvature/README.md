@@ -3,20 +3,11 @@
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-<!-- mathematical-lineage-v1 -->
-> **Mathematical roots:** [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Mathematical roots beneath the machine
 
-> **You are here:** Realm 3 of 5 — [The River of Change](../../MATHEMATICAL_ROOTS.md#realm-3)
->
-> **Question waiting in this chamber:** Two places have the same slope—why does one permit a bold step while the other punishes it?
->
-> **Do not take the answer yet:** first let the object fail.
 
 Jacobians record first-order response. At a flat-looking point the gradient may be zero, yet the point could be the bottom of a safe bowl, the top of a hill, or a saddle that rises east and falls north.
 
-At this depth, mathematics feels less like a catalogue and more like memory. We meet **Hessians and Curvature** first as an ordinary human need, before anyone has decided what marks should record it.
+At this depth, Hessians and Curvature begins as a need inside the world rather than as a name outside it.
 
 The vault floor contains two stone surfaces. At the centre both feel level. One curves upward in every direction; the other curves upward east-west and downward north-south.
 
@@ -40,31 +31,15 @@ Hessians and Curvature becomes necessary
 
 At last there is something worth inventing. Whatever we build must differentiate the gradient again and store how every pair of coordinates changes the local slope.
 
-This is the hinge of the Hessians and Curvature excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
-
-## When the chamber changes
-
-Hold the failed picture still for one breath: Both compasses show the same slope, yet one valley bends gently and the other turns into a narrow wall.
-
-Now let the scene move. Press a curvature grid into the clay. It records how each component of the gradient changes as every direction moves.
-
-The transformation is the discovery of Hessians and Curvature made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Hessians and Curvature into memory:
-
-> **Memory seal — Hessians and Curvature**
->
-> A Hessian is a map of how the slope itself bends.
-
-Make the memory bodily, not merely verbal: Curve one palm like a shallow bowl and the other like a narrow valley.
-
-## Hessians and Curvature on the stone workbench
-
-For `L(w₁,w₂)=w₁²-w₂²`, both partial derivatives vanish at `[0,0]`. The second derivative along w₁ is 2; along w₂ it is -2; cross-effects are zero. The Hessian `[[2,0],[0,-2]]` exposes a saddle because one direction bends up and another down.
-
-The point of keeping the objects named while rebuilding Hessians and Curvature is that each movement can still be challenged. We can ask what the tiger, track, state, model, or measurement contributes; we can change one value and watch the consequence travel. The calculation remains an experience before it becomes notation.
+The failure and repair now form one continuous argument for Hessians and Curvature: this idea earns its place by preserving exactly what the earlier action lost.
 
 ## The calculation hidden inside hessians and curvature
 
-Return to the named Hessians and Curvature scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for hessians and curvature will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Hessians and Curvature against the named case
+
+For `L(w₁,w₂)=w₁²-w₂²`, both partial derivatives vanish at `[0,0]`. The second derivative along w₁ is 2; along w₂ it is -2; cross-effects are zero. The Hessian `[[2,0],[0,-2]]` exposes a saddle because one direction bends up and another down.
 
 ### Naming what is already on the table
 
@@ -74,33 +49,23 @@ Return to the named Hessians and Curvature scene above. The ranger, model, measu
 
 [Partial derivatives](../../MATHEMATICAL_MOVES.md#partial-derivative) are applied a second time because curvature is change in slope. [Tables](../../MATHEMATICAL_MOVES.md#tables) preserve pairwise coordinate effects. Looking only at the diagonal would miss rotations and coupled directions; summing entries would destroy the geometry.
 
-The operations inside Hessians and Curvature form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by hessians and curvature now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 H_{ij}=\frac{\partial^2L}{\partial w_i\partial w_j}
 $$
 
-Read the Hessians and Curvature line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
-
 ## A real-world echo
 
 A marble at a level point needs more than a spirit level. The surrounding bend tells whether it rests in a bowl, balances on a dome, or waits on a saddle.
 
-That echo helps Hessians and Curvature remain relational in memory. When the same job appears inside a dataset, a Transformer, a laboratory measurement, or an ordinary decision, the operation should feel like a familiar tool rather than an arbitrary sign.
-
-## What this chamber was connected to
+## What this unlocks elsewhere
 
 Initialization, learning rates, Newton-like methods, loss-landscape analysis, and sharpness all depend on curvature even when large models approximate it indirectly.
-
-The older excavation and this Hessians and Curvature chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
-
-Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Hessians and Curvature occupies one necessary step in that motion. Its object, **two clay valleys and a pair of rolling marbles**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of hessians and curvature breaks
 
 Exact Hessians are expensive and local curvature still describes only a neighborhood. We need a disciplined way to approximate a complicated function near the point using the derivatives already measured.
-
-The boundary belongs beside the discovery of Hessians and Curvature because usefulness depends on assumptions. A formula remembered without its failure conditions becomes a spell; a formula remembered with them becomes an instrument.
 
 ## Rebuild the discovery in the laboratory
 

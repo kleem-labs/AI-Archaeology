@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,48 +13,17 @@
 
 Only one micro-batch is resident, yet backpropagation retains every layer's intermediate values until their gradients are computed.
 
-Night gathers around the Engine Cavern. Under the light of the brass reference machine, the enginewright refuses to invent prematurely and begins with the plain rule: delete all activations after the forward pass.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to delete all activations after the forward pass.
 
-Then the quiet test arrives: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To delete all activations after the forward pass is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly.
 
-```text
-OLD PATH:  request ──▶ delete all activations after the… ──▶ backward computation then lacks the…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ keep selected checkpoint activations… ──▶ accountable result
-```
+The important discovery is not merely that trying to delete all activations after the forward pass failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-The enginewright turns the brass reference machine toward the light. Through the old engraving, delete all activations after the forward pass, the evidence ends in the same contradiction: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly. A second engraving adds only the power to keep selected checkpoint activations and recompute the missing segments once when backward reaches them. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to keep selected checkpoint activations and recompute the missing segments once when backward reaches them. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The enginewright circles the place where the two activation checkpointing cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: keep selected checkpoint activations and recompute the missing segments once when backward reaches them. The enginewright writes **Activation Checkpointing** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The enginewright places a finger over the new distinction. At once the two cases collapse and backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly. Lifting the finger restores only this capacity: keep selected checkpoint activations and recompute the missing segments once when backward reaches them. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we delete all activations after the forward pass?
-
-## When the chamber changes
-
-Keep the formal name Activation Checkpointing covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The wheel follows the tempting path—delete all activations after the forward pass. Then the evidence answers: backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly.
-
-Now let the chamber move: The enginewright changes one moving part. The wheel can now keep selected checkpoint activations and recompute the missing segments once when backward reaches them.
-
-The object that should remain after the terminology disappears is **the activation checkpointing wheel mounted on the brass reference machine**.
-
-> **Memory seal — Activation Checkpointing**
->
-> Activation Checkpointing keeps the missing power: keep selected checkpoint activations and recompute the missing segments once when backward reaches them.
-
-Give the idea a bodily path: Touch the activation checkpointing wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Activation Checkpointing**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Remember Less, Recompute Exactly
 

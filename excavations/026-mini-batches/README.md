@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,49 +13,17 @@
 
 Gradient descent can update the network after one example. One muddy footprint can now steer every weight, and the next unusual footprint can pull the whole machine back again.
 
-The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: use one example per update.
+A new case arrives at the Lantern Observatory. Nothing yet demands a new invention, so the keeper of uncertain stories uses the ring of glass lanterns to use one example per update.
 
-Reality answers without terminology: it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read. The ring of glass lanterns now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to use one example per update preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read.
 
-```text
-possible road A ─┐
-                 ├── old map: use one example per update
-possible road B ─┘              └── loses: it is fast, but noisy accidents…
+The counterexample separates two questions that the attempt to use one example per update had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the ring of glass lanterns fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-same roads ──▶ repaired map ──▶ average the evidence from a small…
-```
+Only the broken responsibility needs to change. The method must now average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The ring of glass lanterns is divided down the middle. Left side: “use one example per update.” Its final mark records it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read. Right side: the same starting evidence, now allowed to average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given mini-batches a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently. The name **Mini-Batches** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from mini-batches through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we use one example per update?
-
-## When the chamber changes
-
-Keep the formal name Mini-Batches covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The gate follows the tempting path—use one example per update. Then the evidence answers: it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The gate can now average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently.
-
-The object that should remain after the terminology disappears is **the mini-batches gate mounted on the ring of glass lanterns**.
-
-> **Memory seal — Mini-Batches**
->
-> Mini-Batches keeps the missing power: average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently.
-
-Give the idea a bodily path: Touch the mini-batches gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Mini-Batches**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## The calculation hidden inside mini-batches
 

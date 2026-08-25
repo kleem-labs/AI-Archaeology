@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,49 +13,17 @@
 
 Likelihood ranks hidden stories against the evidence in front of us. Yet two clues can favor the same story by very different amounts, and the trackers need to know how much each clue actually taught them.
 
-Night gathers around the Lantern Observatory. Under the light of the ring of glass lanterns, the keeper of uncertain stories refuses to invent prematurely and begins with the plain rule: measure information by message length.
+Inside the Lantern Observatory, the old method is given an honest chance. The keeper of uncertain stories places the evidence on the ring of glass lanterns and tries to measure information by message length.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To measure information by message length is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ measure information by message length ──▶ blurred: a long predictable greeting can…
-      │
-      └── new lens ──▶ we need rare events to carry more… ──▶ distinction survives
-```
+The important discovery is not merely that trying to measure information by message length failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the ring of glass lanterns, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the ring of glass lanterns. The pale trail bears the instruction “measure information by message length.” It disappears into the observed failure: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add. The darker trail carries one additional capacity—to we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed information mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the ring of glass lanterns is altered in exactly one way: we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. Much later, people will call this territory **Information**. Here the name is only a memory of the failure it can survive.
-
-The ring of glass lanterns has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and information looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** Why Surprise Needs a Number?
-
-## When the chamber changes
-
-The mathematical name Information can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The lantern follows the tempting path—measure information by message length. Then the evidence answers: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The lantern can now rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs.
-
-The object that should remain after the terminology disappears is **the information lantern mounted on the ring of glass lanterns**.
-
-> **Memory seal — Information**
->
-> Information keeps the missing power: rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs.
-
-Give the idea a bodily path: Touch the information lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Information**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## The calculation hidden inside information
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,53 +13,17 @@
 
 Relative position now behaves predictably, but autoregressive generation still reruns the Transformer over the full prefix after appending each token.
 
-A new case arrives at the Engine Cavern, but the enginewright first reaches for the familiar brass reference machine. Its promise is simple: at step t, recompute keys and values for positions 1 through t because the prefix is presented again.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to at step t, recompute keys and values for positions 1 through t because the prefix is presented again.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we at step t, recompute keys and values for positions 1 through t because the prefix is presented again, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added.
 
-```text
-observation
-    │
-    ▼
-[at step t, recompute keys and values…]
-    │
-    ╳  past token representations are…
-    │
-    ▼
-[store each layer's past keys and…]
-```
+This failure cannot be repaired by performing the instruction to at step t, recompute keys and values for positions 1 through t because the prefix is presented again more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “at step t, recompute keys and values for positions 1 through t because the prefix is presented again.” It disappears into the observed failure: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added. The darker trail carries one additional capacity—to store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed kv cache mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the brass reference machine is altered in exactly one way: store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache. Much later, people will call this territory **The KV Cache**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the brass reference machine. The failed path remains visible beneath the repair, because kv cache is easier to remember when its scar remains attached to it. The scar reads, ‘past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we at step t, recompute keys and values for positions 1 through t because the prefix is presented again?
-
-## When the chamber changes
-
-The The KV Cache chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The scale follows the tempting path—at step t, recompute keys and values for positions 1 through t because the prefix is presented again. Then the evidence answers: past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added.
-
-Now let the chamber move: The enginewright changes one moving part. The scale can now store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache.
-
-The object that should remain after the terminology disappears is **the kv cache scale mounted on the brass reference machine**.
-
-> **Memory seal — The KV Cache**
->
-> The KV Cache keeps the missing power: store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache.
-
-Give the idea a bodily path: Touch the kv cache scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **The KV Cache**. The name is simply a handle for the distinction already reconstructed.
 
 ## Stop Re-reading the Entire Past
 

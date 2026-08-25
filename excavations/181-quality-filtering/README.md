@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,51 +13,17 @@
 
 Near-deduplication leaves a corpus with more distinct documents, not necessarily better ones. Some are navigation fragments, keyword piles, machine corruption, or adversarial spam.
 
-A new case arrives at the Archive Foundry, but the archivist-engineer first reaches for the familiar chain-of-custody ledger. Its promise is simple: keep only documents that resemble one prestigious encyclopedia.
+The previous discovery reaches the Archive Foundry carrying one unfinished problem. Beside the chain-of-custody ledger, the archivist-engineer first tries to keep only documents that resemble one prestigious encyclopedia.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we keep only documents that resemble one prestigious encyclopedia, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The archivist-engineer sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   keep only documents that resemble one… the filter removes spam, but it also…
-            \        /
-             \      /
-              combine transparent structural…
-```
+This failure cannot be repaired by performing the instruction to keep only documents that resemble one prestigious encyclopedia more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the chain-of-custody ledger; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the chain-of-custody ledger. The pale trail bears the instruction “keep only documents that resemble one prestigious encyclopedia.” It disappears into the observed failure: the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference. The darker trail carries one additional capacity—to combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed quality filtering mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the chain-of-custody ledger is altered in exactly one way: combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter. Much later, people will call this territory **Quality Filtering**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the chain-of-custody ledger. The failed path remains visible beneath the repair, because quality filtering is easier to remember when its scar remains attached to it. The scar reads, ‘the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we keep only documents that resemble one prestigious encyclopedia?
-
-## When the chamber changes
-
-Keep the formal name Quality Filtering covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The bridge follows the tempting path—keep only documents that resemble one prestigious encyclopedia. Then the evidence answers: the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The bridge can now combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter.
-
-The object that should remain after the terminology disappears is **the quality filtering bridge mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Quality Filtering**
->
-> Quality Filtering keeps the missing power: combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter.
-
-Give the idea a bodily path: Touch the quality filtering bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Quality Filtering**. The name is simply a handle for the distinction already reconstructed.
 
 ## Remove Noise Without Defining Humanity Away
 

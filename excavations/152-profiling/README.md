@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,51 +13,17 @@
 
 A reproducible baseline gives us a trustworthy before-state. Its first run is too slow for the ranger station, but a total runtime does not identify the guilty stage.
 
-At the Engine Cavern, the enginewright returns to the brass reference machine. Yesterday's instrument still lies open, so the first move asks for no new magic: optimize the largest-looking matrix because attention is famous for being expensive.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: optimize the largest-looking matrix because attention is famous for being expensive.
 
-Reality answers without terminology: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. The brass reference machine now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To optimize the largest-looking matrix because attention is famous for being expensive reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   optimize the largest-looking matrix… the device spends much of the run…
-            \        /
-             \      /
-              measure data loading, computation,…
-```
+The contradiction matters because it identifies a structural loss in the instruction to optimize the largest-looking matrix because attention is famous for being expensive, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The brass reference machine is divided down the middle. Left side: “optimize the largest-looking matrix because attention is famous for being expensive.” Its final mark records the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. Right side: the same starting evidence, now allowed to measure data loading, computation, communication, and idle time separately before choosing a repair. The difference is narrow enough to see and important enough to change the ending.
+The repair can now be kept narrow. The new method must measure data loading, computation, communication, and idle time separately before choosing a repair. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The broken rule has given profiling a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: measure data loading, computation, communication, and idle time separately before choosing a repair. The name **Profiling** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to optimize the largest-looking matrix because attention is famous for being expensive; on the other lies the observed fact that the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock. The bridge called profiling has exactly the planks needed to measure data loading, computation, communication, and idle time separately before choosing a repair.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we optimize the largest-looking matrix because attention is famous for being expensive?
-
-## When the chamber changes
-
-The Profiling chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The bell follows the tempting path—optimize the largest-looking matrix because attention is famous for being expensive. Then the evidence answers: the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock.
-
-Now let the chamber move: The enginewright changes one moving part. The bell can now measure data loading, computation, communication, and idle time separately before choosing a repair.
-
-The object that should remain after the terminology disappears is **the profiling bell mounted on the brass reference machine**.
-
-> **Memory seal — Profiling**
->
-> Profiling keeps the missing power: measure data loading, computation, communication, and idle time separately before choosing a repair.
-
-Give the idea a bodily path: Touch the profiling bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Profiling**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Measure Where the Time Went
 

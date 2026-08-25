@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,48 +13,17 @@
 
 Probability lets the trackers preserve several possible outcomes instead of pretending to know. Now they face the reverse problem: one footprint has arrived, and several hidden animals could have produced it.
 
-The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: ask which story is generally more believable.
+A new case arrives at the Lantern Observatory. Nothing yet demands a new invention, so the keeper of uncertain stories uses the ring of glass lanterns to ask which story is generally more believable.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to ask which story is generally more believable preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
 
-```text
-OLD PATH:  request ──▶ ask which story is generally more… ──▶ that ignores the actual print. Or ask…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ reverse the question: if this story… ──▶ accountable result
-```
+The counterexample separates two questions that the attempt to ask which story is generally more believable had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the ring of glass lanterns fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The keeper of uncertain stories lays two translucent sheets over the ring of glass lanterns. The first is inscribed, “ask which story is generally more believable.” Its path ends where that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge. The second receives the same evidence but is allowed to reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. Held to the light, the sheets separate at exactly one decision.
+Only the broken responsibility needs to change. The method must now reverse the question: if this story were true, how expected would the observed evidence be? With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-No one reaches for a likelihood formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The keeper of uncertain stories changes only that one responsibility: reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. When the ink dries, the name **Likelihood** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge, while the other can reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. That fork—not the vocabulary—is where likelihood lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** Which Hidden Story Produced This Evidence?
-
-## When the chamber changes
-
-Before leaving Likelihood, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The key follows the tempting path—ask which story is generally more believable. Then the evidence answers: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The key can now reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
-
-The object that should remain after the terminology disappears is **the likelihood key mounted on the ring of glass lanterns**.
-
-> **Memory seal — Likelihood**
->
-> Likelihood keeps the missing power: reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
-
-Give the idea a bodily path: Touch the likelihood key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Likelihood**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## The calculation hidden inside likelihood
 

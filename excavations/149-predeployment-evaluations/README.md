@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Constitutional guidance turns inspectable principles into critique and revision. Before real tools and users are exposed, the complete system must face staged tests of capabilities, misuse, safeguards, and operating limits.
 
-A new case arrives at the Academy of Trials, but the experimentalist first reaches for the familiar sealed evidence ledger. Its promise is simple: deploy broadly and learn from production incidents.
+The previous discovery reaches the Academy of Trials carrying one unfinished problem. Beside the sealed evidence ledger, the experimentalist first tries to deploy broadly and learn from production incidents.
 
-At the edge of the sealed evidence ledger, the shortcut produces its consequence: the first realistic discovery of a dangerous capability harms actual users. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we deploy broadly and learn from production incidents, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The experimentalist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the first realistic discovery of a dangerous capability harms actual users.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ deploy broadly and learn from… ──▶ blurred: the first realistic discovery of a…
-      │
-      └── new lens ──▶ test capabilities, misuse paths,… ──▶ distinction survives
-```
+This failure cannot be repaired by performing the instruction to deploy broadly and learn from production incidents more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sealed evidence ledger; otherwise a changed answer could be mistaken for an explanation.
 
-The experimentalist covers the new mark and the old contradiction returns: the first realistic discovery of a dangerous capability harms actual users. The cover is lifted, restoring the ability to test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason pre-deployment evaluations exists.
+The evidence has earned one extension and no more. We need to test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for pre-deployment evaluations is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority. That threshold is where **Pre-Deployment Evaluations** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In pre-deployment evaluations, that memory takes a precise form: whenever the first realistic discovery of a dangerous capability harms actual users, preserve enough structure to test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we deploy broadly and learn from production incidents?
-
-## When the chamber changes
-
-The mathematical name Pre-Deployment Evaluations can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The bridge follows the tempting path—deploy broadly and learn from production incidents. Then the evidence answers: the first realistic discovery of a dangerous capability harms actual users.
-
-Now let the chamber move: The experimentalist changes one moving part. The bridge can now test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
-
-The object that should remain after the terminology disappears is **the pre-deployment evaluations bridge mounted on the sealed evidence ledger**.
-
-> **Memory seal — Pre-Deployment Evaluations**
->
-> Pre-Deployment Evaluations keeps the missing power: test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority.
-
-Give the idea a bodily path: Touch the pre-deployment evaluations bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Pre-Deployment Evaluations**. The name is simply a handle for the distinction already reconstructed.
 
 ## Fail Before the World Pays
 

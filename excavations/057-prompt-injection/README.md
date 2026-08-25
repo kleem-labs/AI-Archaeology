@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,48 +13,17 @@
 
 An authority boundary prevents the agent from inventing permission. Retrieved pages and tool output now create another threat: untrusted evidence can contain sentences that pretend to be new instructions.
 
-Morning reaches the Gatehouse of Consequences before anyone has a name for today's difficulty. Beside the iron threshold, the gatekeeper tries the smallest continuation of what already works: place tool results directly into the prompt and let the model obey whichever instruction sounds strongest.
+The previous discovery reaches the Gatehouse of Consequences carrying one unfinished problem. Beside the iron threshold, the gatekeeper first tries to place tool results directly into the prompt and let the model obey whichever instruction sounds strongest.
 
-Then the quiet test arrives: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we place tool results directly into the prompt and let the model obey whichever instruction sounds strongest, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The gatekeeper sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control.
 
-```text
-OLD PATH:  request ──▶ place tool results directly into the… ──▶ the trouble appears immediately: a…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ label provenance, keep instructions… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to place tool results directly into the prompt and let the model obey whichever instruction sounds strongest more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the iron threshold; otherwise a changed answer could be mistaken for an explanation.
 
-The gatekeeper turns the iron threshold toward the light. Through the old engraving, place tool results directly into the prompt and let the model obey whichever instruction sounds strongest, the evidence ends in the same contradiction: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control. A second engraving adds only the power to label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The gatekeeper circles the place where the two prompt injection cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. The gatekeeper writes **Prompt Injection** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The gatekeeper does not memorize prompt injection. Instead, the gatekeeper memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
->
-> **The question carried into this chamber:** When Evidence Tries to Become an Instruction?
-
-## When the chamber changes
-
-The Prompt Injection chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The vessel follows the tempting path—place tool results directly into the prompt and let the model obey whichever instruction sounds strongest. Then the evidence answers: the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control.
-
-Now let the chamber move: The gatekeeper changes one moving part. The vessel can now label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content.
-
-The object that should remain after the terminology disappears is **the prompt injection vessel mounted on the iron threshold**.
-
-> **Memory seal — Prompt Injection**
->
-> Prompt Injection keeps the missing power: label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content.
-
-Give the idea a bodily path: Touch the prompt injection vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Prompt Injection**. The name is simply a handle for the distinction already reconstructed.
 
 ## When Evidence Tries to Become an Instruction
 

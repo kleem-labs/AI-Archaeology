@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,53 +13,17 @@
 
 Human oversight places judgment where an action becomes difficult to reverse. The artifacts produced by a powerful system can exceed any one reviewer's time and attention.
 
-The sealed evidence ledger at the Academy of Trials still carries the marks of the previous discovery. The experimentalist follows them as far as they seem willing to go: ask one expert to approve the entire artifact.
+A new case arrives at the Academy of Trials. Nothing yet demands a new invention, so the experimentalist uses the sealed evidence ledger to ask one expert to approve the entire artifact.
 
-Reality answers without terminology: the review exceeds human attention and hidden failures survive. The sealed evidence ledger now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to ask one expert to approve the entire artifact preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The experimentalist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the review exceeds human attention and hidden failures survive.
 
-```text
-observation
-    │
-    ▼
-[ask one expert to approve the entire…]
-    │
-    ╳  the review exceeds human attention…
-    │
-    ▼
-[decompose the work, attach local…]
-```
+The counterexample separates two questions that the attempt to ask one expert to approve the entire artifact had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the sealed evidence ledger fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The sealed evidence ledger is divided down the middle. Left side: “ask one expert to approve the entire artifact.” Its final mark records the review exceeds human attention and hidden failures survive. Right side: the same starting evidence, now allowed to decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions. The difference is narrow enough to see and important enough to change the ending.
+Only the broken responsibility needs to change. The method must now decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The broken rule has given scalable oversight a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions. The name **Scalable Oversight** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from scalable oversight through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the review exceeds human attention and hidden failures survive. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we ask one expert to approve the entire artifact?
-
-## When the chamber changes
-
-Keep the formal name Scalable Oversight covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The key follows the tempting path—ask one expert to approve the entire artifact. Then the evidence answers: the review exceeds human attention and hidden failures survive.
-
-Now let the chamber move: The experimentalist changes one moving part. The key can now decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions.
-
-The object that should remain after the terminology disappears is **the scalable oversight key mounted on the sealed evidence ledger**.
-
-> **Memory seal — Scalable Oversight**
->
-> Scalable Oversight keeps the missing power: decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions.
-
-Give the idea a bodily path: Touch the scalable oversight key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Scalable Oversight**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Reviewing Work Too Large for One Person
 

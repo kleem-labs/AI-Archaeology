@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,51 +13,17 @@
 
 Low-rank adaptation learns a small correction while preserving the base model. The unchanged base weights still consume memory and arithmetic every time the adapted model answers.
 
-Nothing in the Road of Consequences yet bears today's mathematical name. There is only the expedition leader, the map of branching journeys, and one plausible action: round every weight aggressively without measuring effect.
+Inside the Road of Consequences, the old method is given an honest chance. The expedition leader places the evidence on the map of branching journeys and tries to round every weight aggressively without measuring effect.
 
-At the edge of the map of branching journeys, the shortcut produces its consequence: small but important distinctions disappear and outputs degrade. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To round every weight aggressively without measuring effect is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The expedition leader sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: small but important distinctions disappear and outputs degrade.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   round every weight aggressively… small but important distinctions…
-            \        /
-             \      /
-              we need to map values to a limited…
-```
+The important discovery is not merely that trying to round every weight aggressively without measuring effect failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the map of branching journeys, so success cannot be manufactured by quietly replacing the original question.
 
-The expedition leader covers the new mark and the old contradiction returns: small but important distinctions disappear and outputs degrade. The cover is lifted, restoring the ability to map values to a limited set of levels using calibrated scale and test sensitive layers, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason quantization exists.
+The old construction is therefore not discarded. It is widened just enough to map values to a limited set of levels using calibrated scale and test sensitive layers. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-What must change for quantization is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to map values to a limited set of levels using calibrated scale and test sensitive layers. That threshold is where **Quantization** enters the story.
-
-The marks on the map of branching journeys form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. quantization is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
->
-> **The question carried into this chamber:** What fails if we round every weight aggressively without measuring effect?
-
-## When the chamber changes
-
-The Quantization room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The prism follows the tempting path—round every weight aggressively without measuring effect. Then the evidence answers: small but important distinctions disappear and outputs degrade.
-
-Now let the chamber move: The expedition leader changes one moving part. The prism can now map values to a limited set of levels using calibrated scale and test sensitive layers.
-
-The object that should remain after the terminology disappears is **the quantization prism mounted on the map of branching journeys**.
-
-> **Memory seal — Quantization**
->
-> Quantization keeps the missing power: map values to a limited set of levels using calibrated scale and test sensitive layers.
-
-Give the idea a bodily path: Touch the quantization prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Quantization**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding quantization
 
@@ -78,7 +46,7 @@ The scale is calibrated so important values fit the available integer range.
 [Rounding](../../MATHEMATICAL_MOVES.md#rounding) chooses the nearest integer level because storage permits only discrete codes; this is the deliberate lossy step.
 [Multiplying q by s](../../MATHEMATICAL_MOVES.md#multiplication) converts the stored step count back to the weight's approximate real scale. [The hat on w](../../MATHEMATICAL_MOVES.md#symbol-decorations) marks this reconstructed approximation; addition would shift levels rather than restore their unit size.
 
-Before the line is compressed, notice its recurring motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The map of branching journeys already contains the complete quantization mechanism. Mathematics gives that mechanism a form small enough to carry:
 

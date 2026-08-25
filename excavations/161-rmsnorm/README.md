@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,49 +13,17 @@
 
 FlashAttention removes one systems bottleneck, making smaller repeated operations visible. Layer normalization calculates both a mean and a spread at every token and layer.
 
-Morning reaches the Engine Cavern before anyone has a name for today's difficulty. Beside the brass reference machine, the enginewright tries the smallest continuation of what already works: delete normalization because each individual operation appears cheap.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to delete normalization because each individual operation appears cheap.
 
-At the edge of the brass reference machine, the shortcut produces its consequence: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we delete normalization because each individual operation appears cheap, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work.
 
-```text
-possible road A ─┐
-                 ├── old map: delete normalization because each…
-possible road B ─┘              └── loses: deep residual streams drift in scale…
+This failure cannot be repaired by performing the instruction to delete normalization because each individual operation appears cheap more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-same roads ──▶ repaired map ──▶ keep rescaling invariance by dividing…
-```
+The evidence has earned one extension and no more. We need to keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The enginewright covers the new mark and the old contradiction returns: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work. The cover is lifted, restoring the ability to keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason rmsnorm exists.
-
-What must change for rmsnorm is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable. That threshold is where **RMSNorm** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In rmsnorm, that memory takes a precise form: whenever deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work, preserve enough structure to keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we delete normalization because each individual operation appears cheap?
-
-## When the chamber changes
-
-Keep the formal name RMSNorm covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The lens follows the tempting path—delete normalization because each individual operation appears cheap. Then the evidence answers: deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work.
-
-Now let the chamber move: The enginewright changes one moving part. The lens can now keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
-
-The object that should remain after the terminology disappears is **the rmsnorm lens mounted on the brass reference machine**.
-
-> **Memory seal — RMSNorm**
->
-> RMSNorm keeps the missing power: keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable.
-
-Give the idea a bodily path: Touch the rmsnorm lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **RMSNorm**. The name is simply a handle for the distinction already reconstructed.
 
 ## Do We Need to Subtract the Centre
 

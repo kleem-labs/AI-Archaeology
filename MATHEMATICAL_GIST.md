@@ -249,7 +249,7 @@ A rescue party marks its camp on a paper map. It walks five kilometres east and 
 
 Inside vectors as change, familiar operations return with stricter duties: **the chisel**—what is shared is removed so the remaining change can be seen; **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the joining river**—separate contributions meet without losing where they came from. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
 
-Cover the prose about vectors as change and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming vectors as change equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \Delta=\mathbf{b}-\mathbf{a}=[7-2,1-3]=[5,-2]
@@ -397,7 +397,7 @@ Learned matrices create query, key, and value views from each current representa
 
 Three old motions cast new shadows here: **the meeting of arrows**—matching directions reinforce while opposing directions resist; **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
 
-Cover the prose about query, key, and value and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming query, key, and value equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 s_{ij}=\mathbf{q}_i\cdot\mathbf{k}_j
@@ -609,7 +609,7 @@ $\theta$ is the current state of the weights, $\nabla L$ is a vector of advised 
 [Multiplying by η](MATHEMATICAL_MOVES.md#multiplication) chooses how much of that direction to trust. Without η, the gradient's magnitude would dictate the whole step even when it is too large or too small.
 - The update arrow means “replace the old parameter state with this new one”; it is an action, not symmetric equality. See [arrows](MATHEMATICAL_MOVES.md#arrows).
 
-Before the line is compressed, notice its recurring motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The story of how a dead brain learns has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
@@ -798,7 +798,7 @@ The limit shrinks the nudge so the answer becomes local rather than dependent on
 
 The mandala has curved back upon itself. In this chamber we meet **the chisel**—what is shared is removed so the remaining change can be seen; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about derivatives and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming derivatives equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \frac{dL}{dw}=\lim_{\epsilon\to0}\frac{L(w+\epsilon)-L(w)}{\epsilon}
@@ -826,7 +826,7 @@ The product gives the effect of w on L without pretending they touch directly.
 Each [derivative](MATHEMATICAL_MOVES.md#derivative) is a local conversion rate: loss per y, y per x, and x per weight.
 [Multiplying the rates](MATHEMATICAL_MOVES.md#multiplication) is forced because one unit of weight change produces dx/dw units of x, each produces dy/dx units of y, and each of those produces dL/dy loss. Adding would mix rates with incompatible units.
 
-Before the line is compressed, notice its recurring motions: **the whispered question**—the present slope answers how a tiny movement would alter the outcome; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the whispered question**—the present slope answers how a tiny movement would alter the outcome; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The ring of glass lanterns already contains the complete chain rule mechanism. Mathematics gives that mechanism a form small enough to carry:
 
@@ -1000,7 +1000,7 @@ The final [η scaling](MATHEMATICAL_MOVES.md#multiplication) chooses travel dist
 
 Inside momentum, familiar operations return with stricter duties: **the lock and key**—one influence matters through another, and either missing factor can close the path; **the joining river**—separate contributions meet without losing where they came from; and **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
 
-Cover the prose about momentum and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming momentum equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 v_t=\beta v_{t-1}+g_t
@@ -1100,7 +1100,7 @@ A positive generalization gap is evidence that training success did not fully su
 [Unseen loss minus training loss](MATHEMATICAL_MOVES.md#subtraction) isolates how much performance deteriorates beyond memorized examples. Adding the losses would measure total error, not the transfer gap.
 The order matters: a positive answer naturally means unseen cases are worse. Reversing the subtraction would reverse that interpretation.
 
-Before the line is compressed, notice its recurring motions: **the chisel**—what is shared is removed so the remaining change can be seen. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the chisel**—what is shared is removed so the remaining change can be seen. Together they keep the path from the concrete case to notation intact.
 
 The keeper of uncertain stories reads the journey of overfitting once more across the ring of glass lanterns, then lets the words contract without losing their order:
 
@@ -1199,7 +1199,7 @@ The sampling mark ties the average to the future distribution. Training risk wou
 
 Three old motions cast new shadows here: **the council of possible worlds**—each future speaks in proportion to how often it may arrive. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
 
-Cover the prose about generalization and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming generalization equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 R(\theta)=\mathbb{E}_{(x,y)\sim P_{\text{future}}}[L(f_\theta(x),y)]
@@ -1386,7 +1386,7 @@ When j>i, the source is future; adding −∞ makes its later softmax weight zer
 [j ≤ i and j > i](MATHEMATICAL_MOVES.md#inequalities) divide earlier-or-current keys from future keys for query position i.
 Zero leaves an allowed attention score unchanged. [Negative infinity](MATHEMATICAL_MOVES.md#negative-sign) makes a forbidden score's exponential weight zero after softmax; a large positive value would do the opposite.
 
-Before the line is compressed, notice its recurring motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. Together they keep the path from the concrete case to notation intact.
 
 The story of causal masking has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
@@ -1420,7 +1420,7 @@ The shared length lets one forward pass create a supervised lesson at every posi
 [Parentheses](MATHEMATICAL_MOVES.md#brackets) keep each ordered token sequence intact; summing the tokens would destroy both identity and order.
 [The shifted indices](MATHEMATICAL_MOVES.md#indices) remove the final token from inputs and the first token from targets, so target position i is exactly the next token after input position i.
 
-Cover the prose about next-token examples and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming next-token examples equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 x=(t_0,\ldots,t_{n-1})
@@ -1551,7 +1551,7 @@ The mechanist carries the context windows scene to the sentence-wheel. Every qua
 
 A larger window is not perfect memory. Retrieval, compression, recurrence, and careful data are separate inventions.
 
-Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The reader can see the growth by drawing the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
+Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The growth becomes visible when we draw the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
 
 ### Naming what is already on the table
 
@@ -1631,7 +1631,7 @@ The token count divides total surprise so longer sentences are comparable. Negat
 
 The mandala has curved back upon itself. In this chamber we meet **the spiral stair**—compounded chances become steps that can be accumulated; **the chorus**—many witnesses contribute to one answer without one silence erasing the rest; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about perplexity and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming perplexity equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \mathrm{PPL}=\exp\left(-\frac{1}{n}\sum_{i=1}^{n}\log p(t_i\mid t_{<i})\right)
@@ -1919,7 +1919,7 @@ Addition preserves the base behavior and applies only the learned adaptation.
 
 The mandala has curved back upon itself. In this chamber we meet **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the joining river**—separate contributions meet without losing where they came from. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about low-rank adaptation and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming low-rank adaptation equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 W^\prime=W+BA
@@ -1946,7 +1946,7 @@ The scale is calibrated so important values fit the available integer range.
 [Rounding](MATHEMATICAL_MOVES.md#rounding) chooses the nearest integer level because storage permits only discrete codes; this is the deliberate lossy step.
 [Multiplying q by s](MATHEMATICAL_MOVES.md#multiplication) converts the stored step count back to the weight's approximate real scale. [The hat on w](MATHEMATICAL_MOVES.md#symbol-decorations) marks this reconstructed approximation; addition would shift levels rather than restore their unit size.
 
-Before the line is compressed, notice its recurring motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The map of branching journeys already contains the complete quantization mechanism. Mathematics gives that mechanism a form small enough to carry:
 
@@ -2038,7 +2038,7 @@ The update rule joins the old node state with the aggregated neighborhood eviden
 [Summing over neighbors](MATHEMATICAL_MOVES.md#summation) combines a variable-size, unordered neighborhood into one fixed-size message. Concatenation would depend on neighbor count and arbitrary listing order.
 [U](MATHEMATICAL_MOVES.md#function-application) then updates the old node state using both its own previous information and the neighborhood evidence.
 
-Before the line is compressed, notice its recurring motions: **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. Together they keep the path from the concrete case to notation intact.
 
 The table of mirrored maps already contains the complete graph neural networks mechanism. Mathematics gives that mechanism a form small enough to carry:
 
@@ -2092,7 +2092,7 @@ m_baseline is the frozen model's measurement; m_candidate is measured by the sam
 
 [Subtraction](MATHEMATICAL_MOVES.md#subtraction) removes the common baseline and isolates the candidate's change. Addition would make two large scores look impressive even when they are identical. The order fixes the sign: positive means the candidate raised this metric.
 
-Before the line is compressed, notice its recurring motions: **the chisel**—what is shared is removed so the remaining change can be seen. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the chisel**—what is shared is removed so the remaining change can be seen. Together they keep the path from the concrete case to notation intact.
 
 The enginewright reads the journey of reproducible baseline once more across the brass reference machine, then lets the words contract without losing their order:
 
@@ -2166,7 +2166,7 @@ The numerator counts language tokens that create lessons; the denominator counts
 
 Three old motions cast new shadows here: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
 
-Cover the prose about sequence packing and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming sequence packing equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \eta_{\text{pack}}=\frac{N_{\text{real tokens}}}{N_{\text{allocated positions}}}
@@ -2284,7 +2284,7 @@ h is a query-head index, H_Q counts query heads, H_KV counts shared KV groups, a
 
 [Multiplication](MATHEMATICAL_MOVES.md#multiplication) spreads the KV group range across query-head indices; [division](MATHEMATICAL_MOVES.md#division) converts one query index into its proportional group location. The floor deliberately [rounds](MATHEMATICAL_MOVES.md#rounding) down so every head receives one valid discrete group rather than a fractional address.
 
-Before the line is compressed, notice its recurring motions: **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. Together they keep the path from the concrete case to notation intact.
 
 The story of grouped-query attention has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
@@ -2310,7 +2310,7 @@ m is the largest score already seen, s_j are scores in the new tile, and m-prime
 
 Listen beneath flashattention: **the highest lantern**—the strongest surviving possibility sets the visible ceiling. These are not ornamental comparisons. Each image keeps the exact job of an operation visible while its symbols change.
 
-Cover the prose about flashattention and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming flashattention equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 m^{\prime}=\max(m,\max_j s_j)
@@ -2452,7 +2452,7 @@ lambda is decay strength; the first term shrinks the old parameter directly; the
 
 The mandala has curved back upon itself. In this chamber we meet **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chisel**—what is shared is removed so the remaining change can be seen. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about adamw and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming adamw equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \theta_{t+1}=(1-\eta\lambda)\theta_t-\eta\frac{\widehat m_t}{\sqrt{\widehat v_t}+\epsilon}
@@ -2474,7 +2474,7 @@ g is the original gradient vector, c is the allowed norm ceiling, and g-prime is
 
 [Division](MATHEMATICAL_MOVES.md#division) computes the fraction needed to bring the current norm down to c. [Minimum](MATHEMATICAL_MOVES.md#minimum) chooses at most one, so small gradients are never enlarged. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) scales every coordinate equally, preserving direction; clipping coordinates separately would rotate the update.
 
-Before the line is compressed, notice its recurring motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; **the narrow gate**—the smaller allowance prevents a promise from exceeding its boundary; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; **the narrow gate**—the smaller allowance prevents a promise from exceeding its boundary; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The brass reference machine already contains the complete gradient clipping mechanism. Mathematics gives that mechanism a form small enough to carry:
 
@@ -2596,7 +2596,7 @@ M_total is shardable model state and P is the number of cooperating devices unde
 
 Inside zero, familiar operations return with stricter duties: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
 
-Cover the prose about zero and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming zero equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 M_{\text{state per device}}\approx\frac{M_{\text{total state}}}{P}
@@ -2684,7 +2684,7 @@ d is the document being inspected; the set L contains allowed language labels; p
 
 [Conditional probability](MATHEMATICAL_MOVES.md#conditional-bar) asks for language support given this document. [Arg max](MATHEMATICAL_MOVES.md#arg-max) keeps the winning label rather than only its score. Summing the scores would erase which language produced them; a threshold is still checked afterward because the winner may be weak.
 
-Cover the prose about language identification and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming language identification equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \ell^*=\underset{\ell\in\mathcal L}{\mathrm{argmax}}\ p(\ell\mid d)
@@ -2748,7 +2748,7 @@ D counts the named data domains and w_d is the chance that the next training dra
 
 Listen beneath data mixtures: **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. These are not ornamental comparisons. Each image keeps the exact job of an operation visible while its symbols change.
 
-Cover the prose about data mixtures and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming data mixtures equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \sum_{d=1}^{D}w_d=1,\quad w_d\ge 0
@@ -2880,7 +2880,7 @@ Each g_i is one model micro-batch's gradient advice. The covariance measures how
 
 The mandala has curved back upon itself. In this chamber we meet **the paired dance**—two quantities reveal whether their departures move together; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about gradient noise scale and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming gradient noise scale equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 G=\frac{\mathrm{tr}(\mathrm{Cov}[g_i])}{\lVert E[g_i]\rVert^2}
@@ -2900,7 +2900,7 @@ P is the number of data-parallel workers, g_p is worker p's average gradient fro
 
 [Summation](MATHEMATICAL_MOVES.md#summation) lets every worker's independent evidence contribute. [Division](MATHEMATICAL_MOVES.md#division) returns advice per worker so adding hardware does not enlarge the update by itself. Multiplication would let a zero coordinate from one worker erase all others.
 
-Before the line is compressed, notice its recurring motions: **the chorus**—many witnesses contribute to one answer without one silence erasing the rest; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the chorus**—many witnesses contribute to one answer without one silence erasing the rest; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. Together they keep the path from the concrete case to notation intact.
 
 The chain-of-custody ledger already contains the complete data parallelism mechanism. Mathematics gives that mechanism a form small enough to carry:
 
@@ -2968,7 +2968,7 @@ L_t is the current monitored model loss, mu_t is its robust recent center, sigma
 
 Inside loss spikes, familiar operations return with stricter duties: **the chisel**—what is shared is removed so the remaining change can be seen; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
 
-Cover the prose about loss spikes and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming loss spikes equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 z_t=\frac{L_t-\mu_t}{\sigma_t}
@@ -3024,7 +3024,11 @@ $$
 
 ## Excavation 201 — Sets — Drawing a Boundary Around ‘Belongs’
 
-Return to the named Sets scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for sets will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Sets against the named case
+
+Let the observed tray contain tiger, deer, and otter. Let the near-water tray contain tiger, otter, and frog. Put each named animal against both boundaries. Tiger passes both tests; otter passes both; deer fails the water boundary; frog fails the observed boundary. The overlap is therefore `{tiger, otter}`—not because we memorized an intersection rule, but because those are the only cards that survive both questions.
 
 ### Naming what is already on the table
 
@@ -3034,13 +3038,11 @@ Return to the named Sets scene above. The ranger, model, measurement, or state i
 
 [Membership](MATHEMATICAL_MOVES.md#membership) asks one yes-or-no boundary question. [Intersection](MATHEMATICAL_MOVES.md#intersection) retains only shared members, and [logical and](MATHEMATICAL_MOVES.md#logical-and) requires both tests to succeed. A union would answer ‘in either tray’; counting would report a size while forgetting which animals survived.
 
-The operations inside Sets form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by sets now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 x\in A\cap B\Longleftrightarrow (x\in A)\text{ and }(x\in B)
 $$
-
-Read the Sets line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/201-sets/README.md)
 
@@ -3048,7 +3050,11 @@ Read the Sets line back into its scene once. The equation is not where the disco
 
 ## Excavation 202 — Relations — When Two Objects Are Connected
 
-Return to the named Relations scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for relations will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Relations against the named case
+
+For the relation *near*, lay down `(tiger, river)` and `(otter, river)`. For *reported-by*, lay down `(tiger, village)`. The first position names the object the arrow leaves; the second names where it arrives. Swapping the positions produces a different claim, which is exactly why the pair must be ordered.
 
 ### Naming what is already on the table
 
@@ -3058,13 +3064,11 @@ Return to the named Relations scene above. The ranger, model, measurement, or st
 
 [Tuples](MATHEMATICAL_MOVES.md#tuples) preserve first and second position, so direction survives. [Membership](MATHEMATICAL_MOVES.md#membership) says whether a proposed edge belongs to the relation. A flat union would preserve the endpoints but erase which endpoint was paired with which.
 
-The operations inside Relations form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by relations now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 R\subseteq A\times B,\quad (a,b)\in R
 $$
-
-Read the Relations line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/202-relations/README.md)
 
@@ -3072,7 +3076,11 @@ Read the Relations line back into its scene once. The equation is not where the 
 
 ## Excavation 203 — Functions — A Reusable Promise from Input to Output
 
-Return to the named Functions scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for functions will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Functions against the named case
+
+The weight machine maps tiger to 220, deer to 90, and otter to 12. Tiger may be inserted repeatedly, but its arrow still lands on 220. Deer and another animal could both weigh 90 without violating the promise; the requirement concerns one output *per input*, not one private output per animal.
 
 ### Naming what is already on the table
 
@@ -3082,13 +3090,11 @@ Return to the named Functions scene above. The ranger, model, measurement, or st
 
 [Arrows](MATHEMATICAL_MOVES.md#arrows) preserve the direction of the machine. [Function application](MATHEMATICAL_MOVES.md#function-application) asks for the output belonging to this input, and [equality](MATHEMATICAL_MOVES.md#equals) records the returned value. Allowing several outputs would describe a general relation, not the deterministic responsibility we need.
 
-The operations inside Functions form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by functions now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 f:A\to B,\quad y=f(x)
 $$
-
-Read the Functions line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/203-functions/README.md)
 
@@ -3096,7 +3102,11 @@ Read the Functions line back into its scene once. The equation is not where the 
 
 ## Excavation 204 — Bases and Coordinates — The Same Object in Another Language
 
-Return to the named Bases and Coordinates scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for bases and coordinates will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Bases and Coordinates against the named case
+
+With basis arrows east `[1,0]` and north `[0,1]`, the walk is `3 east + 2 north`. If the new basis uses northeast `[1,1]` and northwest `[-1,1]`, then `2.5 northeast - 0.5 northwest` reconstructs `[3,2]`. The coefficients changed; the endpoint did not.
 
 ### Naming what is already on the table
 
@@ -3106,13 +3116,11 @@ Return to the named Bases and Coordinates scene above. The ranger, model, measur
 
 [Multiplication](MATHEMATICAL_MOVES.md#multiplication) scales each basis direction by the amount required. [Addition](MATHEMATICAL_MOVES.md#addition) joins independent directional contributions. Concatenating the numbers would merely store them side by side and would not reconstruct the displacement.
 
-The operations inside Bases and Coordinates form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by bases and coordinates now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \mathbf v=c_1\mathbf b_1+c_2\mathbf b_2+\cdots+c_n\mathbf b_n
 $$
-
-Read the Bases and Coordinates line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/204-bases-coordinates/README.md)
 
@@ -3120,7 +3128,11 @@ Read the Bases and Coordinates line back into its scene once. The equation is no
 
 ## Excavation 205 — Span and Linear Independence — Which Directions Are Truly New?
 
-Return to the named Span and Linear Independence scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for span and linear independence will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Span and Linear Independence against the named case
+
+Ask whether `a·east + b·north + c·northeast` can return to `[0,0]` without all weights being zero. Choosing `a=-1`, `b=-1`, and `c=1` does exactly that. Northeast therefore adds no new reachable point. East and north alone span the entire floor and give each displacement one coordinate pair.
 
 ### Naming what is already on the table
 
@@ -3130,13 +3142,11 @@ Return to the named Span and Linear Independence scene above. The ranger, model,
 
 [Multiplication](MATHEMATICAL_MOVES.md#multiplication) scales candidate directions and [summation](MATHEMATICAL_MOVES.md#summation) combines them. [Equality](MATHEMATICAL_MOVES.md#equals) asks whether the combination collapses to zero. Merely counting vectors cannot detect that one is already contained in the others' span.
 
-The operations inside Span and Linear Independence form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by span and linear independence now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 a_1\mathbf v_1+\cdots+a_k\mathbf v_k=\mathbf0\Longrightarrow a_1=\cdots=a_k=0
 $$
-
-Read the Span and Linear Independence line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/205-span-linear-independence/README.md)
 
@@ -3144,7 +3154,11 @@ Read the Span and Linear Independence line back into its scene once. The equatio
 
 ## Excavation 206 — Eigenvectors and Eigenvalues — Directions a Transformation Cannot Turn
 
-Return to the named Eigenvectors and Eigenvalues scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for eigenvectors and eigenvalues will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Eigenvectors and Eigenvalues against the named case
+
+Apply the matrix `[[2,0],[0,1]]` to east `[1,0]`: the result is `[2,0]`, exactly twice east. Apply it to north `[0,1]`: the result remains north. East has scale 2 and north scale 1. Apply it repeatedly and any arrow with an east component becomes increasingly east-dominated.
 
 ### Naming what is already on the table
 
@@ -3154,13 +3168,11 @@ Return to the named Eigenvectors and Eigenvalues scene above. The ranger, model,
 
 [Function application](MATHEMATICAL_MOVES.md#function-application) applies the transformation to the direction. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) scales that same direction, and [equality](MATHEMATICAL_MOVES.md#equals) demands the two routes coincide. Adding λ would translate the arrow rather than describe proportional stretching.
 
-The operations inside Eigenvectors and Eigenvalues form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by eigenvectors and eigenvalues now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 A\mathbf v=\lambda\mathbf v
 $$
-
-Read the Eigenvectors and Eigenvalues line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/206-eigenvectors-eigenvalues/README.md)
 
@@ -3168,7 +3180,11 @@ Read the Eigenvectors and Eigenvalues line back into its scene once. The equatio
 
 ## Excavation 207 — Orthogonality and Projection — Finding the Closest Shadow
 
-Return to the named Orthogonality and Projection scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for orthogonality and projection will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Orthogonality and Projection against the named case
+
+Project `[3,2]` onto east `[1,0]`. Their dot product is 3; east's dot product with itself is 1; the required scale is therefore 3. The shadow is `[3,0]`, leaving error `[0,2]`. That error has zero dot product with east, so every remaining disagreement points outside the allowed rail.
 
 ### Naming what is already on the table
 
@@ -3178,13 +3194,11 @@ Return to the named Orthogonality and Projection scene above. The ranger, model,
 
 [The dot product](MATHEMATICAL_MOVES.md#dot-product) measures directional agreement. [Division](MATHEMATICAL_MOVES.md#division) removes dependence on the chosen length of u, and [multiplication](MATHEMATICAL_MOVES.md#multiplication) rebuilds the shadow in the allowed direction. Using raw v·u alone would change the answer if the same rail were described by a longer basis arrow.
 
-The operations inside Orthogonality and Projection form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by orthogonality and projection now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \mathrm{proj}_{\mathbf u}(\mathbf v)=\frac{\mathbf v\cdot\mathbf u}{\mathbf u\cdot\mathbf u}\mathbf u
 $$
-
-Read the Orthogonality and Projection line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/207-orthogonality-projection/README.md)
 
@@ -3192,7 +3206,11 @@ Read the Orthogonality and Projection line back into its scene once. The equatio
 
 ## Excavation 208 — Singular Value Decomposition — The Important Directions of Any Matrix
 
-Return to the named Singular Value Decomposition scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for singular value decomposition will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Singular Value Decomposition against the named case
+
+For the diagonal plate `[[3,0],[0,1]]`, the east input rings with strength 3 and the north input with strength 1. Keeping only the first channel produces `[[3,0],[0,0]]`: the best rank-one approximation under squared error. The omitted channel's strength, 1, states exactly what was lost.
 
 ### Naming what is already on the table
 
@@ -3202,13 +3220,11 @@ Return to the named Singular Value Decomposition scene above. The ranger, model,
 
 [Function composition](MATHEMATICAL_MOVES.md#function-composition) fixes the order: rotate input, scale channels, rotate output. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) lets each stage act through the previous one. Keeping arbitrary entries would not preserve the strongest coordinated directions or give the best rank-k squared-error approximation.
 
-The operations inside Singular Value Decomposition form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by singular value decomposition now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 A=U\Sigma V^T,\quad A_k=U_k\Sigma_kV_k^T
 $$
-
-Read the Singular Value Decomposition line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/208-singular-value-decomposition/README.md)
 
@@ -3216,7 +3232,11 @@ Read the Singular Value Decomposition line back into its scene once. The equatio
 
 ## Excavation 209 — Limits — Approaching What Cannot Be Reached in One Step
 
-Return to the named Limits scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for limits will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Limits against the named case
+
+If the required gap is below 0.01, choose n greater than 100 and `1/n` is small enough. If the requirement tightens to 0.0001, choose n greater than 10,000. The destination zero is earned not by arriving at a final term, but by defeating every positive tolerance.
 
 ### Naming what is already on the table
 
@@ -3226,13 +3246,11 @@ Return to the named Limits scene above. The ranger, model, measurement, or state
 
 [Division](MATHEMATICAL_MOVES.md#division) makes the gap shrink as the count grows. [The limit](MATHEMATICAL_MOVES.md#limit) records the tolerance guarantee rather than substituting infinity as an ordinary number. Writing `1/∞` would hide the reasoning because infinity is not a final denominator reached by the sequence.
 
-The operations inside Limits form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by limits now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \lim_{n\to\infty}\frac{1}{n}=0
 $$
-
-Read the Limits line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/209-limits/README.md)
 
@@ -3240,7 +3258,11 @@ Read the Limits line back into its scene once. The equation is not where the dis
 
 ## Excavation 210 — Partial Derivatives and Gradients — One Landscape, Many Directions
 
-Return to the named Partial Derivatives and Gradients scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for partial derivatives and gradients will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Partial Derivatives and Gradients against the named case
+
+Near the current setting, nudging w₁ by 0.01 raises loss by about 0.03, giving sensitivity 3. Nudging w₂ by 0.01 lowers loss by about 0.01, giving sensitivity -1. The gradient `[3,-1]` points toward fastest local increase; its negative points toward fastest local decrease under ordinary Euclidean distance.
 
 ### Naming what is already on the table
 
@@ -3250,13 +3272,11 @@ Return to the named Partial Derivatives and Gradients scene above. The ranger, m
 
 [Partial derivatives](MATHEMATICAL_MOVES.md#partial-derivative) isolate one coordinate while others are fixed. [Concatenation](MATHEMATICAL_MOVES.md#concatenation) preserves the separate sensitivities as one ordered vector. Summing them would erase direction and could let positive and negative effects cancel.
 
-The operations inside Partial Derivatives and Gradients form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by partial derivatives and gradients now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \nabla L(\mathbf w)=\left[\frac{\partial L}{\partial w_1},\ldots,\frac{\partial L}{\partial w_n}\right]
 $$
-
-Read the Partial Derivatives and Gradients line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/210-partial-derivatives-gradients/README.md)
 
@@ -3264,7 +3284,11 @@ Read the Partial Derivatives and Gradients line back into its scene once. The eq
 
 ## Excavation 211 — Jacobians — When Many Outputs Change Together
 
-Return to the named Jacobians scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for jacobians will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Jacobians against the named case
+
+Suppose danger is `2w+s` and estimated speed is `w-s`. Increasing w by one changes the outputs by `[2,1]`; increasing s by one changes them by `[1,-1]`. Put the response to w in the first column and the response to s in the second. The resulting matrix `[[2,1],[1,-1]]` predicts the small output change produced by any small input change.
 
 ### Naming what is already on the table
 
@@ -3274,13 +3298,11 @@ Return to the named Jacobians scene above. The ranger, model, measurement, or st
 
 [Partial derivatives](MATHEMATICAL_MOVES.md#partial-derivative) isolate one output-input relationship. [Tables](MATHEMATICAL_MOVES.md#tables) preserve the exact row-column mapping, and [multiplication](MATHEMATICAL_MOVES.md#multiplication) lets the Jacobian act on a small input change. A sum would collapse distinct outputs and inputs into one ambiguous sensitivity.
 
-The operations inside Jacobians form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by jacobians now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 J_{ij}=\frac{\partial f_i}{\partial x_j}
 $$
-
-Read the Jacobians line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/211-jacobians/README.md)
 
@@ -3288,7 +3310,11 @@ Read the Jacobians line back into its scene once. The equation is not where the 
 
 ## Excavation 212 — Hessians and Curvature — Why the Same Slope Can Hide Different Valleys
 
-Return to the named Hessians and Curvature scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for hessians and curvature will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Hessians and Curvature against the named case
+
+For `L(w₁,w₂)=w₁²-w₂²`, both partial derivatives vanish at `[0,0]`. The second derivative along w₁ is 2; along w₂ it is -2; cross-effects are zero. The Hessian `[[2,0],[0,-2]]` exposes a saddle because one direction bends up and another down.
 
 ### Naming what is already on the table
 
@@ -3298,13 +3324,11 @@ Return to the named Hessians and Curvature scene above. The ranger, model, measu
 
 [Partial derivatives](MATHEMATICAL_MOVES.md#partial-derivative) are applied a second time because curvature is change in slope. [Tables](MATHEMATICAL_MOVES.md#tables) preserve pairwise coordinate effects. Looking only at the diagonal would miss rotations and coupled directions; summing entries would destroy the geometry.
 
-The operations inside Hessians and Curvature form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by hessians and curvature now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 H_{ij}=\frac{\partial^2L}{\partial w_i\partial w_j}
 $$
-
-Read the Hessians and Curvature line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/212-hessians-curvature/README.md)
 
@@ -3312,7 +3336,11 @@ Read the Hessians and Curvature line back into its scene once. The equation is n
 
 ## Excavation 213 — Taylor Approximation — Borrowing a Function’s Local Shape
 
-Return to the named Taylor Approximation scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for taylor approximation will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Taylor Approximation against the named case
+
+Use `f(x)=eˣ` near zero. Its value, slope, and curvature at zero are all 1. At h=0.1, the second-order estimate is `1 + 0.1 + 0.1²/2 = 1.105`, close to the true 1.10517. Removing the squared term gives 1.1 and visibly loses curvature.
 
 ### Naming what is already on the table
 
@@ -3322,13 +3350,11 @@ Return to the named Taylor Approximation scene above. The ranger, model, measure
 
 [Addition](MATHEMATICAL_MOVES.md#addition) lets distinct orders contribute without erasing one another. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) makes each derivative act through its displacement, while [powers](MATHEMATICAL_MOVES.md#powers) make curvature shrink faster than slope as h becomes tiny. Multiplying all terms together would make any zero term erase the approximation.
 
-The operations inside Taylor Approximation form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by taylor approximation now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 f(a+h)\approx f(a)+f'(a)h+\frac{f''(a)}{2}h^2
 $$
-
-Read the Taylor Approximation line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/213-taylor-approximation/README.md)
 
@@ -3336,7 +3362,11 @@ Read the Taylor Approximation line back into its scene once. The equation is not
 
 ## Excavation 214 — Integrals — Reconstructing a Whole from Infinitesimal Pieces
 
-Return to the named Integrals scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for integrals will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Integrals against the named case
+
+Over four one-minute intervals the measured rates are 1, 2, 3, and 4 litres per minute. Rectangles give `1×1 + 2×1 + 3×1 + 4×1 = 10` litres. Halving the interval uses more, thinner rectangles and follows the changing flow more closely. The integral is the value these sums approach as no interval remains visibly wide.
 
 ### Naming what is already on the table
 
@@ -3346,13 +3376,11 @@ Return to the named Integrals scene above. The ranger, model, measurement, or st
 
 [Multiplication](MATHEMATICAL_MOVES.md#multiplication) converts rate times duration into amount. [Summation](MATHEMATICAL_MOVES.md#summation) joins disjoint amounts; multiplication among slices would make one zero-flow moment erase all water. [The limit](MATHEMATICAL_MOVES.md#limit) forces the partition error arbitrarily small.
 
-The operations inside Integrals form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by integrals now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \int_a^b r(t)dt=\lim_{\max\Delta t_i\to0}\sum_i r(t_i)\Delta t_i
 $$
-
-Read the Integrals line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/214-integrals/README.md)
 
@@ -3360,7 +3388,11 @@ Read the Integrals line back into its scene once. The equation is not where the 
 
 ## Excavation 215 — Fourier Analysis — Hearing Frequencies Hidden Inside Time
 
-Return to the named Fourier Analysis scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for fourier analysis will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Fourier Analysis against the named case
+
+Take four samples `[1,0,-1,0]`. They complete one oscillation: high, centre, low, centre. Multiplying them against the matching rotating pattern makes the four contributions reinforce; mismatched frequencies alternate and largely cancel. The coefficient's magnitude reports how strongly that rhythm is present.
 
 ### Naming what is already on the table
 
@@ -3370,13 +3402,11 @@ Return to the named Fourier Analysis scene above. The ranger, model, measurement
 
 [The exponential](MATHEMATICAL_MOVES.md#exponential) supplies a regularly rotating comparison pattern. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) measures sample-by-pattern agreement, [summation](MATHEMATICAL_MOVES.md#summation) lets aligned evidence reinforce, and the [negative sign](MATHEMATICAL_MOVES.md#negative-sign) fixes the analysis rotation direction. Adding raw samples would keep only the zero-frequency total.
 
-The operations inside Fourier Analysis form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by fourier analysis now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 X_k=\sum_{n=0}^{N-1}x_n e^{-2\pi i kn/N}
 $$
-
-Read the Fourier Analysis line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/215-fourier-analysis/README.md)
 
@@ -3384,7 +3414,11 @@ Read the Fourier Analysis line back into its scene once. The equation is not whe
 
 ## Excavation 216 — Random Variables and Distributions — Turning Outcomes into Quantities
 
-Return to the named Random Variables and Distributions scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for random variables and distributions will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Random Variables and Distributions against the named case
+
+Let Ω contain four equally likely camera histories. Two contain no tiger, one contains one tiger, and one contains two. The counting function X maps them to 0, 0, 1, and 2. Therefore `P(X=0)=2/4`, `P(X=1)=1/4`, and `P(X=2)=1/4`. Different histories can share one count without becoming the same history.
 
 ### Naming what is already on the table
 
@@ -3394,13 +3428,11 @@ Return to the named Random Variables and Distributions scene above. The ranger, 
 
 [Function application](MATHEMATICAL_MOVES.md#function-application) converts each outcome into the quantity we care about. [Probability](MATHEMATICAL_MOVES.md#probability) preserves how much possibility maps to each value, and [summation](MATHEMATICAL_MOVES.md#summation) combines different outcomes sharing the same value. Multiplying their probabilities would describe all histories occurring together, a different event.
 
-The operations inside Random Variables and Distributions form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by random variables and distributions now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 P(X=x)=\sum_{\omega:X(\omega)=x}P(\omega)
 $$
-
-Read the Random Variables and Distributions line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/216-random-variables-distributions/README.md)
 
@@ -3408,7 +3440,11 @@ Read the Random Variables and Distributions line back into its scene once. The e
 
 ## Excavation 217 — Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief
 
-Return to the named Conditional Probability and Bayes’ Rule scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for conditional probability and bayes’ rule will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Conditional Probability and Bayes’ Rule against the named case
+
+Out of 100 imagined days, expect 10 tiger days and 90 deer days. Suppose deep tracks appear on 8 of 10 tiger days but only 9 of 90 deer days. Among the 17 deep-track days, 8 involve tiger. After observing deep tracks, tiger probability becomes `8/17`, not 0.8 and not the old 0.1.
 
 ### Naming what is already on the table
 
@@ -3418,13 +3454,11 @@ Return to the named Conditional Probability and Bayes’ Rule scene above. The r
 
 [Conditional probability](MATHEMATICAL_MOVES.md#conditional-bar) states which fact is held as known. [Multiplication](MATHEMATICAL_MOVES.md#multiplication) requires both prior story and compatible evidence, while [division](MATHEMATICAL_MOVES.md#division) restricts attention to worlds where E occurred. Adding prior and likelihood would mix quantities that do not form a joint share.
 
-The operations inside Conditional Probability and Bayes’ Rule form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by conditional probability and bayes’ rule now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 P(H\mid E)=\frac{P(E\mid H)P(H)}{P(E)}
 $$
-
-Read the Conditional Probability and Bayes’ Rule line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/217-conditional-probability-bayes/README.md)
 
@@ -3432,7 +3466,11 @@ Read the Conditional Probability and Bayes’ Rule line back into its scene once
 
 ## Excavation 218 — Expectation, Variance, and Covariance — Centre, Spread, and Shared Motion
 
-Return to the named Expectation, Variance, and Covariance scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for expectation, variance, and covariance will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Expectation, Variance, and Covariance against the named case
+
+Route A's count is always 1, so every departure from mean 1 is zero and variance is zero. Route B's departures are -1 and +1; squaring gives 1 in either case, so variance is 1. If alarm departures carry the same signs as tiger departures, their products are positive and covariance reveals shared movement.
 
 ### Naming what is already on the table
 
@@ -3442,13 +3480,11 @@ Return to the named Expectation, Variance, and Covariance scene above. The range
 
 [Expectation](MATHEMATICAL_MOVES.md#expectation) lets each possible value contribute in proportion to its probability. [Variance](MATHEMATICAL_MOVES.md#variance) uses squared departures so opposite errors do not cancel. [Covariance](MATHEMATICAL_MOVES.md#covariance) multiplies paired departures; adding them would lose whether the two quantities moved together on the same occasion.
 
-The operations inside Expectation, Variance, and Covariance form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by expectation, variance, and covariance now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 E[X]=\sum_x xP(X=x),\quad Var(X)=E[(X-E[X])^2],\quad Cov(X,Y)=E[(X-E[X])(Y-E[Y])]
 $$
-
-Read the Expectation, Variance, and Covariance line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/218-expectation-variance-covariance/README.md)
 
@@ -3456,7 +3492,11 @@ Read the Expectation, Variance, and Covariance line back into its scene once. Th
 
 ## Excavation 219 — The Law of Large Numbers — Why Averages Eventually Settle
 
-Return to the named The Law of Large Numbers scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for the law of large numbers will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing The Law of Large Numbers against the named case
+
+After 10 tosses, 7 heads gives average 0.7. After 100, perhaps 54 heads gives 0.54. After 10,000, 5,013 heads gives 0.5013. No run is promised monotonic improvement, but large persistent deviations become increasingly unlikely under the same fair process.
 
 ### Naming what is already on the table
 
@@ -3466,13 +3506,11 @@ Return to the named The Law of Large Numbers scene above. The ranger, model, mea
 
 [Summation](MATHEMATICAL_MOVES.md#summation) lets every observation vote. [Division](MATHEMATICAL_MOVES.md#division) prevents the total from growing merely because more observations arrived, and [the limit](MATHEMATICAL_MOVES.md#limit) states the large-sample guarantee. Multiplying observations would let one zero erase the entire history.
 
-The operations inside The Law of Large Numbers form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by the law of large numbers now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \overline X_n=\frac1n\sum_{i=1}^{n}X_i\longrightarrow\mu
 $$
-
-Read the The Law of Large Numbers line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/219-law-large-numbers/README.md)
 
@@ -3480,7 +3518,11 @@ Read the The Law of Large Numbers line back into its scene once. The equation is
 
 ## Excavation 220 — The Central Limit Theorem — Why Bell Shapes Keep Appearing
 
-Return to the named The Central Limit Theorem scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for the central limit theorem will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing The Central Limit Theorem against the named case
+
+Suppose individual measurements have mean 10 and standard deviation 2. An average of 100 independent readings still centres at 10, but its standard error is `2/√100 = 0.2`. Repeating the entire 100-reading experiment produces normalized errors that increasingly resemble a standard bell even when individual readings are not bell-shaped.
 
 ### Naming what is already on the table
 
@@ -3490,13 +3532,11 @@ Return to the named The Central Limit Theorem scene above. The ranger, model, me
 
 [Subtraction](MATHEMATICAL_MOVES.md#subtraction) isolates estimation error. [The square root](MATHEMATICAL_MOVES.md#square-root) appears because independent variances add while standard deviations are square roots of variance. [Division](MATHEMATICAL_MOVES.md#division) expresses error in standard-error units; dividing by n would shrink too quickly.
 
-The operations inside The Central Limit Theorem form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by the central limit theorem now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \frac{\overline X_n-\mu}{\sigma/\sqrt n}\Longrightarrow N(0,1)
 $$
-
-Read the The Central Limit Theorem line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/220-central-limit-theorem/README.md)
 
@@ -3504,7 +3544,11 @@ Read the The Central Limit Theorem line back into its scene once. The equation i
 
 ## Excavation 221 — Hypothesis Tests and Confidence Intervals — When Is an Improvement Convincing?
 
-Return to the named Hypothesis Tests and Confidence Intervals scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for hypothesis tests and confidence intervals will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Hypothesis Tests and Confidence Intervals against the named case
+
+For the 100 paired questions, the mean difference is 0.4 and the standard deviation of differences is 2. The standard error is `2/√100 = 0.2`, so the improvement sits `0.4/0.2 = 2` standard errors above zero. A rough 95% interval is `0.4 ± 1.96×0.2`, or about `[0.008, 0.792]`. Zero lies just outside, yet the interval also warns that the practical gain may be tiny.
 
 ### Naming what is already on the table
 
@@ -3514,13 +3558,11 @@ Return to the named Hypothesis Tests and Confidence Intervals scene above. The r
 
 [Subtraction](MATHEMATICAL_MOVES.md#subtraction) makes each question compare like with like. [The mean](MATHEMATICAL_MOVES.md#mean) lets all paired questions contribute. [The square root](MATHEMATICAL_MOVES.md#square-root) converts sample count into the scale of average noise, and [division](MATHEMATICAL_MOVES.md#division) asks how large the effect is relative to that noise. Dividing only by s would ignore that one hundred witnesses stabilize a mean more than one witness.
 
-The operations inside Hypothesis Tests and Confidence Intervals form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by hypothesis tests and confidence intervals now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 z=\frac{\overline d-0}{s/\sqrt n}
 $$
-
-Read the Hypothesis Tests and Confidence Intervals line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/221-hypothesis-tests-confidence-intervals/README.md)
 
@@ -3528,7 +3570,11 @@ Read the Hypothesis Tests and Confidence Intervals line back into its scene once
 
 ## Excavation 222 — Markov Chains — When the Present Carries the Relevant Past
 
-Return to the named Markov Chains scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for markov chains will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Markov Chains against the named case
+
+Suppose that from forest the ranger moves to river with probability 0.7 and village with 0.3; from river the probabilities differ. If today's state is forest, the forest row supplies tomorrow's distribution. Yesterday may have been cave or village, but under this model it has already influenced the prediction by determining today's forest state.
 
 ### Naming what is already on the table
 
@@ -3538,13 +3584,11 @@ Return to the named Markov Chains scene above. The ranger, model, measurement, o
 
 [Conditional probability](MATHEMATICAL_MOVES.md#conditional-bar) holds known history fixed while asking about the next state. [Equality](MATHEMATICAL_MOVES.md#equals) claims that discarding older conditions changes no next-step probability. Multiplying every transition probability here would answer the probability of a complete path, not the one-step memory question.
 
-The operations inside Markov Chains form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by markov chains now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 P(X_{t+1}\mid X_t,X_{t-1},\ldots,X_0)=P(X_{t+1}\mid X_t)
 $$
-
-Read the Markov Chains line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/222-markov-chains/README.md)
 
@@ -3552,7 +3596,11 @@ Read the Markov Chains line back into its scene once. The equation is not where 
 
 ## Excavation 223 — Dynamic Programming — Remembering the Value of Futures Already Solved
 
-Return to the named Dynamic Programming scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for dynamic programming will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Dynamic Programming against the named case
+
+At the bridge, suppose crossing now gives 2 and leads to home worth 8 next step; waiting gives 1 and leaves a future worth 6. With discount 0.9, crossing is worth `2 + 0.9×8 = 9.2`; waiting is worth `1 + 0.9×6 = 6.4`. Record 9.2 once. Every route arriving at the bridge can now reuse it.
 
 ### Naming what is already on the table
 
@@ -3562,13 +3610,11 @@ Return to the named Dynamic Programming scene above. The ranger, model, measurem
 
 [Multiplication](MATHEMATICAL_MOVES.md#multiplication) weights each future by both probability and discount. [Summation](MATHEMATICAL_MOVES.md#summation) combines mutually exclusive next-state possibilities; multiplying them would demand all next states occur together. [Maximum](MATHEMATICAL_MOVES.md#maximum) chooses among actions after each has been fully valued, while [addition](MATHEMATICAL_MOVES.md#addition) joins reward now with reward later.
 
-The operations inside Dynamic Programming form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by dynamic programming now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 V(s)=\max_a\left[r(s,a)+\gamma\sum_{s'}P(s'\mid s,a)V(s')\right]
 $$
-
-Read the Dynamic Programming line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/223-dynamic-programming/README.md)
 
@@ -3576,7 +3622,11 @@ Read the Dynamic Programming line back into its scene once. The equation is not 
 
 ## Excavation 224 — Convexity — A Landscape Without Hidden Valleys
 
-Return to the named Convexity scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for convexity will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Convexity against the named case
+
+For the bowl `f(x)=x²`, choose x=-2, y=2, and λ=1/2. Their midpoint is 0, where the bowl has height 0. The midpoint of endpoint heights is `(4+4)/2=4`; the bowl lies below its chord. Repeating this test for every pair and mixture weight is the geometric promise of convexity.
 
 ### Naming what is already on the table
 
@@ -3586,13 +3636,11 @@ Return to the named Convexity scene above. The ranger, model, measurement, or st
 
 [Multiplication](MATHEMATICAL_MOVES.md#multiplication) allocates complementary shares λ and 1-λ. [Addition](MATHEMATICAL_MOVES.md#addition) forms the mixtures. [Inequalities](MATHEMATICAL_MOVES.md#inequalities) compare the curved surface with its straight chord. Equality alone would describe only affine functions and exclude genuine bowls.
 
-The operations inside Convexity form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by convexity now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 f(\lambda x+(1-\lambda)y)\leq\lambda f(x)+(1-\lambda)f(y),\quad 0\leq\lambda\leq1
 $$
-
-Read the Convexity line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/224-convexity/README.md)
 
@@ -3600,7 +3648,11 @@ Read the Convexity line back into its scene once. The equation is not where the 
 
 ## Excavation 225 — Numerical Stability — Preserving Mathematics Inside a Finite Machine
 
-Return to the named Numerical Stability scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for numerical stability will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Numerical Stability against the named case
+
+Let m be the largest logit, 1000. Subtract it first, producing `[0,-1,-2]`. Their exponentials are now `[1,e⁻¹,e⁻²]`, all representable. Because factoring out `eᵐ` from the original sum contributes m after the logarithm, the stable result is `1000 + log(1+e⁻¹+e⁻²)`—the same real number reached by a safer path.
 
 ### Naming what is already on the table
 
@@ -3610,12 +3662,10 @@ Return to the named Numerical Stability scene above. The ranger, model, measurem
 
 [Maximum](MATHEMATICAL_MOVES.md#maximum) chooses a shift that makes every exponent nonpositive. [Subtraction](MATHEMATICAL_MOVES.md#subtraction) creates that safe range. [The exponential](MATHEMATICAL_MOVES.md#exponential) recovers relative positive weights, [summation](MATHEMATICAL_MOVES.md#summation) combines alternatives, and [the logarithm](MATHEMATICAL_MOVES.md#logarithm) returns to log scale. Clipping would avoid overflow by changing the answer; this rearrangement preserves it.
 
-The operations inside Numerical Stability form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by numerical stability now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \log\sum_i e^{x_i}=m+\log\sum_i e^{x_i-m},\quad m=\max_i x_i
 $$
-
-Read the Numerical Stability line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
 
 [Return to the full excavation](excavations/225-numerical-stability/README.md)

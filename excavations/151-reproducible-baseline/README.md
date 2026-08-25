@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -15,53 +17,17 @@
 
 The bounded loop can approve a candidate, but approval is meaningless if nobody can reconstruct the system it is supposed to improve.
 
-Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: keep the final score and the model file; those should be enough to compare the next idea.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to keep the final score and the model file; those should be enough to compare the next idea.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To keep the final score and the model file; those should be enough to compare the next idea is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied.
 
-```text
-observation
-    │
-    ▼
-[keep the final score and the model…]
-    │
-    ╳  a rerun changes the data order,…
-    │
-    ▼
-[freeze the model specification, data…]
-```
+The important discovery is not merely that trying to keep the final score and the model file; those should be enough to compare the next idea failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “keep the final score and the model file; those should be enough to compare the next idea.” It disappears into the observed failure: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied. The darker trail carries one additional capacity—to freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed reproducible baseline mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the brass reference machine is altered in exactly one way: freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline. Much later, people will call this territory **A Reproducible Baseline**. Here the name is only a memory of the failure it can survive.
-
-The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and reproducible baseline looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made. The Engine Cavern lets reproducible baseline change speed, memory, or scale while the brass reference machine guards meaning. Equality here is not decoration; it is a promise that the optimized path performs the same mathematical responsibility by another physical route.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we keep the final score and the model file; those should be enough to compare the next idea?
-
-## When the chamber changes
-
-Keep the formal name A Reproducible Baseline covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The mirror follows the tempting path—keep the final score and the model file; those should be enough to compare the next idea. Then the evidence answers: a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied.
-
-Now let the chamber move: The enginewright changes one moving part. The mirror can now freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline.
-
-The object that should remain after the terminology disappears is **the reproducible baseline mirror mounted on the brass reference machine**.
-
-> **Memory seal — A Reproducible Baseline**
->
-> A Reproducible Baseline keeps the missing power: freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline.
-
-Give the idea a bodily path: Touch the reproducible baseline mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **A Reproducible Baseline**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Improve Something That Actually Exists
 
@@ -79,7 +45,7 @@ m_baseline is the frozen model's measurement; m_candidate is measured by the sam
 
 [Subtraction](../../MATHEMATICAL_MOVES.md#subtraction) removes the common baseline and isolates the candidate's change. Addition would make two large scores look impressive even when they are identical. The order fixes the sign: positive means the candidate raised this metric.
 
-Before the line is compressed, notice its recurring motions: **the chisel**—what is shared is removed so the remaining change can be seen. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the chisel**—what is shared is removed so the remaining change can be seen. Together they keep the path from the concrete case to notation intact.
 
 The enginewright reads the journey of reproducible baseline once more across the brass reference machine, then lets the words contract without losing their order:
 

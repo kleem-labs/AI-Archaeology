@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
 >
@@ -11,49 +13,17 @@
 
 Overfitting reveals that low training error can be perfect memory wearing the costume of intelligence. The learner therefore needs pressure against fragile, unnecessarily extreme explanations.
 
-At the Lantern Observatory, the keeper of uncertain stories returns to the ring of glass lanterns. Yesterday's instrument still lies open, so the first move asks for no new magic: forbid complexity by making the model too small; it may lose real structure too.
+At the Lantern Observatory, the keeper of uncertain stories meets the next case beside the ring of glass lanterns. The nearest idea is also the most reasonable one: forbid complexity by making the model too small; it may lose real structure too.
 
-Reality answers without terminology: stop training at an arbitrary time without observing unseen performance. The ring of glass lanterns now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To forbid complexity by making the model too small; it may lose real structure too reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: stop training at an arbitrary time without observing unseen performance.
 
-```text
-possible road A ─┐
-                 ├── old map: forbid complexity by making the model…
-possible road B ─┘              └── loses: stop training at an arbitrary time…
+The contradiction matters because it identifies a structural loss in the instruction to forbid complexity by making the model too small; it may lose real structure too, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The ring of glass lanterns will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-same roads ──▶ repaired map ──▶ add a cost for large weights, remove…
-```
+The repair can now be kept narrow. The new method must add a cost for large weights, remove random paths during training, or stop when validation performance stops improving. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The ring of glass lanterns is divided down the middle. Left side: “forbid complexity by making the model too small; it may lose real structure too.” Its final mark records stop training at an arbitrary time without observing unseen performance. Right side: the same starting evidence, now allowed to add a cost for large weights, remove random paths during training, or stop when validation performance stops improving. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given regularization a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: add a cost for large weights, remove random paths during training, or stop when validation performance stops improving. The name **Regularization** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to forbid complexity by making the model too small; it may lose real structure too; on the other lies the observed fact that stop training at an arbitrary time without observing unseen performance. The bridge called regularization has exactly the planks needed to add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we forbid complexity by making the model too small; it may lose real structure too?
-
-## When the chamber changes
-
-The Regularization chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The seal follows the tempting path—forbid complexity by making the model too small; it may lose real structure too. Then the evidence answers: stop training at an arbitrary time without observing unseen performance.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The seal can now add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
-
-The object that should remain after the terminology disappears is **the regularization seal mounted on the ring of glass lanterns**.
-
-> **Memory seal — Regularization**
->
-> Regularization keeps the missing power: add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
-
-Give the idea a bodily path: Touch the regularization seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Regularization**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## The calculation hidden inside regularization
 

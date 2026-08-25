@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus)
 >
@@ -11,49 +13,17 @@
 
 Most steps are stable, but a rare batch produces an enormous global gradient norm and overwhelms Adam's still-developing moment estimates.
 
-Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: discard the entire batch whenever any gradient coordinate looks large.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to discard the entire batch whenever any gradient coordinate looks large.
 
-At the edge of the brass reference machine, the shortcut produces its consequence: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To discard the entire batch whenever any gradient coordinate looks large is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector.
 
-```text
-possible road A ─┐
-                 ├── old map: discard the entire batch whenever any…
-possible road B ─┘              └── loses: useful directional evidence is lost,…
+The important discovery is not merely that trying to discard the entire batch whenever any gradient coordinate looks large failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-same roads ──▶ repaired map ──▶ preserve the gradient's direction but…
-```
+The old construction is therefore not discarded. It is widened just enough to preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The enginewright covers the new mark and the old contradiction returns: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector. The cover is lifted, restoring the ability to preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason gradient clipping exists.
-
-What must change for gradient clipping is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling. That threshold is where **Gradient Clipping** enters the story.
-
-The marks on the brass reference machine form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. gradient clipping is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we discard the entire batch whenever any gradient coordinate looks large?
-
-## When the chamber changes
-
-The Gradient Clipping chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The mirror follows the tempting path—discard the entire batch whenever any gradient coordinate looks large. Then the evidence answers: useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector.
-
-Now let the chamber move: The enginewright changes one moving part. The mirror can now preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling.
-
-The object that should remain after the terminology disappears is **the gradient clipping mirror mounted on the brass reference machine**.
-
-> **Memory seal — Gradient Clipping**
->
-> Gradient Clipping keeps the missing power: preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling.
-
-Give the idea a bodily path: Touch the gradient clipping mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Gradient Clipping**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Stop One Shock from Becoming a Catastrophe
 
@@ -71,7 +41,7 @@ g is the original gradient vector, c is the allowed norm ceiling, and g-prime is
 
 [Division](../../MATHEMATICAL_MOVES.md#division) computes the fraction needed to bring the current norm down to c. [Minimum](../../MATHEMATICAL_MOVES.md#minimum) chooses at most one, so small gradients are never enlarged. [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) scales every coordinate equally, preserving direction; clipping coordinates separately would rotate the update.
 
-Before the line is compressed, notice its recurring motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; **the narrow gate**—the smaller allowance prevents a promise from exceeding its boundary; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large; **the narrow gate**—the smaller allowance prevents a promise from exceeding its boundary; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The brass reference machine already contains the complete gradient clipping mechanism. Mathematics gives that mechanism a form small enough to carry:
 

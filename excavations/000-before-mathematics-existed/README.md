@@ -38,7 +38,7 @@ Recognizing a tiger helps you survive one encounter. But soon you need answers t
 - Where are they?
 - How fast can they run?
 
-Those were your questions in our original expedition. They are the reason the journey cannot stop at recognition.
+These questions are where recognition stops being enough. They force the journey to continue.
 
 “How many?” demands quantity. “Where?” demands space. “How fast?” demands change. Mathematics does not arrive as a collection of symbols. It arrives because reality keeps asking questions that vague words cannot answer reliably.
 
@@ -49,28 +49,6 @@ reality → question → inadequate idea → better representation → mathemati
 ```
 
 The equation, when one finally appears, will be the last step: a compressed record of reasoning we already understand.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 1 of 18 — [Valley of First Measures](../../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** How can one observation survive after every witness has gone?
-
-## When the chamber changes
-
-The Observation room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: Wind softens the track while two witnesses remember different animals.
-
-Now let the chamber move: A hand traces the track into clay; the animal can leave, but the shared mark remains.
-
-The object that should remain after the terminology disappears is **a fresh tiger track beside the tribe's first charcoal mark**.
-
-> **Memory seal — Observation**
->
-> Mathematics begins when an observation receives a form that can outlive its observer.
-
-Give the idea a bodily path: Press one finger into your palm, then lift it while imagining the mark remaining.
-<!-- memory-film-v1:end -->
 
 ## Challenge
 

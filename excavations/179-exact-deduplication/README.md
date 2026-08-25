@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Language labels make the intended corpus measurable. Counting the accepted files now reveals identical reports mirrored across archives and repeated under new filenames.
 
-Night gathers around the Archive Foundry. Under the light of the chain-of-custody ledger, the archivist-engineer refuses to invent prematurely and begins with the plain rule: leave duplicates in place because more training examples should always help.
+Inside the Archive Foundry, the old method is given an honest chance. The archivist-engineer places the evidence on the chain-of-custody ledger and tries to leave duplicates in place because more training examples should always help.
 
-At the edge of the chain-of-custody ledger, the shortcut produces its consequence: one press release copied to a thousand sites receives a thousand votes, while a rare field observation receives one. Compute is spent memorizing repetition rather than encountering new evidence. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To leave duplicates in place because more training examples should always help is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The archivist-engineer sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: one press release copied to a thousand sites receives a thousand votes, while a rare field observation receives one. Compute is spent memorizing repetition rather than encountering new evidence.
 
-```text
-reference evidence ──▶ shortcut: leave duplicates in place because…
-                         │
-                         └── mismatch: one press release copied to a…
+The important discovery is not merely that trying to leave duplicates in place because more training examples should always help failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the chain-of-custody ledger, so success cannot be manufactured by quietly replacing the original question.
 
-reference evidence ──▶ measured repair: normalize only irrelevant formatting,…
-```
+The old construction is therefore not discarded. It is widened just enough to normalize only irrelevant formatting, hash the resulting document, and keep one accountable representative for each identical hash while preserving duplicate counts in the ledger. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The archivist-engineer covers the new mark and the old contradiction returns: one press release copied to a thousand sites receives a thousand votes, while a rare field observation receives one. Compute is spent memorizing repetition rather than encountering new evidence. The cover is lifted, restoring the ability to normalize only irrelevant formatting, hash the resulting document, and keep one accountable representative for each identical hash while preserving duplicate counts in the ledger, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason exact deduplication exists.
-
-What must change for exact deduplication is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: normalize only irrelevant formatting, hash the resulting document, and keep one accountable representative for each identical hash while preserving duplicate counts in the ledger. That threshold is where **Exact Deduplication** enters the story.
-
-The marks on the chain-of-custody ledger form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. exact deduplication is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we leave duplicates in place because more training examples should always help?
-
-## When the chamber changes
-
-The mathematical name Exact Deduplication can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The lantern follows the tempting path—leave duplicates in place because more training examples should always help. Then the evidence answers: one press release copied to a thousand sites receives a thousand votes, while a rare field observation receives one. Compute is spent memorizing repetition rather than encountering new evidence.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The lantern can now normalize only irrelevant formatting, hash the resulting document, and keep one accountable representative for each identical hash while preserving duplicate counts in the ledger.
-
-The object that should remain after the terminology disappears is **the exact deduplication lantern mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Exact Deduplication**
->
-> Exact Deduplication keeps the missing power: normalize only irrelevant formatting, hash the resulting document, and keep one accountable representative for each identical hash while preserving duplicate counts in the ledger.
-
-Give the idea a bodily path: Touch the exact deduplication lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Exact Deduplication**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Stop Paying Twice for the Same Document
 

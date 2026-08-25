@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,49 +13,17 @@
 
 Model-based planning can simulate possible action sequences. Their number grows exponentially with depth, making exhaustive imagination impossible long before the world model runs out of detail.
 
-Night gathers around the Hall of Possible Worlds. Under the light of the table of mirrored maps, the keeper of unfinished questions refuses to invent prematurely and begins with the plain rule: expand every branch equally.
+Inside the Hall of Possible Worlds, the old method is given an honest chance. The keeper of unfinished questions places the evidence on the table of mirrored maps and tries to expand every branch equally.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: most computation is wasted on obviously poor branches. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To expand every branch equally is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: most computation is wasted on obviously poor branches.
 
-```text
-possible road A ─┐
-                 ├── old map: expand every branch equally
-possible road B ─┘              └── loses: most computation is wasted on…
+The important discovery is not merely that trying to expand every branch equally failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the table of mirrored maps, so success cannot be manufactured by quietly replacing the original question.
 
-same roads ──▶ repaired map ──▶ we need to balance exploring…
-```
+The old construction is therefore not discarded. It is widened just enough to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-Two trails now cross the table of mirrored maps. The pale trail bears the instruction “expand every branch equally.” It disappears into the observed failure: most computation is wasted on obviously poor branches. The darker trail carries one additional capacity—to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed tree search mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the table of mirrored maps is altered in exactly one way: we need to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward. Much later, people will call this territory **Tree Search**. Here the name is only a memory of the failure it can survive.
-
-The table of mirrored maps has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and tree search looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we expand every branch equally?
-
-## When the chamber changes
-
-The Tree Search room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The lantern follows the tempting path—expand every branch equally. Then the evidence answers: most computation is wasted on obviously poor branches.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The lantern can now balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.
-
-The object that should remain after the terminology disappears is **the tree search lantern mounted on the table of mirrored maps**.
-
-> **Memory seal — Tree Search**
->
-> Tree Search keeps the missing power: balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward.
-
-Give the idea a bodily path: Touch the tree search lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Tree Search**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding tree search
 

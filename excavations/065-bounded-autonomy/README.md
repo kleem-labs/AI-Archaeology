@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Observability makes a failure inspectable after it occurs. Trust requires more than postmortems: the agent's possible actions must remain inside an explicit operating envelope before anything goes wrong.
 
-Morning reaches the Gatehouse of Consequences before anyone has a name for today's difficulty. Beside the iron threshold, the gatekeeper tries the smallest continuation of what already works: give the agent a broad goal and let it continue until it believes the goal is complete.
+The previous discovery reaches the Gatehouse of Consequences carrying one unfinished problem. Beside the iron threshold, the gatekeeper first tries to give the agent a broad goal and let it continue until it believes the goal is complete.
 
-At the edge of the iron threshold, the shortcut produces its consequence: a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we give the agent a broad goal and let it continue until it believes the goal is complete, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The gatekeeper sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step.
 
-```text
-possible road A ─┐
-                 ├── old map: give the agent a broad goal and let…
-possible road B ─┘              └── loses: a mistaken assumption triggers a long…
+This failure cannot be repaired by performing the instruction to give the agent a broad goal and let it continue until it believes the goal is complete more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the iron threshold; otherwise a changed answer could be mistaken for an explanation.
 
-same roads ──▶ repaired map ──▶ create an explicit operating…
-```
+The evidence has earned one extension and no more. We need to create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The gatekeeper covers the new mark and the old contradiction returns: a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step. The cover is lifted, restoring the ability to create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason bounded autonomy exists.
-
-What must change for bounded autonomy is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path. That threshold is where **Bounded Autonomy** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In bounded autonomy, that memory takes a precise form: whenever a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step, preserve enough structure to create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
->
-> **The question carried into this chamber:** What fails if we give the agent a broad goal and let it continue until it believes the goal is complete?
-
-## When the chamber changes
-
-The Bounded Autonomy room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The lens follows the tempting path—give the agent a broad goal and let it continue until it believes the goal is complete. Then the evidence answers: a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step.
-
-Now let the chamber move: The gatekeeper changes one moving part. The lens can now create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
-
-The object that should remain after the terminology disappears is **the bounded autonomy lens mounted on the iron threshold**.
-
-> **Memory seal — Bounded Autonomy**
->
-> Bounded Autonomy keeps the missing power: create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path.
-
-Give the idea a bodily path: Touch the bounded autonomy lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Bounded Autonomy**. The name is simply a handle for the distinction already reconstructed.
 
 ## Building an Agent That Can Be Trusted
 

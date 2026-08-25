@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Bandit strategies balance present reward with the value of exploring uncertain choices. Once deployed, their decisions still emerge from internal representations whose meaning and failure modes remain hidden.
 
-Nothing in the Living Watchgarden yet bears today's mathematical name. There is only the field naturalist, the weathered observation slate, and one plausible action: search for one neuron dedicated to each human concept.
+Inside the Living Watchgarden, the old method is given an honest chance. The field naturalist places the evidence on the weathered observation slate and tries to search for one neuron dedicated to each human concept.
 
-At the edge of the weathered observation slate, the shortcut produces its consequence: the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To search for one neuron dedicated to each human concept is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The field naturalist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
 
-```text
-reference evidence ──▶ shortcut: search for one neuron dedicated to…
-                         │
-                         └── mismatch: the concept disappears when one…
+The important discovery is not merely that trying to search for one neuron dedicated to each human concept failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the weathered observation slate, so success cannot be manufactured by quietly replacing the original question.
 
-reference evidence ──▶ measured repair: we need to treat representations as…
-```
+The old construction is therefore not discarded. It is widened just enough to treat representations as distributed directions and test them across varied examples. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The field naturalist covers the new mark and the old contradiction returns: the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons. The cover is lifted, restoring the ability to treat representations as distributed directions and test them across varied examples, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason features inside networks exists.
-
-What must change for features inside networks is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to treat representations as distributed directions and test them across varied examples. That threshold is where **Features Inside Networks** enters the story.
-
-The marks on the weathered observation slate form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. features inside networks is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
->
-> **The question carried into this chamber:** What fails if we search for one neuron dedicated to each human concept?
-
-## When the chamber changes
-
-Keep the formal name Features Inside Networks covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The mirror follows the tempting path—search for one neuron dedicated to each human concept. Then the evidence answers: the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons.
-
-Now let the chamber move: The field naturalist changes one moving part. The mirror can now treat representations as distributed directions and test them across varied examples.
-
-The object that should remain after the terminology disappears is **the features inside networks mirror mounted on the weathered observation slate**.
-
-> **Memory seal — Features Inside Networks**
->
-> Features Inside Networks keeps the missing power: treat representations as distributed directions and test them across varied examples.
-
-Give the idea a bodily path: Touch the features inside networks mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Features Inside Networks**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding features inside networks
 

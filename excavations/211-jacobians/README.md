@@ -3,20 +3,11 @@
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-<!-- mathematical-lineage-v1 -->
-> **Mathematical roots:** [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Mathematical roots beneath the machine
 
-> **You are here:** Realm 3 of 5 — [The River of Change](../../MATHEMATICAL_ROOTS.md#realm-3)
->
-> **Question waiting in this chamber:** How does every output respond when every input is allowed to move?
->
-> **Do not take the answer yet:** first let the object fail.
 
 The gradient gathers how one loss responds to many parameters. A network layer, camera transform, or robot model produces several outputs at once, each responding differently to every input.
 
-Far below the Transformer, the Undercroft stores no formula sheet. For **Jacobians**, it preserves a scene, a tempting tool, and the mark left where that tool broke.
+Far below the Transformer, Jacobians begins with an ordinary situation and a tool that almost—but not quite—solves it.
 
 A tracker converts two measurements—weight and stride—into two outputs: danger score and estimated speed. Changing weight affects both outputs, but not by the same amount.
 
@@ -40,31 +31,15 @@ what we kept       what disappeared
 
 The next idea is forced only because the evidence asks us to give every output its own gradient row and arrange all output-input sensitivities into one matrix.
 
-This is the hinge of the Jacobians excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
-
-## When the chamber changes
-
-Hold the failed picture still for one breath: A single slope follows one lever to one bell while the cross-effects among the rest remain invisible.
-
-Now let the scene move. Pull each lever slightly and record every bell's response in one rectangular ledger: output rows, input columns.
-
-The transformation is the discovery of Jacobians made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Jacobians into memory:
-
-> **Memory seal — Jacobians**
->
-> A Jacobian is a ledger of every output's local sensitivity to every input.
-
-Make the memory bodily, not merely verbal: Fan the fingers of one hand as inputs and the other as outputs; imagine a thread between every pair.
-
-## Jacobians on the stone workbench
-
-Suppose danger is `2w+s` and estimated speed is `w-s`. Increasing w by one changes the outputs by `[2,1]`; increasing s by one changes them by `[1,-1]`. Put the response to w in the first column and the response to s in the second. The resulting matrix `[[2,1],[1,-1]]` predicts the small output change produced by any small input change.
-
-The point of keeping the objects named while rebuilding Jacobians is that each movement can still be challenged. We can ask what the tiger, track, state, model, or measurement contributes; we can change one value and watch the consequence travel. The calculation remains an experience before it becomes notation.
+The failure and repair now form one continuous argument for Jacobians: this idea earns its place by preserving exactly what the earlier action lost.
 
 ## The calculation hidden inside jacobians
 
-Return to the named Jacobians scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for jacobians will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Jacobians against the named case
+
+Suppose danger is `2w+s` and estimated speed is `w-s`. Increasing w by one changes the outputs by `[2,1]`; increasing s by one changes them by `[1,-1]`. Put the response to w in the first column and the response to s in the second. The resulting matrix `[[2,1],[1,-1]]` predicts the small output change produced by any small input change.
 
 ### Naming what is already on the table
 
@@ -74,33 +49,23 @@ Return to the named Jacobians scene above. The ranger, model, measurement, or st
 
 [Partial derivatives](../../MATHEMATICAL_MOVES.md#partial-derivative) isolate one output-input relationship. [Tables](../../MATHEMATICAL_MOVES.md#tables) preserve the exact row-column mapping, and [multiplication](../../MATHEMATICAL_MOVES.md#multiplication) lets the Jacobian act on a small input change. A sum would collapse distinct outputs and inputs into one ambiguous sensitivity.
 
-The operations inside Jacobians form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by jacobians now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 J_{ij}=\frac{\partial f_i}{\partial x_j}
 $$
 
-Read the Jacobians line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
-
 ## A real-world echo
 
 A theatre lighting board has many sliders and many lamps. The Jacobian is the local wiring chart saying how each lamp responds to each slider.
 
-That echo helps Jacobians remain relational in memory. When the same job appears inside a dataset, a Transformer, a laboratory measurement, or an ordinary decision, the operation should feel like a familiar tool rather than an arbitrary sign.
-
-## What this chamber was connected to
+## What this unlocks elsewhere
 
 Backpropagation multiplies local Jacobian effects without usually materializing the full matrices; normalizing flows use Jacobian determinants; robustness asks how input perturbations propagate through this map.
-
-The older excavation and this Jacobians chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
-
-Before leaving The River of Change, look back at its path—**approach → local change → coupled change → bending → nearby prediction → accumulation → hidden rhythm**. Jacobians occupies one necessary step in that motion. Its object, **a wall of levers facing a wall of bells**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of jacobians breaks
 
 The Jacobian is a first-order description. Two landscapes can share the same slope at one point while bending into a bowl, ridge, or saddle immediately afterward.
-
-The boundary belongs beside the discovery of Jacobians because usefulness depends on assumptions. A formula remembered without its failure conditions becomes a spell; a formula remembered with them becomes an instrument.
 
 ## Rebuild the discovery in the laboratory
 

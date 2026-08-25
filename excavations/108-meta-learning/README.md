@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,49 +13,17 @@
 
 Continual learning protects the past but may still require many examples for every genuinely new task. Experience across tasks could teach not only solutions, but a better procedure for adapting quickly.
 
-Inside the Hall of Possible Worlds, every old tool is given one honest chance. The keeper of unfinished questions sets the table of mirrored maps between the evidence and the desired answer, then tries to train one universal fixed solution.
+At the Hall of Possible Worlds, the keeper of unfinished questions meets the next case beside the table of mirrored maps. The nearest idea is also the most reasonable one: train one universal fixed solution.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: a new task with different labels requires many examples and broad retraining. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To train one universal fixed solution reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: a new task with different labels requires many examples and broad retraining.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ train one universal fixed solution ──▶ blurred: a new task with different labels…
-      │
-      └── new lens ──▶ optimize prior parameters or an… ──▶ distinction survives
-```
+The contradiction matters because it identifies a structural loss in the instruction to train one universal fixed solution, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The table of mirrored maps will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The keeper of unfinished questions lays two translucent sheets over the table of mirrored maps. The first is inscribed, “train one universal fixed solution.” Its path ends where a new task with different labels requires many examples and broad retraining. The second receives the same evidence but is allowed to optimize prior parameters or an update rule so a few new examples produce useful adaptation. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must optimize prior parameters or an update rule so a few new examples produce useful adaptation. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a meta-learning formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The keeper of unfinished questions changes only that one responsibility: optimize prior parameters or an update rule so a few new examples produce useful adaptation. When the ink dries, the name **Meta-Learning** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The table of mirrored maps keeps both histories. Its older mark still says, ‘train one universal fixed solution’; beside it, the newer mark says, ‘optimize prior parameters or an update rule so a few new examples produce useful adaptation.’ The distance between those sentences is the exact shape of meta-learning: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we train one universal fixed solution?
-
-## When the chamber changes
-
-Before leaving Meta-Learning, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The map follows the tempting path—train one universal fixed solution. Then the evidence answers: a new task with different labels requires many examples and broad retraining.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The map can now optimize prior parameters or an update rule so a few new examples produce useful adaptation.
-
-The object that should remain after the terminology disappears is **the meta-learning map mounted on the table of mirrored maps**.
-
-> **Memory seal — Meta-Learning**
->
-> Meta-Learning keeps the missing power: optimize prior parameters or an update rule so a few new examples produce useful adaptation.
-
-Give the idea a bodily path: Touch the meta-learning map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Meta-Learning**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding meta-learning
 

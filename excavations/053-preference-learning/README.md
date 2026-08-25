@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
 >
@@ -11,49 +13,17 @@
 
 Instruction tuning turns continuation into cooperation on demonstrated tasks. Several answers can obey the same instruction while differing sharply in clarity, honesty, safety, and usefulness.
 
-A new case arrives at the Hall of Voices, but the public archivist first reaches for the familiar listening table. Its promise is simple: write one perfect target response for every prompt and train only to imitate it.
+The previous discovery reaches the Hall of Voices carrying one unfinished problem. Beside the listening table, the public archivist first tries to write one perfect target response for every prompt and train only to imitate it.
 
-At the edge of the listening table, the shortcut produces its consequence: many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we write one perfect target response for every prompt and train only to imitate it, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The public archivist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ write one perfect target response for… ──▶ blurred: many answers can be valid. A single…
-      │
-      └── new lens ──▶ collect comparisons between candidate… ──▶ distinction survives
-```
+This failure cannot be repaired by performing the instruction to write one perfect target response for every prompt and train only to imitate it more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the listening table; otherwise a changed answer could be mistaken for an explanation.
 
-The public archivist covers the new mark and the old contradiction returns: many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer. The cover is lifted, restoring the ability to collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason preference learning exists.
+The evidence has earned one extension and no more. We need to collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for preference learning is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy. That threshold is where **Preference Learning** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In preference learning, that memory takes a precise form: whenever many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer, preserve enough structure to collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
->
-> **The question carried into this chamber:** When Several Answers Are Correct but Not Equally Helpful?
-
-## When the chamber changes
-
-Before leaving Preference Learning, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The bridge follows the tempting path—write one perfect target response for every prompt and train only to imitate it. Then the evidence answers: many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer.
-
-Now let the chamber move: The public archivist changes one moving part. The bridge can now collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
-
-The object that should remain after the terminology disappears is **the preference learning bridge mounted on the listening table**.
-
-> **Memory seal — Preference Learning**
->
-> Preference Learning keeps the missing power: collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy.
-
-Give the idea a bodily path: Touch the preference learning bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Preference Learning**. The name is simply a handle for the distinction already reconstructed.
 
 ## The calculation hidden inside preference learning
 

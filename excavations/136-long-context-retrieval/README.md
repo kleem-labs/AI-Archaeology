@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,48 +13,17 @@
 
 External memory stores selected facts outside the prompt. Storage is not remembrance in practice: the one decisive record can remain unused if retrieval ranks a thousand plausible distractions above it.
 
-At the Academy of Trials, the experimentalist returns to the sealed evidence ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: assume information inside the window will automatically influence the answer.
+At the Academy of Trials, the experimentalist meets the next case beside the sealed evidence ledger. The nearest idea is also the most reasonable one: assume information inside the window will automatically influence the answer.
 
-The experimentalist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: availability is not retrieval; distracting passages dominate the relevant line. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To assume information inside the window will automatically influence the answer reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The experimentalist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: availability is not retrieval; distracting passages dominate the relevant line.
 
-```text
-OLD PATH:  request ──▶ assume information inside the window… ──▶ availability is not retrieval;…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ test whether the clue can be located,… ──▶ accountable result
-```
+The contradiction matters because it identifies a structural loss in the instruction to assume information inside the window will automatically influence the answer, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The sealed evidence ledger will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the sealed evidence ledger, the old path and the repaired path run side by side. One carries “assume information inside the window will automatically influence the answer”; the other knows how to test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. When the failure—availability is not retrieval; distracting passages dominate the relevant line—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to long-context retrieval. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. This problem and its repair will travel under the name **Long-Context Retrieval**, but the name carries no knowledge the scene has not earned.
-
-What changed on the sealed evidence ledger can be said without symbols. Before, the method could only assume information inside the window will automatically influence the answer; now it can also test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we assume information inside the window will automatically influence the answer?
-
-## When the chamber changes
-
-Keep the formal name Long-Context Retrieval covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The bell follows the tempting path—assume information inside the window will automatically influence the answer. Then the evidence answers: availability is not retrieval; distracting passages dominate the relevant line.
-
-Now let the chamber move: The experimentalist changes one moving part. The bell can now test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning.
-
-The object that should remain after the terminology disappears is **the long-context retrieval bell mounted on the sealed evidence ledger**.
-
-> **Memory seal — Long-Context Retrieval**
->
-> Long-Context Retrieval keeps the missing power: test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning.
-
-Give the idea a bodily path: Touch the long-context retrieval bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Long-Context Retrieval**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Finding the One Clue That Matters
 

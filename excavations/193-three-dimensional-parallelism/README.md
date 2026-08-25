@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,51 +13,17 @@
 
 Pipeline micro-batches keep layer stages busy. A large run may still exceed memory inside one layer, require more independent data witnesses, and contain too many layers for one device group.
 
-Morning reaches the Archive Foundry before anyone has a name for today's difficulty. Beside the chain-of-custody ledger, the archivist-engineer tries the smallest continuation of what already works: increase whichever parallel technique was introduced most recently until the model fits.
+The previous discovery reaches the Archive Foundry carrying one unfinished problem. Beside the chain-of-custody ledger, the archivist-engineer first tries to increase whichever parallel technique was introduced most recently until the model fits.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we increase whichever parallel technique was introduced most recently until the model fits, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The archivist-engineer sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   increase whichever parallel technique… more pipeline stages increase…
-            \        /
-             \      /
-              compose tensor parallelism within…
-```
+This failure cannot be repaired by performing the instruction to increase whichever parallel technique was introduced most recently until the model fits more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the chain-of-custody ledger; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the chain-of-custody ledger. The pale trail bears the instruction “increase whichever parallel technique was introduced most recently until the model fits.” It disappears into the observed failure: more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently. The darker trail carries one additional capacity—to compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed three-dimensional parallelism mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the chain-of-custody ledger is altered in exactly one way: compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost. Much later, people will call this territory **Three-Dimensional Parallelism**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the chain-of-custody ledger. The failed path remains visible beneath the repair, because three-dimensional parallelism is easier to remember when its scar remains attached to it. The scar reads, ‘more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we increase whichever parallel technique was introduced most recently until the model fits?
-
-## When the chamber changes
-
-Before leaving Three-Dimensional Parallelism, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The lens follows the tempting path—increase whichever parallel technique was introduced most recently until the model fits. Then the evidence answers: more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The lens can now compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost.
-
-The object that should remain after the terminology disappears is **the three-dimensional parallelism lens mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Three-Dimensional Parallelism**
->
-> Three-Dimensional Parallelism keeps the missing power: compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost.
-
-Give the idea a bodily path: Touch the three-dimensional parallelism lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Three-Dimensional Parallelism**. The name is simply a handle for the distinction already reconstructed.
 
 ## Give Each Memory Wall Its Own Axis
 

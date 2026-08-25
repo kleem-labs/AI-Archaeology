@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,48 +13,17 @@
 
 Online learning adapts quickly and can also absorb noise or attack just as quickly. The system must first distinguish ordinary variation from a genuine change in the source producing its inputs.
 
-Inside the Living Watchgarden, every old tool is given one honest chance. The field naturalist sets the weathered observation slate between the evidence and the desired answer, then tries to assume training accuracy remains valid forever.
+At the Living Watchgarden, the field naturalist meets the next case beside the weathered observation slate. The nearest idea is also the most reasonable one: assume training accuracy remains valid forever.
 
-Reality answers without terminology: a winter-trained demand model meets summer behavior and keeps reporting confident old patterns. The weathered observation slate now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To assume training accuracy remains valid forever reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The field naturalist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: a winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
 
-```text
-OLD PATH:  request ──▶ assume training accuracy remains… ──▶ a winter-trained demand model meets…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ monitor input, prediction, and… ──▶ accountable result
-```
+The contradiction matters because it identifies a structural loss in the instruction to assume training accuracy remains valid forever, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The weathered observation slate will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The weathered observation slate is divided down the middle. Left side: “assume training accuracy remains valid forever.” Its final mark records a winter-trained demand model meets summer behavior and keeps reporting confident old patterns. Right side: the same starting evidence, now allowed to monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining. The difference is narrow enough to see and important enough to change the ending.
+The repair can now be kept narrow. The new method must monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The broken rule has given distribution drift a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining. The name **Distribution Drift** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to assume training accuracy remains valid forever; on the other lies the observed fact that a winter-trained demand model meets summer behavior and keeps reporting confident old patterns. The bridge called distribution drift has exactly the planks needed to monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
->
-> **The question carried into this chamber:** What fails if we assume training accuracy remains valid forever?
-
-## When the chamber changes
-
-Before leaving Distribution Drift, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The compass follows the tempting path—assume training accuracy remains valid forever. Then the evidence answers: a winter-trained demand model meets summer behavior and keeps reporting confident old patterns.
-
-Now let the chamber move: The field naturalist changes one moving part. The compass can now monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
-
-The object that should remain after the terminology disappears is **the distribution drift compass mounted on the weathered observation slate**.
-
-> **Memory seal — Distribution Drift**
->
-> Distribution Drift keeps the missing power: monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining.
-
-Give the idea a bodily path: Touch the distribution drift compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Distribution Drift**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding distribution drift
 

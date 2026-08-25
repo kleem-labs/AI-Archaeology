@@ -65,28 +65,6 @@ $$
 \widehat{x}_i=\frac{x_i-\mu}{\sqrt{\sigma^2+\epsilon}}
 $$
 
-<!-- memory-film-v1:start -->
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** How can differently scaled hidden states enter the next layer on comparable footing?
-
-## When the chamber changes
-
-The mathematical name Layer Normalization can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: One enormous activation dominates the chamber while tiny signals become almost invisible.
-
-Now let the chamber move: The fountain recenters its columns and adjusts their spread without destroying their relative pattern.
-
-The object that should remain after the terminology disappears is **a balancing fountain whose columns begin at wildly different heights**.
-
-> **Memory seal — Layer Normalization**
->
-> Layer normalization gives each token a stable local scale from which learning can continue.
-
-Give the idea a bodily path: Raise one hand high and one low, then bring them to a balanced middle level.
-<!-- memory-film-v1:end -->
-
 ## Challenge
 
 Without calculating exact decimals, predict why `[1, 2, 3]` and `[100, 200, 300]` have the same normalized pattern.

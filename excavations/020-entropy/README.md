@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,49 +13,17 @@
 
 Information gives one surprising observation a numerical weight. Before opening the next envelope, however, the community needs to compare the uncertainty of entire situations, not only the surprise of one event after it happens.
 
-Inside the Lantern Observatory, every old tool is given one honest chance. The keeper of uncertain stories sets the ring of glass lanterns between the evidence and the desired answer, then tries to count the number of outcomes.
+At the Lantern Observatory, the keeper of uncertain stories meets the next case beside the ring of glass lanterns. The nearest idea is also the most reasonable one: count the number of outcomes.
 
-Reality answers without terminology: both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution. The ring of glass lanterns now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To count the number of outcomes reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
 
-```text
-possible road A ─┐
-                 ├── old map: count the number of outcomes
-possible road B ─┘              └── loses: both bags contain stones, and both…
+The contradiction matters because it identifies a structural loss in the instruction to count the number of outcomes, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The ring of glass lanterns will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-same roads ──▶ repaired map ──▶ average the information of every…
-```
+The repair can now be kept narrow. The new method must average the information of every possible outcome, weighted by how often that outcome occurs. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The ring of glass lanterns is divided down the middle. Left side: “count the number of outcomes.” Its final mark records both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution. Right side: the same starting evidence, now allowed to average the information of every possible outcome, weighted by how often that outcome occurs. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given entropy a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: average the information of every possible outcome, weighted by how often that outcome occurs. The name **Entropy** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to count the number of outcomes; on the other lies the observed fact that both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution. The bridge called entropy has exactly the planks needed to average the information of every possible outcome, weighted by how often that outcome occurs.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we count the number of outcomes?
-
-## When the chamber changes
-
-The Entropy room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The compass follows the tempting path—count the number of outcomes. Then the evidence answers: both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The compass can now average the information of every possible outcome, weighted by how often that outcome occurs.
-
-The object that should remain after the terminology disappears is **the entropy compass mounted on the ring of glass lanterns**.
-
-> **Memory seal — Entropy**
->
-> Entropy keeps the missing power: average the information of every possible outcome, weighted by how often that outcome occurs.
-
-Give the idea a bodily path: Touch the entropy compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Entropy**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## The calculation hidden inside entropy
 

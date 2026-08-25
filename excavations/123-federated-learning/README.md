@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,53 +13,17 @@
 
 Differential privacy limits the observable influence of one record. Hospitals and devices may be unwilling or legally unable to centralize their raw data even when collective learning would help everyone.
 
-Night gathers around the Hall of Possible Worlds. Under the light of the table of mirrored maps, the keeper of unfinished questions refuses to invent prematurely and begins with the plain rule: upload every user record to one server.
+Inside the Hall of Possible Worlds, the old method is given an honest chance. The keeper of unfinished questions places the evidence on the table of mirrored maps and tries to upload every user record to one server.
 
-Then the quiet test arrives: central collection increases privacy and governance risk. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To upload every user record to one server is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: central collection increases privacy and governance risk.
 
-```text
-observation
-    │
-    ▼
-[upload every user record to one server]
-    │
-    ╳  central collection increases privacy…
-    │
-    ▼
-[we need to send model updates to…]
-```
+The important discovery is not merely that trying to upload every user record to one server failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the table of mirrored maps, so success cannot be manufactured by quietly replacing the original question.
 
-The keeper of unfinished questions turns the table of mirrored maps toward the light. Through the old engraving, upload every user record to one server, the evidence ends in the same contradiction: central collection increases privacy and governance risk. A second engraving adds only the power to send model updates to devices, train locally, aggregate protected updates, and return a shared model. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to send model updates to devices, train locally, aggregate protected updates, and return a shared model. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The keeper of unfinished questions circles the place where the two federated learning cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to send model updates to devices, train locally, aggregate protected updates, and return a shared model. The keeper of unfinished questions writes **Federated Learning** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of unfinished questions places a finger over the new distinction. At once the two cases collapse and central collection increases privacy and governance risk. Lifting the finger restores only this capacity: send model updates to devices, train locally, aggregate protected updates, and return a shared model. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we upload every user record to one server?
-
-## When the chamber changes
-
-Before leaving Federated Learning, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The wheel follows the tempting path—upload every user record to one server. Then the evidence answers: central collection increases privacy and governance risk.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The wheel can now send model updates to devices, train locally, aggregate protected updates, and return a shared model.
-
-The object that should remain after the terminology disappears is **the federated learning wheel mounted on the table of mirrored maps**.
-
-> **Memory seal — Federated Learning**
->
-> Federated Learning keeps the missing power: send model updates to devices, train locally, aggregate protected updates, and return a shared model.
-
-Give the idea a bodily path: Touch the federated learning wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Federated Learning**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding federated learning
 

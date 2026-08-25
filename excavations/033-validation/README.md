@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Regularization changes which fitted explanation the learner prefers. Choosing its strength by repeatedly checking the final exam would quietly turn that exam into more training data.
 
-Morning reaches the Lantern Observatory before anyone has a name for today's difficulty. Beside the ring of glass lanterns, the keeper of uncertain stories tries the smallest continuation of what already works: use training loss for every choice; it rewards memorization.
+The previous discovery reaches the Lantern Observatory carrying one unfinished problem. Beside the ring of glass lanterns, the keeper of uncertain stories first tries to use training loss for every choice; it rewards memorization.
 
-Then the quiet test arrives: check the test set repeatedly; every decision leaks test information back into development. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we use training loss for every choice; it rewards memorization, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: check the test set repeatedly; every decision leaks test information back into development.
 
-```text
-reference evidence ──▶ shortcut: use training loss for every choice;…
-                         │
-                         └── mismatch: check the test set repeatedly; every…
+This failure cannot be repaired by performing the instruction to use training loss for every choice; it rewards memorization more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the ring of glass lanterns; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: split data by role: training changes…
-```
+The evidence has earned one extension and no more. We need to split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The keeper of uncertain stories turns the ring of glass lanterns toward the light. Through the old engraving, use training loss for every choice; it rewards memorization, the evidence ends in the same contradiction: check the test set repeatedly; every decision leaks test information back into development. A second engraving adds only the power to split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
-
-The keeper of uncertain stories circles the place where the two validation cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end. The keeper of uncertain stories writes **Validation** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of uncertain stories does not memorize validation. Instead, the keeper of uncertain stories memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we use training loss for every choice; it rewards memorization?
-
-## When the chamber changes
-
-Before leaving Validation, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The lens follows the tempting path—use training loss for every choice; it rewards memorization. Then the evidence answers: check the test set repeatedly; every decision leaks test information back into development.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The lens can now split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
-
-The object that should remain after the terminology disappears is **the validation lens mounted on the ring of glass lanterns**.
-
-> **Memory seal — Validation**
->
-> Validation keeps the missing power: split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
-
-Give the idea a bodily path: Touch the validation lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Validation**. The name is simply a handle for the distinction already reconstructed.
 
 ## The calculation hidden inside validation
 

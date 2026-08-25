@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,49 +13,17 @@
 
 Stable gradients now expose the physical bill: weights, activations, and gradients are stored and moved as wide numbers even when many operations tolerate fewer bits.
 
-At the Engine Cavern, the enginewright returns to the brass reference machine. Yesterday's instrument still lies open, so the first move asks for no new magic: convert every value and every update permanently to half precision.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: convert every value and every update permanently to half precision.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To convert every value and every update permanently to half precision reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range.
 
-```text
-reference evidence ──▶ shortcut: convert every value and every update…
-                         │
-                         └── mismatch: small updates disappear when rounded…
+The contradiction matters because it identifies a structural loss in the instruction to convert every value and every update permanently to half precision, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: use reduced precision for bulk…
-```
+The repair can now be kept narrow. The new method must use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “convert every value and every update permanently to half precision.” Its path ends where small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range. The second receives the same evidence but is allowed to use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a mixed precision formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The enginewright changes only that one responsibility: use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision. When the ink dries, the name **Mixed Precision** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The brass reference machine keeps both histories. Its older mark still says, ‘convert every value and every update permanently to half precision’; beside it, the newer mark says, ‘use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.’ The distance between those sentences is the exact shape of mixed precision: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we convert every value and every update permanently to half precision?
-
-## When the chamber changes
-
-Before leaving Mixed Precision, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The bell follows the tempting path—convert every value and every update permanently to half precision. Then the evidence answers: small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range.
-
-Now let the chamber move: The enginewright changes one moving part. The bell can now use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.
-
-The object that should remain after the terminology disappears is **the mixed precision bell mounted on the brass reference machine**.
-
-> **Memory seal — Mixed Precision**
->
-> Mixed Precision keeps the missing power: use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision.
-
-Give the idea a bodily path: Touch the mixed precision bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Mixed Precision**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Stop Storing Every Number with Unneeded Detail
 

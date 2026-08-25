@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,49 +13,17 @@
 
 Distillation transfers a teacher's pattern of belief into a smaller student. A dense student still spends every parameter on every token, even when different inputs need different expertise.
 
-A new case arrives at the Academy of Trials, but the experimentalist first reaches for the familiar sealed evidence ledger. Its promise is simple: run every specialist for every token and average them.
+The previous discovery reaches the Academy of Trials carrying one unfinished problem. Beside the sealed evidence ledger, the experimentalist first tries to run every specialist for every token and average them.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: most computation is wasted on specialists irrelevant to the current token. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we run every specialist for every token and average them, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The experimentalist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: most computation is wasted on specialists irrelevant to the current token.
 
-```text
-reference evidence ──▶ shortcut: run every specialist for every token…
-                         │
-                         └── mismatch: most computation is wasted on…
+This failure cannot be repaired by performing the instruction to run every specialist for every token and average them more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sealed evidence ledger; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: learn a router that sends each token…
-```
+The evidence has earned one extension and no more. We need to learn a router that sends each token to a small number of experts while balancing their workload. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-Two trails now cross the sealed evidence ledger. The pale trail bears the instruction “run every specialist for every token and average them.” It disappears into the observed failure: most computation is wasted on specialists irrelevant to the current token. The darker trail carries one additional capacity—to learn a router that sends each token to a small number of experts while balancing their workload. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed mixture of experts mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the sealed evidence ledger is altered in exactly one way: learn a router that sends each token to a small number of experts while balancing their workload. Much later, people will call this territory **Mixture of Experts**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the sealed evidence ledger. The failed path remains visible beneath the repair, because mixture of experts is easier to remember when its scar remains attached to it. The scar reads, ‘most computation is wasted on specialists irrelevant to the current token’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we run every specialist for every token and average them?
-
-## When the chamber changes
-
-Before leaving Mixture of Experts, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The bridge follows the tempting path—run every specialist for every token and average them. Then the evidence answers: most computation is wasted on specialists irrelevant to the current token.
-
-Now let the chamber move: The experimentalist changes one moving part. The bridge can now learn a router that sends each token to a small number of experts while balancing their workload.
-
-The object that should remain after the terminology disappears is **the mixture of experts bridge mounted on the sealed evidence ledger**.
-
-> **Memory seal — Mixture of Experts**
->
-> Mixture of Experts keeps the missing power: learn a router that sends each token to a small number of experts while balancing their workload.
-
-Give the idea a bodily path: Touch the mixture of experts bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Mixture of Experts**. The name is simply a handle for the distinction already reconstructed.
 
 ## Spending Computation Where It Helps
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,51 +13,17 @@
 
 Autoregressive image generation chooses one piece after another, making an arbitrary generation order part of the model. Diffusion offers another route: destroy a complete image gradually so that generation can learn to reverse each small corruption.
 
-Inside the Glass Menagerie, every old tool is given one honest chance. The maker of seeing-machines sets the wall of illuminated tiles between the evidence and the desired answer, then tries to map one random vector directly to a finished image in one jump.
+At the Glass Menagerie, the maker of seeing-machines meets the next case beside the wall of illuminated tiles. The nearest idea is also the most reasonable one: map one random vector directly to a finished image in one jump.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: one enormous jump is difficult to learn and unstable across diverse images. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To map one random vector directly to a finished image in one jump reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The maker of seeing-machines sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: one enormous jump is difficult to learn and unstable across diverse images.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   map one random vector directly to a… one enormous jump is difficult to…
-            \        /
-             \      /
-              gradually add noise to real images,…
-```
+The contradiction matters because it identifies a structural loss in the instruction to map one random vector directly to a finished image in one jump, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The wall of illuminated tiles will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The maker of seeing-machines lays two translucent sheets over the wall of illuminated tiles. The first is inscribed, “map one random vector directly to a finished image in one jump.” Its path ends where one enormous jump is difficult to learn and unstable across diverse images. The second receives the same evidence but is allowed to gradually add noise to real images, then learn the smaller reverse step at every noise level. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must gradually add noise to real images, then learn the smaller reverse step at every noise level. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a diffusion formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The maker of seeing-machines changes only that one responsibility: gradually add noise to real images, then learn the smaller reverse step at every noise level. When the ink dries, the name **Diffusion** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The wall of illuminated tiles keeps both histories. Its older mark still says, ‘map one random vector directly to a finished image in one jump’; beside it, the newer mark says, ‘gradually add noise to real images, then learn the smaller reverse step at every noise level.’ The distance between those sentences is the exact shape of diffusion: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
->
-> **The question carried into this chamber:** What fails if we map one random vector directly to a finished image in one jump?
-
-## When the chamber changes
-
-The mathematical name Diffusion can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The compass follows the tempting path—map one random vector directly to a finished image in one jump. Then the evidence answers: one enormous jump is difficult to learn and unstable across diverse images.
-
-Now let the chamber move: The maker of seeing-machines changes one moving part. The compass can now gradually add noise to real images, then learn the smaller reverse step at every noise level.
-
-The object that should remain after the terminology disappears is **the diffusion compass mounted on the wall of illuminated tiles**.
-
-> **Memory seal — Diffusion**
->
-> Diffusion keeps the missing power: gradually add noise to real images, then learn the smaller reverse step at every noise level.
-
-Give the idea a bodily path: Touch the diffusion compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Diffusion**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Learning by Destroying
 

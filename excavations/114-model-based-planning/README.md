@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,49 +13,17 @@
 
 Counterfactual reasoning compares unrealized alternatives for one case. Planning extends that question across a sequence, where each imagined action changes which choices and states can follow.
 
-The table of mirrored maps at the Hall of Possible Worlds still carries the marks of the previous discovery. The keeper of unfinished questions follows them as far as they seem willing to go: commit to the first sequence imagined.
+A new case arrives at the Hall of Possible Worlds. Nothing yet demands a new invention, so the keeper of unfinished questions uses the table of mirrored maps to commit to the first sequence imagined.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: one forecast may exploit model error or miss better branches. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to commit to the first sequence imagined preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: one forecast may exploit model error or miss better branches.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ commit to the first sequence imagined ──▶ blurred: one forecast may exploit model error…
-      │
-      └── new lens ──▶ simulate multiple candidate… ──▶ distinction survives
-```
+The counterexample separates two questions that the attempt to commit to the first sequence imagined had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the table of mirrored maps fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The keeper of unfinished questions lays two translucent sheets over the table of mirrored maps. The first is inscribed, “commit to the first sequence imagined.” Its path ends where one forecast may exploit model error or miss better branches. The second receives the same evidence but is allowed to simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. Held to the light, the sheets separate at exactly one decision.
+Only the broken responsibility needs to change. The method must now simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-No one reaches for a model-based planning formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The keeper of unfinished questions changes only that one responsibility: simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. When the ink dries, the name **Model-Based Planning** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because one forecast may exploit model error or miss better branches, while the other can simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again. That fork—not the vocabulary—is where model-based planning lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we commit to the first sequence imagined?
-
-## When the chamber changes
-
-The mathematical name Model-Based Planning can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The key follows the tempting path—commit to the first sequence imagined. Then the evidence answers: one forecast may exploit model error or miss better branches.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The key can now simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.
-
-The object that should remain after the terminology disappears is **the model-based planning key mounted on the table of mirrored maps**.
-
-> **Memory seal — Model-Based Planning**
->
-> Model-Based Planning keeps the missing power: simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again.
-
-Give the idea a bodily path: Touch the model-based planning key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Model-Based Planning**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Understanding model-based planning
 

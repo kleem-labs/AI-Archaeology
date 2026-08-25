@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,48 +13,17 @@
 
 Profiling reveals that the accelerator repeatedly waits for the next token batch. The model is ready, but its evidence is still being read and prepared.
 
-Morning reaches the Engine Cavern before anyone has a name for today's difficulty. Beside the brass reference machine, the enginewright tries the smallest continuation of what already works: load a batch, wait until loading finishes, compute it, and only then begin loading the next one.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to load a batch, wait until loading finishes, compute it, and only then begin loading the next one.
 
-Then the quiet test arrives: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we load a batch, wait until loading finishes, compute it, and only then begin loading the next one, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle.
 
-```text
-OLD PATH:  request ──▶ load a batch, wait until loading… ──▶ data time and compute time are paid…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ prepare the next batch while the… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to load a batch, wait until loading finishes, compute it, and only then begin loading the next one more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-The enginewright turns the brass reference machine toward the light. Through the old engraving, load a batch, wait until loading finishes, compute it, and only then begin loading the next one, the evidence ends in the same contradiction: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle. A second engraving adds only the power to prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The enginewright circles the place where the two input pipeline cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. The enginewright writes **The Input Pipeline** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The enginewright does not memorize input pipeline. Instead, the enginewright memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we load a batch, wait until loading finishes, compute it, and only then begin loading the next one?
-
-## When the chamber changes
-
-Before leaving The Input Pipeline, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The vessel follows the tempting path—load a batch, wait until loading finishes, compute it, and only then begin loading the next one. Then the evidence answers: data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle.
-
-Now let the chamber move: The enginewright changes one moving part. The vessel can now prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering.
-
-The object that should remain after the terminology disappears is **the input pipeline vessel mounted on the brass reference machine**.
-
-> **Memory seal — The Input Pipeline**
->
-> The Input Pipeline keeps the missing power: prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering.
-
-Give the idea a bodily path: Touch the input pipeline vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **The Input Pipeline**. The name is simply a handle for the distinction already reconstructed.
 
 ## Stop Making the Accelerator Wait
 

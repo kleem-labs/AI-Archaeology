@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,49 +13,17 @@
 
 Softmax turns vocabulary scores into a distribution. Generation now faces a choice that training did not settle: should the machine always take the winner or sometimes follow another plausible continuation?
 
-Night gathers around the Clockwork Scriptorium. Under the light of the sentence-wheel, the mechanist refuses to invent prematurely and begins with the plain rule: always use argmax.
+Inside the Clockwork Scriptorium, the old method is given an honest chance. The mechanist places the evidence on the sentence-wheel and tries to always use argmax.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To always use argmax is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The mechanist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
 
-```text
-possible road A ─┐
-                 ├── old map: always use argmax
-possible road B ─┘              └── loses: the same prompt follows the same…
+The important discovery is not merely that trying to always use argmax failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sentence-wheel, so success cannot be manufactured by quietly replacing the original question.
 
-same roads ──▶ repaired map ──▶ we need to control the distribution…
-```
+The old construction is therefore not discarded. It is widened just enough to control the distribution with temperature and optionally restrict it to a credible top set before sampling. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-Two trails now cross the sentence-wheel. The pale trail bears the instruction “always use argmax.” It disappears into the observed failure: the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text. The darker trail carries one additional capacity—to control the distribution with temperature and optionally restrict it to a credible top set before sampling. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed sampling mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the sentence-wheel is altered in exactly one way: we need to control the distribution with temperature and optionally restrict it to a credible top set before sampling. Much later, people will call this territory **Sampling**. Here the name is only a memory of the failure it can survive.
-
-The sentence-wheel has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and sampling looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we always use argmax?
-
-## When the chamber changes
-
-Before leaving Sampling, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The wheel follows the tempting path—always use argmax. Then the evidence answers: the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
-
-Now let the chamber move: The mechanist changes one moving part. The wheel can now control the distribution with temperature and optionally restrict it to a credible top set before sampling.
-
-The object that should remain after the terminology disappears is **the sampling wheel mounted on the sentence-wheel**.
-
-> **Memory seal — Sampling**
->
-> Sampling keeps the missing power: control the distribution with temperature and optionally restrict it to a credible top set before sampling.
-
-Give the idea a bodily path: Touch the sampling wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Sampling**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## The calculation hidden inside sampling
 

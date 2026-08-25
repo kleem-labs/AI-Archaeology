@@ -39,7 +39,7 @@ A rescue party marks its camp on a paper map. It walks five kilometres east and 
 
 Inside vectors as change, familiar operations return with stricter duties: **the chisel**—what is shared is removed so the remaining change can be seen; **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the joining river**—separate contributions meet without losing where they came from. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
 
-Cover the prose about vectors as change and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming vectors as change equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \Delta=\mathbf{b}-\mathbf{a}=[7-2,1-3]=[5,-2]
@@ -70,28 +70,6 @@ Opposite changes cancel because the final state contains no net displacement alo
 Distance says how much separation exists but discards direction. Many destinations are five units from the same start. A change vector preserves both magnitude and direction.
 
 This distinction matters in learning. A model's current parameters are a state. Training must say which weights to increase, which to decrease, and by how much. That instruction is a vector of change.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 1 of 18 — [Valley of First Measures](../../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** How can a vector describe not only what exists, but what changed?
-
-## When the chamber changes
-
-The mathematical name Change Vectors can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: Two isolated position stones reveal locations but hide the movement connecting them.
-
-Now let the chamber move: The stones remain while a directed arrow grows from the earlier position to the later one.
-
-The object that should remain after the terminology disappears is **an arrow laid from yesterday's tiger position to today's**.
-
-> **Memory seal — Change Vectors**
->
-> A change vector remembers both how far the world moved and in which direction.
-
-Give the idea a bodily path: Point to one place, then sweep the same finger toward a second place.
-<!-- memory-film-v1:end -->
 
 ## Challenge
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,53 +13,17 @@
 
 Validation lets us choose among models without opening the sealed test set. Even an honest test can come from yesterday's hospital, dialect, season, or camera while tomorrow arrives from somewhere else.
 
-The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: assume all future observations come from exactly the same source as training.
+A new case arrives at the Lantern Observatory. Nothing yet demands a new invention, so the keeper of uncertain stories uses the ring of glass lanterns to assume all future observations come from exactly the same source as training.
 
-The keeper of uncertain stories repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: or demand good performance on every imaginable world, which no finite evidence can guarantee. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to assume all future observations come from exactly the same source as training preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: or demand good performance on every imaginable world, which no finite evidence can guarantee.
 
-```text
-observation
-    │
-    ▼
-[assume all future observations come…]
-    │
-    ╳  or demand good performance on every…
-    │
-    ▼
-[state the deployment world, test…]
-```
+The counterexample separates two questions that the attempt to assume all future observations come from exactly the same source as training had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the ring of glass lanterns fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the ring of glass lanterns, the old path and the repaired path run side by side. One carries “assume all future observations come from exactly the same source as training”; the other knows how to state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts. When the failure—or demand good performance on every imaginable world, which no finite evidence can guarantee—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to generalization. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts. This problem and its repair will travel under the name **Generalization**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—assume all future observations come from exactly the same source as training? The answer remains or demand good performance on every imaginable world, which no finite evidence can guarantee. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What Should Survive Beyond the Dataset?
-
-## When the chamber changes
-
-The mathematical name Generalization can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The key follows the tempting path—assume all future observations come from exactly the same source as training. Then the evidence answers: or demand good performance on every imaginable world, which no finite evidence can guarantee.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The key can now state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
-
-The object that should remain after the terminology disappears is **the generalization key mounted on the ring of glass lanterns**.
-
-> **Memory seal — Generalization**
->
-> Generalization keeps the missing power: state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
-
-Give the idea a bodily path: Touch the generalization key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Generalization**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## The calculation hidden inside generalization
 
@@ -83,7 +49,7 @@ The sampling mark ties the average to the future distribution. Training risk wou
 
 Three old motions cast new shadows here: **the council of possible worlds**—each future speaks in proportion to how often it may arrive. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
 
-Cover the prose about generalization and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming generalization equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 R(\theta)=\mathbb{E}_{(x,y)\sim P_{\text{future}}}[L(f_\theta(x),y)]

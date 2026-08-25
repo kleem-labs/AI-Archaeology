@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,49 +13,17 @@
 
 Bayesian updating combines prior plausibility with the likelihood of new evidence. One trained model can still be confidently wrong about its own uncertainty, so we ask whether independently trained models agree.
 
-Nothing in the Hall of Possible Worlds yet bears today's mathematical name. There is only the keeper of unfinished questions, the table of mirrored maps, and one plausible action: trust one training run as the unique learned truth.
+Inside the Hall of Possible Worlds, the old method is given an honest chance. The keeper of unfinished questions places the evidence on the table of mirrored maps and tries to trust one training run as the unique learned truth.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: different initialization and data order produce different boundaries. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To trust one training run as the unique learned truth is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: different initialization and data order produce different boundaries.
 
-```text
-possible road A ─┐
-                 ├── old map: trust one training run as the unique…
-possible road B ─┘              └── loses: different initialization and data…
+The important discovery is not merely that trying to trust one training run as the unique learned truth failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the table of mirrored maps, so success cannot be manufactured by quietly replacing the original question.
 
-same roads ──▶ repaired map ──▶ we need to train several diverse…
-```
+The old construction is therefore not discarded. It is widened just enough to train several diverse models and combine predictions while inspecting disagreement. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-Two trails now cross the table of mirrored maps. The pale trail bears the instruction “trust one training run as the unique learned truth.” It disappears into the observed failure: different initialization and data order produce different boundaries. The darker trail carries one additional capacity—to train several diverse models and combine predictions while inspecting disagreement. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed ensembles mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the table of mirrored maps is altered in exactly one way: we need to train several diverse models and combine predictions while inspecting disagreement. Much later, people will call this territory **Ensembles**. Here the name is only a memory of the failure it can survive.
-
-The table of mirrored maps has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and ensembles looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we trust one training run as the unique learned truth?
-
-## When the chamber changes
-
-Before leaving Ensembles, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The mirror follows the tempting path—trust one training run as the unique learned truth. Then the evidence answers: different initialization and data order produce different boundaries.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The mirror can now train several diverse models and combine predictions while inspecting disagreement.
-
-The object that should remain after the terminology disappears is **the ensembles mirror mounted on the table of mirrored maps**.
-
-> **Memory seal — Ensembles**
->
-> Ensembles keeps the missing power: train several diverse models and combine predictions while inspecting disagreement.
-
-Give the idea a bodily path: Touch the ensembles mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Ensembles**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding ensembles
 

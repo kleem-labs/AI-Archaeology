@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,51 +13,17 @@
 
 Caching turns repeated arithmetic into memory reads. Profiling now shows decoding limited by loading separate key and value histories for every attention head.
 
-The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections.
 
-Reality answers without terminology: the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token. The brass reference machine now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   preserve one complete KV cache for… the caches grow with both sequence…
-            \        /
-             \      /
-              keep many query heads but share one…
-```
+The counterexample separates two questions that the attempt to preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The brass reference machine is divided down the middle. Left side: “preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections.” Its final mark records the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token. Right side: the same starting evidence, now allowed to keep many query heads but share one key head and one value head across them. The difference is narrow enough to see and important enough to change the ending.
+Only the broken responsibility needs to change. The method must now keep many query heads but share one key head and one value head across them. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The broken rule has given multi-query attention a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: keep many query heads but share one key head and one value head across them. The name **Multi-Query Attention** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from multi-query attention through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** Why Cache Separate Copies for Every Head?
-
-## When the chamber changes
-
-Before leaving Multi-Query Attention, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The gear follows the tempting path—preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections. Then the evidence answers: the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token.
-
-Now let the chamber move: The enginewright changes one moving part. The gear can now keep many query heads but share one key head and one value head across them.
-
-The object that should remain after the terminology disappears is **the multi-query attention gear mounted on the brass reference machine**.
-
-> **Memory seal — Multi-Query Attention**
->
-> Multi-Query Attention keeps the missing power: keep many query heads but share one key head and one value head across them.
-
-Give the idea a bodily path: Touch the multi-query attention gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Multi-Query Attention**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Why Cache Separate Copies for Every Head
 

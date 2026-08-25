@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,53 +13,17 @@
 
 Reasoning with verification catches steps that violate checkable constraints. Neural representations handle perception and ambiguity well, while exact logical and algebraic rules resist being approximated.
 
-A new case arrives at the Hall of Possible Worlds, but the keeper of unfinished questions first reaches for the familiar table of mirrored maps. Its promise is simple: force fuzzy perception into rigid rules or exact rules into learned approximation.
+The previous discovery reaches the Hall of Possible Worlds carrying one unfinished problem. Beside the table of mirrored maps, the keeper of unfinished questions first tries to force fuzzy perception into rigid rules or exact rules into learned approximation.
 
-Then the quiet test arrives: the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we force fuzzy perception into rigid rules or exact rules into learned approximation, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints.
 
-```text
-observation
-    │
-    ▼
-[force fuzzy perception into rigid…]
-    │
-    ╳  the trouble appears immediately: the…
-    │
-    ▼
-[let neural components propose symbols…]
-```
+This failure cannot be repaired by performing the instruction to force fuzzy perception into rigid rules or exact rules into learned approximation more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the table of mirrored maps; otherwise a changed answer could be mistaken for an explanation.
 
-The keeper of unfinished questions turns the table of mirrored maps toward the light. Through the old engraving, force fuzzy perception into rigid rules or exact rules into learned approximation, the evidence ends in the same contradiction: the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints. A second engraving adds only the power to let neural components propose symbols or scores and symbolic components enforce explicit relations. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to let neural components propose symbols or scores and symbolic components enforce explicit relations. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The keeper of unfinished questions circles the place where the two neuro-symbolic systems cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: let neural components propose symbols or scores and symbolic components enforce explicit relations. The keeper of unfinished questions writes **Neuro-Symbolic Systems** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of unfinished questions does not memorize neuro-symbolic systems. Instead, the keeper of unfinished questions memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can let neural components propose symbols or scores and symbolic components enforce explicit relations. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we force fuzzy perception into rigid rules or exact rules into learned approximation?
-
-## When the chamber changes
-
-The Neuro-Symbolic Systems chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The bridge follows the tempting path—force fuzzy perception into rigid rules or exact rules into learned approximation. Then the evidence answers: the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The bridge can now let neural components propose symbols or scores and symbolic components enforce explicit relations.
-
-The object that should remain after the terminology disappears is **the neuro-symbolic systems bridge mounted on the table of mirrored maps**.
-
-> **Memory seal — Neuro-Symbolic Systems**
->
-> Neuro-Symbolic Systems keeps the missing power: let neural components propose symbols or scores and symbolic components enforce explicit relations.
-
-Give the idea a bodily path: Touch the neuro-symbolic systems bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Neuro-Symbolic Systems**. The name is simply a handle for the distinction already reconstructed.
 
 ## Understanding neuro-symbolic systems
 

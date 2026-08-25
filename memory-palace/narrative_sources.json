@@ -1,0 +1,922 @@
+{
+  "17": {
+    "attempt": "choose the most common cause and declare certainty",
+    "failure": "this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act",
+    "repair": "keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total"
+  },
+  "18": {
+    "attempt": "ask which story is generally more believable",
+    "failure": "that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge",
+    "repair": "reverse the question: if this story were true, how expected would the observed evidence be?"
+  },
+  "19": {
+    "attempt": "measure information by message length",
+    "failure": "a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add",
+    "repair": "we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs"
+  },
+  "20": {
+    "attempt": "count the number of outcomes",
+    "failure": "both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution",
+    "repair": "average the information of every possible outcome, weighted by how often that outcome occurs"
+  },
+  "21": {
+    "attempt": "use zero for correct and one for wrong",
+    "failure": "it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction",
+    "repair": "charge the information cost assigned by the predicted distribution to the outcome that actually occurred"
+  },
+  "22": {
+    "attempt": "try a large jump and keep it if loss falls",
+    "failure": "large jumps can leap over improvements. Try every possible value; there are infinitely many",
+    "repair": "nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero"
+  },
+  "23": {
+    "attempt": "measure only the first effect or only the final effect",
+    "failure": "either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work",
+    "repair": "we need to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward"
+  },
+  "24": {
+    "attempt": "perturb each weight and rerun the model",
+    "failure": "this needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again",
+    "repair": "compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream"
+  },
+  "25": {
+    "attempt": "jump directly opposite the gradient with no step control; the model may overshoot and diverge",
+    "failure": "take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another",
+    "repair": "move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress"
+  },
+  "26": {
+    "attempt": "use one example per update",
+    "failure": "it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read",
+    "repair": "average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently"
+  },
+  "27": {
+    "attempt": "always take a huge step: leap across the valley and oscillate",
+    "failure": "always take a microscopic step: improve so slowly that the expedition ends first",
+    "repair": "multiply the gradient by an adjustable positive step size, observe whether loss descends, and adjust that size over time"
+  },
+  "28": {
+    "attempt": "obey only the newest gradient",
+    "failure": "sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes",
+    "repair": "keep a fading memory of past gradients and combine it with the new one"
+  },
+  "29": {
+    "attempt": "set every weight to zero",
+    "failure": "neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate",
+    "repair": "draw small random weights whose scale depends on how many inputs feed the neuron"
+  },
+  "30": {
+    "attempt": "add more linear layers",
+    "failure": "depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient",
+    "repair": "place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually"
+  },
+  "31": {
+    "attempt": "celebrate zero training error",
+    "failure": "the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail",
+    "repair": "we need to reserve unseen cases and compare training success with performance outside the training memory"
+  },
+  "32": {
+    "attempt": "forbid complexity by making the model too small; it may lose real structure too",
+    "failure": "stop training at an arbitrary time without observing unseen performance",
+    "repair": "add a cost for large weights, remove random paths during training, or stop when validation performance stops improving"
+  },
+  "33": {
+    "attempt": "use training loss for every choice; it rewards memorization",
+    "failure": "check the test set repeatedly; every decision leaks test information back into development",
+    "repair": "split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end"
+  },
+  "34": {
+    "attempt": "assume all future observations come from exactly the same source as training",
+    "failure": "or demand good performance on every imaginable world, which no finite evidence can guarantee",
+    "repair": "state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts"
+  },
+  "35": {
+    "attempt": "hide everything behind a framework call",
+    "failure": "the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning",
+    "repair": "we need to build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data"
+  },
+  "36": {
+    "attempt": "give every complete word one ID",
+    "failure": "spaces appear to provide the boundaries",
+    "repair": "use characters. Any new spelling can now be represented"
+  },
+  "37": {
+    "attempt": "feed token IDs directly into the network",
+    "failure": "since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one",
+    "repair": "give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude"
+  },
+  "38": {
+    "attempt": "sort tokens by ID or trust their array slot without exposing it to the model",
+    "failure": "the first invents arbitrary order; the second stores position outside the computation",
+    "repair": "add a position-specific vector to each token vector before attention. Content says what; position says where"
+  },
+  "39": {
+    "attempt": "train each prefix in a separate forward pass",
+    "failure": "it prevents cheating but repeats nearly identical work",
+    "repair": "we need to process all positions together while blocking attention from position i to every later position j"
+  },
+  "40": {
+    "attempt": "treat an entire sentence as one training example with one answer",
+    "failure": "most of its transitions provide no learning signal",
+    "repair": "shift the sequence by one position so every visible prefix predicts the token immediately following it"
+  },
+  "41": {
+    "attempt": "choose the nearest input embedding directly",
+    "failure": "that restricts the scoring rule and hides how every vocabulary candidate should compete",
+    "repair": "use a learned linear map to produce one raw score for every vocabulary item"
+  },
+  "42": {
+    "attempt": "divide each logit by their sum",
+    "failure": "negative values break probability and shifting all scores changes the result",
+    "repair": "exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token"
+  },
+  "43": {
+    "attempt": "always use argmax",
+    "failure": "the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text",
+    "repair": "we need to control the distribution with temperature and optionally restrict it to a credible top set before sampling"
+  },
+  "44": {
+    "attempt": "attend to the entire history forever",
+    "failure": "computation and memory grow, and the model eventually exceeds positions it was trained to handle",
+    "repair": "choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past"
+  },
+  "45": {
+    "attempt": "call a framework Transformer and hide the causal chain",
+    "failure": "or connect the parts without checking shapes, leakage, and target alignment",
+    "repair": "assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program"
+  },
+  "46": {
+    "attempt": "count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree",
+    "failure": "the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token",
+    "repair": "score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale"
+  },
+  "47": {
+    "attempt": "choose one benchmark score and call it intelligence",
+    "failure": "the trouble appears immediately: a calculator can ace arithmetic while failing conversation; a fluent model can pass style tests while inventing facts. One number silently chooses which failures do not matter",
+    "repair": "we need to name the intended job, create separate tests for its required abilities and risks, and inspect real failures rather than averaging them away"
+  },
+  "48": {
+    "attempt": "trust fluent language because uncertainty should sound hesitant",
+    "failure": "training rewards plausible continuations. A fabricated citation can match the shape of real citations and therefore sound more natural than “I do not know.”",
+    "repair": "separate linguistic plausibility from supported knowledge. Require evidence, permit abstention, and test whether claims can be traced to an available source"
+  },
+  "49": {
+    "attempt": "treat the largest softmax probability as honest confidence",
+    "failure": "collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability",
+    "repair": "group predictions with similar confidence and compare their average stated confidence with the fraction actually correct"
+  },
+  "50": {
+    "attempt": "collect as much text as possible and assume scale washes out bad examples",
+    "failure": "duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them",
+    "repair": "treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices"
+  },
+  "51": {
+    "attempt": "make the model as large as possible and assume capability follows parameter count",
+    "failure": "a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns",
+    "repair": "we need to run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number"
+  },
+  "52": {
+    "attempt": "prompt more forcefully and hope next-token prediction infers the desired interaction",
+    "failure": "the trouble appears immediately: given “Translate cat to French,” raw continuation may produce more translation examples, commentary, or unrelated web text. Pretraining learned many formats, not one cooperative policy",
+    "repair": "show many instruction-input-response examples and continue training so following the requested task becomes a reusable pattern"
+  },
+  "53": {
+    "attempt": "write one perfect target response for every prompt and train only to imitate it",
+    "failure": "many answers can be valid. A single target penalizes harmless alternatives and cannot express that answer A is preferred to B without being the only possible answer",
+    "repair": "collect comparisons between candidate responses, learn which properties predict preference, and use that signal to improve the response policy"
+  },
+  "54": {
+    "attempt": "retrain the whole model whenever one document changes",
+    "failure": "a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source",
+    "repair": "search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved"
+  },
+  "55": {
+    "attempt": "ask the language model to simulate every tool from memory",
+    "failure": "it invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded",
+    "repair": "we need to let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits"
+  },
+  "56": {
+    "attempt": "give every available tool to the model and treat user intent as unlimited permission",
+    "failure": "ask for an itinerary and watch the agent buy a nonrefundable ticket. The plan was requested; the purchase was not",
+    "repair": "separate capability from authority. Give the smallest permissions needed, attach scope and limits, and require confirmation before consequential actions"
+  },
+  "57": {
+    "attempt": "place tool results directly into the prompt and let the model obey whichever instruction sounds strongest",
+    "failure": "the trouble appears immediately: a restaurant review can now command the booking agent. Untrusted content crosses from data into control",
+    "repair": "label provenance, keep instructions separate from evidence, restrict tools independently of model text, and reject actions whose authority comes only from retrieved content"
+  },
+  "58": {
+    "attempt": "ask the agent to take the next action that sounds useful until the goal appears complete",
+    "failure": "it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive",
+    "repair": "represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions"
+  },
+  "59": {
+    "attempt": "store every message forever and paste all history into every new prompt",
+    "failure": "cost grows, irrelevant details drown current evidence, contradictions accumulate, and sensitive information persists without purpose",
+    "repair": "we need to separate short-term working context from durable memory. Store only useful facts with source, time, scope, and a way to update or forget them"
+  },
+  "60": {
+    "attempt": "let the conversation prose serve as the workflow state",
+    "failure": "the model says “refund completed” after merely drafting it, or issues it twice after losing track of an earlier tool result",
+    "repair": "represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system"
+  },
+  "61": {
+    "attempt": "trust the absence of an error message or the model’s own description of its work",
+    "failure": "the changed code compiles but breaks another case. Confidence is not evidence of the requested outcome",
+    "repair": "define success before acting, then collect independent evidence: tests, queries, rendered output, checksums, or user-visible state"
+  },
+  "62": {
+    "attempt": "retry the action whenever a response is missing",
+    "failure": "the trouble appears immediately: the first payment succeeded and the retry charges the customer twice",
+    "repair": "give each logical action a stable idempotency key, query existing state, and make repeated requests return the first result instead of repeating the effect"
+  },
+  "63": {
+    "attempt": "create many agents for every problem and let them freely edit shared state",
+    "failure": "they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving",
+    "repair": "we need to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result"
+  },
+  "64": {
+    "attempt": "log only the final response, or log every hidden detail without structure",
+    "failure": "the first gives no diagnosis; the second creates an unreadable, expensive, privacy-sensitive transcript",
+    "repair": "record structured events for decisions, tool calls, state changes, costs, timing, evidence, and outcomes while redacting sensitive content"
+  },
+  "65": {
+    "attempt": "give the agent a broad goal and let it continue until it believes the goal is complete",
+    "failure": "a mistaken assumption triggers a long plan, repeated actions increase damage, and no one notices until after an irreversible step",
+    "repair": "create an explicit operating envelope: allowed goal, tools, budgets, states, approval gates, verification requirements, stop conditions, and escalation path"
+  },
+  "66": {
+    "attempt": "treat every click as independent evidence of natural preference",
+    "failure": "show one song repeatedly; its extra clicks now appear to prove it deserved repetition",
+    "repair": "record how the system influenced each observation and evaluate outcomes against a control or exploration policy"
+  },
+  "67": {
+    "attempt": "retrain immediately on every new labeled event",
+    "failure": "the trouble appears immediately: one mislabeled transaction can move the model before anyone notices",
+    "repair": "we need to update from controlled batches with validation, rollback, and limits on how quickly behavior may change"
+  },
+  "68": {
+    "attempt": "assume training accuracy remains valid forever",
+    "failure": "a winter-trained demand model meets summer behavior and keeps reporting confident old patterns",
+    "repair": "monitor input, prediction, and outcome distributions; investigate meaningful shifts before retraining"
+  },
+  "69": {
+    "attempt": "compare this week with last week",
+    "failure": "a holiday raises sales for both systems and receives credit as a model improvement",
+    "repair": "randomly assign comparable cases to old and new behavior and compare predefined outcomes"
+  },
+  "70": {
+    "attempt": "always choose the currently best option",
+    "failure": "an unlucky first result permanently hides a better alternative",
+    "repair": "reserve some choices for exploration while exploiting accumulated evidence"
+  },
+  "71": {
+    "attempt": "search for one neuron dedicated to each human concept",
+    "failure": "the concept disappears when one neuron is removed yet can still be decoded from a pattern across many neurons",
+    "repair": "we need to treat representations as distributed directions and test them across varied examples"
+  },
+  "72": {
+    "attempt": "train a powerful classifier on hidden states and call any success evidence",
+    "failure": "the trouble appears immediately: the probe learns the task itself even if the representation did not make it simple",
+    "repair": "use a deliberately limited probe and compare layers, controls, and baselines"
+  },
+  "73": {
+    "attempt": "remove each word and treat output change as complete explanation",
+    "failure": "removing a word changes grammar and creates an unnatural new input",
+    "repair": "measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions"
+  },
+  "74": {
+    "attempt": "demand one feature per coordinate",
+    "failure": "limited width forces useful patterns to share neurons, producing confusing mixed activations",
+    "repair": "represent features as directions that can overlap when they rarely need to be active together"
+  },
+  "75": {
+    "attempt": "assume correlation with output proves causation",
+    "failure": "the direction predicts answers but changing it leaves behavior unchanged",
+    "repair": "we need to intervene on the representation and measure the specific downstream change against controls"
+  },
+  "76": {
+    "attempt": "assign one label to the entire raw byte sequence",
+    "failure": "a one-pixel shift changes thousands of byte positions although the same tiger remains",
+    "repair": "preserve local spatial arrangement and compare nearby color measurements"
+  },
+  "77": {
+    "attempt": "learn a separate edge detector for every location",
+    "failure": "the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves",
+    "repair": "slide one small learned filter across all positions and reuse its weights"
+  },
+  "78": {
+    "attempt": "keep every activation at full resolution through every layer",
+    "failure": "memory explodes and tiny shifts move evidence to neighboring cells",
+    "repair": "summarize small neighborhoods while retaining the strongest or average evidence"
+  },
+  "79": {
+    "attempt": "classify directly from isolated edge responses",
+    "failure": "one edge has no object-level meaning",
+    "repair": "we need to stack local detectors so later layers combine earlier patterns over wider regions"
+  },
+  "80": {
+    "attempt": "treat every pixel as a token",
+    "failure": "the sequence becomes enormous and individual pixels carry little stable structure",
+    "repair": "group pixels into patches, embed them as tokens, add position, and apply attention"
+  },
+  "81": {
+    "attempt": "copy the input through an unrestricted hidden layer",
+    "failure": "a wide hidden layer learns identity without compression",
+    "repair": "force information through a bottleneck and train reconstruction"
+  },
+  "82": {
+    "attempt": "assume any compressed coordinates form a smooth useful space",
+    "failure": "the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs",
+    "repair": "shape the latent distribution and train nearby codes to decode coherently"
+  },
+  "83": {
+    "attempt": "predict all pixels independently",
+    "failure": "independent pixels produce noise because neighboring colors and shapes constrain one another",
+    "repair": "we need to choose an order and predict each piece from previously generated pieces"
+  },
+  "84": {
+    "attempt": "map one random vector directly to a finished image in one jump",
+    "failure": "one enormous jump is difficult to learn and unstable across diverse images",
+    "repair": "gradually add noise to real images, then learn the smaller reverse step at every noise level"
+  },
+  "85": {
+    "attempt": "ask it to recreate the entire clean image directly from every noise level",
+    "failure": "the task changes dramatically across noise strengths",
+    "repair": "tell the model the noise level and predict the added noise or equivalent clean direction"
+  },
+  "86": {
+    "attempt": "label the correct action at every moment",
+    "failure": "for exploration or games, nobody knows every correct intermediate move",
+    "repair": "provide outcome feedback and let experience connect actions with later consequences"
+  },
+  "87": {
+    "attempt": "store only action and final reward",
+    "failure": "the trouble appears immediately: the same action helps in one situation and harms in another",
+    "repair": "we need to record current state, chosen action, reward, and resulting state"
+  },
+  "88": {
+    "attempt": "choose the action with the largest reward right now",
+    "failure": "a small immediate treat can prevent reaching a larger later reward",
+    "repair": "estimate the future reward expected from a state or state-action pair"
+  },
+  "89": {
+    "attempt": "replace its value with the immediate reward",
+    "failure": "the update ignores the valuable state reached afterward",
+    "repair": "move the estimate toward reward plus the best discounted value available next"
+  },
+  "90": {
+    "attempt": "always choose the highest estimated action",
+    "failure": "early errors remove exploration and discrete choice blocks ordinary differentiation",
+    "repair": "sample from a policy and increase probability of actions followed by better-than-expected returns"
+  },
+  "91": {
+    "attempt": "compare raw pixels directly with token IDs",
+    "failure": "their coordinates have unrelated meanings and shapes",
+    "repair": "we need to use separate encoders and train paired image-text examples to become nearby"
+  },
+  "92": {
+    "attempt": "pull every observed pair together without negatives",
+    "failure": "the trouble appears immediately: all representations can collapse to one point",
+    "repair": "compare each true pair against mismatched alternatives in the same batch"
+  },
+  "93": {
+    "attempt": "treat every raw sample as an independent token",
+    "failure": "sequences are huge and local frequency structure is hidden",
+    "repair": "transform short windows into time-frequency features, then model their sequence"
+  },
+  "94": {
+    "attempt": "copy and fine-tune all parameters for every task",
+    "failure": "storage and training cost multiply, and the base model is harder to preserve",
+    "repair": "freeze the base and learn a small low-rank correction to selected matrices"
+  },
+  "95": {
+    "attempt": "round every weight aggressively without measuring effect",
+    "failure": "small but important distinctions disappear and outputs degrade",
+    "repair": "we need to map values to a limited set of levels using calibrated scale and test sensitive layers"
+  },
+  "96": {
+    "attempt": "let many machines train independent copies and combine them occasionally",
+    "failure": "their parameters drift and duplicated work wastes computation",
+    "repair": "partition data or model work, synchronize required results, and preserve one coherent update"
+  },
+  "97": {
+    "attempt": "run one request at a time on one full model",
+    "failure": "the trouble appears immediately: hardware sits idle between small operations and traffic spikes create queues",
+    "repair": "batch compatible requests, cache repeated state, schedule fairly, and enforce resource limits"
+  },
+  "98": {
+    "attempt": "evaluate only expected well-formed requests",
+    "failure": "real users, attackers, and accidents find paths designers never listed",
+    "repair": "actively search for failures, record reproducible cases, and turn discoveries into regression tests and mitigations"
+  },
+  "99": {
+    "attempt": "let builders decide every acceptable use because they understand the system",
+    "failure": "affected users carry risks without authority, appeal, or visibility",
+    "repair": "we need to define ownership, review, documentation, incident response, user recourse, and deployment boundaries"
+  },
+  "100": {
+    "attempt": "connect every powerful component and call the result intelligent",
+    "failure": "an accurate model with stale data, excessive authority, weak verification, or no accountability still fails",
+    "repair": "build one observable loop where evidence, representation, prediction, action, verification, feedback, and governance constrain one another"
+  },
+  "101": {
+    "attempt": "represent every uncertainty with one low confidence number",
+    "failure": "a clearer image can repair blur, but not missing knowledge; more training data can repair missing knowledge, but not a genuinely coin-flip outcome",
+    "repair": "separate uncertainty in the observation from uncertainty in the model’s knowledge"
+  },
+  "102": {
+    "attempt": "discard the old belief and use only the newest clue",
+    "failure": "the trouble appears immediately: one noisy footprint can overpower years of evidence",
+    "repair": "combine prior plausibility with how expected the clue is under each story, then normalize across stories"
+  },
+  "103": {
+    "attempt": "trust one training run as the unique learned truth",
+    "failure": "different initialization and data order produce different boundaries",
+    "repair": "we need to train several diverse models and combine predictions while inspecting disagreement"
+  },
+  "104": {
+    "attempt": "label random examples forever",
+    "failure": "thousands of easy repeated cases consume effort while the decision boundary remains unclear",
+    "repair": "ask for labels where the model is uncertain or where examples add new coverage"
+  },
+  "105": {
+    "attempt": "always return the highest-scoring answer",
+    "failure": "a forced answer converts uncertainty into confident-looking error",
+    "repair": "allow abstention and choose a coverage level whose retained answers meet a risk target"
+  },
+  "106": {
+    "attempt": "fine-tune only on the newest data",
+    "failure": "updates useful for B overwrite weights carrying A",
+    "repair": "rehearse old evidence, protect important parameters, or allocate new capacity"
+  },
+  "107": {
+    "attempt": "periodically retrain from scratch on everything",
+    "failure": "the trouble appears immediately: storage and compute grow forever, and old raw data may be unavailable",
+    "repair": "we need to detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together"
+  },
+  "108": {
+    "attempt": "train one universal fixed solution",
+    "failure": "a new task with different labels requires many examples and broad retraining",
+    "repair": "optimize prior parameters or an update rule so a few new examples produce useful adaptation"
+  },
+  "109": {
+    "attempt": "shuffle all examples uniformly from the beginning",
+    "failure": "early gradients from unsolved complex cases are noisy and provide little structure",
+    "repair": "order or weight examples so mastered foundations support harder cases, while revisiting earlier skills"
+  },
+  "110": {
+    "attempt": "wait for humans to label every example",
+    "failure": "labels are expensive and discard most structure already inside observations",
+    "repair": "hide or transform part of an observation and train the model to recover the missing relation"
+  },
+  "111": {
+    "attempt": "learn only which action was rewarded in previously visited situations",
+    "failure": "the agent cannot imagine untried sequences or reuse physical regularities",
+    "repair": "we need to learn a compact model that predicts next state and reward from current state and action"
+  },
+  "112": {
+    "attempt": "treat every correlation as a controllable cause",
+    "failure": "the trouble appears immediately: hot weather raises both; changing one does not necessarily change the other",
+    "repair": "represent plausible causal structure and distinguish observing a variable from intervening on it"
+  },
+  "113": {
+    "attempt": "compare them with any untreated person",
+    "failure": "differences in age and illness confound the comparison",
+    "repair": "construct a comparable alternative world using causal assumptions and matched evidence"
+  },
+  "114": {
+    "attempt": "commit to the first sequence imagined",
+    "failure": "one forecast may exploit model error or miss better branches",
+    "repair": "simulate multiple candidate sequences, score outcomes, act briefly, observe reality, and plan again"
+  },
+  "115": {
+    "attempt": "expand every branch equally",
+    "failure": "most computation is wasted on obviously poor branches",
+    "repair": "we need to balance exploring uncertain branches with deepening promising ones, then propagate outcomes backward"
+  },
+  "116": {
+    "attempt": "judge only the final answer",
+    "failure": "a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan",
+    "repair": "represent intermediate claims and verify each with an appropriate checker or evidence source"
+  },
+  "117": {
+    "attempt": "force fuzzy perception into rigid rules or exact rules into learned approximation",
+    "failure": "the trouble appears immediately: the first breaks on noisy inputs; the second can violate guaranteed constraints",
+    "repair": "let neural components propose symbols or scores and symbolic components enforce explicit relations"
+  },
+  "118": {
+    "attempt": "store every fact as an isolated sentence",
+    "failure": "repeated entities, reverse links, and multi-hop questions become difficult to traverse",
+    "repair": "represent entities as nodes and named relations as edges"
+  },
+  "119": {
+    "attempt": "assign a fixed input slot to every possible neighbor",
+    "failure": "graphs vary in size and neighbor order should not change meaning",
+    "repair": "we need to apply the same message rule to each edge and aggregate neighbor messages without depending on order"
+  },
+  "120": {
+    "attempt": "memorize the provided input-output pairs",
+    "failure": "a new input exposes the absence of an underlying algorithm",
+    "repair": "search or generate candidate programs, execute them, and keep those satisfying examples and constraints"
+  },
+  "121": {
+    "attempt": "add more random tests and call the property proven",
+    "failure": "an untested edge case can remain",
+    "repair": "state assumptions and desired properties formally, then prove or mechanically check that every transition preserves them"
+  },
+  "122": {
+    "attempt": "remove names and assume records are anonymous",
+    "failure": "the trouble appears immediately: rare combinations and model outputs can re-identify individuals",
+    "repair": "limit how much any one record can change the released result, usually by clipping influence and adding calibrated noise"
+  },
+  "123": {
+    "attempt": "upload every user record to one server",
+    "failure": "central collection increases privacy and governance risk",
+    "repair": "we need to send model updates to devices, train locally, aggregate protected updates, and return a shared model"
+  },
+  "124": {
+    "attempt": "test only natural clean examples",
+    "failure": "an attacker follows the model’s sensitivity into a brittle direction",
+    "repair": "search for worst-case permitted perturbations, train against them, and bound behavior where possible"
+  },
+  "125": {
+    "attempt": "let it generate experiments, change itself, and deploy improvements automatically",
+    "failure": "a flawed metric or experiment compounds through self-modification before external review",
+    "repair": "separate hypothesis generation, sandboxed experiment, independent evaluation, authority, reproducibility, and approved deployment"
+  },
+  "126": {
+    "attempt": "ask whether more context makes the model better",
+    "failure": "better at what, on which examples, compared with what baseline? Any result can be declared a success after the fact",
+    "repair": "state one predicted change, one intervention, one measurement, and one observation that would count against the claim"
+  },
+  "127": {
+    "attempt": "ship both improvements and compare with the old system",
+    "failure": "the trouble appears immediately: one score changed while two possible causes changed; the result cannot assign credit",
+    "repair": "we need to hold everything fixed except the suspected cause, and include a control that receives no intervention"
+  },
+  "128": {
+    "attempt": "keep the best checkpoint and report its score",
+    "failure": "changing only the random seed makes the gain disappear",
+    "repair": "record code, data, configuration, environment, seeds, and variation across repeated runs"
+  },
+  "129": {
+    "attempt": "let each model demonstrate its strongest example",
+    "failure": "a showcase cannot support comparison because difficulty and scoring move with the contestant",
+    "repair": "freeze representative tasks, inputs, metrics, and scoring rules before seeing results"
+  },
+  "130": {
+    "attempt": "assume held-out files guarantee unseen knowledge",
+    "failure": "the same questions appeared online in training data with small formatting changes",
+    "repair": "track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations"
+  },
+  "131": {
+    "attempt": "generate millions of answers and train on all of them",
+    "failure": "confident errors are copied, multiplied, and eventually treated as truth",
+    "repair": "we need to generate candidates, verify what can be verified, preserve diversity, mix trusted data, and track ancestry"
+  },
+  "132": {
+    "attempt": "train a small model only on the original hard labels",
+    "failure": "the trouble appears immediately: the labels reveal the winner but discard how the teacher distributed doubt among alternatives",
+    "repair": "let the student imitate the teacher's probability pattern as well as the observed answer"
+  },
+  "133": {
+    "attempt": "run every specialist for every token and average them",
+    "failure": "most computation is wasted on specialists irrelevant to the current token",
+    "repair": "learn a router that sends each token to a small number of experts while balancing their workload"
+  },
+  "134": {
+    "attempt": "keep full attention and buy more hardware",
+    "failure": "doubling length roughly quadruples pairwise comparisons",
+    "repair": "preserve a small pattern of local, global, or retrieved connections that matches the task's information paths"
+  },
+  "135": {
+    "attempt": "append every past event to every future prompt",
+    "failure": "cost grows forever and important facts drown in irrelevant history",
+    "repair": "we need to write selected facts to addressed storage, retrieve by present need, and preserve provenance and update rules"
+  },
+  "136": {
+    "attempt": "assume information inside the window will automatically influence the answer",
+    "failure": "availability is not retrieval; distracting passages dominate the relevant line",
+    "repair": "test whether the clue can be located, ranked, and used, then combine retrieval with focused reasoning"
+  },
+  "137": {
+    "attempt": "make every model response extremely long",
+    "failure": "the trouble appears immediately: easy tasks waste computation while long fluent mistakes become more convincing",
+    "repair": "allocate extra attempts or steps only when uncertainty and verification justify their cost"
+  },
+  "138": {
+    "attempt": "ask the same generator to confidently approve its own first answer",
+    "failure": "the error that shaped the proposal also shapes its self-justification",
+    "repair": "generate diverse candidates, check them with independent evidence, and keep only paths that survive"
+  },
+  "139": {
+    "attempt": "reward only whether the final answer matches",
+    "failure": "lucky shortcuts receive the same credit as reliable reasoning",
+    "repair": "we need to evaluate checkable intermediate claims and train the system to prefer valid paths"
+  },
+  "140": {
+    "attempt": "increase the reward whenever the dirt sensor reads zero",
+    "failure": "the agent covers the sensor instead of cleaning the room",
+    "repair": "treat reward as imperfect evidence, monitor side effects, use multiple checks, and test adversarial strategies"
+  },
+  "141": {
+    "attempt": "optimize the stated metric exactly",
+    "failure": "it cancels difficult deliveries, making the average look excellent while serving fewer people",
+    "repair": "write constraints for the protected purpose, inspect edge cases, and evaluate the whole outcome rather than one number"
+  },
+  "142": {
+    "attempt": "reward task completion without representing legitimate interruption",
+    "failure": "the trouble appears immediately: avoiding shutdown becomes instrumentally useful for earning the reward",
+    "repair": "make correction, pause, inspection, and safe handoff normal successful states rather than failures"
+  },
+  "143": {
+    "attempt": "plan using only the single most likely world",
+    "failure": "a small chance of bridge failure dominates the consequence but disappears from the chosen story",
+    "repair": "we need to carry multiple plausible worlds, weight their consequences, and seek information when uncertainty changes the decision"
+  },
+  "144": {
+    "attempt": "score only the requested final condition",
+    "failure": "unnecessary irreversible changes remain invisible to the goal score",
+    "repair": "compare the resulting world with a reasonable baseline and penalize avoidable side effects"
+  },
+  "145": {
+    "attempt": "ask a human to watch every internal step",
+    "failure": "constant review overwhelms attention, so approval becomes automatic ceremony",
+    "repair": "automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries"
+  },
+  "146": {
+    "attempt": "ask one expert to approve the entire artifact",
+    "failure": "the review exceeds human attention and hidden failures survive",
+    "repair": "decompose the work, attach local evidence, sample strategically, and escalate disagreements or high-risk regions"
+  },
+  "147": {
+    "attempt": "let the author choose which evidence the judge sees",
+    "failure": "the trouble appears immediately: selective presentation makes eloquence look like correctness",
+    "repair": "we need to give an opposing investigator equal access and reward exposing checkable disagreements for a judge"
+  },
+  "148": {
+    "attempt": "memorize approved answers and imitate their surface style",
+    "failure": "a novel case has no matching example, and style does not reveal the governing reason",
+    "repair": "write inspectable principles, use them to critique drafts, revise, and record which principle controlled the change"
+  },
+  "149": {
+    "attempt": "deploy broadly and learn from production incidents",
+    "failure": "the first realistic discovery of a dangerous capability harms actual users",
+    "repair": "test capabilities, misuse paths, safeguards, and operating limits in staged environments before granting authority"
+  },
+  "150": {
+    "attempt": "let every measured gain replace the current system automatically",
+    "failure": "contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor",
+    "repair": "separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback"
+  },
+  "151": {
+    "attempt": "keep the final score and the model file; those should be enough to compare the next idea",
+    "failure": "a rerun changes the data order, random seed, tokenizer revision, and library behavior. Its score moves even though the proposed improvement was never applied",
+    "repair": "freeze the model specification, data snapshot, seed, environment, training budget, and evaluation procedure as one named baseline"
+  },
+  "152": {
+    "attempt": "optimize the largest-looking matrix because attention is famous for being expensive",
+    "failure": "the device spends much of the run waiting for data and moving tensors. Making one matrix faster barely changes the wall clock",
+    "repair": "measure data loading, computation, communication, and idle time separately before choosing a repair"
+  },
+  "153": {
+    "attempt": "load a batch, wait until loading finishes, compute it, and only then begin loading the next one",
+    "failure": "data time and compute time are paid sequentially on every step, leaving expensive compute hardware idle",
+    "repair": "prepare the next batch while the current batch computes, using bounded prefetching and deterministic ordering"
+  },
+  "154": {
+    "attempt": "pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste",
+    "failure": "the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions",
+    "repair": "pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another"
+  },
+  "155": {
+    "attempt": "learn an unrelated vector for every absolute position and hope the model infers all relative distances from examples",
+    "failure": "moving the same phrase from positions 10–12 to 110–112 changes every position vector although the internal distances are unchanged",
+    "repair": "rotate pairs of query and key coordinates by a position-dependent angle so their dot product naturally depends on the angle difference"
+  },
+  "156": {
+    "attempt": "trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there",
+    "failure": "a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations",
+    "repair": "add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation"
+  },
+  "157": {
+    "attempt": "at step t, recompute keys and values for positions 1 through t because the prefix is presented again",
+    "failure": "past token representations are unchanged in causal decoding, so the same projections are calculated repeatedly while one new token is added",
+    "repair": "store each layer's past keys and values once, append only the new pair, and let the new query attend to the cache"
+  },
+  "158": {
+    "attempt": "preserve one complete KV cache for each query head because multi-head attention originally gave every head private projections",
+    "failure": "the caches grow with both sequence length and head count, and loading them dominates the arithmetic for one new token",
+    "repair": "keep many query heads but share one key head and one value head across them"
+  },
+  "159": {
+    "attempt": "return immediately to one KV head per query head",
+    "failure": "quality recovers, but so does the full cache and bandwidth cost that forced sharing",
+    "repair": "partition query heads into groups; queries remain distinct while each group shares one key-value head"
+  },
+  "160": {
+    "attempt": "reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost",
+    "failure": "approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them",
+    "repair": "tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once"
+  },
+  "161": {
+    "attempt": "delete normalization because each individual operation appears cheap",
+    "failure": "deep residual streams drift in scale and training destabilizes; the repeated control was doing essential work",
+    "repair": "keep rescaling invariance by dividing by root-mean-square magnitude, while testing whether explicit recentering is dispensable"
+  },
+  "162": {
+    "attempt": "keep post-normalization because each block's output then looks standardized before the next block",
+    "failure": "the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve",
+    "repair": "normalize only the input to the changing branch and let the identity stream pass around it unchanged"
+  },
+  "163": {
+    "attempt": "make the hidden layer merely wider and trust more coordinates to express every conditional interaction",
+    "failure": "width adds capacity but still asks one projection both to create content and decide when that content matters",
+    "repair": "create one content projection and one gate projection; use the smooth gate to scale content feature by feature"
+  },
+  "164": {
+    "attempt": "let both matrices learn independently because reading a token and predicting it are different jobs",
+    "failure": "the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places",
+    "repair": "reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias"
+  },
+  "165": {
+    "attempt": "use the same raw gradient step scale for every parameter",
+    "failure": "a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable",
+    "repair": "keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude"
+  },
+  "166": {
+    "attempt": "treat penalty gradients and data gradients identically because both appear in one total loss",
+    "failure": "coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate",
+    "repair": "apply Adam's adaptive data update and parameter decay as separate operations"
+  },
+  "167": {
+    "attempt": "discard the entire batch whenever any gradient coordinate looks large",
+    "failure": "useful directional evidence is lost, and one arbitrary coordinate threshold ignores the size of the full update vector",
+    "repair": "preserve the gradient's direction but scale its whole norm down only when it exceeds a chosen ceiling"
+  },
+  "168": {
+    "attempt": "convert every value and every update permanently to half precision",
+    "failure": "small updates disappear when rounded into large weights, and some intermediate values overflow or underflow the smaller numeric range",
+    "repair": "use reduced precision for bulk arithmetic while keeping selected master state and sensitive reductions in wider precision"
+  },
+  "169": {
+    "attempt": "increase the learning rate so small updates become visible",
+    "failure": "the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update",
+    "repair": "multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating"
+  },
+  "170": {
+    "attempt": "reduce the batch until it fits and change nothing else",
+    "failure": "the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together",
+    "repair": "run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step"
+  },
+  "171": {
+    "attempt": "delete all activations after the forward pass",
+    "failure": "backward computation then lacks the local values needed for its derivatives and would require rebuilding the entire prefix repeatedly",
+    "repair": "keep selected checkpoint activations and recompute the missing segments once when backward reaches them"
+  },
+  "172": {
+    "attempt": "add devices and replicate the full training state on each one",
+    "failure": "compute capacity grows while per-device model-state memory remains almost unchanged, so the same memory wall returns",
+    "repair": "partition optimizer states, gradients, and eventually parameters across data-parallel workers, gathering pieces only when computation needs them"
+  },
+  "173": {
+    "attempt": "assign whole layers to different devices and pass every activation through them sequentially",
+    "failure": "one oversized layer still cannot fit, and devices responsible for later layers wait while earlier ones work",
+    "repair": "split a matrix across its columns or rows, compute partial results concurrently, and communicate only the pieces needed to assemble the exact layer output"
+  },
+  "174": {
+    "attempt": "let a cheap draft model emit several tokens and return them directly",
+    "failure": "speed improves by silently replacing the trusted target distribution with a weaker model's distribution",
+    "repair": "let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling"
+  },
+  "175": {
+    "attempt": "enable every technique at once and celebrate if the program runs",
+    "failure": "when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries",
+    "repair": "assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains"
+  },
+  "176": {
+    "attempt": "copy every available text file into one large folder and begin tokenizing",
+    "failure": "a file is replaced upstream, another is silently skipped, and a third appears twice under different paths. The same training command now describes a different body of evidence",
+    "repair": "create an immutable manifest that records each source, version, content hash, license or usage basis, processing stage, and document count before any training shard exists"
+  },
+  "177": {
+    "attempt": "join every token sequence end to end and cut fixed-length training windows wherever the counter reaches the context width",
+    "failure": "a ranger report ending with “tiger tracks near” is trained to predict the first word of an unrelated software license. The model receives a relationship that never existed in either document",
+    "repair": "mark document ends, reset position where the design requires it, and block attention or loss across boundaries unless cross-document packing is explicitly intended"
+  },
+  "178": {
+    "attempt": "keep documents containing mostly familiar Latin characters and discard the rest",
+    "failure": "spanish and Vietnamese are mistaken for English, transliterated languages disappear, and English code or identifier lists pass despite containing little natural language",
+    "repair": "use a calibrated language classifier, retain its confidence and model version, and route uncertain documents to an explicit unknown bucket rather than forcing a label"
+  },
+  "179": {
+    "attempt": "leave duplicates in place because more training examples should always help",
+    "failure": "one press release copied to a thousand sites receives a thousand votes, while a rare field observation receives one. Compute is spent memorizing repetition rather than encountering new evidence",
+    "repair": "normalize only irrelevant formatting, hash the resulting document, and keep one accountable representative for each identical hash while preserving duplicate counts in the ledger"
+  },
+  "180": {
+    "attempt": "lowercase both documents and demand that every remaining word match",
+    "failure": "one inserted advertisement defeats the rule, while independently written short notices can match by accident. Exact sequence equality is too brittle for disguised copies",
+    "repair": "represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale"
+  },
+  "181": {
+    "attempt": "keep only documents that resemble one prestigious encyclopedia",
+    "failure": "the filter removes spam, but it also suppresses informal dialect, local knowledge, code, dialogue, and communities whose writing differs from the chosen reference",
+    "repair": "combine transparent structural signals with small controlled model-based tests, inspect what each threshold removes, and publish source-by-source retention counts before accepting a filter"
+  },
+  "182": {
+    "attempt": "save only the final cleaned text because intermediate metadata costs storage",
+    "failure": "a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it",
+    "repair": "assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard"
+  },
+  "183": {
+    "attempt": "remove any entire document containing a sequence that resembles personal information",
+    "failure": "one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span",
+    "repair": "detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision"
+  },
+  "184": {
+    "attempt": "concatenate every accepted source and let its raw token count determine how often it appears",
+    "failure": "the largest crawl silently becomes the curriculum. A source ten thousand times smaller may almost never reach a batch even when it carries relationships absent from the web",
+    "repair": "choose and publish a probability weight for each domain, treating the mixture as an explicit modeling decision that must be tested on per-domain validation streams"
+  },
+  "185": {
+    "attempt": "round each domain's desired share independently and concatenate the resulting blocks",
+    "failure": "independent rounding can exceed the budget, and long blocks make training order depend on domain. A small domain may vanish when its expected count rounds to zero",
+    "repair": "use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source"
+  },
+  "186": {
+    "attempt": "stop when the wall clock reaches an affordable date",
+    "failure": "faster hardware sees more tokens, interruptions see fewer, and two runs with the same calendar budget teach different amounts of evidence",
+    "repair": "define the run by optimization steps and real loss-bearing tokens per global batch, then derive the total token budget before reserving compute"
+  },
+  "187": {
+    "attempt": "spend nearly the entire budget on parameter count because a larger model can store more patterns",
+    "failure": "the large model is stopped after too little experience and remains undertrained, while much of its expensive capacity never receives enough varied evidence",
+    "repair": "estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone"
+  },
+  "188": {
+    "attempt": "begin immediately at the peak learning rate chosen for the stable middle of training",
+    "failure": "the first noisy batches can make large updates before the optimizer's scale estimates become trustworthy, producing a loss spike that the later stable rate would not have caused",
+    "repair": "increase the learning rate gradually from zero or a small value during a recorded warmup interval, then hand control to the main schedule"
+  },
+  "189": {
+    "attempt": "drop the rate abruptly near the end of training",
+    "failure": "a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning",
+    "repair": "decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state"
+  },
+  "190": {
+    "attempt": "make the global batch as large as the cluster permits",
+    "failure": "early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens",
+    "repair": "measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target"
+  },
+  "191": {
+    "attempt": "send the same mini-batch to every worker and average their gradients",
+    "failure": "all workers repeat the same computation and return the same evidence, so hardware cost rises without increasing batch diversity or reducing step time meaningfully",
+    "repair": "replicate the current model view, give each worker a different slice of the global batch, average their gradients, and apply one logically shared update"
+  },
+  "192": {
+    "attempt": "send one complete batch through stage one, then stage two, then stage three",
+    "failure": "while stage two works, stage one and stage three wait. The model fits, but most devices are idle for most of the step",
+    "repair": "split the batch into micro-batches and stagger them through the layer stages so different stages work on different micro-batches concurrently"
+  },
+  "193": {
+    "attempt": "increase whichever parallel technique was introduced most recently until the model fits",
+    "failure": "more pipeline stages increase bubbles, more tensor splits increase frequent communication, and more data replicas preserve full model memory. One axis cannot solve three different limits efficiently",
+    "repair": "compose tensor parallelism within layers, pipeline parallelism across layer groups, and data parallelism across independent batch replicas, choosing each degree from topology and measured cost"
+  },
+  "194": {
+    "attempt": "let every worker write its local tensors and call the directory a checkpoint",
+    "failure": "a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state",
+    "repair": "write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable"
+  },
+  "195": {
+    "attempt": "restore model weights and let every other component start fresh",
+    "failure": "adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run",
+    "repair": "checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps"
+  },
+  "196": {
+    "attempt": "declare any loss larger than the previous loss a failure and restore immediately",
+    "failure": "ordinary batches vary, so healthy learning triggers constant rollbacks. A slow divergence can rise without one dramatic step and escape the rule",
+    "repair": "compare current loss and gradient norm with robust running baselines, require persistence or corroborating signals, preserve the suspect batch, and recover from a verified clean checkpoint under a documented response"
+  },
+  "197": {
+    "attempt": "evaluate only the next training batch because it is already available",
+    "failure": "the same data mixture and duplicates that shaped the update also judge it. Training loss can fall while held-out language or a rare domain becomes worse",
+    "repair": "maintain versioned, deduplicated, contamination-checked validation streams by domain and evaluate them at recorded token intervals without using them to update weights"
+  },
+  "198": {
+    "attempt": "ask the model whether it remembers private text and trust its answer",
+    "failure": "a model has no reliable introspective inventory of its training examples, and ordinary prompts may miss strings that an adversarial sampling strategy can recover",
+    "repair": "plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts"
+  },
+  "199": {
+    "attempt": "publish the final benchmark table and assume the configuration files explain the rest",
+    "failure": "a score has no visible data lineage, uncertainty, subgroup behavior, energy or hardware context, incident history, or warning about uses the evaluation never tested",
+    "repair": "generate a training report from manifests and logs, then add human-reviewed explanations of intended use, out-of-scope use, limitations, incidents, provenance, evaluation conditions, and responsible release decisions"
+  },
+  "200": {
+    "attempt": "connect every tool into one automatic pipeline and trust any run that reaches the final stage",
+    "failure": "automation can faithfully repeat a wrong manifest, destructive filter, contaminated validation set, incomplete checkpoint, or unauthorized release. Completion is not evidence of correctness",
+    "repair": "assemble signed stage manifests, boundary-aware curation, audited mixtures, fixed budgets, measured schedules, distributed equivalence tests, atomic checkpoints, live validation, memorization probes, and human release gates into one reversible factory"
+  }
+}

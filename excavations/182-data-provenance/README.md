@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,48 +13,17 @@
 
 Quality filtering produces an accepted set and a rejected set. Without a trace through each transformation, neither set can explain how a source document reached its decision.
 
-The doors of the Archive Foundry close against the wind. On the chain-of-custody ledger, the archivist-engineer writes the cheapest rule that might still be true: save only the final cleaned text because intermediate metadata costs storage.
+A new case arrives at the Archive Foundry. Nothing yet demands a new invention, so the archivist-engineer uses the chain-of-custody ledger to save only the final cleaned text because intermediate metadata costs storage.
 
-Reality answers without terminology: a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it. The chain-of-custody ledger now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to save only the final cleaned text because intermediate metadata costs storage preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The archivist-engineer sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it.
 
-```text
-OLD PATH:  request ──▶ save only the final cleaned text… ──▶ a rights request, filtering bug, or…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ assign stable document identities and… ──▶ accountable result
-```
+The counterexample separates two questions that the attempt to save only the final cleaned text because intermediate metadata costs storage had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the chain-of-custody ledger fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The chain-of-custody ledger is divided down the middle. Left side: “save only the final cleaned text because intermediate metadata costs storage.” Its final mark records a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it. Right side: the same starting evidence, now allowed to assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard. The difference is narrow enough to see and important enough to change the ending.
+Only the broken responsibility needs to change. The method must now assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The broken rule has given data provenance a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard. The name **Data Provenance** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from data provenance through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we save only the final cleaned text because intermediate metadata costs storage?
-
-## When the chamber changes
-
-The Data Provenance chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The thread follows the tempting path—save only the final cleaned text because intermediate metadata costs storage. Then the evidence answers: a rights request, filtering bug, or benchmark contamination report arrives, but the final shard cannot be mapped back to the source record or processing rule that produced it.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The thread can now assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard.
-
-The object that should remain after the terminology disappears is **the data provenance thread mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Data Provenance**
->
-> Data Provenance keeps the missing power: assign stable document identities and record a lineage edge for every fetch, normalization, filter, redaction, deduplication group, and output shard.
-
-Give the idea a bodily path: Touch the data provenance thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Data Provenance**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Keep the Path Back to Every Source
 

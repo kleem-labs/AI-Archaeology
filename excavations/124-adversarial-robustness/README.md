@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,51 +13,17 @@
 
 Federated learning moves computation to distributed data. Model updates and inputs remain vulnerable to malicious or tiny perturbations that preserve human meaning while flipping machine behavior.
 
-Inside the Hall of Possible Worlds, every old tool is given one honest chance. The keeper of unfinished questions sets the table of mirrored maps between the evidence and the desired answer, then tries to test only natural clean examples.
+At the Hall of Possible Worlds, the keeper of unfinished questions meets the next case beside the table of mirrored maps. The nearest idea is also the most reasonable one: test only natural clean examples.
 
-The keeper of unfinished questions repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: an attacker follows the model’s sensitivity into a brittle direction. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To test only natural clean examples reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: an attacker follows the model’s sensitivity into a brittle direction.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   test only natural clean examples an attacker follows the model’s…
-            \        /
-             \      /
-              search for worst-case permitted…
-```
+The contradiction matters because it identifies a structural loss in the instruction to test only natural clean examples, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The table of mirrored maps will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the table of mirrored maps, the old path and the repaired path run side by side. One carries “test only natural clean examples”; the other knows how to search for worst-case permitted perturbations, train against them, and bound behavior where possible. When the failure—an attacker follows the model’s sensitivity into a brittle direction—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must search for worst-case permitted perturbations, train against them, and bound behavior where possible. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to adversarial robustness. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: search for worst-case permitted perturbations, train against them, and bound behavior where possible. This problem and its repair will travel under the name **Adversarial Robustness**, but the name carries no knowledge the scene has not earned.
-
-What changed on the table of mirrored maps can be said without symbols. Before, the method could only test only natural clean examples; now it can also search for worst-case permitted perturbations, train against them, and bound behavior where possible. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we test only natural clean examples?
-
-## When the chamber changes
-
-The mathematical name Adversarial Robustness can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The map follows the tempting path—test only natural clean examples. Then the evidence answers: an attacker follows the model’s sensitivity into a brittle direction.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The map can now search for worst-case permitted perturbations, train against them, and bound behavior where possible.
-
-The object that should remain after the terminology disappears is **the adversarial robustness map mounted on the table of mirrored maps**.
-
-> **Memory seal — Adversarial Robustness**
->
-> Adversarial Robustness keeps the missing power: search for worst-case permitted perturbations, train against them, and bound behavior where possible.
-
-Give the idea a bodily path: Touch the adversarial robustness map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Adversarial Robustness**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding adversarial robustness
 

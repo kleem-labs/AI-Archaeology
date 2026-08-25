@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,53 +13,17 @@
 
 Internal-feature analysis asks what distinctions a hidden layer already makes. A simple probe may decode “tiger” from that layer, but decodability does not prove the original model uses that information.
 
-At the Living Watchgarden, the field naturalist returns to the weathered observation slate. Yesterday's instrument still lies open, so the first move asks for no new magic: train a powerful classifier on hidden states and call any success evidence.
+At the Living Watchgarden, the field naturalist meets the next case beside the weathered observation slate. The nearest idea is also the most reasonable one: train a powerful classifier on hidden states and call any success evidence.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: the trouble appears immediately: the probe learns the task itself even if the representation did not make it simple. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To train a powerful classifier on hidden states and call any success evidence reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The field naturalist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the trouble appears immediately: the probe learns the task itself even if the representation did not make it simple.
 
-```text
-observation
-    │
-    ▼
-[train a powerful classifier on hidden…]
-    │
-    ╳  the trouble appears immediately: the…
-    │
-    ▼
-[use a deliberately limited probe and…]
-```
+The contradiction matters because it identifies a structural loss in the instruction to train a powerful classifier on hidden states and call any success evidence, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The weathered observation slate will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The field naturalist lays two translucent sheets over the weathered observation slate. The first is inscribed, “train a powerful classifier on hidden states and call any success evidence.” Its path ends where the trouble appears immediately: the probe learns the task itself even if the representation did not make it simple. The second receives the same evidence but is allowed to use a deliberately limited probe and compare layers, controls, and baselines. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must use a deliberately limited probe and compare layers, controls, and baselines. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a linear probes formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The field naturalist changes only that one responsibility: use a deliberately limited probe and compare layers, controls, and baselines. When the ink dries, the name **Linear Probes** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The weathered observation slate keeps both histories. Its older mark still says, ‘train a powerful classifier on hidden states and call any success evidence’; beside it, the newer mark says, ‘use a deliberately limited probe and compare layers, controls, and baselines.’ The distance between those sentences is the exact shape of linear probes: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
->
-> **The question carried into this chamber:** What fails if we train a powerful classifier on hidden states and call any success evidence?
-
-## When the chamber changes
-
-The Linear Probes chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The bell follows the tempting path—train a powerful classifier on hidden states and call any success evidence. Then the evidence answers: the trouble appears immediately: the probe learns the task itself even if the representation did not make it simple.
-
-Now let the chamber move: The field naturalist changes one moving part. The bell can now use a deliberately limited probe and compare layers, controls, and baselines.
-
-The object that should remain after the terminology disappears is **the linear probes bell mounted on the weathered observation slate**.
-
-> **Memory seal — Linear Probes**
->
-> Linear Probes keeps the missing power: use a deliberately limited probe and compare layers, controls, and baselines.
-
-Give the idea a bodily path: Touch the linear probes bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Linear Probes**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding linear probes
 

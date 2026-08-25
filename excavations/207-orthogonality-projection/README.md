@@ -3,20 +3,11 @@
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-<!-- mathematical-lineage-v1 -->
-> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Mathematical roots beneath the machine
 
-> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../../MATHEMATICAL_ROOTS.md#realm-2)
->
-> **Question waiting in this chamber:** What is the closest honest shadow of this track on the only rail our map allows?
->
-> **Do not take the answer yet:** first let the object fail.
 
 Eigenvectors expose directions preserved by a transformation. The vault now presents a simpler geometric failure: an observed arrow does not lie on the one-dimensional rail our model is allowed to use.
 
-The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **Orthogonality and Projection** has been covered so that only the unsolved situation remains.
+The stair toward Orthogonality and Projection opens into an older workshop, where the machine's abstraction returns to ordinary objects and human decisions.
 
 A tiger track points `[3,2]`, but the ranger's simplified map retains only the eastward rail `[1,0]`. We need the point on that rail that misrepresents the track as little as possible.
 
@@ -38,33 +29,17 @@ known tool ──tempts us──▶ first attempt
                            Orthogonality and Projection
 ```
 
-Now the reader can name the requirement before the textbook can name the method: we must choose the shadow whose leftover error is perpendicular to the allowed direction, because then no further movement along the rail can reduce the distance.
+The failed case reveals the missing requirement: we must choose the shadow whose leftover error is perpendicular to the allowed direction, because then no further movement along the rail can reduce the distance.
 
-This is the hinge of the Orthogonality and Projection excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
-
-## When the chamber changes
-
-Hold the failed picture still for one breath: An arbitrary shadow leaves an error that still runs partly along the rail, proving that some allowed information was unnecessarily discarded.
-
-Now let the scene move. Slide the shadow until the leftover error stands exactly perpendicular to the rail. No further allowed slide can make the disagreement smaller.
-
-The transformation is the discovery of Orthogonality and Projection made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Orthogonality and Projection into memory:
-
-> **Memory seal — Orthogonality and Projection**
->
-> Projection is the closest honest shadow an allowed space can keep.
-
-Make the memory bodily, not merely verbal: Drop one hand straight onto an imagined tabletop, forming a right angle with the discarded height.
-
-## Orthogonality and Projection on the stone workbench
-
-Project `[3,2]` onto east `[1,0]`. Their dot product is 3; east's dot product with itself is 1; the required scale is therefore 3. The shadow is `[3,0]`, leaving error `[0,2]`. That error has zero dot product with east, so every remaining disagreement points outside the allowed rail.
-
-The point of keeping the objects named while rebuilding Orthogonality and Projection is that each movement can still be challenged. We can ask what the tiger, track, state, model, or measurement contributes; we can change one value and watch the consequence travel. The calculation remains an experience before it becomes notation.
+The failure and repair now form one continuous argument for Orthogonality and Projection: this idea earns its place by preserving exactly what the earlier action lost.
 
 ## The calculation hidden inside orthogonality and projection
 
-Return to the named Orthogonality and Projection scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for orthogonality and projection will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Orthogonality and Projection against the named case
+
+Project `[3,2]` onto east `[1,0]`. Their dot product is 3; east's dot product with itself is 1; the required scale is therefore 3. The shadow is `[3,0]`, leaving error `[0,2]`. That error has zero dot product with east, so every remaining disagreement points outside the allowed rail.
 
 ### Naming what is already on the table
 
@@ -74,33 +49,23 @@ Return to the named Orthogonality and Projection scene above. The ranger, model,
 
 [The dot product](../../MATHEMATICAL_MOVES.md#dot-product) measures directional agreement. [Division](../../MATHEMATICAL_MOVES.md#division) removes dependence on the chosen length of u, and [multiplication](../../MATHEMATICAL_MOVES.md#multiplication) rebuilds the shadow in the allowed direction. Using raw v·u alone would change the answer if the same rail were described by a longer basis arrow.
 
-The operations inside Orthogonality and Projection form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by orthogonality and projection now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 \mathrm{proj}_{\mathbf u}(\mathbf v)=\frac{\mathbf v\cdot\mathbf u}{\mathbf u\cdot\mathbf u}\mathbf u
 $$
 
-Read the Orthogonality and Projection line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
-
 ## A real-world echo
 
 A sundial's shadow is not the object, but under a fixed light it is the closest information the ground plane can retain.
 
-That echo helps Orthogonality and Projection remain relational in memory. When the same job appears inside a dataset, a Transformer, a laboratory measurement, or an ordinary decision, the operation should feel like a familiar tool rather than an arbitrary sign.
-
-## What this chamber was connected to
+## What this unlocks elsewhere
 
 Linear probes project hidden states onto readable directions; least squares projects observations into a model subspace; attention projects embeddings into query, key, and value spaces.
 
-The older excavation and this Orthogonality and Projection chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
-
-Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Orthogonality and Projection occupies one necessary step in that motion. Its object, **a lantern, a tiger track, and one polished rail**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
-
 ## Where the promise of orthogonality and projection breaks
 
-Projection handles one chosen subspace. For an arbitrary rectangular matrix, we still need to discover the paired input and output directions that carry most of its action.
-
-The boundary belongs beside the discovery of Orthogonality and Projection because usefulness depends on assumptions. A formula remembered without its failure conditions becomes a spell; a formula remembered with them becomes an instrument.
+Projection handles one chosen subspace, but it does not discover which subspace matters. For an arbitrary rectangular matrix, we still need paired input and output directions that preserve most of its action.
 
 ## Rebuild the discovery in the laboratory
 

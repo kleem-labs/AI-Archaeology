@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -15,49 +17,17 @@
 
 Causal interventions turn interpretation into an experiment. The field system can now inspect language reasoning, but its users also need it to understand the camera's raw grid of colored light.
 
-Inside the Glass Menagerie, every old tool is given one honest chance. The maker of seeing-machines sets the wall of illuminated tiles between the evidence and the desired answer, then tries to assign one label to the entire raw byte sequence.
+At the Glass Menagerie, the maker of seeing-machines meets the next case beside the wall of illuminated tiles. The nearest idea is also the most reasonable one: assign one label to the entire raw byte sequence.
 
-The maker of seeing-machines repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: a one-pixel shift changes thousands of byte positions although the same tiger remains. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To assign one label to the entire raw byte sequence reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The maker of seeing-machines sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: a one-pixel shift changes thousands of byte positions although the same tiger remains.
 
-```text
-reference evidence ──▶ shortcut: assign one label to the entire raw…
-                         │
-                         └── mismatch: a one-pixel shift changes thousands…
+The contradiction matters because it identifies a structural loss in the instruction to assign one label to the entire raw byte sequence, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The wall of illuminated tiles will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: preserve local spatial arrangement…
-```
+The repair can now be kept narrow. The new method must preserve local spatial arrangement and compare nearby color measurements. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-Across the wall of illuminated tiles, the old path and the repaired path run side by side. One carries “assign one label to the entire raw byte sequence”; the other knows how to preserve local spatial arrangement and compare nearby color measurements. When the failure—a one-pixel shift changes thousands of byte positions although the same tiger remains—arrives, only one path still possesses a place to record the missing distinction.
-
-The failure is no longer an embarrassment to pixels. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: preserve local spatial arrangement and compare nearby color measurements. This problem and its repair will travel under the name **Pixels**, but the name carries no knowledge the scene has not earned.
-
-What changed on the wall of illuminated tiles can be said without symbols. Before, the method could only assign one label to the entire raw byte sequence; now it can also preserve local spatial arrangement and compare nearby color measurements. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it. The Glass Menagerie returns to the valley's geometry at a finer scale. pixels asks which nearby lights belong together, how small patterns compose into larger ones, and which transformations preserve identity while appearance changes. Seeing is measurement arranged across space.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
->
-> **The question carried into this chamber:** What fails if we assign one label to the entire raw byte sequence?
-
-## When the chamber changes
-
-Keep the formal name Pixels covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The map follows the tempting path—assign one label to the entire raw byte sequence. Then the evidence answers: a one-pixel shift changes thousands of byte positions although the same tiger remains.
-
-Now let the chamber move: The maker of seeing-machines changes one moving part. The map can now preserve local spatial arrangement and compare nearby color measurements.
-
-The object that should remain after the terminology disappears is **the pixels map mounted on the wall of illuminated tiles**.
-
-> **Memory seal — Pixels**
->
-> Pixels keeps the missing power: preserve local spatial arrangement and compare nearby color measurements.
-
-Give the idea a bodily path: Touch the pixels map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Pixels**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Turning Light into Numbers
 

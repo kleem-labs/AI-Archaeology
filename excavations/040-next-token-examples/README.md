@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,51 +13,17 @@
 
 Causal masking prevents the learner from reading future answers. The model still needs to turn one sentence into all the honest prediction questions hidden inside it.
 
-At the Clockwork Scriptorium, the mechanist returns to the sentence-wheel. Yesterday's instrument still lies open, so the first move asks for no new magic: treat an entire sentence as one training example with one answer.
+At the Clockwork Scriptorium, the mechanist meets the next case beside the sentence-wheel. The nearest idea is also the most reasonable one: treat an entire sentence as one training example with one answer.
 
-The mechanist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: most of its transitions provide no learning signal. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To treat an entire sentence as one training example with one answer reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The mechanist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: most of its transitions provide no learning signal.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   treat an entire sentence as one… most of its transitions provide no…
-            \        /
-             \      /
-              shift the sequence by one position so…
-```
+The contradiction matters because it identifies a structural loss in the instruction to treat an entire sentence as one training example with one answer, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The sentence-wheel will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the sentence-wheel, the old path and the repaired path run side by side. One carries “treat an entire sentence as one training example with one answer”; the other knows how to shift the sequence by one position so every visible prefix predicts the token immediately following it. When the failure—most of its transitions provide no learning signal—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must shift the sequence by one position so every visible prefix predicts the token immediately following it. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to next-token examples. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: shift the sequence by one position so every visible prefix predicts the token immediately following it. This problem and its repair will travel under the name **Next-Token Examples**, but the name carries no knowledge the scene has not earned.
-
-What changed on the sentence-wheel can be said without symbols. Before, the method could only treat an entire sentence as one training example with one answer; now it can also shift the sequence by one position so every visible prefix predicts the token immediately following it. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we treat an entire sentence as one training example with one answer?
-
-## When the chamber changes
-
-The Next-Token Examples room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The bell follows the tempting path—treat an entire sentence as one training example with one answer. Then the evidence answers: most of its transitions provide no learning signal.
-
-Now let the chamber move: The mechanist changes one moving part. The bell can now shift the sequence by one position so every visible prefix predicts the token immediately following it.
-
-The object that should remain after the terminology disappears is **the next-token examples bell mounted on the sentence-wheel**.
-
-> **Memory seal — Next-Token Examples**
->
-> Next-Token Examples keeps the missing power: shift the sequence by one position so every visible prefix predicts the token immediately following it.
-
-Give the idea a bodily path: Touch the next-token examples bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Next-Token Examples**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## The calculation hidden inside next-token examples
 
@@ -77,7 +45,7 @@ The shared length lets one forward pass create a supervised lesson at every posi
 [Parentheses](../../MATHEMATICAL_MOVES.md#brackets) keep each ordered token sequence intact; summing the tokens would destroy both identity and order.
 [The shifted indices](../../MATHEMATICAL_MOVES.md#indices) remove the final token from inputs and the first token from targets, so target position i is exactly the next token after input position i.
 
-Cover the prose about next-token examples and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming next-token examples equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 x=(t_0,\ldots,t_{n-1})

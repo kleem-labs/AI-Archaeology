@@ -316,7 +316,7 @@ MOTIF_FRAMES = (
     "Inside {concept}, familiar operations return with stricter duties: {motifs}. The metaphor is useful only as long as it predicts what the operation will do in the worked case.",
     "Trace each operation by touch rather than by name: {motifs}. Together they form the smallest mechanism that survives the counterexample.",
     "The mandala has curved back upon itself. In this chamber we meet {motifs}. What seemed like a new formula is older mathematical instinct arranged around a new need.",
-    "Before the line is compressed, notice its recurring motions: {motifs}. They are the handholds by which the reader can later climb back from notation to meaning.",
+    "The calculation reuses familiar motions: {motifs}. Together they keep the path from the concrete case to notation intact.",
 )
 
 
@@ -411,7 +411,7 @@ def polish(text: str, number: int, concept: str) -> str:
         f"The {keeper} reads the journey of {inline_concept.lower()} once more across the {object_name}, then lets the words contract without losing their order:",
         f"Nothing remains unnamed in the {inline_concept.lower()} case on the {object_name}. We can finally trade the long route for its compact map:",
         f"The story of {inline_concept.lower()} has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:",
-        f"Cover the prose about {inline_concept.lower()} and each mark can still be recovered from the case. Only now is the compressed form safe to write:",
+        f"Every mark in the coming {inline_concept.lower()} equation now belongs to a visible part of the case. The compressed form is:",
         f"The {object_name} already contains the complete {inline_concept.lower()} mechanism. Mathematics gives that mechanism a form small enough to carry:",
     )
     equation_reveal = equation_reveals[number % len(equation_reveals)]

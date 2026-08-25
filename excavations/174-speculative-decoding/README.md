@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,49 +13,17 @@
 
 Tensor parallelism makes one target-model step possible, but autoregressive dependence still serializes token generation.
 
-The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: let a cheap draft model emit several tokens and return them directly.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to let a cheap draft model emit several tokens and return them directly.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: speed improves by silently replacing the trusted target distribution with a weaker model's distribution. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to let a cheap draft model emit several tokens and return them directly preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: speed improves by silently replacing the trusted target distribution with a weaker model's distribution.
 
-```text
-reference evidence ──▶ shortcut: let a cheap draft model emit several…
-                         │
-                         └── mismatch: speed improves by silently replacing…
+The counterexample separates two questions that the attempt to let a cheap draft model emit several tokens and return them directly had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-reference evidence ──▶ measured repair: let the draft propose a short…
-```
+Only the broken responsibility needs to change. The method must now let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “let a cheap draft model emit several tokens and return them directly.” Its path ends where speed improves by silently replacing the trusted target distribution with a weaker model's distribution. The second receives the same evidence but is allowed to let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a speculative decoding formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The enginewright changes only that one responsibility: let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. When the ink dries, the name **Speculative Decoding** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because speed improves by silently replacing the trusted target distribution with a weaker model's distribution, while the other can let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling. That fork—not the vocabulary—is where speculative decoding lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we let a cheap draft model emit several tokens and return them directly?
-
-## When the chamber changes
-
-The mathematical name Speculative Decoding can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The gear follows the tempting path—let a cheap draft model emit several tokens and return them directly. Then the evidence answers: speed improves by silently replacing the trusted target distribution with a weaker model's distribution.
-
-Now let the chamber move: The enginewright changes one moving part. The gear can now let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling.
-
-The object that should remain after the terminology disappears is **the speculative decoding gear mounted on the brass reference machine**.
-
-> **Memory seal — Speculative Decoding**
->
-> Speculative Decoding keeps the missing power: let the draft propose a short continuation, score all proposed positions with the target in parallel, and accept only according to a correction rule that preserves target sampling.
-
-Give the idea a bodily path: Touch the speculative decoding gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Speculative Decoding**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Let a Small Model Propose, Never Decide
 

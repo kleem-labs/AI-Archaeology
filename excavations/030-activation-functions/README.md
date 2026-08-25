@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,48 +13,17 @@
 
 Careful initialization keeps early signals alive and breaks symmetry. But a tower made only from linear transformations still collapses algebraically into one linear transformation, no matter how many layers we stack.
 
-The doors of the Lantern Observatory close against the wind. On the ring of glass lanterns, the keeper of uncertain stories writes the cheapest rule that might still be true: add more linear layers.
+A new case arrives at the Lantern Observatory. Nothing yet demands a new invention, so the keeper of uncertain stories uses the ring of glass lanterns to add more linear layers.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to add more linear layers preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
 
-```text
-OLD PATH:  request ──▶ add more linear layers ──▶ depth increases, but expressive power…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ place an activation after a linear… ──▶ accountable result
-```
+The counterexample separates two questions that the attempt to add more linear layers had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the ring of glass lanterns fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The keeper of uncertain stories lays two translucent sheets over the ring of glass lanterns. The first is inscribed, “add more linear layers.” Its path ends where depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient. The second receives the same evidence but is allowed to place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. Held to the light, the sheets separate at exactly one decision.
+Only the broken responsibility needs to change. The method must now place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-No one reaches for a activation functions formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The keeper of uncertain stories changes only that one responsibility: place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. When the ink dries, the name **Activation Functions** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient, while the other can place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. That fork—not the vocabulary—is where activation functions lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** Why a Network Must Bend?
-
-## When the chamber changes
-
-The Activation Functions room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The gear follows the tempting path—add more linear layers. Then the evidence answers: depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The gear can now place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.
-
-The object that should remain after the terminology disappears is **the activation functions gear mounted on the ring of glass lanterns**.
-
-> **Memory seal — Activation Functions**
->
-> Activation Functions keeps the missing power: place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.
-
-Give the idea a bodily path: Touch the activation functions gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Activation Functions**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## The calculation hidden inside activation functions
 

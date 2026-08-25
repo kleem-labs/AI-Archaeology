@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,49 +13,17 @@
 
 The input pipeline now keeps the device busy. Inspection shows that many of the tokens occupying each fixed rectangle are padding rather than language.
 
-The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste.
 
-The enginewright repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ pad every sentence to the longest… ──▶ blurred: the loss ignores padding, but…
-      │
-      └── new lens ──▶ pack several short examples into each… ──▶ distinction survives
-```
+The counterexample separates two questions that the attempt to pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the brass reference machine, the old path and the repaired path run side by side. One carries “pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste”; the other knows how to pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another. When the failure—the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to sequence packing. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another. This problem and its repair will travel under the name **Sequence Packing**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste? The answer remains the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste?
-
-## When the chamber changes
-
-The mathematical name Sequence Packing can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The gate follows the tempting path—pad every sentence to the longest sentence in its batch and trust the loss mask to ignore the waste. Then the evidence answers: the loss ignores padding, but attention and matrix multiplication still spend time and memory carrying those empty positions.
-
-Now let the chamber move: The enginewright changes one moving part. The gate can now pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another.
-
-The object that should remain after the terminology disappears is **the sequence packing gate mounted on the brass reference machine**.
-
-> **Memory seal — Sequence Packing**
->
-> Sequence Packing keeps the missing power: pack several short examples into each fixed-length row and mask their boundaries so examples cannot read one another.
-
-Give the idea a bodily path: Touch the sequence packing gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Sequence Packing**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Stop Training on Empty Space
 
@@ -73,7 +43,7 @@ The numerator counts language tokens that create lessons; the denominator counts
 
 Three old motions cast new shadows here: **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
 
-Cover the prose about sequence packing and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming sequence packing equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \eta_{\text{pack}}=\frac{N_{\text{real tokens}}}{N_{\text{allocated positions}}}

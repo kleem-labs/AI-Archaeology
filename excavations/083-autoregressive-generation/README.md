@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,56 +13,17 @@
 
 A meaningful latent space gives images coordinates we can navigate. To create a new image, the system still needs a procedure that turns an uncertain starting state into a complete arrangement of pixels.
 
-Night gathers around the Glass Menagerie. Under the light of the wall of illuminated tiles, the maker of seeing-machines refuses to invent prematurely and begins with the plain rule: predict all pixels independently.
+Inside the Glass Menagerie, the old method is given an honest chance. The maker of seeing-machines places the evidence on the wall of illuminated tiles and tries to predict all pixels independently.
 
-At the edge of the wall of illuminated tiles, the shortcut produces its consequence: independent pixels produce noise because neighboring colors and shapes constrain one another. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To predict all pixels independently is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The maker of seeing-machines sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: independent pixels produce noise because neighboring colors and shapes constrain one another.
 
-```text
-observation
-    │
-    ▼
-[predict all pixels independently]
-    │
-    ╳  independent pixels produce noise…
-    │
-    ▼
-[we need to choose an order and…]
-```
+The important discovery is not merely that trying to predict all pixels independently failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the wall of illuminated tiles, so success cannot be manufactured by quietly replacing the original question.
 
-The maker of seeing-machines covers the new mark and the old contradiction returns: independent pixels produce noise because neighboring colors and shapes constrain one another. The cover is lifted, restoring the ability to choose an order and predict each piece from previously generated pieces, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason autoregressive generation beyond text exists.
+The old construction is therefore not discarded. It is widened just enough to choose an order and predict each piece from previously generated pieces. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-What must change for autoregressive generation beyond text is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to choose an order and predict each piece from previously generated pieces. That threshold is where **Autoregressive Generation Beyond Text** enters the story.
-
-The marks on the wall of illuminated tiles form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. autoregressive generation beyond text is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-
-Before leaving the wall of illuminated tiles, the maker of seeing-machines tests the new idea backward. Remove the ability to choose an order and predict each piece from previously generated pieces, and the method falls back to this tempting instruction: predict all pixels independently. The old consequence returns—independent pixels produce noise because neighboring colors and shapes constrain one another. Restore the missing ability and that particular contradiction disappears. This reversible test is why autoregressive generation beyond text belongs to the growing structure rather than to a list of facts to memorize.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
->
-> **The question carried into this chamber:** What fails if we predict all pixels independently?
-
-## When the chamber changes
-
-Before leaving Autoregressive Generation Beyond Text, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The lantern follows the tempting path—predict all pixels independently. Then the evidence answers: independent pixels produce noise because neighboring colors and shapes constrain one another.
-
-Now let the chamber move: The maker of seeing-machines changes one moving part. The lantern can now choose an order and predict each piece from previously generated pieces.
-
-The object that should remain after the terminology disappears is **the autoregressive generation beyond text lantern mounted on the wall of illuminated tiles**.
-
-> **Memory seal — Autoregressive Generation Beyond Text**
->
-> Autoregressive Generation Beyond Text keeps the missing power: choose an order and predict each piece from previously generated pieces.
-
-Give the idea a bodily path: Touch the autoregressive generation beyond text lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Autoregressive Generation Beyond Text**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding autoregressive generation beyond text
 

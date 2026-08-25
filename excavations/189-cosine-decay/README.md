@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Warmup protects the optimizer's first steps. Keeping the peak rate for the entire token budget makes late updates as aggressive as early ones even when the model is refining rather than discovering broad structure.
 
-A new case arrives at the Archive Foundry, but the archivist-engineer first reaches for the familiar chain-of-custody ledger. Its promise is simple: drop the rate abruptly near the end of training.
+The previous discovery reaches the Archive Foundry carrying one unfinished problem. Beside the chain-of-custody ledger, the archivist-engineer first tries to drop the rate abruptly near the end of training.
 
-Then the quiet test arrives: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we drop the rate abruptly near the end of training, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The archivist-engineer sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ drop the rate abruptly near the end… ──▶ blurred: a sudden cliff changes update scale…
-      │
-      └── new lens ──▶ decay smoothly from the peak toward a… ──▶ distinction survives
-```
+This failure cannot be repaired by performing the instruction to drop the rate abruptly near the end of training more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the chain-of-custody ledger; otherwise a changed answer could be mistaken for an explanation.
 
-The archivist-engineer turns the chain-of-custody ledger toward the light. Through the old engraving, drop the rate abruptly near the end of training, the evidence ends in the same contradiction: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning. A second engraving adds only the power to decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The archivist-engineer circles the place where the two cosine decay cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. The archivist-engineer writes **Cosine Decay** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The archivist-engineer does not memorize cosine decay. Instead, the archivist-engineer memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we drop the rate abruptly near the end of training?
-
-## When the chamber changes
-
-The mathematical name Cosine Decay can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The scale follows the tempting path—drop the rate abruptly near the end of training. Then the evidence answers: a sudden cliff changes update scale in one step and makes the chosen drop date an arbitrary discontinuity; dropping too early freezes useful learning.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The scale can now decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state.
-
-The object that should remain after the terminology disappears is **the cosine decay scale mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Cosine Decay**
->
-> Cosine Decay keeps the missing power: decay smoothly from the peak toward a chosen minimum over the remaining horizon, while recording the schedule as part of the resumable state.
-
-Give the idea a bodily path: Touch the cosine decay scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Cosine Decay**. The name is simply a handle for the distinction already reconstructed.
 
 ## Make Late Corrections Smaller Without a Cliff
 

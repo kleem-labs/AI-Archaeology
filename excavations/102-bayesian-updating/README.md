@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,49 +13,17 @@
 
 Separating uncertainty in the observation from uncertainty in the model's knowledge tells us what kind of ignorance we face. New evidence must then revise several plausible stories without erasing what was believed before it arrived.
 
-The doors of the Hall of Possible Worlds close against the wind. On the table of mirrored maps, the keeper of unfinished questions writes the cheapest rule that might still be true: discard the old belief and use only the newest clue.
+A new case arrives at the Hall of Possible Worlds. Nothing yet demands a new invention, so the keeper of unfinished questions uses the table of mirrored maps to discard the old belief and use only the newest clue.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: the trouble appears immediately: one noisy footprint can overpower years of evidence. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to discard the old belief and use only the newest clue preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the trouble appears immediately: one noisy footprint can overpower years of evidence.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ discard the old belief and use only… ──▶ blurred: the trouble appears immediately: one…
-      │
-      └── new lens ──▶ combine prior plausibility with how… ──▶ distinction survives
-```
+The counterexample separates two questions that the attempt to discard the old belief and use only the newest clue had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the table of mirrored maps fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The keeper of unfinished questions lays two translucent sheets over the table of mirrored maps. The first is inscribed, “discard the old belief and use only the newest clue.” Its path ends where the trouble appears immediately: one noisy footprint can overpower years of evidence. The second receives the same evidence but is allowed to combine prior plausibility with how expected the clue is under each story, then normalize across stories. Held to the light, the sheets separate at exactly one decision.
+Only the broken responsibility needs to change. The method must now combine prior plausibility with how expected the clue is under each story, then normalize across stories. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-No one reaches for a bayesian updating formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The keeper of unfinished questions changes only that one responsibility: combine prior plausibility with how expected the clue is under each story, then normalize across stories. When the ink dries, the name **Bayesian Updating** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because the trouble appears immediately: one noisy footprint can overpower years of evidence, while the other can combine prior plausibility with how expected the clue is under each story, then normalize across stories. That fork—not the vocabulary—is where bayesian updating lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we discard the old belief and use only the newest clue?
-
-## When the chamber changes
-
-The Bayesian Updating chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The thread follows the tempting path—discard the old belief and use only the newest clue. Then the evidence answers: the trouble appears immediately: one noisy footprint can overpower years of evidence.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The thread can now combine prior plausibility with how expected the clue is under each story, then normalize across stories.
-
-The object that should remain after the terminology disappears is **the bayesian updating thread mounted on the table of mirrored maps**.
-
-> **Memory seal — Bayesian Updating**
->
-> Bayesian Updating keeps the missing power: combine prior plausibility with how expected the clue is under each story, then normalize across stories.
-
-Give the idea a bodily path: Touch the bayesian updating thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Bayesian Updating**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Understanding bayesian updating
 

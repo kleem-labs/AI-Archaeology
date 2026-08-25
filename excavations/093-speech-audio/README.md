@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,52 +13,17 @@
 
 Contrastive learning creates that relative competition. Sound introduces another modality whose pressure waveform is long, continuous, and shifted in time even when a listener hears the same event.
 
-A new case arrives at the Road of Consequences, but the expedition leader first reaches for the familiar map of branching journeys. Its promise is simple: treat every raw sample as an independent token.
+The previous discovery reaches the Road of Consequences carrying one unfinished problem. Beside the map of branching journeys, the expedition leader first tries to treat every raw sample as an independent token.
 
-Then the quiet test arrives: sequences are huge and local frequency structure is hidden. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we treat every raw sample as an independent token, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The expedition leader sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: sequences are huge and local frequency structure is hidden.
 
-```text
-reference evidence ──▶ shortcut: treat every raw sample as an…
-                         │
-                         └── mismatch: sequences are huge and local…
+This failure cannot be repaired by performing the instruction to treat every raw sample as an independent token more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the map of branching journeys; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: transform short windows into…
-```
+The evidence has earned one extension and no more. We need to transform short windows into time-frequency features, then model their sequence. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The expedition leader turns the map of branching journeys toward the light. Through the old engraving, treat every raw sample as an independent token, the evidence ends in the same contradiction: sequences are huge and local frequency structure is hidden. A second engraving adds only the power to transform short windows into time-frequency features, then model their sequence. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
-
-The expedition leader circles the place where the two speech and audio cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: transform short windows into time-frequency features, then model their sequence. The expedition leader writes **Speech and Audio** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The expedition leader does not memorize speech and audio. Instead, the expedition leader memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can transform short windows into time-frequency features, then model their sequence. The formal name merely lets that motion be shared.
-
-
-Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to transform short windows into time-frequency features, then model their sequence, and the method falls back to this tempting instruction: treat every raw sample as an independent token. The old consequence returns—sequences are huge and local frequency structure is hidden. Restore the missing ability and that particular contradiction disappears. This reversible test is why speech and audio belongs to the growing structure rather than to a list of facts to memorize.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
->
-> **The question carried into this chamber:** What fails if we treat every raw sample as an independent token?
-
-## When the chamber changes
-
-Before leaving Speech and Audio, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The scale follows the tempting path—treat every raw sample as an independent token. Then the evidence answers: sequences are huge and local frequency structure is hidden.
-
-Now let the chamber move: The expedition leader changes one moving part. The scale can now transform short windows into time-frequency features, then model their sequence.
-
-The object that should remain after the terminology disappears is **the speech and audio scale mounted on the map of branching journeys**.
-
-> **Memory seal — Speech and Audio**
->
-> Speech and Audio keeps the missing power: transform short windows into time-frequency features, then model their sequence.
-
-Give the idea a bodily path: Touch the speech and audio scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Speech and Audio**. The name is simply a handle for the distinction already reconstructed.
 
 ## Understanding speech and audio
 

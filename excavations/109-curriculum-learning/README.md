@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,49 +13,17 @@
 
 Meta-learning shapes that adaptation procedure. Its success depends on which tasks and difficulties the learner encounters first; a hostile order can make useful structure unnecessarily hard to discover.
 
-A new case arrives at the Hall of Possible Worlds, but the keeper of unfinished questions first reaches for the familiar table of mirrored maps. Its promise is simple: shuffle all examples uniformly from the beginning.
+The previous discovery reaches the Hall of Possible Worlds carrying one unfinished problem. Beside the table of mirrored maps, the keeper of unfinished questions first tries to shuffle all examples uniformly from the beginning.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: early gradients from unsolved complex cases are noisy and provide little structure. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we shuffle all examples uniformly from the beginning, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: early gradients from unsolved complex cases are noisy and provide little structure.
 
-```text
-possible road A ─┐
-                 ├── old map: shuffle all examples uniformly from…
-possible road B ─┘              └── loses: early gradients from unsolved complex…
+This failure cannot be repaired by performing the instruction to shuffle all examples uniformly from the beginning more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the table of mirrored maps; otherwise a changed answer could be mistaken for an explanation.
 
-same roads ──▶ repaired map ──▶ order or weight examples so mastered…
-```
+The evidence has earned one extension and no more. We need to order or weight examples so mastered foundations support harder cases, while revisiting earlier skills. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-Two trails now cross the table of mirrored maps. The pale trail bears the instruction “shuffle all examples uniformly from the beginning.” It disappears into the observed failure: early gradients from unsolved complex cases are noisy and provide little structure. The darker trail carries one additional capacity—to order or weight examples so mastered foundations support harder cases, while revisiting earlier skills. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed curriculum learning mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the table of mirrored maps is altered in exactly one way: order or weight examples so mastered foundations support harder cases, while revisiting earlier skills. Much later, people will call this territory **Curriculum Learning**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the table of mirrored maps. The failed path remains visible beneath the repair, because curriculum learning is easier to remember when its scar remains attached to it. The scar reads, ‘early gradients from unsolved complex cases are noisy and provide little structure’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we shuffle all examples uniformly from the beginning?
-
-## When the chamber changes
-
-The mathematical name Curriculum Learning can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The scale follows the tempting path—shuffle all examples uniformly from the beginning. Then the evidence answers: early gradients from unsolved complex cases are noisy and provide little structure.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The scale can now order or weight examples so mastered foundations support harder cases, while revisiting earlier skills.
-
-The object that should remain after the terminology disappears is **the curriculum learning scale mounted on the table of mirrored maps**.
-
-> **Memory seal — Curriculum Learning**
->
-> Curriculum Learning keeps the missing power: order or weight examples so mastered foundations support harder cases, while revisiting earlier skills.
-
-Give the idea a bodily path: Touch the curriculum learning scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Curriculum Learning**. The name is simply a handle for the distinction already reconstructed.
 
 ## Understanding curriculum learning
 

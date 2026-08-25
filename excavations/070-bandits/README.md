@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,52 +13,17 @@
 
 Controlled experiments isolate causal effects by holding alternatives steady. In a live recommender, withholding every uncertain choice until a long experiment ends sacrifices opportunities to learn while serving users.
 
-The doors of the Living Watchgarden close against the wind. On the weathered observation slate, the field naturalist writes the cheapest rule that might still be true: always choose the currently best option.
+A new case arrives at the Living Watchgarden. Nothing yet demands a new invention, so the field naturalist uses the weathered observation slate to always choose the currently best option.
 
-The field naturalist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: an unlucky first result permanently hides a better alternative. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to always choose the currently best option preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The field naturalist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: an unlucky first result permanently hides a better alternative.
 
-```text
-possible road A ─┐
-                 ├── old map: always choose the currently best…
-possible road B ─┘              └── loses: an unlucky first result permanently…
+The counterexample separates two questions that the attempt to always choose the currently best option had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the weathered observation slate fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-same roads ──▶ repaired map ──▶ reserve some choices for exploration…
-```
+Only the broken responsibility needs to change. The method must now reserve some choices for exploration while exploiting accumulated evidence. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-Across the weathered observation slate, the old path and the repaired path run side by side. One carries “always choose the currently best option”; the other knows how to reserve some choices for exploration while exploiting accumulated evidence. When the failure—an unlucky first result permanently hides a better alternative—arrives, only one path still possesses a place to record the missing distinction.
-
-The failure is no longer an embarrassment to bandits. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: reserve some choices for exploration while exploiting accumulated evidence. This problem and its repair will travel under the name **Bandits**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—always choose the currently best option? The answer remains an unlucky first result permanently hides a better alternative. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-
-Before leaving the weathered observation slate, the field naturalist tests the new idea backward. Remove the ability to reserve some choices for exploration while exploiting accumulated evidence, and the method falls back to this tempting instruction: always choose the currently best option. The old consequence returns—an unlucky first result permanently hides a better alternative. Restore the missing ability and that particular contradiction disappears. This reversible test is why bandits belongs to the growing structure rather than to a list of facts to memorize.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
->
-> **The question carried into this chamber:** What fails if we always choose the currently best option?
-
-## When the chamber changes
-
-The Bandits room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The thread follows the tempting path—always choose the currently best option. Then the evidence answers: an unlucky first result permanently hides a better alternative.
-
-Now let the chamber move: The field naturalist changes one moving part. The thread can now reserve some choices for exploration while exploiting accumulated evidence.
-
-The object that should remain after the terminology disappears is **the bandits thread mounted on the weathered observation slate**.
-
-> **Memory seal — Bandits**
->
-> Bandits keeps the missing power: reserve some choices for exploration while exploiting accumulated evidence.
-
-Give the idea a bodily path: Touch the bandits thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Bandits**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Learning While Choosing
 

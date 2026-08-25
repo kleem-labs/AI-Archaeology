@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,49 +13,17 @@
 
 Tokenization gives the machine repeatable pieces and assigns each piece an address. An address distinguishes tokens but says nothing about how their meanings should begin.
 
-A new case arrives at the Clockwork Scriptorium, but the mechanist first reaches for the familiar sentence-wheel. Its promise is simple: feed token IDs directly into the network.
+The previous discovery reaches the Clockwork Scriptorium carrying one unfinished problem. Beside the sentence-wheel, the mechanist first tries to feed token IDs directly into the network.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we feed token IDs directly into the network, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The mechanist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
 
-```text
-possible road A ─┐
-                 ├── old map: feed token IDs directly into the…
-possible road B ─┘              └── loses: since 417 is larger than 92,…
+This failure cannot be repaired by performing the instruction to feed token IDs directly into the network more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sentence-wheel; otherwise a changed answer could be mistaken for an explanation.
 
-same roads ──▶ repaired map ──▶ give every vocabulary item a one-hot…
-```
+The evidence has earned one extension and no more. We need to give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-Two trails now cross the sentence-wheel. The pale trail bears the instruction “feed token IDs directly into the network.” It disappears into the observed failure: since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one. The darker trail carries one additional capacity—to give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed input embeddings mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the sentence-wheel is altered in exactly one way: give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude. Much later, people will call this territory **Input Embeddings**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the sentence-wheel. The failed path remains visible beneath the repair, because input embeddings is easier to remember when its scar remains attached to it. The scar reads, ‘since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we feed token IDs directly into the network?
-
-## When the chamber changes
-
-The Input Embeddings chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The bridge follows the tempting path—feed token IDs directly into the network. Then the evidence answers: since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
-
-Now let the chamber move: The mechanist changes one moving part. The bridge can now give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude.
-
-The object that should remain after the terminology disappears is **the input embeddings bridge mounted on the sentence-wheel**.
-
-> **Memory seal — Input Embeddings**
->
-> Input Embeddings keeps the missing power: give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude.
-
-Give the idea a bodily path: Touch the input embeddings bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Input Embeddings**. The name is simply a handle for the distinction already reconstructed.
 
 ## The calculation hidden inside input embeddings
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,51 +13,17 @@
 
 The token budget fixes how much evidence the model will see. A fixed compute allowance still permits a wider model trained on fewer tokens or a smaller model trained on more.
 
-Night gathers around the Archive Foundry. Under the light of the chain-of-custody ledger, the archivist-engineer refuses to invent prematurely and begins with the plain rule: spend nearly the entire budget on parameter count because a larger model can store more patterns.
+Inside the Archive Foundry, the old method is given an honest chance. The archivist-engineer places the evidence on the chain-of-custody ledger and tries to spend nearly the entire budget on parameter count because a larger model can store more patterns.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the large model is stopped after too little experience and remains undertrained, while much of its expensive capacity never receives enough varied evidence. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To spend nearly the entire budget on parameter count because a larger model can store more patterns is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The archivist-engineer sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the large model is stopped after too little experience and remains undertrained, while much of its expensive capacity never receives enough varied evidence.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   spend nearly the entire budget on… the large model is stopped after too…
-            \        /
-             \      /
-              estimate candidate…
-```
+The important discovery is not merely that trying to spend nearly the entire budget on parameter count because a larger model can store more patterns failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the chain-of-custody ledger, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the chain-of-custody ledger. The pale trail bears the instruction “spend nearly the entire budget on parameter count because a larger model can store more patterns.” It disappears into the observed failure: the large model is stopped after too little experience and remains undertrained, while much of its expensive capacity never receives enough varied evidence. The darker trail carries one additional capacity—to estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed compute-optimal allocation mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the chain-of-custody ledger is altered in exactly one way: estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone. Much later, people will call this territory **Compute-Optimal Allocation**. Here the name is only a memory of the failure it can survive.
-
-The chain-of-custody ledger has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and compute-optimal allocation looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we spend nearly the entire budget on parameter count because a larger model can store more patterns?
-
-## When the chamber changes
-
-The Compute-Optimal Allocation chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The wheel follows the tempting path—spend nearly the entire budget on parameter count because a larger model can store more patterns. Then the evidence answers: the large model is stopped after too little experience and remains undertrained, while much of its expensive capacity never receives enough varied evidence.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The wheel can now estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone.
-
-The object that should remain after the terminology disappears is **the compute-optimal allocation wheel mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Compute-Optimal Allocation**
->
-> Compute-Optimal Allocation keeps the missing power: estimate candidate parameter-and-token pairs under the same compute budget, run smaller scaling experiments, and choose the pair predicted to minimize held-out loss rather than maximizing either axis alone.
-
-Give the idea a bodily path: Touch the compute-optimal allocation wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Compute-Optimal Allocation**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Buy a Larger Memory or More Experience
 

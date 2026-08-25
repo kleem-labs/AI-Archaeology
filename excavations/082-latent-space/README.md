@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,49 +13,17 @@
 
 An autoencoder learns to compress and reconstruct. Its bottleneck is only a list of numbers until changes in those coordinates correspond to useful hidden causes such as pose, lighting, or identity.
 
-The wall of illuminated tiles at the Glass Menagerie still carries the marks of the previous discovery. The maker of seeing-machines follows them as far as they seem willing to go: assume any compressed coordinates form a smooth useful space.
+A new case arrives at the Glass Menagerie. Nothing yet demands a new invention, so the maker of seeing-machines uses the wall of illuminated tiles to assume any compressed coordinates form a smooth useful space.
 
-The maker of seeing-machines repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to assume any compressed coordinates form a smooth useful space preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The maker of seeing-machines sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs.
 
-```text
-reference evidence ──▶ shortcut: assume any compressed coordinates…
-                         │
-                         └── mismatch: the trouble appears immediately: tiny…
+The counterexample separates two questions that the attempt to assume any compressed coordinates form a smooth useful space had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the wall of illuminated tiles fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-reference evidence ──▶ measured repair: shape the latent distribution and…
-```
+Only the broken responsibility needs to change. The method must now shape the latent distribution and train nearby codes to decode coherently. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-Across the wall of illuminated tiles, the old path and the repaired path run side by side. One carries “assume any compressed coordinates form a smooth useful space”; the other knows how to shape the latent distribution and train nearby codes to decode coherently. When the failure—the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs—arrives, only one path still possesses a place to record the missing distinction.
-
-The failure is no longer an embarrassment to latent space. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: shape the latent distribution and train nearby codes to decode coherently. This problem and its repair will travel under the name **Latent Space**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—assume any compressed coordinates form a smooth useful space? The answer remains the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
->
-> **The question carried into this chamber:** What fails if we assume any compressed coordinates form a smooth useful space?
-
-## When the chamber changes
-
-The Latent Space chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The key follows the tempting path—assume any compressed coordinates form a smooth useful space. Then the evidence answers: the trouble appears immediately: tiny code changes can cause abrupt unrelated outputs.
-
-Now let the chamber move: The maker of seeing-machines changes one moving part. The key can now shape the latent distribution and train nearby codes to decode coherently.
-
-The object that should remain after the terminology disappears is **the latent space key mounted on the wall of illuminated tiles**.
-
-> **Memory seal — Latent Space**
->
-> Latent Space keeps the missing power: shape the latent distribution and train nearby codes to decode coherently.
-
-Give the idea a bodily path: Touch the latent space key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Latent Space**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Coordinates for Hidden Causes
 

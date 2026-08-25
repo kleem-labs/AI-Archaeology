@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,51 +13,17 @@
 
 The optimizer needs a less noisy effective batch, but all its examples and activations cannot coexist on one device.
 
-The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: reduce the batch until it fits and change nothing else.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to reduce the batch until it fits and change nothing else.
 
-Reality answers without terminology: the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together. The brass reference machine now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to reduce the batch until it fits and change nothing else preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   reduce the batch until it fits and… the gradient becomes noisier and the…
-            \        /
-             \      /
-              run several micro-batches, sum their…
-```
+The counterexample separates two questions that the attempt to reduce the batch until it fits and change nothing else had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The brass reference machine is divided down the middle. Left side: “reduce the batch until it fits and change nothing else.” Its final mark records the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together. Right side: the same starting evidence, now allowed to run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step. The difference is narrow enough to see and important enough to change the ending.
+Only the broken responsibility needs to change. The method must now run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The broken rule has given gradient accumulation a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step. The name **Gradient Accumulation** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from gradient accumulation through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we reduce the batch until it fits and change nothing else?
-
-## When the chamber changes
-
-The Gradient Accumulation room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The gate follows the tempting path—reduce the batch until it fits and change nothing else. Then the evidence answers: the gradient becomes noisier and the training regime changes; increasing the learning rate cannot recreate evidence never averaged together.
-
-Now let the chamber move: The enginewright changes one moving part. The gate can now run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step.
-
-The object that should remain after the terminology disappears is **the gradient accumulation gate mounted on the brass reference machine**.
-
-> **Memory seal — Gradient Accumulation**
->
-> Gradient Accumulation keeps the missing power: run several micro-batches, sum their unscaled gradients without updating, then divide once and take one optimizer step.
-
-Give the idea a bodily path: Touch the gradient accumulation gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Gradient Accumulation**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Build a Large Batch That Does Not Fit
 

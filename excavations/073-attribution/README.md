@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics)
 >
@@ -11,51 +13,17 @@
 
 Linear probes reveal information available to a simple reader. To understand one prediction, we must trace which input evidence actually influenced the output rather than merely existing somewhere inside.
 
-Morning reaches the Living Watchgarden before anyone has a name for today's difficulty. Beside the weathered observation slate, the field naturalist tries the smallest continuation of what already works: remove each word and treat output change as complete explanation.
+The previous discovery reaches the Living Watchgarden carrying one unfinished problem. Beside the weathered observation slate, the field naturalist first tries to remove each word and treat output change as complete explanation.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: removing a word changes grammar and creates an unnatural new input. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we remove each word and treat output change as complete explanation, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The field naturalist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: removing a word changes grammar and creates an unnatural new input.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   remove each word and treat output… removing a word changes grammar and…
-            \        /
-             \      /
-              measure sensitivity with several…
-```
+This failure cannot be repaired by performing the instruction to remove each word and treat output change as complete explanation more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the weathered observation slate; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the weathered observation slate. The pale trail bears the instruction “remove each word and treat output change as complete explanation.” It disappears into the observed failure: removing a word changes grammar and creates an unnatural new input. The darker trail carries one additional capacity—to measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed attribution mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the weathered observation slate is altered in exactly one way: measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions. Much later, people will call this territory **Attribution**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the weathered observation slate. The failed path remains visible beneath the repair, because attribution is easier to remember when its scar remains attached to it. The scar reads, ‘removing a word changes grammar and creates an unnatural new input’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
->
-> **The question carried into this chamber:** What fails if we remove each word and treat output change as complete explanation?
-
-## When the chamber changes
-
-Before leaving Attribution, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The vessel follows the tempting path—remove each word and treat output change as complete explanation. Then the evidence answers: removing a word changes grammar and creates an unnatural new input.
-
-Now let the chamber move: The field naturalist changes one moving part. The vessel can now measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
-
-The object that should remain after the terminology disappears is **the attribution vessel mounted on the weathered observation slate**.
-
-> **Memory seal — Attribution**
->
-> Attribution keeps the missing power: measure sensitivity with several methods and test whether highlighted evidence changes behavior under controlled interventions.
-
-Give the idea a bodily path: Touch the attribution vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Attribution**. The name is simply a handle for the distinction already reconstructed.
 
 ## Understanding attribution
 

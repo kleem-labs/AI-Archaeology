@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,48 +13,17 @@
 
 Weight tying concentrates more roles in shared parameters. During training, some coordinates receive frequent large gradients while rare-token coordinates receive sparse small ones.
 
-A new case arrives at the Engine Cavern, but the enginewright first reaches for the familiar brass reference machine. Its promise is simple: use the same raw gradient step scale for every parameter.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to use the same raw gradient step scale for every parameter.
 
-Then the quiet test arrives: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we use the same raw gradient step scale for every parameter, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable.
 
-```text
-OLD PATH:  request ──▶ use the same raw gradient step scale… ──▶ a rate safe for frequent large…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ keep fading memories of gradient… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to use the same raw gradient step scale for every parameter more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-The enginewright turns the brass reference machine toward the light. Through the old engraving, use the same raw gradient step scale for every parameter, the evidence ends in the same contradiction: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable. A second engraving adds only the power to keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The enginewright circles the place where the two adam cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. The enginewright writes **Adam** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The enginewright does not memorize adam. Instead, the enginewright memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we use the same raw gradient step scale for every parameter?
-
-## When the chamber changes
-
-The Adam room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The bridge follows the tempting path—use the same raw gradient step scale for every parameter. Then the evidence answers: a rate safe for frequent large gradients barely moves sparse coordinates; a rate large enough for sparse coordinates makes noisy ones unstable.
-
-Now let the chamber move: The enginewright changes one moving part. The bridge can now keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude.
-
-The object that should remain after the terminology disappears is **the adam bridge mounted on the brass reference machine**.
-
-> **Memory seal — Adam**
->
-> Adam keeps the missing power: keep fading memories of gradient direction and squared gradient size, then scale each coordinate's step by its own recent magnitude.
-
-Give the idea a bodily path: Touch the adam bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Adam**. The name is simply a handle for the distinction already reconstructed.
 
 ## Give Each Parameter Its Own Step Scale
 

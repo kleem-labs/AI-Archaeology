@@ -128,7 +128,7 @@ Chapter(207,"orthogonality-projection","Orthogonality and Projection — Finding
 r"\mathrm{proj}_{\mathbf u}(\mathbf v)=\frac{\mathbf v\cdot\mathbf u}{\mathbf u\cdot\mathbf u}\mathbf u",
 "A sundial's shadow is not the object, but under a fixed light it is the closest information the ground plane can retain.",
 "Linear probes project hidden states onto readable directions; least squares projects observations into a model subspace; attention projects embeddings into query, key, and value spaces.",
-"Projection handles one chosen subspace. For an arbitrary rectangular matrix, we still need to discover the paired input and output directions that carry most of its action.",
+"Projection handles one chosen subspace, but it does not discover which subspace matters. For an arbitrary rectangular matrix, we still need paired input and output directions that preserve most of its action.",
 (("Pearson, On Lines and Planes of Closest Fit to Systems of Points in Space","https://doi.org/10.1080/14786440109462720"),("Hu et al., LoRA","https://arxiv.org/abs/2106.09685"))),
 Chapter(208,"singular-value-decomposition","Singular Value Decomposition — The Important Directions of Any Matrix",
 "Projection finds the closest shadow once an allowed direction is known. A large weight matrix offers thousands of possible directions, and neither its raw entries nor ordinary eigenvectors tell us which input directions carry most strongly into which output directions.",
@@ -240,7 +240,7 @@ Chapter(215,"fourier-analysis","Fourier Analysis — Hearing Frequencies Hidden 
 r"X_k=\sum_{n=0}^{N-1}x_n e^{-2\pi i kn/N}",
 "A prism separates colours already travelling together in white light. Fourier analysis is a prism for rhythms.",
 "Speech features, positional rotations, convolution, image filtering, and Fourier neural operators all move between coordinate systems where different structure becomes simple.",
-"Fourier coefficients describe deterministic signal content. Real observations also vary unpredictably, so the next object must turn uncertain outcomes into numerical quantities with distributions.",
+"Fourier coefficients describe deterministic signal content, but they do not say how often unpredictable outcomes occur. Because real observations also vary by chance, the next object must attach numerical quantities to uncertain outcomes and describe their distributions.",
 (("Li et al., Fourier Neural Operator for Parametric Partial Differential Equations","https://arxiv.org/abs/2010.08895"),("Kovachki et al., Neural Operator","https://arxiv.org/abs/2108.08481"))),
 Chapter(216,"random-variables-distributions","Random Variables and Distributions — Turning Outcomes into Quantities",
 "Fourier analysis gives deterministic signals new coordinates. The ranger's camera, however, may record zero, one, or several tigers tomorrow; before the observation, the count is not an unknown fixed number but a quantity attached to several possible worlds.",
@@ -254,7 +254,7 @@ Chapter(216,"random-variables-distributions","Random Variables and Distributions
 r"P(X=x)=\sum_{\omega:X(\omega)=x}P(\omega)",
 "Weather is a story; temperature is a random variable extracted from that story. The number is a question asked of the world, not the whole world itself.",
 "Loss, reward, token count, model output, and gradient noise are random variables. Their distributions—not isolated values—determine learning and evaluation.",
-"A distribution describes current uncertainty. When a paw print arrives, probabilities must be rearranged according to how compatible each hidden story was with that evidence.",
+"A distribution describes current uncertainty, but it cannot update itself when evidence arrives. When a paw print appears, the probabilities must be rearranged according to how compatible each hidden story was with that evidence.",
 (("Kolmogorov, Foundations of the Theory of Probability","https://www.stat.yale.edu/~pollard/Courses/600.spring2018/Handouts/Foundations1933.pdf"),("Kingma and Welling, Auto-Encoding Variational Bayes","https://arxiv.org/abs/1312.6114"))),
 Chapter(217,"conditional-probability-bayes","Conditional Probability and Bayes’ Rule — Let Evidence Rearrange Belief",
 "Random variables turn possible worlds into measurable quantities. A fresh paw print should change the tiger probability, but merely retaining yesterday's distribution ignores the reason observation matters.",
@@ -744,12 +744,12 @@ def chapter(row: Chapter) -> str:
     realm = realm_for(row.number)
     index = (row.number - 201) % 6
     entries = (
-        f"The stair below the completed AI factory does not descend into abstraction. It opens into the Undercroft of First Principles, where the familiar word **{name}** has been covered so that only the unsolved situation remains.",
-        f"In the next chamber of the Undercroft, the mathematical archaeologist removes the label from **{name}**. A name would let us recognize the answer too early; the stone workbench gives us only a stubborn observation.",
-        f"The corridor bends beneath every model we have built. Here **{name}** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.",
-        f"Another vault door opens. The carving that once named **{name}** has weathered away, which is useful: we must recover the idea from what a ranger, builder, or machine can actually observe.",
-        f"Far below the Transformer, the Undercroft stores no formula sheet. For **{name}**, it preserves a scene, a tempting tool, and the mark left where that tool broke.",
-        f"At this depth, mathematics feels less like a catalogue and more like memory. We meet **{name}** first as an ordinary human need, before anyone has decided what marks should record it.",
+        f"The stair toward {name} opens into an older workshop, where the machine's abstraction returns to ordinary objects and human decisions.",
+        f"The {name} chamber continues the same investigation. What looked complete in the previous room now meets a situation it cannot preserve.",
+        f"The corridor toward {name} carries the unresolved consequence of the preceding excavation into a new physical scene.",
+        f"The vault of {name} opens onto a problem a ranger, builder, or machine could encounter without knowing any modern terminology.",
+        f"Far below the Transformer, {name} begins with an ordinary situation and a tool that almost—but not quite—solves it.",
+        f"At this depth, {name} begins as a need inside the world rather than as a name outside it.",
     )
     attempts = (
         f"The first move is honest because it uses the nearest tool already in our hands: **{row.attempt}**.",
@@ -768,7 +768,7 @@ def chapter(row: Chapter) -> str:
         "The test is deliberately small enough to follow by hand, so the failure cannot hide inside complexity.",
     )
     repairs = (
-        f"Now the reader can name the requirement before the textbook can name the method: we must {row.repair}.",
+        f"The failed case reveals the missing requirement: we must {row.repair}.",
         f"What survives the failure is a precise demand. The repaired construction must {row.repair}.",
         f"The broken attempt has done its work. It tells us, in ordinary language, to {row.repair}.",
         f"We do not leap to a famous formula. We carry one missing responsibility forward: {row.repair}.",
@@ -799,13 +799,6 @@ Listen for {realm["sound"]}. The questions in this realm travel as one chain:
 ```
 
 """
-    realm_position = (
-        f'> **You are here:** Realm {realm["number"]} of 5 — [{realm["name"]}](../../MATHEMATICAL_ROOTS.md#realm-{realm["number"]})\n'
-        f'>\n'
-        f'> **Question waiting in this chamber:** {memory["question"]}\n'
-        f'>\n'
-        f'> **Do not take the answer yet:** first let the object fail.'
-    )
     next_link = (
         f"[Continue to Excavation {row.number + 1:03d}: {ROWS[row.number - 200].title}](../{row.number + 1:03d}-{ROWS[row.number - 200].slug}/README.md)"
         if row.number < 225 else
@@ -825,7 +818,7 @@ That rhythm now runs through the whole archive—from counting tigers to making 
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-{part}{realm_overture}{realm_position}
+{part}{realm_overture}
 
 {row.carry}
 
@@ -843,31 +836,15 @@ The chamber has reduced the abstraction to one physical thing: **{memory["object
 
 {repairs[index]}
 
-This is the hinge of the {name} excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
-
-## When the chamber changes
-
-Hold the failed picture still for one breath: {memory["failure_image"]}
-
-Now let the scene move. {memory["transformation"]}
-
-The transformation is the discovery of {name} made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press {name} into memory:
-
-> **Memory seal — {name}**
->
-> {memory["sentence"]}
-
-Make the memory bodily, not merely verbal: {memory["gesture"]}
-
-## {name} on the stone workbench
-
-{row.worked}
-
-The point of keeping the objects named while rebuilding {name} is that each movement can still be challenged. We can ask what the tiger, track, state, model, or measurement contributes; we can change one value and watch the consequence travel. The calculation remains an experience before it becomes notation.
+The failure and repair now form one continuous argument for {name}: this idea earns its place by preserving exactly what the earlier action lost.
 
 ## The calculation hidden inside {name.lower()}
 
-Return to the named {name} scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for {name.lower()} will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing {name} against the named case
+
+{row.worked}
 
 ### Naming what is already on the table
 
@@ -877,33 +854,23 @@ Return to the named {name} scene above. The ranger, model, measurement, or state
 
 {row.operations}
 
-The operations inside {name} form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by {name.lower()} now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 {row.equation}
 $$
 
-Read the {name} line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
-
 ## A real-world echo
 
 {row.analogy}
 
-That echo helps {name} remain relational in memory. When the same job appears inside a dataset, a Transformer, a laboratory measurement, or an ordinary decision, the operation should feel like a familiar tool rather than an arbitrary sign.
-
-## What this chamber was connected to
+## What this unlocks elsewhere
 
 {row.connection}
-
-The older excavation and this {name} chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
-
-Before leaving {realm["name"]}, look back at its path—**{realm["path"]}**. {name} occupies one necessary step in that motion. Its object, **{memory["object"]}**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of {name.lower()} breaks
 
 {row.limit}
-
-The boundary belongs beside the discovery of {name} because usefulness depends on assumptions. A formula remembered without its failure conditions becomes a spell; a formula remembered with them becomes an instrument.
 
 ## Rebuild the discovery in the laboratory
 

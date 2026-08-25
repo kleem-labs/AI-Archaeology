@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,49 +13,17 @@
 
 Grouped-query attention makes generation economical, yet training long packed sequences still materializes a large attention-score matrix in slow device memory.
 
-At the Engine Cavern, the enginewright returns to the brass reference machine. Yesterday's instrument still lies open, so the first move asks for no new magic: reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost.
 
-The enginewright repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ reduce arithmetic by approximating… ──▶ blurred: approximation changes the model,…
-      │
-      └── new lens ──▶ tile queries, keys, and values into… ──▶ distinction survives
-```
+The contradiction matters because it identifies a structural loss in the instruction to reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the brass reference machine, the old path and the repaired path run side by side. One carries “reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost”; the other knows how to tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. When the failure—approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to flashattention. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. This problem and its repair will travel under the name **FlashAttention**, but the name carries no knowledge the scene has not earned.
-
-What changed on the brass reference machine can be said without symbols. Before, the method could only reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost; now it can also tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost?
-
-## When the chamber changes
-
-The FlashAttention room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The seal follows the tempting path—reduce arithmetic by approximating attention, because the n-squared score matrix appears to be the unavoidable cost. Then the evidence answers: approximation changes the model, while profiling shows much of the time is spent writing and rereading exact intermediate scores rather than multiplying them.
-
-Now let the chamber move: The enginewright changes one moving part. The seal can now tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once.
-
-The object that should remain after the terminology disappears is **the flashattention seal mounted on the brass reference machine**.
-
-> **Memory seal — FlashAttention**
->
-> FlashAttention keeps the missing power: tile queries, keys, and values into fast on-chip memory and maintain an online softmax so exact attention never needs the whole score matrix stored at once.
-
-Give the idea a bodily path: Touch the flashattention seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **FlashAttention**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## The Arithmetic Was Not the Bottleneck
 
@@ -73,7 +43,7 @@ m is the largest score already seen, s_j are scores in the new tile, and m-prime
 
 Listen beneath flashattention: **the highest lantern**—the strongest surviving possibility sets the visible ceiling. These are not ornamental comparisons. Each image keeps the exact job of an operation visible while its symbols change.
 
-Cover the prose about flashattention and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming flashattention equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 m^{\prime}=\max(m,\max_j s_j)

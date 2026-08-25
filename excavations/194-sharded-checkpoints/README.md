@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,48 +13,17 @@
 
 Three-dimensional parallelism spreads parameters, moments, gradients, and progress across many owners. Asking one coordinator to gather everything before saving can exceed its memory and stall the cluster.
 
-The chain-of-custody ledger at the Archive Foundry still carries the marks of the previous discovery. The archivist-engineer follows them as far as they seem willing to go: let every worker write its local tensors and call the directory a checkpoint.
+A new case arrives at the Archive Foundry. Nothing yet demands a new invention, so the archivist-engineer uses the chain-of-custody ledger to let every worker write its local tensors and call the directory a checkpoint.
 
-Reality answers without terminology: a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state. The chain-of-custody ledger now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to let every worker write its local tensors and call the directory a checkpoint preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The archivist-engineer sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state.
 
-```text
-OLD PATH:  request ──▶ let every worker write its local… ──▶ a worker fails before writing, two…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ write versioned shards to temporary… ──▶ accountable result
-```
+The counterexample separates two questions that the attempt to let every worker write its local tensors and call the directory a checkpoint had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the chain-of-custody ledger fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The chain-of-custody ledger is divided down the middle. Left side: “let every worker write its local tensors and call the directory a checkpoint.” Its final mark records a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state. Right side: the same starting evidence, now allowed to write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable. The difference is narrow enough to see and important enough to change the ending.
+Only the broken responsibility needs to change. The method must now write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The broken rule has given sharded checkpoints a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable. The name **Sharded Checkpoints** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from sharded checkpoints through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we let every worker write its local tensors and call the directory a checkpoint?
-
-## When the chamber changes
-
-The mathematical name Sharded Checkpoints can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The key follows the tempting path—let every worker write its local tensors and call the directory a checkpoint. Then the evidence answers: a worker fails before writing, two shards belong to different steps, or a filename is reused. The directory exists but cannot reconstruct one globally consistent training state.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The key can now write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable.
-
-The object that should remain after the terminology disappears is **the sharded checkpoints key mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Sharded Checkpoints**
->
-> Sharded Checkpoints keeps the missing power: write versioned shards to temporary locations, record hashes and ownership in a checkpoint manifest, and publish one atomic completion marker only after every required shard is durable.
-
-Give the idea a bodily path: Touch the sharded checkpoints key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Sharded Checkpoints**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Save One Recoverable State Without Gathering It
 

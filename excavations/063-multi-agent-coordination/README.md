@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Graphs & Relational Structures](../../MATHEMATICS_ATLAS.md#graphs) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,48 +13,17 @@
 
 Idempotent retries make repetition safe. A large goal can nevertheless overwhelm one agent's context and tools, raising the question of when division of work reduces risk rather than multiplying it.
 
-Nothing in the Gatehouse of Consequences yet bears today's mathematical name. There is only the gatekeeper, the iron threshold, and one plausible action: create many agents for every problem and let them freely edit shared state.
+Inside the Gatehouse of Consequences, the old method is given an honest chance. The gatekeeper places the evidence on the iron threshold and tries to create many agents for every problem and let them freely edit shared state.
 
-Then the quiet test arrives: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To create many agents for every problem and let them freely edit shared state is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The gatekeeper sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
 
-```text
-OLD PATH:  request ──▶ create many agents for every problem… ──▶ they duplicate searches, contradict…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ we need to delegate only separable… ──▶ accountable result
-```
+The important discovery is not merely that trying to create many agents for every problem and let them freely edit shared state failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the iron threshold, so success cannot be manufactured by quietly replacing the original question.
 
-The gatekeeper turns the iron threshold toward the light. Through the old engraving, create many agents for every problem and let them freely edit shared state, the evidence ends in the same contradiction: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. A second engraving adds only the power to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The gatekeeper circles the place where the two multi-agent coordination cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. The gatekeeper writes **Multi-Agent Coordination** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The gatekeeper places a finger over the new distinction. At once the two cases collapse and they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving. Lifting the finger restores only this capacity: delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
->
-> **The question carried into this chamber:** When Should Work Be Divided?
-
-## When the chamber changes
-
-Before leaving Multi-Agent Coordination, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The prism follows the tempting path—create many agents for every problem and let them freely edit shared state. Then the evidence answers: they duplicate searches, contradict one another, overwrite files, and consume more time coordinating than solving.
-
-Now let the chamber move: The gatekeeper changes one moving part. The prism can now delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
-
-The object that should remain after the terminology disappears is **the multi-agent coordination prism mounted on the iron threshold**.
-
-> **Memory seal — Multi-Agent Coordination**
->
-> Multi-Agent Coordination keeps the missing power: delegate only separable work with explicit ownership, inputs, outputs, and merge rules. Keep one accountable coordinator for the final result.
-
-Give the idea a bodily path: Touch the multi-agent coordination prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Multi-Agent Coordination**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## When Should Work Be Divided
 

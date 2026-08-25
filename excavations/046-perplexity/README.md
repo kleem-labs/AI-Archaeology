@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -15,48 +17,17 @@
 
 The loop closes and the tiny GPT produces fluent-looking text. Fluency is easy to admire and hard to compare, so two trained models still need a common test on text neither was allowed to study.
 
-The doors of the Hall of Voices close against the wind. On the listening table, the public archivist writes the cheapest rule that might still be true: count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree.
+A new case arrives at the Hall of Voices. Nothing yet demands a new invention, so the public archivist uses the listening table to count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree.
 
-The public archivist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The public archivist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token.
 
-```text
-OLD PATH:  request ──▶ count how many generated sentences… ──▶ the held-out sentence “the tiger…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ score the probability assigned to… ──▶ accountable result
-```
+The counterexample separates two questions that the attempt to count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the listening table fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the listening table, the old path and the repaired path run side by side. One carries “count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree”; the other knows how to score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale. When the failure—the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to perplexity. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale. This problem and its repair will travel under the name **Perplexity**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree? The answer remains the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token. The new construction earns its permanence by answering that old question without pretending it was foolish to ask. In the Hall of Voices, perplexity inherits the mathematics of honest comparison: measure on the same evidence, separate memory from observation, and preserve uncertainty until a source can resolve it. Fluent words do not repeal those older obligations.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
->
-> **The question carried into this chamber:** How Surprised Is the Model?
-
-## When the chamber changes
-
-Keep the formal name Perplexity covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The gear follows the tempting path—count how many generated sentences sound good. The sample is small, decoding choices interfere, and two people may disagree. Then the evidence answers: the held-out sentence “the tiger sleeps” reveals the weakness. Model A assigns the observed tokens probabilities 0.5, 0.5, and 0.5; Model B assigns 0.9, 0.1, and 0.9. A few attractive samples cannot expose B’s severe surprise at the middle token.
-
-Now let the chamber move: The public archivist changes one moving part. The gear can now score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale.
-
-The object that should remain after the terminology disappears is **the perplexity gear mounted on the listening table**.
-
-> **Memory seal — Perplexity**
->
-> Perplexity keeps the missing power: score the probability assigned to every actual next token, combine those costs, and convert the average back into an intuitive “equally likely choices” scale.
-
-Give the idea a bodily path: Touch the perplexity gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Perplexity**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## The calculation hidden inside perplexity
 
@@ -76,7 +47,7 @@ The token count divides total surprise so longer sentences are comparable. Negat
 
 The mandala has curved back upon itself. In this chamber we meet **the spiral stair**—compounded chances become steps that can be accumulated; **the chorus**—many witnesses contribute to one answer without one silence erasing the rest; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about perplexity and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming perplexity equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \mathrm{PPL}=\exp\left(-\frac{1}{n}\sum_{i=1}^{n}\log p(t_i\mid t_{<i})\right)

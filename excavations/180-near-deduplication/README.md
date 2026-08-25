@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,53 +13,17 @@
 
 Exact deduplication removes byte-equivalent documents. The copied article with a new banner, reordered footer, or one edited sentence still survives as apparently new evidence.
 
-Inside the Archive Foundry, every old tool is given one honest chance. The archivist-engineer sets the chain-of-custody ledger between the evidence and the desired answer, then tries to lowercase both documents and demand that every remaining word match.
+At the Archive Foundry, the archivist-engineer meets the next case beside the chain-of-custody ledger. The nearest idea is also the most reasonable one: lowercase both documents and demand that every remaining word match.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: one inserted advertisement defeats the rule, while independently written short notices can match by accident. Exact sequence equality is too brittle for disguised copies. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To lowercase both documents and demand that every remaining word match reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The archivist-engineer sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: one inserted advertisement defeats the rule, while independently written short notices can match by accident. Exact sequence equality is too brittle for disguised copies.
 
-```text
-observation
-    │
-    ▼
-[lowercase both documents and demand…]
-    │
-    ╳  one inserted advertisement defeats…
-    │
-    ▼
-[represent each document by…]
-```
+The contradiction matters because it identifies a structural loss in the instruction to lowercase both documents and demand that every remaining word match, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The chain-of-custody ledger will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The archivist-engineer lays two translucent sheets over the chain-of-custody ledger. The first is inscribed, “lowercase both documents and demand that every remaining word match.” Its path ends where one inserted advertisement defeats the rule, while independently written short notices can match by accident. Exact sequence equality is too brittle for disguised copies. The second receives the same evidence but is allowed to represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a near deduplication formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The archivist-engineer changes only that one responsibility: represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale. When the ink dries, the name **Near Deduplication** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The chain-of-custody ledger keeps both histories. Its older mark still says, ‘lowercase both documents and demand that every remaining word match’; beside it, the newer mark says, ‘represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale.’ The distance between those sentences is the exact shape of near deduplication: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** When a Copy Changes a Few Words?
-
-## When the chamber changes
-
-The Near Deduplication room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The compass follows the tempting path—lowercase both documents and demand that every remaining word match. Then the evidence answers: one inserted advertisement defeats the rule, while independently written short notices can match by accident. Exact sequence equality is too brittle for disguised copies.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The compass can now represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale.
-
-The object that should remain after the terminology disappears is **the near deduplication compass mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Near Deduplication**
->
-> Near Deduplication keeps the missing power: represent each document by overlapping shingles, compare the shared fraction with Jaccard similarity, and use MinHash-style candidate retrieval before exact verification at scale.
-
-Give the idea a bodily path: Touch the near deduplication compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Near Deduplication**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## When a Copy Changes a Few Words
 

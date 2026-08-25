@@ -63,7 +63,7 @@ Recognizing a tiger helps you survive one encounter. But soon you need answers t
 - Where are they?
 - How fast can they run?
 
-Those were your questions in our original expedition. They are the reason the journey cannot stop at recognition.
+These questions are where recognition stops being enough. They force the journey to continue.
 
 “How many?” demands quantity. “Where?” demands space. “How fast?” demands change. Mathematics does not arrive as a collection of symbols. It arrives because reality keeps asking questions that vague words cannot answer reliably.
 
@@ -75,33 +75,7 @@ reality → question → inadequate idea → better representation → mathemati
 
 The equation, when one finally appears, will be the last step: a compressed record of reasoning we already understand.
 
-> **Memory realm 1 of 18 — [Valley of First Measures](../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** How can one observation survive after every witness has gone?
-
-#### When the chamber changes
-
-The Observation room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: Wind softens the track while two witnesses remember different animals.
-
-Now let the chamber move: A hand traces the track into clay; the animal can leave, but the shared mark remains.
-
-The object that should remain after the terminology disappears is **a fresh tiger track beside the tribe's first charcoal mark**.
-
-> **Memory seal — Observation**
->
-> Mathematics begins when an observation receives a form that can outlive its observer.
-
-Give the idea a bodily path: Press one finger into your palm, then lift it while imagining the mark remaining.
-
 We have more observations than memory can hold, and more questions than a name can answer. We need to decide which properties of an experience deserve to be kept.
-
-> **Mathematical roots:** [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/000-before-mathematics-existed/README.md).*
 
 ---
 
@@ -136,13 +110,12 @@ A feature is not a decorative fact and not an eternal truth about an object. It 
 
 That explains why choosing features is part of reasoning. The world offers unlimited detail; intelligence has to decide what deserves a place in the representation.
 
-#### The user's discovery
+#### Comparing like with like
 
-You did not say, “put every attribute together.” You said:
-
-> Put similar attributes together and calculate their difference.
-
-That word—*similar*—is essential. Weight must be compared with weight, speed with speed, and age with age. If the positions change meaning from one animal to the next, the arithmetic can be correct while the thought is nonsense.
+Collecting several observations creates a new responsibility: their meanings
+must remain aligned. Weight must be compared with weight, speed with speed, and
+age with age. If the positions change meaning from one animal to the next, the
+arithmetic can be correct while the thought is nonsense.
 
 | feature | tiger A | tiger B |
 |---|---:|---:|
@@ -152,36 +125,11 @@ That word—*similar*—is essential. Weight must be compared with weight, speed
 
 We have turned an animal into an organized set of comparable measurements. No formula was needed. The structure came first.
 
-> **Memory realm 1 of 18 — [Valley of First Measures](../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** Which parts of an animal must we preserve to judge whether it threatens the camp?
-
-#### When the chamber changes
-
-Keep the formal name Features covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: A zebra passes the stripe test, while a three-legged tiger fails the four-leg test.
-
-Now let the chamber move: The tokens separate, and only observations relevant to the danger decision remain on the table.
-
-The object that should remain after the terminology disappears is **five carved tiger tokens: weight, speed, teeth, stripes, and direction**.
-
-> **Memory seal — Features**
->
-> A feature is a chosen observation that preserves a distinction needed by a question.
-
-Give the idea a bodily path: Touch five fingertips in turn, naming one observable property with each touch.
 #### A serious limitation
 
 Features do not arrive objectively. Kilograms can overwhelm a binary stripe value simply because the numeric scales differ. A useful representation may omit an important clue or preserve a misleading one. Mathematics can only operate on what we decide to record.
 
 With thousands of animals and many features, separate facts become difficult to store and manipulate. We need one object that keeps their meaning through an agreed order.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/001-why-features-exist/README.md).*
 
 ---
 
@@ -237,7 +185,7 @@ speed
 
 The tiger's properties locate it. With three features it lies in three-dimensional feature space. With ten thousand features the same idea continues, even though we cannot picture it.
 
-This was the great leap in your original excavation: geometry stopped meaning only “Where is the tiger?” It could now help answer “What is the tiger like?”
+This is the geometric leap: geometry stops meaning only “Where is the tiger?” It can now help answer “What is the tiger like?”
 
 Nearby locations can represent similar objects. A movie can be located by humor, romance, and violence. A song can be located by tempo, instrumentation, and mood. Modern AI uses the same move: turn something difficult to compare into a point whose coordinates can be compared.
 
@@ -270,33 +218,7 @@ $$
 \mathbf{x}=[x_1,x_2,\ldots,x_n]
 $$
 
-> **Memory realm 1 of 18 — [Valley of First Measures](../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** How can many comparable features travel as one object without losing which is which?
-
-#### When the chamber changes
-
-The Vectors chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: Loose measurement stones spill together; weight can no longer be distinguished from speed.
-
-Now let the chamber move: The stones slide into named pockets whose order remains fixed for every animal.
-
-The object that should remain after the terminology disappears is **an ordered leather satchel with one pocket for each tiger feature**.
-
-> **Memory seal — Vectors**
->
-> A vector lets several measurements travel together while their positions preserve meaning.
-
-Give the idea a bodily path: Sweep scattered fingers together, then hold them in a fixed row.
-
 A thousand feature differences still give a thousand answers. To say which animal is closest, we need those differences to become one number.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/002-vectors/README.md).*
 
 ---
 
@@ -328,11 +250,11 @@ age:    -1
 
 This is accurate, but it is not a decision. With a thousand attributes we receive a thousand answers. We need one measure of separation.
 
-#### Your derivation
+#### Reconstructing the path
 
-You proposed the entire path yourself:
-
-> Find the difference of similar features. If it is negative, that is wrong for distance, so square the differences, add them, and take the root.
+The requirements now determine the route. Compare corresponding features.
+Prevent negative and positive disagreements from cancelling. Let every feature
+contribute, then return the combined result to the original measurement scale.
 
 Why not simply add? Because opposite differences cancel. A change of `100` and `-100` would produce zero, falsely declaring two objects identical.
 
@@ -404,33 +326,7 @@ If weight is measured in kilograms and a stripe flag is only zero or one, weight
 
 Distance also answers **similarity**, not every kind of relationship. That distinction will become decisive when we reach attention.
 
-> **Memory realm 1 of 18 — [Valley of First Measures](../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** How can the tribe turn many feature disagreements into one honest separation?
-
-#### When the chamber changes
-
-Before leaving Distance, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: Positive and negative disagreements pull opposite ways and cancel, making different animals appear identical.
-
-Now let the chamber move: Every cord's disagreement becomes nonnegative before the cords combine into one path between the animals.
-
-The object that should remain after the terminology disappears is **two tiger silhouettes joined by feature-length measuring cords**.
-
-> **Memory seal — Distance**
->
-> Distance is the single separation left after every comparable disagreement has been allowed to count.
-
-Give the idea a bodily path: Stretch both hands apart, briefly cross them to show cancellation, then separate them again.
-
 So far a vector has described where an object is in feature space. But an arrow can also describe how something changes. That second meaning will lead us toward transformations.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/003-distance/README.md).*
 
 ---
 
@@ -475,7 +371,7 @@ A rescue party marks its camp on a paper map. It walks five kilometres east and 
 
 Inside vectors as change, familiar operations return with stricter duties: **the chisel**—what is shared is removed so the remaining change can be seen; **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the joining river**—separate contributions meet without losing where they came from. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
 
-Cover the prose about vectors as change and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming vectors as change equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \Delta=\mathbf{b}-\mathbf{a}=[7-2,1-3]=[5,-2]
@@ -507,33 +403,7 @@ Distance says how much separation exists but discards direction. Many destinatio
 
 This distinction matters in learning. A model's current parameters are a state. Training must say which weights to increase, which to decrease, and by how much. That instruction is a vector of change.
 
-> **Memory realm 1 of 18 — [Valley of First Measures](../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** How can a vector describe not only what exists, but what changed?
-
-#### When the chamber changes
-
-The mathematical name Change Vectors can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: Two isolated position stones reveal locations but hide the movement connecting them.
-
-Now let the chamber move: The stones remain while a directed arrow grows from the earlier position to the later one.
-
-The object that should remain after the terminology disappears is **an arrow laid from yesterday's tiger position to today's**.
-
-> **Memory seal — Change Vectors**
->
-> A change vector remembers both how far the world moved and in which direction.
-
-Give the idea a bodily path: Point to one place, then sweep the same finger toward a second place.
-
 One fixed change is useful. We now want a machine that receives any vector and produces an appropriate new vector consistently.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/004-vectors-as-change/README.md).*
 
 ---
 
@@ -622,31 +492,7 @@ Shape is the contract between what the machine expects and what it produces.
 
 A neural network layer repeatedly does this: receive one representation, mix its features according to learned weights, and produce another representation. The matrix is a transformation machine. Training will eventually decide the weights; for now we only needed a coherent way to express all interactions together.
 
-> **Memory realm 1 of 18 — [Valley of First Measures](../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** How can many output judgments reuse the same collection of input features?
-
-#### When the chamber changes
-
-The Matrices room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: Separate handwritten rules repeatedly fetch the same features and silently change their ordering.
-
-Now let the chamber move: The rules lock into one grid; each row combines the same ordered input into one named output.
-
-The object that should remain after the terminology disappears is **a brass grid whose rows are judges and columns are tiger features**.
-
-> **Memory seal — Matrices**
->
-> A matrix is a reusable arrangement of transformations that lets inputs interact consistently.
-
-Give the idea a bodily path: Hold one hand as vertical rows and cross it with the other as horizontal columns.
-
 We can transform measurable properties. Language gives us a harder object: a word whose meaning is not available from any physical measuring instrument.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Foundations and representation
 
 #### The first constellation
 
@@ -657,8 +503,6 @@ observation → feature → vector → distance → transformation
 ```
 
 The trail called *the first constellation* is what remains when one necessity becomes another.
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/005-matrices/README.md).*
 
 ---
 
@@ -728,33 +572,7 @@ The words are identical; the relationships differ. Order and wider context must 
 
 Meaning is therefore not a secret definition stored inside a word. It emerges from a network of usage, order, and relationships. Text alone reveals linguistic structure; grounding it fully in lived reality is a deeper problem we should not pretend has vanished.
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** If a dictionary cannot contain every use of a word, where does meaning come from?
-
-#### When the chamber changes
-
-Keep the formal name Meaning covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: Cutting tiger from its sentences leaves a label whose living uses have disappeared.
-
-Now let the chamber move: Threads reconnect it to hunt, stripes, jungle, fear, and many contrasting contexts.
-
-The object that should remain after the terminology disappears is **the word tiger suspended in a web of neighboring word-threads**.
-
-> **Memory seal — Meaning**
->
-> Meaning is not hidden inside a word; it is constrained by the relationships in which the word participates.
-
-Give the idea a bodily path: Pinch an imaginary word, then open both hands outward into a web.
-
 We need a geometry that can move symbols toward representations satisfying many contextual constraints at once.
-
-> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/006-meaning/README.md).*
 
 ---
 
@@ -921,28 +739,6 @@ matter now and retrieve information from them.
 That unresolved need—not a desire to introduce another famous equation—is
 what forces the next invention.
 
-#### When the chamber changes
-
-The Embeddings chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: Private one-hot pedestals keep every word equally far from every other word.
-
-Now let the chamber move: The pedestals dissolve and training moves stars through a shared geometric sky.
-
-The object that should remain after the terminology disappears is **a constellation in which tiger and lion stars can drift nearer while tiger and bicycle drift apart**.
-
-> **Memory seal — Embeddings**
->
-> An embedding is a learned place where useful relationships become available as geometry.
-
-Give the idea a bodily path: Hold three fingers far apart, then bring two together while leaving the third away.
-
-> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/007-embeddings/README.md).*
-
 ---
 
 ### Excavation 008 — Why Attention Had to Exist
@@ -994,33 +790,7 @@ At this stage we deliberately avoid the famous attention equation. We have not e
 3. relevance depends on the pair;
 4. selected sources must contribute information to a new representation.
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** When a word is surrounded by many others, how can it retrieve only what matters now?
-
-#### When the chamber changes
-
-Before leaving Attention, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: One fixed summary blends river, animal, and action until the word bank cannot choose its active meaning.
-
-Now let the chamber move: The lantern sends a different beam from each word toward the contextual clues relevant to this occurrence.
-
-The object that should remain after the terminology disappears is **a movable lantern above a sentence carved around a circular table**.
-
-> **Memory seal — Attention**
->
-> Attention lets each occurrence gather the evidence that matters to its present question.
-
-Give the idea a bodily path: Shade your eyes, then point a narrow beam from one imagined word to another.
-
 The relevance scores may be negative, huge, or expressed on unstable scales. Before they can mix information, they must become usable weights.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/008-attention/README.md).*
 
 ---
 
@@ -1098,33 +868,7 @@ $$
 
 We now know **who matters**, but weights are not knowledge. If a historian receives weight `0.90`, what does the historian actually say? That distinction leads to values.
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** How can raw relevance scores become shares that are positive and together form one whole?
-
-#### When the chamber changes
-
-The mathematical name Softmax can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: Raw scores include negatives and arbitrary scales, so they cannot say how much of the single vessel each clue receives.
-
-Now let the chamber move: Every channel becomes positive, then the common vessel divides the water into comparable shares summing to one.
-
-The object that should remain after the terminology disappears is **three attention bowls receiving water from scored channels**.
-
-> **Memory seal — Softmax**
->
-> Softmax turns competing scores into a conserved distribution of attention.
-
-Give the idea a bodily path: Raise three fingers at different heights, then lower them into one balanced open palm.
-
 We must derive both the relevance scores and the information being mixed. Those are different jobs.
-
-> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/009-softmax/README.md).*
 
 ---
 
@@ -1147,9 +891,12 @@ At first we might reuse Euclidean distance. You rejected that for the right reas
 
 A doctor and a hospital are not similar objects, yet they can be strongly related. Attention asks a directional question: “How useful are you to me right now?”
 
-#### Your scoring operation
+#### The scoring operation we need
 
-You proposed comparing corresponding features, multiplying them, and adding everything to get one score.
+Relevance must compare corresponding features, allow agreements and
+disagreements to strengthen or weaken one another, and combine those local
+comparisons into one score. Multiplication followed by addition performs those
+jobs without losing which features met.
 
 Suppose a query is `[1, 2, 3]` and a key is `[2, 1, 4]`. Feature by feature:
 
@@ -1186,7 +933,7 @@ Learned matrices create query, key, and value views from each current representa
 
 Three old motions cast new shadows here: **the meeting of arrows**—matching directions reinforce while opposing directions resist; **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
 
-Cover the prose about query, key, and value and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming query, key, and value equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 s_{ij}=\mathbf{q}_i\cdot\mathbf{k}_j
@@ -1216,33 +963,7 @@ $$
 \mathbf{o}_i=\sum_j \alpha_{ij}\mathbf{v}_j
 $$
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** Why must asking, matching, and contributing be three different jobs?
-
-#### When the chamber changes
-
-The Query, Key, and Value room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: Using one description for every job confuses what is sought, how relevance is tested, and what information is finally carried.
-
-Now let the chamber move: The word passes through three masks: one asks, one advertises, and one contributes.
-
-The object that should remain after the terminology disappears is **three masks labeled query, key, and value hanging above one word**.
-
-> **Memory seal — Query, Key, and Value**
->
-> Query, key, and value separate the question, the match, and the knowledge that travels.
-
-Give the idea a bodily path: Point toward yourself, touch two fingertips together, then offer an open palm.
-
 One relevance system can pursue one mixture of relationships. Language needs several kinds of relevance at the same time.
-
-> **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../MATHEMATICS_ATLAS.md#dynamics) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/010-query-key-value/README.md).*
 
 ---
 
@@ -1316,33 +1037,7 @@ $$
 =\mathrm{Concat}(\text{head}_1,\ldots,\text{head}_H)W_O
 $$
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** What if understanding one word requires several kinds of relevance at once?
-
-#### When the chamber changes
-
-Keep the formal name Multi-Head Attention covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: One attention beam must choose between syntax, identity, position, and reference, flattening different relationships into one compromise.
-
-Now let the chamber move: Several windows open; each follows one kind of relationship before their views reunite.
-
-The object that should remain after the terminology disappears is **a many-windowed observatory aimed at the same sentence**.
-
-> **Memory seal — Multi-Head Attention**
->
-> Multi-head attention lets several relational questions be asked in parallel before their answers meet.
-
-Give the idea a bodily path: Fan your fingers like separate rays, then close them into one hand.
-
 The experts have exchanged information. Each token must now transform what it received into new internal knowledge.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/011-multi-head-attention/README.md).*
 
 ---
 
@@ -1410,33 +1105,7 @@ $$
 =W_2 \sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2
 $$
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** After words exchange information, how can each position privately transform what it learned?
-
-#### When the chamber changes
-
-The Feed-Forward Networks chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: Attention moves information between positions but cannot by itself perform every nonlinear transformation inside each position.
-
-Now let the chamber move: Each word enters its own loom, expands through the first gate, bends, and contracts through the second.
-
-The object that should remain after the terminology disappears is **a small two-gate loom standing at every word position**.
-
-> **Memory seal — Feed-Forward Networks**
->
-> A feed-forward network gives every position a private nonlinear workshop after communication.
-
-Give the idea a bodily path: Open both hands wide, bend the fingers, then bring the hands close again.
-
 If every workshop completely replaces its input, useful information can be damaged as it passes through many layers. We need a safer way to build depth.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/012-feed-forward-networks/README.md).*
 
 ---
 
@@ -1495,33 +1164,7 @@ $$
 \mathbf{y}=\mathbf{x}+F(\mathbf{x})
 $$
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** How can a deep stack learn a change without erasing the useful state it already has?
-
-#### When the chamber changes
-
-Before leaving Residual Connections, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: Every new layer replaces the whole state, so a poor transformation can destroy information and gradients struggle to return.
-
-Now let the chamber move: The old road remains open while the new branch contributes only its proposed change.
-
-The object that should remain after the terminology disappears is **a stone bridge with an old road running beneath a newly built arch**.
-
-> **Memory seal — Residual Connections**
->
-> A residual connection preserves the old state while allowing a layer to add a correction.
-
-Give the idea a bodily path: Hold one hand steady while the other makes a small motion and joins it.
-
 Repeated transformations and additions can make some representations numerically huge and others tiny. The next block needs a more stable working scale.
-
-> **Mathematical roots:** [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/013-residual-connections/README.md).*
 
 ---
 
@@ -1592,33 +1235,7 @@ $$
 \widehat{x}_i=\frac{x_i-\mu}{\sqrt{\sigma^2+\epsilon}}
 $$
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** How can differently scaled hidden states enter the next layer on comparable footing?
-
-#### When the chamber changes
-
-The mathematical name Layer Normalization can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: One enormous activation dominates the chamber while tiny signals become almost invisible.
-
-Now let the chamber move: The fountain recenters its columns and adjusts their spread without destroying their relative pattern.
-
-The object that should remain after the terminology disappears is **a balancing fountain whose columns begin at wildly different heights**.
-
-> **Memory seal — Layer Normalization**
->
-> Layer normalization gives each token a stable local scale from which learning can continue.
-
-Give the idea a bodily path: Raise one hand high and one low, then bring them to a balanced middle level.
-
 We now have the parts of a Transformer, but every matrix begins random. Architecture provides a brain-shaped machine, not knowledge.
-
-> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Numerical Analysis & Scientific Computing](../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/014-layer-normalization/README.md).*
 
 ---
 
@@ -1682,7 +1299,7 @@ $\theta$ is the current state of the weights, $\nabla L$ is a vector of advised 
 [Multiplying by η](../MATHEMATICAL_MOVES.md#multiplication) chooses how much of that direction to trust. Without η, the gradient's magnitude would dictate the whole step even when it is too large or too small.
 - The update arrow means “replace the old parameter state with this new one”; it is an action, not symmetric equality. See [arrows](../MATHEMATICAL_MOVES.md#arrows).
 
-Before the line is compressed, notice its recurring motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The story of how a dead brain learns has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
@@ -1702,33 +1319,7 @@ predict → measure loss → trace responsibility backward → nudge weights
 
 Repeated over enormous amounts of text, small corrections reshape the entire web.
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** How can a machine use an error to change the internal decisions that produced it?
-
-#### When the chamber changes
-
-The Learning room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The machine can measure that its answer was wrong but the judgment leaves no mark on its internal weights.
-
-Now let the chamber move: The error chisel travels backward, assigning each adjustable surface a small responsibility and reshaping it.
-
-The object that should remain after the terminology disappears is **a clay brain beside a prediction stone and an error chisel**.
-
-> **Memory seal — Learning**
->
-> Learning begins when observed error can alter the decisions that created it.
-
-Give the idea a bodily path: Tap your forehead lightly, trace backward through the air, then make a tiny turning motion.
-
 Why should next-token prediction produce grammar, facts, abstraction, or reasoning at all? The answer lies behind the visible words.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
->
-> **Applied territory:** Foundations and representation
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/015-learning/README.md).*
 
 ---
 
@@ -1784,7 +1375,7 @@ That does not mean a model reconstructs reality perfectly, experiences the world
 
 No engineer labels a single weight “repair,” “gravity,” or “pronoun resolution.” These patterns can become distributed across the network because they reduce many prediction errors together. The useful behavior belongs to the interaction of learned parts, not to an explicitly written rule.
 
-This is **emergence** in the sense established by our expedition: system-level abilities arise from repeated local prediction and correction, even though the abilities were not inserted as separate hand-coded modules.
+This is **emergence**: system-level abilities arise from repeated local prediction and correction, even though the abilities were not inserted as separate hand-coded modules.
 
 ```text
 many examples
@@ -1800,25 +1391,6 @@ We began with a prehistoric human compressing repeated encounters into patterns.
 
 > What hidden structure must exist for these observations to make sense together?
 
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** How can countless small learned relationships become abilities nobody wrote as rules?
-
-#### When the chamber changes
-
-Keep the formal name Emergence covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: Inspecting one star or one rule reveals almost nothing resembling the complete ability.
-
-Now let the chamber move: Connections brighten across many layers until a larger structure becomes visible between them.
-
-The object that should remain after the terminology disappears is **a dark word-constellation whose hidden figure appears only when all stars glow**.
-
-> **Memory seal — Emergence**
->
-> Emergence is the visible capability formed by many distributed relationships acting together.
-
-Give the idea a bodily path: Wiggle separate fingertips like stars, then draw a wide circle around the whole pattern.
 #### What we have uncovered
 
 Observations became features. Features became vectors. Vectors became geometry and change. Matrices transformed representations. Context shaped embeddings. Attention retrieved relevant information. Parallel heads followed several relationships. Feed-forward networks processed what was retrieved. Residuals preserved a path, normalization stabilized it, and prediction supplied the pressure to learn.
@@ -1826,10 +1398,6 @@ Observations became features. Features became vectors. Vectors became geometry a
 No equation began the journey. Each one appeared only after a problem made it necessary.
 
 The reconstruction leaves one danger unresolved. A rustle, a footprint, or a sentence can support several hidden stories at once. If the model chooses one and calls it certain, inference becomes guessing with confidence. The next excavation must let several possibilities remain alive and give each only the share of belief the evidence has earned.
-
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
->
-> **Applied territory:** Foundations and representation
 
 #### When measurements learned to listen
 
@@ -1841,8 +1409,6 @@ geometry → relevance → attention → context → emergence
 
 The trail called *when measurements learned to listen* is what remains when one necessity becomes another.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/016-emergence/README.md).*
-
 ---
 
 ## Part III — Learning from Error
@@ -1853,55 +1419,20 @@ The Transformer can construct a useful interpretation, but it cannot honestly pr
 
 ### Excavation 017 — Probability — Counting What We Do Not Know
 
-> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
->
-> **Applied territory:** Learning from uncertainty and error
-
 The Transformer has begun to infer hidden causes from the footprints of language. But inference without certainty is dangerous: the same rustle may have been made by a tiger, a deer, or only the wind.
 
-Morning reaches the Lantern Observatory before anyone has a name for today's difficulty. Beside the ring of glass lanterns, the keeper of uncertain stories tries the smallest continuation of what already works: choose the most common cause and declare certainty.
+The previous discovery reaches the Lantern Observatory carrying one unfinished problem. Beside the ring of glass lanterns, the keeper of uncertain stories first tries to choose the most common cause and declare certainty.
 
-At the edge of the ring of glass lanterns, the shortcut produces its consequence: this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we choose the most common cause and declare certainty, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   choose the most common cause and… this works until the rare tiger…
-            \        /
-             \      /
-              keep every plausible outcome and give…
-```
+This failure cannot be repaired by performing the instruction to choose the most common cause and declare certainty more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the ring of glass lanterns; otherwise a changed answer could be mistaken for an explanation.
 
-The keeper of uncertain stories covers the new mark and the old contradiction returns: this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act. The cover is lifted, restoring the ability to keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason probability exists.
+The evidence has earned one extension and no more. We need to keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for probability is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
+Once this responsibility becomes part of the method, we have built what is called **Probability**. The name is simply a handle for the distinction already reconstructed.
 
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total. That threshold is where **Probability** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In probability, that memory takes a precise form: whenever this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act, preserve enough structure to keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total. Every lantern in probability remembers an older operation. Probability keeps several stories lit; logarithms turn compounded uncertainty into steps; summation lets separate surprises form one account. Learning begins when those lights can alter the machine that reads them.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we choose the most common cause and declare certainty?
-
-#### When the chamber changes
-
-The Probability chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The lens follows the tempting path—choose the most common cause and declare certainty. Then the evidence answers: this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The lens can now keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total.
-
-The object that should remain after the terminology disappears is **the probability lens mounted on the ring of glass lanterns**.
-
-> **Memory seal — Probability**
->
-> Probability keeps the missing power: keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total.
-
-Give the idea a bodily path: Touch the probability lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### The calculation hidden inside probability
 
 The keeper of uncertain stories carries the probability scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -1939,58 +1470,24 @@ Probabilities depend on evidence and assumptions. When new evidence arrives, the
 
 Here the new path ends honestly. Probability can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/017-probability/README.md).*
-
 ---
 
 ### Excavation 018 — Likelihood — Which Hidden Story Produced This Evidence?
 
-> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Probability lets the trackers preserve several possible outcomes instead of pretending to know. Now they face the reverse problem: one footprint has arrived, and several hidden animals could have produced it.
 
-The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: ask which story is generally more believable.
+A new case arrives at the Lantern Observatory. Nothing yet demands a new invention, so the keeper of uncertain stories uses the ring of glass lanterns to ask which story is generally more believable.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to ask which story is generally more believable preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
 
-```text
-OLD PATH:  request ──▶ ask which story is generally more… ──▶ that ignores the actual print. Or ask…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ reverse the question: if this story… ──▶ accountable result
-```
+The counterexample separates two questions that the attempt to ask which story is generally more believable had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the ring of glass lanterns fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The keeper of uncertain stories lays two translucent sheets over the ring of glass lanterns. The first is inscribed, “ask which story is generally more believable.” Its path ends where that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge. The second receives the same evidence but is allowed to reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. Held to the light, the sheets separate at exactly one decision.
+Only the broken responsibility needs to change. The method must now reverse the question: if this story were true, how expected would the observed evidence be? With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-No one reaches for a likelihood formula. The only useful question is smaller: what did the first path lose that the second path must carry?
+This repaired capacity is the idea named **Likelihood**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The keeper of uncertain stories changes only that one responsibility: reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. When the ink dries, the name **Likelihood** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge, while the other can reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood. That fork—not the vocabulary—is where likelihood lives.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** Which Hidden Story Produced This Evidence?
-
-#### When the chamber changes
-
-Before leaving Likelihood, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The key follows the tempting path—ask which story is generally more believable. Then the evidence answers: that ignores the actual print. Or ask for the probability of the story directly, although the story is what we are trying to judge.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The key can now reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
-
-The object that should remain after the terminology disappears is **the likelihood key mounted on the ring of glass lanterns**.
-
-> **Memory seal — Likelihood**
->
-> Likelihood keeps the missing power: reverse the question: if this story were true, how expected would the observed evidence be? That score is likelihood.
-
-Give the idea a bodily path: Touch the likelihood key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### The calculation hidden inside likelihood
 
 The keeper of uncertain stories carries the likelihood scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2026,59 +1523,24 @@ Likelihood compares explanations for fixed evidence; it is not itself a normaliz
 
 At the Lantern Observatory, the keeper of uncertain stories leaves a blank beneath the new mark. Likelihood has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/018-likelihood/README.md).*
-
 ---
 
 ### Excavation 019 — Information — Why Surprise Needs a Number
 
-> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Likelihood ranks hidden stories against the evidence in front of us. Yet two clues can favor the same story by very different amounts, and the trackers need to know how much each clue actually taught them.
 
-Night gathers around the Lantern Observatory. Under the light of the ring of glass lanterns, the keeper of uncertain stories refuses to invent prematurely and begins with the plain rule: measure information by message length.
+Inside the Lantern Observatory, the old method is given an honest chance. The keeper of uncertain stories places the evidence on the ring of glass lanterns and tries to measure information by message length.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To measure information by message length is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ measure information by message length ──▶ blurred: a long predictable greeting can…
-      │
-      └── new lens ──▶ we need rare events to carry more… ──▶ distinction survives
-```
+The important discovery is not merely that trying to measure information by message length failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the ring of glass lanterns, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the ring of glass lanterns. The pale trail bears the instruction “measure information by message length.” It disappears into the observed failure: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add. The darker trail carries one additional capacity—to we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed information mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
+The necessary extension now has a name: **Information**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-So the ring of glass lanterns is altered in exactly one way: we need rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs. Much later, people will call this territory **Information**. Here the name is only a memory of the failure it can survive.
-
-The ring of glass lanterns has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and information looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** Why Surprise Needs a Number?
-
-#### When the chamber changes
-
-The mathematical name Information can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The lantern follows the tempting path—measure information by message length. Then the evidence answers: a long predictable greeting can contain less news than one unexpected word. Use raw surprise such as one divided by probability, but independent surprises then multiply instead of add.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The lantern can now rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs.
-
-The object that should remain after the terminology disappears is **the information lantern mounted on the ring of glass lanterns**.
-
-> **Memory seal — Information**
->
-> Information keeps the missing power: rare events to carry more information, certain events to carry none, and independent messages to add. The negative logarithm satisfies all three needs.
-
-Give the idea a bodily path: Touch the information lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### The calculation hidden inside information
 
 The keeper of uncertain stories carries the information scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2116,59 +1578,24 @@ Information depends on the probability model. A surprise to one observer may be 
 
 The ring of glass lanterns answers today's question and falls silent at the next. That silence is precise: Information was built to repair one failure, not to pretend every later boundary is already solved.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/019-information/README.md).*
-
 ---
 
 ### Excavation 020 — Entropy — Measuring the Uncertainty of a Whole Situation
 
-> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Information gives one surprising observation a numerical weight. Before opening the next envelope, however, the community needs to compare the uncertainty of entire situations, not only the surprise of one event after it happens.
 
-Inside the Lantern Observatory, every old tool is given one honest chance. The keeper of uncertain stories sets the ring of glass lanterns between the evidence and the desired answer, then tries to count the number of outcomes.
+At the Lantern Observatory, the keeper of uncertain stories meets the next case beside the ring of glass lanterns. The nearest idea is also the most reasonable one: count the number of outcomes.
 
-Reality answers without terminology: both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution. The ring of glass lanterns now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To count the number of outcomes reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
 
-```text
-possible road A ─┐
-                 ├── old map: count the number of outcomes
-possible road B ─┘              └── loses: both bags contain stones, and both…
+The contradiction matters because it identifies a structural loss in the instruction to count the number of outcomes, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The ring of glass lanterns will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-same roads ──▶ repaired map ──▶ average the information of every…
-```
+The repair can now be kept narrow. The new method must average the information of every possible outcome, weighted by how often that outcome occurs. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The ring of glass lanterns is divided down the middle. Left side: “count the number of outcomes.” Its final mark records both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution. Right side: the same starting evidence, now allowed to average the information of every possible outcome, weighted by how often that outcome occurs. The difference is narrow enough to see and important enough to change the ending.
+A construction that performs this newly earned job is **Entropy**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The broken rule has given entropy a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: average the information of every possible outcome, weighted by how often that outcome occurs. The name **Entropy** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to count the number of outcomes; on the other lies the observed fact that both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution. The bridge called entropy has exactly the planks needed to average the information of every possible outcome, weighted by how often that outcome occurs.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we count the number of outcomes?
-
-#### When the chamber changes
-
-The Entropy room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The compass follows the tempting path—count the number of outcomes. Then the evidence answers: both bags contain stones, and both have two named colors if we list an absent possibility. Or inspect only the most likely outcome, losing the rest of the distribution.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The compass can now average the information of every possible outcome, weighted by how often that outcome occurs.
-
-The object that should remain after the terminology disappears is **the entropy compass mounted on the ring of glass lanterns**.
-
-> **Memory seal — Entropy**
->
-> Entropy keeps the missing power: average the information of every possible outcome, weighted by how often that outcome occurs.
-
-Give the idea a bodily path: Touch the entropy compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### The calculation hidden inside entropy
 
 The keeper of uncertain stories carries the entropy scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2207,59 +1634,24 @@ Entropy measures uncertainty in a stated distribution, not disorder in every eve
 
 A final test reaches beyond the new instrument. It does not refute Entropy; it reveals the edge of what was constructed. The keeper of uncertain stories carries that edge into the following room.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/020-entropy/README.md).*
-
 ---
 
 ### Excavation 021 — Cross-Entropy — Paying for Confidently Wrong Predictions
 
-> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Entropy measures how uncertain reality itself is. A learning machine introduces a second distribution—its own proposed beliefs—and can be far more certain than the evidence deserves.
 
-A new case arrives at the Lantern Observatory, but the keeper of uncertain stories first reaches for the familiar ring of glass lanterns. Its promise is simple: use zero for correct and one for wrong.
+The previous discovery reaches the Lantern Observatory carrying one unfinished problem. Beside the ring of glass lanterns, the keeper of uncertain stories first tries to use zero for correct and one for wrong.
 
-Then the quiet test arrives: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we use zero for correct and one for wrong, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
 
-```text
-reference evidence ──▶ shortcut: use zero for correct and one for wrong
-                         │
-                         └── mismatch: it treats barely wrong and…
+This failure cannot be repaired by performing the instruction to use zero for correct and one for wrong more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the ring of glass lanterns; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: charge the information cost assigned…
-```
+The evidence has earned one extension and no more. We need to charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The keeper of uncertain stories turns the ring of glass lanterns toward the light. Through the old engraving, use zero for correct and one for wrong, the evidence ends in the same contradiction: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction. A second engraving adds only the power to charge the information cost assigned by the predicted distribution to the outcome that actually occurred. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+Once this responsibility becomes part of the method, we have built what is called **Cross-Entropy**. The name is simply a handle for the distinction already reconstructed.
 
-The keeper of uncertain stories circles the place where the two cross-entropy cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The keeper of uncertain stories writes **Cross-Entropy** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of uncertain stories does not memorize cross-entropy. Instead, the keeper of uncertain stories memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The formal name merely lets that motion be shared.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we use zero for correct and one for wrong?
-
-#### When the chamber changes
-
-Keep the formal name Cross-Entropy covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The bridge follows the tempting path—use zero for correct and one for wrong. Then the evidence answers: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The bridge can now charge the information cost assigned by the predicted distribution to the outcome that actually occurred.
-
-The object that should remain after the terminology disappears is **the cross-entropy bridge mounted on the ring of glass lanterns**.
-
-> **Memory seal — Cross-Entropy**
->
-> Cross-Entropy keeps the missing power: charge the information cost assigned by the predicted distribution to the outcome that actually occurred.
-
-Give the idea a bodily path: Touch the cross-entropy bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### The calculation hidden inside cross-entropy
 
 The keeper of uncertain stories carries the cross-entropy scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2297,63 +1689,24 @@ Cross-entropy judges probabilities, so the model outputs must form a valid distr
 
 One unsolved mark remains on the ring of glass lanterns. None of the responsibilities inside Cross-Entropy can move it, and so it becomes the observation from which the next excavation must begin.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/021-cross-entropy/README.md).*
-
 ---
 
 ### Excavation 022 — Derivatives — Asking One Weight What It Changed
 
-> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Cross-entropy turns the model's misplaced confidence into one loss. One number can announce that the whole machine is wrong, but it cannot yet tell any particular weight whether moving up or down would help.
 
-The doors of the Lantern Observatory close against the wind. On the ring of glass lanterns, the keeper of uncertain stories writes the cheapest rule that might still be true: try a large jump and keep it if loss falls.
+A new case arrives at the Lantern Observatory. Nothing yet demands a new invention, so the keeper of uncertain stories uses the ring of glass lanterns to try a large jump and keep it if loss falls.
 
-The keeper of uncertain stories repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: large jumps can leap over improvements. Try every possible value; there are infinitely many. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to try a large jump and keep it if loss falls preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: large jumps can leap over improvements. Try every possible value; there are infinitely many.
 
-```text
-observation
-    │
-    ▼
-[try a large jump and keep it if loss…]
-    │
-    ╳  large jumps can leap over…
-    │
-    ▼
-[nudge the weight by a tiny amount,…]
-```
+The counterexample separates two questions that the attempt to try a large jump and keep it if loss falls had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the ring of glass lanterns fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the ring of glass lanterns, the old path and the repaired path run side by side. One carries “try a large jump and keep it if loss falls”; the other knows how to nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero. When the failure—large jumps can leap over improvements. Try every possible value; there are infinitely many—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to derivatives. It is a compass: it points directly toward the information the next construction must retain.
+This repaired capacity is the idea named **Derivatives**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The evidence permits one narrow invention: nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero. This problem and its repair will travel under the name **Derivatives**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—try a large jump and keep it if loss falls? The answer remains large jumps can leap over improvements. Try every possible value; there are infinitely many. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we try a large jump and keep it if loss falls?
-
-#### When the chamber changes
-
-The Derivatives chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The thread follows the tempting path—try a large jump and keep it if loss falls. Then the evidence answers: large jumps can leap over improvements. Try every possible value; there are infinitely many.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The thread can now nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
-
-The object that should remain after the terminology disappears is **the derivatives thread mounted on the ring of glass lanterns**.
-
-> **Memory seal — Derivatives**
->
-> Derivatives keeps the missing power: nudge the weight by a tiny amount, observe the change in loss, and divide change in loss by change in weight. Then imagine the nudge shrinking toward zero.
-
-Give the idea a bodily path: Touch the derivatives thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### The calculation hidden inside derivatives
 
 The keeper of uncertain stories carries the derivatives scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2377,7 +1730,7 @@ The limit shrinks the nudge so the answer becomes local rather than dependent on
 
 The mandala has curved back upon itself. In this chamber we meet **the chisel**—what is shared is removed so the remaining change can be seen; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about derivatives and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming derivatives equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \frac{dL}{dw}=\lim_{\epsilon\to0}\frac{L(w+\epsilon)-L(w)}{\epsilon}
@@ -2393,61 +1746,24 @@ A derivative is local advice. Curved landscapes can change direction, flatten, o
 
 The derivatives repair holds, but the world asks for something it was never given. At the Lantern Observatory, that unmet need is preserved rather than hidden behind a stronger claim.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/022-derivatives/README.md).*
-
 ---
 
 ### Excavation 023 — The Chain Rule — Following One Change Through Many Machines
 
-> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Learning from uncertainty and error
-
 A derivative can question one weight when its effect on loss is direct. Inside the network, that weight first changes a hidden signal, then a score, then a probability, and only then the loss.
 
-Nothing in the Lantern Observatory yet bears today's mathematical name. There is only the keeper of uncertain stories, the ring of glass lanterns, and one plausible action: measure only the first effect or only the final effect.
+Inside the Lantern Observatory, the old method is given an honest chance. The keeper of uncertain stories places the evidence on the ring of glass lanterns and tries to measure only the first effect or only the final effect.
 
-At the edge of the ring of glass lanterns, the shortcut produces its consequence: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To measure only the first effect or only the final effect is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   measure only the first effect or only… either breaks the causal path.…
-            \        /
-             \      /
-              we need to multiply local…
-```
+The important discovery is not merely that trying to measure only the first effect or only the final effect failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the ring of glass lanterns, so success cannot be manufactured by quietly replacing the original question.
 
-The keeper of uncertain stories covers the new mark and the old contradiction returns: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work. The cover is lifted, restoring the ability to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason chain rule exists.
+The old construction is therefore not discarded. It is widened just enough to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-What must change for chain rule is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
+The necessary extension now has a name: **The Chain Rule**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward. That threshold is where **The Chain Rule** enters the story.
-
-The marks on the ring of glass lanterns form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. chain rule is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we measure only the first effect or only the final effect?
-
-#### When the chamber changes
-
-Before leaving The Chain Rule, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The mirror follows the tempting path—measure only the first effect or only the final effect. Then the evidence answers: either breaks the causal path. Recompute the whole network separately for every weight; that repeats enormous amounts of work.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The mirror can now multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
-
-The object that should remain after the terminology disappears is **the chain rule mirror mounted on the ring of glass lanterns**.
-
-> **Memory seal — The Chain Rule**
->
-> The Chain Rule keeps the missing power: multiply local sensitivities along the causal path. Each stage tells how strongly it passes a small change onward.
-
-Give the idea a bodily path: Touch the chain rule mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### The calculation hidden inside the chain rule
 
 The keeper of uncertain stories carries the chain rule scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2466,7 +1782,7 @@ The product gives the effect of w on L without pretending they touch directly.
 Each [derivative](../MATHEMATICAL_MOVES.md#derivative) is a local conversion rate: loss per y, y per x, and x per weight.
 [Multiplying the rates](../MATHEMATICAL_MOVES.md#multiplication) is forced because one unit of weight change produces dx/dw units of x, each produces dy/dx units of y, and each of those produces dL/dy loss. Adding would mix rates with incompatible units.
 
-Before the line is compressed, notice its recurring motions: **the whispered question**—the present slope answers how a tiny movement would alter the outcome; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the whispered question**—the present slope answers how a tiny movement would alter the outcome; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The ring of glass lanterns already contains the complete chain rule mechanism. Mathematics gives that mechanism a form small enough to carry:
 
@@ -2484,58 +1800,24 @@ Branches require sensitivities from every downstream path to be added, not merel
 
 Here the new path ends honestly. Chain Rule can do the job that summoned it; it cannot cross the next boundary without another observation, another failure, and another invention.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/023-chain-rule/README.md).*
-
 ---
 
 ### Excavation 024 — Backpropagation — Reusing Blame Instead of Recomputing It
 
-> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Graphs & Relational Structures](../MATHEMATICS_ATLAS.md#graphs) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Learning from uncertainty and error
-
 The chain rule follows responsibility through one sequence of machines. A real network is a branching graph with shared intermediate results, so tracing every route independently repeats the same downstream work.
 
-At the Lantern Observatory, the keeper of uncertain stories returns to the ring of glass lanterns. Yesterday's instrument still lies open, so the first move asks for no new magic: perturb each weight and rerun the model.
+At the Lantern Observatory, the keeper of uncertain stories meets the next case beside the ring of glass lanterns. The nearest idea is also the most reasonable one: perturb each weight and rerun the model.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: this needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To perturb each weight and rerun the model reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: this needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
 
-```text
-OLD PATH:  request ──▶ perturb each weight and rerun the… ──▶ this needs at least one extra forward…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ compute the prediction once, remember… ──▶ accountable result
-```
+The contradiction matters because it identifies a structural loss in the instruction to perturb each weight and rerun the model, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The ring of glass lanterns will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The keeper of uncertain stories lays two translucent sheets over the ring of glass lanterns. The first is inscribed, “perturb each weight and rerun the model.” Its path ends where this needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again. The second receives the same evidence but is allowed to compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a backpropagation formula. The only useful question is smaller: what did the first path lose that the second path must carry?
+A construction that performs this newly earned job is **Backpropagation**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The keeper of uncertain stories changes only that one responsibility: compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream. When the ink dries, the name **Backpropagation** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The ring of glass lanterns keeps both histories. Its older mark still says, ‘perturb each weight and rerun the model’; beside it, the newer mark says, ‘compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.’ The distance between those sentences is the exact shape of backpropagation: no larger than the failure required, and no smaller than reality permits.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we perturb each weight and rerun the model?
-
-#### When the chamber changes
-
-The mathematical name Backpropagation can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The bell follows the tempting path—perturb each weight and rerun the model. Then the evidence answers: this needs at least one extra forward pass per weight. Or trace paths independently and calculate the same suffix again and again.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The bell can now compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
-
-The object that should remain after the terminology disappears is **the backpropagation bell mounted on the ring of glass lanterns**.
-
-> **Memory seal — Backpropagation**
->
-> Backpropagation keeps the missing power: compute the prediction once, remember intermediate values, then move backward. At each node, reuse the blame already accumulated from everything downstream.
-
-Give the idea a bodily path: Touch the backpropagation bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### The calculation hidden inside backpropagation
 
 The keeper of uncertain stories carries the backpropagation scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2574,59 +1856,24 @@ Backpropagation returns a local sensitivity for each weight: which infinitesimal
 
 At the Lantern Observatory, the keeper of uncertain stories leaves a blank beneath the new mark. Backpropagation has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/024-backpropagation/README.md).*
-
 ---
 
 ### Excavation 025 — Gradient Descent — Teaching a Tiny Network
 
-> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Backpropagation can now return one local sensitivity to every adjustable weight. Sensitivity is advice, not learning: the network still needs a rule that turns millions of local directions into a new parameter state.
 
-Morning reaches the Lantern Observatory before anyone has a name for today's difficulty. Beside the ring of glass lanterns, the keeper of uncertain stories tries the smallest continuation of what already works: jump directly opposite the gradient with no step control; the model may overshoot and diverge.
+The previous discovery reaches the Lantern Observatory carrying one unfinished problem. Beside the ring of glass lanterns, the keeper of uncertain stories first tries to jump directly opposite the gradient with no step control; the model may overshoot and diverge.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we jump directly opposite the gradient with no step control; the model may overshoot and diverge, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ jump directly opposite the gradient… ──▶ blurred: take microscopic steps; learning may…
-      │
-      └── new lens ──▶ move every parameter a controlled… ──▶ distinction survives
-```
+This failure cannot be repaired by performing the instruction to jump directly opposite the gradient with no step control; the model may overshoot and diverge more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the ring of glass lanterns; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the ring of glass lanterns. The pale trail bears the instruction “jump directly opposite the gradient with no step control; the model may overshoot and diverge.” It disappears into the observed failure: take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another. The darker trail carries one additional capacity—to move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed gradient descent mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
+Once this responsibility becomes part of the method, we have built what is called **Gradient Descent**. The name is simply a handle for the distinction already reconstructed.
 
-So the ring of glass lanterns is altered in exactly one way: move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress. Much later, people will call this territory **Gradient Descent**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the ring of glass lanterns. The failed path remains visible beneath the repair, because gradient descent is easier to remember when its scar remains attached to it. The scar reads, ‘take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another’; the new line exists only to keep that loss from happening again.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we jump directly opposite the gradient with no step control; the model may overshoot and diverge?
-
-#### When the chamber changes
-
-The Gradient Descent room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The vessel follows the tempting path—jump directly opposite the gradient with no step control; the model may overshoot and diverge. Then the evidence answers: take microscopic steps; learning may take forever. Trust one example; its noisy advice can undo another.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The vessel can now move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress.
-
-The object that should remain after the terminology disappears is **the gradient descent vessel mounted on the ring of glass lanterns**.
-
-> **Memory seal — Gradient Descent**
->
-> Gradient Descent keeps the missing power: move every parameter a controlled distance opposite its gradient, repeat on batches of examples, and watch loss rather than assuming progress.
-
-Give the idea a bodily path: Touch the gradient descent vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### The calculation hidden inside gradient descent
 
 The keeper of uncertain stories carries the gradient descent scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2672,59 +1919,24 @@ Gradient descent finds a reachable low region, not necessarily the unique best e
 
 The ring of glass lanterns answers today's question and falls silent at the next. That silence is precise: Gradient Descent was built to repair one failure, not to pretend every later boundary is already solved.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/025-gradient-descent/README.md).*
-
 ---
 
 ### Excavation 026 — Mini-Batches — Learning from More Than One Example
 
-> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Gradient descent can update the network after one example. One muddy footprint can now steer every weight, and the next unusual footprint can pull the whole machine back again.
 
-The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: use one example per update.
+A new case arrives at the Lantern Observatory. Nothing yet demands a new invention, so the keeper of uncertain stories uses the ring of glass lanterns to use one example per update.
 
-Reality answers without terminology: it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read. The ring of glass lanterns now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to use one example per update preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read.
 
-```text
-possible road A ─┐
-                 ├── old map: use one example per update
-possible road B ─┘              └── loses: it is fast, but noisy accidents…
+The counterexample separates two questions that the attempt to use one example per update had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the ring of glass lanterns fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-same roads ──▶ repaired map ──▶ average the evidence from a small…
-```
+Only the broken responsibility needs to change. The method must now average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The ring of glass lanterns is divided down the middle. Left side: “use one example per update.” Its final mark records it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read. Right side: the same starting evidence, now allowed to average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently. The difference is narrow enough to see and important enough to change the ending.
+This repaired capacity is the idea named **Mini-Batches**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The broken rule has given mini-batches a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently. The name **Mini-Batches** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from mini-batches through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we use one example per update?
-
-#### When the chamber changes
-
-Keep the formal name Mini-Batches covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The gate follows the tempting path—use one example per update. Then the evidence answers: it is fast, but noisy accidents dominate. Use every observation before each update. It is stable, but painfully slow and cannot react until the whole archive is read.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The gate can now average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently.
-
-The object that should remain after the terminology disappears is **the mini-batches gate mounted on the ring of glass lanterns**.
-
-> **Memory seal — Mini-Batches**
->
-> Mini-Batches keeps the missing power: average the evidence from a small group. Each batch is large enough to soften accidents and small enough to update frequently.
-
-Give the idea a bodily path: Touch the mini-batches gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### The calculation hidden inside mini-batches
 
 The keeper of uncertain stories carries the mini-batches scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2759,59 +1971,24 @@ $$
 
 A council does not ask one witness or the entire nation. It hears a manageable panel, makes a decision, then hears another.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/026-mini-batches/README.md).*
-
 ---
 
 ### Excavation 027 — Learning Rate — How Large Should the Next Step Be?
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
->
-> **Applied territory:** Learning from uncertainty and error
-
 A mini-batch replaces one noisy witness with the average advice of a small council. The council can point downhill, but its vote still says nothing about how far the network should move.
 
-Night gathers around the Lantern Observatory. Under the light of the ring of glass lanterns, the keeper of uncertain stories refuses to invent prematurely and begins with the plain rule: always take a huge step: leap across the valley and oscillate.
+Inside the Lantern Observatory, the old method is given an honest chance. The keeper of uncertain stories places the evidence on the ring of glass lanterns and tries to always take a huge step: leap across the valley and oscillate.
 
-Then the quiet test arrives: always take a microscopic step: improve so slowly that the expedition ends first. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To always take a huge step: leap across the valley and oscillate is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: always take a microscopic step: improve so slowly that the expedition ends first.
 
-```text
-reference evidence ──▶ shortcut: always take a huge step: leap across…
-                         │
-                         └── mismatch: always take a microscopic step:…
+The important discovery is not merely that trying to always take a huge step: leap across the valley and oscillate failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the ring of glass lanterns, so success cannot be manufactured by quietly replacing the original question.
 
-reference evidence ──▶ measured repair: we need to multiply the gradient by a…
-```
+The old construction is therefore not discarded. It is widened just enough to multiply the gradient by an adjustable positive step size, observe whether loss descends, and adjust that size over time. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The keeper of uncertain stories turns the ring of glass lanterns toward the light. Through the old engraving, always take a huge step: leap across the valley and oscillate, the evidence ends in the same contradiction: always take a microscopic step: improve so slowly that the expedition ends first. A second engraving adds only the power to multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The necessary extension now has a name: **Learning Rate**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-The keeper of uncertain stories circles the place where the two learning rate cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. The keeper of uncertain stories writes **Learning Rate** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of uncertain stories places a finger over the new distinction. At once the two cases collapse and always take a microscopic step: improve so slowly that the expedition ends first. Lifting the finger restores only this capacity: multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. That tiny reversible motion is the chapter's proof of necessity.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** How Large Should the Next Step Be?
-
-#### When the chamber changes
-
-The Learning Rate chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The wheel follows the tempting path—always take a huge step: leap across the valley and oscillate. Then the evidence answers: always take a microscopic step: improve so slowly that the expedition ends first.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The wheel can now multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
-
-The object that should remain after the terminology disappears is **the learning rate wheel mounted on the ring of glass lanterns**.
-
-> **Memory seal — Learning Rate**
->
-> Learning Rate keeps the missing power: multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
-
-Give the idea a bodily path: Touch the learning rate wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### The calculation hidden inside learning rate
 
 The keeper of uncertain stories carries the learning rate scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2845,63 +2022,24 @@ $$
 
 A mountain guide chooses shorter steps on steep or uncertain ground and can walk farther on a smooth open slope.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/027-learning-rate/README.md).*
-
 ---
 
 ### Excavation 028 — Momentum — Remembering Which Way Downhill Persists
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
->
-> **Applied territory:** Learning from uncertainty and error
-
 The learning rate controls the size of each step. Mini-batches nevertheless disagree sideways from one update to the next, hiding the direction that persists across their noise.
 
-Inside the Lantern Observatory, every old tool is given one honest chance. The keeper of uncertain stories sets the ring of glass lanterns between the evidence and the desired answer, then tries to obey only the newest gradient.
+At the Lantern Observatory, the keeper of uncertain stories meets the next case beside the ring of glass lanterns. The nearest idea is also the most reasonable one: obey only the newest gradient.
 
-The keeper of uncertain stories repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To obey only the newest gradient reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
 
-```text
-observation
-    │
-    ▼
-[obey only the newest gradient]
-    │
-    ╳  sideways noise repeatedly cancels…
-    │
-    ▼
-[keep a fading memory of past…]
-```
+The contradiction matters because it identifies a structural loss in the instruction to obey only the newest gradient, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The ring of glass lanterns will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the ring of glass lanterns, the old path and the repaired path run side by side. One carries “obey only the newest gradient”; the other knows how to keep a fading memory of past gradients and combine it with the new one. When the failure—sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must keep a fading memory of past gradients and combine it with the new one. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to momentum. It is a compass: it points directly toward the information the next construction must retain.
+A construction that performs this newly earned job is **Momentum**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The evidence permits one narrow invention: keep a fading memory of past gradients and combine it with the new one. This problem and its repair will travel under the name **Momentum**, but the name carries no knowledge the scene has not earned.
-
-What changed on the ring of glass lanterns can be said without symbols. Before, the method could only obey only the newest gradient; now it can also keep a fading memory of past gradients and combine it with the new one. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we obey only the newest gradient?
-
-#### When the chamber changes
-
-Before leaving Momentum, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The map follows the tempting path—obey only the newest gradient. Then the evidence answers: sideways noise repeatedly cancels progress. Average every past gradient equally; ancient advice remains influential after the landscape changes.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The map can now keep a fading memory of past gradients and combine it with the new one.
-
-The object that should remain after the terminology disappears is **the momentum map mounted on the ring of glass lanterns**.
-
-> **Memory seal — Momentum**
->
-> Momentum keeps the missing power: keep a fading memory of past gradients and combine it with the new one.
-
-Give the idea a bodily path: Touch the momentum map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### The calculation hidden inside momentum
 
 The keeper of uncertain stories carries the momentum scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -2926,7 +2064,7 @@ The final [η scaling](../MATHEMATICAL_MOVES.md#multiplication) chooses travel d
 
 Inside momentum, familiar operations return with stricter duties: **the lock and key**—one influence matters through another, and either missing factor can close the path; **the joining river**—separate contributions meet without losing where they came from; and **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. The metaphor is useful only as long as it predicts what the operation will do in the worked case.
 
-Cover the prose about momentum and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming momentum equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 v_t=\beta v_{t-1}+g_t
@@ -2940,61 +2078,24 @@ $$
 
 A heavy ball rattles less across a narrow ravine and keeps moving along the valley.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/028-momentum/README.md).*
-
 ---
 
 ### Excavation 029 — Initialization — Where Should Learning Begin?
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Momentum remembers persistent direction and damps contradictory wobble. Before any of these learning rules can act, though, every weight needs a starting value that allows different neurons to learn different things without exploding or falling silent.
 
-A new case arrives at the Lantern Observatory, but the keeper of uncertain stories first reaches for the familiar ring of glass lanterns. Its promise is simple: set every weight to zero.
+The previous discovery reaches the Lantern Observatory carrying one unfinished problem. Beside the ring of glass lanterns, the keeper of uncertain stories first tries to set every weight to zero.
 
-At the edge of the ring of glass lanterns, the shortcut produces its consequence: neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we set every weight to zero, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   set every weight to zero   neurons receive identical evidence…
-            \        /
-             \      /
-              draw small random weights whose scale…
-```
+This failure cannot be repaired by performing the instruction to set every weight to zero more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the ring of glass lanterns; otherwise a changed answer could be mistaken for an explanation.
 
-The keeper of uncertain stories covers the new mark and the old contradiction returns: neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate. The cover is lifted, restoring the ability to draw small random weights whose scale depends on how many inputs feed the neuron, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason initialization exists.
+The evidence has earned one extension and no more. We need to draw small random weights whose scale depends on how many inputs feed the neuron. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for initialization is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
+Once this responsibility becomes part of the method, we have built what is called **Initialization**. The name is simply a handle for the distinction already reconstructed.
 
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: draw small random weights whose scale depends on how many inputs feed the neuron. That threshold is where **Initialization** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In initialization, that memory takes a precise form: whenever neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate, preserve enough structure to draw small random weights whose scale depends on how many inputs feed the neuron.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** Where Should Learning Begin?
-
-#### When the chamber changes
-
-The mathematical name Initialization can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The scale follows the tempting path—set every weight to zero. Then the evidence answers: neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The scale can now draw small random weights whose scale depends on how many inputs feed the neuron.
-
-The object that should remain after the terminology disappears is **the initialization scale mounted on the ring of glass lanterns**.
-
-> **Memory seal — Initialization**
->
-> Initialization keeps the missing power: draw small random weights whose scale depends on how many inputs feed the neuron.
-
-Give the idea a bodily path: Touch the initialization scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### The calculation hidden inside initialization
 
 The keeper of uncertain stories carries the initialization scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3029,58 +2130,24 @@ $$
 
 A team needs different starting hypotheses, but none should begin shouting so loudly that every later observation is ignored.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/029-initialization/README.md).*
-
 ---
 
 ### Excavation 030 — Activation Functions — Why a Network Must Bend
 
-> **Mathematical roots:** [Calculus & Differential Change](../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../MATHEMATICS_ATLAS.md#optimization)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Careful initialization keeps early signals alive and breaks symmetry. But a tower made only from linear transformations still collapses algebraically into one linear transformation, no matter how many layers we stack.
 
-The doors of the Lantern Observatory close against the wind. On the ring of glass lanterns, the keeper of uncertain stories writes the cheapest rule that might still be true: add more linear layers.
+A new case arrives at the Lantern Observatory. Nothing yet demands a new invention, so the keeper of uncertain stories uses the ring of glass lanterns to add more linear layers.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to add more linear layers preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
 
-```text
-OLD PATH:  request ──▶ add more linear layers ──▶ depth increases, but expressive power…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ place an activation after a linear… ──▶ accountable result
-```
+The counterexample separates two questions that the attempt to add more linear layers had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the ring of glass lanterns fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The keeper of uncertain stories lays two translucent sheets over the ring of glass lanterns. The first is inscribed, “add more linear layers.” Its path ends where depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient. The second receives the same evidence but is allowed to place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. Held to the light, the sheets separate at exactly one decision.
+Only the broken responsibility needs to change. The method must now place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-No one reaches for a activation functions formula. The only useful question is smaller: what did the first path lose that the second path must carry?
+This repaired capacity is the idea named **Activation Functions**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The keeper of uncertain stories changes only that one responsibility: place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. When the ink dries, the name **Activation Functions** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient, while the other can place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually. That fork—not the vocabulary—is where activation functions lives.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** Why a Network Must Bend?
-
-#### When the chamber changes
-
-The Activation Functions room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The gear follows the tempting path—add more linear layers. Then the evidence answers: depth increases, but expressive power does not. Use a hard yes-or-no threshold; it creates decisions but supplies almost no useful gradient.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The gear can now place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.
-
-The object that should remain after the terminology disappears is **the activation functions gear mounted on the ring of glass lanterns**.
-
-> **Memory seal — Activation Functions**
->
-> Activation Functions keeps the missing power: place an activation after a linear transformation. ReLU opens positive paths; smoother gates such as GELU vary them gradually.
-
-Give the idea a bodily path: Touch the activation functions gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### The calculation hidden inside activation functions
 
 The keeper of uncertain stories carries the activation functions scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3113,59 +2180,24 @@ $$
 
 A railway switch changes which route a signal can take. Without switches, many track segments still form only one fixed route.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/030-activation-functions/README.md).*
-
 ---
 
 ### Excavation 031 — Overfitting — When Perfect Memory Pretends to Be Intelligence
 
-> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Activation gates let the network bend and build conditional internal paths. That flexibility also makes a new deception possible: the machine can reproduce every training example without learning what should survive beyond them.
 
-Nothing in the Lantern Observatory yet bears today's mathematical name. There is only the keeper of uncertain stories, the ring of glass lanterns, and one plausible action: celebrate zero training error.
+Inside the Lantern Observatory, the old method is given an honest chance. The keeper of uncertain stories places the evidence on the ring of glass lanterns and tries to celebrate zero training error.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To celebrate zero training error is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ celebrate zero training error ──▶ blurred: the model may have memorized…
-      │
-      └── new lens ──▶ we need to reserve unseen cases and… ──▶ distinction survives
-```
+The important discovery is not merely that trying to celebrate zero training error failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the ring of glass lanterns, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the ring of glass lanterns. The pale trail bears the instruction “celebrate zero training error.” It disappears into the observed failure: the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail. The darker trail carries one additional capacity—to reserve unseen cases and compare training success with performance outside the training memory. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to reserve unseen cases and compare training success with performance outside the training memory. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed overfitting mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
+The necessary extension now has a name: **Overfitting**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-So the ring of glass lanterns is altered in exactly one way: we need to reserve unseen cases and compare training success with performance outside the training memory. Much later, people will call this territory **Overfitting**. Here the name is only a memory of the failure it can survive.
-
-The ring of glass lanterns has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and overfitting looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** When Perfect Memory Pretends to Be Intelligence?
-
-#### When the chamber changes
-
-Keep the formal name Overfitting covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The prism follows the tempting path—celebrate zero training error. Then the evidence answers: the model may have memorized scratches and shadows. Make the model infinitely flexible; it can store even more irrelevant detail.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The prism can now reserve unseen cases and compare training success with performance outside the training memory.
-
-The object that should remain after the terminology disappears is **the overfitting prism mounted on the ring of glass lanterns**.
-
-> **Memory seal — Overfitting**
->
-> Overfitting keeps the missing power: reserve unseen cases and compare training success with performance outside the training memory.
-
-Give the idea a bodily path: Touch the overfitting prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### The calculation hidden inside overfitting
 
 The keeper of uncertain stories carries the overfitting scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3186,7 +2218,7 @@ A positive generalization gap is evidence that training success did not fully su
 [Unseen loss minus training loss](../MATHEMATICAL_MOVES.md#subtraction) isolates how much performance deteriorates beyond memorized examples. Adding the losses would measure total error, not the transfer gap.
 The order matters: a positive answer naturally means unseen cases are worse. Reversing the subtraction would reverse that interpretation.
 
-Before the line is compressed, notice its recurring motions: **the chisel**—what is shared is removed so the remaining change can be seen. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the chisel**—what is shared is removed so the remaining change can be seen. Together they keep the path from the concrete case to notation intact.
 
 The keeper of uncertain stories reads the journey of overfitting once more across the ring of glass lanterns, then lets the words contract without losing their order:
 
@@ -3198,59 +2230,24 @@ $$
 
 A student who memorizes answer positions can ace the practice sheet and fail when the same ideas are rearranged.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/031-overfitting/README.md).*
-
 ---
 
 ### Excavation 032 — Regularization — Making Memorization More Expensive
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Information Theory](../MATHEMATICS_ATLAS.md#information)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Overfitting reveals that low training error can be perfect memory wearing the costume of intelligence. The learner therefore needs pressure against fragile, unnecessarily extreme explanations.
 
-At the Lantern Observatory, the keeper of uncertain stories returns to the ring of glass lanterns. Yesterday's instrument still lies open, so the first move asks for no new magic: forbid complexity by making the model too small; it may lose real structure too.
+At the Lantern Observatory, the keeper of uncertain stories meets the next case beside the ring of glass lanterns. The nearest idea is also the most reasonable one: forbid complexity by making the model too small; it may lose real structure too.
 
-Reality answers without terminology: stop training at an arbitrary time without observing unseen performance. The ring of glass lanterns now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To forbid complexity by making the model too small; it may lose real structure too reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: stop training at an arbitrary time without observing unseen performance.
 
-```text
-possible road A ─┐
-                 ├── old map: forbid complexity by making the model…
-possible road B ─┘              └── loses: stop training at an arbitrary time…
+The contradiction matters because it identifies a structural loss in the instruction to forbid complexity by making the model too small; it may lose real structure too, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The ring of glass lanterns will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-same roads ──▶ repaired map ──▶ add a cost for large weights, remove…
-```
+The repair can now be kept narrow. The new method must add a cost for large weights, remove random paths during training, or stop when validation performance stops improving. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The ring of glass lanterns is divided down the middle. Left side: “forbid complexity by making the model too small; it may lose real structure too.” Its final mark records stop training at an arbitrary time without observing unseen performance. Right side: the same starting evidence, now allowed to add a cost for large weights, remove random paths during training, or stop when validation performance stops improving. The difference is narrow enough to see and important enough to change the ending.
+A construction that performs this newly earned job is **Regularization**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The broken rule has given regularization a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: add a cost for large weights, remove random paths during training, or stop when validation performance stops improving. The name **Regularization** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to forbid complexity by making the model too small; it may lose real structure too; on the other lies the observed fact that stop training at an arbitrary time without observing unseen performance. The bridge called regularization has exactly the planks needed to add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we forbid complexity by making the model too small; it may lose real structure too?
-
-#### When the chamber changes
-
-The Regularization chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The seal follows the tempting path—forbid complexity by making the model too small; it may lose real structure too. Then the evidence answers: stop training at an arbitrary time without observing unseen performance.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The seal can now add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
-
-The object that should remain after the terminology disappears is **the regularization seal mounted on the ring of glass lanterns**.
-
-> **Memory seal — Regularization**
->
-> Regularization keeps the missing power: add a cost for large weights, remove random paths during training, or stop when validation performance stops improving.
-
-Give the idea a bodily path: Touch the regularization seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### The calculation hidden inside regularization
 
 The keeper of uncertain stories carries the regularization scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3284,59 +2281,24 @@ $$
 
 A map that explains every pebble with a separate rule is less trustworthy than one road system that explains many journeys.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/032-regularization/README.md).*
-
 ---
 
 ### Excavation 033 — Validation — Testing Without Peeking at the Final Exam
 
-> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Regularization changes which fitted explanation the learner prefers. Choosing its strength by repeatedly checking the final exam would quietly turn that exam into more training data.
 
-Morning reaches the Lantern Observatory before anyone has a name for today's difficulty. Beside the ring of glass lanterns, the keeper of uncertain stories tries the smallest continuation of what already works: use training loss for every choice; it rewards memorization.
+The previous discovery reaches the Lantern Observatory carrying one unfinished problem. Beside the ring of glass lanterns, the keeper of uncertain stories first tries to use training loss for every choice; it rewards memorization.
 
-Then the quiet test arrives: check the test set repeatedly; every decision leaks test information back into development. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we use training loss for every choice; it rewards memorization, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: check the test set repeatedly; every decision leaks test information back into development.
 
-```text
-reference evidence ──▶ shortcut: use training loss for every choice;…
-                         │
-                         └── mismatch: check the test set repeatedly; every…
+This failure cannot be repaired by performing the instruction to use training loss for every choice; it rewards memorization more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the ring of glass lanterns; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: split data by role: training changes…
-```
+The evidence has earned one extension and no more. We need to split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The keeper of uncertain stories turns the ring of glass lanterns toward the light. Through the old engraving, use training loss for every choice; it rewards memorization, the evidence ends in the same contradiction: check the test set repeatedly; every decision leaks test information back into development. A second engraving adds only the power to split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+Once this responsibility becomes part of the method, we have built what is called **Validation**. The name is simply a handle for the distinction already reconstructed.
 
-The keeper of uncertain stories circles the place where the two validation cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end. The keeper of uncertain stories writes **Validation** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of uncertain stories does not memorize validation. Instead, the keeper of uncertain stories memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end. The formal name merely lets that motion be shared.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we use training loss for every choice; it rewards memorization?
-
-#### When the chamber changes
-
-Before leaving Validation, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The lens follows the tempting path—use training loss for every choice; it rewards memorization. Then the evidence answers: check the test set repeatedly; every decision leaks test information back into development.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The lens can now split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
-
-The object that should remain after the terminology disappears is **the validation lens mounted on the ring of glass lanterns**.
-
-> **Memory seal — Validation**
->
-> Validation keeps the missing power: split data by role: training changes weights, validation changes design decisions, and test data is opened once at the end.
-
-Give the idea a bodily path: Touch the validation lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### The calculation hidden inside validation
 
 The keeper of uncertain stories carries the validation scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3367,63 +2329,24 @@ $$
 
 A practice exam guides study. A sealed final exam measures what survived without feedback.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/033-validation/README.md).*
-
 ---
 
 ### Excavation 034 — Generalization — What Should Survive Beyond the Dataset?
 
-> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Validation lets us choose among models without opening the sealed test set. Even an honest test can come from yesterday's hospital, dialect, season, or camera while tomorrow arrives from somewhere else.
 
-The ring of glass lanterns at the Lantern Observatory still carries the marks of the previous discovery. The keeper of uncertain stories follows them as far as they seem willing to go: assume all future observations come from exactly the same source as training.
+A new case arrives at the Lantern Observatory. Nothing yet demands a new invention, so the keeper of uncertain stories uses the ring of glass lanterns to assume all future observations come from exactly the same source as training.
 
-The keeper of uncertain stories repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: or demand good performance on every imaginable world, which no finite evidence can guarantee. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to assume all future observations come from exactly the same source as training preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: or demand good performance on every imaginable world, which no finite evidence can guarantee.
 
-```text
-observation
-    │
-    ▼
-[assume all future observations come…]
-    │
-    ╳  or demand good performance on every…
-    │
-    ▼
-[state the deployment world, test…]
-```
+The counterexample separates two questions that the attempt to assume all future observations come from exactly the same source as training had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the ring of glass lanterns fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the ring of glass lanterns, the old path and the repaired path run side by side. One carries “assume all future observations come from exactly the same source as training”; the other knows how to state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts. When the failure—or demand good performance on every imaginable world, which no finite evidence can guarantee—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to generalization. It is a compass: it points directly toward the information the next construction must retain.
+This repaired capacity is the idea named **Generalization**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The evidence permits one narrow invention: state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts. This problem and its repair will travel under the name **Generalization**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—assume all future observations come from exactly the same source as training? The answer remains or demand good performance on every imaginable world, which no finite evidence can guarantee. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What Should Survive Beyond the Dataset?
-
-#### When the chamber changes
-
-The mathematical name Generalization can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The key follows the tempting path—assume all future observations come from exactly the same source as training. Then the evidence answers: or demand good performance on every imaginable world, which no finite evidence can guarantee.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The key can now state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
-
-The object that should remain after the terminology disappears is **the generalization key mounted on the ring of glass lanterns**.
-
-> **Memory seal — Generalization**
->
-> Generalization keeps the missing power: state the deployment world, test meaningful shifts, and build representations around relationships likely to survive those shifts.
-
-Give the idea a bodily path: Touch the generalization key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### The calculation hidden inside generalization
 
 The keeper of uncertain stories carries the generalization scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3448,7 +2371,7 @@ The sampling mark ties the average to the future distribution. Training risk wou
 
 Three old motions cast new shadows here: **the council of possible worlds**—each future speaks in proportion to how often it may arrive. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
 
-Cover the prose about generalization and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming generalization equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 R(\theta)=\mathbb{E}_{(x,y)\sim P_{\text{future}}}[L(f_\theta(x),y)]
@@ -3458,61 +2381,24 @@ $$
 
 A boat tested on one calm lake has not proved itself at sea. We must name the waters we expect it to cross.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/034-generalization/README.md).*
-
 ---
 
 ### Excavation 035 — A Tiny Neural Network — Assemble the Entire Learning Loop
 
-> **Mathematical roots:** [Optimization](../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability)
->
-> **Applied territory:** Learning from uncertainty and error
-
 Generalization is the property we actually wanted: useful structure that survives new cases. We have derived its pieces separately; now they must become one visible machine whose prediction, loss, blame, and update form a complete loop.
 
-Night gathers around the Lantern Observatory. Under the light of the ring of glass lanterns, the keeper of uncertain stories refuses to invent prematurely and begins with the plain rule: hide everything behind a framework call.
+Inside the Lantern Observatory, the old method is given an honest chance. The keeper of uncertain stories places the evidence on the ring of glass lanterns and tries to hide everything behind a framework call.
 
-At the edge of the ring of glass lanterns, the shortcut produces its consequence: the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To hide everything behind a framework call is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   hide everything behind a framework… the code runs, but the causal chain…
-            \        /
-             \      /
-              we need to build a two-layer network,…
-```
+The important discovery is not merely that trying to hide everything behind a framework call failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the ring of glass lanterns, so success cannot be manufactured by quietly replacing the original question.
 
-The keeper of uncertain stories covers the new mark and the old contradiction returns: the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning. The cover is lifted, restoring the ability to build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason tiny neural network exists.
+The old construction is therefore not discarded. It is widened just enough to build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-What must change for tiny neural network is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
+The necessary extension now has a name: **A Tiny Neural Network**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data. That threshold is where **A Tiny Neural Network** enters the story.
-
-The marks on the ring of glass lanterns form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. tiny neural network is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-> **Memory realm 3 of 18 — [Lantern Observatory](../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we hide everything behind a framework call?
-
-#### When the chamber changes
-
-The A Tiny Neural Network room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The lantern follows the tempting path—hide everything behind a framework call. Then the evidence answers: the code runs, but the causal chain disappears. Hand-tune outputs without gradients; every new example breaks the tuning.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The lantern can now build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
-
-The object that should remain after the terminology disappears is **the tiny neural network lantern mounted on the ring of glass lanterns**.
-
-> **Memory seal — A Tiny Neural Network**
->
-> A Tiny Neural Network keeps the missing power: build a two-layer network, cache its intermediate values, backpropagate every derivative, update on batches, and evaluate on unseen data.
-
-Give the idea a bodily path: Touch the tiny neural network lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### The calculation hidden inside a tiny neural network
 
 The keeper of uncertain stories carries the tiny neural network scene to the ring of glass lanterns. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3555,8 +2441,6 @@ prediction → surprise → loss → blame → update → new prediction
 
 The trail called *the circle that teaches itself* is what remains when one necessity becomes another.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/035-tiny-neural-network/README.md).*
-
 ---
 
 ## Part IV — Building a Tiny GPT
@@ -3567,53 +2451,20 @@ The learner can change its weights when examples are already numerical. Real lan
 
 ### Excavation 036 — Tokenization: What Can a Language Model See?
 
-> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
->
-> **Applied territory:** Language models and useful answers
-
 The tiny neural network now learns from numbered examples. People do not speak in fixed numerical columns; they produce an open stream of words, punctuation, names, code, and writing systems.
 
-Inside the Clockwork Scriptorium, every old tool is given one honest chance. The mechanist sets the sentence-wheel between the evidence and the desired answer, then tries to give every complete word one ID.
+At the Clockwork Scriptorium, the mechanist meets the next case beside the sentence-wheel. The nearest idea is also the most reasonable one: give every complete word one ID.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: spaces appear to provide the boundaries. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To give every complete word one ID reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The mechanist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: spaces appear to provide the boundaries.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ give every complete word one ID ──▶ blurred: spaces appear to provide the…
-      │
-      └── new lens ──▶ use characters. Any new spelling can… ──▶ distinction survives
-```
+The contradiction matters because it identifies a structural loss in the instruction to give every complete word one ID, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The sentence-wheel will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The mechanist lays two translucent sheets over the sentence-wheel. The first is inscribed, “give every complete word one ID.” Its path ends where spaces appear to provide the boundaries. The second receives the same evidence but is allowed to use characters. Any new spelling can now be represented. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must use characters. Any new spelling can now be represented. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a tokenization formula. The only useful question is smaller: what did the first path lose that the second path must carry?
+A construction that performs this newly earned job is **Tokenization**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The mechanist changes only that one responsibility: use characters. Any new spelling can now be represented. When the ink dries, the name **Tokenization** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The sentence-wheel keeps both histories. Its older mark still says, ‘give every complete word one ID’; beside it, the newer mark says, ‘use characters. Any new spelling can now be represented.’ The distance between those sentences is the exact shape of tokenization: no larger than the failure required, and no smaller than reality permits. The sentence-wheel turns with machinery earned long before language: indices retrieve, vectors carry features, dot products compare directions, and weighted sums gather context. tokenization changes what travels through the machine, not why those operations exist.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What Can a Language Model See?
-
-#### When the chamber changes
-
-Keep the formal name Tokenization covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The compass follows the tempting path—give every complete word one ID. Then the evidence answers: spaces appear to provide the boundaries.
-
-Now let the chamber move: The mechanist changes one moving part. The compass can now use characters. Any new spelling can now be represented.
-
-The object that should remain after the terminology disappears is **the tokenization compass mounted on the sentence-wheel**.
-
-> **Memory seal — Tokenization**
->
-> Tokenization keeps the missing power: use characters. Any new spelling can now be represented.
-
-Give the idea a bodily path: Touch the tokenization compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### The calculation hidden inside tokenization
 
 The mechanist carries the tokenization scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3661,59 +2512,24 @@ Tokenization chooses pieces, not meanings. IDs remain arbitrary, and the chosen 
 
 At the Clockwork Scriptorium, the mechanist leaves a blank beneath the new mark. Tokenization has no operation that can answer it, so the blank—not a promised solution—travels onward.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/036-tokenization/README.md).*
-
 ---
 
 ### Excavation 037 — Input Embeddings: Giving Tokens Learnable Coordinates
 
-> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Language models and useful answers
-
 Tokenization gives the machine repeatable pieces and assigns each piece an address. An address distinguishes tokens but says nothing about how their meanings should begin.
 
-A new case arrives at the Clockwork Scriptorium, but the mechanist first reaches for the familiar sentence-wheel. Its promise is simple: feed token IDs directly into the network.
+The previous discovery reaches the Clockwork Scriptorium carrying one unfinished problem. Beside the sentence-wheel, the mechanist first tries to feed token IDs directly into the network.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we feed token IDs directly into the network, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The mechanist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
 
-```text
-possible road A ─┐
-                 ├── old map: feed token IDs directly into the…
-possible road B ─┘              └── loses: since 417 is larger than 92,…
+This failure cannot be repaired by performing the instruction to feed token IDs directly into the network more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sentence-wheel; otherwise a changed answer could be mistaken for an explanation.
 
-same roads ──▶ repaired map ──▶ give every vocabulary item a one-hot…
-```
+The evidence has earned one extension and no more. We need to give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-Two trails now cross the sentence-wheel. The pale trail bears the instruction “feed token IDs directly into the network.” It disappears into the observed failure: since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one. The darker trail carries one additional capacity—to give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+Once this responsibility becomes part of the method, we have built what is called **Input Embeddings**. The name is simply a handle for the distinction already reconstructed.
 
-The room becomes quiet around the failed input embeddings mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the sentence-wheel is altered in exactly one way: give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude. Much later, people will call this territory **Input Embeddings**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the sentence-wheel. The failed path remains visible beneath the repair, because input embeddings is easier to remember when its scar remains attached to it. The scar reads, ‘since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one’; the new line exists only to keep that loss from happening again.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we feed token IDs directly into the network?
-
-#### When the chamber changes
-
-The Input Embeddings chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The bridge follows the tempting path—feed token IDs directly into the network. Then the evidence answers: since 417 is larger than 92, arithmetic treats tiger as greater than lion. The distance from tiger to lion becomes 325, while the distance from tiger to token 418 is one.
-
-Now let the chamber move: The mechanist changes one moving part. The bridge can now give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude.
-
-The object that should remain after the terminology disappears is **the input embeddings bridge mounted on the sentence-wheel**.
-
-> **Memory seal — Input Embeddings**
->
-> Input Embeddings keeps the missing power: give every vocabulary item a one-hot vector: one coordinate is one and all others are zero. `lion → [1, 0, 0, 0]`, `tiger → [0, 1, 0, 0]`, and `river → [0, 0, 1, 0]`. Now IDs no longer pretend to contain magnitude.
-
-Give the idea a bodily path: Touch the input embeddings bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### The calculation hidden inside input embeddings
 
 The mechanist carries the input embeddings scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3780,59 +2596,24 @@ Worse, the embedding table contains no order. Swapping dog bites man with man bi
 
 The sentence-wheel answers today's question and falls silent at the next. That silence is precise: Input Embeddings was built to repair one failure, not to pretend every later boundary is already solved.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/037-input-embeddings/README.md).*
-
 ---
 
 ### Excavation 038 — Position — Why Order Must Enter the Model
 
-> **Mathematical roots:** [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
->
-> **Applied territory:** Language models and useful answers
-
 An embedding table gives every token a learned starting description. The sentences “dog bites man” and “man bites dog” still contain the same three descriptions, so the machine cannot tell who did what.
 
-The doors of the Clockwork Scriptorium close against the wind. On the sentence-wheel, the mechanist writes the cheapest rule that might still be true: sort tokens by ID or trust their array slot without exposing it to the model.
+A new case arrives at the Clockwork Scriptorium. Nothing yet demands a new invention, so the mechanist uses the sentence-wheel to sort tokens by ID or trust their array slot without exposing it to the model.
 
-Reality answers without terminology: the first invents arbitrary order; the second stores position outside the computation. The sentence-wheel now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to sort tokens by ID or trust their array slot without exposing it to the model preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The mechanist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the first invents arbitrary order; the second stores position outside the computation.
 
-```text
-reference evidence ──▶ shortcut: sort tokens by ID or trust their…
-                         │
-                         └── mismatch: the first invents arbitrary order;…
+The counterexample separates two questions that the attempt to sort tokens by ID or trust their array slot without exposing it to the model had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the sentence-wheel fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-reference evidence ──▶ measured repair: add a position-specific vector to…
-```
+Only the broken responsibility needs to change. The method must now add a position-specific vector to each token vector before attention. Content says what; position says where. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The sentence-wheel is divided down the middle. Left side: “sort tokens by ID or trust their array slot without exposing it to the model.” Its final mark records the first invents arbitrary order; the second stores position outside the computation. Right side: the same starting evidence, now allowed to add a position-specific vector to each token vector before attention. Content says what; position says where. The difference is narrow enough to see and important enough to change the ending.
+This repaired capacity is the idea named **Position**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-The broken rule has given position a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: add a position-specific vector to each token vector before attention. Content says what; position says where. The name **Position** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from position through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and the first invents arbitrary order; the second stores position outside the computation. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** Why Order Must Enter the Model?
-
-#### When the chamber changes
-
-Before leaving Position, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The thread follows the tempting path—sort tokens by ID or trust their array slot without exposing it to the model. Then the evidence answers: the first invents arbitrary order; the second stores position outside the computation.
-
-Now let the chamber move: The mechanist changes one moving part. The thread can now add a position-specific vector to each token vector before attention. Content says what; position says where.
-
-The object that should remain after the terminology disappears is **the position thread mounted on the sentence-wheel**.
-
-> **Memory seal — Position**
->
-> Position keeps the missing power: add a position-specific vector to each token vector before attention. Content says what; position says where.
-
-Give the idea a bodily path: Touch the position thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
 #### The calculation hidden inside position
 
 The mechanist carries the position scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3868,63 +2649,24 @@ The equation arrives after every operation has a job.
 
 Seat numbers do not describe passengers, but they preserve who sat where.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/038-position/README.md).*
-
 ---
 
 ### Excavation 039 — Causal Masking — Preventing the Future from Leaking Backward
 
-> **Mathematical roots:** [Causality & Experimental Design](../MATHEMATICS_ATLAS.md#causality) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
->
-> **Applied territory:** Language models and useful answers
-
 Position marks make order visible. During next-token training, however, the correct answer is sitting to the right inside the same sentence, where an unrestricted attention mechanism can simply look at it.
 
-Nothing in the Clockwork Scriptorium yet bears today's mathematical name. There is only the mechanist, the sentence-wheel, and one plausible action: train each prefix in a separate forward pass.
+Inside the Clockwork Scriptorium, the old method is given an honest chance. The mechanist places the evidence on the sentence-wheel and tries to train each prefix in a separate forward pass.
 
-Then the quiet test arrives: it prevents cheating but repeats nearly identical work. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To train each prefix in a separate forward pass is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The mechanist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: it prevents cheating but repeats nearly identical work.
 
-```text
-observation
-    │
-    ▼
-[train each prefix in a separate…]
-    │
-    ╳  it prevents cheating but repeats…
-    │
-    ▼
-[we need to process all positions…]
-```
+The important discovery is not merely that trying to train each prefix in a separate forward pass failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sentence-wheel, so success cannot be manufactured by quietly replacing the original question.
 
-The mechanist turns the sentence-wheel toward the light. Through the old engraving, train each prefix in a separate forward pass, the evidence ends in the same contradiction: it prevents cheating but repeats nearly identical work. A second engraving adds only the power to process all positions together while blocking attention from position i to every later position j. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to process all positions together while blocking attention from position i to every later position j. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The mechanist circles the place where the two causal masking cases collapsed together. The repair must open that circle and preserve the difference inside it.
+The necessary extension now has a name: **Causal Masking**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-Only the missing distinction is restored: we need to process all positions together while blocking attention from position i to every later position j. The mechanist writes **Causal Masking** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The mechanist places a finger over the new distinction. At once the two cases collapse and it prevents cheating but repeats nearly identical work. Lifting the finger restores only this capacity: process all positions together while blocking attention from position i to every later position j. That tiny reversible motion is the chapter's proof of necessity.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we train each prefix in a separate forward pass?
-
-#### When the chamber changes
-
-The mathematical name Causal Masking can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The mirror follows the tempting path—train each prefix in a separate forward pass. Then the evidence answers: it prevents cheating but repeats nearly identical work.
-
-Now let the chamber move: The mechanist changes one moving part. The mirror can now process all positions together while blocking attention from position i to every later position j.
-
-The object that should remain after the terminology disappears is **the causal masking mirror mounted on the sentence-wheel**.
-
-> **Memory seal — Causal Masking**
->
-> Causal Masking keeps the missing power: process all positions together while blocking attention from position i to every later position j.
-
-Give the idea a bodily path: Touch the causal masking mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
 #### The calculation hidden inside causal masking
 
 The mechanist carries the causal masking scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -3946,7 +2688,7 @@ When j>i, the source is future; adding −∞ makes its later softmax weight zer
 [j ≤ i and j > i](../MATHEMATICAL_MOVES.md#inequalities) divide earlier-or-current keys from future keys for query position i.
 Zero leaves an allowed attention score unchanged. [Negative infinity](../MATHEMATICAL_MOVES.md#negative-sign) makes a forbidden score's exponential weight zero after softmax; a large positive value would do the opposite.
 
-Before the line is compressed, notice its recurring motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. Together they keep the path from the concrete case to notation intact.
 
 The story of causal masking has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
@@ -3960,61 +2702,24 @@ The equation arrives after every operation has a job.
 
 An exam sheet can contain later questions, but an opaque cover hides everything beyond the current line.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/039-causal-mask/README.md).*
-
 ---
 
 ### Excavation 040 — Next-Token Examples — One Sentence Becomes Many Lessons
 
-> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
->
-> **Applied territory:** Language models and useful answers
-
 Causal masking prevents the learner from reading future answers. The model still needs to turn one sentence into all the honest prediction questions hidden inside it.
 
-At the Clockwork Scriptorium, the mechanist returns to the sentence-wheel. Yesterday's instrument still lies open, so the first move asks for no new magic: treat an entire sentence as one training example with one answer.
+At the Clockwork Scriptorium, the mechanist meets the next case beside the sentence-wheel. The nearest idea is also the most reasonable one: treat an entire sentence as one training example with one answer.
 
-The mechanist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: most of its transitions provide no learning signal. The failure is stable enough to become evidence.
+The attraction of this attempt is easy to see. To treat an entire sentence as one training example with one answer reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The mechanist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: most of its transitions provide no learning signal.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   treat an entire sentence as one… most of its transitions provide no…
-            \        /
-             \      /
-              shift the sequence by one position so…
-```
+The contradiction matters because it identifies a structural loss in the instruction to treat an entire sentence as one training example with one answer, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The sentence-wheel will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-Across the sentence-wheel, the old path and the repaired path run side by side. One carries “treat an entire sentence as one training example with one answer”; the other knows how to shift the sequence by one position so every visible prefix predicts the token immediately following it. When the failure—most of its transitions provide no learning signal—arrives, only one path still possesses a place to record the missing distinction.
+The repair can now be kept narrow. The new method must shift the sequence by one position so every visible prefix predicts the token immediately following it. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The failure is no longer an embarrassment to next-token examples. It is a compass: it points directly toward the information the next construction must retain.
+A construction that performs this newly earned job is **Next-Token Examples**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The evidence permits one narrow invention: shift the sequence by one position so every visible prefix predicts the token immediately following it. This problem and its repair will travel under the name **Next-Token Examples**, but the name carries no knowledge the scene has not earned.
-
-What changed on the sentence-wheel can be said without symbols. Before, the method could only treat an entire sentence as one training example with one answer; now it can also shift the sequence by one position so every visible prefix predicts the token immediately following it. Everything that follows—notation, code, and machinery—is a way of repeating that one human distinction without losing it.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we treat an entire sentence as one training example with one answer?
-
-#### When the chamber changes
-
-The Next-Token Examples room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The bell follows the tempting path—treat an entire sentence as one training example with one answer. Then the evidence answers: most of its transitions provide no learning signal.
-
-Now let the chamber move: The mechanist changes one moving part. The bell can now shift the sequence by one position so every visible prefix predicts the token immediately following it.
-
-The object that should remain after the terminology disappears is **the next-token examples bell mounted on the sentence-wheel**.
-
-> **Memory seal — Next-Token Examples**
->
-> Next-Token Examples keeps the missing power: shift the sequence by one position so every visible prefix predicts the token immediately following it.
-
-Give the idea a bodily path: Touch the next-token examples bell in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
 #### The calculation hidden inside next-token examples
 
 The mechanist carries the next-token examples scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -4035,7 +2740,7 @@ The shared length lets one forward pass create a supervised lesson at every posi
 [Parentheses](../MATHEMATICAL_MOVES.md#brackets) keep each ordered token sequence intact; summing the tokens would destroy both identity and order.
 [The shifted indices](../MATHEMATICAL_MOVES.md#indices) remove the final token from inputs and the first token from targets, so target position i is exactly the next token after input position i.
 
-Cover the prose about next-token examples and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming next-token examples equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 x=(t_0,\ldots,t_{n-1})
@@ -4051,58 +2756,24 @@ The equation arrives after every operation has a job.
 
 A reading teacher pauses after every word, not only at the final period.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/040-next-token-examples/README.md).*
-
 ---
 
 ### Excavation 041 — Logits — Let Every Vocabulary Token Compete
 
-> **Mathematical roots:** [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Language models and useful answers
-
 Shifted inputs and targets create one lesson at every position. The Transformer answers each lesson with a contextual vector, but a vector is not yet a competition among words such as tiger, river, or sleeps.
 
-Morning reaches the Clockwork Scriptorium before anyone has a name for today's difficulty. Beside the sentence-wheel, the mechanist tries the smallest continuation of what already works: choose the nearest input embedding directly.
+The previous discovery reaches the Clockwork Scriptorium carrying one unfinished problem. Beside the sentence-wheel, the mechanist first tries to choose the nearest input embedding directly.
 
-At the edge of the sentence-wheel, the shortcut produces its consequence: that restricts the scoring rule and hides how every vocabulary candidate should compete. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we choose the nearest input embedding directly, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The mechanist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: that restricts the scoring rule and hides how every vocabulary candidate should compete.
 
-```text
-OLD PATH:  request ──▶ choose the nearest input embedding… ──▶ that restricts the scoring rule and…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ use a learned linear map to produce… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to choose the nearest input embedding directly more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sentence-wheel; otherwise a changed answer could be mistaken for an explanation.
 
-The mechanist covers the new mark and the old contradiction returns: that restricts the scoring rule and hides how every vocabulary candidate should compete. The cover is lifted, restoring the ability to use a learned linear map to produce one raw score for every vocabulary item, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason logits exists.
+The evidence has earned one extension and no more. We need to use a learned linear map to produce one raw score for every vocabulary item. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for logits is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
+Once this responsibility becomes part of the method, we have built what is called **Logits**. The name is simply a handle for the distinction already reconstructed.
 
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: use a learned linear map to produce one raw score for every vocabulary item. That threshold is where **Logits** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In logits, that memory takes a precise form: whenever that restricts the scoring rule and hides how every vocabulary candidate should compete, preserve enough structure to use a learned linear map to produce one raw score for every vocabulary item.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we choose the nearest input embedding directly?
-
-#### When the chamber changes
-
-Keep the formal name Logits covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The vessel follows the tempting path—choose the nearest input embedding directly. Then the evidence answers: that restricts the scoring rule and hides how every vocabulary candidate should compete.
-
-Now let the chamber move: The mechanist changes one moving part. The vessel can now use a learned linear map to produce one raw score for every vocabulary item.
-
-The object that should remain after the terminology disappears is **the logits vessel mounted on the sentence-wheel**.
-
-> **Memory seal — Logits**
->
-> Logits keeps the missing power: use a learned linear map to produce one raw score for every vocabulary item.
-
-Give the idea a bodily path: Touch the logits vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
 #### The calculation hidden inside logits
 
 The mechanist carries the logits scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -4138,59 +2809,24 @@ The equation arrives after every operation has a job.
 
 Judges first assign unconstrained scores to every contestant before those scores are converted into shares.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/041-logits/README.md).*
-
 ---
 
 ### Excavation 042 — Vocabulary Probabilities — Turning Scores into a Prediction
 
-> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Language models and useful answers
+The output head lets every vocabulary token present a raw compatibility score. Those logits may be negative, enormous, or shifted together; they cannot yet serve as comparable beliefs or a stable training target.
 
-The output head lets every vocabulary token present a raw compatibility score. Those logits may be negative, enormous, or shifted together; neither the reader nor the loss can treat them as comparable beliefs yet.
+A new case arrives at the Clockwork Scriptorium. Nothing yet demands a new invention, so the mechanist uses the sentence-wheel to divide each logit by their sum.
 
-The sentence-wheel at the Clockwork Scriptorium still carries the marks of the previous discovery. The mechanist follows them as far as they seem willing to go: divide each logit by their sum.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to divide each logit by their sum preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: negative values break probability and shifting all scores changes the result. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+For a moment the answer looks complete. The next observation shows what the method could not preserve: negative values break probability and shifting all scores changes the result.
 
-*The mechanist sketches the break before changing it:*
+The counterexample separates two questions that the attempt to divide each logit by their sum had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the sentence-wheel fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ divide each logit by their sum ──▶ blurred: negative values break probability and…
-      │
-      └── new lens ──▶ exponentiate relative scores,… ──▶ distinction survives
-```
+Only the broken responsibility needs to change. The method must now exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The mechanist lays two translucent sheets over the sentence-wheel. The first is inscribed, “divide each logit by their sum.” Its path ends where negative values break probability and shifting all scores changes the result. The second receives the same evidence but is allowed to exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token. Held to the light, the sheets separate at exactly one decision.
+This repaired capacity is the idea named **Vocabulary Probabilities**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
-No one reaches for a vocabulary probabilities formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The mechanist changes only that one responsibility: exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token. When the ink dries, the name **Vocabulary Probabilities** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because negative values break probability and shifting all scores changes the result, while the other can exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token. That fork—not the vocabulary—is where vocabulary probabilities lives.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we divide each logit by their sum?
-
-#### When the chamber changes
-
-The Vocabulary Probabilities chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The gate follows the tempting path—divide each logit by their sum. Then the evidence answers: negative values break probability and shifting all scores changes the result.
-
-Now let the chamber move: The mechanist changes one moving part. The gate can now exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
-
-The object that should remain after the terminology disappears is **the vocabulary probabilities gate mounted on the sentence-wheel**.
-
-> **Memory seal — Vocabulary Probabilities**
->
-> Vocabulary Probabilities keeps the missing power: exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
-
-Give the idea a bodily path: Touch the vocabulary probabilities gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
 #### The calculation hidden inside vocabulary probabilities
 
 The mechanist carries the vocabulary probabilities scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -4230,59 +2866,24 @@ The equation arrives after every operation has a job.
 
 A race score becomes odds only after every competitor is considered together.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/042-vocabulary-probabilities/README.md).*
-
 ---
 
 ### Excavation 043 — Sampling — Choosing Without Always Taking the Maximum
 
-> **Mathematical roots:** [Probability & Statistics](../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete)
->
-> **Applied territory:** Language models and useful answers
-
 Softmax turns vocabulary scores into a distribution. Generation now faces a choice that training did not settle: should the machine always take the winner or sometimes follow another plausible continuation?
 
-Night gathers around the Clockwork Scriptorium. Under the light of the sentence-wheel, the mechanist refuses to invent prematurely and begins with the plain rule: always use argmax.
+Inside the Clockwork Scriptorium, the old method is given an honest chance. The mechanist places the evidence on the sentence-wheel and tries to always use argmax.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To always use argmax is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The mechanist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
 
-```text
-possible road A ─┐
-                 ├── old map: always use argmax
-possible road B ─┘              └── loses: the same prompt follows the same…
+The important discovery is not merely that trying to always use argmax failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sentence-wheel, so success cannot be manufactured by quietly replacing the original question.
 
-same roads ──▶ repaired map ──▶ we need to control the distribution…
-```
+The old construction is therefore not discarded. It is widened just enough to control the distribution with temperature and optionally restrict it to a credible top set before sampling. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-Two trails now cross the sentence-wheel. The pale trail bears the instruction “always use argmax.” It disappears into the observed failure: the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text. The darker trail carries one additional capacity—to control the distribution with temperature and optionally restrict it to a credible top set before sampling. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The necessary extension now has a name: **Sampling**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
-The room becomes quiet around the failed sampling mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the sentence-wheel is altered in exactly one way: we need to control the distribution with temperature and optionally restrict it to a credible top set before sampling. Much later, people will call this territory **Sampling**. Here the name is only a memory of the failure it can survive.
-
-The sentence-wheel has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and sampling looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we always use argmax?
-
-#### When the chamber changes
-
-Before leaving Sampling, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The wheel follows the tempting path—always use argmax. Then the evidence answers: the same prompt follows the same narrow path. Sample raw probabilities blindly. Low-quality tail tokens eventually derail the text.
-
-Now let the chamber move: The mechanist changes one moving part. The wheel can now control the distribution with temperature and optionally restrict it to a credible top set before sampling.
-
-The object that should remain after the terminology disappears is **the sampling wheel mounted on the sentence-wheel**.
-
-> **Memory seal — Sampling**
->
-> Sampling keeps the missing power: control the distribution with temperature and optionally restrict it to a credible top set before sampling.
-
-Give the idea a bodily path: Touch the sampling wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
 #### The calculation hidden inside sampling
 
 The mechanist carries the sampling scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -4318,66 +2919,31 @@ The equation arrives after every operation has a job.
 
 A musician follows likely notes but sometimes chooses another harmonious option; neither rigid repetition nor random keys make music.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/043-sampling/README.md).*
-
 ---
 
 ### Excavation 044 — Context Windows — How Much Past Can the Model Carry?
 
-> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Language models and useful answers
-
 Sampling allows several plausible futures instead of one repetitive path. Every chosen token is appended to the past, so the amount of history available to attention grows until computation or memory reaches a boundary.
 
-Inside the Clockwork Scriptorium, every old tool is given one honest chance. The mechanist sets the sentence-wheel between the evidence and the desired answer, then tries to attend to the entire history forever.
+At the Clockwork Scriptorium, the mechanist meets the next case beside the sentence-wheel. The nearest idea is also the most reasonable one: attend to the entire history forever.
 
-Reality answers without terminology: computation and memory grow, and the model eventually exceeds positions it was trained to handle. The sentence-wheel now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To attend to the entire history forever reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The mechanist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: computation and memory grow, and the model eventually exceeds positions it was trained to handle.
 
-```text
-reference evidence ──▶ shortcut: attend to the entire history forever
-                         │
-                         └── mismatch: computation and memory grow, and the…
+The contradiction matters because it identifies a structural loss in the instruction to attend to the entire history forever, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The sentence-wheel will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: choose a maximum context, train…
-```
+The repair can now be kept narrow. The new method must choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The sentence-wheel is divided down the middle. Left side: “attend to the entire history forever.” Its final mark records computation and memory grow, and the model eventually exceeds positions it was trained to handle. Right side: the same starting evidence, now allowed to choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past. The difference is narrow enough to see and important enough to change the ending.
+A construction that performs this newly earned job is **Context Windows**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
-The broken rule has given context windows a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past. The name **Context Windows** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to attend to the entire history forever; on the other lies the observed fact that computation and memory grow, and the model eventually exceeds positions it was trained to handle. The bridge called context windows has exactly the planks needed to choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** How Much Past Can the Model Carry?
-
-#### When the chamber changes
-
-The mathematical name Context Windows can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The map follows the tempting path—attend to the entire history forever. Then the evidence answers: computation and memory grow, and the model eventually exceeds positions it was trained to handle.
-
-Now let the chamber move: The mechanist changes one moving part. The map can now choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
-
-The object that should remain after the terminology disappears is **the context windows map mounted on the sentence-wheel**.
-
-> **Memory seal — Context Windows**
->
-> Context Windows keeps the missing power: choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
-
-Give the idea a bodily path: Touch the context windows map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
 #### The calculation hidden inside context windows
 
 The mechanist carries the context windows scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
 
 A larger window is not perfect memory. Retrieval, compression, recurrence, and careful data are separate inventions.
 
-Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The reader can see the growth by drawing the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
+Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The growth becomes visible when we draw the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
 
 ##### Naming what is already on the table
 
@@ -4405,63 +2971,24 @@ The equation arrives after every operation has a job.
 
 A desk holds only a finite number of open pages. Notes and indexes can preserve selected information after pages leave the desk.
 
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/044-context-window/README.md).*
-
 ---
 
 ### Excavation 045 — A Tiny GPT — Close the Prediction Loop
 
-> **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../MATHEMATICS_ATLAS.md#discrete) · [Linear Algebra & Geometry](../MATHEMATICS_ATLAS.md#linear-algebra)
->
-> **Applied territory:** Language models and useful answers
-
 A context window bounds how much past the model can carry. We have now earned every part of a tiny GPT; the remaining question is whether those parts actually cooperate in one prediction-and-generation loop.
 
-A new case arrives at the Clockwork Scriptorium, but the mechanist first reaches for the familiar sentence-wheel. Its promise is simple: call a framework Transformer and hide the causal chain.
+The previous discovery reaches the Clockwork Scriptorium carrying one unfinished problem. Beside the sentence-wheel, the mechanist first tries to call a framework Transformer and hide the causal chain.
 
-Then the quiet test arrives: or connect the parts without checking shapes, leakage, and target alignment. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we call a framework Transformer and hide the causal chain, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The mechanist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: or connect the parts without checking shapes, leakage, and target alignment.
 
-```text
-observation
-    │
-    ▼
-[call a framework Transformer and hide…]
-    │
-    ╳  or connect the parts without checking…
-    │
-    ▼
-[assemble token and position…]
-```
+This failure cannot be repaired by performing the instruction to call a framework Transformer and hide the causal chain more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sentence-wheel; otherwise a changed answer could be mistaken for an explanation.
 
-The mechanist turns the sentence-wheel toward the light. Through the old engraving, call a framework Transformer and hide the causal chain, the evidence ends in the same contradiction: or connect the parts without checking shapes, leakage, and target alignment. A second engraving adds only the power to assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The mechanist circles the place where the two tiny gpt cases collapsed together. The repair must open that circle and preserve the difference inside it.
+Once this responsibility becomes part of the method, we have built what is called **A Tiny GPT**. The name is simply a handle for the distinction already reconstructed.
 
-Only the missing distinction is restored: assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. The mechanist writes **A Tiny GPT** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The mechanist does not memorize tiny gpt. Instead, the mechanist memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program. The formal name merely lets that motion be shared.
-
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we call a framework Transformer and hide the causal chain?
-
-#### When the chamber changes
-
-The A Tiny GPT room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The scale follows the tempting path—call a framework Transformer and hide the causal chain. Then the evidence answers: or connect the parts without checking shapes, leakage, and target alignment.
-
-Now let the chamber move: The mechanist changes one moving part. The scale can now assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
-
-The object that should remain after the terminology disappears is **the tiny gpt scale mounted on the sentence-wheel**.
-
-> **Memory seal — A Tiny GPT**
->
-> A Tiny GPT keeps the missing power: assemble token and position embeddings, masked Transformer blocks, vocabulary logits, cross-entropy training, and iterative sampling in one traceable program.
-
-Give the idea a bodily path: Touch the tiny gpt scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
 #### The calculation hidden inside a tiny gpt
 
 The mechanist carries the tiny gpt scene to the sentence-wheel. Every quantity already has a visible owner and every operation already has a job; the symbols will only keep those moves precise when the calculation is repeated.
@@ -4505,5 +3032,3 @@ text → tokens → positions → context → probabilities → next token
 ```
 
 The trail called *a sentence enters; a future leaves* is what remains when one necessity becomes another.
-
-*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../excavations/045-tiny-gpt/README.md).*

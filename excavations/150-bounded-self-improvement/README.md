@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,49 +13,17 @@
 
 Pre-deployment evaluation can reject a dangerous candidate before the world pays for the experiment. A measured improvement must still pass reproducibility, impact review, authorization, staged release, monitoring, and rollback before it may replace the system that proposed it.
 
-The doors of the Academy of Trials close against the wind. On the sealed evidence ledger, the experimentalist writes the cheapest rule that might still be true: let every measured gain replace the current system automatically.
+A new case arrives at the Academy of Trials. Nothing yet demands a new invention, so the experimentalist uses the sealed evidence ledger to let every measured gain replace the current system automatically.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to let every measured gain replace the current system automatically preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The experimentalist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor.
 
-```text
-possible road A ─┐
-                 ├── old map: let every measured gain replace the…
-possible road B ─┘              └── loses: contaminated tests, reward hacks, or…
+The counterexample separates two questions that the attempt to let every measured gain replace the current system automatically had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the sealed evidence ledger fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-same roads ──▶ repaired map ──▶ separate proposal, sandboxed…
-```
+Only the broken responsibility needs to change. The method must now separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The experimentalist lays two translucent sheets over the sealed evidence ledger. The first is inscribed, “let every measured gain replace the current system automatically.” Its path ends where contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor. The second receives the same evidence but is allowed to separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a bounded self-improving system formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The experimentalist changes only that one responsibility: separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. When the ink dries, the name **A Bounded Self-Improving System** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor, while the other can separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback. That fork—not the vocabulary—is where bounded self-improving system lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we let every measured gain replace the current system automatically?
-
-## When the chamber changes
-
-The A Bounded Self-Improving System room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The thread follows the tempting path—let every measured gain replace the current system automatically. Then the evidence answers: contaminated tests, reward hacks, or one lucky run can promote a worse and less controllable successor.
-
-Now let the chamber move: The experimentalist changes one moving part. The thread can now separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback.
-
-The object that should remain after the terminology disappears is **the bounded self-improving system thread mounted on the sealed evidence ledger**.
-
-> **Memory seal — A Bounded Self-Improving System**
->
-> A Bounded Self-Improving System keeps the missing power: separate proposal, sandboxed experiment, reproducibility, independent evaluation, impact review, authorization, staged release, and rollback.
-
-Give the idea a bodily path: Touch the bounded self-improving system thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **A Bounded Self-Improving System**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Close the Research Loop
 

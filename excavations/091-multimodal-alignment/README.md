@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,52 +13,17 @@
 
 Policy gradients let consequences reshape action probabilities. The field system's words, images, and actions still live in separate representational worlds unless paired observations can teach them to meet.
 
-Night gathers around the Road of Consequences. Under the light of the map of branching journeys, the expedition leader refuses to invent prematurely and begins with the plain rule: compare raw pixels directly with token IDs.
+Inside the Road of Consequences, the old method is given an honest chance. The expedition leader places the evidence on the map of branching journeys and tries to compare raw pixels directly with token IDs.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: their coordinates have unrelated meanings and shapes. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To compare raw pixels directly with token IDs is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The expedition leader sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: their coordinates have unrelated meanings and shapes.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ compare raw pixels directly with… ──▶ blurred: their coordinates have unrelated…
-      │
-      └── new lens ──▶ we need to use separate encoders and… ──▶ distinction survives
-```
+The important discovery is not merely that trying to compare raw pixels directly with token IDs failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the map of branching journeys, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the map of branching journeys. The pale trail bears the instruction “compare raw pixels directly with token IDs.” It disappears into the observed failure: their coordinates have unrelated meanings and shapes. The darker trail carries one additional capacity—to use separate encoders and train paired image-text examples to become nearby. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to use separate encoders and train paired image-text examples to become nearby. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed multimodal alignment mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the map of branching journeys is altered in exactly one way: we need to use separate encoders and train paired image-text examples to become nearby. Much later, people will call this territory **Multimodal Alignment**. Here the name is only a memory of the failure it can survive.
-
-The map of branching journeys has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and multimodal alignment looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-
-Before leaving the map of branching journeys, the expedition leader tests the new idea backward. Remove the ability to use separate encoders and train paired image-text examples to become nearby, and the method falls back to this tempting instruction: compare raw pixels directly with token IDs. The old consequence returns—their coordinates have unrelated meanings and shapes. Restore the missing ability and that particular contradiction disappears. This reversible test is why multimodal alignment belongs to the growing structure rather than to a list of facts to memorize.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
->
-> **The question carried into this chamber:** What fails if we compare raw pixels directly with token IDs?
-
-## When the chamber changes
-
-Keep the formal name Multimodal Alignment covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The wheel follows the tempting path—compare raw pixels directly with token IDs. Then the evidence answers: their coordinates have unrelated meanings and shapes.
-
-Now let the chamber move: The expedition leader changes one moving part. The wheel can now use separate encoders and train paired image-text examples to become nearby.
-
-The object that should remain after the terminology disappears is **the multimodal alignment wheel mounted on the map of branching journeys**.
-
-> **Memory seal — Multimodal Alignment**
->
-> Multimodal Alignment keeps the missing power: use separate encoders and train paired image-text examples to become nearby.
-
-Give the idea a bodily path: Touch the multimodal alignment wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Multimodal Alignment**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding multimodal alignment
 

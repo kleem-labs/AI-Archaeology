@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,53 +13,17 @@
 
 Pixels preserve local color and position without yet revealing edges, stripes, or animals. The same small visual pattern may appear anywhere in the image, so relearning a detector at every location wastes both data and parameters.
 
-A new case arrives at the Glass Menagerie, but the maker of seeing-machines first reaches for the familiar wall of illuminated tiles. Its promise is simple: learn a separate edge detector for every location.
+The previous discovery reaches the Glass Menagerie carrying one unfinished problem. Beside the wall of illuminated tiles, the maker of seeing-machines first tries to learn a separate edge detector for every location.
 
-At the edge of the wall of illuminated tiles, the shortcut produces its consequence: the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we learn a separate edge detector for every location, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The maker of seeing-machines sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves.
 
-```text
-observation
-    │
-    ▼
-[learn a separate edge detector for…]
-    │
-    ╳  the trouble appears immediately: the…
-    │
-    ▼
-[slide one small learned filter across…]
-```
+This failure cannot be repaired by performing the instruction to learn a separate edge detector for every location more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the wall of illuminated tiles; otherwise a changed answer could be mistaken for an explanation.
 
-The maker of seeing-machines covers the new mark and the old contradiction returns: the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves. The cover is lifted, restoring the ability to slide one small learned filter across all positions and reuse its weights, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason convolution exists.
+The evidence has earned one extension and no more. We need to slide one small learned filter across all positions and reuse its weights. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for convolution is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: slide one small learned filter across all positions and reuse its weights. That threshold is where **Convolution** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In convolution, that memory takes a precise form: whenever the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves, preserve enough structure to slide one small learned filter across all positions and reuse its weights.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 8 of 18 — [Glass Menagerie](../../MEMORY_PALACE.md#realm-8)**
->
-> **The question carried into this chamber:** What fails if we learn a separate edge detector for every location?
-
-## When the chamber changes
-
-The Convolution chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The scale follows the tempting path—learn a separate edge detector for every location. Then the evidence answers: the trouble appears immediately: the model relearns the same pattern thousands of times and fails when it moves.
-
-Now let the chamber move: The maker of seeing-machines changes one moving part. The scale can now slide one small learned filter across all positions and reuse its weights.
-
-The object that should remain after the terminology disappears is **the convolution scale mounted on the wall of illuminated tiles**.
-
-> **Memory seal — Convolution**
->
-> Convolution keeps the missing power: slide one small learned filter across all positions and reuse its weights.
-
-Give the idea a bodily path: Touch the convolution scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Convolution**. The name is simply a handle for the distinction already reconstructed.
 
 ## Reusing the Same Local Detector
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,49 +13,17 @@
 
 Curriculum learning controls the order of experience. The supply of human labels still limits every curriculum, while raw text, images, and audio contain countless prediction problems whose answers are present in the data itself.
 
-The doors of the Hall of Possible Worlds close against the wind. On the table of mirrored maps, the keeper of unfinished questions writes the cheapest rule that might still be true: wait for humans to label every example.
+A new case arrives at the Hall of Possible Worlds. Nothing yet demands a new invention, so the keeper of unfinished questions uses the table of mirrored maps to wait for humans to label every example.
 
-Reality answers without terminology: labels are expensive and discard most structure already inside observations. The table of mirrored maps now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to wait for humans to label every example preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: labels are expensive and discard most structure already inside observations.
 
-```text
-reference evidence ──▶ shortcut: wait for humans to label every example
-                         │
-                         └── mismatch: labels are expensive and discard most…
+The counterexample separates two questions that the attempt to wait for humans to label every example had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the table of mirrored maps fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-reference evidence ──▶ measured repair: hide or transform part of an…
-```
+Only the broken responsibility needs to change. The method must now hide or transform part of an observation and train the model to recover the missing relation. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The table of mirrored maps is divided down the middle. Left side: “wait for humans to label every example.” Its final mark records labels are expensive and discard most structure already inside observations. Right side: the same starting evidence, now allowed to hide or transform part of an observation and train the model to recover the missing relation. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given self-supervised learning a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: hide or transform part of an observation and train the model to recover the missing relation. The name **Self-Supervised Learning** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from self-supervised learning through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and labels are expensive and discard most structure already inside observations. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we wait for humans to label every example?
-
-## When the chamber changes
-
-The Self-Supervised Learning room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The gear follows the tempting path—wait for humans to label every example. Then the evidence answers: labels are expensive and discard most structure already inside observations.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The gear can now hide or transform part of an observation and train the model to recover the missing relation.
-
-The object that should remain after the terminology disappears is **the self-supervised learning gear mounted on the table of mirrored maps**.
-
-> **Memory seal — Self-Supervised Learning**
->
-> Self-Supervised Learning keeps the missing power: hide or transform part of an observation and train the model to recover the missing relation.
-
-Give the idea a bodily path: Touch the self-supervised learning gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Self-Supervised Learning**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Understanding self-supervised learning
 

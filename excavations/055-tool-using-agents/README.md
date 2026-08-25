@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,49 +13,17 @@
 
 Retrieval lets the assistant look for evidence before speaking. Some requests require more than words: send a message, query a database, reserve equipment, or change real state.
 
-Nothing in the Hall of Voices yet bears today's mathematical name. There is only the public archivist, the listening table, and one plausible action: ask the language model to simulate every tool from memory.
+Inside the Hall of Voices, the old method is given an honest chance. The public archivist places the evidence on the listening table and tries to ask the language model to simulate every tool from memory.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: it invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To ask the language model to simulate every tool from memory is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The public archivist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: it invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded.
 
-```text
-reference evidence ──▶ shortcut: ask the language model to simulate…
-                         │
-                         └── mismatch: it invents live weather, makes…
+The important discovery is not merely that trying to ask the language model to simulate every tool from memory failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the listening table, so success cannot be manufactured by quietly replacing the original question.
 
-reference evidence ──▶ measured repair: we need to let the model choose a…
-```
+The old construction is therefore not discarded. It is widened just enough to let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-Two trails now cross the listening table. The pale trail bears the instruction “ask the language model to simulate every tool from memory.” It disappears into the observed failure: it invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded. The darker trail carries one additional capacity—to let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed tool-using agents mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the listening table is altered in exactly one way: we need to let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits. Much later, people will call this territory **Tool-Using Agents**. Here the name is only a memory of the failure it can survive.
-
-The listening table has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and tool-using agents looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
->
-> **The question carried into this chamber:** When Words Must Cause Verified Actions?
-
-## When the chamber changes
-
-The Tool-Using Agents room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The mirror follows the tempting path—ask the language model to simulate every tool from memory. Then the evidence answers: it invents live weather, makes arithmetic errors, and cannot know whether an external action succeeded.
-
-Now let the chamber move: The public archivist changes one moving part. The mirror can now let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
-
-The object that should remain after the terminology disappears is **the tool-using agents mirror mounted on the listening table**.
-
-> **Memory seal — Tool-Using Agents**
->
-> Tool-Using Agents keeps the missing power: let the model choose a permitted tool, provide structured arguments, observe the real result, and decide the next step under explicit limits.
-
-Give the idea a bodily path: Touch the tool-using agents mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Tool-Using Agents**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## When Words Must Cause Verified Actions
 

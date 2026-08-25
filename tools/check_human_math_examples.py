@@ -9,7 +9,9 @@ named_objects = re.compile(
     r"librarian|book|oven|bread|dough|robot|hiker|policy|caption|clinic|patient|"
     r"cave|sensor|device|weight|dataset|prediction|story|event|language|text|"
     r"examples?|future|training|river|node|tree|hospital|router|words?|tokens?|"
-    r"predictions?|models?)\b", re.I)
+    r"predictions?|models?|basis|arrows?|walk|floor|matrix|rail|plate|tolerance|"
+    r"setting|rate|litres?|samples?|oscillation|tosses|heads|measurements?|"
+    r"readings?|questions?|logits?|functions?|slope|curvature)\b", re.I)
 banned_openings = (
     "Three examples propose gradients [",
     "Let q=[",

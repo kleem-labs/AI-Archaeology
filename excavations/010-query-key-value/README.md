@@ -17,9 +17,12 @@ At first we might reuse Euclidean distance. You rejected that for the right reas
 
 A doctor and a hospital are not similar objects, yet they can be strongly related. Attention asks a directional question: “How useful are you to me right now?”
 
-## Your scoring operation
+## The scoring operation we need
 
-You proposed comparing corresponding features, multiplying them, and adding everything to get one score.
+Relevance must compare corresponding features, allow agreements and
+disagreements to strengthen or weaken one another, and combine those local
+comparisons into one score. Multiplication followed by addition performs those
+jobs without losing which features met.
 
 Suppose a query is `[1, 2, 3]` and a key is `[2, 1, 4]`. Feature by feature:
 
@@ -56,7 +59,7 @@ Learned matrices create query, key, and value views from each current representa
 
 Three old motions cast new shadows here: **the meeting of arrows**—matching directions reinforce while opposing directions resist; **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chorus**—many witnesses contribute to one answer without one silence erasing the rest. Remember the motions and the formula can be rebuilt even after its letters have been forgotten.
 
-Cover the prose about query, key, and value and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming query, key, and value equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 s_{ij}=\mathbf{q}_i\cdot\mathbf{k}_j
@@ -85,28 +88,6 @@ The output for one token is finally the weighted sum of source values:
 $$
 \mathbf{o}_i=\sum_j \alpha_{ij}\mathbf{v}_j
 $$
-
-<!-- memory-film-v1:start -->
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** Why must asking, matching, and contributing be three different jobs?
-
-## When the chamber changes
-
-The Query, Key, and Value room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: Using one description for every job confuses what is sought, how relevance is tested, and what information is finally carried.
-
-Now let the chamber move: The word passes through three masks: one asks, one advertises, and one contributes.
-
-The object that should remain after the terminology disappears is **three masks labeled query, key, and value hanging above one word**.
-
-> **Memory seal — Query, Key, and Value**
->
-> Query, key, and value separate the question, the match, and the knowledge that travels.
-
-Give the idea a bodily path: Point toward yourself, touch two fingertips together, then offer an open palm.
-<!-- memory-film-v1:end -->
 
 ## Challenge
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,53 +13,17 @@
 
 Position marks make order visible. During next-token training, however, the correct answer is sitting to the right inside the same sentence, where an unrestricted attention mechanism can simply look at it.
 
-Nothing in the Clockwork Scriptorium yet bears today's mathematical name. There is only the mechanist, the sentence-wheel, and one plausible action: train each prefix in a separate forward pass.
+Inside the Clockwork Scriptorium, the old method is given an honest chance. The mechanist places the evidence on the sentence-wheel and tries to train each prefix in a separate forward pass.
 
-Then the quiet test arrives: it prevents cheating but repeats nearly identical work. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To train each prefix in a separate forward pass is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The mechanist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: it prevents cheating but repeats nearly identical work.
 
-```text
-observation
-    │
-    ▼
-[train each prefix in a separate…]
-    │
-    ╳  it prevents cheating but repeats…
-    │
-    ▼
-[we need to process all positions…]
-```
+The important discovery is not merely that trying to train each prefix in a separate forward pass failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sentence-wheel, so success cannot be manufactured by quietly replacing the original question.
 
-The mechanist turns the sentence-wheel toward the light. Through the old engraving, train each prefix in a separate forward pass, the evidence ends in the same contradiction: it prevents cheating but repeats nearly identical work. A second engraving adds only the power to process all positions together while blocking attention from position i to every later position j. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to process all positions together while blocking attention from position i to every later position j. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The mechanist circles the place where the two causal masking cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to process all positions together while blocking attention from position i to every later position j. The mechanist writes **Causal Masking** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The mechanist places a finger over the new distinction. At once the two cases collapse and it prevents cheating but repeats nearly identical work. Lifting the finger restores only this capacity: process all positions together while blocking attention from position i to every later position j. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we train each prefix in a separate forward pass?
-
-## When the chamber changes
-
-The mathematical name Causal Masking can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The mirror follows the tempting path—train each prefix in a separate forward pass. Then the evidence answers: it prevents cheating but repeats nearly identical work.
-
-Now let the chamber move: The mechanist changes one moving part. The mirror can now process all positions together while blocking attention from position i to every later position j.
-
-The object that should remain after the terminology disappears is **the causal masking mirror mounted on the sentence-wheel**.
-
-> **Memory seal — Causal Masking**
->
-> Causal Masking keeps the missing power: process all positions together while blocking attention from position i to every later position j.
-
-Give the idea a bodily path: Touch the causal masking mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Causal Masking**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## The calculation hidden inside causal masking
 
@@ -80,7 +46,7 @@ When j>i, the source is future; adding −∞ makes its later softmax weight zer
 [j ≤ i and j > i](../../MATHEMATICAL_MOVES.md#inequalities) divide earlier-or-current keys from future keys for query position i.
 Zero leaves an allowed attention score unchanged. [Negative infinity](../../MATHEMATICAL_MOVES.md#negative-sign) makes a forbidden score's exponential weight zero after softmax; a large positive value would do the opposite.
 
-Before the line is compressed, notice its recurring motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost. Together they keep the path from the concrete case to notation intact.
 
 The story of causal masking has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 

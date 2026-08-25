@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,49 +13,17 @@
 
 The block is cheaper, but making it deeper reveals unstable early gradients when normalization follows each residual addition.
 
-The brass reference machine at the Engine Cavern still carries the marks of the previous discovery. The enginewright follows them as far as they seem willing to go: keep post-normalization because each block's output then looks standardized before the next block.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to keep post-normalization because each block's output then looks standardized before the next block.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to keep post-normalization because each block's output then looks standardized before the next block preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve.
 
-```text
-reference evidence ──▶ shortcut: keep post-normalization because each…
-                         │
-                         └── mismatch: the supposedly clean output places…
+The counterexample separates two questions that the attempt to keep post-normalization because each block's output then looks standardized before the next block had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-reference evidence ──▶ measured repair: normalize only the input to the…
-```
+Only the broken responsibility needs to change. The method must now normalize only the input to the changing branch and let the identity stream pass around it unchanged. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “keep post-normalization because each block's output then looks standardized before the next block.” Its path ends where the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve. The second receives the same evidence but is allowed to normalize only the input to the changing branch and let the identity stream pass around it unchanged. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a pre-normalization formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The enginewright changes only that one responsibility: normalize only the input to the changing branch and let the identity stream pass around it unchanged. When the ink dries, the name **Pre-Normalization** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve, while the other can normalize only the input to the changing branch and let the identity stream pass around it unchanged. That fork—not the vocabulary—is where pre-normalization lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we keep post-normalization because each block's output then looks standardized before the next block?
-
-## When the chamber changes
-
-The Pre-Normalization chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The key follows the tempting path—keep post-normalization because each block's output then looks standardized before the next block. Then the evidence answers: the supposedly clean output places normalization directly on the identity route every gradient must cross, making the long residual path harder to preserve.
-
-Now let the chamber move: The enginewright changes one moving part. The key can now normalize only the input to the changing branch and let the identity stream pass around it unchanged.
-
-The object that should remain after the terminology disappears is **the pre-normalization key mounted on the brass reference machine**.
-
-> **Memory seal — Pre-Normalization**
->
-> Pre-Normalization keeps the missing power: normalize only the input to the changing branch and let the identity stream pass around it unchanged.
-
-Give the idea a bodily path: Touch the pre-normalization key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Pre-Normalization**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Protect the Residual Highway
 

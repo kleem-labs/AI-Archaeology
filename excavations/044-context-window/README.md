@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,49 +13,17 @@
 
 Sampling allows several plausible futures instead of one repetitive path. Every chosen token is appended to the past, so the amount of history available to attention grows until computation or memory reaches a boundary.
 
-Inside the Clockwork Scriptorium, every old tool is given one honest chance. The mechanist sets the sentence-wheel between the evidence and the desired answer, then tries to attend to the entire history forever.
+At the Clockwork Scriptorium, the mechanist meets the next case beside the sentence-wheel. The nearest idea is also the most reasonable one: attend to the entire history forever.
 
-Reality answers without terminology: computation and memory grow, and the model eventually exceeds positions it was trained to handle. The sentence-wheel now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To attend to the entire history forever reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The mechanist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: computation and memory grow, and the model eventually exceeds positions it was trained to handle.
 
-```text
-reference evidence ──▶ shortcut: attend to the entire history forever
-                         │
-                         └── mismatch: computation and memory grow, and the…
+The contradiction matters because it identifies a structural loss in the instruction to attend to the entire history forever, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The sentence-wheel will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: choose a maximum context, train…
-```
+The repair can now be kept narrow. The new method must choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The sentence-wheel is divided down the middle. Left side: “attend to the entire history forever.” Its final mark records computation and memory grow, and the model eventually exceeds positions it was trained to handle. Right side: the same starting evidence, now allowed to choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given context windows a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past. The name **Context Windows** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to attend to the entire history forever; on the other lies the observed fact that computation and memory grow, and the model eventually exceeds positions it was trained to handle. The bridge called context windows has exactly the planks needed to choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** How Much Past Can the Model Carry?
-
-## When the chamber changes
-
-The mathematical name Context Windows can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The map follows the tempting path—attend to the entire history forever. Then the evidence answers: computation and memory grow, and the model eventually exceeds positions it was trained to handle.
-
-Now let the chamber move: The mechanist changes one moving part. The map can now choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
-
-The object that should remain after the terminology disappears is **the context windows map mounted on the sentence-wheel**.
-
-> **Memory seal — Context Windows**
->
-> Context Windows keeps the missing power: choose a maximum context, train within it, and reuse cached keys and values during generation instead of recomputing the unchanged past.
-
-Give the idea a bodily path: Touch the context windows map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Context Windows**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## The calculation hidden inside context windows
 
@@ -61,7 +31,7 @@ The mechanist carries the context windows scene to the sentence-wheel. Every qua
 
 A larger window is not perfect memory. Retrieval, compression, recurrence, and careful data are separate inventions.
 
-Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The reader can see the growth by drawing the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
+Four words create sixteen possible question–source comparisons: each of four positions may inspect four positions. Eight words create sixty-four. The growth becomes visible when we draw the square table: doubling each side multiplies the number of cells by four. The cost comes from pairwise looking, not from storing eight words alone.
 
 ### Naming what is already on the table
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,49 +13,17 @@
 
 Provenance can locate every retained document. Inspection now finds phone numbers, email addresses, account identifiers, and private-looking text embedded in otherwise useful pages.
 
-Nothing in the Archive Foundry yet bears today's mathematical name. There is only the archivist-engineer, the chain-of-custody ledger, and one plausible action: remove any entire document containing a sequence that resembles personal information.
+Inside the Archive Foundry, the old method is given an honest chance. The archivist-engineer places the evidence on the chain-of-custody ledger and tries to remove any entire document containing a sequence that resembles personal information.
 
-Then the quiet test arrives: one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To remove any entire document containing a sequence that resembles personal information is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The archivist-engineer sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ remove any entire document containing… ──▶ blurred: one phone number erases a long public…
-      │
-      └── new lens ──▶ detect candidate spans with several… ──▶ distinction survives
-```
+The important discovery is not merely that trying to remove any entire document containing a sequence that resembles personal information failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the chain-of-custody ledger, so success cannot be manufactured by quietly replacing the original question.
 
-The archivist-engineer turns the chain-of-custody ledger toward the light. Through the old engraving, remove any entire document containing a sequence that resembles personal information, the evidence ends in the same contradiction: one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span. A second engraving adds only the power to detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The archivist-engineer circles the place where the two pii redaction cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision. The archivist-engineer writes **PII Redaction** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The archivist-engineer places a finger over the new distinction. At once the two cases collapse and one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span. Lifting the finger restores only this capacity: detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we remove any entire document containing a sequence that resembles personal information?
-
-## When the chamber changes
-
-Before leaving PII Redaction, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The mirror follows the tempting path—remove any entire document containing a sequence that resembles personal information. Then the evidence answers: one phone number erases a long public safety guide, while obfuscated addresses and context-dependent identifiers still pass. The rule destroys useful evidence without reliably removing the risky span.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The mirror can now detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision.
-
-The object that should remain after the terminology disappears is **the pii redaction mirror mounted on the chain-of-custody ledger**.
-
-> **Memory seal — PII Redaction**
->
-> PII Redaction keeps the missing power: detect candidate spans with several methods, classify them in context, replace confirmed sensitive spans with typed placeholders, and preserve only a restricted audit record of the decision.
-
-Give the idea a bodily path: Touch the pii redaction mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **PII Redaction**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Do Not Turn Accidental Secrets into Lessons
 

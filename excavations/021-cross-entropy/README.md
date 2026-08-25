@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,49 +13,17 @@
 
 Entropy measures how uncertain reality itself is. A learning machine introduces a second distribution—its own proposed beliefs—and can be far more certain than the evidence deserves.
 
-A new case arrives at the Lantern Observatory, but the keeper of uncertain stories first reaches for the familiar ring of glass lanterns. Its promise is simple: use zero for correct and one for wrong.
+The previous discovery reaches the Lantern Observatory carrying one unfinished problem. Beside the ring of glass lanterns, the keeper of uncertain stories first tries to use zero for correct and one for wrong.
 
-Then the quiet test arrives: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we use zero for correct and one for wrong, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
 
-```text
-reference evidence ──▶ shortcut: use zero for correct and one for wrong
-                         │
-                         └── mismatch: it treats barely wrong and…
+This failure cannot be repaired by performing the instruction to use zero for correct and one for wrong more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the ring of glass lanterns; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: charge the information cost assigned…
-```
+The evidence has earned one extension and no more. We need to charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The keeper of uncertain stories turns the ring of glass lanterns toward the light. Through the old engraving, use zero for correct and one for wrong, the evidence ends in the same contradiction: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction. A second engraving adds only the power to charge the information cost assigned by the predicted distribution to the outcome that actually occurred. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
-
-The keeper of uncertain stories circles the place where the two cross-entropy cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The keeper of uncertain stories writes **Cross-Entropy** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of uncertain stories does not memorize cross-entropy. Instead, the keeper of uncertain stories memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can charge the information cost assigned by the predicted distribution to the outcome that actually occurred. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we use zero for correct and one for wrong?
-
-## When the chamber changes
-
-Keep the formal name Cross-Entropy covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The bridge follows the tempting path—use zero for correct and one for wrong. Then the evidence answers: it treats barely wrong and confidently wrong as equal. Use ordinary distance between probabilities; it does not directly price the information wasted by the prediction.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The bridge can now charge the information cost assigned by the predicted distribution to the outcome that actually occurred.
-
-The object that should remain after the terminology disappears is **the cross-entropy bridge mounted on the ring of glass lanterns**.
-
-> **Memory seal — Cross-Entropy**
->
-> Cross-Entropy keeps the missing power: charge the information cost assigned by the predicted distribution to the outcome that actually occurred.
-
-Give the idea a bodily path: Touch the cross-entropy bridge in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Cross-Entropy**. The name is simply a handle for the distinction already reconstructed.
 
 ## The calculation hidden inside cross-entropy
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,48 +13,17 @@
 
 Benchmarks freeze tasks and metrics before results are known. A model may score well because those supposedly unseen questions, or close paraphrases, appeared in its training data.
 
-The sealed evidence ledger at the Academy of Trials still carries the marks of the previous discovery. The experimentalist follows them as far as they seem willing to go: assume held-out files guarantee unseen knowledge.
+A new case arrives at the Academy of Trials. Nothing yet demands a new invention, so the experimentalist uses the sealed evidence ledger to assume held-out files guarantee unseen knowledge.
 
-The experimentalist repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: the same questions appeared online in training data with small formatting changes. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to assume held-out files guarantee unseen knowledge preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The experimentalist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the same questions appeared online in training data with small formatting changes.
 
-```text
-OLD PATH:  request ──▶ assume held-out files guarantee… ──▶ the same questions appeared online in…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ track provenance, search for semantic… ──▶ accountable result
-```
+The counterexample separates two questions that the attempt to assume held-out files guarantee unseen knowledge had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the sealed evidence ledger fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the sealed evidence ledger, the old path and the repaired path run side by side. One carries “assume held-out files guarantee unseen knowledge”; the other knows how to track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations. When the failure—the same questions appeared online in training data with small formatting changes—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to data contamination. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations. This problem and its repair will travel under the name **Data Contamination**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—assume held-out files guarantee unseen knowledge? The answer remains the same questions appeared online in training data with small formatting changes. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** When the Test Was Secretly Homework?
-
-## When the chamber changes
-
-The Data Contamination room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The key follows the tempting path—assume held-out files guarantee unseen knowledge. Then the evidence answers: the same questions appeared online in training data with small formatting changes.
-
-Now let the chamber move: The experimentalist changes one moving part. The key can now track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations.
-
-The object that should remain after the terminology disappears is **the data contamination key mounted on the sealed evidence ledger**.
-
-> **Memory seal — Data Contamination**
->
-> Data Contamination keeps the missing power: track provenance, search for semantic overlap, use time-separated tests, and create private fresh evaluations.
-
-Give the idea a bodily path: Touch the data contamination key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Data Contamination**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## When the Test Was Secretly Homework
 

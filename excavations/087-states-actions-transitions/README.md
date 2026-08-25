@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,49 +13,17 @@
 
 A reward says how an outcome turned out. To learn from it, the agent must preserve the situation it occupied, the action it chose, and the situation that followed.
 
-Nothing in the Road of Consequences yet bears today's mathematical name. There is only the expedition leader, the map of branching journeys, and one plausible action: store only action and final reward.
+Inside the Road of Consequences, the old method is given an honest chance. The expedition leader places the evidence on the map of branching journeys and tries to store only action and final reward.
 
-Then the quiet test arrives: the trouble appears immediately: the same action helps in one situation and harms in another. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To store only action and final reward is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The expedition leader sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the trouble appears immediately: the same action helps in one situation and harms in another.
 
-```text
-reference evidence ──▶ shortcut: store only action and final reward
-                         │
-                         └── mismatch: the trouble appears immediately: the…
+The important discovery is not merely that trying to store only action and final reward failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the map of branching journeys, so success cannot be manufactured by quietly replacing the original question.
 
-reference evidence ──▶ measured repair: we need to record current state,…
-```
+The old construction is therefore not discarded. It is widened just enough to record current state, chosen action, reward, and resulting state. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The expedition leader turns the map of branching journeys toward the light. Through the old engraving, store only action and final reward, the evidence ends in the same contradiction: the trouble appears immediately: the same action helps in one situation and harms in another. A second engraving adds only the power to record current state, chosen action, reward, and resulting state. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
-
-The expedition leader circles the place where the two states, actions, and transitions cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to record current state, chosen action, reward, and resulting state. The expedition leader writes **States, Actions, and Transitions** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The expedition leader places a finger over the new distinction. At once the two cases collapse and the trouble appears immediately: the same action helps in one situation and harms in another. Lifting the finger restores only this capacity: record current state, chosen action, reward, and resulting state. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
->
-> **The question carried into this chamber:** What fails if we store only action and final reward?
-
-## When the chamber changes
-
-The States, Actions, and Transitions chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The mirror follows the tempting path—store only action and final reward. Then the evidence answers: the trouble appears immediately: the same action helps in one situation and harms in another.
-
-Now let the chamber move: The expedition leader changes one moving part. The mirror can now record current state, chosen action, reward, and resulting state.
-
-The object that should remain after the terminology disappears is **the states, actions, and transitions mirror mounted on the map of branching journeys**.
-
-> **Memory seal — States, Actions, and Transitions**
->
-> States, Actions, and Transitions keeps the missing power: record current state, chosen action, reward, and resulting state.
-
-Give the idea a bodily path: Touch the states, actions, and transitions mirror in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **States, Actions, and Transitions**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding states, actions, and transitions
 

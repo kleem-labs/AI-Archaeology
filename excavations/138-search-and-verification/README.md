@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Test-time compute lets hard problems receive more attempts. More attempts also produce more plausible mistakes, so proposing candidate paths must be separated from checking them.
 
-The sealed evidence ledger at the Academy of Trials still carries the marks of the previous discovery. The experimentalist follows them as far as they seem willing to go: ask the same generator to confidently approve its own first answer.
+A new case arrives at the Academy of Trials. Nothing yet demands a new invention, so the experimentalist uses the sealed evidence ledger to ask the same generator to confidently approve its own first answer.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: the error that shaped the proposal also shapes its self-justification. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to ask the same generator to confidently approve its own first answer preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The experimentalist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: the error that shaped the proposal also shapes its self-justification.
 
-```text
-possible road A ─┐
-                 ├── old map: ask the same generator to confidently…
-possible road B ─┘              └── loses: the error that shaped the proposal…
+The counterexample separates two questions that the attempt to ask the same generator to confidently approve its own first answer had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the sealed evidence ledger fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-same roads ──▶ repaired map ──▶ generate diverse candidates, check…
-```
+Only the broken responsibility needs to change. The method must now generate diverse candidates, check them with independent evidence, and keep only paths that survive. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The experimentalist lays two translucent sheets over the sealed evidence ledger. The first is inscribed, “ask the same generator to confidently approve its own first answer.” Its path ends where the error that shaped the proposal also shapes its self-justification. The second receives the same evidence but is allowed to generate diverse candidates, check them with independent evidence, and keep only paths that survive. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a search and verification formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The experimentalist changes only that one responsibility: generate diverse candidates, check them with independent evidence, and keep only paths that survive. When the ink dries, the name **Search and Verification** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because the error that shaped the proposal also shapes its self-justification, while the other can generate diverse candidates, check them with independent evidence, and keep only paths that survive. That fork—not the vocabulary—is where search and verification lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we ask the same generator to confidently approve its own first answer?
-
-## When the chamber changes
-
-Before leaving Search and Verification, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The gate follows the tempting path—ask the same generator to confidently approve its own first answer. Then the evidence answers: the error that shaped the proposal also shapes its self-justification.
-
-Now let the chamber move: The experimentalist changes one moving part. The gate can now generate diverse candidates, check them with independent evidence, and keep only paths that survive.
-
-The object that should remain after the terminology disappears is **the search and verification gate mounted on the sealed evidence ledger**.
-
-> **Memory seal — Search and Verification**
->
-> Search and Verification keeps the missing power: generate diverse candidates, check them with independent evidence, and keep only paths that survive.
-
-Give the idea a bodily path: Touch the search and verification gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Search and Verification**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Separate Proposing from Checking
 

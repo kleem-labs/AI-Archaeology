@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,49 +13,17 @@
 
 The mixture weights state which domains should be heard. They do not yet produce a finite ordered token stream that every resumed worker can reconstruct.
 
-Morning reaches the Archive Foundry before anyone has a name for today's difficulty. Beside the chain-of-custody ledger, the archivist-engineer tries the smallest continuation of what already works: round each domain's desired share independently and concatenate the resulting blocks.
+The previous discovery reaches the Archive Foundry carrying one unfinished problem. Beside the chain-of-custody ledger, the archivist-engineer first tries to round each domain's desired share independently and concatenate the resulting blocks.
 
-At the edge of the chain-of-custody ledger, the shortcut produces its consequence: independent rounding can exceed the budget, and long blocks make training order depend on domain. A small domain may vanish when its expected count rounds to zero. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we round each domain's desired share independently and concatenate the resulting blocks, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The archivist-engineer sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: independent rounding can exceed the budget, and long blocks make training order depend on domain. A small domain may vanish when its expected count rounds to zero.
 
-```text
-reference evidence ──▶ shortcut: round each domain's desired share…
-                         │
-                         └── mismatch: independent rounding can exceed the…
+This failure cannot be repaired by performing the instruction to round each domain's desired share independently and concatenate the resulting blocks more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the chain-of-custody ledger; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: use a seeded categorical schedule,…
-```
+The evidence has earned one extension and no more. We need to use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The archivist-engineer covers the new mark and the old contradiction returns: independent rounding can exceed the budget, and long blocks make training order depend on domain. A small domain may vanish when its expected count rounds to zero. The cover is lifted, restoring the ability to use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason mixture sampling exists.
-
-What must change for mixture sampling is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source. That threshold is where **Mixture Sampling** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In mixture sampling, that memory takes a precise form: whenever independent rounding can exceed the budget, and long blocks make training order depend on domain. A small domain may vanish when its expected count rounds to zero, preserve enough structure to use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we round each domain's desired share independently and concatenate the resulting blocks?
-
-## When the chamber changes
-
-The Mixture Sampling room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The vessel follows the tempting path—round each domain's desired share independently and concatenate the resulting blocks. Then the evidence answers: independent rounding can exceed the budget, and long blocks make training order depend on domain. A small domain may vanish when its expected count rounds to zero.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The vessel can now use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source.
-
-The object that should remain after the terminology disappears is **the mixture sampling vessel mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Mixture Sampling**
->
-> Mixture Sampling keeps the missing power: use a seeded categorical schedule, track realized counts against expected counts, and define exhaustion or replacement rules for every source.
-
-Give the idea a bodily path: Touch the mixture sampling vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Mixture Sampling**. The name is simply a handle for the distinction already reconstructed.
 
 ## Turn Planned Shares into a Reproducible Stream
 

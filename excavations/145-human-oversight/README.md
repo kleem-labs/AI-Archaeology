@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Impact measures make avoidable side effects visible against a baseline. No formula can settle every conflict among values, so consequential or irreversible boundaries still require informed human judgment.
 
-Morning reaches the Academy of Trials before anyone has a name for today's difficulty. Beside the sealed evidence ledger, the experimentalist tries the smallest continuation of what already works: ask a human to watch every internal step.
+The previous discovery reaches the Academy of Trials carrying one unfinished problem. Beside the sealed evidence ledger, the experimentalist first tries to ask a human to watch every internal step.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: constant review overwhelms attention, so approval becomes automatic ceremony. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we ask a human to watch every internal step, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The experimentalist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: constant review overwhelms attention, so approval becomes automatic ceremony.
 
-```text
-reference evidence ──▶ shortcut: ask a human to watch every internal…
-                         │
-                         └── mismatch: constant review overwhelms attention,…
+This failure cannot be repaired by performing the instruction to ask a human to watch every internal step more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sealed evidence ledger; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: automate reversible preparation but…
-```
+The evidence has earned one extension and no more. We need to automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-Two trails now cross the sealed evidence ledger. The pale trail bears the instruction “ask a human to watch every internal step.” It disappears into the observed failure: constant review overwhelms attention, so approval becomes automatic ceremony. The darker trail carries one additional capacity—to automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed human oversight mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the sealed evidence ledger is altered in exactly one way: automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries. Much later, people will call this territory **Human Oversight**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the sealed evidence ledger. The failed path remains visible beneath the repair, because human oversight is easier to remember when its scar remains attached to it. The scar reads, ‘constant review overwhelms attention, so approval becomes automatic ceremony’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we ask a human to watch every internal step?
-
-## When the chamber changes
-
-The Human Oversight room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The lens follows the tempting path—ask a human to watch every internal step. Then the evidence answers: constant review overwhelms attention, so approval becomes automatic ceremony.
-
-Now let the chamber move: The experimentalist changes one moving part. The lens can now automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries.
-
-The object that should remain after the terminology disappears is **the human oversight lens mounted on the sealed evidence ledger**.
-
-> **Memory seal — Human Oversight**
->
-> Human Oversight keeps the missing power: automate reversible preparation but require informed review at consequential, ambiguous, or irreversible boundaries.
-
-Give the idea a bodily path: Touch the human oversight lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Human Oversight**. The name is simply a handle for the distinction already reconstructed.
 
 ## Put Judgment at the Irreversible Edge
 

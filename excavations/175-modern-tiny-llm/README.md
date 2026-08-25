@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,53 +13,17 @@
 
 Speculative decoding accelerates the final serial loop. We now have many locally useful repairs, but a pile of optimizations is not yet one reproducible model.
 
-Nothing in the Engine Cavern yet bears today's mathematical name. There is only the enginewright, the brass reference machine, and one plausible action: enable every technique at once and celebrate if the program runs.
+Inside the Engine Cavern, the old method is given an honest chance. The enginewright places the evidence on the brass reference machine and tries to enable every technique at once and celebrate if the program runs.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To enable every technique at once and celebrate if the program runs is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The enginewright sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries.
 
-```text
-observation
-    │
-    ▼
-[enable every technique at once and…]
-    │
-    ╳  when quality or speed changes, no one…
-    │
-    ▼
-[assemble the engine in dependency…]
-```
+The important discovery is not merely that trying to enable every technique at once and celebrate if the program runs failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the brass reference machine, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “enable every technique at once and celebrate if the program runs.” It disappears into the observed failure: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries. The darker trail carries one additional capacity—to assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed modern tiny language model mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the brass reference machine is altered in exactly one way: assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains. Much later, people will call this territory **A Modern Tiny Language Model**. Here the name is only a memory of the failure it can survive.
-
-The brass reference machine has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and modern tiny language model looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we enable every technique at once and celebrate if the program runs?
-
-## When the chamber changes
-
-The A Modern Tiny Language Model room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The prism follows the tempting path—enable every technique at once and celebrate if the program runs. Then the evidence answers: when quality or speed changes, no one knows which mechanism caused it; masks, precision, sharding, and caches can disagree at their boundaries.
-
-Now let the chamber move: The enginewright changes one moving part. The prism can now assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains.
-
-The object that should remain after the terminology disappears is **the modern tiny language model prism mounted on the brass reference machine**.
-
-> **Memory seal — A Modern Tiny Language Model**
->
-> A Modern Tiny Language Model keeps the missing power: assemble the engine in dependency order, preserve a reference path, and test numerical or distributional equivalence at every boundary before accepting measured gains.
-
-Give the idea a bodily path: Touch the modern tiny language model prism in imagination: tap five fingertips in order—question, object, failure, transformation, seal—without saying the formal name.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **A Modern Tiny Language Model**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Assemble the Measured Engine
 

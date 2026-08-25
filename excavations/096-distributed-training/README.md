@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,48 +13,17 @@
 
 Quantization reduces the precision and footprint of those weights. Training the largest systems still exceeds the memory and computation of one machine, forcing the work and state to be divided.
 
-At the Road of Consequences, the expedition leader returns to the map of branching journeys. Yesterday's instrument still lies open, so the first move asks for no new magic: let many machines train independent copies and combine them occasionally.
+At the Road of Consequences, the expedition leader meets the next case beside the map of branching journeys. The nearest idea is also the most reasonable one: let many machines train independent copies and combine them occasionally.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: their parameters drift and duplicated work wastes computation. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To let many machines train independent copies and combine them occasionally reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The expedition leader sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: their parameters drift and duplicated work wastes computation.
 
-```text
-OLD PATH:  request ──▶ let many machines train independent… ──▶ their parameters drift and duplicated…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ partition data or model work,… ──▶ accountable result
-```
+The contradiction matters because it identifies a structural loss in the instruction to let many machines train independent copies and combine them occasionally, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The map of branching journeys will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The expedition leader lays two translucent sheets over the map of branching journeys. The first is inscribed, “let many machines train independent copies and combine them occasionally.” Its path ends where their parameters drift and duplicated work wastes computation. The second receives the same evidence but is allowed to partition data or model work, synchronize required results, and preserve one coherent update. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must partition data or model work, synchronize required results, and preserve one coherent update. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a distributed training formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The expedition leader changes only that one responsibility: partition data or model work, synchronize required results, and preserve one coherent update. When the ink dries, the name **Distributed Training** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The map of branching journeys keeps both histories. Its older mark still says, ‘let many machines train independent copies and combine them occasionally’; beside it, the newer mark says, ‘partition data or model work, synchronize required results, and preserve one coherent update.’ The distance between those sentences is the exact shape of distributed training: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
->
-> **The question carried into this chamber:** What fails if we let many machines train independent copies and combine them occasionally?
-
-## When the chamber changes
-
-Keep the formal name Distributed Training covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The seal follows the tempting path—let many machines train independent copies and combine them occasionally. Then the evidence answers: their parameters drift and duplicated work wastes computation.
-
-Now let the chamber move: The expedition leader changes one moving part. The seal can now partition data or model work, synchronize required results, and preserve one coherent update.
-
-The object that should remain after the terminology disappears is **the distributed training seal mounted on the map of branching journeys**.
-
-> **Memory seal — Distributed Training**
->
-> Distributed Training keeps the missing power: partition data or model work, synchronize required results, and preserve one coherent update.
-
-Give the idea a bodily path: Touch the distributed training seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Distributed Training**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding distributed training
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,51 +13,17 @@
 
 SwiGLU improves the block, but the model stores one large table for input embeddings and another large matrix for scoring the same vocabulary at output.
 
-Inside the Engine Cavern, every old tool is given one honest chance. The enginewright sets the brass reference machine between the evidence and the desired answer, then tries to let both matrices learn independently because reading a token and predicting it are different jobs.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: let both matrices learn independently because reading a token and predicting it are different jobs.
 
-Reality answers without terminology: the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places. The brass reference machine now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To let both matrices learn independently because reading a token and predicting it are different jobs reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   let both matrices learn independently… the model spends parameters learning…
-            \        /
-             \      /
-              reuse the embedding table transposed…
-```
+The contradiction matters because it identifies a structural loss in the instruction to let both matrices learn independently because reading a token and predicting it are different jobs, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The brass reference machine is divided down the middle. Left side: “let both matrices learn independently because reading a token and predicting it are different jobs.” Its final mark records the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places. Right side: the same starting evidence, now allowed to reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias. The difference is narrow enough to see and important enough to change the ending.
+The repair can now be kept narrow. The new method must reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The broken rule has given weight tying a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias. The name **Weight Tying** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to let both matrices learn independently because reading a token and predicting it are different jobs; on the other lies the observed fact that the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places. The bridge called weight tying has exactly the planks needed to reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we let both matrices learn independently because reading a token and predicting it are different jobs?
-
-## When the chamber changes
-
-The mathematical name Weight Tying can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The compass follows the tempting path—let both matrices learn independently because reading a token and predicting it are different jobs. Then the evidence answers: the model spends parameters learning two unrelated geometries for the same set of word identities, and rare tokens receive weak evidence in both places.
-
-Now let the chamber move: The enginewright changes one moving part. The compass can now reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
-
-The object that should remain after the terminology disappears is **the weight tying compass mounted on the brass reference machine**.
-
-> **Memory seal — Weight Tying**
->
-> Weight Tying keeps the missing power: reuse the embedding table transposed as the output scoring matrix, while retaining any necessary output bias.
-
-Give the idea a bodily path: Touch the weight tying compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Weight Tying**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Use One Word Geometry Twice
 

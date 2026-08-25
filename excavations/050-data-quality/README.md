@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,53 +13,17 @@
 
 Calibration compares stated confidence with observed reliability. When those diverge, the cause often lies upstream in the lessons the model received—duplication, errors, missing groups, or misleading correlations.
 
-The listening table at the Hall of Voices still carries the marks of the previous discovery. The public archivist follows them as far as they seem willing to go: collect as much text as possible and assume scale washes out bad examples.
+A new case arrives at the Hall of Voices. Nothing yet demands a new invention, so the public archivist uses the listening table to collect as much text as possible and assume scale washes out bad examples.
 
-Reality answers without terminology: duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them. The listening table now holds two situations the old rule cannot keep apart.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to collect as much text as possible and assume scale washes out bad examples preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The public archivist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them.
 
-```text
-observation
-    │
-    ▼
-[collect as much text as possible and…]
-    │
-    ╳  duplicated false claims become…
-    │
-    ▼
-[treat data construction as part of…]
-```
+The counterexample separates two questions that the attempt to collect as much text as possible and assume scale washes out bad examples had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the listening table fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The listening table is divided down the middle. Left side: “collect as much text as possible and assume scale washes out bad examples.” Its final mark records duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them. Right side: the same starting evidence, now allowed to treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices. The difference is narrow enough to see and important enough to change the ending.
+Only the broken responsibility needs to change. The method must now treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The broken rule has given data quality a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices. The name **Data Quality** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-A thread now runs backward from data quality through the room. Tug it and the repair disappears; tug again and the old rule returns; follow that rule to its end and duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them. The mathematics is not a collection of names but a chain of consequences that can be walked in either direction.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
->
-> **The question carried into this chamber:** What Lessons Did the Model Actually Receive?
-
-## When the chamber changes
-
-The Data Quality room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The key follows the tempting path—collect as much text as possible and assume scale washes out bad examples. Then the evidence answers: duplicated false claims become louder, rare high-quality explanations become quieter, and sensitive records remain memorized. More observations amplify whatever process produced them.
-
-Now let the chamber move: The public archivist changes one moving part. The key can now treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices.
-
-The object that should remain after the terminology disappears is **the data quality key mounted on the listening table**.
-
-> **Memory seal — Data Quality**
->
-> Data Quality keeps the missing power: treat data construction as part of the model: trace provenance, remove harmful duplication, filter carefully, preserve valuable diversity, and document choices.
-
-Give the idea a bodily path: Touch the data quality key in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Data Quality**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## What Lessons Did the Model Actually Receive
 

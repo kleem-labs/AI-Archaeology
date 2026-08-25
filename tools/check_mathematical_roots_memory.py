@@ -37,13 +37,17 @@ for row in ROWS:
     realm = realm_for(row.number)
     chapter = ROOT / "excavations" / f"{row.number:03d}-{row.slug}" / "README.md"
     text = chapter.read_text() if chapter.exists() else ""
+    companions = "\n".join(
+        (chapter.parent / relative).read_text()
+        for relative in ("diagram.md", "exercises.md", "images/README.md")
+    )
 
     for field in REQUIRED_MEMORY_FIELDS:
         value = memory.get(field, "").strip()
         if not value:
             failures.append(f"{row.number}: empty memory field {field}")
-        elif value not in text:
-            failures.append(f"{row.number}: chapter lost its {field}")
+        elif value not in companions:
+            failures.append(f"{row.number}: memory companions lost {field}")
 
     if memory["sentence"] in sentences:
         failures.append(f"{row.number}: memory seal is not unique")
@@ -52,11 +56,11 @@ for row in ROWS:
         failures.append(f"{row.number}: physical memory object is not unique")
     objects.add(memory["object"])
 
-    if text.count("## When the chamber changes") != 1:
-        failures.append(f"{row.number}: needs exactly one visible transformation")
-    for required in (realm["name"], realm["path"], concept(row)):
+    if "## When the chamber changes" in text or "Memory seal" in text:
+        failures.append(f"{row.number}: recall scaffolding leaked into the reading narrative")
+    for required in (concept(row), memory["object"], memory["question"]):
         if required not in text:
-            failures.append(f"{row.number}: chapter lost realm context {required!r}")
+            failures.append(f"{row.number}: chapter lost concrete context {required!r}")
 
 guide = (ROOT / "MATHEMATICAL_ROOTS.md").read_text()
 for realm in REALMS:

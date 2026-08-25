@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,49 +13,17 @@
 
 Adam trains the block, but adding an L2 penalty to the loss sends shrinkage through the optimizer's coordinate-wise rescaling.
 
-The doors of the Engine Cavern close against the wind. On the brass reference machine, the enginewright writes the cheapest rule that might still be true: treat penalty gradients and data gradients identically because both appear in one total loss.
+A new case arrives at the Engine Cavern. Nothing yet demands a new invention, so the enginewright uses the brass reference machine to treat penalty gradients and data gradients identically because both appear in one total loss.
 
-The enginewright repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to treat penalty gradients and data gradients identically because both appear in one total loss preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The enginewright sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ treat penalty gradients and data… ──▶ blurred: coordinates with different gradient…
-      │
-      └── new lens ──▶ apply Adam's adaptive data update and… ──▶ distinction survives
-```
+The counterexample separates two questions that the attempt to treat penalty gradients and data gradients identically because both appear in one total loss had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the brass reference machine fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the brass reference machine, the old path and the repaired path run side by side. One carries “treat penalty gradients and data gradients identically because both appear in one total loss”; the other knows how to apply Adam's adaptive data update and parameter decay as separate operations. When the failure—coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now apply Adam's adaptive data update and parameter decay as separate operations. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to adamw. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: apply Adam's adaptive data update and parameter decay as separate operations. This problem and its repair will travel under the name **AdamW**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—treat penalty gradients and data gradients identically because both appear in one total loss? The answer remains coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we treat penalty gradients and data gradients identically because both appear in one total loss?
-
-## When the chamber changes
-
-Keep the formal name AdamW covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The thread follows the tempting path—treat penalty gradients and data gradients identically because both appear in one total loss. Then the evidence answers: coordinates with different gradient histories receive different effective shrinkage even when the intended rule was to decay all selected weights at one rate.
-
-Now let the chamber move: The enginewright changes one moving part. The thread can now apply Adam's adaptive data update and parameter decay as separate operations.
-
-The object that should remain after the terminology disappears is **the adamw thread mounted on the brass reference machine**.
-
-> **Memory seal — AdamW**
->
-> AdamW keeps the missing power: apply Adam's adaptive data update and parameter decay as separate operations.
-
-Give the idea a bodily path: Touch the adamw thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **AdamW**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Keep Shrinkage Separate from Adaptation
 
@@ -73,7 +43,7 @@ lambda is decay strength; the first term shrinks the old parameter directly; the
 
 The mandala has curved back upon itself. In this chamber we meet **the lock and key**—one influence matters through another, and either missing factor can close the path; and **the chisel**—what is shared is removed so the remaining change can be seen. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about adamw and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming adamw equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 \theta_{t+1}=(1-\eta\lambda)\theta_t-\eta\frac{\widehat m_t}{\sqrt{\widehat v_t}+\epsilon}

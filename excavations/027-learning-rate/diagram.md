@@ -26,8 +26,8 @@ OBJECT         the learning rate wheel mounted on the ring of glass lanterns
      ↓
 VISIBLE BREAK  The wheel follows the tempting path—always take a huge step: leap across the valley and oscillate. Then the evidence answers: always take a microscopic step: improve so slowly that the expedition ends first.
      ↓
-TRANSFORMATION The keeper of uncertain stories changes one moving part. The wheel can now multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
+TRANSFORMATION The keeper of uncertain stories changes one moving part. The wheel can now multiply the gradient by an adjustable positive step size, observe whether loss descends, and adjust that size over time.
      ↓
-MEMORY SEAL    Learning Rate keeps the missing power: multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
+MEMORY SEAL    Learning Rate keeps the missing power: multiply the gradient by an adjustable positive step size, observe whether loss descends, and adjust that size over time.
 ```
 <!-- memory-film-v1:end -->

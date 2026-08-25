@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,53 +13,17 @@
 
 Active learning spends human effort where it should teach the most. A deployed system still encounters cases where no available evidence justifies any answer, even after labels have been chosen carefully.
 
-Morning reaches the Hall of Possible Worlds before anyone has a name for today's difficulty. Beside the table of mirrored maps, the keeper of unfinished questions tries the smallest continuation of what already works: always return the highest-scoring answer.
+The previous discovery reaches the Hall of Possible Worlds carrying one unfinished problem. Beside the table of mirrored maps, the keeper of unfinished questions first tries to always return the highest-scoring answer.
 
-Then the quiet test arrives: a forced answer converts uncertainty into confident-looking error. What looked like simplicity is revealed as a missing distinction.
+There is good reason to begin this way. If we always return the highest-scoring answer, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: a forced answer converts uncertainty into confident-looking error.
 
-```text
-observation
-    │
-    ▼
-[always return the highest-scoring…]
-    │
-    ╳  a forced answer converts uncertainty…
-    │
-    ▼
-[allow abstention and choose a…]
-```
+This failure cannot be repaired by performing the instruction to always return the highest-scoring answer more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the table of mirrored maps; otherwise a changed answer could be mistaken for an explanation.
 
-The keeper of unfinished questions turns the table of mirrored maps toward the light. Through the old engraving, always return the highest-scoring answer, the evidence ends in the same contradiction: a forced answer converts uncertainty into confident-looking error. A second engraving adds only the power to allow abstention and choose a coverage level whose retained answers meet a risk target. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The evidence has earned one extension and no more. We need to allow abstention and choose a coverage level whose retained answers meet a risk target. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The keeper of unfinished questions circles the place where the two selective prediction cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: allow abstention and choose a coverage level whose retained answers meet a risk target. The keeper of unfinished questions writes **Selective Prediction** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of unfinished questions does not memorize selective prediction. Instead, the keeper of unfinished questions memorizes a motion: begin with the old rule, let the counterexample press against it, then open a place where the method can allow abstention and choose a coverage level whose retained answers meet a risk target. The formal name merely lets that motion be shared.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we always return the highest-scoring answer?
-
-## When the chamber changes
-
-The Selective Prediction room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The vessel follows the tempting path—always return the highest-scoring answer. Then the evidence answers: a forced answer converts uncertainty into confident-looking error.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The vessel can now allow abstention and choose a coverage level whose retained answers meet a risk target.
-
-The object that should remain after the terminology disappears is **the selective prediction vessel mounted on the table of mirrored maps**.
-
-> **Memory seal — Selective Prediction**
->
-> Selective Prediction keeps the missing power: allow abstention and choose a coverage level whose retained answers meet a risk target.
-
-Give the idea a bodily path: Touch the selective prediction vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Selective Prediction**. The name is simply a handle for the distinction already reconstructed.
 
 ## Understanding selective prediction
 

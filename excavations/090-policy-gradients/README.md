@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,48 +13,17 @@
 
 Q-learning estimates the value of each action and then still needs a policy for choosing among them. We can instead ask how reward should directly change the probabilities of the choices the agent actually made.
 
-The map of branching journeys at the Road of Consequences still carries the marks of the previous discovery. The expedition leader follows them as far as they seem willing to go: always choose the highest estimated action.
+A new case arrives at the Road of Consequences. Nothing yet demands a new invention, so the expedition leader uses the map of branching journeys to always choose the highest estimated action.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: early errors remove exploration and discrete choice blocks ordinary differentiation. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to always choose the highest estimated action preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The expedition leader sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: early errors remove exploration and discrete choice blocks ordinary differentiation.
 
-```text
-OLD PATH:  request ──▶ always choose the highest estimated… ──▶ early errors remove exploration and…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ sample from a policy and increase… ──▶ accountable result
-```
+The counterexample separates two questions that the attempt to always choose the highest estimated action had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the map of branching journeys fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The expedition leader lays two translucent sheets over the map of branching journeys. The first is inscribed, “always choose the highest estimated action.” Its path ends where early errors remove exploration and discrete choice blocks ordinary differentiation. The second receives the same evidence but is allowed to sample from a policy and increase probability of actions followed by better-than-expected returns. Held to the light, the sheets separate at exactly one decision.
+Only the broken responsibility needs to change. The method must now sample from a policy and increase probability of actions followed by better-than-expected returns. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-No one reaches for a policy gradients formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The expedition leader changes only that one responsibility: sample from a policy and increase probability of actions followed by better-than-expected returns. When the ink dries, the name **Policy Gradients** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because early errors remove exploration and discrete choice blocks ordinary differentiation, while the other can sample from a policy and increase probability of actions followed by better-than-expected returns. That fork—not the vocabulary—is where policy gradients lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 9 of 18 — [Road of Consequences](../../MEMORY_PALACE.md#realm-9)**
->
-> **The question carried into this chamber:** What fails if we always choose the highest estimated action?
-
-## When the chamber changes
-
-The Policy Gradients room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The gate follows the tempting path—always choose the highest estimated action. Then the evidence answers: early errors remove exploration and discrete choice blocks ordinary differentiation.
-
-Now let the chamber move: The expedition leader changes one moving part. The gate can now sample from a policy and increase probability of actions followed by better-than-expected returns.
-
-The object that should remain after the terminology disappears is **the policy gradients gate mounted on the map of branching journeys**.
-
-> **Memory seal — Policy Gradients**
->
-> Policy Gradients keeps the missing power: sample from a policy and increase probability of actions followed by better-than-expected returns.
-
-Give the idea a bodily path: Touch the policy gradients gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Policy Gradients**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Improving the Choices Directly
 

@@ -32,7 +32,7 @@ VOLUME_OVERTURES = {
           "reference path ══ measured equivalence ══ optimized path"),
     176: ("The final volume enters the Archive Foundry, where documents become training experience. Nothing may disappear without a trace: sources, filters, mixtures, updates, checkpoints, and release decisions must remain connected by a recoverable chain of evidence.",
           "document → lineage → lesson → update → artifact → account"),
-    201: ("The sixth volume descends into the [Undercroft of First Principles](../MATHEMATICAL_ROOTS.md). Familiar names are covered. Sets, functions, linear algebra, calculus, probability, statistics, decision theory, and numerical analysis must be recovered from concrete failures before their symbols are allowed to return. Each chamber leaves one physical object and one memory seal, so the reader can replay the discovery as a movie instead of storing an isolated definition.",
+    201: ("The sixth volume descends into the [Undercroft of First Principles](../MATHEMATICAL_ROOTS.md). Familiar names step aside. Sets, functions, linear algebra, calculus, probability, statistics, decision theory, and numerical analysis must be recovered from concrete failures before their symbols are allowed to return. Each chamber preserves the object that failed and the transformation that repaired it, joining the mathematical roots into one continuous journey.",
           "observation → attempt → fracture → repair → symbol → connected memory"),
 }
 
@@ -87,6 +87,14 @@ def chapter_for_book(path):
     text = path.read_text().strip()
     number = int(path.parent.name[:3])
     text = re.sub(r"^> \*\*PART .*?(?=\n\n)", "", text, flags=re.M | re.S)
+    # These labels are useful in the atlas and chapter folders, but they are
+    # catalogue metadata rather than part of the story.
+    text = re.sub(
+        r"^> \*\*Mathematical roots:\*\*[^\n]*\n>\n> \*\*Applied territory:\*\*[^\n]*\n?",
+        "",
+        text,
+        flags=re.M,
+    )
     text = re.sub(r"^<!-- .*? -->\n*", "", text, flags=re.M)
     text = re.sub(r"^\[(?:Previous|Next|Continue|Return to the living Math Mandala)[^\n]*$", "", text, flags=re.M)
     for heading in SUPPORT_HEADINGS:
@@ -131,8 +139,7 @@ def chapter_for_book(path):
     text = text.replace("../../MATHEMATICS_ATLAS.md", "../MATHEMATICS_ATLAS.md")
     text = text.replace("../../MATHEMATICAL_ROOTS.md", "../MATHEMATICAL_ROOTS.md")
     text = text.replace("../../MEMORY_PALACE.md", "../MEMORY_PALACE.md")
-    link = path.relative_to(ROOT).as_posix()
-    return text + f"\n\n*Continue at the dig site: [code, diagram, mistakes, exercises, and references](../{link}).*"
+    return text
 
 
 def build_volume(filename, start, end, title, introduction):
@@ -165,8 +172,8 @@ def outputs():
 
 The excavation folders are workshops. These six volumes are the uninterrupted
 reading edition. Supporting code, diagrams, mistakes, exercises, and references
-remain beside the chapter they belong to and are linked at the end of each
-chapter.
+remain beside the chapter they belong to in the main excavation contents. They
+are deliberately kept out of these volumes so the narrative is never interrupted.
 
 Before beginning, read [How to Master AI Archaeology](../HOW_TO_MASTER_THIS_BOOK.md).
 It explains the three passages through each part: discovery, construction, and

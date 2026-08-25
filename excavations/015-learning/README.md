@@ -58,7 +58,7 @@ $\theta$ is the current state of the weights, $\nabla L$ is a vector of advised 
 [Multiplying by η](../../MATHEMATICAL_MOVES.md#multiplication) chooses how much of that direction to trust. Without η, the gradient's magnitude would dictate the whole step even when it is too large or too small.
 - The update arrow means “replace the old parameter state with this new one”; it is an action, not symmetric equality. See [arrows](../../MATHEMATICAL_MOVES.md#arrows).
 
-Before the line is compressed, notice its recurring motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the lock and key**—one influence matters through another, and either missing factor can close the path. They are the handholds by which the reader can later climb back from notation to meaning.
+The calculation reuses familiar motions: **the turning wind**—an uphill quantity is made to point downhill, or surprise is made to count as cost; and **the lock and key**—one influence matters through another, and either missing factor can close the path. Together they keep the path from the concrete case to notation intact.
 
 The story of how a dead brain learns has become longer than its calculation, which is exactly when notation becomes merciful. Its whole path is:
 
@@ -77,28 +77,6 @@ predict → measure loss → trace responsibility backward → nudge weights
 ```
 
 Repeated over enormous amounts of text, small corrections reshape the entire web.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** How can a machine use an error to change the internal decisions that produced it?
-
-## When the chamber changes
-
-The Learning room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The machine can measure that its answer was wrong but the judgment leaves no mark on its internal weights.
-
-Now let the chamber move: The error chisel travels backward, assigning each adjustable surface a small responsibility and reshaping it.
-
-The object that should remain after the terminology disappears is **a clay brain beside a prediction stone and an error chisel**.
-
-> **Memory seal — Learning**
->
-> Learning begins when observed error can alter the decisions that created it.
-
-Give the idea a bodily path: Tap your forehead lightly, trace backward through the air, then make a tiny turning motion.
-<!-- memory-film-v1:end -->
 
 ## Challenge
 

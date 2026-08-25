@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,49 +13,17 @@
 
 Rotary position makes displacement visible inside the attention match. When the station tests much longer sequences, the model must rank relationships at separations absent from training.
 
-Inside the Engine Cavern, every old tool is given one honest chance. The enginewright sets the brass reference machine between the evidence and the desired answer, then tries to trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.
+At the Engine Cavern, the enginewright meets the next case beside the brass reference machine. The nearest idea is also the most reasonable one: trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The enginewright sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations.
 
-```text
-reference evidence ──▶ shortcut: trust every unseen distance to behave…
-                         │
-                         └── mismatch: a mathematically defined position is…
+The contradiction matters because it identifies a structural loss in the instruction to trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The brass reference machine will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: add an explicit distance-dependent…
-```
+The repair can now be kept narrow. The new method must add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The enginewright lays two translucent sheets over the brass reference machine. The first is inscribed, “trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there.” Its path ends where a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations. The second receives the same evidence but is allowed to add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a relative position bias formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The enginewright changes only that one responsibility: add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation. When the ink dries, the name **Relative Position Bias** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The brass reference machine keeps both histories. Its older mark still says, ‘trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there’; beside it, the newer mark says, ‘add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.’ The distance between those sentences is the exact shape of relative position bias: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What Should Happen Beyond the Seen Window?
-
-## When the chamber changes
-
-Keep the formal name Relative Position Bias covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The map follows the tempting path—trust every unseen distance to behave like familiar distances merely because the formula can compute an angle there. Then the evidence answers: a mathematically defined position is not necessarily a learned behavior; attention can become erratic at unfamiliar separations.
-
-Now let the chamber move: The enginewright changes one moving part. The map can now add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.
-
-The object that should remain after the terminology disappears is **the relative position bias map mounted on the brass reference machine**.
-
-> **Memory seal — Relative Position Bias**
->
-> Relative Position Bias keeps the missing power: add an explicit distance-dependent penalty whose direction continues beyond the training window, then measure the quality trade rather than assuming extrapolation.
-
-Give the idea a bodily path: Touch the relative position bias map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Relative Position Bias**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## What Should Happen Beyond the Seen Window
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,49 +13,17 @@
 
 Prompt-injection defenses keep evidence from silently becoming authority. A safe tool call can still be the wrong step in a long task unless the goal is decomposed into checkable dependencies.
 
-The iron threshold at the Gatehouse of Consequences still carries the marks of the previous discovery. The gatekeeper follows them as far as they seem willing to go: ask the agent to take the next action that sounds useful until the goal appears complete.
+A new case arrives at the Gatehouse of Consequences. Nothing yet demands a new invention, so the gatekeeper uses the iron threshold to ask the agent to take the next action that sounds useful until the goal appears complete.
 
-The gatekeeper repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to ask the agent to take the next action that sounds useful until the goal appears complete preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The gatekeeper sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ ask the agent to take the next action… ──▶ blurred: it changes DNS before verifying the…
-      │
-      └── new lens ──▶ represent the goal as ordered steps… ──▶ distinction survives
-```
+The counterexample separates two questions that the attempt to ask the agent to take the next action that sounds useful until the goal appears complete had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the iron threshold fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the iron threshold, the old path and the repaired path run side by side. One carries “ask the agent to take the next action that sounds useful until the goal appears complete”; the other knows how to represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions. When the failure—it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to planning. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions. This problem and its repair will travel under the name **Planning**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—ask the agent to take the next action that sounds useful until the goal appears complete? The answer remains it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
->
-> **The question carried into this chamber:** What fails if we ask the agent to take the next action that sounds useful until the goal appears complete?
-
-## When the chamber changes
-
-Before leaving Planning, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The gate follows the tempting path—ask the agent to take the next action that sounds useful until the goal appears complete. Then the evidence answers: it changes DNS before verifying the new server, loses the rollback path, and discovers a missing database only after users arrive.
-
-Now let the chamber move: The gatekeeper changes one moving part. The gate can now represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions.
-
-The object that should remain after the terminology disappears is **the planning gate mounted on the iron threshold**.
-
-> **Memory seal — Planning**
->
-> Planning keeps the missing power: represent the goal as ordered steps with prerequisites, expected evidence, risk, and rollback conditions. Re-plan when observations contradict assumptions.
-
-Give the idea a bodily path: Touch the planning gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Planning**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Turning a Goal into Checkable Steps
 

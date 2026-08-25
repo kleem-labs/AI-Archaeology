@@ -62,28 +62,6 @@ $$
 =W_2 \sigma(W_1\mathbf{x}+\mathbf{b}_1)+\mathbf{b}_2
 $$
 
-<!-- memory-film-v1:start -->
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** After words exchange information, how can each position privately transform what it learned?
-
-## When the chamber changes
-
-The Feed-Forward Networks chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: Attention moves information between positions but cannot by itself perform every nonlinear transformation inside each position.
-
-Now let the chamber move: Each word enters its own loom, expands through the first gate, bends, and contracts through the second.
-
-The object that should remain after the terminology disappears is **a small two-gate loom standing at every word position**.
-
-> **Memory seal — Feed-Forward Networks**
->
-> A feed-forward network gives every position a private nonlinear workshop after communication.
-
-Give the idea a bodily path: Open both hands wide, bend the fingers, then bring the hands close again.
-<!-- memory-film-v1:end -->
-
 ## Challenge
 
 Explain why two linear transformations in succession can still act like one linear transformation, and identify what the gate changes.

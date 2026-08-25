@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics)
 >
@@ -11,49 +13,17 @@
 
 The sharded checkpoint can reconstruct every distributed tensor. If it omits the sampler cursor, random-number generators, scheduler phase, or overflow state, restart follows a different future.
 
-Night gathers around the Archive Foundry. Under the light of the chain-of-custody ledger, the archivist-engineer refuses to invent prematurely and begins with the plain rule: restore model weights and let every other component start fresh.
+Inside the Archive Foundry, the old method is given an honest chance. The archivist-engineer places the evidence on the chain-of-custody ledger and tries to restore model weights and let every other component start fresh.
 
-Then the quiet test arrives: adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To restore model weights and let every other component start fresh is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The archivist-engineer sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ restore model weights and let every… ──▶ blurred: adam forgets its moments, warmup may…
-      │
-      └── new lens ──▶ checkpoint every state variable that… ──▶ distinction survives
-```
+The important discovery is not merely that trying to restore model weights and let every other component start fresh failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the chain-of-custody ledger, so success cannot be manufactured by quietly replacing the original question.
 
-The archivist-engineer turns the chain-of-custody ledger toward the light. Through the old engraving, restore model weights and let every other component start fresh, the evidence ends in the same contradiction: adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run. A second engraving adds only the power to checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The archivist-engineer circles the place where the two deterministic resume cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps. The archivist-engineer writes **Deterministic Resume** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The archivist-engineer places a finger over the new distinction. At once the two cases collapse and adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run. Lifting the finger restores only this capacity: checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we restore model weights and let every other component start fresh?
-
-## When the chamber changes
-
-The Deterministic Resume room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The lantern follows the tempting path—restore model weights and let every other component start fresh. Then the evidence answers: adam forgets its moments, warmup may begin again, dropout chooses different masks, and data workers repeat or skip documents. The loss curve after restart cannot be attributed to the original run.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The lantern can now checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps.
-
-The object that should remain after the terminology disappears is **the deterministic resume lantern mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Deterministic Resume**
->
-> Deterministic Resume keeps the missing power: checkpoint every state variable that influences the next update, restore it before creating the next batch, and test an interrupted run against an uninterrupted reference for several exact steps.
-
-Give the idea a bodily path: Touch the deterministic resume lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Deterministic Resume**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Continue the Same Experiment, Not a Similar One
 

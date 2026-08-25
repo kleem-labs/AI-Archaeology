@@ -3,20 +3,11 @@
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-<!-- mathematical-lineage-v1 -->
-> **Mathematical roots:** [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
->
-> **Applied territory:** Mathematical roots beneath the machine
 
-> **You are here:** Realm 1 of 5 — [The Hall of Boundaries](../../MATHEMATICAL_ROOTS.md#realm-1)
->
-> **Question waiting in this chamber:** What promise lets the next machine trust the answer of this one?
->
-> **Do not take the answer yet:** first let the object fail.
 
 Relations preserve arbitrary connections. When the factory applies a tokenizer, matrix, filter, or model, however, repeating the same recorded input under the same state must not silently select two incompatible outputs.
 
-The corridor bends beneath every model we have built. Here **Functions** is not presented as inherited knowledge. Its symbol is still buried, and the only lantern we carry is the failure left by the preceding excavation.
+The corridor toward Functions carries the unresolved consequence of the preceding excavation into a new physical scene.
 
 At the vault's next table, each animal card enters a brass slot marked *measured weight*. Tiger enters twice. If the slot returns 220 kg once and 17 kg the next time, downstream comparison becomes impossible.
 
@@ -42,31 +33,15 @@ We let the idea touch the evidence. The fracture appears exactly where informati
 
 The broken attempt has done its work. It tells us, in ordinary language, to require every allowed input to point to exactly one output, while permitting different inputs to share the same output.
 
-This is the hinge of the Functions excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
-
-## When the chamber changes
-
-Hold the failed picture still for one breath: The same tiger card enters twice and the machine splits, returning two incompatible weights.
-
-Now let the scene move. Lock one internal track from every allowed input to exactly one output. Other inputs may meet there, but one input can no longer fork.
-
-The transformation is the discovery of Functions made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Functions into memory:
-
-> **Memory seal — Functions**
->
-> A function is a machine that owes every allowed input one dependable answer.
-
-Make the memory bodily, not merely verbal: Put an imaginary card into your left palm and close your right hand around its one promised result.
-
-## Functions on the stone workbench
-
-The weight machine maps tiger to 220, deer to 90, and otter to 12. Tiger may be inserted repeatedly, but its arrow still lands on 220. Deer and another animal could both weigh 90 without violating the promise; the requirement concerns one output *per input*, not one private output per animal.
-
-The point of keeping the objects named while rebuilding Functions is that each movement can still be challenged. We can ask what the tiger, track, state, model, or measurement contributes; we can change one value and watch the consequence travel. The calculation remains an experience before it becomes notation.
+The failure and repair now form one continuous argument for Functions: this idea earns its place by preserving exactly what the earlier action lost.
 
 ## The calculation hidden inside functions
 
-Return to the named Functions scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for functions will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Functions against the named case
+
+The weight machine maps tiger to 220, deer to 90, and otter to 12. Tiger may be inserted repeatedly, but its arrow still lands on 220. Deer and another animal could both weigh 90 without violating the promise; the requirement concerns one output *per input*, not one private output per animal.
 
 ### Naming what is already on the table
 
@@ -76,33 +51,23 @@ Return to the named Functions scene above. The ranger, model, measurement, or st
 
 [Arrows](../../MATHEMATICAL_MOVES.md#arrows) preserve the direction of the machine. [Function application](../../MATHEMATICAL_MOVES.md#function-application) asks for the output belonging to this input, and [equality](../../MATHEMATICAL_MOVES.md#equals) records the returned value. Allowing several outputs would describe a general relation, not the deterministic responsibility we need.
 
-The operations inside Functions form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by functions now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 f:A\to B,\quad y=f(x)
 $$
 
-Read the Functions line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
-
 ## A real-world echo
 
 A function is a sealed promise: hand it an allowed question and it owes you one answer, even when many different questions happen to share that answer.
 
-That echo helps Functions remain relational in memory. When the same job appears inside a dataset, a Transformer, a laboratory measurement, or an ordinary decision, the operation should feel like a familiar tool rather than an arbitrary sign.
-
-## What this chamber was connected to
+## What this unlocks elsewhere
 
 Every layer in the neural network, every preprocessing stage, and every operation in the training factory is a function. Composition works only because each stage knows what object the preceding stage produces.
-
-The older excavation and this Functions chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
-
-Before leaving The Hall of Boundaries, look back at its path—**belonging → connection → dependable transformation**. Functions occupies one necessary step in that motion. Its object, **a brass slot with one input door and one output chute**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of functions breaks
 
 A function promises an output but says nothing about which numerical description is most revealing. The same geometric object can receive different coordinates without becoming a different object.
-
-The boundary belongs beside the discovery of Functions because usefulness depends on assumptions. A formula remembered without its failure conditions becomes a spell; a formula remembered with them becomes an instrument.
 
 ## Rebuild the discovery in the laboratory
 

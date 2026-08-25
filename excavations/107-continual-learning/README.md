@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,51 +13,17 @@
 
 Catastrophic forgetting exposes competition inside shared parameters. Continual learning must absorb a stream of new tasks while preserving the old behavior that remains valid.
 
-Night gathers around the Hall of Possible Worlds. Under the light of the table of mirrored maps, the keeper of unfinished questions refuses to invent prematurely and begins with the plain rule: periodically retrain from scratch on everything.
+Inside the Hall of Possible Worlds, the old method is given an honest chance. The keeper of unfinished questions places the evidence on the table of mirrored maps and tries to periodically retrain from scratch on everything.
 
-At the edge of the table of mirrored maps, the shortcut produces its consequence: the trouble appears immediately: storage and compute grow forever, and old raw data may be unavailable. That consequence, not a textbook, earns the next move.
+Nothing about this first move is careless. To periodically retrain from scratch on everything is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the trouble appears immediately: storage and compute grow forever, and old raw data may be unavailable.
 
-```text
-OLD PATH:  request ──▶ periodically retrain from scratch on… ──▶ the trouble appears immediately:…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ we need to detect change, consolidate… ──▶ accountable result
-```
+The important discovery is not merely that trying to periodically retrain from scratch on everything failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the table of mirrored maps, so success cannot be manufactured by quietly replacing the original question.
 
-The keeper of unfinished questions covers the new mark and the old contradiction returns: the trouble appears immediately: storage and compute grow forever, and old raw data may be unavailable. The cover is lifted, restoring the ability to detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason continual learning exists.
+The old construction is therefore not discarded. It is widened just enough to detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-What must change for continual learning is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: we need to detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together. That threshold is where **Continual Learning** enters the story.
-
-The marks on the table of mirrored maps form a small constellation: one point for the evidence, one for the shortcut, one for the contradiction, and one for the repair. continual learning is not any single point. It is the path connecting them in the only order that makes the last point necessary.
-
-
-Before leaving the table of mirrored maps, the keeper of unfinished questions tests the new idea backward. Remove the ability to detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together, and the method falls back to this tempting instruction: periodically retrain from scratch on everything. The old consequence returns—the trouble appears immediately: storage and compute grow forever, and old raw data may be unavailable. Restore the missing ability and that particular contradiction disappears. This reversible test is why continual learning belongs to the growing structure rather than to a list of facts to memorize.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we periodically retrain from scratch on everything?
-
-## When the chamber changes
-
-The Continual Learning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The wheel follows the tempting path—periodically retrain from scratch on everything. Then the evidence answers: the trouble appears immediately: storage and compute grow forever, and old raw data may be unavailable.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The wheel can now detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together.
-
-The object that should remain after the terminology disappears is **the continual learning wheel mounted on the table of mirrored maps**.
-
-> **Memory seal — Continual Learning**
->
-> Continual Learning keeps the missing power: detect change, consolidate stable knowledge, adapt limited components, and evaluate past and present tasks together.
-
-Give the idea a bodily path: Touch the continual learning wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Continual Learning**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding continual learning
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,51 +13,17 @@
 
 A feedback loop reveals that deployment is part of the data-generating process. When the world changes for legitimate reasons, a frozen model grows stale and needs a controlled way to learn online.
 
-Night gathers around the Living Watchgarden. Under the light of the weathered observation slate, the field naturalist refuses to invent prematurely and begins with the plain rule: retrain immediately on every new labeled event.
+Inside the Living Watchgarden, the old method is given an honest chance. The field naturalist places the evidence on the weathered observation slate and tries to retrain immediately on every new labeled event.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the trouble appears immediately: one mislabeled transaction can move the model before anyone notices. More confidence cannot repair information that never entered the rule.
+Nothing about this first move is careless. To retrain immediately on every new labeled event is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The field naturalist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the trouble appears immediately: one mislabeled transaction can move the model before anyone notices.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   retrain immediately on every new… the trouble appears immediately: one…
-            \        /
-             \      /
-              we need to update from controlled…
-```
+The important discovery is not merely that trying to retrain immediately on every new labeled event failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the weathered observation slate, so success cannot be manufactured by quietly replacing the original question.
 
-Two trails now cross the weathered observation slate. The pale trail bears the instruction “retrain immediately on every new labeled event.” It disappears into the observed failure: the trouble appears immediately: one mislabeled transaction can move the model before anyone notices. The darker trail carries one additional capacity—to update from controlled batches with validation, rollback, and limits on how quickly behavior may change. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The old construction is therefore not discarded. It is widened just enough to update from controlled batches with validation, rollback, and limits on how quickly behavior may change. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The room becomes quiet around the failed online learning mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the weathered observation slate is altered in exactly one way: we need to update from controlled batches with validation, rollback, and limits on how quickly behavior may change. Much later, people will call this territory **Online Learning**. Here the name is only a memory of the failure it can survive.
-
-The weathered observation slate has become a palimpsest: observation below, failed shortcut above it, and repair written last. Read downward and online learning looks inevitable. Read upward—from the observation through the failure—and it becomes an invention a human mind could have made.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 7 of 18 — [Living Watchgarden](../../MEMORY_PALACE.md#realm-7)**
->
-> **The question carried into this chamber:** What fails if we retrain immediately on every new labeled event?
-
-## When the chamber changes
-
-The Online Learning chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The lantern follows the tempting path—retrain immediately on every new labeled event. Then the evidence answers: the trouble appears immediately: one mislabeled transaction can move the model before anyone notices.
-
-Now let the chamber move: The field naturalist changes one moving part. The lantern can now update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
-
-The object that should remain after the terminology disappears is **the online learning lantern mounted on the weathered observation slate**.
-
-> **Memory seal — Online Learning**
->
-> Online Learning keeps the missing power: update from controlled batches with validation, rollback, and limits on how quickly behavior may change.
-
-Give the idea a bodily path: Touch the online learning lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Online Learning**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Understanding online learning
 

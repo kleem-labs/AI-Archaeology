@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Calculus & Differential Change](../../MATHEMATICS_ATLAS.md#calculus) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,53 +13,17 @@
 
 The forward pass looks correct, but some half-precision gradients round to zero before the optimizer can use them.
 
-Morning reaches the Engine Cavern before anyone has a name for today's difficulty. Beside the brass reference machine, the enginewright tries the smallest continuation of what already works: increase the learning rate so small updates become visible.
+The previous discovery reaches the Engine Cavern carrying one unfinished problem. Beside the brass reference machine, the enginewright first tries to increase the learning rate so small updates become visible.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we increase the learning rate so small updates become visible, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The enginewright sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update.
 
-```text
-observation
-    │
-    ▼
-[increase the learning rate so small…]
-    │
-    ╳  the learning rate acts after…
-    │
-    ▼
-[multiply the loss before…]
-```
+This failure cannot be repaired by performing the instruction to increase the learning rate so small updates become visible more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the brass reference machine; otherwise a changed answer could be mistaken for an explanation.
 
-Two trails now cross the brass reference machine. The pale trail bears the instruction “increase the learning rate so small updates become visible.” It disappears into the observed failure: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update. The darker trail carries one additional capacity—to multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
+The evidence has earned one extension and no more. We need to multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-The room becomes quiet around the failed loss scaling mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the brass reference machine is altered in exactly one way: multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating. Much later, people will call this territory **Loss Scaling**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the brass reference machine. The failed path remains visible beneath the repair, because loss scaling is easier to remember when its scar remains attached to it. The scar reads, ‘the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 12 of 18 — [Engine Cavern](../../MEMORY_PALACE.md#realm-12)**
->
-> **The question carried into this chamber:** What fails if we increase the learning rate so small updates become visible?
-
-## When the chamber changes
-
-The mathematical name Loss Scaling can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The vessel follows the tempting path—increase the learning rate so small updates become visible. Then the evidence answers: the learning rate acts after gradients are formed; it cannot recover values that already underflowed to zero, and it enlarges every surviving update.
-
-Now let the chamber move: The enginewright changes one moving part. The vessel can now multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating.
-
-The object that should remain after the terminology disappears is **the loss scaling vessel mounted on the brass reference machine**.
-
-> **Memory seal — Loss Scaling**
->
-> Loss Scaling keeps the missing power: multiply the loss before backpropagation so gradients are representable, then divide the gradients by the same scale before clipping and updating.
-
-Give the idea a bodily path: Touch the loss scaling vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Loss Scaling**. The name is simply a handle for the distinction already reconstructed.
 
 ## Rescue Gradients Too Small to Represent
 

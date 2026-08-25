@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,51 +13,17 @@
 
 Data quality asks what patterns the training process actually repeated. Once the lessons are trustworthy, the builders must decide whether the next unit of computation should buy more data, a larger model, or longer training.
 
-Night gathers around the Hall of Voices. Under the light of the listening table, the public archivist refuses to invent prematurely and begins with the plain rule: make the model as large as possible and assume capability follows parameter count.
+Inside the Hall of Voices, the old method is given an honest chance. The public archivist places the evidence on the listening table and tries to make the model as large as possible and assume capability follows parameter count.
 
-Then the quiet test arrives: a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To make the model as large as possible and assume capability follows parameter count is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The public archivist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   make the model as large as possible… a huge model trained on too little…
-            \        /
-             \      /
-              we need to run controlled experiments…
-```
+The important discovery is not merely that trying to make the model as large as possible and assume capability follows parameter count failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the listening table, so success cannot be manufactured by quietly replacing the original question.
 
-The public archivist turns the listening table toward the light. Through the old engraving, make the model as large as possible and assume capability follows parameter count, the evidence ends in the same contradiction: a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns. A second engraving adds only the power to run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The public archivist circles the place where the two scaling laws cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number. The public archivist writes **Scaling Laws** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The public archivist places a finger over the new distinction. At once the two cases collapse and a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns. Lifting the finger restores only this capacity: run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
->
-> **The question carried into this chamber:** What Improves When We Add More?
-
-## When the chamber changes
-
-Keep the formal name Scaling Laws covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The lantern follows the tempting path—make the model as large as possible and assume capability follows parameter count. Then the evidence answers: a huge model trained on too little data repeatedly studies the same evidence; abundant data cannot help a model too small to compress its patterns.
-
-Now let the chamber move: The public archivist changes one moving part. The lantern can now run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
-
-The object that should remain after the terminology disappears is **the scaling laws lantern mounted on the listening table**.
-
-> **Memory seal — Scaling Laws**
->
-> Scaling Laws keeps the missing power: run controlled experiments across sizes, fit the observed trend, and balance model capacity, data, and compute rather than worship one number.
-
-Give the idea a bodily path: Touch the scaling laws lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Scaling Laws**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## The calculation hidden inside scaling laws
 

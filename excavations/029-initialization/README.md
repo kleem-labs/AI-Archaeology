@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,51 +13,17 @@
 
 Momentum remembers persistent direction and damps contradictory wobble. Before any of these learning rules can act, though, every weight needs a starting value that allows different neurons to learn different things without exploding or falling silent.
 
-A new case arrives at the Lantern Observatory, but the keeper of uncertain stories first reaches for the familiar ring of glass lanterns. Its promise is simple: set every weight to zero.
+The previous discovery reaches the Lantern Observatory carrying one unfinished problem. Beside the ring of glass lanterns, the keeper of uncertain stories first tries to set every weight to zero.
 
-At the edge of the ring of glass lanterns, the shortcut produces its consequence: neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we set every weight to zero, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   set every weight to zero   neurons receive identical evidence…
-            \        /
-             \      /
-              draw small random weights whose scale…
-```
+This failure cannot be repaired by performing the instruction to set every weight to zero more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the ring of glass lanterns; otherwise a changed answer could be mistaken for an explanation.
 
-The keeper of uncertain stories covers the new mark and the old contradiction returns: neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate. The cover is lifted, restoring the ability to draw small random weights whose scale depends on how many inputs feed the neuron, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason initialization exists.
+The evidence has earned one extension and no more. We need to draw small random weights whose scale depends on how many inputs feed the neuron. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for initialization is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: draw small random weights whose scale depends on how many inputs feed the neuron. That threshold is where **Initialization** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In initialization, that memory takes a precise form: whenever neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate, preserve enough structure to draw small random weights whose scale depends on how many inputs feed the neuron.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** Where Should Learning Begin?
-
-## When the chamber changes
-
-The mathematical name Initialization can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The scale follows the tempting path—set every weight to zero. Then the evidence answers: neurons receive identical evidence and remain identical. Use arbitrarily huge random values. Signals explode or gates saturate.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The scale can now draw small random weights whose scale depends on how many inputs feed the neuron.
-
-The object that should remain after the terminology disappears is **the initialization scale mounted on the ring of glass lanterns**.
-
-> **Memory seal — Initialization**
->
-> Initialization keeps the missing power: draw small random weights whose scale depends on how many inputs feed the neuron.
-
-Give the idea a bodily path: Touch the initialization scale in imagination: tilt one hand as the broken rule and use the other to bring the necessary distinction back into balance.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Initialization**. The name is simply a handle for the distinction already reconstructed.
 
 ## The calculation hidden inside initialization
 

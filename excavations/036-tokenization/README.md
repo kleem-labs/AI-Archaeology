@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -15,49 +17,17 @@
 
 The tiny neural network now learns from numbered examples. People do not speak in fixed numerical columns; they produce an open stream of words, punctuation, names, code, and writing systems.
 
-Inside the Clockwork Scriptorium, every old tool is given one honest chance. The mechanist sets the sentence-wheel between the evidence and the desired answer, then tries to give every complete word one ID.
+At the Clockwork Scriptorium, the mechanist meets the next case beside the sentence-wheel. The nearest idea is also the most reasonable one: give every complete word one ID.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: spaces appear to provide the boundaries. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To give every complete word one ID reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The mechanist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: spaces appear to provide the boundaries.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ give every complete word one ID ──▶ blurred: spaces appear to provide the…
-      │
-      └── new lens ──▶ use characters. Any new spelling can… ──▶ distinction survives
-```
+The contradiction matters because it identifies a structural loss in the instruction to give every complete word one ID, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The sentence-wheel will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The mechanist lays two translucent sheets over the sentence-wheel. The first is inscribed, “give every complete word one ID.” Its path ends where spaces appear to provide the boundaries. The second receives the same evidence but is allowed to use characters. Any new spelling can now be represented. Held to the light, the sheets separate at exactly one decision.
+The repair can now be kept narrow. The new method must use characters. Any new spelling can now be represented. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-No one reaches for a tokenization formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The mechanist changes only that one responsibility: use characters. Any new spelling can now be represented. When the ink dries, the name **Tokenization** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The sentence-wheel keeps both histories. Its older mark still says, ‘give every complete word one ID’; beside it, the newer mark says, ‘use characters. Any new spelling can now be represented.’ The distance between those sentences is the exact shape of tokenization: no larger than the failure required, and no smaller than reality permits. The sentence-wheel turns with machinery earned long before language: indices retrieve, vectors carry features, dot products compare directions, and weighted sums gather context. tokenization changes what travels through the machine, not why those operations exist.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What Can a Language Model See?
-
-## When the chamber changes
-
-Keep the formal name Tokenization covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The compass follows the tempting path—give every complete word one ID. Then the evidence answers: spaces appear to provide the boundaries.
-
-Now let the chamber move: The mechanist changes one moving part. The compass can now use characters. Any new spelling can now be represented.
-
-The object that should remain after the terminology disappears is **the tokenization compass mounted on the sentence-wheel**.
-
-> **Memory seal — Tokenization**
->
-> Tokenization keeps the missing power: use characters. Any new spelling can now be represented.
-
-Give the idea a bodily path: Touch the tokenization compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Tokenization**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## The calculation hidden inside tokenization
 

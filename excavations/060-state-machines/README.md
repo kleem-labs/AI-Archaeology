@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Dynamical Systems, Control & Decision Theory](../../MATHEMATICS_ATLAS.md#dynamics) · [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete)
 >
@@ -11,49 +13,17 @@
 
 Memory carries chosen information across contexts. Remembering that an email was intended does not establish that it was sent; real workflows need an authoritative account of which events actually changed state.
 
-Inside the Gatehouse of Consequences, every old tool is given one honest chance. The gatekeeper sets the iron threshold between the evidence and the desired answer, then tries to let the conversation prose serve as the workflow state.
+At the Gatehouse of Consequences, the gatekeeper meets the next case beside the iron threshold. The nearest idea is also the most reasonable one: let the conversation prose serve as the workflow state.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: the model says “refund completed” after merely drafting it, or issues it twice after losing track of an earlier tool result. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To let the conversation prose serve as the workflow state reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The gatekeeper sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the model says “refund completed” after merely drafting it, or issues it twice after losing track of an earlier tool result.
 
-```text
-reference evidence ──▶ shortcut: let the conversation prose serve as…
-                         │
-                         └── mismatch: the model says “refund completed”…
+The contradiction matters because it identifies a structural loss in the instruction to let the conversation prose serve as the workflow state, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The iron threshold will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: represent allowed states and…
-```
+The repair can now be kept narrow. The new method must represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The gatekeeper lays two translucent sheets over the iron threshold. The first is inscribed, “let the conversation prose serve as the workflow state.” Its path ends where the model says “refund completed” after merely drafting it, or issues it twice after losing track of an earlier tool result. The second receives the same evidence but is allowed to represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a state machines formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The gatekeeper changes only that one responsibility: represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system. When the ink dries, the name **State Machines** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The iron threshold keeps both histories. Its older mark still says, ‘let the conversation prose serve as the workflow state’; beside it, the newer mark says, ‘represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.’ The distance between those sentences is the exact shape of state machines: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 6 of 18 — [Gatehouse of Consequences](../../MEMORY_PALACE.md#realm-6)**
->
-> **The question carried into this chamber:** What fails if we let the conversation prose serve as the workflow state?
-
-## When the chamber changes
-
-The State Machines room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The map follows the tempting path—let the conversation prose serve as the workflow state. Then the evidence answers: the model says “refund completed” after merely drafting it, or issues it twice after losing track of an earlier tool result.
-
-Now let the chamber move: The gatekeeper changes one moving part. The map can now represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.
-
-The object that should remain after the terminology disappears is **the state machines map mounted on the iron threshold**.
-
-> **Memory seal — State Machines**
->
-> State Machines keeps the missing power: represent allowed states and transitions explicitly. Move state only when required evidence arrives from the responsible system.
-
-Give the idea a bodily path: Touch the state machines map in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **State Machines**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Knowing What Has Actually Happened
 

@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,49 +13,17 @@
 
 A mini-batch replaces one noisy witness with the average advice of a small council. The council can point downhill, but its vote still says nothing about how far the network should move.
 
-Night gathers around the Lantern Observatory. Under the light of the ring of glass lanterns, the keeper of uncertain stories refuses to invent prematurely and begins with the plain rule: always take a huge step: leap across the valley and oscillate.
+Inside the Lantern Observatory, the old method is given an honest chance. The keeper of uncertain stories places the evidence on the ring of glass lanterns and tries to always take a huge step: leap across the valley and oscillate.
 
-Then the quiet test arrives: always take a microscopic step: improve so slowly that the expedition ends first. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To always take a huge step: leap across the valley and oscillate is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: always take a microscopic step: improve so slowly that the expedition ends first.
 
-```text
-reference evidence ──▶ shortcut: always take a huge step: leap across…
-                         │
-                         └── mismatch: always take a microscopic step:…
+The important discovery is not merely that trying to always take a huge step: leap across the valley and oscillate failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the ring of glass lanterns, so success cannot be manufactured by quietly replacing the original question.
 
-reference evidence ──▶ measured repair: we need to multiply the gradient by a…
-```
+The old construction is therefore not discarded. It is widened just enough to multiply the gradient by an adjustable positive step size, observe whether loss descends, and adjust that size over time. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The keeper of uncertain stories turns the ring of glass lanterns toward the light. Through the old engraving, always take a huge step: leap across the valley and oscillate, the evidence ends in the same contradiction: always take a microscopic step: improve so slowly that the expedition ends first. A second engraving adds only the power to multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
-
-The keeper of uncertain stories circles the place where the two learning rate cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. The keeper of uncertain stories writes **Learning Rate** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The keeper of uncertain stories places a finger over the new distinction. At once the two cases collapse and always take a microscopic step: improve so slowly that the expedition ends first. Lifting the finger restores only this capacity: multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** How Large Should the Next Step Be?
-
-## When the chamber changes
-
-The Learning Rate chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The wheel follows the tempting path—always take a huge step: leap across the valley and oscillate. Then the evidence answers: always take a microscopic step: improve so slowly that the expedition ends first.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The wheel can now multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
-
-The object that should remain after the terminology disappears is **the learning rate wheel mounted on the ring of glass lanterns**.
-
-> **Memory seal — Learning Rate**
->
-> Learning Rate keeps the missing power: multiply the gradient by a learning rate, observe whether loss descends, and adjust the rate over time.
-
-Give the idea a bodily path: Touch the learning rate wheel in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Learning Rate**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## The calculation hidden inside learning rate
 

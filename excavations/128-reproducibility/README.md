@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,56 +13,17 @@
 
 Experimental design isolates one suspected cause and provides a control. A single successful run can still be a favorable random seed rather than a discovery that will survive repetition.
 
-At the Academy of Trials, the experimentalist returns to the sealed evidence ledger. Yesterday's instrument still lies open, so the first move asks for no new magic: keep the best checkpoint and report its score.
+At the Academy of Trials, the experimentalist meets the next case beside the sealed evidence ledger. The nearest idea is also the most reasonable one: keep the best checkpoint and report its score.
 
-Reality answers without terminology: changing only the random seed makes the gain disappear. The sealed evidence ledger now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To keep the best checkpoint and report its score reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The experimentalist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: changing only the random seed makes the gain disappear.
 
-```text
-observation
-    │
-    ▼
-[keep the best checkpoint and report…]
-    │
-    ╳  changing only the random seed makes…
-    │
-    ▼
-[record code, data, configuration,…]
-```
+The contradiction matters because it identifies a structural loss in the instruction to keep the best checkpoint and report its score, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The sealed evidence ledger will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-The sealed evidence ledger is divided down the middle. Left side: “keep the best checkpoint and report its score.” Its final mark records changing only the random seed makes the gain disappear. Right side: the same starting evidence, now allowed to record code, data, configuration, environment, seeds, and variation across repeated runs. The difference is narrow enough to see and important enough to change the ending.
+The repair can now be kept narrow. The new method must record code, data, configuration, environment, seeds, and variation across repeated runs. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The broken rule has given reproducibility a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: record code, data, configuration, environment, seeds, and variation across repeated runs. The name **Reproducibility** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to keep the best checkpoint and report its score; on the other lies the observed fact that changing only the random seed makes the gain disappear. The bridge called reproducibility has exactly the planks needed to record code, data, configuration, environment, seeds, and variation across repeated runs.
-
-
-Before leaving the sealed evidence ledger, the experimentalist tests the new idea backward. Remove the ability to record code, data, configuration, environment, seeds, and variation across repeated runs, and the method falls back to this tempting instruction: keep the best checkpoint and report its score. The old consequence returns—changing only the random seed makes the gain disappear. Restore the missing ability and that particular contradiction disappears. This reversible test is why reproducibility belongs to the growing structure rather than to a list of facts to memorize.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we keep the best checkpoint and report its score?
-
-## When the chamber changes
-
-Before leaving Reproducibility, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The seal follows the tempting path—keep the best checkpoint and report its score. Then the evidence answers: changing only the random seed makes the gain disappear.
-
-Now let the chamber move: The experimentalist changes one moving part. The seal can now record code, data, configuration, environment, seeds, and variation across repeated runs.
-
-The object that should remain after the terminology disappears is **the reproducibility seal mounted on the sealed evidence ledger**.
-
-> **Memory seal — Reproducibility**
->
-> Reproducibility keeps the missing power: record code, data, configuration, environment, seeds, and variation across repeated runs.
-
-Give the idea a bodily path: Touch the reproducibility seal in imagination: trace its outline with one finger, cover it with your palm, then uncover only the repaired path.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Reproducibility**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Can the Discovery Survive Another Run
 

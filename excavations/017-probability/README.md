@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Information Theory](../../MATHEMATICS_ATLAS.md#information)
 >
@@ -15,51 +17,17 @@
 
 The Transformer has begun to infer hidden causes from the footprints of language. But inference without certainty is dangerous: the same rustle may have been made by a tiger, a deer, or only the wind.
 
-Morning reaches the Lantern Observatory before anyone has a name for today's difficulty. Beside the ring of glass lanterns, the keeper of uncertain stories tries the smallest continuation of what already works: choose the most common cause and declare certainty.
+The previous discovery reaches the Lantern Observatory carrying one unfinished problem. Beside the ring of glass lanterns, the keeper of uncertain stories first tries to choose the most common cause and declare certainty.
 
-At the edge of the ring of glass lanterns, the shortcut produces its consequence: this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we choose the most common cause and declare certainty, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The keeper of uncertain stories sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   choose the most common cause and… this works until the rare tiger…
-            \        /
-             \      /
-              keep every plausible outcome and give…
-```
+This failure cannot be repaired by performing the instruction to choose the most common cause and declare certainty more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the ring of glass lanterns; otherwise a changed answer could be mistaken for an explanation.
 
-The keeper of uncertain stories covers the new mark and the old contradiction returns: this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act. The cover is lifted, restoring the ability to keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason probability exists.
+The evidence has earned one extension and no more. We need to keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for probability is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total. That threshold is where **Probability** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In probability, that memory takes a precise form: whenever this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act, preserve enough structure to keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total. Every lantern in probability remembers an older operation. Probability keeps several stories lit; logarithms turn compounded uncertainty into steps; summation lets separate surprises form one account. Learning begins when those lights can alter the machine that reads them.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 3 of 18 — [Lantern Observatory](../../MEMORY_PALACE.md#realm-3)**
->
-> **The question carried into this chamber:** What fails if we choose the most common cause and declare certainty?
-
-## When the chamber changes
-
-The Probability chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The lens follows the tempting path—choose the most common cause and declare certainty. Then the evidence answers: this works until the rare tiger arrives. Refusing to decide is safer intellectually but useless when the camp must act.
-
-Now let the chamber move: The keeper of uncertain stories changes one moving part. The lens can now keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total.
-
-The object that should remain after the terminology disappears is **the probability lens mounted on the ring of glass lanterns**.
-
-> **Memory seal — Probability**
->
-> Probability keeps the missing power: keep every plausible outcome and give each a share of belief. Count comparable past observations, then divide the count for one outcome by the total.
-
-Give the idea a bodily path: Touch the probability lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Probability**. The name is simply a handle for the distinction already reconstructed.
 
 ## The calculation hidden inside probability
 

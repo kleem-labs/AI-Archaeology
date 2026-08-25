@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization) · [Numerical Analysis & Scientific Computing](../../MATHEMATICS_ATLAS.md#numerical)
 >
@@ -11,49 +13,17 @@
 
 The schedule controls how far one global update moves. We still do not know how many examples should vote in that update before extra devices mostly repeat the same directional evidence.
 
-The doors of the Archive Foundry close against the wind. On the chain-of-custody ledger, the archivist-engineer writes the cheapest rule that might still be true: make the global batch as large as the cluster permits.
+A new case arrives at the Archive Foundry. Nothing yet demands a new invention, so the archivist-engineer uses the chain-of-custody ledger to make the global batch as large as the cluster permits.
 
-The archivist-engineer repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to make the global batch as large as the cluster permits preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The archivist-engineer sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens.
 
-```text
-possible road A ─┐
-                 ├── old map: make the global batch as large as the…
-possible road B ─┘              └── loses: early doubling reduces disagreement…
+The counterexample separates two questions that the attempt to make the global batch as large as the cluster permits had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the chain-of-custody ledger fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-same roads ──▶ repaired map ──▶ measure disagreement among…
-```
+Only the broken responsibility needs to change. The method must now measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-Across the chain-of-custody ledger, the old path and the repaired path run side by side. One carries “make the global batch as large as the cluster permits”; the other knows how to measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target. When the failure—early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens—arrives, only one path still possesses a place to record the missing distinction.
-
-The failure is no longer an embarrassment to gradient noise scale. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target. This problem and its repair will travel under the name **Gradient Noise Scale**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—make the global batch as large as the cluster permits? The answer remains early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** When More Examples Stop Buying More Direction?
-
-## When the chamber changes
-
-The Gradient Noise Scale room does not ask you to memorize its name. It asks you to watch one object change.
-
-First hold the failed picture still: The gear follows the tempting path—make the global batch as large as the cluster permits. Then the evidence answers: early doubling reduces disagreement and improves the direction, but beyond a workload-dependent point the averaged gradient barely changes while each update consumes twice as many tokens.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The gear can now measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target.
-
-The object that should remain after the terminology disappears is **the gradient noise scale gear mounted on the chain-of-custody ledger**.
-
-> **Memory seal — Gradient Noise Scale**
->
-> Gradient Noise Scale keeps the missing power: measure disagreement among micro-batch gradients relative to the strength of their shared direction, and use that noise scale as evidence for the largest useful batch rather than a hardware target.
-
-Give the idea a bodily path: Touch the gradient noise scale gear in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Gradient Noise Scale**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## When More Examples Stop Buying More Direction
 
@@ -71,7 +41,7 @@ Each g_i is one model micro-batch's gradient advice. The covariance measures how
 
 The mandala has curved back upon itself. In this chamber we meet **the paired dance**—two quantities reveal whether their departures move together; and **the fair cup**—a total is judged per person, per step, or per unit rather than admired for being large. What seemed like a new formula is older mathematical instinct arranged around a new need.
 
-Cover the prose about gradient noise scale and each mark can still be recovered from the case. Only now is the compressed form safe to write:
+Every mark in the coming gradient noise scale equation now belongs to a visible part of the case. The compressed form is:
 
 $$
 G=\frac{\mathrm{tr}(\mathrm{Cov}[g_i])}{\lVert E[g_i]\rVert^2}

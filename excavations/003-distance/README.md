@@ -26,11 +26,11 @@ age:    -1
 
 This is accurate, but it is not a decision. With a thousand attributes we receive a thousand answers. We need one measure of separation.
 
-## Your derivation
+## Reconstructing the path
 
-You proposed the entire path yourself:
-
-> Find the difference of similar features. If it is negative, that is wrong for distance, so square the differences, add them, and take the root.
+The requirements now determine the route. Compare corresponding features.
+Prevent negative and positive disagreements from cancelling. Let every feature
+contribute, then return the combined result to the original measurement scale.
 
 Why not simply add? Because opposite differences cancel. A change of `100` and `-100` would produce zero, falsely declaring two objects identical.
 
@@ -101,28 +101,6 @@ The formula is your procedure written compactly.
 If weight is measured in kilograms and a stripe flag is only zero or one, weight can dominate. Distance treats coordinate scales as meaningful. Representation and normalization therefore matter as much as arithmetic.
 
 Distance also answers **similarity**, not every kind of relationship. That distinction will become decisive when we reach attention.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 1 of 18 — [Valley of First Measures](../../MEMORY_PALACE.md#realm-1)**
->
-> **The question carried into this chamber:** How can the tribe turn many feature disagreements into one honest separation?
-
-## When the chamber changes
-
-Before leaving Distance, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: Positive and negative disagreements pull opposite ways and cancel, making different animals appear identical.
-
-Now let the chamber move: Every cord's disagreement becomes nonnegative before the cords combine into one path between the animals.
-
-The object that should remain after the terminology disappears is **two tiger silhouettes joined by feature-length measuring cords**.
-
-> **Memory seal — Distance**
->
-> Distance is the single separation left after every comparable disagreement has been allowed to count.
-
-Give the idea a bodily path: Stretch both hands apart, briefly cross them to show cancellation, then separate them again.
-<!-- memory-film-v1:end -->
 
 ## Challenge
 

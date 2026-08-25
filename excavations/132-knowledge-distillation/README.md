@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Synthetic data can expand training only when errors are verified instead of multiplied. The capable teacher generating or checking those lessons may be too large and costly for deployment.
 
-Inside the Academy of Trials, every old tool is given one honest chance. The experimentalist sets the sealed evidence ledger between the evidence and the desired answer, then tries to train a small model only on the original hard labels.
+At the Academy of Trials, the experimentalist meets the next case beside the sealed evidence ledger. The nearest idea is also the most reasonable one: train a small model only on the original hard labels.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: the trouble appears immediately: the labels reveal the winner but discard how the teacher distributed doubt among alternatives. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+The attraction of this attempt is easy to see. To train a small model only on the original hard labels reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The experimentalist sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: the trouble appears immediately: the labels reveal the winner but discard how the teacher distributed doubt among alternatives.
 
-```text
-possible road A ─┐
-                 ├── old map: train a small model only on the…
-possible road B ─┘              └── loses: the trouble appears immediately: the…
+The contradiction matters because it identifies a structural loss in the instruction to train a small model only on the original hard labels, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The sealed evidence ledger will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-same roads ──▶ repaired map ──▶ let the student imitate the teacher's…
-```
+The repair can now be kept narrow. The new method must let the student imitate the teacher's probability pattern as well as the observed answer. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The experimentalist lays two translucent sheets over the sealed evidence ledger. The first is inscribed, “train a small model only on the original hard labels.” Its path ends where the trouble appears immediately: the labels reveal the winner but discard how the teacher distributed doubt among alternatives. The second receives the same evidence but is allowed to let the student imitate the teacher's probability pattern as well as the observed answer. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a knowledge distillation formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The experimentalist changes only that one responsibility: let the student imitate the teacher's probability pattern as well as the observed answer. When the ink dries, the name **Knowledge Distillation** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The sealed evidence ledger keeps both histories. Its older mark still says, ‘train a small model only on the original hard labels’; beside it, the newer mark says, ‘let the student imitate the teacher's probability pattern as well as the observed answer.’ The distance between those sentences is the exact shape of knowledge distillation: no larger than the failure required, and no smaller than reality permits.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we train a small model only on the original hard labels?
-
-## When the chamber changes
-
-The Knowledge Distillation chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The compass follows the tempting path—train a small model only on the original hard labels. Then the evidence answers: the trouble appears immediately: the labels reveal the winner but discard how the teacher distributed doubt among alternatives.
-
-Now let the chamber move: The experimentalist changes one moving part. The compass can now let the student imitate the teacher's probability pattern as well as the observed answer.
-
-The object that should remain after the terminology disappears is **the knowledge distillation compass mounted on the sealed evidence ledger**.
-
-> **Memory seal — Knowledge Distillation**
->
-> Knowledge Distillation keeps the missing power: let the student imitate the teacher's probability pattern as well as the observed answer.
-
-Give the idea a bodily path: Touch the knowledge distillation compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Knowledge Distillation**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Teaching a Smaller Student
 

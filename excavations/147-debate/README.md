@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,51 +13,17 @@
 
 Scalable oversight decomposes work, attaches local evidence, samples risk, and escalates anomalies. A polished argument can still hide one weak assumption unless an equally capable opponent is rewarded for finding it.
 
-Night gathers around the Academy of Trials. Under the light of the sealed evidence ledger, the experimentalist refuses to invent prematurely and begins with the plain rule: let the author choose which evidence the judge sees.
+Inside the Academy of Trials, the old method is given an honest chance. The experimentalist places the evidence on the sealed evidence ledger and tries to let the author choose which evidence the judge sees.
 
-Then the quiet test arrives: the trouble appears immediately: selective presentation makes eloquence look like correctness. What looked like simplicity is revealed as a missing distinction.
+Nothing about this first move is careless. To let the author choose which evidence the judge sees is to ask whether the existing idea can stretch one step farther before another concept is added to the machine. If it can, the simpler rule should remain. If it cannot, the manner of its failure must tell us more than the fact that an answer was wrong; it must reveal which responsibility was absent.
 
-*The experimentalist sketches the break before changing it:*
+The attempt reaches a boundary that greater confidence cannot cross: the trouble appears immediately: selective presentation makes eloquence look like correctness.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   let the author choose which evidence… the trouble appears immediately:…
-            \        /
-             \      /
-              we need to give an opposing…
-```
+The important discovery is not merely that trying to let the author choose which evidence the judge sees failed; many bad guesses can fail. It is that the failure remains stable when the calculation is repeated and irrelevant details are changed. The same missing capacity keeps reappearing. That stability turns the counterexample into a design requirement: the next method must preserve the exact distinction the old one erased. Both paths will be tested against the sealed evidence ledger, so success cannot be manufactured by quietly replacing the original question.
 
-The experimentalist turns the sealed evidence ledger toward the light. Through the old engraving, let the author choose which evidence the judge sees, the evidence ends in the same contradiction: the trouble appears immediately: selective presentation makes eloquence look like correctness. A second engraving adds only the power to give an opposing investigator equal access and reward exposing checkable disagreements for a judge. Superimposed, the two paths share every stroke until the precise place where the old one breaks.
+The old construction is therefore not discarded. It is widened just enough to give an opposing investigator equal access and reward exposing checkable disagreements for a judge. The width of the repair matters: too little reproduces the failure, while an unrelated addition would conceal why any new machinery was introduced.
 
-The experimentalist circles the place where the two debate cases collapsed together. The repair must open that circle and preserve the difference inside it.
-
-Only the missing distinction is restored: we need to give an opposing investigator equal access and reward exposing checkable disagreements for a judge. The experimentalist writes **Debate** beside the new mark, and the unfamiliar name feels strangely familiar because every part of it has already been needed.
-
-The experimentalist places a finger over the new distinction. At once the two cases collapse and the trouble appears immediately: selective presentation makes eloquence look like correctness. Lifting the finger restores only this capacity: give an opposing investigator equal access and reward exposing checkable disagreements for a judge. That tiny reversible motion is the chapter's proof of necessity.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 11 of 18 — [Academy of Trials](../../MEMORY_PALACE.md#realm-11)**
->
-> **The question carried into this chamber:** What fails if we let the author choose which evidence the judge sees?
-
-## When the chamber changes
-
-The Debate chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The lantern follows the tempting path—let the author choose which evidence the judge sees. Then the evidence answers: the trouble appears immediately: selective presentation makes eloquence look like correctness.
-
-Now let the chamber move: The experimentalist changes one moving part. The lantern can now give an opposing investigator equal access and reward exposing checkable disagreements for a judge.
-
-The object that should remain after the terminology disappears is **the debate lantern mounted on the sealed evidence ledger**.
-
-> **Memory seal — Debate**
->
-> Debate keeps the missing power: give an opposing investigator equal access and reward exposing checkable disagreements for a judge.
-
-Give the idea a bodily path: Touch the debate lantern in imagination: close one fist around the lost information, then open it as the repair restores that information.
-<!-- memory-film-v1:end -->
+The necessary extension now has a name: **Debate**. Nothing in the name adds to the requirement the evidence has already established; it only lets that requirement travel.
 
 ## Let Claims Meet an Adversary
 

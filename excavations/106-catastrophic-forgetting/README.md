@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Optimization](../../MATHEMATICS_ATLAS.md#optimization)
 >
@@ -11,54 +13,17 @@
 
 Selective prediction gives the system permission to abstain. When an approved new task finally supplies more training data, learning it can overwrite skills that were reliable yesterday.
 
-The table of mirrored maps at the Hall of Possible Worlds still carries the marks of the previous discovery. The keeper of unfinished questions follows them as far as they seem willing to go: fine-tune only on the newest data.
+A new case arrives at the Hall of Possible Worlds. Nothing yet demands a new invention, so the keeper of unfinished questions uses the table of mirrored maps to fine-tune only on the newest data.
 
-The keeper of unfinished questions repeats the calculation, hoping for an arithmetic mistake. The same obstruction returns: updates useful for B overwrite weights carrying A. The failure is stable enough to become evidence.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to fine-tune only on the newest data preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: updates useful for B overwrite weights carrying A.
 
-```text
-             evidence
-            /        \
-   old lantern      hidden distinction
-   fine-tune only on the newest data updates useful for B overwrite…
-            \        /
-             \      /
-              rehearse old evidence, protect…
-```
+The counterexample separates two questions that the attempt to fine-tune only on the newest data had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the table of mirrored maps fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-Across the table of mirrored maps, the old path and the repaired path run side by side. One carries “fine-tune only on the newest data”; the other knows how to rehearse old evidence, protect important parameters, or allocate new capacity. When the failure—updates useful for B overwrite weights carrying A—arrives, only one path still possesses a place to record the missing distinction.
+Only the broken responsibility needs to change. The method must now rehearse old evidence, protect important parameters, or allocate new capacity. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The failure is no longer an embarrassment to catastrophic forgetting. It is a compass: it points directly toward the information the next construction must retain.
-
-The evidence permits one narrow invention: rehearse old evidence, protect important parameters, or allocate new capacity. This problem and its repair will travel under the name **Catastrophic Forgetting**, but the name carries no knowledge the scene has not earned.
-
-Under the latest ink, the first question is still legible: what if we followed the tempting rule—fine-tune only on the newest data? The answer remains updates useful for B overwrite weights carrying A. The new construction earns its permanence by answering that old question without pretending it was foolish to ask.
-
-
-Before leaving the table of mirrored maps, the keeper of unfinished questions tests the new idea backward. Remove the ability to rehearse old evidence, protect important parameters, or allocate new capacity, and the method falls back to this tempting instruction: fine-tune only on the newest data. The old consequence returns—updates useful for B overwrite weights carrying A. Restore the missing ability and that particular contradiction disappears. This reversible test is why catastrophic forgetting belongs to the growing structure rather than to a list of facts to memorize.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we fine-tune only on the newest data?
-
-## When the chamber changes
-
-Keep the formal name Catastrophic Forgetting covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The gate follows the tempting path—fine-tune only on the newest data. Then the evidence answers: updates useful for B overwrite weights carrying A.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The gate can now rehearse old evidence, protect important parameters, or allocate new capacity.
-
-The object that should remain after the terminology disappears is **the catastrophic forgetting gate mounted on the table of mirrored maps**.
-
-> **Memory seal — Catastrophic Forgetting**
->
-> Catastrophic Forgetting keeps the missing power: rehearse old evidence, protect important parameters, or allocate new capacity.
-
-Give the idea a bodily path: Touch the catastrophic forgetting gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Catastrophic Forgetting**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Understanding catastrophic forgetting
 

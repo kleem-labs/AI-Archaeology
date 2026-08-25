@@ -3,20 +3,11 @@
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-<!-- mathematical-lineage-v1 -->
-> **Mathematical roots:** [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Mathematical roots beneath the machine
 
-> **You are here:** Realm 2 of 5 — [The Chamber of Directions](../../MATHEMATICAL_ROOTS.md#realm-2)
->
-> **Question waiting in this chamber:** Does this new arrow open genuinely new movement, or only rename movement already possible?
->
-> **Do not take the answer yet:** first let the object fail.
 
 A basis gives coordinates meaning only if its directions reach the required space without secretly repeating one another. Adding more arrows to the table can create the appearance of capacity while contributing no new possible movement.
 
-Far below the Transformer, the Undercroft stores no formula sheet. For **Span and Linear Independence**, it preserves a scene, a tempting tool, and the mark left where that tool broke.
+Far below the Transformer, Span and Linear Independence begins with an ordinary situation and a tool that almost—but not quite—solves it.
 
 The cartographer offers east `[1,0]`, north `[0,1]`, and northeast `[1,1]` as three foundational directions on a two-dimensional map. The third feels useful, but the first two can already reconstruct it.
 
@@ -40,31 +31,15 @@ what we kept       what disappeared
 
 The next idea is forced only because the evidence asks us to call the reachable collection of combinations the span, and call directions independent only when no nontrivial weighted combination collapses to zero.
 
-This is the hinge of the Span and Linear Independence excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
-
-## When the chamber changes
-
-Hold the failed picture still for one breath: The northeast arrow boasts of a third dimension even though east plus north already draws it exactly.
-
-Now let the scene move. Try to cancel the arrows back to no movement. The nonzero recipe that succeeds exposes the copied direction; remove it and the reachable floor does not shrink.
-
-The transformation is the discovery of Span and Linear Independence made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Span and Linear Independence into memory:
-
-> **Memory seal — Span and Linear Independence**
->
-> Span is everywhere the arrows can reach; independence means each arrow opens a direction the others cannot.
-
-Make the memory bodily, not merely verbal: Spread two fingers into independent directions, then lay a third finger along their combined diagonal.
-
-## Span and Linear Independence on the stone workbench
-
-Ask whether `a·east + b·north + c·northeast` can return to `[0,0]` without all weights being zero. Choosing `a=-1`, `b=-1`, and `c=1` does exactly that. Northeast therefore adds no new reachable point. East and north alone span the entire floor and give each displacement one coordinate pair.
-
-The point of keeping the objects named while rebuilding Span and Linear Independence is that each movement can still be challenged. We can ask what the tiger, track, state, model, or measurement contributes; we can change one value and watch the consequence travel. The calculation remains an experience before it becomes notation.
+The failure and repair now form one continuous argument for Span and Linear Independence: this idea earns its place by preserving exactly what the earlier action lost.
 
 ## The calculation hidden inside span and linear independence
 
-Return to the named Span and Linear Independence scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for span and linear independence will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Span and Linear Independence against the named case
+
+Ask whether `a·east + b·north + c·northeast` can return to `[0,0]` without all weights being zero. Choosing `a=-1`, `b=-1`, and `c=1` does exactly that. Northeast therefore adds no new reachable point. East and north alone span the entire floor and give each displacement one coordinate pair.
 
 ### Naming what is already on the table
 
@@ -74,33 +49,23 @@ Return to the named Span and Linear Independence scene above. The ranger, model,
 
 [Multiplication](../../MATHEMATICAL_MOVES.md#multiplication) scales candidate directions and [summation](../../MATHEMATICAL_MOVES.md#summation) combines them. [Equality](../../MATHEMATICAL_MOVES.md#equals) asks whether the combination collapses to zero. Merely counting vectors cannot detect that one is already contained in the others' span.
 
-The operations inside Span and Linear Independence form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by span and linear independence now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 a_1\mathbf v_1+\cdots+a_k\mathbf v_k=\mathbf0\Longrightarrow a_1=\cdots=a_k=0
 $$
 
-Read the Span and Linear Independence line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
-
 ## A real-world echo
 
 Three keys on a ring do not open three doors when one key is only a copy. Independence counts new access, not metal objects.
 
-That echo helps Span and Linear Independence remain relational in memory. When the same job appears inside a dataset, a Transformer, a laboratory measurement, or an ordinary decision, the operation should feel like a familiar tool rather than an arbitrary sign.
-
-## What this chamber was connected to
+## What this unlocks elsewhere
 
 Superposition asks how many useful feature directions share a space; LoRA asks how many update directions are actually needed. Rank and independence make those capacity claims precise.
-
-The older excavation and this Span and Linear Independence chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
-
-Before leaving The Chamber of Directions, look back at its path—**language of space → new directions → persistent directions → honest shadows → strongest channels**. Span and Linear Independence occupies one necessary step in that motion. Its object, **three floor arrows and a ring carrying one copied key**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
 
 ## Where the promise of span and linear independence breaks
 
 Independence tells which directions are new but not how a transformation repeatedly stretches the space. Some directions persist under repeated application while others turn and mix.
-
-The boundary belongs beside the discovery of Span and Linear Independence because usefulness depends on assumptions. A formula remembered without its failure conditions becomes a spell; a formula remembered with them becomes an instrument.
 
 ## Rebuild the discovery in the laboratory
 

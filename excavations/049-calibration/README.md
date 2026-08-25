@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
 >
@@ -11,49 +13,17 @@
 
 Grounding exposes unsupported claims, but the assistant also reports confidence. If “80% certain” is wrong half the time, users cannot use that number to decide when to trust or verify it.
 
-Morning reaches the Hall of Voices before anyone has a name for today's difficulty. Beside the listening table, the public archivist tries the smallest continuation of what already works: treat the largest softmax probability as honest confidence.
+The previous discovery reaches the Hall of Voices carrying one unfinished problem. Beside the listening table, the public archivist first tries to treat the largest softmax probability as honest confidence.
 
-The rule survives the easy cases. The next case leaves a crack through the middle of it: collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability. More confidence cannot repair information that never entered the rule.
+There is good reason to begin this way. If we treat the largest softmax probability as honest confidence, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The public archivist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability.
 
-```text
-reference evidence ──▶ shortcut: treat the largest softmax probability…
-                         │
-                         └── mismatch: collect ten answers each reported…
+This failure cannot be repaired by performing the instruction to treat the largest softmax probability as honest confidence more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the listening table; otherwise a changed answer could be mistaken for an explanation.
 
-reference evidence ──▶ measured repair: group predictions with similar…
-```
+The evidence has earned one extension and no more. We need to group predictions with similar confidence and compare their average stated confidence with the fraction actually correct. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-Two trails now cross the listening table. The pale trail bears the instruction “treat the largest softmax probability as honest confidence.” It disappears into the observed failure: collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability. The darker trail carries one additional capacity—to group predictions with similar confidence and compare their average stated confidence with the fraction actually correct. Nothing else in the scene moves, so the new branch cannot hide where its power came from.
-
-The room becomes quiet around the failed calibration mark. Whatever comes next must distinguish these cases without destroying what the earlier method already did well.
-
-So the listening table is altered in exactly one way: group predictions with similar confidence and compare their average stated confidence with the fraction actually correct. Much later, people will call this territory **Calibration**. Here the name is only a memory of the failure it can survive.
-
-Nothing is erased from the listening table. The failed path remains visible beneath the repair, because calibration is easier to remember when its scar remains attached to it. The scar reads, ‘collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability’; the new line exists only to keep that loss from happening again.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
->
-> **The question carried into this chamber:** What fails if we treat the largest softmax probability as honest confidence?
-
-## When the chamber changes
-
-The mathematical name Calibration can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The lens follows the tempting path—treat the largest softmax probability as honest confidence. Then the evidence answers: collect ten answers each reported near 80%. If only four are correct, the number is not describing observed reliability.
-
-Now let the chamber move: The public archivist changes one moving part. The lens can now group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
-
-The object that should remain after the terminology disappears is **the calibration lens mounted on the listening table**.
-
-> **Memory seal — Calibration**
->
-> Calibration keeps the missing power: group predictions with similar confidence and compare their average stated confidence with the fraction actually correct.
-
-Give the idea a bodily path: Touch the calibration lens in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Calibration**. The name is simply a handle for the distinction already reconstructed.
 
 ## The calculation hidden inside calibration
 

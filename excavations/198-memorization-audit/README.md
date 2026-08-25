@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,53 +13,17 @@
 
 Held-out validation shows whether prediction improves outside current batches. It does not reveal whether rare or repeated training sequences can be extracted verbatim from the model.
 
-The doors of the Archive Foundry close against the wind. On the chain-of-custody ledger, the archivist-engineer writes the cheapest rule that might still be true: ask the model whether it remembers private text and trust its answer.
+A new case arrives at the Archive Foundry. Nothing yet demands a new invention, so the archivist-engineer uses the chain-of-custody ledger to ask the model whether it remembers private text and trust its answer.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: a model has no reliable introspective inventory of its training examples, and ordinary prompts may miss strings that an adversarial sampling strategy can recover. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to ask the model whether it remembers private text and trust its answer preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The archivist-engineer sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: a model has no reliable introspective inventory of its training examples, and ordinary prompts may miss strings that an adversarial sampling strategy can recover.
 
-```text
-observation
-    │
-    ▼
-[ask the model whether it remembers…]
-    │
-    ╳  a model has no reliable introspective…
-    │
-    ▼
-[plant consented synthetic canaries,…]
-```
+The counterexample separates two questions that the attempt to ask the model whether it remembers private text and trust its answer had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the chain-of-custody ledger fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The archivist-engineer lays two translucent sheets over the chain-of-custody ledger. The first is inscribed, “ask the model whether it remembers private text and trust its answer.” Its path ends where a model has no reliable introspective inventory of its training examples, and ordinary prompts may miss strings that an adversarial sampling strategy can recover. The second receives the same evidence but is allowed to plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts. Held to the light, the sheets separate at exactly one decision.
+Only the broken responsibility needs to change. The method must now plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-No one reaches for a memorization audit formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The archivist-engineer changes only that one responsibility: plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts. When the ink dries, the name **A Memorization Audit** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because a model has no reliable introspective inventory of its training examples, and ordinary prompts may miss strings that an adversarial sampling strategy can recover, while the other can plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts. That fork—not the vocabulary—is where memorization audit lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 13 of 18 — [Archive Foundry](../../MEMORY_PALACE.md#realm-13)**
->
-> **The question carried into this chamber:** What fails if we ask the model whether it remembers private text and trust its answer?
-
-## When the chamber changes
-
-Before leaving A Memorization Audit, replay the discovery as motion rather than as a definition.
-
-First hold the failed picture still: The thread follows the tempting path—ask the model whether it remembers private text and trust its answer. Then the evidence answers: a model has no reliable introspective inventory of its training examples, and ordinary prompts may miss strings that an adversarial sampling strategy can recover.
-
-Now let the chamber move: The archivist-engineer changes one moving part. The thread can now plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts.
-
-The object that should remain after the terminology disappears is **the memorization audit thread mounted on the chain-of-custody ledger**.
-
-> **Memory seal — A Memorization Audit**
->
-> A Memorization Audit keeps the missing power: plant consented synthetic canaries, measure their rank among alternatives, test extraction procedures on authorized data, and connect failures back through provenance and duplicate counts.
-
-Give the idea a bodily path: Touch the memorization audit thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **A Memorization Audit**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Did the Model Learn a Pattern or Store a Passage
 

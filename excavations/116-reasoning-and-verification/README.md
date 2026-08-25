@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Causality & Experimental Design](../../MATHEMATICS_ATLAS.md#causality)
 >
@@ -11,49 +13,17 @@
 
 Tree search spends simulation on promising and uncertain branches. A long proposed solution may still hide one invalid inference, so plausible completion must be separated from stepwise verification.
 
-Inside the Hall of Possible Worlds, every old tool is given one honest chance. The keeper of unfinished questions sets the table of mirrored maps between the evidence and the desired answer, then tries to judge only the final answer.
+At the Hall of Possible Worlds, the keeper of unfinished questions meets the next case beside the table of mirrored maps. The nearest idea is also the most reasonable one: judge only the final answer.
 
-Reality answers without terminology: a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan. The table of mirrored maps now holds two situations the old rule cannot keep apart.
+The attraction of this attempt is easy to see. To judge only the final answer reuses a rule that already handles the ordinary cases, asks for no machinery whose purpose is still unclear, and produces an answer quickly enough to act on. Economy is a virtue while the rule preserves every distinction the decision needs. The danger is that a short rule can look complete simply because the cases that expose its blindness have not appeared yet.
 
-*The keeper of unfinished questions sketches the break before changing it:*
+The easy case appears to confirm the rule. Then a harder observation exposes its limit: a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
 
-```text
-reference evidence ──▶ shortcut: judge only the final answer
-                         │
-                         └── mismatch: a lucky answer hides invalid…
+The contradiction matters because it identifies a structural loss in the instruction to judge only the final answer, not a rare arithmetic accident. Repeating the same procedure more carefully would reproduce the same blindness. More data would help only if the rule had somewhere to keep the distinction that the new evidence reveals. Any genuine repair must therefore change what the method can represent while leaving its successful behavior on the easy cases intact. The table of mirrored maps will remain beside both versions so that the added capacity can be traced to the observation that demanded it.
 
-reference evidence ──▶ measured repair: represent intermediate claims and…
-```
+The repair can now be kept narrow. The new method must represent intermediate claims and verify each with an appropriate checker or evidence source. This addition answers the counterexample directly; it does not claim to solve every later problem. Everything the earlier rule did honestly can remain, but this missing capacity can no longer be omitted.
 
-The table of mirrored maps is divided down the middle. Left side: “judge only the final answer.” Its final mark records a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan. Right side: the same starting evidence, now allowed to represent intermediate claims and verify each with an appropriate checker or evidence source. The difference is narrow enough to see and important enough to change the ending.
-
-The broken rule has given reasoning and verification a gift: the missing job can now be spoken in ordinary language before symbols make it look inevitable.
-
-The repair can now be stated without mystery: represent intermediate claims and verify each with an appropriate checker or evidence source. The name **Reasoning and Verification** arrives afterward, like a title given to a path whose stones are already underfoot.
-
-One boundary in the room is now sharper. On one side lies the promise to judge only the final answer; on the other lies the observed fact that a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan. The bridge called reasoning and verification has exactly the planks needed to represent intermediate claims and verify each with an appropriate checker or evidence source.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 10 of 18 — [Hall of Possible Worlds](../../MEMORY_PALACE.md#realm-10)**
->
-> **The question carried into this chamber:** What fails if we judge only the final answer?
-
-## When the chamber changes
-
-Keep the formal name Reasoning and Verification covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The compass follows the tempting path—judge only the final answer. Then the evidence answers: a lucky answer hides invalid reasoning; one arithmetic slip ruins an otherwise sound plan.
-
-Now let the chamber move: The keeper of unfinished questions changes one moving part. The compass can now represent intermediate claims and verify each with an appropriate checker or evidence source.
-
-The object that should remain after the terminology disappears is **the reasoning and verification compass mounted on the table of mirrored maps**.
-
-> **Memory seal — Reasoning and Verification**
->
-> Reasoning and Verification keeps the missing power: represent intermediate claims and verify each with an appropriate checker or evidence source.
-
-Give the idea a bodily path: Touch the reasoning and verification compass in imagination: point backward to the failed attempt, touch the present object, then point forward through the repair.
-<!-- memory-film-v1:end -->
+A construction that performs this newly earned job is **Reasoning and Verification**. The name arrives after its responsibility is already visible, and it remains attached to the failure that gave it meaning.
 
 ## Understanding reasoning and verification
 

@@ -50,7 +50,7 @@ That does not mean a model reconstructs reality perfectly, experiences the world
 
 No engineer labels a single weight “repair,” “gravity,” or “pronoun resolution.” These patterns can become distributed across the network because they reduce many prediction errors together. The useful behavior belongs to the interaction of learned parts, not to an explicitly written rule.
 
-This is **emergence** in the sense established by our expedition: system-level abilities arise from repeated local prediction and correction, even though the abilities were not inserted as separate hand-coded modules.
+This is **emergence**: system-level abilities arise from repeated local prediction and correction, even though the abilities were not inserted as separate hand-coded modules.
 
 ```text
 many examples
@@ -65,28 +65,6 @@ new general behavior
 We began with a prehistoric human compressing repeated encounters into patterns. We end with a model compressing repeated linguistic evidence into representations. The scale changed; the archaeological question did not:
 
 > What hidden structure must exist for these observations to make sense together?
-
-<!-- memory-film-v1:start -->
-> **Memory realm 2 of 18 — [Scriptorium of Echoes](../../MEMORY_PALACE.md#realm-2)**
->
-> **The question carried into this chamber:** How can countless small learned relationships become abilities nobody wrote as rules?
-
-## When the chamber changes
-
-Keep the formal name Emergence covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: Inspecting one star or one rule reveals almost nothing resembling the complete ability.
-
-Now let the chamber move: Connections brighten across many layers until a larger structure becomes visible between them.
-
-The object that should remain after the terminology disappears is **a dark word-constellation whose hidden figure appears only when all stars glow**.
-
-> **Memory seal — Emergence**
->
-> Emergence is the visible capability formed by many distributed relationships acting together.
-
-Give the idea a bodily path: Wiggle separate fingertips like stars, then draw a wide circle around the whole pattern.
-<!-- memory-film-v1:end -->
 
 ## Challenge
 

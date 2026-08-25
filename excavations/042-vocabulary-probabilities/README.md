@@ -4,56 +4,26 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Discrete Mathematics, Logic & Algorithms](../../MATHEMATICS_ATLAS.md#discrete) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
 > **Applied territory:** Language models and useful answers
 
-The output head lets every vocabulary token present a raw compatibility score. Those logits may be negative, enormous, or shifted together; neither the reader nor the loss can treat them as comparable beliefs yet.
+The output head lets every vocabulary token present a raw compatibility score. Those logits may be negative, enormous, or shifted together; they cannot yet serve as comparable beliefs or a stable training target.
 
-The sentence-wheel at the Clockwork Scriptorium still carries the marks of the previous discovery. The mechanist follows them as far as they seem willing to go: divide each logit by their sum.
+A new case arrives at the Clockwork Scriptorium. Nothing yet demands a new invention, so the mechanist uses the sentence-wheel to divide each logit by their sum.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: negative values break probability and shifting all scores changes the result. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to divide each logit by their sum preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The mechanist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: negative values break probability and shifting all scores changes the result.
 
-```text
-light / evidence
-      │
-      ├── old lens ──▶ divide each logit by their sum ──▶ blurred: negative values break probability and…
-      │
-      └── new lens ──▶ exponentiate relative scores,… ──▶ distinction survives
-```
+The counterexample separates two questions that the attempt to divide each logit by their sum had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the sentence-wheel fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-The mechanist lays two translucent sheets over the sentence-wheel. The first is inscribed, “divide each logit by their sum.” Its path ends where negative values break probability and shifting all scores changes the result. The second receives the same evidence but is allowed to exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token. Held to the light, the sheets separate at exactly one decision.
+Only the broken responsibility needs to change. The method must now exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-No one reaches for a vocabulary probabilities formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The mechanist changes only that one responsibility: exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token. When the ink dries, the name **Vocabulary Probabilities** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because negative values break probability and shifting all scores changes the result, while the other can exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token. That fork—not the vocabulary—is where vocabulary probabilities lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we divide each logit by their sum?
-
-## When the chamber changes
-
-The Vocabulary Probabilities chamber leaves one scene behind so the idea can be recovered after its symbols fade.
-
-First hold the failed picture still: The gate follows the tempting path—divide each logit by their sum. Then the evidence answers: negative values break probability and shifting all scores changes the result.
-
-Now let the chamber move: The mechanist changes one moving part. The gate can now exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
-
-The object that should remain after the terminology disappears is **the vocabulary probabilities gate mounted on the sentence-wheel**.
-
-> **Memory seal — Vocabulary Probabilities**
->
-> Vocabulary Probabilities keeps the missing power: exponentiate relative scores, normalize them, then charge the negative log probability of the observed next token.
-
-Give the idea a bodily path: Touch the vocabulary probabilities gate in imagination: draw the old path in the air, stop sharply at its failure, and finish with the new motion.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Vocabulary Probabilities**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## The calculation hidden inside vocabulary probabilities
 

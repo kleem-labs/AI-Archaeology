@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability)
 >
@@ -11,49 +13,17 @@
 
 Preference learning lets reviewers distinguish answers that are all technically possible. Even the preferred answer may rely on stale memory when the question asks about a document or fact that changed after training.
 
-The doors of the Hall of Voices close against the wind. On the listening table, the public archivist writes the cheapest rule that might still be true: retrain the whole model whenever one document changes.
+A new case arrives at the Hall of Voices. Nothing yet demands a new invention, so the public archivist uses the listening table to retrain the whole model whenever one document changes.
 
-For a moment the mark looks complete. Then the evidence refuses to fit: a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source. The old line has not become false everywhere; it has reached the precise place where it can no longer see.
+This is precisely the kind of shortcut a careful builder should try first. The instruction to retrain the whole model whenever one document changes preserves the successful part of the earlier method and avoids paying for a distinction that may not matter. When the evidence is kind, the shortcut and a more elaborate construction give the same answer. Their difference becomes visible only when the world presents the case the shortcut cannot represent.
 
-*The public archivist sketches the break before changing it:*
+For a moment the answer looks complete. The next observation shows what the method could not preserve: a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source.
 
-```text
-possible road A ─┐
-                 ├── old map: retrain the whole model whenever one…
-possible road B ─┘              └── loses: a price changes today, a policy…
+The counterexample separates two questions that the attempt to retrain the whole model whenever one document changes had treated as one. Until now that collapse was invisible because both questions happened to lead to the same decision. Here they part company. A useful repair must keep them apart wherever the difference affects the result, without throwing away the information and economy the earlier construction had already earned. Keeping the listening table fixed makes the comparison honest: only the missing responsibility, rather than the surrounding story, is allowed to change.
 
-same roads ──▶ repaired map ──▶ search an external collection for…
-```
+Only the broken responsibility needs to change. The method must now search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. With that change, the easy case is still understandable, while the counterexample no longer has to be forced into an answer known to be wrong.
 
-The public archivist lays two translucent sheets over the listening table. The first is inscribed, “retrain the whole model whenever one document changes.” Its path ends where a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source. The second receives the same evidence but is allowed to search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. Held to the light, the sheets separate at exactly one decision.
-
-No one reaches for a retrieval-augmented generation formula. The only useful question is smaller: what did the first path lose that the second path must carry?
-
-The public archivist changes only that one responsibility: search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. When the ink dries, the name **Retrieval-Augmented Generation** is added in the margin—not as an answer from authority, but as the name of the doorway just crossed.
-
-The repaired line crosses the old one at a single point. Before that crossing, both methods see the same evidence. After it, one still suffers because a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source, while the other can search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved. That fork—not the vocabulary—is where retrieval-augmented generation lives.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 5 of 18 — [Hall of Voices](../../MEMORY_PALACE.md#realm-5)**
->
-> **The question carried into this chamber:** What fails if we retrain the whole model whenever one document changes?
-
-## When the chamber changes
-
-The mathematical name Retrieval-Augmented Generation can now rest. What matters is whether its transformation remains visible.
-
-First hold the failed picture still: The thread follows the tempting path—retrain the whole model whenever one document changes. Then the evidence answers: a price changes today, a policy changes tomorrow, and private documents cannot all be baked into public weights. Retraining is slow and still hides the source.
-
-Now let the chamber move: The public archivist changes one moving part. The thread can now search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved.
-
-The object that should remain after the terminology disappears is **the retrieval-augmented generation thread mounted on the listening table**.
-
-> **Memory seal — Retrieval-Augmented Generation**
->
-> Retrieval-Augmented Generation keeps the missing power: search an external collection for evidence relevant to the question, place that evidence in context, and generate an answer grounded in what was retrieved.
-
-Give the idea a bodily path: Touch the retrieval-augmented generation thread in imagination: make a narrow gate with both hands, block the old path, then open only the route the evidence permits.
-<!-- memory-film-v1:end -->
+This repaired capacity is the idea named **Retrieval-Augmented Generation**. Its name is shorter than the path that made it necessary, but the path remains the source of its meaning.
 
 ## Let the Model Look Before It Speaks
 

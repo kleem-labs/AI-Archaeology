@@ -3,11 +3,6 @@
 <!-- book-prose-v2 -->
 <!-- mathematical-world-v1 -->
 
-<!-- mathematical-lineage-v1 -->
-> **Mathematical roots:** [Probability & Statistics](../../MATHEMATICS_ATLAS.md#probability) · [Mathematical Foundations & Measurement](../../MATHEMATICS_ATLAS.md#foundations)
->
-> **Applied territory:** Mathematical roots beneath the machine
-
 ### Realm 4 — The Observatory of Possible Worlds
 
 The river empties beneath a glass dome. Each lantern shows a different possible tomorrow; none may be extinguished merely because we do not yet know which world is real.
@@ -18,15 +13,11 @@ Listen for turning lenses, weighted chains, and many quiet witnesses. The questi
 possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims
 ```
 
-> **You are here:** Realm 4 of 5 — [The Observatory of Possible Worlds](../../MATHEMATICAL_ROOTS.md#realm-4)
->
-> **Question waiting in this chamber:** How can stories about possible tomorrows become quantities we can calculate with?
->
-> **Do not take the answer yet:** first let the object fail.
+
 
 Fourier analysis gives deterministic signals new coordinates. The ranger's camera, however, may record zero, one, or several tigers tomorrow; before the observation, the count is not an unknown fixed number but a quantity attached to several possible worlds.
 
-Another vault door opens. The carving that once named **Random Variables and Distributions** has weathered away, which is useful: we must recover the idea from what a ranger, builder, or machine can actually observe.
+The vault of Random Variables and Distributions opens onto a problem a ranger, builder, or machine could encounter without knowing any modern terminology.
 
 Three cards describe tomorrow: no tiger, one tiger, and two tigers. Each card has a probability, but the station wants to compute expected food use and variation in the *count*.
 
@@ -46,31 +37,15 @@ scene → guess → calculate → compare with reality
 
 We do not leap to a famous formula. We carry one missing responsibility forward: define a random variable as a function assigning a numerical value to every outcome, then transfer probability mass through that mapping to form its distribution.
 
-This is the hinge of the Random Variables and Distributions excavation. The repair is not justified by its reputation or by the fact that later mathematics adopted it. It earns its place because the named example has left us no cheaper honest way to keep the information that matters.
-
-## When the chamber changes
-
-Hold the failed picture still for one breath: Names such as ‘empty photograph’ and ‘two tigers’ are added as though stories were already numbers.
-
-Now let the scene move. Ask one numerical question of every world. Let different stories fall into the same numbered bowl when they give the same answer.
-
-The transformation is the discovery of Random Variables and Distributions made visible. Nothing has been defined by authority; this particular room changed because the old action could not preserve what mattered. Only after seeing that change do we press Random Variables and Distributions into memory:
-
-> **Memory seal — Random Variables and Distributions**
->
-> A random variable is a numerical question asked of every possible world.
-
-Make the memory bodily, not merely verbal: Hold several imagined cards, then sort them into numbered bowls.
-
-## Random Variables and Distributions on the stone workbench
-
-Let Ω contain four equally likely camera histories. Two contain no tiger, one contains one tiger, and one contains two. The counting function X maps them to 0, 0, 1, and 2. Therefore `P(X=0)=2/4`, `P(X=1)=1/4`, and `P(X=2)=1/4`. Different histories can share one count without becoming the same history.
-
-The point of keeping the objects named while rebuilding Random Variables and Distributions is that each movement can still be challenged. We can ask what the tiger, track, state, model, or measurement contributes; we can change one value and watch the consequence travel. The calculation remains an experience before it becomes notation.
+The failure and repair now form one continuous argument for Random Variables and Distributions: this idea earns its place by preserving exactly what the earlier action lost.
 
 ## The calculation hidden inside random variables and distributions
 
-Return to the named Random Variables and Distributions scene above. The ranger, model, measurement, or state in that scene remains the owner of every quantity. Every symbol below will be only a short name for an object or action we have already handled there. If one mark cannot be translated back into that scene, it has arrived too early.
+The symbols for random variables and distributions will compress the same concrete case without replacing it. The objects and actions remain visible while their repeated responsibilities receive shorter names.
+
+### Testing Random Variables and Distributions against the named case
+
+Let Ω contain four equally likely camera histories. Two contain no tiger, one contains one tiger, and one contains two. The counting function X maps them to 0, 0, 1, and 2. Therefore `P(X=0)=2/4`, `P(X=1)=1/4`, and `P(X=2)=1/4`. Different histories can share one count without becoming the same history.
 
 ### Naming what is already on the table
 
@@ -80,33 +55,23 @@ Return to the named Random Variables and Distributions scene above. The ranger, 
 
 [Function application](../../MATHEMATICAL_MOVES.md#function-application) converts each outcome into the quantity we care about. [Probability](../../MATHEMATICAL_MOVES.md#probability) preserves how much possibility maps to each value, and [summation](../../MATHEMATICAL_MOVES.md#summation) combines different outcomes sharing the same value. Multiplying their probabilities would describe all histories occurring together, a different event.
 
-The operations inside Random Variables and Distributions form a sequence of jobs rather than a decorative string. Remove one and a stated need becomes unanswered; replace one with its tempting neighbour and the earlier counterexample returns. Only now has the long human reasoning become familiar enough to compress:
+Every operation required by random variables and distributions now has a visible job in the named case, so the complete construction can be written compactly:
 
 $$
 P(X=x)=\sum_{\omega:X(\omega)=x}P(\omega)
 $$
 
-Read the Random Variables and Distributions line back into its scene once. The equation is not where the discovery happened. It is the smallest faithful record of the discovery we have already reconstructed.
-
 ## A real-world echo
 
 Weather is a story; temperature is a random variable extracted from that story. The number is a question asked of the world, not the whole world itself.
 
-That echo helps Random Variables and Distributions remain relational in memory. When the same job appears inside a dataset, a Transformer, a laboratory measurement, or an ordinary decision, the operation should feel like a familiar tool rather than an arbitrary sign.
-
-## What this chamber was connected to
+## What this unlocks elsewhere
 
 Loss, reward, token count, model output, and gradient noise are random variables. Their distributions—not isolated values—determine learning and evaluation.
 
-The older excavation and this Random Variables and Distributions chamber are not merely cross-references. The earlier mechanism created the pressure; this chapter exposes the mathematical promise that pressure had been using. Following such links turns the book into a dependency map rather than a sequence of isolated definitions.
-
-Before leaving The Observatory of Possible Worlds, look back at its path—**possible worlds → evidence → centre and spread → settling averages → bell-shaped error → convincing claims**. Random Variables and Distributions occupies one necessary step in that motion. Its object, **possible-world cards passing through a numbered brass sieve**, stays in the room so that the equation can later be recovered from an image rather than recalled as an orphaned line.
-
 ## Where the promise of random variables and distributions breaks
 
-A distribution describes current uncertainty. When a paw print arrives, probabilities must be rearranged according to how compatible each hidden story was with that evidence.
-
-The boundary belongs beside the discovery of Random Variables and Distributions because usefulness depends on assumptions. A formula remembered without its failure conditions becomes a spell; a formula remembered with them becomes an instrument.
+A distribution describes current uncertainty, but it cannot update itself when evidence arrives. When a paw print appears, the probabilities must be rearranged according to how compatible each hidden story was with that evidence.
 
 ## Rebuild the discovery in the laboratory
 

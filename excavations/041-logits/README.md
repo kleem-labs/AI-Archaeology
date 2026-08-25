@@ -4,6 +4,8 @@
 
 <!-- mathematical-world-v1 -->
 
+<!-- flow-prose-v1 -->
+
 <!-- mathematical-lineage-v1 -->
 > **Mathematical roots:** [Information Theory](../../MATHEMATICS_ATLAS.md#information) · [Linear Algebra & Geometry](../../MATHEMATICS_ATLAS.md#linear-algebra)
 >
@@ -11,48 +13,17 @@
 
 Shifted inputs and targets create one lesson at every position. The Transformer answers each lesson with a contextual vector, but a vector is not yet a competition among words such as tiger, river, or sleeps.
 
-Morning reaches the Clockwork Scriptorium before anyone has a name for today's difficulty. Beside the sentence-wheel, the mechanist tries the smallest continuation of what already works: choose the nearest input embedding directly.
+The previous discovery reaches the Clockwork Scriptorium carrying one unfinished problem. Beside the sentence-wheel, the mechanist first tries to choose the nearest input embedding directly.
 
-At the edge of the sentence-wheel, the shortcut produces its consequence: that restricts the scoring rule and hides how every vocabulary candidate should compete. That consequence, not a textbook, earns the next move.
+There is good reason to begin this way. If we choose the nearest input embedding directly, the old method continues doing useful work and nothing new is invented merely because a modern name exists for it. In familiar situations, that restraint makes the system simpler to inspect and easier to trust. The proposal deserves to survive unless a concrete observation proves that it merges two situations whose consequences are different.
 
-*The mechanist sketches the break before changing it:*
+That rule is not foolish; it works until the missing distinction matters. Here is the precise contradiction: that restricts the scoring rule and hides how every vocabulary candidate should compete.
 
-```text
-OLD PATH:  request ──▶ choose the nearest input embedding… ──▶ that restricts the scoring rule and…
-                         ╲
-                          ╲ missing boundary
-NEW PATH:  request ──▶ use a learned linear map to produce… ──▶ accountable result
-```
+This failure cannot be repaired by performing the instruction to choose the nearest input embedding directly more confidently. Confidence only strengthens the path that produced the contradiction. Nor is it enough to attach a special exception to this one example; the same missing distinction can return in countless forms. What is needed is a reusable responsibility that explains both why the simple case worked and why this case did not. The repaired method must face the same evidence on the sentence-wheel; otherwise a changed answer could be mistaken for an explanation.
 
-The mechanist covers the new mark and the old contradiction returns: that restricts the scoring rule and hides how every vocabulary candidate should compete. The cover is lifted, restoring the ability to use a learned linear map to produce one raw score for every vocabulary item, and the two cases separate again. The motion is small enough to perform by hand; its consequence is the whole reason logits exists.
+The evidence has earned one extension and no more. We need to use a learned linear map to produce one raw score for every vocabulary item. The point of the extension is not sophistication. It is to make room for information that was present in the world but absent from the old decision.
 
-What must change for logits is finally visible. Not the whole world, not every old tool—only the decision that erased this one necessary distinction.
-
-The old instrument is not discarded; it is given the one capacity the counterexample demanded: use a learned linear map to produce one raw score for every vocabulary item. That threshold is where **Logits** enters the story.
-
-The room has gained no magical instrument. It has gained a memory of where the old instrument failed. In logits, that memory takes a precise form: whenever that restricts the scoring rule and hides how every vocabulary candidate should compete, preserve enough structure to use a learned linear map to produce one raw score for every vocabulary item.
-
-<!-- memory-film-v1:start -->
-> **Memory realm 4 of 18 — [Clockwork Scriptorium](../../MEMORY_PALACE.md#realm-4)**
->
-> **The question carried into this chamber:** What fails if we choose the nearest input embedding directly?
-
-## When the chamber changes
-
-Keep the formal name Logits covered for another moment. The surviving image is enough to rebuild it.
-
-First hold the failed picture still: The vessel follows the tempting path—choose the nearest input embedding directly. Then the evidence answers: that restricts the scoring rule and hides how every vocabulary candidate should compete.
-
-Now let the chamber move: The mechanist changes one moving part. The vessel can now use a learned linear map to produce one raw score for every vocabulary item.
-
-The object that should remain after the terminology disappears is **the logits vessel mounted on the sentence-wheel**.
-
-> **Memory seal — Logits**
->
-> Logits keeps the missing power: use a learned linear map to produce one raw score for every vocabulary item.
-
-Give the idea a bodily path: Touch the logits vessel in imagination: hold both hands as the two failed alternatives, then move one hand through the repaired route.
-<!-- memory-film-v1:end -->
+Once this responsibility becomes part of the method, we have built what is called **Logits**. The name is simply a handle for the distinction already reconstructed.
 
 ## The calculation hidden inside logits
 
